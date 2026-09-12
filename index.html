@@ -8,7 +8,7 @@
   <title>RDA Race Manager</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/rda-mark.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=422">
 </head>
 <body>
   <div class="app-shell">
@@ -45,9 +45,9 @@
         </article>
 
         <div class="stats-grid">
-          <article class="stat-card panel"><span>Leader campionato</span><strong>Spano19</strong><small>7520.91 pt storico</small></article>
-          <article class="stat-card panel"><span>Leader ELO</span><strong>SpeedSparco</strong><small>Demo mobile</small></article>
-          <article class="stat-card panel"><span>Piloti archivio</span><strong>135</strong><small>Ranking RDA 2026</small></article>
+          <article class="stat-card panel"><span>Leader campionato</span><strong id="leaderChampName">—</strong><small id="leaderChampSub">In attesa di risultati ufficiali</small></article>
+          <article class="stat-card panel"><span>Leader ELO</span><strong id="leaderEloName">—</strong><small id="leaderEloSub">In attesa di risultati ufficiali</small></article>
+          <article class="stat-card panel"><span>Piloti pubblicati</span><strong id="publishedDriverCount">0</strong><small>Solo da giornate ufficiali</small></article>
           <article class="stat-card panel"><span>Stato</span><strong class="cyan">ONLINE</strong><small>Sola lettura</small></article>
         </div>
 
@@ -62,20 +62,20 @@
       </section>
 
       <section class="view" data-view="results">
-        <div class="section-head"><div><div class="eyebrow">RISULTATI UFFICIALI</div><h2>Classifica giornata</h2></div><span class="status-lock">🔒 UFFICIALE</span></div>
+        <div class="section-head"><div><div class="eyebrow">RISULTATI UFFICIALI</div><h2>Classifica giornata</h2></div><span class="status-lock" id="resultsStatus">IN ATTESA</span></div>
         <div class="podium" id="podium"></div>
         <div class="panel table-card" id="resultsTable"></div>
       </section>
 
       <section class="view" data-view="championship">
         <div class="section-head"><div><div class="eyebrow">STAGIONE</div><h2>Campionato</h2></div><span class="live-pill">GT3 2026</span></div>
-        <div class="panel progress-card"><div><span>Round completati</span><strong>3 / 10</strong></div><div class="progress"><i style="width:30%"></i></div></div>
+        <div class="panel progress-card"><div><span>Round ufficiali pubblicati</span><strong id="officialRoundCount">0</strong></div><div class="progress"><i id="officialRoundProgress" style="width:0%"></i></div></div>
         <div class="panel table-card" id="championshipTable"></div>
       </section>
 
       <section class="view" data-view="elo">
         <div class="section-head"><div><div class="eyebrow">RANKING PILOTI</div><h2>ELO</h2></div><span class="live-pill">LIVE</span></div>
-        <div class="panel elo-hero"><span>#1</span><div><small>Leader ELO</small><strong>SpeedSparco</strong><p>Rating dimostrativo • lo storico reale verrà sincronizzato dal Race Manager</p></div></div>
+        <div class="panel elo-hero"><span id="eloHeroRank">—</span><div><small>Leader ELO</small><strong id="eloHeroName">In attesa</strong><p id="eloHeroText">Nessun ranking ufficiale pubblicato.</p></div></div>
         <div class="panel table-card" id="eloTable"></div>
       </section>
 
@@ -104,7 +104,7 @@
       <button class="nav-btn" data-view-target="teams"><span>◆</span><small>Team</small></button>
     </nav>
   </div>
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script src="data.js?v=422"></script>
+  <script src="app.js?v=422"></script>
 </body>
 </html>
