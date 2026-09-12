@@ -1,4 +1,9 @@
 window.RDA_DATA = {
+  "meta": {
+    "hasOfficialResults": false,
+    "officialRounds": 0,
+    "publishedDrivers": 0
+  },
   "calendar": [
     {
       "date": "1–5 SET",
