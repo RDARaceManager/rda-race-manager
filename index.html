@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="RDA Race Manager Web - calendario, risultati, classifiche, ELO e statistiche.">
+  <title>RDA Race Manager</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/rda-mark.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <img src="assets/rda-mark.png" alt="RDA" class="brand-mark">
+        <div>
+          <div class="brand-title">RDA RACE MANAGER</div>
+          <div class="brand-subtitle">RACING DRIVERS ACADEMY</div>
+        </div>
+      </div>
+      <button id="installBtn" class="icon-btn" hidden title="Installa sul telefono">＋</button>
+    </header>
+
+    <main id="content" class="content">
+      <section class="view active" data-view="home">
+        <div class="hero panel glow">
+          <div class="eyebrow">RACE CONTROL ONLINE</div>
+          <h1>Benvenuto nel paddock RDA</h1>
+          <p>Calendario, risultati, classifiche, ELO e statistiche sempre disponibili dal telefono.</p>
+          <div class="hero-chips">
+            <span>4 sessioni al giorno</span><span>15:00</span><span>18:00</span><span>21:00</span><span>23:00</span>
+          </div>
+        </div>
+
+        <div class="section-head"><h2>Prossimo evento</h2><span class="live-pill">SET 2026</span></div>
+        <article class="next-event panel">
+          <div class="event-date"><strong>03</strong><span>SET</span></div>
+          <div class="event-info">
+            <div class="event-series">RDA MASTER 2000</div>
+            <h3>Campionato Extreme 2.0 GT3 2026</h3>
+            <p>Quattro sessioni disponibili • partecipazione libera</p>
+          </div>
+        </article>
+
+        <div class="stats-grid">
+          <article class="stat-card panel"><span>Leader campionato</span><strong>Spano19</strong><small>7520.91 pt storico</small></article>
+          <article class="stat-card panel"><span>Leader ELO</span><strong>SpeedSparco</strong><small>Demo mobile</small></article>
+          <article class="stat-card panel"><span>Piloti archivio</span><strong>135</strong><small>Ranking RDA 2026</small></article>
+          <article class="stat-card panel"><span>Stato</span><strong class="cyan">ONLINE</strong><small>Sola lettura</small></article>
+        </div>
+
+        <div class="section-head"><h2>Classifica giornata</h2><button class="text-btn" data-go="results">Vedi tutto</button></div>
+        <div class="panel table-card" id="homeResults"></div>
+      </section>
+
+      <section class="view" data-view="calendar">
+        <div class="section-head"><div><div class="eyebrow">PROGRAMMA RDA</div><h2>Calendario</h2></div><span class="live-pill">SETTEMBRE 2026</span></div>
+        <div class="panel poster-card"><img src="assets/calendario-settembre-2026.jpg" alt="Calendario RDA Settembre 2026"></div>
+        <div id="calendarList" class="stack"></div>
+      </section>
+
+      <section class="view" data-view="results">
+        <div class="section-head"><div><div class="eyebrow">RISULTATI UFFICIALI</div><h2>Classifica giornata</h2></div><span class="status-lock">🔒 UFFICIALE</span></div>
+        <div class="podium" id="podium"></div>
+        <div class="panel table-card" id="resultsTable"></div>
+      </section>
+
+      <section class="view" data-view="championship">
+        <div class="section-head"><div><div class="eyebrow">STAGIONE</div><h2>Campionato</h2></div><span class="live-pill">GT3 2026</span></div>
+        <div class="panel progress-card"><div><span>Round completati</span><strong>3 / 10</strong></div><div class="progress"><i style="width:30%"></i></div></div>
+        <div class="panel table-card" id="championshipTable"></div>
+      </section>
+
+      <section class="view" data-view="elo">
+        <div class="section-head"><div><div class="eyebrow">RANKING PILOTI</div><h2>ELO</h2></div><span class="live-pill">LIVE</span></div>
+        <div class="panel elo-hero"><span>#1</span><div><small>Leader ELO</small><strong>SpeedSparco</strong><p>Rating dimostrativo • lo storico reale verrà sincronizzato dal Race Manager</p></div></div>
+        <div class="panel table-card" id="eloTable"></div>
+      </section>
+
+      <section class="view" data-view="drivers">
+        <div class="section-head"><div><div class="eyebrow">COMMUNITY</div><h2>Piloti & statistiche</h2></div></div>
+        <label class="searchbox">⌕ <input id="driverSearch" type="search" placeholder="Cerca pilota..."></label>
+        <div id="driverCards" class="driver-grid"></div>
+      </section>
+
+      <section class="view" data-view="teams">
+        <div class="section-head"><div><div class="eyebrow">CLASSIFICHE</div><h2>Team & costruttori</h2></div></div>
+        <div class="two-col">
+          <div><h3 class="mini-title">Team</h3><div id="teamTable" class="panel table-card"></div></div>
+          <div><h3 class="mini-title">Costruttori</h3><div id="constructorTable" class="panel table-card"></div></div>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Navigazione principale">
+      <button class="nav-btn active" data-view-target="home"><span>⌂</span><small>Home</small></button>
+      <button class="nav-btn" data-view-target="calendar"><span>▣</span><small>Calendario</small></button>
+      <button class="nav-btn" data-view-target="results"><span>🏁</span><small>Risultati</small></button>
+      <button class="nav-btn" data-view-target="championship"><span>🏆</span><small>Campionato</small></button>
+      <button class="nav-btn" data-view-target="elo"><span>⚡</span><small>ELO</small></button>
+      <button class="nav-btn" data-view-target="drivers"><span>◉</span><small>Piloti</small></button>
+      <button class="nav-btn" data-view-target="teams"><span>◆</span><small>Team</small></button>
+    </nav>
+  </div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
