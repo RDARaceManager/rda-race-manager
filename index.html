@@ -8,7 +8,7 @@
   <title>RDA Race Manager</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/rda-mark.png">
-  <link rel="stylesheet" href="styles.css?v=4492">
+  <link rel="stylesheet" href="styles.css?v=450">
 </head>
 <body>
 <div class="app-shell">
@@ -77,16 +77,18 @@
     </section>
 
     <section class="view" data-view="podiums">
-      <div class="sport-head"><div><div class="eyebrow">🏆 RDA PODI</div><h2>Podi ufficiali</h2><p>Risultati delle ultime gare e del campionato</p></div><span class="live-pill">RDA</span></div>
-      <article class="podium-arena panel race-arena">
+      <div class="sport-head"><div><div class="eyebrow">🏆 RDA PODI</div><h2>Podi ufficiali</h2><p>Ultima gara ufficiale di ogni campionato e podi finali dei campionati conclusi.</p></div><span class="live-pill">RDA</span></div>
+      <div class="pod-section-title"><div><div class="eyebrow">ULTIME GARE UFFICIALI</div><h3>Scegli il campionato</h3></div></div>
+      <div class="champ-selector" id="racePodiumSelector"></div>
+      <article class="podium-arena panel race-arena" id="racePodiumArena">
         <div class="podium-copy"><div class="eyebrow">ULTIMA GARA UFFICIALE</div><h3 id="podiumDayTitle">Podio Gara</h3><p id="podiumDayMeta"></p></div>
-        <div class="sport-slogan">RACING<br>PASSION<br>COMMUNITY</div>
-        <div class="podium-stage" id="podiumDayFull"></div>
+        <div class="sport-slogan">RACING<br>PASSION<br>COMMUNITY</div><div class="podium-stage" id="podiumDayFull"></div>
       </article>
-      <article class="podium-arena panel champ-arena">
-        <div class="podium-copy"><div class="eyebrow">🏁 CAMPIONATO</div><h3 id="podiumChampTitle">Podio Campionato</h3><p id="podiumChampMeta"></p></div>
-        <div class="sport-slogan">MORE<br>THAN<br>A GAME</div>
-        <div class="podium-stage" id="podiumChampFull"></div>
+      <div class="pod-section-title final-title"><div><div class="eyebrow">🏁 PODI CAMPIONATI</div><h3>Campionati conclusi</h3><p>I primi tre compaiono soltanto dopo CHIUDI CAMPIONATO.</p></div></div>
+      <div class="champ-selector" id="finalPodiumSelector"></div>
+      <article class="podium-arena panel champ-arena" id="finalPodiumArena">
+        <div class="podium-copy"><div class="eyebrow">🏁 CAMPIONATO CONCLUSO</div><h3 id="podiumChampTitle">Podio Campionato</h3><p id="podiumChampMeta"></p></div>
+        <div class="sport-slogan">MORE<br>THAN<br>A GAME</div><div class="podium-stage" id="podiumChampFull"></div>
       </article>
     </section>
 
@@ -163,5 +165,5 @@
   </nav>
 </div>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=4492"></script>
+<script src="app.js?v=450"></script>
 </body></html>
