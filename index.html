@@ -3,108 +3,165 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#080b14">
-  <meta name="description" content="RDA Race Manager Web - calendario, risultati, classifiche, ELO e statistiche.">
+  <meta name="theme-color" content="#050816">
+  <meta name="description" content="RDA Race Manager Web Mobile">
   <title>RDA Race Manager</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/rda-mark.png">
-  <link rel="stylesheet" href="styles.css?v=422">
+  <link rel="stylesheet" href="styles.css?v=4492">
 </head>
 <body>
-  <div class="app-shell">
-    <header class="topbar">
-      <div class="brand">
-        <img src="assets/rda-mark.png" alt="RDA" class="brand-mark">
-        <div>
-          <div class="brand-title">RDA RACE MANAGER</div>
-          <div class="brand-subtitle">RACING DRIVERS ACADEMY</div>
-        </div>
+<div class="app-shell">
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/rda-mark.png" alt="RDA" class="brand-mark">
+      <div><div class="brand-title">RDA RACE MANAGER</div><div class="brand-subtitle">RACING DRIVERS ACADEMY</div></div>
+    </div>
+    <div class="online-badge"><i></i> ONLINE</div>
+  </header>
+
+  <main class="content">
+    <section class="view active" data-view="home">
+      <div class="home-welcome panel"><div><div class="eyebrow">RDA RACE CONTROL</div><h1>Benvenuto nel mondo RDA</h1><p>Gare, community, storia e passione. Scegli dove vuoi entrare.</p></div><div class="home-rda-mark">RDA</div></div>
+      <div class="home-live panel"><div><small>ULTIMA GARA UFFICIALE</small><strong id="homeRaceTitle">In attesa</strong><span id="homeRaceTrack">—</span></div><div><b id="homeRaceDate">—</b><em id="homeRaceMaster">RDA</em></div></div>
+      <div class="home-menu">
+       <button data-go="calendar"><b>📅</b><strong>Calendario</strong><span>Gare disputate e prossimi appuntamenti</span></button>
+       <button data-go="results"><b>🏁</b><strong>Risultati</strong><span>Apri ogni gara e la sua classifica</span></button>
+       <button data-go="championship"><b>🏆</b><strong>Campionati</strong><span>Classifiche generali e regolamenti</span></button>
+       <button data-go="podiums"><b>🥇</b><strong>Podi</strong><span>I protagonisti delle gare RDA</span></button>
+       <button data-go="elo"><b>⚡</b><strong>Ranking RDA</strong><span>La graduatoria ufficiale piloti</span></button>
+       <button data-go="drivers"><b>◉</b><strong>Piloti</strong><span>Archivio dei piloti pubblicati</span></button>
+       <button data-go="teams"><b>◆</b><strong>Team</strong><span>Scopri i team RDA</span></button>
+       <button data-go="flyers"><b>▤</b><strong>Volantini</strong><span>Locandine ed eventi ufficiali</span></button>
+       <button data-go="history"><b>ℹ</b><strong>Storia RDA</strong><span>Le origini, Francesco Pini e la community</span></button>
       </div>
-      <button id="installBtn" class="icon-btn" hidden title="Installa sul telefono">＋</button>
-    </header>
+    <div class="home-compat" hidden><span id="homeRaceDay"></span><span id="homeRaceMonth"></span><span id="homeRaceYear"></span><span id="homeRaceChamp"></span><span id="leaderChampName"></span><span id="leaderChampSub"></span><span id="leaderEloName"></span><span id="leaderEloSub"></span><span id="publishedDriverCount"></span><span id="homeOfficialRounds"></span><div id="homeResults"></div></div></section>
 
-    <main id="content" class="content">
-      <section class="view active" data-view="home">
-        <div class="hero panel glow">
-          <div class="eyebrow">RACE CONTROL ONLINE</div>
-          <h1>Benvenuto nel paddock RDA</h1>
-          <p>Calendario, risultati, classifiche, ELO e statistiche sempre disponibili dal telefono.</p>
-          <div class="hero-chips">
-            <span>4 sessioni al giorno</span><span>15:00</span><span>18:00</span><span>21:00</span><span>23:00</span>
-          </div>
-        </div>
-
-        <div class="section-head"><h2>Prossimo evento</h2><span class="live-pill">SET 2026</span></div>
-        <article class="next-event panel">
-          <div class="event-date"><strong>03</strong><span>SET</span></div>
-          <div class="event-info">
-            <div class="event-series">RDA MASTER 2000</div>
-            <h3>Campionato Extreme 2.0 GT3 2026</h3>
-            <p>Quattro sessioni disponibili • partecipazione libera</p>
-          </div>
+    <section class="view" data-view="calendar">
+      <div class="section-head calendar-title"><div><div class="eyebrow">STORICO UFFICIALE RDA</div><h2>Calendario Gare</h2><p>Verde: gara disputata e ufficiale. Rosso: prossimo appuntamento già programmato nel Manager.</p></div><span class="live-pill" id="calendarYearPill">2026</span></div>
+      <div class="calendar-layout">
+        <article class="calendar-panel panel">
+          <div class="month-head"><button id="prevMonth" aria-label="Mese precedente">‹</button><strong id="monthTitle">—</strong><button id="nextMonth" aria-label="Mese successivo">›</button></div>
+          <div class="week-head"><span>LUN</span><span>MAR</span><span>MER</span><span>GIO</span><span>VEN</span><span>SAB</span><span>DOM</span></div>
+          <div class="month-grid" id="monthGrid"></div>
+          <div class="calendar-legend"><span><i class="dot done"></i> Gara disputata</span><span><i class="dot future"></i> Gara futura</span><span><i class="dot none"></i> Nessun evento</span></div>
         </article>
 
-        <div class="stats-grid">
-          <article class="stat-card panel"><span>Leader campionato</span><strong id="leaderChampName">—</strong><small id="leaderChampSub">In attesa di risultati ufficiali</small></article>
-          <article class="stat-card panel"><span>Leader ELO</span><strong id="leaderEloName">—</strong><small id="leaderEloSub">In attesa di risultati ufficiali</small></article>
-          <article class="stat-card panel"><span>Piloti pubblicati</span><strong id="publishedDriverCount">0</strong><small>Solo da giornate ufficiali</small></article>
-          <article class="stat-card panel"><span>Stato</span><strong class="cyan">ONLINE</strong><small>Sola lettura</small></article>
-        </div>
+        <article class="race-detail panel" id="raceDetail">
+          <div class="detail-empty">Seleziona una data verde o rossa del calendario.</div>
+        </article>
+      </div>
+      <div class="section-head"><div><div class="eyebrow">ARCHIVIO STAGIONE</div><h2>Gare disputate</h2></div></div>
+      <div class="completed-list panel" id="completedList"></div>
+    </section>
 
-        <div class="section-head"><h2>Classifica giornata</h2><button class="text-btn" data-go="results">Vedi tutto</button></div>
-        <div class="panel table-card" id="homeResults"></div>
-      </section>
+    <section class="view" data-view="results">
+      <div class="section-head"><div><div class="eyebrow">🏁 RISULTATI UFFICIALI</div><h2>Archivio gare</h2><p>Scegli una gara disputata e consulta la classifica completa.</p></div><span class="status-lock" id="resultsStatus">IN ATTESA</span></div>
+      <div class="results-picker"><select id="raceResultSelect" class="race-select"></select></div>
+      <article class="panel race-context"><div><small>CAMPIONATO</small><strong id="resultChamp">—</strong></div><div><small>GARA</small><strong id="resultRace">—</strong></div><div><small>DATA</small><strong id="resultDate">—</strong></div><div><small>CIRCUITO</small><strong id="resultTrack">—</strong></div><div><small>MASTER</small><strong id="resultMaster">—</strong></div></article>
+      <div class="podium" id="podium"></div><div class="panel table-card" id="resultsTable"></div>
+    </section>
 
-      <section class="view" data-view="calendar">
-        <div class="section-head"><div><div class="eyebrow">PROGRAMMA RDA</div><h2>Calendario</h2></div><span class="live-pill">SETTEMBRE 2026</span></div>
-        <div class="panel poster-card"><img src="assets/calendario-settembre-2026.jpg" alt="Calendario RDA Settembre 2026"></div>
-        <div id="calendarList" class="stack"></div>
-      </section>
+    <section class="view" data-view="championship">
+      <div class="section-head"><div><div class="eyebrow">STAGIONI RDA</div><h2>Campionati</h2><p>Scegli un campionato per vedere la sua classifica generale.</p></div><span class="live-pill">RDA</span></div>
+      <div class="champ-selector" id="championshipSelector"></div>
+      <div class="panel champ-summary">
+        <div><span>CAMPIONATO</span><strong id="selectedChampName">—</strong></div>
+        <div><span>MASTER</span><strong id="selectedChampMaster">—</strong></div>
+        <div><span>ROUND UFFICIALI</span><strong id="officialRoundCount">0</strong></div>
+        <div><span>STATO</span><strong id="selectedChampStatus">—</strong></div>
+      </div>
+      <div class="panel progress-card"><div><span>Round ufficiali pubblicati</span><strong id="officialRoundCountMirror">0</strong></div><div class="progress"><i id="officialRoundProgress"></i></div></div>
+      <div class="champ-regulation" id="championshipRegulation"></div>
+      <div class="panel table-card" id="championshipTable"></div>
+    </section>
 
-      <section class="view" data-view="results">
-        <div class="section-head"><div><div class="eyebrow">RISULTATI UFFICIALI</div><h2>Classifica giornata</h2></div><span class="status-lock" id="resultsStatus">IN ATTESA</span></div>
-        <div class="podium" id="podium"></div>
-        <div class="panel table-card" id="resultsTable"></div>
-      </section>
+    <section class="view" data-view="podiums">
+      <div class="sport-head"><div><div class="eyebrow">🏆 RDA PODI</div><h2>Podi ufficiali</h2><p>Risultati delle ultime gare e del campionato</p></div><span class="live-pill">RDA</span></div>
+      <article class="podium-arena panel race-arena">
+        <div class="podium-copy"><div class="eyebrow">ULTIMA GARA UFFICIALE</div><h3 id="podiumDayTitle">Podio Gara</h3><p id="podiumDayMeta"></p></div>
+        <div class="sport-slogan">RACING<br>PASSION<br>COMMUNITY</div>
+        <div class="podium-stage" id="podiumDayFull"></div>
+      </article>
+      <article class="podium-arena panel champ-arena">
+        <div class="podium-copy"><div class="eyebrow">🏁 CAMPIONATO</div><h3 id="podiumChampTitle">Podio Campionato</h3><p id="podiumChampMeta"></p></div>
+        <div class="sport-slogan">MORE<br>THAN<br>A GAME</div>
+        <div class="podium-stage" id="podiumChampFull"></div>
+      </article>
+    </section>
 
-      <section class="view" data-view="championship">
-        <div class="section-head"><div><div class="eyebrow">STAGIONE</div><h2>Campionato</h2></div><span class="live-pill">GT3 2026</span></div>
-        <div class="panel progress-card"><div><span>Round ufficiali pubblicati</span><strong id="officialRoundCount">0</strong></div><div class="progress"><i id="officialRoundProgress" style="width:0%"></i></div></div>
-        <div class="panel table-card" id="championshipTable"></div>
-      </section>
+    <section class="view" data-view="elo">
+      <div class="section-head"><div><div class="eyebrow">RANKING PILOTI</div><h2>Ranking RDA</h2></div><span class="live-pill">LIVE</span></div>
+      <div class="panel elo-hero"><span id="eloHeroRank">—</span><div><small>Leader Ranking RDA</small><strong id="eloHeroName">In attesa</strong><p id="eloHeroText">Nessun ranking ufficiale pubblicato.</p></div></div>
+      <div class="panel table-card" id="eloTable"></div>
+    </section>
 
-      <section class="view" data-view="elo">
-        <div class="section-head"><div><div class="eyebrow">RANKING PILOTI</div><h2>ELO</h2></div><span class="live-pill">LIVE</span></div>
-        <div class="panel elo-hero"><span id="eloHeroRank">—</span><div><small>Leader ELO</small><strong id="eloHeroName">In attesa</strong><p id="eloHeroText">Nessun ranking ufficiale pubblicato.</p></div></div>
-        <div class="panel table-card" id="eloTable"></div>
-      </section>
+    <section class="view" data-view="drivers">
+      <div class="section-head"><div><div class="eyebrow">COMMUNITY</div><h2>Piloti & statistiche</h2></div></div>
+      <label class="searchbox">⌕ <input id="driverSearch" type="search" placeholder="Cerca pilota..."></label>
+      <div id="driverCards" class="driver-grid"></div>
+    </section>
 
-      <section class="view" data-view="drivers">
-        <div class="section-head"><div><div class="eyebrow">COMMUNITY</div><h2>Piloti & statistiche</h2></div></div>
-        <label class="searchbox">⌕ <input id="driverSearch" type="search" placeholder="Cerca pilota..."></label>
-        <div id="driverCards" class="driver-grid"></div>
-      </section>
+    <section class="view" data-view="teams">
+      <div class="section-head"><div><div class="eyebrow">CLASSIFICHE</div><h2>Team & costruttori</h2></div></div>
+      <div class="two-col"><div><h3>Team</h3><div id="teamTable" class="panel table-card"></div></div><div><h3>Costruttori</h3><div id="constructorTable" class="panel table-card"></div></div></div>
+    </section>
 
-      <section class="view" data-view="teams">
-        <div class="section-head"><div><div class="eyebrow">CLASSIFICHE</div><h2>Team & costruttori</h2></div></div>
-        <div class="two-col">
-          <div><h3 class="mini-title">Team</h3><div id="teamTable" class="panel table-card"></div></div>
-          <div><h3 class="mini-title">Costruttori</h3><div id="constructorTable" class="panel table-card"></div></div>
-        </div>
-      </section>
-    </main>
+    <section class="view" data-view="flyers">
+      <div class="section-head"><div><div class="eyebrow">PROGRAMMAZIONE RDA</div><h2>Volantini Ufficiali</h2><p>Archivio delle locandine ufficiali con le date dei campionati RDA.</p></div><span class="live-pill">ARCHIVIO</span></div>
+      <div id="flyerGallery" class="flyer-gallery"></div>
+      <div class="flyer-viewer panel" id="flyerViewer" hidden>
+        <button class="viewer-close" id="flyerClose" aria-label="Chiudi">×</button>
+        <h3 id="flyerViewerTitle"></h3>
+        <img id="flyerViewerImage" alt="Volantino RDA">
+      </div>
+    </section>
 
-    <nav class="bottom-nav" aria-label="Navigazione principale">
-      <button class="nav-btn active" data-view-target="home"><span>⌂</span><small>Home</small></button>
-      <button class="nav-btn" data-view-target="calendar"><span>▣</span><small>Calendario</small></button>
-      <button class="nav-btn" data-view-target="results"><span>🏁</span><small>Risultati</small></button>
-      <button class="nav-btn" data-view-target="championship"><span>🏆</span><small>Campionato</small></button>
-      <button class="nav-btn" data-view-target="elo"><span>⚡</span><small>ELO</small></button>
-      <button class="nav-btn" data-view-target="drivers"><span>◉</span><small>Piloti</small></button>
-      <button class="nav-btn" data-view-target="teams"><span>◆</span><small>Team</small></button>
-    </nav>
-  </div>
-  <script src="data.js?v=422"></script>
-  <script src="app.js?v=422"></script>
-</body>
-</html>
+    <section class="view" data-view="history">
+      <div class="sport-head history-title"><div><div class="eyebrow">📖 STORIA RDA</div><h2>Passione · Persone · Gare · Una grande famiglia</h2></div><span class="live-pill">MORE THAN A GAME</span></div>
+      <div class="history-cinema">
+        <aside class="panel history-road">
+          <div class="history-origin"><b>🌱 Le origini</b><small>L'idea di RDA</small></div>
+          <div class="road-item"><i></i><strong>2017–2020</strong><span>Le esperienze che precedono RDA</span></div>
+          <div class="road-item"><i></i><strong>2020</strong><span>Nasce Racetime Drivers Academy</span></div>
+          <div class="road-item"><i></i><strong>Marzo 2022</strong><span>Da GT Sport a Gran Turismo 7</span></div>
+          <div class="road-item"><i></i><strong>Oggi</strong><span>Una community sempre in pista</span></div>
+          <blockquote>“Le grandi cose nascono sempre da una passione vera.”</blockquote>
+        </aside>
+        <main class="panel history-story">
+          <div class="eyebrow gold">LE ORIGINI</div><h2>L'IDEA DI RDA</h2><h4>TUTTO È INIZIATO DA UNA PASSIONE</h4>
+          <p>Dopo precedenti esperienze come Admin in altre community di giocatori, Francesco Pini — nickname <b>icehands1968_</b> — decide di dare vita a un proprio gruppo.</p>
+          <p>Nel 2020, in pieno lockdown, nasce RDA con l’obiettivo di creare divertimento per il maggior numero possibile di giocatori, metterli in contatto e favorire nuove amicizie attraverso la passione per il motorsport e Gran Turismo.</p>
+          <div class="history-quote">“RDA non è solo un campionato. È una community costruita intorno alla stessa passione.”</div>
+          <div class="history-feature-grid"><article><b>👥</b><strong>LA COMMUNITY</strong><small>Tutto parte dalle persone</small></article><article><b>🏆</b><strong>I CAMPIONATI</strong><small>Competizione e divertimento</small></article><article><b>📈</b><strong>IL FUTURO</strong><small>Sempre più lontano</small></article></div>
+        </main>
+        <aside class="panel founder-card">
+          <div class="eyebrow gold">IL FONDATORE</div>
+          <div class="helmet-glow"><img src="assets/helmet-founder-front.jpg" alt="Casco di Francesco Pini, icehands1968_"></div>
+          <h2>FRANCESCO PINI</h2><div class="founder-nick">NICKNAME <b>icehands1968_</b></div>
+          <div class="tricolor"></div>
+          <p>Fondatore di Racetime Drivers Academy.</p>
+          <p class="helmet-note">Il suo casco personale rende omaggio alla storia del motorsport e ai suoi campioni.</p>
+          <div class="helmet-angles"><img src="assets/helmet-founder-lauda.jpg" alt="Dettaglio lato casco"><img src="assets/helmet-founder-hill.jpg" alt="Dettaglio lato casco"></div>
+          <div class="signature">Francesco Pini</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navigazione principale">
+    <button class="nav-btn active" data-view-target="home"><span>⌂</span><small>Home</small></button>
+    <button class="nav-btn" data-view-target="calendar"><span>▣</span><small>Calendario</small></button>
+    <button class="nav-btn" data-view-target="results"><span>🏁</span><small>Risultati</small></button>
+    <button class="nav-btn" data-view-target="championship"><span>🏆</span><small>Campionato</small></button>
+    <button class="nav-btn" data-view-target="podiums"><span>🥇</span><small>Podi</small></button>
+    <button class="nav-btn" data-view-target="elo"><span>⚡</span><small>Ranking</small></button>
+    <button class="nav-btn" data-view-target="drivers"><span>◉</span><small>Piloti</small></button>
+    <button class="nav-btn" data-view-target="teams"><span>◆</span><small>Team</small></button>
+    <button class="nav-btn" data-view-target="flyers"><span>▤</span><small>Volantini</small></button>
+    <button class="nav-btn" data-view-target="history"><span>ℹ</span><small>Storia RDA</small></button>
+  </nav>
+</div>
+<script src="data.js?v=449"></script>
+<script src="app.js?v=4492"></script>
+</body></html>
