@@ -3822,5 +3822,68 @@ window.RDA_DATA = {
     }
   ],
   "championshipPodiumVisible": false,
-  "futureRaces": []
+  "futureRaces": [],
+  "podiumsByChampionship": [
+    {
+      "championshipId": 5,
+      "championship": "SLAM GT3 2026",
+      "master": 2000,
+      "eventId": 10,
+      "title": "SLAM GT3 2026",
+      "date": "2026-09-14",
+      "track": "Dragon Trail - Giardini",
+      "gara": 4,
+      "rows": [
+        {
+          "pos": 1,
+          "name": "Svenom_21",
+          "car": "Genesis Gr.3",
+          "time": "31:39.208"
+        },
+        {
+          "pos": 2,
+          "name": "Spano19",
+          "car": "911 RSR (991) '17",
+          "time": "31:39.359"
+        },
+        {
+          "pos": 3,
+          "name": "SpeedSparco",
+          "car": "Genesis Gr.3",
+          "time": "31:41.311"
+        }
+      ]
+    },
+    {
+      "championshipId": 2,
+      "championship": "TROFEO GR B 2026",
+      "master": 500,
+      "eventId": 16,
+      "title": "TROFEO GR B 2026",
+      "date": "2026-09-08",
+      "track": "Colorado Springs - Lake Reverse",
+      "gara": 6,
+      "rows": [
+        {
+          "pos": 1,
+          "name": "Flavio_Nicolazzi",
+          "car": "Sport quattro S1 Pikes Peak '87",
+          "time": "23:37.663"
+        },
+        {
+          "pos": 2,
+          "name": "gallo_opc_2",
+          "car": "Sport quattro S1 Pikes Peak '87",
+          "time": "23:41.089"
+        },
+        {
+          "pos": 3,
+          "name": "Spano19",
+          "car": "RCZ Gr.B Rally Car",
+          "time": "23:42.121"
+        }
+      ]
+    }
+  ],
+  "finalPodiumsByChampionship": []
 };
