@@ -5,6 +5,6 @@
   "display":"standalone",
   "background_color":"#060913",
   "theme_color":"#080b14",
-  "description":"Calendario, risultati, campionato, ELO e statistiche RDA.",
+  "description":"Calendario, risultati, campionato, Ranking RDA e statistiche RDA.",
   "icons":[{"src":"assets/rda-mark.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
 }
