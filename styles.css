@@ -74,3 +74,6 @@ button,input{font:inherit}.app-shell{max-width:1400px;margin:auto;min-height:100
 .track-visual .track-line,.track-visual .track-logo,.track-visual .rda-track,
 .track-visual [class*="watermark"],.track-visual [class*="rda-mark"]{display:none!important}
 .track-visual{background:linear-gradient(120deg,#08172b,#10213e 65%,#21124a)!important}
+
+/* v4.2.50 Podi per campionato */
+.pod-section-title{margin:18px 0 8px}.pod-section-title h3{margin:3px 0;font-size:22px}.pod-section-title p{margin:4px 0;color:#9fb5d5}.final-title{margin-top:28px}.view[data-view="podiums"] .champ-selector{margin-bottom:10px}.view[data-view="podiums"] .champ-choice{min-width:210px}.view[data-view="podiums"] .podium-arena{margin-bottom:22px}
