@@ -73,6 +73,7 @@
       </div>
       <div class="panel progress-card"><div><span>Round ufficiali pubblicati</span><strong id="officialRoundCountMirror">0</strong></div><div class="progress"><i id="officialRoundProgress"></i></div></div>
       <div class="champ-regulation" id="championshipRegulation"></div>
+      <div class="panel champ-races-panel"><div class="eyebrow">🏁 GARE DEL CAMPIONATO</div><div id="championshipRaces" class="champ-race-list"></div></div>
       <div class="panel table-card" id="championshipTable"></div>
     </section>
 
@@ -104,6 +105,11 @@
       <div id="driverCards" class="driver-grid"></div>
     </section>
 
+    <section class="view" data-view="drivercard">
+      <button class="back-btn" type="button" data-go="drivers">← Torna ai piloti</button>
+      <div id="driverIdentityCard" class="panel identity-card"></div>
+    </section>
+
     <section class="view" data-view="teams">
       <div class="section-head"><div><div class="eyebrow">CLASSIFICHE</div><h2>Team & costruttori</h2></div></div>
       <div class="two-col"><div><h3>Team</h3><div id="teamTable" class="panel table-card"></div></div><div><h3>Costruttori</h3><div id="constructorTable" class="panel table-card"></div></div></div>
@@ -117,6 +123,12 @@
         <h3 id="flyerViewerTitle"></h3>
         <img id="flyerViewerImage" alt="Volantino RDA">
       </div>
+    </section>
+
+    <section class="view" data-view="records">
+      <div class="section-head"><div><div class="eyebrow">🏁 ARCHIVIO RDA</div><h2>Record Circuiti</h2><p>I migliori giri registrati nelle gare ufficiali RDA.</p></div></div>
+      <label class="searchbox">⌕ <input id="trackRecordSearch" type="search" placeholder="Cerca circuito..."></label>
+      <div id="trackRecordCards" class="record-grid"></div>
     </section>
 
     <section class="view" data-view="history">
@@ -161,9 +173,11 @@
     <button class="nav-btn" data-view-target="drivers"><span>◉</span><small>Piloti</small></button>
     <button class="nav-btn" data-view-target="teams"><span>◆</span><small>Team</small></button>
     <button class="nav-btn" data-view-target="flyers"><span>▤</span><small>Volantini</small></button>
+    <button class="nav-btn" data-view-target="records"><span>🏁</span><small>Record</small></button>
     <button class="nav-btn" data-view-target="history"><span>ℹ</span><small>Storia RDA</small></button>
   </nav>
+  <button class="nav-reveal" id="navReveal" type="button">▲ MENU</button>
 </div>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=450"></script>
+<script src="app.js?v=453"></script>
 </body></html>
