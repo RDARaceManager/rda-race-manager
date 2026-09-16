@@ -1,0 +1,464 @@
+[
+  {
+    "name": "24 Heures du Mans Racing Circuit",
+    "file": "24_heures_du_mans_racing_circuit.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "24 Heures du Mans Racing Circuit No Chicane",
+    "file": "24_heures_du_mans_racing_circuit_no_chicane.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Alsace - Test Course",
+    "file": "alsace_test_course.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Alsace - Village",
+    "file": "alsace_village.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Autodrome Lago Maggiore - Centre",
+    "file": "autodrome_lago_maggiore_centre.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Autodrome Lago Maggiore - East",
+    "file": "autodrome_lago_maggiore_east.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Autodrome Lago Maggiore - East End",
+    "file": "autodrome_lago_maggiore_east_end.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Autodrome Lago Maggiore - Full Course",
+    "file": "autodrome_lago_maggiore_full_course.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Autodrome Lago Maggiore - West",
+    "file": "autodrome_lago_maggiore_west.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Autodrome Lago Maggiore - West End",
+    "file": "autodrome_lago_maggiore_west_end.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Autodromo Nazionale Monza",
+    "file": "autodromo_nazionale_monza.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Autodromo Nazionale Monza No Chicane",
+    "file": "autodromo_nazionale_monza_no_chicane.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Autopolis International Racing Course",
+    "file": "autopolis_international_racing_course.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Autódromo de Interlagos",
+    "file": "autodromo_de_interlagos.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "BB Raceway",
+    "file": "bb_raceway.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Blue Moon Bay Speedway",
+    "file": "blue_moon_bay_speedway.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Blue Moon Bay Speedway - Infield A",
+    "file": "blue_moon_bay_speedway_infield_a.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Blue Moon Bay Speedway - Infield B",
+    "file": "blue_moon_bay_speedway_infield_b.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Brands Hatch Grand Prix Circuit",
+    "file": "brands_hatch_grand_prix_circuit.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Brands Hatch Indy Circuit",
+    "file": "brands_hatch_indy_circuit.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Circuit Gilles-Villeneuve",
+    "file": "circuit_gilles_villeneuve.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Circuit de Barcelona-Catalunya GP Layout",
+    "file": "circuit_de_barcelona_catalunya_gp_layout.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+    "file": "circuit_de_barcelona_catalunya_gp_layout_no_chicane.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Circuit de Barcelona-Catalunya National Layout",
+    "file": "circuit_de_barcelona_catalunya_national_layout.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Circuit de Sainte-Croix - A",
+    "file": "circuit_de_sainte_croix_a.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Circuit de Sainte-Croix - B",
+    "file": "circuit_de_sainte_croix_b.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Circuit de Sainte-Croix - C",
+    "file": "circuit_de_sainte_croix_c.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Circuit de Spa-Francorchamps",
+    "file": "circuit_de_spa_francorchamps.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Colorado Springs - Lake",
+    "file": "colorado_springs_lake.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Daytona Road Course",
+    "file": "daytona_road_course.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Daytona Tri-Oval",
+    "file": "daytona_tri_oval.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Deep Forest Raceway",
+    "file": "deep_forest_raceway.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Dragon Trail - Gardens",
+    "file": "dragon_trail_gardens.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Dragon Trail - Seaside",
+    "file": "dragon_trail_seaside.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Eiger Nordwand",
+    "file": "eiger_nordwand.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Fishermans Ranch",
+    "file": "fishermans_ranch.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Fuji International Speedway",
+    "file": "fuji_international_speedway.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Goodwood Motor Circuit",
+    "file": "goodwood_motor_circuit.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Grand Valley - Highway 1",
+    "file": "grand_valley_highway_1.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Grand Valley - South",
+    "file": "grand_valley_south.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "High Speed Ring",
+    "file": "high_speed_ring.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Kyoto Driving Park - Miyabi",
+    "file": "kyoto_driving_park_miyabi.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Kyoto Driving Park - Yamagiwa",
+    "file": "kyoto_driving_park_yamagiwa.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Kyoto Driving Park - Yamagiwa+Miyabi",
+    "file": "kyoto_driving_park_yamagiwa_miyabi.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Lake Louise Long Track",
+    "file": "lake_louise_long_track.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Lake Louise Short Track",
+    "file": "lake_louise_short_track.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Lake Louise Tri-Oval",
+    "file": "lake_louise_tri_oval.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Michelin Raceway Road Atlanta",
+    "file": "michelin_raceway_road_atlanta.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Mount Panorama Motor Racing Circuit",
+    "file": "mount_panorama_motor_racing_circuit.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Northern Isle Speedway",
+    "file": "northern_isle_speedway.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Nürburgring 24h",
+    "file": "nurburgring_24h.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Nürburgring Endurance",
+    "file": "nurburgring_endurance.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Nürburgring GP",
+    "file": "nurburgring_gp.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Nürburgring Nordschleife",
+    "file": "nurburgring_nordschleife.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Red Bull Ring",
+    "file": "red_bull_ring.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Sardegna - Road Track - A",
+    "file": "sardegna_road_track_a.svg",
+    "source": "survey",
+    "reverse": false
+  },
+  {
+    "name": "Sardegna - Road Track - B",
+    "file": "sardegna_road_track_b.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Sardegna - Road Track - C",
+    "file": "sardegna_road_track_c.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Sardegna - Windmills",
+    "file": "sardegna_windmills.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Spa 24h Layout",
+    "file": "spa_24h_layout.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Special Stage Route X",
+    "file": "special_stage_route_x.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Suzuka Circuit",
+    "file": "suzuka_circuit.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Tokyo Expressway - Central Clockwise",
+    "file": "tokyo_expressway_central_clockwise.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Tokyo Expressway - Central Counterclockwise",
+    "file": "tokyo_expressway_central_counterclockwise.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Tokyo Expressway - East Clockwise",
+    "file": "tokyo_expressway_east_clockwise.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Tokyo Expressway - East Counterclockwise",
+    "file": "tokyo_expressway_east_counterclockwise.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Tokyo Expressway - South Clockwise",
+    "file": "tokyo_expressway_south_clockwise.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Tokyo Expressway - South Counterclockwise",
+    "file": "tokyo_expressway_south_counterclockwise.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Trial Mountain Circuit",
+    "file": "trial_mountain_circuit.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Tsukuba Circuit",
+    "file": "tsukuba_circuit.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Watkins Glen Long Course",
+    "file": "watkins_glen_long_course.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Watkins Glen Short Course",
+    "file": "watkins_glen_short_course.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "WeatherTech Raceway Laguna Seca",
+    "file": "weathertech_raceway_laguna_seca.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Willow Springs International Raceway: Big Willow",
+    "file": "willow_springs_international_raceway_big_willow.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Willow Springs International Raceway: Horse Thief Mile",
+    "file": "willow_springs_international_raceway_horse_thief_mile.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Willow Springs International Raceway: Streets of Willow Springs",
+    "file": "willow_springs_international_raceway_streets_of_willow_springs.svg",
+    "source": "capture",
+    "reverse": false
+  },
+  {
+    "name": "Yas Marina Circuit",
+    "file": "yas_marina_circuit.svg",
+    "source": "capture",
+    "reverse": false
+  }
+]
