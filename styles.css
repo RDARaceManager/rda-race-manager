@@ -110,28 +110,27 @@ button,input{font:inherit}.app-shell{max-width:1400px;margin:auto;min-height:100
 }
 
 /* v4.2.60 - nuova Home RDA */
-.home-welcome-photo{min-height:0!important;aspect-ratio:1980/704;padding:0!important;background-image:url("assets/rda-home-hero-v460.png")!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important;border-color:#1e6b8b!important;}
+.home-welcome-photo{min-height:0!important;aspect-ratio:1980/704;padding:0!important;background-image:url("assets/rda-home-hero-v460.png?v=462")!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important;border-color:#1e6b8b!important;}
 @media(max-width:800px){.home-welcome-photo{aspect-ratio:16/7;background-position:62% center!important;border-radius:18px!important;}}
 @media(max-width:480px){.home-welcome-photo{aspect-ratio:4/3;background-size:cover!important;background-position:64% center!important;}}
 
-/* v4.2.61 - Home Mobile pulita:
-   conserva i 4 elementi piccoli dentro il banner e rimuove le 4 grandi caselle duplicate */
+/* v4.2.62 - Hero RDA: solo banner, senza header/hamburger e senza 4 box inferiori */
 .home-welcome-photo{
-  aspect-ratio:2048/565!important;
+  aspect-ratio:2006/425!important;
   background-size:cover!important;
-  background-position:center top!important;
+  background-position:center!important;
 }
 @media(max-width:800px){
   .home-welcome-photo{
-    aspect-ratio:2048/565!important;
+    aspect-ratio:16/8!important;
     background-size:cover!important;
-    background-position:center top!important;
+    background-position:center!important;
   }
 }
 @media(max-width:480px){
   .home-welcome-photo{
-    aspect-ratio:2048/565!important;
+    aspect-ratio:16/10!important;
     background-size:cover!important;
-    background-position:center top!important;
+    background-position:center!important;
   }
 }
