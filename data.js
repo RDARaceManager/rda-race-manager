@@ -792,7 +792,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 1105.0,
-      "ranking": 1105.0
+      "ranking": 1105.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Svenom_21",
@@ -800,7 +805,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 940.0,
-      "ranking": 940.0
+      "ranking": 940.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "forte984riso",
@@ -808,7 +818,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 855.0,
-      "ranking": 855.0
+      "ranking": 855.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "SpeedSparco",
@@ -816,7 +831,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 835.0,
-      "ranking": 835.0
+      "ranking": 835.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Knowhere_7",
@@ -824,7 +844,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 645.0,
-      "ranking": 645.0
+      "ranking": 645.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "PYX69",
@@ -832,7 +857,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 613.33,
-      "ranking": 613.33
+      "ranking": 613.33,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "familydidoschy",
@@ -840,7 +870,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 613.33,
-      "ranking": 613.33
+      "ranking": 613.33,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Caciotta_95",
@@ -848,7 +883,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 560.0,
-      "ranking": 560.0
+      "ranking": 560.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Vimdav",
@@ -856,7 +896,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 543.0,
-      "ranking": 543.0
+      "ranking": 543.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "gallo_opc_2",
@@ -864,7 +909,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 485.0,
-      "ranking": 485.0
+      "ranking": 485.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Granata_93",
@@ -872,7 +922,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 485.0,
-      "ranking": 485.0
+      "ranking": 485.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "brown_dsc",
@@ -880,7 +935,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 480.0,
-      "ranking": 480.0
+      "ranking": 480.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Twitc_Simomazz86",
@@ -888,7 +948,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 480.0,
-      "ranking": 480.0
+      "ranking": 480.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Onmanuel-Btw_09",
@@ -896,7 +961,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 445.0,
-      "ranking": 445.0
+      "ranking": 445.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Izras1990",
@@ -904,7 +974,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 420.0,
-      "ranking": 420.0
+      "ranking": 420.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "a88312alfa",
@@ -912,7 +987,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 416.25,
-      "ranking": 416.25
+      "ranking": 416.25,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "MaxMossa",
@@ -920,7 +1000,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 415.0,
-      "ranking": 415.0
+      "ranking": 415.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "G-BERNA",
@@ -928,7 +1013,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 399.0,
-      "ranking": 399.0
+      "ranking": 399.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "JONNYK7",
@@ -936,7 +1026,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 366.67,
-      "ranking": 366.67
+      "ranking": 366.67,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "xxsiculo96xx",
@@ -944,7 +1039,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 320.0,
-      "ranking": 320.0
+      "ranking": 320.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "andrecalimero73",
@@ -952,7 +1052,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 273.33,
-      "ranking": 273.33
+      "ranking": 273.33,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "giorobert",
@@ -960,7 +1065,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 200.0,
-      "ranking": 200.0
+      "ranking": 200.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "jnior_billokillo",
@@ -968,7 +1078,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 185.0,
-      "ranking": 185.0
+      "ranking": 185.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "luglio88",
@@ -976,7 +1091,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 176.67,
-      "ranking": 176.67
+      "ranking": 176.67,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "NICOLACI1966",
@@ -984,7 +1104,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 153.33,
-      "ranking": 153.33
+      "ranking": 153.33,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "illibrosnavi",
@@ -992,7 +1117,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 150.0,
-      "ranking": 150.0
+      "ranking": 150.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "danilomarika89",
@@ -1000,7 +1130,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 120.0,
-      "ranking": 120.0
+      "ranking": 120.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Dom_78_furious",
@@ -1008,7 +1143,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 113.33,
-      "ranking": 113.33
+      "ranking": 113.33,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "premanugito",
@@ -1016,7 +1156,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 113.33,
-      "ranking": 113.33
+      "ranking": 113.33,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "VanMike91",
@@ -1024,7 +1169,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 73.33,
-      "ranking": 73.33
+      "ranking": 73.33,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "lamonaca72",
@@ -1032,7 +1182,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 66.67,
-      "ranking": 66.67
+      "ranking": 66.67,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "Pasky_Alfa",
@@ -1040,7 +1195,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 60.0,
-      "ranking": 60.0
+      "ranking": 60.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     },
     {
       "name": "XxGGGIOCATORE23x",
@@ -1048,7 +1208,12 @@ window.RDA_DATA = {
       "wins": 0,
       "podiums": 0,
       "elo": 0.0,
-      "ranking": 0.0
+      "ranking": 0.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
     }
   ],
   "teams": [],
@@ -4142,46 +4307,6 @@ window.RDA_DATA = {
   "championshipPodiumVisible": false,
   "futureRaces": [
     {
-      "eventId": "future-5-2026-09-18-3",
-      "isoDate": "2026-09-18",
-      "day": 18,
-      "month": 9,
-      "year": 2026,
-      "date": "18.09.2026",
-      "title": "SLAM GT3 2026",
-      "championship": "SLAM GT3 2026",
-      "championshipId": 5,
-      "master": 2000,
-      "round": 0,
-      "gara": 0,
-      "track": "Kyoto Driving Park - Yamagiwa",
-      "regulation": {
-        "championshipId": 5,
-        "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-slam-gt3-2026.pdf"
-      }
-    },
-    {
-      "eventId": "future-5-2026-09-18-3",
-      "isoDate": "2026-09-18",
-      "day": 18,
-      "month": 9,
-      "year": 2026,
-      "date": "18.09.2026",
-      "title": "SLAM GT3 2026",
-      "championship": "SLAM GT3 2026",
-      "championshipId": 5,
-      "master": 2000,
-      "round": 0,
-      "gara": 0,
-      "track": "Kyoto Driving Park - Yamagiwa",
-      "regulation": {
-        "championshipId": 5,
-        "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-slam-gt3-2026.pdf"
-      }
-    },
-    {
       "eventId": "future-5-2026-09-21-4",
       "isoDate": "2026-09-21",
       "day": 21,
@@ -4324,5 +4449,89 @@ window.RDA_DATA = {
       ]
     }
   ],
-  "finalPodiumsByChampionship": []
+  "finalPodiumsByChampionship": [],
+  "championshipRaces": {
+    "2": [
+      {
+        "eventId": 17,
+        "date": "15.09.2026",
+        "gara": 7,
+        "track": "Lake Louise Tri-Oval",
+        "title": "TROFEO GR B 2026"
+      },
+      {
+        "eventId": 16,
+        "date": "08.09.2026",
+        "gara": 6,
+        "track": "Colorado Springs - Lake Reverse",
+        "title": "TROFEO GR B 2026"
+      },
+      {
+        "eventId": 15,
+        "date": "01.09.2026",
+        "gara": 5,
+        "track": "Nurburgring 24h",
+        "title": "TROFEO GR B 2026"
+      },
+      {
+        "eventId": 14,
+        "date": "25.08.2026",
+        "gara": 4,
+        "track": "Willow Springs International Raceway: Horse Thief Mile Reverse",
+        "title": "TROFEO GR B 2026"
+      },
+      {
+        "eventId": 13,
+        "date": "18.08.2026",
+        "gara": 3,
+        "track": "Fishermans Ranch Reverse",
+        "title": "TROFEO GR B 2026"
+      },
+      {
+        "eventId": 12,
+        "date": "11.08.2026",
+        "gara": 2,
+        "track": "Lake Louise Long Track Reverse",
+        "title": "TROFEO GR B 2026"
+      },
+      {
+        "eventId": 11,
+        "date": "04.08.2026",
+        "gara": 1,
+        "track": "Suzuka Circuit East Course",
+        "title": "TROFEO GR B 2026"
+      }
+    ],
+    "5": [
+      {
+        "eventId": 10,
+        "date": "14.09.2026",
+        "gara": 4,
+        "track": "Dragon Trail - Giardini",
+        "title": "SLAM GT3 2026"
+      },
+      {
+        "eventId": 9,
+        "date": "11.09.2026",
+        "gara": 3,
+        "track": "Autodromo de Interlagos",
+        "title": "SLAM GT3 2026"
+      },
+      {
+        "eventId": 8,
+        "date": "07.09.2026",
+        "gara": 2,
+        "track": "Brands Hatch Grand Prix Circuit",
+        "title": "SLAM GT3 2026"
+      },
+      {
+        "eventId": 7,
+        "date": "04.09.2026",
+        "gara": 1,
+        "track": "Watkins Glen Long Course",
+        "title": "SLAM GT3 2026"
+      }
+    ]
+  },
+  "trackRecords": []
 };
