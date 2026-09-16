@@ -15,6 +15,27 @@ let calendarCursor=null,selectedRace=null;
 function parseISO(s){const [y,m,d]=(s||'').split('-').map(Number);return {y,m,d}}
 function latestRace(){const a=arr('completedRaces');return a.length?a[a.length-1]:null}
 
+// v4.2.55 - libreria sagome circuiti RDA: usa tracks.json + alias GT7
+let trackMapCatalog=[];
+const trackAliases={
+ 'laguna seca':'weathertech raceway laguna seca','weathertech raceway laguna seca':'weathertech raceway laguna seca',
+ 'le mans':'24 heures du mans racing circuit','circuit de la sarthe':'24 heures du mans racing circuit',
+ 'nurburgring 24h':'nurburgring 24h','nürburgring 24h':'nurburgring 24h','nurburgring gp':'nurburgring gp','nürburgring gp':'nurburgring gp',
+ 'suzuka':'suzuka circuit','suzuka circuit':'suzuka circuit','interlagos':'autodromo de interlagos',
+ 'monza':'autodromo nazionale monza','brands hatch':'brands hatch grand prix circuit',
+ 'dragon trail giardini':'dragon trail gardens','dragon trail - giardini':'dragon trail gardens',
+ 'fishermans ranch reverse':'fishermans ranch','fishermans ranch':'fishermans ranch',
+ 'lake louise long track reverse':'lake louise long track','lake louise tri-oval':'lake louise tri oval'
+};
+function normTrack(v){return (v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
+function mapFileForTrack(name){const n=normTrack(name), wanted=normTrack(trackAliases[n]||n);if(!wanted)return '';
+ let x=trackMapCatalog.find(t=>normTrack(t.name)===wanted);
+ if(!x)x=trackMapCatalog.find(t=>{const z=normTrack(t.name);return z.includes(wanted)||wanted.includes(z)});
+ return x?`track_maps/${x.file}`:'';
+}
+function trackMapHtml(name){const f=mapFileForTrack(name);return f?`<img class="real-track-map" src="${f}" alt="Sagoma ${name}">`:''}
+fetch('track_maps/tracks.json').then(r=>r.ok?r.json():[]).then(x=>{trackMapCatalog=Array.isArray(x)?x:[];renderCalendar();renderHome();renderTrackRecords();}).catch(()=>{});
+
 function renderCalendar(){
   const races=arr('completedRaces'),future=arr('futureRaces');
   if(!calendarCursor){const lr=latestRace(),nr=future[0],now=new Date();calendarCursor=nr?{y:nr.year,m:nr.month}:lr?{y:lr.year,m:lr.month}:{y:now.getFullYear(),m:now.getMonth()+1}}
@@ -31,12 +52,12 @@ function selectRace(id,rerender=true){
   $('#raceDetail').innerHTML=`<div class="detail-top">
     <div class="detail-date"><strong>${String(r.day).padStart(2,'0')}</strong><span>${shortMonths[r.month-1]}</span><span>${r.year}</span></div>
     <div class="detail-meta"><div class="eyebrow">${r.master?`RDA MASTER ${r.master}`:'RDA'}</div><h3>${r.title}</h3><p>${r.round?`Round ${r.round}`:'Gara ufficiale'} • ${r.championship}</p><p>🏁 ${r.track}</p></div>
-  </div><div class="track-visual"><div class="track-speed"><span></span><span></span><span></span></div><div class="track-name"><small>CIRCUITO</small><strong>${r.track}</strong></div></div>`;
+  </div><div class="track-visual">${trackMapHtml(r.track)}<div class="track-name"><small>CIRCUITO</small><strong>${r.track}</strong></div></div>`;
   $$('.race-row').forEach(x=>x.classList.toggle('selected',Number(x.dataset.event)===id));
   if(rerender) renderCalendar();
 }
 
-function futureRaceCard(r){const reg=r.regulation?`<a class="regulation-btn" href="${r.regulation.file}" target="_blank" rel="noopener">📖 ${r.regulation.label||'REGOLAMENTO UFFICIALE'}</a>`:'';return `<div class="future-race-card"><div class="detail-top"><div class="detail-date future-date"><strong>${String(r.day).padStart(2,'0')}</strong><span>${shortMonths[r.month-1]}</span><span>${r.year}</span></div><div class="detail-meta"><div class="eyebrow">${r.master?`RDA MASTER ${r.master}`:'RDA'}</div><h3>${r.title||r.championship||'Gara futura'}</h3><p>${r.gara?`Gara ${r.gara}`:(r.round?`Round ${r.round}`:'Prossimo appuntamento')} • ${r.championship||'RDA'}</p><p>🏁 <strong>${r.track||'Circuito da definire'}</strong></p>${reg}</div></div><div class="track-visual future-track"><div class="track-speed"><span></span><span></span><span></span></div><div class="track-name"><small>CIRCUITO</small><strong>${r.track||'Circuito da definire'}</strong></div></div></div>`}
+function futureRaceCard(r){const reg=r.regulation?`<a class="regulation-btn" href="${r.regulation.file}" target="_blank" rel="noopener">📖 ${r.regulation.label||'REGOLAMENTO UFFICIALE'}</a>`:'';return `<div class="future-race-card"><div class="detail-top"><div class="detail-date future-date"><strong>${String(r.day).padStart(2,'0')}</strong><span>${shortMonths[r.month-1]}</span><span>${r.year}</span></div><div class="detail-meta"><div class="eyebrow">${r.master?`RDA MASTER ${r.master}`:'RDA'}</div><h3>${r.title||r.championship||'Gara futura'}</h3><p>${r.gara?`Gara ${r.gara}`:(r.round?`Round ${r.round}`:'Prossimo appuntamento')} • ${r.championship||'RDA'}</p><p>🏁 <strong>${r.track||'Circuito da definire'}</strong></p>${reg}</div></div><div class="track-visual future-track">${trackMapHtml(r.track)}<div class="track-name"><small>CIRCUITO</small><strong>${r.track||'Circuito da definire'}</strong></div></div></div>`}
 function selectFutureDate(date){const rs=arr('futureRaces').filter(r=>`${r.year}-${String(r.month).padStart(2,'0')}-${String(r.day).padStart(2,'0')}`===date);if(!rs.length)return;$('#raceDetail').innerHTML=`<div class="future-badge">● ${rs.length>1?rs.length+' GARE FUTURE':'PROSSIMA GARA'}</div>${rs.map(futureRaceCard).join('')}`}
 function selectFutureRace(id){const r=arr('futureRaces').find(x=>x.eventId===id);if(!r)return;selectFutureDate(`${r.year}-${String(r.month).padStart(2,'0')}-${String(r.day).padStart(2,'0')}`)}
 
@@ -57,7 +78,7 @@ function renderFlyers(){
 }
 
 
-let selectedChampionshipId=null;
+let selectedChampionshipId=null, expandedChampionshipId=null;
 
 function publicChampionships(){return arr('championships')}
 
@@ -72,7 +93,9 @@ function selectedPublicChampionship(){
 }
 
 function selectChampionship(id){
-  selectedChampionshipId=Number(id);
+  const n=Number(id);
+  selectedChampionshipId=n;
+  expandedChampionshipId=(Number(expandedChampionshipId)===n?null:n);
   renderChampionships();
 }
 
@@ -100,7 +123,9 @@ function renderChampionships(){
   $('#selectedChampStatus').textContent=c.closed?'CONCLUSO':'IN CORSO';
   const rb=$('#championshipRegulation'); rb.innerHTML=c.regulation?`<a class="regulation-btn" href="${c.regulation.file}" target="_blank" rel="noopener">📖 ${c.regulation.label||'REGOLAMENTO UFFICIALE'}</a>`:'';
   $('#officialRoundProgress').style.width=`${Math.min(100,(c.officialRounds||0)*16.67)}%`;
-  renderChampionshipRaces(c);
+  const racesBox=$('#championshipRaces'), racesPanel=racesBox?racesBox.closest('.champ-races-panel'):null;
+  if(Number(expandedChampionshipId)===Number(c.id)){ renderChampionshipRaces(c); if(racesPanel)racesPanel.hidden=false; }
+  else if(racesPanel){ racesPanel.hidden=true; }
   $('#championshipTable').innerHTML=table(c.standings||[],[
     {label:'#',render:r=>`<span class="pos ${rankClass(r.pos)}">${r.pos}</span>`},
     {label:'Pilota',key:'name'},
@@ -167,15 +192,14 @@ function renderChampionshipRaces(c){
  box.innerHTML=a.length?a.map(r=>`<button type="button" class="champ-race-btn" data-event="${r.eventId}"><b>${r.gara?`Gara ${r.gara}`:'Gara ufficiale'}</b><span>${r.date||''} • ${r.track||'Circuito non indicato'}</span><em>Apri risultati ›</em></button>`).join(''):emptyState('Nessuna gara ufficiale pubblicata');
  $$('#championshipRaces [data-event]').forEach(b=>b.onclick=()=>openRaceResult(b.dataset.event));
 }
-function openDriverCard(name){const d=arr('drivers').find(x=>x.name===name);if(!d)return;const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare <b>${d.races||0}</b></span><span>Vittorie <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Titoli <b>${titles.length}</b></span></div><h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;go('drivercard')}
-function trackSlug(name){return (name||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'')}
-function renderTrackRecords(q=''){const a=arr('trackRecords').filter(x=>x.track.toLowerCase().includes(q.toLowerCase()));$('#trackRecordCards').innerHTML=a.length?a.map(x=>`<article class="record-card panel"><div class="record-map"><img src="track_maps/${trackSlug(x.track)}.svg" alt="Sagoma ${x.track}" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">Sagoma non disponibile</span></div><div><div class="eyebrow">RECORD RDA</div><h3>${x.track}</h3><strong class="record-time">${x.time}</strong><p>🏎️ ${x.driver}<br>${x.car}<br><small>${x.championship} • ${x.date}</small></p></div></article>`).join(''):emptyState('Nessun record circuito disponibile')}
+function openDriverCard(name){const d=arr('drivers').find(x=>x.name===name);if(!d)return;const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div><h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;go('drivercard')}
+function renderTrackRecords(q=''){const a=arr('trackRecords').filter(x=>x.track.toLowerCase().includes(q.toLowerCase()));$('#trackRecordCards').innerHTML=a.length?a.map(x=>`<article class="record-card panel"><div class="record-map"><img src="${mapFileForTrack(x.track)}" alt="Sagoma ${x.track}" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">Sagoma non disponibile</span></div><div><div class="eyebrow">RECORD RDA</div><h3>${x.track}</h3><strong class="record-time">${x.time}</strong><p>🏎️ ${x.driver}<br>${x.car}<br><small>${x.championship} • ${x.date}</small></p></div></article>`).join(''):emptyState('Nessun record circuito disponibile')}
 const trs=$('#trackRecordSearch');if(trs)trs.addEventListener('input',e=>renderTrackRecords(e.target.value));
 setTimeout(()=>renderTrackRecords(),0);
 // Barra inferiore intelligente: soprattutto in landscape
 const nav=document.querySelector('.bottom-nav'),reveal=$('#navReveal');let lastY=window.scrollY,navTimer;
 function setNavHidden(v){if(!nav||!reveal)return;nav.classList.toggle('smart-hidden',v);reveal.classList.toggle('show',v)}
-function landscapeAuto(){clearTimeout(navTimer);if(matchMedia('(orientation: landscape)').matches)navTimer=setTimeout(()=>setNavHidden(true),1800);else setNavHidden(false)}
+function landscapeAuto(){clearTimeout(navTimer);if(matchMedia('(orientation: landscape)').matches)navTimer=setTimeout(()=>setNavHidden(true),300000);else setNavHidden(false)}
 if(reveal)reveal.onclick=()=>{setNavHidden(false);landscapeAuto()};
 window.addEventListener('scroll',()=>{const y=window.scrollY;if(y>lastY+8&&y>80)setNavHidden(true);else if(y<lastY-8)setNavHidden(false);lastY=y},{passive:true});
 window.addEventListener('orientationchange',landscapeAuto);landscapeAuto();
