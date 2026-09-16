@@ -1,0 +1,2 @@
+Geometrie: gt7-datalogger-track-data - dati CC0 1.0.
+https://github.com/jbhoorasingh/gt7-datalogger-track-data
