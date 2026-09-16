@@ -100,6 +100,7 @@ function renderChampionships(){
   $('#selectedChampStatus').textContent=c.closed?'CONCLUSO':'IN CORSO';
   const rb=$('#championshipRegulation'); rb.innerHTML=c.regulation?`<a class="regulation-btn" href="${c.regulation.file}" target="_blank" rel="noopener">📖 ${c.regulation.label||'REGOLAMENTO UFFICIALE'}</a>`:'';
   $('#officialRoundProgress').style.width=`${Math.min(100,(c.officialRounds||0)*16.67)}%`;
+  renderChampionshipRaces(c);
   $('#championshipTable').innerHTML=table(c.standings||[],[
     {label:'#',render:r=>`<span class="pos ${rankClass(r.pos)}">${r.pos}</span>`},
     {label:'Pilota',key:'name'},
@@ -144,7 +145,7 @@ function render(){
 
   renderPodiumsByChampionship();
 
-  function renderDrivers(q=''){const f=drivers.filter(d=>d.name.toLowerCase().includes(q.toLowerCase()));$('#driverCards').innerHTML=f.length?f.map(d=>`<article class="driver-card"><h3>${d.name}</h3><div class="mini"><span>Gare <b>${d.races}</b></span><span>Vittorie <b>${d.wins}</b></span><span>Podi <b>${d.podiums}</b></span><span>Ranking <b>${d.elo}</b></span></div></article>`).join(''):emptyState('Nessun pilota trovato')}
+  function renderDrivers(q=''){const f=drivers.filter(d=>d.name.toLowerCase().includes(q.toLowerCase()));$('#driverCards').innerHTML=f.length?f.map((d,i)=>`<button type="button" class="driver-card driver-open" data-driver-name="${d.name.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}"><h3>${d.name}</h3><div class="mini"><span>Gare <b>${d.races}</b></span><span>Vittorie <b>${d.wins}</b></span><span>Podi <b>${d.podiums}</b></span><span>Ranking <b>${d.elo}</b></span></div><small>Apri Carta Pilota RDA ›</small></button>`).join(''):emptyState('Nessun pilota trovato'); $$('.driver-open').forEach(b=>b.onclick=()=>openDriverCard(b.dataset.driverName))}
   renderDrivers();$('#driverSearch').addEventListener('input',e=>renderDrivers(e.target.value));
 
   renderCompleted();
@@ -158,3 +159,23 @@ $('#nextMonth').addEventListener('click',()=>{calendarCursor.m++;if(calendarCurs
 $('#flyerClose').addEventListener('click',()=>{$('#flyerViewer').hidden=true});
 render();
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
+
+
+// ================= RDA v4.2.53 =================
+function renderChampionshipRaces(c){
+ const box=$('#championshipRaces');if(!box)return;const a=(D.championshipRaces||{})[String(c.id)]||[];
+ box.innerHTML=a.length?a.map(r=>`<button type="button" class="champ-race-btn" data-event="${r.eventId}"><b>${r.gara?`Gara ${r.gara}`:'Gara ufficiale'}</b><span>${r.date||''} • ${r.track||'Circuito non indicato'}</span><em>Apri risultati ›</em></button>`).join(''):emptyState('Nessuna gara ufficiale pubblicata');
+ $$('#championshipRaces [data-event]').forEach(b=>b.onclick=()=>openRaceResult(b.dataset.event));
+}
+function openDriverCard(name){const d=arr('drivers').find(x=>x.name===name);if(!d)return;const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare <b>${d.races||0}</b></span><span>Vittorie <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Titoli <b>${titles.length}</b></span></div><h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;go('drivercard')}
+function trackSlug(name){return (name||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'')}
+function renderTrackRecords(q=''){const a=arr('trackRecords').filter(x=>x.track.toLowerCase().includes(q.toLowerCase()));$('#trackRecordCards').innerHTML=a.length?a.map(x=>`<article class="record-card panel"><div class="record-map"><img src="track_maps/${trackSlug(x.track)}.svg" alt="Sagoma ${x.track}" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">Sagoma non disponibile</span></div><div><div class="eyebrow">RECORD RDA</div><h3>${x.track}</h3><strong class="record-time">${x.time}</strong><p>🏎️ ${x.driver}<br>${x.car}<br><small>${x.championship} • ${x.date}</small></p></div></article>`).join(''):emptyState('Nessun record circuito disponibile')}
+const trs=$('#trackRecordSearch');if(trs)trs.addEventListener('input',e=>renderTrackRecords(e.target.value));
+setTimeout(()=>renderTrackRecords(),0);
+// Barra inferiore intelligente: soprattutto in landscape
+const nav=document.querySelector('.bottom-nav'),reveal=$('#navReveal');let lastY=window.scrollY,navTimer;
+function setNavHidden(v){if(!nav||!reveal)return;nav.classList.toggle('smart-hidden',v);reveal.classList.toggle('show',v)}
+function landscapeAuto(){clearTimeout(navTimer);if(matchMedia('(orientation: landscape)').matches)navTimer=setTimeout(()=>setNavHidden(true),1800);else setNavHidden(false)}
+if(reveal)reveal.onclick=()=>{setNavHidden(false);landscapeAuto()};
+window.addEventListener('scroll',()=>{const y=window.scrollY;if(y>lastY+8&&y>80)setNavHidden(true);else if(y<lastY-8)setNavHidden(false);lastY=y},{passive:true});
+window.addEventListener('orientationchange',landscapeAuto);landscapeAuto();
