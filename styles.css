@@ -108,3 +108,30 @@ button,input{font:inherit}.app-shell{max-width:1400px;margin:auto;min-height:100
  .race-row{grid-template-columns:76px 1fr!important;min-height:auto!important;padding:9px 10px!important}.race-row .rdate{font-size:12px!important}.race-row strong{font-size:12px}.race-row small{font-size:9px}.race-row .round-col,.race-row .track-col,.race-row .official{display:none!important}
  .future-race-card+.future-race-card{margin-top:10px;padding-top:10px}
 }
+
+/* v4.2.60 - nuova Home RDA */
+.home-welcome-photo{min-height:0!important;aspect-ratio:1980/704;padding:0!important;background-image:url("assets/rda-home-hero-v460.png")!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important;border-color:#1e6b8b!important;}
+@media(max-width:800px){.home-welcome-photo{aspect-ratio:16/7;background-position:62% center!important;border-radius:18px!important;}}
+@media(max-width:480px){.home-welcome-photo{aspect-ratio:4/3;background-size:cover!important;background-position:64% center!important;}}
+
+/* v4.2.61 - Home Mobile pulita:
+   conserva i 4 elementi piccoli dentro il banner e rimuove le 4 grandi caselle duplicate */
+.home-welcome-photo{
+  aspect-ratio:2048/565!important;
+  background-size:cover!important;
+  background-position:center top!important;
+}
+@media(max-width:800px){
+  .home-welcome-photo{
+    aspect-ratio:2048/565!important;
+    background-size:cover!important;
+    background-position:center top!important;
+  }
+}
+@media(max-width:480px){
+  .home-welcome-photo{
+    aspect-ratio:2048/565!important;
+    background-size:cover!important;
+    background-position:center top!important;
+  }
+}
