@@ -296,8 +296,8 @@ window.RDA_DATA = {
     {
       "pos": 1,
       "name": "Spano19",
-      "elo": 1105.0,
-      "ranking": 1105.0,
+      "elo": 985.0,
+      "ranking": 985.0,
       "championships": 2,
       "races": 11
     },
@@ -335,14 +335,6 @@ window.RDA_DATA = {
     },
     {
       "pos": 6,
-      "name": "PYX69",
-      "elo": 613.33,
-      "ranking": 613.33,
-      "championships": 2,
-      "races": 7
-    },
-    {
-      "pos": 7,
       "name": "familydidoschy",
       "elo": 613.33,
       "ranking": 613.33,
@@ -350,7 +342,7 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 8,
+      "pos": 7,
       "name": "Caciotta_95",
       "elo": 560.0,
       "ranking": 560.0,
@@ -358,23 +350,15 @@ window.RDA_DATA = {
       "races": 3
     },
     {
+      "pos": 8,
+      "name": "PYX69",
+      "elo": 559.17,
+      "ranking": 559.17,
+      "championships": 2,
+      "races": 7
+    },
+    {
       "pos": 9,
-      "name": "Vimdav",
-      "elo": 543.0,
-      "ranking": 543.0,
-      "championships": 2,
-      "races": 9
-    },
-    {
-      "pos": 10,
-      "name": "gallo_opc_2",
-      "elo": 485.0,
-      "ranking": 485.0,
-      "championships": 2,
-      "races": 9
-    },
-    {
-      "pos": 11,
       "name": "Granata_93",
       "elo": 485.0,
       "ranking": 485.0,
@@ -382,7 +366,7 @@ window.RDA_DATA = {
       "races": 4
     },
     {
-      "pos": 12,
+      "pos": 10,
       "name": "brown_dsc",
       "elo": 480.0,
       "ranking": 480.0,
@@ -390,7 +374,7 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 13,
+      "pos": 11,
       "name": "Twitc_Simomazz86",
       "elo": 480.0,
       "ranking": 480.0,
@@ -398,15 +382,15 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 14,
-      "name": "Onmanuel-Btw_09",
-      "elo": 442.5,
-      "ranking": 442.5,
+      "pos": 12,
+      "name": "Vimdav",
+      "elo": 454.0,
+      "ranking": 454.0,
       "championships": 2,
-      "races": 8
+      "races": 9
     },
     {
-      "pos": 15,
+      "pos": 13,
       "name": "Izras1990",
       "elo": 420.0,
       "ranking": 420.0,
@@ -414,15 +398,7 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 16,
-      "name": "a88312alfa",
-      "elo": 416.25,
-      "ranking": 416.25,
-      "championships": 2,
-      "races": 8
-    },
-    {
-      "pos": 17,
+      "pos": 14,
       "name": "MaxMossa",
       "elo": 415.0,
       "ranking": 415.0,
@@ -430,15 +406,23 @@ window.RDA_DATA = {
       "races": 4
     },
     {
-      "pos": 18,
-      "name": "G-BERNA",
-      "elo": 398.0,
-      "ranking": 398.0,
+      "pos": 15,
+      "name": "gallo_opc_2",
+      "elo": 402.5,
+      "ranking": 402.5,
       "championships": 2,
       "races": 9
     },
     {
-      "pos": 19,
+      "pos": 16,
+      "name": "Onmanuel-Btw_09",
+      "elo": 381.25,
+      "ranking": 381.25,
+      "championships": 2,
+      "races": 8
+    },
+    {
+      "pos": 17,
       "name": "JONNYK7",
       "elo": 366.67,
       "ranking": 366.67,
@@ -446,12 +430,28 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 20,
+      "pos": 18,
+      "name": "G-BERNA",
+      "elo": 324.0,
+      "ranking": 324.0,
+      "championships": 2,
+      "races": 9
+    },
+    {
+      "pos": 19,
       "name": "xxsiculo96xx",
       "elo": 320.0,
       "ranking": 320.0,
       "championships": 1,
       "races": 4
+    },
+    {
+      "pos": 20,
+      "name": "a88312alfa",
+      "elo": 318.12,
+      "ranking": 318.12,
+      "championships": 2,
+      "races": 8
     },
     {
       "pos": 21,
@@ -479,30 +479,6 @@ window.RDA_DATA = {
     },
     {
       "pos": 24,
-      "name": "luglio88",
-      "elo": 178.33,
-      "ranking": 178.33,
-      "championships": 1,
-      "races": 6
-    },
-    {
-      "pos": 25,
-      "name": "NICOLACI1966",
-      "elo": 155.83,
-      "ranking": 155.83,
-      "championships": 1,
-      "races": 6
-    },
-    {
-      "pos": 26,
-      "name": "illibrosnavi",
-      "elo": 148.33,
-      "ranking": 148.33,
-      "championships": 1,
-      "races": 3
-    },
-    {
-      "pos": 27,
       "name": "danilomarika89",
       "elo": 120.0,
       "ranking": 120.0,
@@ -510,7 +486,7 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 28,
+      "pos": 25,
       "name": "Dom_78_furious",
       "elo": 113.33,
       "ranking": 113.33,
@@ -518,10 +494,34 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 29,
+      "pos": 26,
+      "name": "luglio88",
+      "elo": 89.17,
+      "ranking": 89.17,
+      "championships": 1,
+      "races": 6
+    },
+    {
+      "pos": 27,
       "name": "premanugito",
       "elo": 86.67,
       "ranking": 86.67,
+      "championships": 1,
+      "races": 3
+    },
+    {
+      "pos": 28,
+      "name": "NICOLACI1966",
+      "elo": 77.92,
+      "ranking": 77.92,
+      "championships": 1,
+      "races": 6
+    },
+    {
+      "pos": 29,
+      "name": "illibrosnavi",
+      "elo": 74.17,
+      "ranking": 74.17,
       "championships": 1,
       "races": 3
     },
@@ -564,8 +564,8 @@ window.RDA_DATA = {
       "races": 11,
       "wins": 5,
       "podiums": 10,
-      "elo": 1105.0,
-      "ranking": 1105.0,
+      "elo": 985.0,
+      "ranking": 985.0,
       "psn": "",
       "nicknameSecondary": "",
       "nicknameRacing": "",
@@ -625,19 +625,6 @@ window.RDA_DATA = {
       "championshipPodiums": []
     },
     {
-      "name": "PYX69",
-      "races": 7,
-      "wins": 0,
-      "podiums": 0,
-      "elo": 613.33,
-      "ranking": 613.33,
-      "psn": "",
-      "nicknameSecondary": "",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": []
-    },
-    {
       "name": "familydidoschy",
       "races": 3,
       "wins": 0,
@@ -664,25 +651,12 @@ window.RDA_DATA = {
       "championshipPodiums": []
     },
     {
-      "name": "Vimdav",
-      "races": 9,
+      "name": "PYX69",
+      "races": 7,
       "wins": 0,
-      "podiums": 1,
-      "elo": 543.0,
-      "ranking": 543.0,
-      "psn": "",
-      "nicknameSecondary": "",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": []
-    },
-    {
-      "name": "gallo_opc_2",
-      "races": 9,
-      "wins": 0,
-      "podiums": 2,
-      "elo": 485.0,
-      "ranking": 485.0,
+      "podiums": 0,
+      "elo": 559.17,
+      "ranking": 559.17,
       "psn": "",
       "nicknameSecondary": "",
       "nicknameRacing": "",
@@ -729,12 +703,12 @@ window.RDA_DATA = {
       "championshipPodiums": []
     },
     {
-      "name": "Onmanuel-Btw_09",
-      "races": 8,
+      "name": "Vimdav",
+      "races": 9,
       "wins": 0,
-      "podiums": 0,
-      "elo": 442.5,
-      "ranking": 442.5,
+      "podiums": 1,
+      "elo": 454.0,
+      "ranking": 454.0,
       "psn": "",
       "nicknameSecondary": "",
       "nicknameRacing": "",
@@ -755,19 +729,6 @@ window.RDA_DATA = {
       "championshipPodiums": []
     },
     {
-      "name": "a88312alfa",
-      "races": 8,
-      "wins": 0,
-      "podiums": 2,
-      "elo": 416.25,
-      "ranking": 416.25,
-      "psn": "",
-      "nicknameSecondary": "",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": []
-    },
-    {
       "name": "MaxMossa",
       "races": 5,
       "wins": 0,
@@ -781,12 +742,25 @@ window.RDA_DATA = {
       "championshipPodiums": []
     },
     {
-      "name": "G-BERNA",
+      "name": "gallo_opc_2",
       "races": 9,
       "wins": 0,
+      "podiums": 2,
+      "elo": 402.5,
+      "ranking": 402.5,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
+    },
+    {
+      "name": "Onmanuel-Btw_09",
+      "races": 8,
+      "wins": 0,
       "podiums": 0,
-      "elo": 398.0,
-      "ranking": 398.0,
+      "elo": 381.25,
+      "ranking": 381.25,
       "psn": "",
       "nicknameSecondary": "",
       "nicknameRacing": "",
@@ -807,12 +781,38 @@ window.RDA_DATA = {
       "championshipPodiums": []
     },
     {
+      "name": "G-BERNA",
+      "races": 9,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 324.0,
+      "ranking": 324.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
+    },
+    {
       "name": "xxsiculo96xx",
       "races": 4,
       "wins": 0,
       "podiums": 0,
       "elo": 320.0,
       "ranking": 320.0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
+    },
+    {
+      "name": "a88312alfa",
+      "races": 8,
+      "wins": 0,
+      "podiums": 2,
+      "elo": 318.12,
+      "ranking": 318.12,
       "psn": "",
       "nicknameSecondary": "",
       "nicknameRacing": "",
@@ -859,45 +859,6 @@ window.RDA_DATA = {
       "championshipPodiums": []
     },
     {
-      "name": "luglio88",
-      "races": 8,
-      "wins": 0,
-      "podiums": 1,
-      "elo": 178.33,
-      "ranking": 178.33,
-      "psn": "",
-      "nicknameSecondary": "",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": []
-    },
-    {
-      "name": "NICOLACI1966",
-      "races": 8,
-      "wins": 0,
-      "podiums": 1,
-      "elo": 155.83,
-      "ranking": 155.83,
-      "psn": "",
-      "nicknameSecondary": "",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": []
-    },
-    {
-      "name": "illibrosnavi",
-      "races": 5,
-      "wins": 0,
-      "podiums": 0,
-      "elo": 148.33,
-      "ranking": 148.33,
-      "psn": "",
-      "nicknameSecondary": "",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": []
-    },
-    {
       "name": "danilomarika89",
       "races": 4,
       "wins": 0,
@@ -924,12 +885,51 @@ window.RDA_DATA = {
       "championshipPodiums": []
     },
     {
+      "name": "luglio88",
+      "races": 8,
+      "wins": 0,
+      "podiums": 1,
+      "elo": 89.17,
+      "ranking": 89.17,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
+    },
+    {
       "name": "premanugito",
       "races": 3,
       "wins": 0,
       "podiums": 0,
       "elo": 86.67,
       "ranking": 86.67,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
+    },
+    {
+      "name": "NICOLACI1966",
+      "races": 8,
+      "wins": 0,
+      "podiums": 1,
+      "elo": 77.92,
+      "ranking": 77.92,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": []
+    },
+    {
+      "name": "illibrosnavi",
+      "races": 5,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 74.17,
+      "ranking": 74.17,
       "psn": "",
       "nicknameSecondary": "",
       "nicknameRacing": "",
@@ -995,8 +995,8 @@ window.RDA_DATA = {
     {
       "pos": 1,
       "name": "Spano19",
-      "elo": 1105.0,
-      "ranking": 1105.0,
+      "elo": 985.0,
+      "ranking": 985.0,
       "championships": 2,
       "races": 11
     },
@@ -1034,14 +1034,6 @@ window.RDA_DATA = {
     },
     {
       "pos": 6,
-      "name": "PYX69",
-      "elo": 613.33,
-      "ranking": 613.33,
-      "championships": 2,
-      "races": 7
-    },
-    {
-      "pos": 7,
       "name": "familydidoschy",
       "elo": 613.33,
       "ranking": 613.33,
@@ -1049,7 +1041,7 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 8,
+      "pos": 7,
       "name": "Caciotta_95",
       "elo": 560.0,
       "ranking": 560.0,
@@ -1057,23 +1049,15 @@ window.RDA_DATA = {
       "races": 3
     },
     {
+      "pos": 8,
+      "name": "PYX69",
+      "elo": 559.17,
+      "ranking": 559.17,
+      "championships": 2,
+      "races": 7
+    },
+    {
       "pos": 9,
-      "name": "Vimdav",
-      "elo": 543.0,
-      "ranking": 543.0,
-      "championships": 2,
-      "races": 9
-    },
-    {
-      "pos": 10,
-      "name": "gallo_opc_2",
-      "elo": 485.0,
-      "ranking": 485.0,
-      "championships": 2,
-      "races": 9
-    },
-    {
-      "pos": 11,
       "name": "Granata_93",
       "elo": 485.0,
       "ranking": 485.0,
@@ -1081,7 +1065,7 @@ window.RDA_DATA = {
       "races": 4
     },
     {
-      "pos": 12,
+      "pos": 10,
       "name": "brown_dsc",
       "elo": 480.0,
       "ranking": 480.0,
@@ -1089,7 +1073,7 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 13,
+      "pos": 11,
       "name": "Twitc_Simomazz86",
       "elo": 480.0,
       "ranking": 480.0,
@@ -1097,15 +1081,15 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 14,
-      "name": "Onmanuel-Btw_09",
-      "elo": 442.5,
-      "ranking": 442.5,
+      "pos": 12,
+      "name": "Vimdav",
+      "elo": 454.0,
+      "ranking": 454.0,
       "championships": 2,
-      "races": 8
+      "races": 9
     },
     {
-      "pos": 15,
+      "pos": 13,
       "name": "Izras1990",
       "elo": 420.0,
       "ranking": 420.0,
@@ -1113,15 +1097,7 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 16,
-      "name": "a88312alfa",
-      "elo": 416.25,
-      "ranking": 416.25,
-      "championships": 2,
-      "races": 8
-    },
-    {
-      "pos": 17,
+      "pos": 14,
       "name": "MaxMossa",
       "elo": 415.0,
       "ranking": 415.0,
@@ -1129,15 +1105,23 @@ window.RDA_DATA = {
       "races": 4
     },
     {
-      "pos": 18,
-      "name": "G-BERNA",
-      "elo": 398.0,
-      "ranking": 398.0,
+      "pos": 15,
+      "name": "gallo_opc_2",
+      "elo": 402.5,
+      "ranking": 402.5,
       "championships": 2,
       "races": 9
     },
     {
-      "pos": 19,
+      "pos": 16,
+      "name": "Onmanuel-Btw_09",
+      "elo": 381.25,
+      "ranking": 381.25,
+      "championships": 2,
+      "races": 8
+    },
+    {
+      "pos": 17,
       "name": "JONNYK7",
       "elo": 366.67,
       "ranking": 366.67,
@@ -1145,12 +1129,28 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 20,
+      "pos": 18,
+      "name": "G-BERNA",
+      "elo": 324.0,
+      "ranking": 324.0,
+      "championships": 2,
+      "races": 9
+    },
+    {
+      "pos": 19,
       "name": "xxsiculo96xx",
       "elo": 320.0,
       "ranking": 320.0,
       "championships": 1,
       "races": 4
+    },
+    {
+      "pos": 20,
+      "name": "a88312alfa",
+      "elo": 318.12,
+      "ranking": 318.12,
+      "championships": 2,
+      "races": 8
     },
     {
       "pos": 21,
@@ -1178,30 +1178,6 @@ window.RDA_DATA = {
     },
     {
       "pos": 24,
-      "name": "luglio88",
-      "elo": 178.33,
-      "ranking": 178.33,
-      "championships": 1,
-      "races": 6
-    },
-    {
-      "pos": 25,
-      "name": "NICOLACI1966",
-      "elo": 155.83,
-      "ranking": 155.83,
-      "championships": 1,
-      "races": 6
-    },
-    {
-      "pos": 26,
-      "name": "illibrosnavi",
-      "elo": 148.33,
-      "ranking": 148.33,
-      "championships": 1,
-      "races": 3
-    },
-    {
-      "pos": 27,
       "name": "danilomarika89",
       "elo": 120.0,
       "ranking": 120.0,
@@ -1209,7 +1185,7 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 28,
+      "pos": 25,
       "name": "Dom_78_furious",
       "elo": 113.33,
       "ranking": 113.33,
@@ -1217,10 +1193,34 @@ window.RDA_DATA = {
       "races": 3
     },
     {
-      "pos": 29,
+      "pos": 26,
+      "name": "luglio88",
+      "elo": 89.17,
+      "ranking": 89.17,
+      "championships": 1,
+      "races": 6
+    },
+    {
+      "pos": 27,
       "name": "premanugito",
       "elo": 86.67,
       "ranking": 86.67,
+      "championships": 1,
+      "races": 3
+    },
+    {
+      "pos": 28,
+      "name": "NICOLACI1966",
+      "elo": 77.92,
+      "ranking": 77.92,
+      "championships": 1,
+      "races": 6
+    },
+    {
+      "pos": 29,
+      "name": "illibrosnavi",
+      "elo": 74.17,
+      "ranking": 74.17,
       "championships": 1,
       "races": 3
     },
@@ -1288,7 +1288,7 @@ window.RDA_DATA = {
     "dayRace": "Gara 7",
     "champName": "TROFEO GR B 2026",
     "champClosed": false,
-    "champMaster": 500
+    "champMaster": 250
   },
   "completedRaces": [
     {
@@ -1300,7 +1300,7 @@ window.RDA_DATA = {
       "date": "04.08.2026",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "round": 1,
       "track": "Suzuka Circuit East Course",
       "status": "UFFICIALE"
@@ -1314,7 +1314,7 @@ window.RDA_DATA = {
       "date": "11.08.2026",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "round": 2,
       "track": "Lake Louise Long Track Reverse",
       "status": "UFFICIALE"
@@ -1328,7 +1328,7 @@ window.RDA_DATA = {
       "date": "18.08.2026",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "round": 3,
       "track": "Fishermans Ranch Reverse",
       "status": "UFFICIALE"
@@ -1342,7 +1342,7 @@ window.RDA_DATA = {
       "date": "25.08.2026",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "round": 4,
       "track": "Willow Springs International Raceway: Horse Thief Mile Reverse",
       "status": "UFFICIALE"
@@ -1356,7 +1356,7 @@ window.RDA_DATA = {
       "date": "01.09.2026",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "round": 5,
       "track": "Nurburgring 24h",
       "status": "UFFICIALE"
@@ -1398,7 +1398,7 @@ window.RDA_DATA = {
       "date": "08.09.2026",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "round": 6,
       "track": "Colorado Springs - Lake Reverse",
       "status": "UFFICIALE"
@@ -1440,7 +1440,7 @@ window.RDA_DATA = {
       "date": "15.09.2026",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "round": 7,
       "track": "Lake Louise Tri-Oval",
       "status": "UFFICIALE"
@@ -1871,7 +1871,7 @@ window.RDA_DATA = {
     {
       "id": 2,
       "name": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "officialRounds": 7,
       "closed": false,
       "standings": [
@@ -2171,7 +2171,7 @@ window.RDA_DATA = {
       "isoDate": "2026-09-15",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "gara": 7,
       "track": "Lake Louise Tri-Oval",
       "championshipClosed": false,
@@ -2826,7 +2826,7 @@ window.RDA_DATA = {
       "isoDate": "2026-09-08",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "gara": 6,
       "track": "Colorado Springs - Lake Reverse",
       "championshipClosed": false,
@@ -3529,7 +3529,7 @@ window.RDA_DATA = {
       "isoDate": "2026-09-01",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "gara": 5,
       "track": "Nurburgring 24h",
       "championshipClosed": false,
@@ -3614,7 +3614,7 @@ window.RDA_DATA = {
       "isoDate": "2026-08-25",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "gara": 4,
       "track": "Willow Springs International Raceway: Horse Thief Mile Reverse",
       "championshipClosed": false,
@@ -3683,7 +3683,7 @@ window.RDA_DATA = {
       "isoDate": "2026-08-18",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "gara": 3,
       "track": "Fishermans Ranch Reverse",
       "championshipClosed": false,
@@ -3816,7 +3816,7 @@ window.RDA_DATA = {
       "isoDate": "2026-08-11",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "gara": 2,
       "track": "Lake Louise Long Track Reverse",
       "championshipClosed": false,
@@ -3917,7 +3917,7 @@ window.RDA_DATA = {
       "isoDate": "2026-08-04",
       "title": "TROFEO GR B 2026",
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "gara": 1,
       "track": "Suzuka Circuit East Course",
       "championshipClosed": false,
@@ -4194,7 +4194,7 @@ window.RDA_DATA = {
     {
       "championshipId": 2,
       "championship": "TROFEO GR B 2026",
-      "master": 500,
+      "master": 250,
       "eventId": 17,
       "title": "TROFEO GR B 2026",
       "date": "2026-09-15",
