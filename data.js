@@ -8528,7 +8528,7 @@ window.RDA_DATA = {
       "championship": "WEC LMH LMDH CHAMPIONSHIP 2026",
       "championshipId": 4,
       "master": 1000,
-      "round": 0,
+      "round": "Finale",
       "gara": 0,
       "track": "Circuit Gilles-Villeneuve",
       "regulation": {
