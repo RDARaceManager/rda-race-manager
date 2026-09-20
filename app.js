@@ -136,7 +136,7 @@ function renderChampionships(){
 }
 
 
-function renderSelectedRace(index=0){const a=arr('raceArchive'),r=a[index];if(!r)return;$('#resultChamp').textContent=r.championship||'—';$('#resultRace').textContent=r.gara?`Gara ${r.gara}`:'—';$('#resultDate').textContent=r.date||'—';$('#resultTrack').textContent=r.track||'Circuito non indicato';$('#resultMaster').textContent=r.master?`RDA MASTER ${r.master}`:'—';const cols=[{label:'#',render:x=>`<span class="pos ${rankClass(x.pos)}">${x.pos}</span>`},{label:'Pilota',key:'name'},{label:'Auto',key:'car',cls:'hide-mobile'},{label:'Sessione',key:'session'},{label:'Tempo',key:'time'},{label:'Stato',render:x=>statusHtml(x.status)}];$('#resultsTable').innerHTML=table(r.results||[],cols,'Nessun risultato per questa gara');$('#podium').innerHTML=(r.results||[]).slice(0,3).map((x,i)=>`<div class="pod-card ${['first','second','third'][i]}"><div class="pod-rank">P${x.pos}</div><div class="pod-name">${x.name}</div><div class="pod-time">${x.time}</div></div>`).join('')}
+function renderSelectedRace(index=0){const a=arr('raceArchive'),r=a[index];if(!r)return;$('#resultChamp').textContent=r.championship||'—';$('#resultRace').textContent=r.gara?`Gara ${r.gara}`:'—';$('#resultDate').textContent=r.date||'—';$('#resultTrack').textContent=r.track||'Circuito non indicato';$('#resultMaster').textContent=r.master?`RDA MASTER ${r.master}`:'—';const cols=[{label:'#',render:x=>`<span class="pos ${rankClass(x.pos)}">${x.pos}</span>`},{label:'Pilota',key:'name'},{label:'Auto',key:'car',cls:'hide-mobile'},{label:'Sessione',key:'session'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:x=>statusHtml(x.status)}];$('#resultsTable').innerHTML=table(r.results||[],cols,'Nessun risultato per questa gara');$('#podium').innerHTML=(r.results||[]).slice(0,3).map((x,i)=>`<div class="pod-card ${['first','second','third'][i]}"><div class="pod-rank">P${x.pos}</div><div class="pod-name">${x.name}</div><div class="pod-time">${x.time}</div></div>`).join('')}
 function setupRaceArchive(){const a=arr('raceArchive'),s=$('#raceResultSelect');if(!s)return;s.innerHTML=a.length?a.map((r,i)=>`<option value="${i}">${r.date} • ${r.championship} • Gara ${r.gara} • ${r.track}</option>`).join(''):'<option>Nessuna gara ufficiale</option>';s.onchange=()=>renderSelectedRace(Number(s.value));if(a.length)renderSelectedRace(0)}
 function openRaceResult(eventId){go('results');const a=arr('raceArchive'),i=a.findIndex(r=>Number(r.eventId)===Number(eventId)),s=$('#raceResultSelect');if(s&&i>=0){s.value=String(i);renderSelectedRace(i)}}
 
@@ -151,7 +151,7 @@ function renderPodiumsByChampionship(){
 function render(){
   const day=arr('dayResults'), champ=arr('championship'), elo=arr('elo'), drivers=arr('drivers'), teams=arr('teams'), cons=arr('constructors');
   const meta=D.meta||{}, pday=arr('podiumDay'), pchamp=arr('podiumChampionship'), pm=D.podiumMeta||{};
-  const resultCols=[{label:'#',render:r=>`<span class="pos ${rankClass(r.pos)}">${r.pos}</span>`},{label:'Pilota',key:'name'},{label:'Auto',key:'car',cls:'hide-mobile'},{label:'Sessione',key:'session'},{label:'Tempo',key:'time'},{label:'Stato',render:r=>statusHtml(r.status)}];
+  const resultCols=[{label:'#',render:r=>`<span class="pos ${rankClass(r.pos)}">${r.pos}</span>`},{label:'Pilota',key:'name'},{label:'Auto',key:'car',cls:'hide-mobile'},{label:'Sessione',key:'session'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:r=>statusHtml(r.status)}];
   $('#homeResults').innerHTML=table(day.slice(0,5),resultCols,'Nessuna classifica pubblicata');
   $('#resultsTable').innerHTML=table(day,resultCols,'Nessun risultato ufficiale pubblicato');
   $('#podium').innerHTML=day.slice(0,3).map((r,i)=>`<div class="pod-card ${['first','second','third'][i]}"><div class="pod-rank">P${r.pos}</div><div class="pod-name">${r.name}</div><div class="pod-time">${r.time}</div></div>`).join('');
@@ -192,7 +192,7 @@ function renderChampionshipRaces(c){
  box.innerHTML=a.length?a.map(r=>`<button type="button" class="champ-race-btn" data-event="${r.eventId}"><b>${r.gara?`Gara ${r.gara}`:'Gara ufficiale'}</b><span>${r.date||''} • ${r.track||'Circuito non indicato'}</span><em>Apri risultati ›</em></button>`).join(''):emptyState('Nessuna gara ufficiale pubblicata');
  $$('#championshipRaces [data-event]').forEach(b=>b.onclick=()=>openRaceResult(b.dataset.event));
 }
-function openDriverCard(name){const d=arr('drivers').find(x=>x.name===name);if(!d)return;const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div><h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;go('drivercard')}
+function openDriverCard(name){const d=arr('drivers').find(x=>x.name===name);if(!d)return;const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div>${rdaLicenceCard(d)}<h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;go('drivercard')}
 function renderTrackRecords(q=''){const a=arr('trackRecords').filter(x=>x.track.toLowerCase().includes(q.toLowerCase()));$('#trackRecordCards').innerHTML=a.length?a.map(x=>`<article class="record-card panel"><div class="record-map"><img src="${mapFileForTrack(x.track)}" alt="Sagoma ${x.track}" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">Sagoma non disponibile</span></div><div><div class="eyebrow">RECORD RDA</div><h3>${x.track}</h3><strong class="record-time">${x.time}</strong><p>🏎️ ${x.driver}<br>${x.car}<br><small>${x.championship} • ${x.date}</small></p></div></article>`).join(''):emptyState('Nessun record circuito disponibile')}
 const trs=$('#trackRecordSearch');if(trs)trs.addEventListener('input',e=>renderTrackRecords(e.target.value));
 setTimeout(()=>renderTrackRecords(),0);
@@ -203,3 +203,20 @@ function landscapeAuto(){clearTimeout(navTimer);if(matchMedia('(orientation: lan
 if(reveal)reveal.onclick=()=>{setNavHidden(false);landscapeAuto()};
 window.addEventListener('scroll',()=>{const y=window.scrollY;if(y>lastY+8&&y>80)setNavHidden(true);else if(y<lastY-8)setNavHidden(false);lastY=y},{passive:true});
 window.addEventListener('orientationchange',landscapeAuto);landscapeAuto();
+
+// Patch separata Penalità RDA rev.2: solo dati pubblici, nessuna nota interna.
+function rdaEscape(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function rdaPenaltyTime(r){
+  const status=String(r.status||'').trim();
+  const lapped=/^\+?\s*[1-9]\d*\s*(?:gir[oi]|laps?)$/i.test(status);
+  const time=rdaEscape(lapped&&(!r.time||r.time==='—')?status:(r.time||'—'));
+  if(!r.rdaLabel)return time;
+  const original=Number(r.rdaSeconds)>0&&r.originalTime?`<br><small>Senza RDA: ${rdaEscape(r.originalTime)}</small>`:'';
+  return `<span style="white-space:normal">${time}<br><small>${rdaEscape(r.rdaLabel)}</small>${original}</span>`;
+}
+function rdaLicenceCard(d){
+  const p=Number(d.rdaLicencePoints??10), n=Number(d.rdaPenaltyCount??0);
+  const points=Number.isFinite(p)?Math.max(0,Math.min(10,Math.trunc(p))):10;
+  const count=Number.isFinite(n)?Math.max(0,Math.trunc(n)):0;
+  return `<h3>Patente RDA</h3><div class="identity-stats"><span>Punti Patente RDA: <b>${points} / 10</b></span><span>Penalità RDA ricevute: <b>${count}</b></span></div>`;
+}
