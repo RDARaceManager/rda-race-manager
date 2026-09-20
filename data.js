@@ -40,7 +40,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "30:22.561",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 2,
@@ -48,7 +53,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "30:23.779",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 3,
@@ -56,7 +66,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "21:00",
       "time": "30:32.435",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 4,
@@ -64,7 +79,12 @@ window.RDA_DATA = {
       "car": "Beetle Gr.3",
       "session": "18:00",
       "time": "30:38.198",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 5,
@@ -72,7 +92,12 @@ window.RDA_DATA = {
       "car": "911 RSR (991) '17",
       "session": "18:00",
       "time": "30:43.451",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 6,
@@ -80,7 +105,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "21:00",
       "time": "30:46.698",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 7,
@@ -88,7 +118,12 @@ window.RDA_DATA = {
       "car": "Beetle Gr.3",
       "session": "18:00",
       "time": "30:47.844",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 8,
@@ -96,7 +131,12 @@ window.RDA_DATA = {
       "car": "Beetle Gr.3",
       "session": "18:00",
       "time": "30:51.433",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 9,
@@ -104,7 +144,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "21:00",
       "time": "30:54.325",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 10,
@@ -112,7 +157,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "21:00",
       "time": "30:54.529",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 11,
@@ -120,7 +170,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "30:57.031",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 12,
@@ -128,7 +183,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "30:58.851",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 13,
@@ -136,7 +196,12 @@ window.RDA_DATA = {
       "car": "911 RSR (991) '17",
       "session": "15:00",
       "time": "31:07.034",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 14,
@@ -144,7 +209,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "31:15.731",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 15,
@@ -152,7 +222,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "31:18.855",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 16,
@@ -160,7 +235,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "31:19.469",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 17,
@@ -168,7 +248,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "21:00",
       "time": "31:19.479",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 18,
@@ -176,7 +261,12 @@ window.RDA_DATA = {
       "car": "911 RSR (991) '17",
       "session": "21:00",
       "time": "31:19.880",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 19,
@@ -184,7 +274,12 @@ window.RDA_DATA = {
       "car": "RC F GT3 '17",
       "session": "23:00",
       "time": "31:21.125",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 20,
@@ -192,7 +287,12 @@ window.RDA_DATA = {
       "car": "911 RSR (991) '17",
       "session": "15:00",
       "time": "31:23.366",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 21,
@@ -200,7 +300,12 @@ window.RDA_DATA = {
       "car": "BRZ GT300 '21",
       "session": "18:00",
       "time": "31:27.266",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 22,
@@ -208,7 +313,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "31:31.424",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 23,
@@ -216,7 +326,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "23:00",
       "time": "31:31.527",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 24,
@@ -224,7 +339,12 @@ window.RDA_DATA = {
       "car": "Atenza Gr.3",
       "session": "15:00",
       "time": "31:42.110",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 25,
@@ -232,7 +352,12 @@ window.RDA_DATA = {
       "car": "911 RSR (991) '17",
       "session": "15:00",
       "time": "31:59.209",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 26,
@@ -240,7 +365,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "21:00",
       "time": "32:01.168",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 27,
@@ -248,7 +378,12 @@ window.RDA_DATA = {
       "car": "Genesis Gr.3",
       "session": "21:00",
       "time": "32:01.313",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 28,
@@ -256,23 +391,38 @@ window.RDA_DATA = {
       "car": "911 RSR (991) '17",
       "session": "21:00",
       "time": "32:11.681",
-      "status": "FINITO"
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     },
     {
       "pos": 29,
-      "name": "r4r4r4r4r4r5",
-      "car": "FT-1 VGT (Gr.3)",
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro"
-    },
-    {
-      "pos": 30,
       "name": "danilomarika89",
       "car": "Genesis Gr.3",
       "session": "21:00",
       "time": "—",
-      "status": "1 giro"
+      "status": "1 giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 30,
+      "name": "r4r4r4r4r4r5",
+      "car": "FT-1 VGT (Gr.3)",
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 180,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "Penalità RDA +3 min",
+      "originalTime": ""
     },
     {
       "pos": 31,
@@ -280,7 +430,12 @@ window.RDA_DATA = {
       "car": "296 GT3 '23",
       "session": "21:00",
       "time": "—",
-      "status": "1 giro"
+      "status": "1 giro",
+      "rdaSeconds": 180,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "Penalità RDA +3 min",
+      "originalTime": ""
     },
     {
       "pos": 32,
@@ -288,7 +443,12 @@ window.RDA_DATA = {
       "car": "Lancer Evolution Final Gr.3",
       "session": "18:00",
       "time": "—",
-      "status": "DNF"
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
     }
   ],
   "championship": [
@@ -988,7 +1148,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "forte984riso",
@@ -1001,7 +1163,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "SpeedSparco",
@@ -1014,7 +1178,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Svenom_21",
@@ -1027,7 +1193,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "familydidoschy",
@@ -1040,7 +1208,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Caciotta_95",
@@ -1053,7 +1223,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "MaxMossa",
@@ -1066,7 +1238,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "brown_dsc",
@@ -1079,7 +1253,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "PYX69",
@@ -1092,7 +1268,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "gallo_opc_2",
@@ -1105,7 +1283,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Twitc_Simomazz86",
@@ -1118,7 +1298,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Granata_93",
@@ -1131,7 +1313,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Vimdav",
@@ -1144,7 +1328,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "JONNYK7",
@@ -1157,7 +1343,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "xxsiculo96xx",
@@ -1170,7 +1358,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "andrecalimero73",
@@ -1183,7 +1373,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Knowhere_7",
@@ -1196,7 +1388,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "NICOLACI1966",
@@ -1209,7 +1403,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "G-BERNA",
@@ -1222,7 +1418,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "a88312alfa",
@@ -1235,7 +1433,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Onmanuel-Btw_09",
@@ -1248,7 +1448,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "streetracer2701",
@@ -1261,7 +1463,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Izras1990",
@@ -1274,7 +1478,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "LordAki_88",
@@ -1287,7 +1493,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "giorobert",
@@ -1300,7 +1508,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "JoeMan-17",
@@ -1313,7 +1523,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "jnior_billokillo",
@@ -1326,7 +1538,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Cinciripini79",
@@ -1339,7 +1553,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "danwolk_68",
@@ -1352,7 +1568,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "illibrosnavi",
@@ -1365,7 +1583,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "stoccametuttu",
@@ -1378,7 +1598,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "luglio88",
@@ -1391,7 +1613,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Dom_78_furious",
@@ -1404,7 +1628,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Mauri8156",
@@ -1417,7 +1643,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Chico_G_70",
@@ -1430,7 +1658,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "blmta73",
@@ -1443,7 +1673,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "icehands1968_",
@@ -1456,7 +1688,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Pasky_Alfa",
@@ -1469,7 +1703,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "lamonaca72",
@@ -1482,7 +1718,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "tony123230",
@@ -1495,7 +1733,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "VanMike91",
@@ -1508,7 +1748,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "lucap1969",
@@ -1521,7 +1763,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "danilomarika89",
@@ -1534,7 +1778,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "premanugito",
@@ -1547,7 +1793,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "ninok_90",
@@ -1560,7 +1808,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "MikaelDubbio",
@@ -1573,7 +1823,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Ivlaisdead",
@@ -1586,7 +1838,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "ICIOmnt",
@@ -1599,7 +1853,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "Aktarus1970",
@@ -1612,7 +1868,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "ony89traccia",
@@ -1625,7 +1883,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "AL1EN__999",
@@ -1638,7 +1898,9 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     },
     {
       "name": "XxGGGIOCATORE23x",
@@ -1651,7 +1913,1614 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": []
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "a395d71",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ajejebrazovv",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "aleporto1986",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Alessin",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "alexpec83",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "AndrePuddu",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Anticlericale",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "antonio_str",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "anymousys",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "aquila-doro-",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ARAL-500",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ArrowFinder",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "asso_angolato",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "AT29Andrea",
+      "races": 2,
+      "wins": 0,
+      "podiums": 2,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "BelleAbarth-FNX",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Blade78RSV1000",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Bomber_dragons",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "BRG_MarPat",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "BrownZed",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Brunetto87347",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "bwt_Banana33",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Caligola92",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "cancan_aspro",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "canter60dc",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "carolatheboss",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Ciaco60",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ciano7757",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Cicco_24_",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Colin",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "dado1381",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Danielecomito",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "danies1987-danie",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "DaniMarsi18",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "diegocasti82",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Donato-il-biondo",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "drago_1992",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "emiliano160181",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "enricoliotta",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ERT_G_Ap83",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "fia_nero",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "FintoBomber",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Flavio_Nicolazzi",
+      "races": 2,
+      "wins": 1,
+      "podiums": 1,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "FrenkMpower",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "gancio-criptico",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "gens78x",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ghostman_79",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Giaguaroevo10",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Gilimat98",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "guidojr",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "HerrCipolla92",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "hook741",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "imbatt1980",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "infagon",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "jack-wrangler",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "jacksirius",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "lcecube_Dj",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Liqu1dSn4k3",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "LRT_HULK",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 1
+    },
+    {
+      "name": "LupoCarletti_",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "LYRAT-900",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "MadGiulia98",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "magnitu",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "marcoalparco",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "MAURIZIOEXROCCIA",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "mikelitos",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Mirkuzzeio",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "MMRT_CERQUI83",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "NAPALM-NPL",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ndrazza46",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "NicolaCirotto",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ninosalamone",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "NMT_ZioSalvo",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Orsetto63",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Orzowei73",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Peppe_C00",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Picar87",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Pilu670",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Pirata_Nando",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "pizzasario",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Pmoli65",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "r4r4r4r4r4r5",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 1
+    },
+    {
+      "name": "RacerbeOne",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "realquadraro",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "RIcciolo80",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Rossoantonio75",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "RTH_Morry36",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "RTH_Yattaman373",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Sacks77",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "salva_puccio98",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "sorgialon",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Speed-Z06R",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Squilybrio",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "stex_dndm",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "supercucca",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "syokaku80",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "teamanuel",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "testardo-cortese",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Tommaso9777",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Tommy_2107_TS",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Tony-85-08",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "torre-91",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "UBy20_97",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "ukkioPinasco",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "varvolina",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "W1LL0_99",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Wo_dete_oW",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "XanderMich",
+      "races": 2,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
     }
   ],
   "teams": [],
@@ -3803,7 +5672,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "30:22.561",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -3811,7 +5685,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "30:23.779",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -3819,7 +5698,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "30:32.435",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -3827,7 +5711,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "30:38.198",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -3835,7 +5724,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "18:00",
           "time": "30:43.451",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -3843,7 +5737,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "30:46.698",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -3851,7 +5750,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "30:47.844",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -3859,7 +5763,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "30:51.433",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -3867,7 +5776,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "30:54.325",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -3875,7 +5789,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "30:54.529",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -3883,7 +5802,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "30:57.031",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -3891,7 +5815,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "30:58.851",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -3899,7 +5828,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "15:00",
           "time": "31:07.034",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -3907,7 +5841,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:15.731",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -3915,7 +5854,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:18.855",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -3923,7 +5867,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:19.469",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -3931,7 +5880,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:19.479",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -3939,7 +5893,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "21:00",
           "time": "31:19.880",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -3947,7 +5906,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "23:00",
           "time": "31:21.125",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -3955,7 +5919,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "15:00",
           "time": "31:23.366",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -3963,7 +5932,12 @@ window.RDA_DATA = {
           "car": "BRZ GT300 '21",
           "session": "18:00",
           "time": "31:27.266",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -3971,7 +5945,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:31.424",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -3979,7 +5958,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:31.527",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -3987,7 +5971,12 @@ window.RDA_DATA = {
           "car": "Atenza Gr.3",
           "session": "15:00",
           "time": "31:42.110",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -3995,7 +5984,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "15:00",
           "time": "31:59.209",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -4003,7 +5997,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "32:01.168",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -4011,7 +6010,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "32:01.313",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -4019,23 +6023,38 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "21:00",
           "time": "32:11.681",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 29,
-          "name": "r4r4r4r4r4r5",
-          "car": "FT-1 VGT (Gr.3)",
-          "session": "23:00",
-          "time": "—",
-          "status": "1giro"
-        },
-        {
-          "pos": 30,
           "name": "danilomarika89",
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 30,
+          "name": "r4r4r4r4r4r5",
+          "car": "FT-1 VGT (Gr.3)",
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 180,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "Penalità RDA +3 min",
+          "originalTime": ""
         },
         {
           "pos": 31,
@@ -4043,7 +6062,12 @@ window.RDA_DATA = {
           "car": "296 GT3 '23",
           "session": "21:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 180,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "Penalità RDA +3 min",
+          "originalTime": ""
         },
         {
           "pos": 32,
@@ -4051,7 +6075,12 @@ window.RDA_DATA = {
           "car": "Lancer Evolution Final Gr.3",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -4072,7 +6101,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "34:12.774",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -4080,7 +6114,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "34:38.763",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -4088,7 +6127,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "34:45.231",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -4096,7 +6140,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "34:45.908",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -4104,7 +6153,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "34:47.616",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -4112,7 +6166,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "34:53.203",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -4120,7 +6179,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:00.724",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -4128,7 +6192,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:04.825",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -4136,7 +6205,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:09.141",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -4144,7 +6218,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:27.823",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -4152,7 +6231,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:32.925",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -4160,7 +6244,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:37.603",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -4168,7 +6257,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:38.710",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -4176,7 +6270,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:39.906",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -4184,7 +6283,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:48.871",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -4192,7 +6296,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:52.432",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -4200,7 +6309,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "35:58.612",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -4208,7 +6322,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -4216,7 +6335,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -4237,7 +6361,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "23:37.566",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -4245,7 +6374,12 @@ window.RDA_DATA = {
           "car": "WRX Gr.B Rally Car",
           "session": "18:00",
           "time": "24:03.190",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -4253,7 +6387,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "24:32.754",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -4261,7 +6400,12 @@ window.RDA_DATA = {
           "car": "Focus Gr.B Rally Car",
           "session": "18:00",
           "time": "24:38.556",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -4269,7 +6413,12 @@ window.RDA_DATA = {
           "car": "86 Gr.B Rally Car",
           "session": "18:00",
           "time": "24:39.143",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -4277,7 +6426,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "18:00",
           "time": "24:46.396",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -4285,7 +6439,12 @@ window.RDA_DATA = {
           "car": "205 Turbo 16 Evolution 2 '86",
           "session": "18:00",
           "time": "24:49.086",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -4293,7 +6452,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -4301,7 +6465,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "18:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -4309,7 +6478,12 @@ window.RDA_DATA = {
           "car": "Lancer Evolution Final Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -4330,7 +6504,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:39.208",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -4338,7 +6517,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "23:00",
           "time": "31:39.359",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -4346,7 +6530,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:41.311",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -4354,7 +6543,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:42.468",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -4362,7 +6556,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "31:48.604",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -4370,7 +6569,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:50.268",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -4378,7 +6582,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:53.332",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -4386,7 +6595,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:54.506",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -4394,7 +6608,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:55.294",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -4402,7 +6621,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "31:57.663",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -4410,7 +6634,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "31:58.929",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -4418,7 +6647,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "31:59.554",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -4426,7 +6660,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:59.774",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -4434,7 +6673,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "18:00",
           "time": "32:04.748",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -4442,7 +6686,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "32:15.256",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -4450,7 +6699,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "32:16.501",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -4458,7 +6712,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "32:22.816",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -4466,7 +6725,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "18:00",
           "time": "32:23.170",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -4474,7 +6738,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "32:24.381",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -4482,7 +6751,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "32:24.647",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -4490,7 +6764,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "21:00",
           "time": "32:26.991",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -4498,7 +6777,12 @@ window.RDA_DATA = {
           "car": "GR Supra Racing Concept '18",
           "session": "23:00",
           "time": "32:32.178",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -4506,7 +6790,12 @@ window.RDA_DATA = {
           "car": "458 Italia GT3 '13",
           "session": "18:00",
           "time": "32:36.360",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -4514,7 +6803,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "33:26.895",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -4522,7 +6816,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "33:31.523",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -4530,7 +6829,12 @@ window.RDA_DATA = {
           "car": "458 Italia GT3 '13",
           "session": "23:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -4538,7 +6842,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "23:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -4546,7 +6855,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 29,
@@ -4554,7 +6868,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "23:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -4575,7 +6894,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "30:54.267",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -4583,7 +6907,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "30:57.635",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -4591,7 +6920,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "30:59.931",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -4599,7 +6933,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:00.532",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -4607,7 +6946,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:08.438",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -4615,7 +6959,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "31:09.961",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -4623,7 +6972,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:11.259",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -4631,7 +6985,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:14.966",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -4639,7 +6998,12 @@ window.RDA_DATA = {
           "car": "Genesis X GR3",
           "session": "18:00",
           "time": "31:15.145",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -4647,7 +7011,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "23:00",
           "time": "31:17.811",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -4655,7 +7024,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "15:00",
           "time": "31:17.975",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -4663,7 +7037,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:18.497",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -4671,7 +7050,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:19.954",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -4679,7 +7063,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "18:00",
           "time": "31:20.476",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -4687,7 +7076,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "31:26.285",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -4695,7 +7089,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "31:28.813",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -4703,7 +7102,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "15:00",
           "time": "31:35.670",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -4711,7 +7115,12 @@ window.RDA_DATA = {
           "car": "Genesis X GR3",
           "session": "21:00",
           "time": "31:37.604",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -4719,7 +7128,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "31:37.804",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -4727,7 +7141,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "31:37.846",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -4735,7 +7154,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "31:45.195",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -4743,7 +7167,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "31:46.142",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -4751,7 +7180,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "15:00",
           "time": "31:53.503",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -4759,7 +7193,12 @@ window.RDA_DATA = {
           "car": "4C Gr.3",
           "session": "18:00",
           "time": "32:02.243",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -4767,7 +7206,12 @@ window.RDA_DATA = {
           "car": "4C Gr.3",
           "session": "18:00",
           "time": "32:06.351",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -4775,7 +7219,12 @@ window.RDA_DATA = {
           "car": "Genesis X GR3",
           "session": "18:00",
           "time": "32:09.123",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -4783,7 +7232,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "32:21.869",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -4791,7 +7245,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "32:22.453",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 29,
@@ -4799,7 +7258,12 @@ window.RDA_DATA = {
           "car": "BRZ GT300 '21",
           "session": "15:00",
           "time": "32:29.490",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 30,
@@ -4807,7 +7271,12 @@ window.RDA_DATA = {
           "car": "M6 GT3 Sprint Model '16",
           "session": "18:00",
           "time": "32:30.334",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 31,
@@ -4815,7 +7284,12 @@ window.RDA_DATA = {
           "car": "296 GT3 '23",
           "session": "18:00",
           "time": "32:43.803",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 32,
@@ -4823,7 +7297,12 @@ window.RDA_DATA = {
           "car": "Ford GT LM Race Car Spec II",
           "session": "15:00",
           "time": "32:50.124",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 33,
@@ -4831,7 +7310,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 34,
@@ -4839,7 +7323,12 @@ window.RDA_DATA = {
           "car": "Lancer Evolution Final Gr.3",
           "session": "21:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 35,
@@ -4847,7 +7336,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 36,
@@ -4855,7 +7349,12 @@ window.RDA_DATA = {
           "car": "M3 GT '11",
           "session": "23:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 37,
@@ -4863,7 +7362,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 38,
@@ -4871,7 +7375,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -4892,7 +7401,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "37:25.496",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -4900,7 +7414,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "37:38.344",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -4908,7 +7427,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "37:42.520",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -4916,7 +7440,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "37:45.650",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -4924,7 +7453,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "37:51.541",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -4932,7 +7466,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:05.356",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -4940,7 +7479,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:05.367",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -4948,7 +7492,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:11.715",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -4956,7 +7505,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:13.142",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -4964,7 +7518,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:14.296",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -4972,7 +7531,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:14.685",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -4980,7 +7544,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:15.290",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -4988,7 +7557,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:17.262",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -4996,7 +7570,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:19.269",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -5004,7 +7583,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:26.721",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -5012,7 +7596,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:27.504",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -5020,7 +7609,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:43.727",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -5028,7 +7622,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:45.775",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -5036,7 +7635,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "38:46.317",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -5044,7 +7648,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "39:05.567",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -5052,7 +7661,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "39:14.728",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -5060,7 +7674,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "39:54.326",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -5068,7 +7687,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -5076,7 +7700,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -5084,7 +7713,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -5092,7 +7726,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "18:00",
           "time": "—",
-          "status": "DSQ"
+          "status": "DSQ",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -5113,7 +7752,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "23:37.663",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -5121,7 +7765,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "23:00",
           "time": "23:41.089",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -5129,7 +7778,12 @@ window.RDA_DATA = {
           "car": "RCZ Gr.B Rally Car",
           "session": "18:00",
           "time": "23:42.121",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -5137,7 +7791,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "24:16.457",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -5145,7 +7804,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "24:17.393",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -5153,7 +7817,12 @@ window.RDA_DATA = {
           "car": "205 Turbo 16 Evolution 2 '86",
           "session": "23:00",
           "time": "24:31.015",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -5161,7 +7830,12 @@ window.RDA_DATA = {
           "car": "RCZ Gr.B Rally Car",
           "session": "18:00",
           "time": "24:51.560",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -5169,7 +7843,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "25:04.056",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -5177,7 +7856,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -5185,7 +7869,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -5193,7 +7882,12 @@ window.RDA_DATA = {
           "car": "Impreza Rally Car '98",
           "session": "23:00",
           "time": "—",
-          "status": "2giri"
+          "status": "2giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -5201,7 +7895,12 @@ window.RDA_DATA = {
           "car": "Impreza Rally Car '98",
           "session": "18:00",
           "time": "—",
-          "status": "2 giri"
+          "status": "2 giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -5209,7 +7908,12 @@ window.RDA_DATA = {
           "car": "WRX Gr.B Rally Car",
           "session": "23:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -5217,7 +7921,12 @@ window.RDA_DATA = {
           "car": "WRX Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -5225,7 +7934,12 @@ window.RDA_DATA = {
           "car": "Lancer Evolution Final Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -5246,7 +7960,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "32:27.058",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -5254,7 +7973,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "32:35.460",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -5262,7 +7986,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "23:00",
           "time": "32:35.677",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -5270,7 +7999,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "32:38.598",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -5278,7 +8012,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "18:00",
           "time": "32:49.811",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -5286,7 +8025,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "32:54.253",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -5294,7 +8038,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "32:55.146",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -5302,7 +8051,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "32:59.065",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -5310,7 +8064,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "23:00",
           "time": "32:59.267",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -5318,7 +8077,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "15:00",
           "time": "33:04.576",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -5326,7 +8090,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "33:10.361",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -5334,7 +8103,12 @@ window.RDA_DATA = {
           "car": "458 Italia GT3 '13",
           "session": "18:00",
           "time": "33:12.368",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -5342,7 +8116,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "21:00",
           "time": "33:12.964",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -5350,7 +8129,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "15:00",
           "time": "33:15.517",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -5358,7 +8142,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "33:17.452",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -5366,7 +8155,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "23:00",
           "time": "33:19.106",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -5374,7 +8168,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "33:19.587",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -5382,7 +8181,12 @@ window.RDA_DATA = {
           "car": "NSX GT500 '00",
           "session": "18:00",
           "time": "33:23.316",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -5390,7 +8194,12 @@ window.RDA_DATA = {
           "car": "458 Italia GT3 '13",
           "session": "21:00",
           "time": "33:23.405",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -5398,7 +8207,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "33:27.762",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -5406,7 +8220,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "33:43.666",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -5414,7 +8233,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "18:00",
           "time": "33:53.937",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -5422,7 +8246,12 @@ window.RDA_DATA = {
           "car": "Ford GT Race Car '18",
           "session": "15:00",
           "time": "33:55.778",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -5430,7 +8259,12 @@ window.RDA_DATA = {
           "car": "BRZ GT300 '21",
           "session": "15:00",
           "time": "33:58.832",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -5438,7 +8272,12 @@ window.RDA_DATA = {
           "car": "296 GT3 '23",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -5446,7 +8285,12 @@ window.RDA_DATA = {
           "car": "NSX GT500 '00",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -5454,7 +8298,12 @@ window.RDA_DATA = {
           "car": "GR Supra Racing Concept '18",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -5462,7 +8311,12 @@ window.RDA_DATA = {
           "car": "SLS AMG GT3 '11",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 29,
@@ -5470,7 +8324,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 30,
@@ -5478,7 +8337,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "21:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 31,
@@ -5486,7 +8350,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 32,
@@ -5494,7 +8363,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 33,
@@ -5502,7 +8376,12 @@ window.RDA_DATA = {
           "car": "GR Supra Racing Concept '18",
           "session": "23:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 34,
@@ -5510,7 +8389,12 @@ window.RDA_DATA = {
           "car": "R8 LMS Evo '19",
           "session": "15:00",
           "time": "—",
-          "status": "2 giri"
+          "status": "2 giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 35,
@@ -5518,7 +8402,12 @@ window.RDA_DATA = {
           "car": "R8 LMS Evo '19",
           "session": "21:00",
           "time": "—",
-          "status": "2 giri"
+          "status": "2 giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 36,
@@ -5526,7 +8415,12 @@ window.RDA_DATA = {
           "car": "RC F GT3 '17",
           "session": "21:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 37,
@@ -5534,7 +8428,12 @@ window.RDA_DATA = {
           "car": "296 GT3 '23",
           "session": "21:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 38,
@@ -5542,7 +8441,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 39,
@@ -5550,7 +8454,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "23:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 40,
@@ -5558,7 +8467,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "23:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -5579,7 +8493,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "34:06.421",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -5587,7 +8506,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "23:00",
           "time": "34:09.166",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -5595,7 +8519,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "34:13.041",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -5603,7 +8532,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "21:00",
           "time": "34:14.264",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -5611,7 +8545,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "34:23.673",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -5619,7 +8558,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "15:00",
           "time": "34:24.044",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -5627,7 +8571,12 @@ window.RDA_DATA = {
           "car": "M6 GT3 Sprint Model '16",
           "session": "15:00",
           "time": "34:24.216",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -5635,7 +8584,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "34:28.780",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -5643,7 +8597,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "34:29.666",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -5651,7 +8610,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "34:31.660",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -5659,7 +8623,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "18:00",
           "time": "34:32.293",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -5667,7 +8636,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "18:00",
           "time": "34:35.930",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -5675,7 +8649,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "34:39.671",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -5683,7 +8662,12 @@ window.RDA_DATA = {
           "car": "911 RSR (991) '17",
           "session": "23:00",
           "time": "34:44.543",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -5691,7 +8675,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "21:00",
           "time": "34:46.470",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -5699,7 +8688,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "21:00",
           "time": "34:50.720",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -5707,7 +8701,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "34:50.810",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -5715,7 +8714,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "34:57.101",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -5723,7 +8727,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "18:00",
           "time": "34:57.816",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -5731,7 +8740,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "21:00",
           "time": "35:08.678",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -5739,7 +8753,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "35:10.555",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -5747,7 +8766,12 @@ window.RDA_DATA = {
           "car": "Genesis Gr.3",
           "session": "15:00",
           "time": "35:16.715",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -5755,7 +8779,12 @@ window.RDA_DATA = {
           "car": "M6 GT3 Sprint Model '16",
           "session": "15:00",
           "time": "35:38.616",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -5763,7 +8792,12 @@ window.RDA_DATA = {
           "car": "M6 GT3 Sprint Model '16",
           "session": "21:00",
           "time": "35:46.959",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -5771,7 +8805,12 @@ window.RDA_DATA = {
           "car": "McLaren F1 GTR - BMW '95",
           "session": "15:00",
           "time": "35:57.600",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -5779,7 +8818,12 @@ window.RDA_DATA = {
           "car": "Beetle Gr.3",
           "session": "23:00",
           "time": "35:59.673",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -5787,7 +8831,12 @@ window.RDA_DATA = {
           "car": "GT-R NISMO GT3 '13",
           "session": "15:00",
           "time": "36:02.408",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -5795,7 +8844,12 @@ window.RDA_DATA = {
           "car": "F-type Gr.3",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -5816,7 +8870,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:51.556",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -5824,7 +8883,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:54.883",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -5832,7 +8896,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:55.606",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -5840,7 +8909,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:02.432",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -5848,7 +8922,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:02.731",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -5856,7 +8935,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:09.281",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -5864,7 +8948,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:09.950",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -5872,7 +8961,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:13.194",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -5880,7 +8974,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:18.473",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -5888,7 +8987,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:21.059",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -5896,7 +9000,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:28.585",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -5904,7 +9013,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:30.070",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -5912,7 +9026,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -5920,7 +9039,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -5928,7 +9052,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -5936,7 +9065,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -5944,7 +9078,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -5952,7 +9091,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -5960,7 +9104,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "2 giri"
+          "status": "2 giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -5968,7 +9117,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "2 giri"
+          "status": "2 giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -5976,7 +9130,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DSQ"
+          "status": "DSQ",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -5997,7 +9156,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "36:45.688",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -6005,7 +9169,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "23:00",
           "time": "37:40.669",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -6013,7 +9182,12 @@ window.RDA_DATA = {
           "car": "205 Turbo 16 Evolution 2 '86",
           "session": "23:00",
           "time": "38:06.711",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -6021,7 +9195,12 @@ window.RDA_DATA = {
           "car": "Lancer Evolution Final Gr.B Rally Car",
           "session": "18:00",
           "time": "38:11.975",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -6029,7 +9208,12 @@ window.RDA_DATA = {
           "car": "WRX Gr.B Rally Car",
           "session": "18:00",
           "time": "38:12.674",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -6037,7 +9221,12 @@ window.RDA_DATA = {
           "car": "RCZ Gr.B Rally Car",
           "session": "18:00",
           "time": "38:25.985",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -6045,7 +9234,12 @@ window.RDA_DATA = {
           "car": "Focus Gr.B Rally Car",
           "session": "18:00",
           "time": "38:30.196",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -6053,7 +9247,12 @@ window.RDA_DATA = {
           "car": "Impreza Rally Car '98",
           "session": "23:00",
           "time": "40:31.472",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -6061,7 +9260,12 @@ window.RDA_DATA = {
           "car": "Lancer Evolution Final Gr.B Rally Car",
           "session": "23:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -6082,7 +9286,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:04.373",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -6090,7 +9299,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:14.106",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -6098,7 +9312,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:14.605",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -6106,7 +9325,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:15.376",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -6114,7 +9338,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:22.395",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -6122,7 +9351,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:29.386",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -6130,7 +9364,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:37.210",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -6138,7 +9377,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:40.059",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -6146,7 +9390,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:40.762",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -6154,7 +9403,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:44.488",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -6162,7 +9416,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:54.997",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -6170,7 +9429,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:56.598",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -6178,7 +9442,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:00.929",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -6186,7 +9455,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:02.788",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -6194,7 +9468,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -6202,7 +9481,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -6210,7 +9494,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -6218,7 +9507,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -6239,7 +9533,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "18:06.016",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -6247,7 +9546,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "18:24.805",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -6255,7 +9559,12 @@ window.RDA_DATA = {
           "car": "RCZ Gr.B Rally Car",
           "session": "18:00",
           "time": "18:32.343",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -6263,7 +9572,12 @@ window.RDA_DATA = {
           "car": "Focus Gr.B Rally Car",
           "session": "18:00",
           "time": "18:35.867",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -6271,7 +9585,12 @@ window.RDA_DATA = {
           "car": "WRX Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -6279,7 +9598,12 @@ window.RDA_DATA = {
           "car": "Focus Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -6287,7 +9611,12 @@ window.RDA_DATA = {
           "car": "Focus Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "2giri"
+          "status": "2giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -6308,7 +9637,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:06.520",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -6316,7 +9650,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:06.829",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -6324,7 +9663,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:21.493",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -6332,7 +9676,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:23.725",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -6340,7 +9689,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:24.864",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -6348,7 +9702,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:27.619",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -6356,7 +9715,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:30.745",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -6364,7 +9728,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:31.883",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -6372,7 +9741,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:33.181",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -6380,7 +9754,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:35.146",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -6388,7 +9767,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:38.751",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -6396,7 +9780,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:39.771",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -6404,7 +9793,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:41.679",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -6412,7 +9806,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:44.291",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -6420,7 +9819,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:46.109",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -6428,7 +9832,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:51.126",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -6436,7 +9845,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:51.560",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -6444,7 +9858,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:53.605",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -6452,7 +9871,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:05.876",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -6460,7 +9884,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:06.604",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -6468,7 +9897,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:15.716",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -6476,7 +9910,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:23.869",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -6484,7 +9923,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:27.998",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -6492,7 +9936,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:41.036",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -6500,7 +9949,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:43.659",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -6508,7 +9962,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:07.341",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -6516,7 +9975,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -6524,7 +9988,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 29,
@@ -6532,7 +10001,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 30,
@@ -6540,7 +10014,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DSQ"
+          "status": "DSQ",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -6561,7 +10040,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "32:08.051",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -6569,7 +10053,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "32:34.969",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -6577,7 +10066,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "32:35.604",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -6585,7 +10079,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "33:09.930",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -6593,7 +10092,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "33:34.498",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -6601,7 +10105,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "18:00",
           "time": "33:37.960",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -6609,7 +10118,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "23:00",
           "time": "33:59.708",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -6617,7 +10131,12 @@ window.RDA_DATA = {
           "car": "RCZ Gr.B Rally Car",
           "session": "18:00",
           "time": "34:00.204",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -6625,7 +10144,12 @@ window.RDA_DATA = {
           "car": "86 Gr.B Rally Car",
           "session": "23:00",
           "time": "34:20.791",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -6633,7 +10157,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "23:00",
           "time": "34:25.911",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -6641,7 +10170,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "23:00",
           "time": "34:37.251",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -6649,7 +10183,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "23:00",
           "time": "35:04.616",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -6657,7 +10196,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "35:05.934",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -6665,7 +10209,12 @@ window.RDA_DATA = {
           "car": "Impreza Rally Car '98",
           "session": "23:00",
           "time": "35:11.041",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -6673,7 +10222,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -6694,7 +10248,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:24.592",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -6702,7 +10261,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:33.719",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -6710,7 +10274,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:44.177",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -6718,7 +10287,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "33:59.010",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -6726,7 +10300,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:03.080",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -6734,7 +10313,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:11.906",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -6742,7 +10326,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:14.361",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -6750,7 +10339,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:16.939",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -6758,7 +10352,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:30.055",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -6766,7 +10365,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "34:38.054",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -6774,7 +10378,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -6795,7 +10404,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "30:43.014",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -6803,7 +10417,12 @@ window.RDA_DATA = {
           "car": "205 Turbo 16 Evolution 2 '86",
           "session": "23:00",
           "time": "31:15.473",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -6811,7 +10430,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "31:18.867",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -6819,7 +10443,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "23:00",
           "time": "31:26.715",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -6827,7 +10456,12 @@ window.RDA_DATA = {
           "car": "Focus Gr.B Rally Car",
           "session": "23:00",
           "time": "31:37.907",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -6835,7 +10469,12 @@ window.RDA_DATA = {
           "car": "Focus Gr.B Rally Car",
           "session": "18:00",
           "time": "31:56.003",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -6843,7 +10482,12 @@ window.RDA_DATA = {
           "car": "Impreza Rally Car '98",
           "session": "23:00",
           "time": "32:04.052",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -6851,7 +10495,12 @@ window.RDA_DATA = {
           "car": "86 Gr.B Rally Car",
           "session": "23:00",
           "time": "32:05.424",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -6859,7 +10508,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "18:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -6867,7 +10521,12 @@ window.RDA_DATA = {
           "car": "Lancer Evolution Final Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -6875,7 +10534,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -6896,7 +10560,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:06.030",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -6904,7 +10573,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:17.615",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -6912,7 +10586,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:31.835",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -6920,7 +10599,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:38.329",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -6928,7 +10612,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:39.555",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -6936,7 +10625,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:49.520",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -6944,7 +10638,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:53.893",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -6952,7 +10651,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:54.912",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -6960,7 +10664,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:55.390",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -6968,7 +10677,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:55.411",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -6976,7 +10690,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:56.254",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -6984,7 +10703,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:56.476",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -6992,7 +10716,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:56.623",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -7000,7 +10729,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "29:59.113",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -7008,7 +10742,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:04.246",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -7016,7 +10755,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:06.962",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -7024,7 +10768,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:16.193",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -7032,7 +10781,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:17.281",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -7040,7 +10794,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:24.255",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -7048,7 +10807,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:25.860",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -7056,7 +10820,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:30.610",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -7064,7 +10833,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:56.958",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -7072,7 +10846,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -7080,7 +10859,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -7088,7 +10872,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -7096,7 +10885,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -7104,7 +10898,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -7112,7 +10911,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 29,
@@ -7120,7 +10924,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -7141,7 +10950,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "28:55.997",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -7149,7 +10963,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "15:00",
           "time": "29:16.704",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -7157,7 +10976,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "21:00",
           "time": "29:30.923",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -7165,7 +10989,12 @@ window.RDA_DATA = {
           "car": "86 Gr.B Rally Car",
           "session": "23:00",
           "time": "29:32.415",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -7173,7 +11002,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "29:40.171",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -7181,7 +11015,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "15:00",
           "time": "29:41.475",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -7189,7 +11028,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "29:44.677",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -7197,7 +11041,12 @@ window.RDA_DATA = {
           "car": "RCZ Gr.B Rally Car",
           "session": "15:00",
           "time": "29:54.721",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -7205,7 +11054,12 @@ window.RDA_DATA = {
           "car": "205 Turbo 16 Evolution 2 '86",
           "session": "23:00",
           "time": "29:57.056",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -7213,7 +11067,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "21:00",
           "time": "30:10.072",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -7221,7 +11080,12 @@ window.RDA_DATA = {
           "car": "Impreza Rally Car '98",
           "session": "23:00",
           "time": "30:24.716",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -7229,7 +11093,12 @@ window.RDA_DATA = {
           "car": "86 Gr.B Rally Car",
           "session": "21:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -7237,7 +11106,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "23:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -7245,7 +11119,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "15:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -7253,7 +11132,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "15:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -7261,7 +11145,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "—",
-          "status": "1giro"
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -7269,7 +11158,12 @@ window.RDA_DATA = {
           "car": "Sport quattro S1 Pikes Peak '87",
           "session": "18:00",
           "time": "—",
-          "status": "2giri"
+          "status": "2giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -7277,7 +11171,12 @@ window.RDA_DATA = {
           "car": "Lancia Delta HF Integrale Rally Car '92",
           "session": "21:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -7285,7 +11184,12 @@ window.RDA_DATA = {
           "car": "Focus Gr.B Rally Car",
           "session": "18:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -7306,7 +11210,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:37.132",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -7314,7 +11223,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:47.219",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -7322,7 +11236,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:47.819",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -7330,7 +11249,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:49.284",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -7338,7 +11262,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:57.435",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -7346,7 +11275,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:05.852",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -7354,7 +11288,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:08.814",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -7362,7 +11301,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:13.265",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -7370,7 +11314,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:15.156",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -7378,7 +11327,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:15.239",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -7386,7 +11340,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:16.597",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -7394,7 +11353,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:21.472",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -7402,7 +11366,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:23.490",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -7410,7 +11379,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:23.617",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -7418,7 +11392,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:32.292",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -7426,7 +11405,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:40.085",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -7434,7 +11418,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:44.101",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -7442,7 +11431,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:49.295",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -7450,7 +11444,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:00.316",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -7458,7 +11457,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:16.075",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -7466,7 +11470,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:17.216",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -7474,7 +11483,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -7482,7 +11496,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -7490,7 +11509,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -7498,7 +11522,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -7506,7 +11535,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -7514,7 +11548,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -7522,7 +11561,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "2 giri"
+          "status": "2 giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -7543,7 +11587,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:50.857",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -7551,7 +11600,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:56.941",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -7559,7 +11613,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:17.948",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -7567,7 +11626,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:18.208",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -7575,7 +11639,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:18.799",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -7583,7 +11652,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:20.844",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -7591,7 +11665,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:28.751",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -7599,7 +11678,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:40.587",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -7607,7 +11691,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:44.445",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -7615,7 +11704,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:48.802",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -7623,7 +11717,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:49.654",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -7631,7 +11730,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:49.807",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -7639,7 +11743,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:00.956",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -7647,7 +11756,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:06.672",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -7655,7 +11769,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:19.841",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -7663,7 +11782,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:21.244",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -7671,7 +11795,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:24.013",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -7679,7 +11808,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:31.142",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -7687,7 +11821,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:44.802",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -7695,7 +11834,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:49.845",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -7703,7 +11847,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "38:20.270",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -7711,7 +11860,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "38:34.271",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -7719,7 +11873,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "38:35.664",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -7727,7 +11886,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -7735,7 +11899,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -7743,7 +11912,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -7751,7 +11925,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -7759,7 +11938,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 29,
@@ -7767,7 +11951,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 30,
@@ -7775,7 +11964,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -7796,7 +11990,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:30.474",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -7804,7 +12003,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:31.251",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -7812,7 +12016,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:47.952",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -7820,7 +12029,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:48.670",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -7828,7 +12042,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:50.527",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -7836,7 +12055,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:50.740",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -7844,7 +12068,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:59.263",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -7852,7 +12081,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:04.993",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -7860,7 +12094,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:10.524",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -7868,7 +12107,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:15.189",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -7876,7 +12120,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:15.274",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -7884,7 +12133,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:15.376",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -7892,7 +12146,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:17.544",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -7900,7 +12159,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:18.975",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -7908,7 +12172,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:19.508",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -7916,7 +12185,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:21.126",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -7924,7 +12198,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:23.773",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -7932,7 +12211,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:26.164",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -7940,7 +12224,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:31.935",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -7948,7 +12237,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:41.386",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -7956,7 +12250,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:52.031",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -7964,7 +12263,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:52.545",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -7972,7 +12276,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -7993,7 +12302,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:33.805",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -8001,7 +12315,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:46.001",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -8009,7 +12328,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:54.225",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -8017,7 +12341,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "30:56.397",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -8025,7 +12354,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:00.638",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -8033,7 +12367,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:02.841",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -8041,7 +12380,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:03.471",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -8049,7 +12393,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:05.097",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -8057,7 +12406,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:09.703",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -8065,7 +12419,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:11.447",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -8073,7 +12432,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:17.801",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -8081,7 +12445,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:20.889",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -8089,7 +12458,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:29.887",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -8097,7 +12471,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:32.493",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -8105,7 +12484,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:32.770",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -8113,7 +12497,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:33.918",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -8121,7 +12510,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:36.558",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -8129,7 +12523,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:39.855",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -8137,7 +12536,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:40.784",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -8145,7 +12549,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "31:53.012",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -8153,7 +12562,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "32:28.230",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -8161,7 +12575,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -8169,7 +12588,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "2 giri"
+          "status": "2 giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -8177,7 +12601,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -8185,7 +12614,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -8193,7 +12627,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -8201,7 +12640,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -8209,7 +12653,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     },
@@ -8230,7 +12679,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:43.657",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 2,
@@ -8238,7 +12692,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:47.167",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 3,
@@ -8246,7 +12705,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "35:59.620",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 4,
@@ -8254,7 +12718,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:04.789",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 5,
@@ -8262,7 +12731,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:05.176",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 6,
@@ -8270,7 +12744,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:24.757",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 7,
@@ -8278,7 +12757,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:26.751",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 8,
@@ -8286,7 +12770,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:30.133",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 9,
@@ -8294,7 +12783,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:32.257",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 10,
@@ -8302,7 +12796,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:32.319",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 11,
@@ -8310,7 +12809,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:32.365",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 12,
@@ -8318,7 +12822,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:36.722",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 13,
@@ -8326,7 +12835,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:37.016",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 14,
@@ -8334,7 +12848,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:37.233",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 15,
@@ -8342,7 +12861,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:39.391",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 16,
@@ -8350,7 +12874,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:49.431",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 17,
@@ -8358,7 +12887,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:52.539",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 18,
@@ -8366,7 +12900,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:55.650",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 19,
@@ -8374,7 +12913,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:58.342",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 20,
@@ -8382,7 +12926,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "36:59.640",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 21,
@@ -8390,7 +12939,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:01.037",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 22,
@@ -8398,7 +12952,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:12.274",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 23,
@@ -8406,7 +12965,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:21.484",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 24,
@@ -8414,7 +12978,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:23.319",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 25,
@@ -8422,7 +12991,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:24.208",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 26,
@@ -8430,7 +13004,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "37:38.965",
-          "status": "FINITO"
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 27,
@@ -8438,7 +13017,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 28,
@@ -8446,7 +13030,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "1 giro"
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 29,
@@ -8454,7 +13043,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 30,
@@ -8462,7 +13056,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         },
         {
           "pos": 31,
@@ -8470,7 +13069,12 @@ window.RDA_DATA = {
           "car": "—",
           "session": "15:00",
           "time": "—",
-          "status": "DNF"
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
         }
       ]
     }
