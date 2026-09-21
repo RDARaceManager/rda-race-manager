@@ -1,12 +1,14 @@
 {
   "name": "RDA Race Manager",
   "short_name": "RDA Race",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#050816",
+  "background_color": "#000000",
+  "theme_color": "#080b14",
   "description": "Calendario, risultati, campionato, Ranking RDA e statistiche RDA.",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "assets/rda-icon-192.png",
