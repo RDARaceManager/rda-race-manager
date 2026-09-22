@@ -12478,26 +12478,6 @@ window.RDA_DATA = {
   "championshipPodiumVisible": false,
   "futureRaces": [
     {
-      "eventId": "future-5-2026-09-21-4",
-      "isoDate": "2026-09-21",
-      "day": 21,
-      "month": 9,
-      "year": 2026,
-      "date": "21.09.2026",
-      "title": "SLAM GT3 2026",
-      "championship": "SLAM GT3 2026",
-      "championshipId": 5,
-      "master": 2000,
-      "round": 0,
-      "gara": 0,
-      "track": "Laguna Seca",
-      "regulation": {
-        "championshipId": 5,
-        "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-slam-gt3-2026.pdf"
-      }
-    },
-    {
       "eventId": "future-2-2026-09-22-1",
       "isoDate": "2026-09-22",
       "day": 22,
