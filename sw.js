@@ -1,5 +1,235 @@
-const CACHE='rda-v464-pwa-icons-android';
+const CACHE='rda-v465-regulation-pdfjs1';
+const REGULATION_CACHE='rda-regulation-documents-v1';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/rda-mark.png','./assets/rda-icon-192.png','./assets/rda-icon-512.png','./assets/rda-icon-maskable-512.png','./assets/apple-touch-icon.png','./assets/calendario-settembre-2026.jpg','./assets/rda-home-hero-v460.png'];
+// PDF.js locale e risorse necessarie anche senza rete.
+ASSETS.push(...[
+  "./app.js?v=456-regolamento-pdfjs1",
+  "./styles.css?v=463-regolamento-pdfjs1",
+  "./vendor/pdfjs-5.6.205/cmaps/78-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/78-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/78-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/78-RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/78-RKSJ-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/78-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/78ms-RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/78ms-RKSJ-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/83pv-RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/90ms-RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/90ms-RKSJ-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/90msp-RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/90msp-RKSJ-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/90pv-RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/90pv-RKSJ-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Add-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Add-RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Add-RKSJ-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Add-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-CNS1-0.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-CNS1-1.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-CNS1-2.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-CNS1-3.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-CNS1-4.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-CNS1-5.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-CNS1-6.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-CNS1-UCS2.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-GB1-0.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-GB1-1.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-GB1-2.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-GB1-3.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-GB1-4.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-GB1-5.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-GB1-UCS2.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Japan1-0.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Japan1-1.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Japan1-2.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Japan1-3.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Japan1-4.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Japan1-5.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Japan1-6.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Japan1-UCS2.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Korea1-0.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Korea1-1.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Korea1-2.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Adobe-Korea1-UCS2.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/B5pc-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/B5pc-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/CNS-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/CNS-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/CNS1-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/CNS1-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/CNS2-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/CNS2-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/ETen-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/ETen-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/ETenms-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/ETenms-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/ETHK-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/ETHK-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Ext-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Ext-RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Ext-RKSJ-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Ext-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GB-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GB-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GB-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GB-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBK-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBK-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBK2K-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBK2K-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBKp-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBKp-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBpc-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBpc-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBT-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBT-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBT-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBT-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBTpc-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/GBTpc-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Hankaku.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Hiragana.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKdla-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKdla-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKdlb-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKdlb-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKgccs-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKgccs-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKm314-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKm314-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKm471-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKm471-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKscs-B5-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/HKscs-B5-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Katakana.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSC-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSC-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSC-Johab-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSC-Johab-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSCms-UHC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSCms-UHC-HW-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSCms-UHC-HW-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSCms-UHC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSCpc-EUC-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/KSCpc-EUC-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/NWP-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/NWP-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/RKSJ-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/RKSJ-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/Roman.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniCNS-UCS2-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniCNS-UCS2-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniCNS-UTF16-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniCNS-UTF16-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniCNS-UTF32-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniCNS-UTF32-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniCNS-UTF8-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniCNS-UTF8-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniGB-UCS2-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniGB-UCS2-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniGB-UTF16-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniGB-UTF16-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniGB-UTF32-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniGB-UTF32-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniGB-UTF8-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniGB-UTF8-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UCS2-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UCS2-HW-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UCS2-HW-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UCS2-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UTF16-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UTF16-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UTF32-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UTF32-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UTF8-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS-UTF8-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS2004-UTF16-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS2004-UTF16-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS2004-UTF32-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS2004-UTF32-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS2004-UTF8-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJIS2004-UTF8-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJISPro-UCS2-HW-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJISPro-UCS2-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJISPro-UTF8-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJISX0213-UTF32-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJISX0213-UTF32-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJISX02132004-UTF32-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniJISX02132004-UTF32-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniKS-UCS2-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniKS-UCS2-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniKS-UTF16-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniKS-UTF16-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniKS-UTF32-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniKS-UTF32-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniKS-UTF8-H.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/UniKS-UTF8-V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/V.bcmap",
+  "./vendor/pdfjs-5.6.205/cmaps/WP-Symbol.bcmap",
+  "./vendor/pdfjs-5.6.205/iccs/CGATS001Compat-v2-micro.icc",
+  "./vendor/pdfjs-5.6.205/pdf.min.mjs",
+  "./vendor/pdfjs-5.6.205/pdf.worker.min.mjs",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitDingbats.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitFixed.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitFixedBold.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitFixedBoldItalic.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitFixedItalic.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitSerif.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitSerifBold.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitSerifBoldItalic.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitSerifItalic.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/FoxitSymbol.pfb",
+  "./vendor/pdfjs-5.6.205/standard_fonts/LiberationSans-Bold.ttf",
+  "./vendor/pdfjs-5.6.205/standard_fonts/LiberationSans-BoldItalic.ttf",
+  "./vendor/pdfjs-5.6.205/standard_fonts/LiberationSans-Italic.ttf",
+  "./vendor/pdfjs-5.6.205/standard_fonts/LiberationSans-Regular.ttf",
+  "./vendor/pdfjs-5.6.205/wasm/jbig2.wasm",
+  "./vendor/pdfjs-5.6.205/wasm/openjpeg.wasm",
+  "./vendor/pdfjs-5.6.205/wasm/openjpeg_nowasm_fallback.js",
+  "./vendor/pdfjs-5.6.205/wasm/qcms_bg.wasm"
+]);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{const u=new URL(e.request.url);const fresh=/\/(data\.js|index\.html|app\.js|styles\.css|sw\.js)$/.test(u.pathname)||u.pathname.endsWith('/rda-race-manager/');if(fresh)e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r}).catch(()=>caches.match(e.request)));else e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});
+self.addEventListener('activate',e=>e.waitUntil((async()=>{
+  const keys=await caches.keys();
+  const cache=await caches.open(CACHE);
+  // Conserva i data.js gia disponibili offline durante il cambio versione.
+  // Il ramo fetch network-first di data.js resta identico.
+  for(const key of keys.filter(k=>k.startsWith('rda-')&&k!==CACHE&&k!==REGULATION_CACHE)){
+    const previous=await caches.open(key);
+    for(const request of await previous.keys()){
+      if(new URL(request.url).pathname.endsWith('/data.js')&&!await cache.match(request)){
+        const response=await previous.match(request);
+        if(response)await cache.put(request,response);
+      }
+    }
+  }
+  await Promise.all(keys.filter(k=>k!==CACHE&&k!==REGULATION_CACHE).map(k=>caches.delete(k)));
+  await self.clients.claim();
+})()));
+self.addEventListener('fetch',e=>{const u=new URL(e.request.url);
+// Solo PDF dei regolamenti locali: risposta intera, aggiornata online e riusabile offline.
+if(e.request.method==='GET'&&u.origin===self.location.origin&&u.pathname.includes('/regolamenti/')&&/\.pdf$/i.test(u.pathname)&&!e.request.headers.has('Range')){
+  const result=fetch(e.request).then(response=>{
+    const copy=response.ok&&response.status===200?response.clone():null;
+    const saved=response.ok&&response.status===200
+      ?caches.open(REGULATION_CACHE).then(cache=>cache.put(e.request,copy)).catch(()=>{})
+      :Promise.resolve();
+    return {response,saved};
+  }).catch(async()=>{
+    const cache=await caches.open(REGULATION_CACHE);
+    const response=await cache.match(e.request);
+    if(!response)throw new Error('Regolamento non disponibile offline');
+    return {response,saved:Promise.resolve()};
+  });
+  e.waitUntil(result.then(value=>value.saved).catch(()=>{}));
+  e.respondWith(result.then(value=>value.response));
+  return;
+}
+const fresh=/\/(data\.js|index\.html|app\.js|styles\.css|sw\.js)$/.test(u.pathname)||u.pathname.endsWith('/rda-race-manager/');if(fresh)e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r}).catch(()=>caches.match(e.request)));else e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});
