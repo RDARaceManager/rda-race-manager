@@ -153,3 +153,14 @@ button,input{font:inherit}.app-shell{max-width:1400px;margin:auto;min-height:100
     background-repeat:no-repeat!important;
   }
 }
+
+/* Solo visualizzatore del Regolamento Ufficiale. */
+#rdaRegulationViewer{position:fixed;inset:0;box-sizing:border-box;width:100%;max-width:none;height:100%;height:100dvh;max-height:none;margin:0;padding:0;border:0;background:#fff;color:#000;overflow:hidden;}
+#rdaRegulationViewer:not([open]){display:none;}
+#rdaRegulationViewer[open]{display:flex;flex-direction:column;}
+#rdaRegulationViewer::backdrop{background:#fff;}
+#rdaRegulationViewer .rda-regulation-toolbar{display:flex;flex-shrink:0;align-items:center;justify-content:space-between;gap:12px;padding:8px 12px;padding-top:max(8px,env(safe-area-inset-top));padding-right:max(12px,env(safe-area-inset-right));padding-left:max(12px,env(safe-area-inset-left));background:#fff;border-bottom:1px solid #ccc;color:#000;}
+#rdaRegulationTitle{font-size:16px;}
+#rdaRegulationClose{display:grid;place-items:center;flex-shrink:0;width:52px;height:52px;margin:0;padding:0;border:2px solid #000;border-radius:8px;background:#fff;color:#000;font:700 44px/1 Arial,sans-serif;cursor:pointer;}
+#rdaRegulationClose:focus-visible{outline:3px solid #0866cc;outline-offset:2px;}
+#rdaRegulationPdf{display:block;flex:1;min-height:0;width:100%;border:0;background:#fff;padding-bottom:env(safe-area-inset-bottom);box-sizing:border-box;}
