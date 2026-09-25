@@ -9,7 +9,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/rda-icon-192.png">
-  <link rel="stylesheet" href="styles.css?v=463-regolamento-x1">
+  <link rel="stylesheet" href="styles.css?v=463-regolamento-pdfjs1">
 </head>
 <body>
 <div class="app-shell">
@@ -184,8 +184,8 @@
     <strong id="rdaRegulationTitle">Regolamento Ufficiale</strong>
     <button id="rdaRegulationClose" type="button" aria-label="Chiudi il regolamento e torna alla schermata precedente" autofocus><span aria-hidden="true">×</span></button>
   </div>
-  <iframe id="rdaRegulationPdf" title="PDF del Regolamento Ufficiale"></iframe>
+  <div id="rdaRegulationPdf" role="region" aria-label="Pagine del Regolamento Ufficiale" tabindex="0"></div>
 </dialog>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=456-regolamento-fitwidth1"></script>
+<script src="app.js?v=456-regolamento-pdfjs1"></script>
 </body></html>
