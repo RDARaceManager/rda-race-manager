@@ -18,8 +18,12 @@ function setupRegulationViewer(){
     opener=link;
     previousScroll={left:window.scrollX,top:window.scrollY};
     previousOverflow=document.body.style.overflow;
-    frame.src=link.href;
+    const pdfUrl=new URL(link.href);
+    const pdfParams=pdfUrl.hash.slice(1).split('&').filter(param=>param&&!/^(view|zoom)=/i.test(param));
+    pdfParams.push('view=FitH');
+    pdfUrl.hash=pdfParams.join('&');
     viewer.showModal();
+    frame.src=pdfUrl.href;
     document.body.style.overflow='hidden';
     close.focus({preventScroll:true});
   });
