@@ -7,9 +7,121 @@ function emptyState(t){return `<div class="empty-state"><strong>${t}</strong><sp
 // Regolamento: il dialog conserva la schermata e lo scorrimento sottostanti.
 function setupRegulationViewer(){
   const viewer=document.getElementById('rdaRegulationViewer');
-  const frame=document.getElementById('rdaRegulationPdf');
+  const content=document.getElementById('rdaRegulationPdf');
   const close=document.getElementById('rdaRegulationClose');
-  let opener=null,previousOverflow='',previousScroll={left:0,top:0};
+  const vendor=new URL('./vendor/pdfjs-5.6.205/',document.baseURI);
+  let opener=null,previousOverflow='',previousScroll={left:0,top:0},session=null,pdfLibrary=null;
+
+  function stopRendering(){
+    const old=session;
+    session=null;
+    if(old){
+      old.abort.abort();
+      if(old.render)old.render.cancel();
+      if(old.loading)void old.loading.destroy().catch(()=>{});
+      content.replaceChildren();
+      old.urls.forEach(url=>URL.revokeObjectURL(url));
+    }else content.replaceChildren();
+    content.scrollTop=0;
+  }
+
+  async function renderDocument(url){
+    const current={abort:new AbortController(),loading:null,render:null,urls:[]};
+    session=current;
+    const active=()=>session===current&&viewer.open;
+    const status=document.createElement('p');
+    status.className='rda-pdf-status';
+    status.setAttribute('role','status');
+    status.textContent='Caricamento del regolamento…';
+    content.append(status);
+    content.dataset.state='loading';
+    try{
+      if(!pdfLibrary)pdfLibrary=import(new URL('pdf.min.mjs',vendor).href).catch(error=>{pdfLibrary=null;throw error;});
+      const pdfjs=await pdfLibrary;
+      if(!active())return;
+      pdfjs.GlobalWorkerOptions.workerSrc=new URL('pdf.worker.min.mjs',vendor).href;
+      // Un download completo: il Service Worker puo conservarlo anche offline.
+      const response=await fetch(url,{signal:current.abort.signal});
+      if(!response.ok)throw new Error('PDF non disponibile');
+      const data=new Uint8Array(await response.arrayBuffer());
+      if(!active())return;
+      current.loading=pdfjs.getDocument({data,
+        cMapUrl:new URL('cmaps/',vendor).href,cMapPacked:true,
+        standardFontDataUrl:new URL('standard_fonts/',vendor).href,
+        wasmUrl:new URL('wasm/',vendor).href,iccUrl:new URL('iccs/',vendor).href,
+        isEvalSupported:false,stopAtErrors:true,canvasMaxAreaInBytes:8*1024*1024});
+      current.loading.onPassword=()=>{
+        current.problem='Questo PDF richiede una password. Pubblica una copia del regolamento senza password.';
+        void current.loading.destroy().catch(()=>{});
+      };
+      const pdf=await current.loading.promise;
+      if(!active())return;
+      content.dataset.pages=String(pdf.numPages);
+      let rendered=0;
+      // Tutte le pagine, nell'ordine originale; nessun limite alla prima pagina.
+      for(let number=1;number<=pdf.numPages;number++){
+        if(!active())return;
+        status.textContent=`Preparazione pagina ${number} di ${pdf.numPages}…`;
+        const slot=document.createElement('div');
+        slot.className='rda-pdf-page';
+        slot.dataset.page=String(number);
+        content.append(slot);
+        let page=null,canvas=null;
+        try{
+          page=await pdf.getPage(number);
+          if(!active())return;
+          const original=page.getViewport({scale:1});
+          const width=Math.max(1,slot.clientWidth);
+          const viewport=page.getViewport({scale:width/original.width});
+          // Un solo canvas attivo. Limite di pixel, non di pagine/contenuto.
+          const density=Math.min(window.devicePixelRatio||1,2,
+            Math.sqrt(2000000/(viewport.width*viewport.height)),
+            4096/viewport.width,4096/viewport.height);
+          canvas=document.createElement('canvas');
+          canvas.width=Math.max(1,Math.floor(viewport.width*density));
+          canvas.height=Math.max(1,Math.floor(viewport.height*density));
+          current.render=page.render({canvasContext:canvas.getContext('2d'),viewport,
+            transform:[density,0,0,density,0,0],background:'#ffffff'});
+          await current.render.promise;
+          current.render=null;
+          if(!active())return;
+          const blob=await new Promise((resolve,reject)=>canvas.toBlob(value=>value?resolve(value):reject(new Error('Pagina non convertita')),'image/png'));
+          if(!active())return;
+          const image=document.createElement('img');
+          const blobUrl=URL.createObjectURL(blob);
+          current.urls.push(blobUrl);
+          image.alt=`Regolamento Ufficiale — pagina ${number} di ${pdf.numPages}`;
+          image.width=canvas.width;image.height=canvas.height;
+          image.style.aspectRatio=`${original.width} / ${original.height}`;
+          image.loading='lazy';image.decoding='async';image.src=blobUrl;
+          slot.append(image);
+          slot.dataset.rendered='true';
+          rendered++;
+        }catch(error){
+          if(!active())return;
+          slot.textContent=`Impossibile visualizzare la pagina ${number}. Chiudi e riapri il regolamento per riprovare.`;
+          slot.classList.add('rda-pdf-error');
+        }finally{
+          current.render=null;
+          if(canvas){canvas.width=0;canvas.height=0;}
+          if(page)page.cleanup();
+        }
+        // Lascia reagire scroll, gesture e pulsante X anche su documenti lunghi.
+        await new Promise(resolve=>setTimeout(resolve,0));
+      }
+      if(!active())return;
+      status.textContent=rendered===pdf.numPages?`${rendered} pagine — documento completo`:`Visualizzate ${rendered} pagine su ${pdf.numPages}. Alcune pagine non sono state caricate.`;
+      content.dataset.state=rendered===pdf.numPages?'ready':'error';
+      await current.loading.destroy();
+      current.loading=null;
+    }catch(error){
+      if(!active())return;
+      status.textContent=current.problem||'Impossibile caricare il regolamento. Se sei offline, aprilo prima con una connessione disponibile, poi riprova.';
+      content.dataset.state='error';
+      if(current.loading){void current.loading.destroy().catch(()=>{});current.loading=null;}
+    }
+  }
+
   document.addEventListener('click',event=>{
     const link=event.target.closest('a.regulation-btn');
     if(!link||event.defaultPrevented||event.button!==0)return;
@@ -19,17 +131,19 @@ function setupRegulationViewer(){
     previousScroll={left:window.scrollX,top:window.scrollY};
     previousOverflow=document.body.style.overflow;
     const pdfUrl=new URL(link.href);
-    const pdfParams=pdfUrl.hash.slice(1).split('&').filter(param=>param&&!/^(view|zoom)=/i.test(param));
-    pdfParams.push('view=FitH');
-    pdfUrl.hash=pdfParams.join('&');
+    pdfUrl.hash='';
+    stopRendering();
+    delete content.dataset.pages;
     viewer.showModal();
-    frame.src=pdfUrl.href;
     document.body.style.overflow='hidden';
     close.focus({preventScroll:true});
+    void renderDocument(pdfUrl.href);
   });
   close.addEventListener('click',()=>viewer.close());
   viewer.addEventListener('close',()=>{
-    frame.removeAttribute('src');
+    stopRendering();
+    delete content.dataset.state;
+    delete content.dataset.pages;
     document.body.style.overflow=previousOverflow;
     if(opener&&opener.isConnected)opener.focus({preventScroll:true});
     window.scrollTo({...previousScroll,behavior:'instant'});
