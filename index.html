@@ -9,10 +9,62 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/rda-icon-192.png">
-  <link rel="stylesheet" href="styles.css?v=463-regolamento-pdfjs1">
+  <link rel="stylesheet" href="styles.css?v=466-firebase-fase1">
 </head>
 <body>
-<div class="app-shell">
+<section id="rdaAuthGate" class="rda-auth-gate" aria-labelledby="rdaAuthTitle">
+  <header class="rda-auth-brand">
+    <img src="assets/rda-mark.png" alt="RDA" width="80" height="80">
+    <div><strong>RDA RACE MANAGER</strong><span>RACING DRIVERS ACADEMY</span></div>
+  </header>
+  <div class="rda-auth-card">
+    <div class="rda-auth-eyebrow"><span aria-hidden="true">◆</span> RDA MOBILE · AREA RISERVATA</div>
+    <h1 id="rdaAuthTitle">RICHIESTA <span>ACCESSO</span></h1>
+    <p id="rdaAuthIntro" class="rda-auth-intro">Compila i seguenti dati per richiedere l’accesso a RDA Mobile. Dopo l’invio, la tua richiesta sarà verificata dal team RDA.</p>
+    <p id="rdaAuthStatus" class="rda-auth-status" role="status" aria-live="polite">Preparazione dell’accesso sicuro…</p>
+    <form id="rdaAuthRequestForm" class="rda-auth-form">
+      <fieldset id="rdaAuthRequestFields" disabled>
+        <label class="rda-auth-field" for="rdaAuthEmail">Indirizzo Email
+          <input id="rdaAuthEmail" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="none" spellcheck="false" required maxlength="254" placeholder="nome@esempio.it">
+        </label>
+        <label class="rda-auth-field" for="rdaAuthPsn">PSN / ID
+          <input id="rdaAuthPsn" name="psn_id" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" required maxlength="100" placeholder="Il tuo PSN / ID">
+        </label>
+        <label class="rda-auth-field" for="rdaAuthNickname">Nickname secondario
+          <input id="rdaAuthNickname" name="nickname_secondary" type="text" autocomplete="nickname" required maxlength="100" placeholder="Il tuo nickname secondario">
+        </label>
+        <label class="rda-auth-privacy" for="rdaAuthPrivacy">
+          <input id="rdaAuthPrivacy" type="checkbox" required>
+          <span>Ho letto l’Informativa Privacy RDA e prendo atto del trattamento dei dati personali necessario alla gestione del mio account e dell’accesso a RDA Mobile.</span>
+        </label>
+        <span id="rdaAuthPrivacyText" class="rda-auth-note">Informativa Privacy RDA</span>
+        <button class="rda-auth-submit" type="submit">INVIA RICHIESTA <span aria-hidden="true">→</span></button>
+        <p class="rda-auth-note">La tua richiesta sarà verificata dal team RDA.</p>
+      </fieldset>
+    </form>
+    <form id="rdaAuthLoginForm" class="rda-auth-form" hidden>
+      <fieldset id="rdaAuthLoginFields" disabled>
+        <label class="rda-auth-field" for="rdaAuthLoginEmail">Indirizzo Email
+          <input id="rdaAuthLoginEmail" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="none" spellcheck="false" required maxlength="254" placeholder="nome@esempio.it">
+        </label>
+        <button id="rdaAuthLoginSubmit" class="rda-auth-submit" type="submit">INVIA LINK DI ACCESSO <span aria-hidden="true">→</span></button>
+        <p class="rda-auth-note">Accedi con il link ricevuto via email. Nessuna password.</p>
+      </fieldset>
+    </form>
+    <div id="rdaAuthPending" class="rda-auth-pending" hidden>
+      <span class="rda-auth-pending-icon" aria-hidden="true">◷</span>
+      <p>Richiesta in attesa di approvazione RDA.</p>
+    </div>
+    <div class="rda-auth-actions">
+      <button id="rdaAuthMode" class="rda-auth-link" type="button" disabled>Hai già un’autorizzazione RDA? Accedi</button>
+      <button id="rdaAuthRefresh" class="rda-auth-link" type="button" hidden>Verifica di nuovo</button>
+      <button id="rdaAuthSignOut" class="rda-auth-link" type="button" hidden>Esci dall’account</button>
+    </div>
+    <noscript><p class="rda-auth-status">Attiva JavaScript per utilizzare l’accesso a RDA Mobile.</p></noscript>
+  </div>
+  <footer class="rda-auth-footer">PASSIONE · PERSONE · GARE</footer>
+</section>
+<div id="rdaPrivateShell" class="app-shell" hidden inert aria-hidden="true" style="display:none">
   <header class="topbar">
     <div class="brand">
       <img src="assets/rda-mark.png" alt="RDA" class="brand-mark">
@@ -21,6 +73,7 @@
     <div class="online-badge"><i></i> ONLINE</div>
   </header>
 
+  <div class="rda-auth-session"><button id="rdaAuthSessionExit" type="button">Esci dall’account</button></div>
   <main class="content">
     <section class="view active" data-view="home">
       <div class="home-welcome home-welcome-photo panel" role="img" aria-label="Racing Drivers Academy - More Than Racing"></div>
@@ -187,5 +240,5 @@
   <div id="rdaRegulationPdf" role="region" aria-label="Pagine del Regolamento Ufficiale" tabindex="0"></div>
 </dialog>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=456-regolamento-pdfjs1"></script>
+<script src="app.js?v=466-firebase-fase1"></script>
 </body></html>
