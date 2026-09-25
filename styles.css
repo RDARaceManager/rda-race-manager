@@ -163,4 +163,7 @@ button,input{font:inherit}.app-shell{max-width:1400px;margin:auto;min-height:100
 #rdaRegulationTitle{font-size:16px;}
 #rdaRegulationClose{display:grid;place-items:center;flex-shrink:0;width:52px;height:52px;margin:0;padding:0;border:2px solid #000;border-radius:8px;background:#fff;color:#000;font:700 44px/1 Arial,sans-serif;cursor:pointer;}
 #rdaRegulationClose:focus-visible{outline:3px solid #0866cc;outline-offset:2px;}
-#rdaRegulationPdf{display:block;flex:1;min-height:0;width:100%;border:0;background:#fff;padding-bottom:env(safe-area-inset-bottom);box-sizing:border-box;}
+#rdaRegulationPdf{display:block;flex:1;min-height:0;min-width:0;width:100%;border:0;background:#eee;padding:0 env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);box-sizing:border-box;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;}
+#rdaRegulationPdf .rda-pdf-page{width:100%;margin:0 0 8px;background:#fff;}
+#rdaRegulationPdf .rda-pdf-page img{display:block;width:100%;max-width:100%;height:auto;object-fit:contain;}
+#rdaRegulationPdf .rda-pdf-status,#rdaRegulationPdf .rda-pdf-error{padding:12px;margin:0;color:#111;font-size:14px;overflow-wrap:anywhere;}
