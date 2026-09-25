@@ -9,7 +9,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/rda-icon-192.png">
-  <link rel="stylesheet" href="styles.css?v=463">
+  <link rel="stylesheet" href="styles.css?v=463-regolamento-x1">
 </head>
 <body>
 <div class="app-shell">
@@ -179,6 +179,13 @@
   </nav>
   <button class="nav-reveal" id="navReveal" type="button">▲ MENU</button>
 </div>
+<dialog id="rdaRegulationViewer" aria-labelledby="rdaRegulationTitle">
+  <div class="rda-regulation-toolbar">
+    <strong id="rdaRegulationTitle">Regolamento Ufficiale</strong>
+    <button id="rdaRegulationClose" type="button" aria-label="Chiudi il regolamento e torna alla schermata precedente" autofocus><span aria-hidden="true">×</span></button>
+  </div>
+  <iframe id="rdaRegulationPdf" title="PDF del Regolamento Ufficiale"></iframe>
+</dialog>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=456"></script>
+<script src="app.js?v=456-regolamento-x1"></script>
 </body></html>
