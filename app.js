@@ -391,3 +391,215 @@ function rdaLicenceCard(d){
   const count=Number.isFinite(n)?Math.max(0,Math.trunc(n)):0;
   return `<h3>Patente RDA</h3><div class="identity-stats"><span>Punti Patente RDA: <b>${points} / 10</b></span><span>Penalità RDA ricevute: <b>${count}</b></span></div>`;
 }
+
+// Firebase FASE 1: cancello UI isolato; dati e funzioni RDA precedenti invariati.
+(function setupRdaAccessGate(){
+  'use strict';
+  const el=id=>document.getElementById(id);
+  const gate=el('rdaAuthGate'), shell=el('rdaPrivateShell');
+  if(!gate||!shell)return;
+  const requestForm=el('rdaAuthRequestForm'), loginForm=el('rdaAuthLoginForm');
+  const status=el('rdaAuthStatus'), modeButton=el('rdaAuthMode');
+  const refresh=el('rdaAuthRefresh'), logout=el('rdaAuthSignOut');
+  const privacyVersion='2026-09-25', temporaryKey='rda.emailLink.v1';
+  const returnUrl='https://rdaracemanager.github.io/rda-race-manager/';
+  const config={
+    apiKey:'AIzaSyAb6OQDclhfEkbJKAUWDpT8MhwqEp9EioI',
+    authDomain:'rda-race-manager-c8138.firebaseapp.com',
+    projectId:'rda-race-manager-c8138',
+    storageBucket:'rda-race-manager-c8138.firebasestorage.app',
+    messagingSenderId:'628775504971',
+    appId:'1:628775504971:web:e9e8b2a0d2c0e670c1d1ce'
+  };
+  let A,F,auth,db,unsubscribe,session=0,revision=0,mode='request',busy=false;
+  let emailLink='',draft=null,completing=false,ready=false;
+  function message(text,error=false){
+    status.textContent=text;status.hidden=!text;status.dataset.error=String(error);
+  }
+  function lock(){
+    const viewer=el('rdaRegulationViewer');
+    if(viewer&&viewer.open)viewer.close(); // Conserva il cleanup del viewer originale.
+    shell.hidden=true;shell.inert=true;shell.setAttribute('aria-hidden','true');
+    shell.style.display='none';gate.hidden=false;
+  }
+  function unlock(){
+    gate.hidden=true;shell.hidden=false;shell.inert=false;
+    shell.removeAttribute('aria-hidden');shell.style.removeProperty('display');
+  }
+  function stop(){session++;revision++;if(unsubscribe)unsubscribe();unsubscribe=null;}
+  function controls(){
+    el('rdaAuthRequestFields').disabled=!ready||busy;
+    el('rdaAuthLoginFields').disabled=!ready||busy;
+    modeButton.disabled=!ready||busy;refresh.disabled=busy;logout.disabled=busy;
+  }
+  function show(next,text='',error=false){
+    mode=next;lock();
+    requestForm.hidden=next!=='request';loginForm.hidden=next!=='login';
+    el('rdaAuthPending').hidden=next!=='pending';
+    el('rdaAuthIntro').hidden=next!=='request';
+    modeButton.hidden=!!auth?.currentUser||!!emailLink||!['login','request'].includes(next);
+    modeButton.textContent=next==='login'?'Non hai ancora un’autorizzazione? Richiedi accesso':'Hai già un’autorizzazione RDA? Accedi';
+    refresh.hidden=next!=='error'&&next!=='pending';
+    logout.hidden=!auth?.currentUser;
+    el('rdaAuthEmail').readOnly=!!auth?.currentUser;
+    if(auth?.currentUser)el('rdaAuthEmail').value=auth.currentUser.email||'';
+    el('rdaAuthLoginSubmit').textContent=emailLink?'CONFERMA EMAIL E ACCEDI':'INVIA LINK DI ACCESSO';
+    message(text,error);controls();
+  }
+  function failure(error){
+    const code=String(error?.code||error?.name||'errore');
+    const detail={
+      'auth/invalid-email':'Controlla l’indirizzo email.',
+      'auth/expired-action-code':'Il link è scaduto: richiedi un nuovo link.',
+      'auth/invalid-action-code':'Link non valido o già utilizzato. Richiedi un nuovo link.',
+      'auth/too-many-requests':'Troppi tentativi. Attendi prima di riprovare.',
+      'auth/unauthorized-domain':'Il dominio non è autorizzato in Firebase.',
+      'permission-denied':'Firebase non consente questa operazione. Contatta il team RDA.'
+    }[code]||'Accesso non verificato. Controlla la connessione e riprova.';
+    return detail+' ('+code+')';
+  }
+  function removeTemporary(){try{localStorage.removeItem(temporaryKey);}catch(_){}}
+  function readTemporary(){
+    try{
+      const value=JSON.parse(localStorage.getItem(temporaryKey)||'null');
+      if(value&&typeof value.email==='string'&&Number.isFinite(value.at)&&Date.now()-value.at>=0&&Date.now()-value.at<86400000)return value;
+    }catch(_){}
+    removeTemporary();return null;
+  }
+  function sameEmail(a,b){return typeof a==='string'&&typeof b==='string'&&a.trim().toLowerCase()===b.trim().toLowerCase();}
+  function validDraft(value,user){
+    return value&&sameEmail(value.email,user.email)&&value.privacy_version===privacyVersion&&value.privacy_acknowledged===true&&
+      typeof value.psn_id==='string'&&value.psn_id.trim().length>0&&value.psn_id.length<=100&&
+      typeof value.nickname_secondary==='string'&&value.nickname_secondary.trim().length>0&&value.nickname_secondary.length<=100;
+  }
+  async function createRequest(user,value){
+    if(!user.email||!user.emailVerified||!validDraft(value,user))throw new Error('Dati richiesta incompleti');
+    const ref=F.doc(db,'access_requests',user.uid);
+    // Transazione: crea solo se assente, senza aggiornare richieste preesistenti.
+    await F.runTransaction(db,async tx=>{
+      const existing=await tx.get(ref);
+      if(auth.currentUser?.uid!==user.uid)throw new Error('Sessione cambiata');
+      if(!existing.exists())tx.set(ref,{
+        uid:user.uid,email:user.email,psn_id:value.psn_id.trim(),
+        nickname_secondary:value.nickname_secondary.trim(),privacy_acknowledged:true,
+        privacy_version:privacyVersion,created_at:F.serverTimestamp(),status:'PENDING'
+      });
+    });
+  }
+  function approved(snapshot){
+    if(!snapshot.exists()||snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites)return false;
+    const value=snapshot.data();
+    // Documento gestito esclusivamente dal team RDA. Nessuna deduzione da nickname.
+    return value.uid===auth.currentUser?.uid&&value.status==='APPROVED'&&
+      Number.isSafeInteger(value.driver_id)&&value.driver_id>0;
+  }
+  function checkSession(user){
+    stop();const current=session;
+    if(!user){show('request');return;}
+    if(!user.email||!user.emailVerified){show('error','Email non verificata. Esci e accedi tramite il link email.',true);return;}
+    show('checking','Verifica autorizzazione RDA…');
+    const isCurrent=()=>current===session&&auth.currentUser?.uid===user.uid&&!completing;
+    unsubscribe=F.onSnapshot(F.doc(db,'authorizations',user.uid),{includeMetadataChanges:true},async snapshot=>{
+      if(!isCurrent())return;
+      const ownRevision=++revision;
+      if(snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites){
+        show('error','È necessaria una connessione per verificare l’autorizzazione RDA.');return;
+      }
+      if(approved(snapshot)){draft=null;removeTemporary();unlock();return;}
+      show('checking','Controllo richiesta di accesso…');
+      try{
+        let request=await F.getDocFromServer(F.doc(db,'access_requests',user.uid));
+        if(!isCurrent()||ownRevision!==revision)return;
+        if(!request.exists()&&validDraft(draft,user)){
+          const pendingDraft=draft;
+          await createRequest(user,pendingDraft);
+          if(!isCurrent()||ownRevision!==revision)return;
+          draft=null;removeTemporary();
+          request=await F.getDocFromServer(F.doc(db,'access_requests',user.uid));
+        }
+        if(!isCurrent()||ownRevision!==revision)return;
+        if(!request.exists()){show('request');return;}
+        draft=null;removeTemporary();
+        if(request.data().status==='PENDING')show('pending');
+        else show('error','Accesso non autorizzato. Contatta il team RDA.');
+      }catch(error){if(isCurrent()&&ownRevision===revision)show('error',failure(error),true);}
+    },error=>{if(isCurrent())show('error',failure(error),true);});
+  }
+  async function completeLink(email){
+    completing=true;stop();show('checking','Verifica del link email…');
+    const saved=readTemporary();
+    try{
+      const result=await A.signInWithEmailLink(auth,email,emailLink);
+      draft=saved&&sameEmail(saved.email,result.user.email)?saved.draft:null;
+      removeTemporary();emailLink='';
+      const clean=new URL(location.href);
+      ['apiKey','oobCode','mode','continueUrl','lang'].forEach(key=>clean.searchParams.delete(key));
+      history.replaceState(history.state,'',clean.pathname+clean.search+clean.hash);
+      completing=false;checkSession(result.user);
+    }catch(error){
+      completing=false;
+      if(['auth/expired-action-code','auth/invalid-action-code'].includes(error.code)){emailLink='';removeTemporary();}
+      show('login',failure(error),true);
+    }
+  }
+  async function sendLink(email,value){
+    await A.sendSignInLinkToEmail(auth,email,{url:returnUrl,handleCodeInApp:true});
+    let stored=true;
+    try{localStorage.setItem(temporaryKey,JSON.stringify({email,at:Date.now(),draft:value}));}catch(_){stored=false;}
+    show('sent','Link inviato. Apri l’email e conferma l’accesso. La richiesta sarà registrata dopo la verifica dell’email.'+
+      (stored?'':' Su questo dispositivo dovrai reinserire email e dati della richiesta.'));
+    modeButton.hidden=false;modeButton.textContent='Torna all’accesso / invia un nuovo link';
+  }
+  requestForm.addEventListener('submit',async event=>{
+    event.preventDefault();if(!ready||busy||!requestForm.reportValidity())return;
+    const value={email:el('rdaAuthEmail').value.trim(),psn_id:el('rdaAuthPsn').value.trim(),
+      nickname_secondary:el('rdaAuthNickname').value.trim(),privacy_acknowledged:el('rdaAuthPrivacy').checked,privacy_version:privacyVersion};
+    if(!value.psn_id||!value.nickname_secondary){message('Compila PSN / ID e Nickname secondario.',true);return;}
+    busy=true;controls();
+    try{
+      const user=auth.currentUser;
+      if(user){await createRequest(user,value);draft=null;removeTemporary();checkSession(user);}
+      else await sendLink(value.email,value);
+    }catch(error){message(failure(error),true);}
+    finally{busy=false;controls();}
+  });
+  loginForm.addEventListener('submit',async event=>{
+    event.preventDefault();if(!ready||busy||!loginForm.reportValidity())return;
+    busy=true;controls();
+    try{
+      const email=el('rdaAuthLoginEmail').value.trim();
+      if(emailLink)await completeLink(email);else await sendLink(email,null);
+    }catch(error){message(failure(error),true);}
+    finally{busy=false;controls();}
+  });
+  modeButton.addEventListener('click',()=>{if(!busy)show(mode==='login'?'request':'login');});
+  refresh.addEventListener('click',()=>{if(!ready)location.reload();else checkSession(auth.currentUser);});
+  el('rdaAuthSessionExit').addEventListener('click',()=>logout.click());
+  logout.addEventListener('click',async()=>{
+    if(busy)return;
+    busy=true;stop();lock();controls();draft=null;removeTemporary();
+    try{await A.signOut(auth);show('request');}catch(error){show('error',failure(error),true);}
+    finally{busy=false;controls();}
+  });
+  window.addEventListener('offline',()=>{stop();show('error','È necessaria una connessione per verificare l’accesso RDA.');});
+  window.addEventListener('online',()=>{if(ready&&!emailLink&&!completing)checkSession(auth.currentUser);});
+  async function start(){
+    try{
+      const modules=await Promise.all([
+        import('https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js'),
+        import('https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js'),
+        import('https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js')
+      ]);
+      A=modules[1];F=modules[2];const app=modules[0].initializeApp(config);
+      auth=A.getAuth(app);db=F.getFirestore(app);ready=true;
+      emailLink=A.isSignInWithEmailLink(auth,location.href)?location.href:'';
+      A.onAuthStateChanged(auth,user=>{if(!emailLink&&!completing)checkSession(user);},error=>show('error',failure(error),true));
+      if(emailLink){
+        const saved=readTemporary();
+        if(saved){busy=true;controls();await completeLink(saved.email);busy=false;controls();}
+        else show('login','Per completare l’accesso inserisci l’indirizzo email che ha ricevuto il link.');
+      }
+    }catch(error){ready=false;show('error','Impossibile avviare l’accesso Firebase. Controlla la connessione e premi Verifica di nuovo.',true);}
+  }
+  lock();start();
+})();
