@@ -4,6 +4,35 @@ const months=['GENNAIO','FEBBRAIO','MARZO','APRILE','MAGGIO','GIUGNO','LUGLIO','
 const shortMonths=['GEN','FEB','MAR','APR','MAG','GIU','LUG','AGO','SET','OTT','NOV','DIC'];
 
 function emptyState(t){return `<div class="empty-state"><strong>${t}</strong><span>I dati compariranno dopo la pubblicazione dal Race Manager.</span></div>`}
+// Regolamento: il dialog conserva la schermata e lo scorrimento sottostanti.
+function setupRegulationViewer(){
+  const viewer=document.getElementById('rdaRegulationViewer');
+  const frame=document.getElementById('rdaRegulationPdf');
+  const close=document.getElementById('rdaRegulationClose');
+  let opener=null,previousOverflow='',previousScroll={left:0,top:0};
+  document.addEventListener('click',event=>{
+    const link=event.target.closest('a.regulation-btn');
+    if(!link||event.defaultPrevented||event.button!==0)return;
+    event.preventDefault();
+    if(viewer.open)return;
+    opener=link;
+    previousScroll={left:window.scrollX,top:window.scrollY};
+    previousOverflow=document.body.style.overflow;
+    frame.src=link.href;
+    viewer.showModal();
+    document.body.style.overflow='hidden';
+    close.focus({preventScroll:true});
+  });
+  close.addEventListener('click',()=>viewer.close());
+  viewer.addEventListener('close',()=>{
+    frame.removeAttribute('src');
+    document.body.style.overflow=previousOverflow;
+    if(opener&&opener.isConnected)opener.focus({preventScroll:true});
+    window.scrollTo({...previousScroll,behavior:'instant'});
+    opener=null;
+  });
+}
+setupRegulationViewer();
 function rankClass(p){return p===1?'p1':p===2?'p2':p===3?'p3':''}
 function statusHtml(s){return `<span class="status">${s||'—'}</span>`}
 function table(rows,cols,empty='Nessun dato ufficiale pubblicato'){
@@ -61,16 +90,40 @@ function futureRaceCard(r){const reg=r.regulation?`<a class="regulation-btn" hre
 function selectFutureDate(date){const rs=arr('futureRaces').filter(r=>`${r.year}-${String(r.month).padStart(2,'0')}-${String(r.day).padStart(2,'0')}`===date);if(!rs.length)return;$('#raceDetail').innerHTML=`<div class="future-badge">● ${rs.length>1?rs.length+' GARE FUTURE':'PROSSIMA GARA'}</div>${rs.map(futureRaceCard).join('')}`}
 function selectFutureRace(id){const r=arr('futureRaces').find(x=>x.eventId===id);if(!r)return;selectFutureDate(`${r.year}-${String(r.month).padStart(2,'0')}-${String(r.day).padStart(2,'0')}`)}
 
+let completedExpanded=false;
+
 function renderCompleted(){
   const races=[...arr('completedRaces')].sort((a,b)=>b.isoDate.localeCompare(a.isoDate));
-  $('#completedList').innerHTML=races.length?races.map(r=>`<div class="race-row" data-event="${r.eventId}">
+  const visibleRaces=completedExpanded?races:races.slice(0,5);
+
+  const raceHtml=visibleRaces.map(r=>`<div class="race-row" data-event="${r.eventId}">
     <div class="rdate">${String(r.day).padStart(2,'0')} ${shortMonths[r.month-1]} ${r.year}</div>
     <div><strong>${r.title}</strong><br><small>${r.master?`RDA MASTER ${r.master}`:r.championship}</small></div>
     <div class="round-col">${r.round?`Round ${r.round}`:'Gara'}</div>
-    <div class="track-col">⌁ &nbsp; ${r.track}</div><span class="official">UFFICIALE</span></div>`).join(''):emptyState('Nessuna gara disputata pubblicata');
-  $$('.race-row').forEach(x=>x.addEventListener('click',()=>openRaceResult(Number(x.dataset.event))));
-}
+    <div class="track-col">⌁ &nbsp; ${r.track}</div><span class="official">UFFICIALE</span></div>`).join('');
 
+  const toggleHtml=races.length>5
+    ? `<button type="button" id="completedToggle" class="regulation-btn" style="width:100%;margin-top:10px">
+        ${completedExpanded?'RIDUCI ELENCO':`MOSTRA TUTTE LE GARE (${races.length})`}
+       </button>`
+    : '';
+
+  $('#completedList').innerHTML=races.length
+    ? raceHtml+toggleHtml
+    : emptyState('Nessuna gara disputata pubblicata');
+
+  $$('#completedList .race-row').forEach(x=>
+    x.addEventListener('click',()=>openRaceResult(Number(x.dataset.event)))
+  );
+
+  const toggle=$('#completedToggle');
+  if(toggle){
+    toggle.addEventListener('click',()=>{
+      completedExpanded=!completedExpanded;
+      renderCompleted();
+    });
+  }
+}
 function renderFlyers(){
   const flyers=arr('flyers'), box=$('#flyerGallery');
   box.innerHTML=flyers.length?flyers.map(f=>`<button type="button" class="flyer-card" data-flyer="${f.id}"><img src="${f.image}" alt="Volantino ${f.label}"><strong>${f.label}</strong><small>Volantino ufficiale RDA</small></button>`).join(''):emptyState('Nessun volantino pubblicato');
