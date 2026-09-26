@@ -411,7 +411,7 @@ function rdaLicenceCard(d){
     messagingSenderId:'628775504971',
     appId:'1:628775504971:web:e9e8b2a0d2c0e670c1d1ce'
   };
-  let A,F,auth,db,unsubscribe,session=0,revision=0,mode='request',busy=false;
+  let A,F,auth,db,unsubscribe,session=0,revision=0,mode='login',busy=false;
   let emailLink='',draft=null,completing=false,ready=false;
   function message(text,error=false){
     status.textContent=text;status.hidden=!text;status.dataset.error=String(error);
@@ -453,6 +453,7 @@ function rdaLicenceCard(d){
       'auth/expired-action-code':'Il link è scaduto: richiedi un nuovo link.',
       'auth/invalid-action-code':'Link non valido o già utilizzato. Richiedi un nuovo link.',
       'auth/too-many-requests':'Troppi tentativi. Attendi prima di riprovare.',
+      'auth/quota-exceeded':'Limite di invio email raggiunto. Non richiedere altri link ora; attendi o contatta il team RDA.',
       'auth/unauthorized-domain':'Il dominio non è autorizzato in Firebase.',
       'permission-denied':'Firebase non consente questa operazione. Contatta il team RDA.'
     }[code]||'Accesso non verificato. Controlla la connessione e riprova.';
@@ -495,8 +496,7 @@ function rdaLicenceCard(d){
   }
   function checkSession(user){
     stop();const current=session;
-    if(!user){show('request');return;}
-    if(!user.email||!user.emailVerified){show('error','Email non verificata. Esci e accedi tramite il link email.',true);return;}
+    if(!user){show('login');return;}
     show('checking','Verifica autorizzazione RDA…');
     const isCurrent=()=>current===session&&auth.currentUser?.uid===user.uid&&!completing;
     unsubscribe=F.onSnapshot(F.doc(db,'authorizations',user.uid),{includeMetadataChanges:true},async snapshot=>{
@@ -508,19 +508,12 @@ function rdaLicenceCard(d){
       if(approved(snapshot)){draft=null;removeTemporary();unlock();return;}
       show('checking','Controllo richiesta di accesso…');
       try{
-        let request=await F.getDocFromServer(F.doc(db,'access_requests',user.uid));
-        if(!isCurrent()||ownRevision!==revision)return;
-        if(!request.exists()&&validDraft(draft,user)){
-          const pendingDraft=draft;
-          await createRequest(user,pendingDraft);
-          if(!isCurrent()||ownRevision!==revision)return;
-          draft=null;removeTemporary();
-          request=await F.getDocFromServer(F.doc(db,'access_requests',user.uid));
-        }
+        const request=await F.getDocFromServer(F.doc(db,'access_requests',user.uid));
         if(!isCurrent()||ownRevision!==revision)return;
         if(!request.exists()){show('request');return;}
         draft=null;removeTemporary();
-        if(request.data().status==='PENDING')show('pending');
+        if(request.data().status==='PENDING')show('pending','Richiesta in attesa di approvazione RDA.');
+        else if(request.data().status==='APPROVED')show('error','Richiesta approvata, ma autorizzazione RDA mancante o non valida. Contatta il team RDA.',true);
         else show('error','Accesso non autorizzato. Contatta il team RDA.');
       }catch(error){if(isCurrent()&&ownRevision===revision)show('error',failure(error),true);}
     },error=>{if(isCurrent())show('error',failure(error),true);});
@@ -543,6 +536,7 @@ function rdaLicenceCard(d){
     }
   }
   async function sendLink(email,value){
+    if(auth.currentUser){checkSession(auth.currentUser);return;}
     await A.sendSignInLinkToEmail(auth,email,{url:returnUrl,handleCodeInApp:true});
     let stored=true;
     try{localStorage.setItem(temporaryKey,JSON.stringify({email,at:Date.now(),draft:value}));}catch(_){stored=false;}
@@ -551,7 +545,7 @@ function rdaLicenceCard(d){
     modeButton.hidden=false;modeButton.textContent='Torna all’accesso / invia un nuovo link';
   }
   requestForm.addEventListener('submit',async event=>{
-    event.preventDefault();if(!ready||busy||!requestForm.reportValidity())return;
+    event.preventDefault();if(!ready||busy||mode!=='request'||!requestForm.reportValidity())return;
     const value={email:el('rdaAuthEmail').value.trim(),psn_id:el('rdaAuthPsn').value.trim(),
       nickname_secondary:el('rdaAuthNickname').value.trim(),privacy_acknowledged:el('rdaAuthPrivacy').checked,privacy_version:privacyVersion};
     if(!value.psn_id||!value.nickname_secondary){message('Compila PSN / ID e Nickname secondario.',true);return;}
@@ -564,7 +558,7 @@ function rdaLicenceCard(d){
     finally{busy=false;controls();}
   });
   loginForm.addEventListener('submit',async event=>{
-    event.preventDefault();if(!ready||busy||!loginForm.reportValidity())return;
+    event.preventDefault();if(!ready||busy||mode!=='login'||!loginForm.reportValidity())return;
     busy=true;controls();
     try{
       const email=el('rdaAuthLoginEmail').value.trim();
@@ -572,13 +566,13 @@ function rdaLicenceCard(d){
     }catch(error){message(failure(error),true);}
     finally{busy=false;controls();}
   });
-  modeButton.addEventListener('click',()=>{if(!busy)show(mode==='login'?'request':'login');});
+  modeButton.addEventListener('click',()=>{if(ready&&!busy&&!auth.currentUser)show(mode==='login'?'request':'login');});
   refresh.addEventListener('click',()=>{if(!ready)location.reload();else checkSession(auth.currentUser);});
   el('rdaAuthSessionExit').addEventListener('click',()=>logout.click());
   logout.addEventListener('click',async()=>{
     if(busy)return;
     busy=true;stop();lock();controls();draft=null;removeTemporary();
-    try{await A.signOut(auth);show('request');}catch(error){show('error',failure(error),true);}
+    try{await A.signOut(auth);show('login');}catch(error){show('error',failure(error),true);}
     finally{busy=false;controls();}
   });
   window.addEventListener('offline',()=>{stop();show('error','È necessaria una connessione per verificare l’accesso RDA.');});
@@ -591,15 +585,21 @@ function rdaLicenceCard(d){
         import('https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js')
       ]);
       A=modules[1];F=modules[2];const app=modules[0].initializeApp(config);
-      auth=A.getAuth(app);db=F.getFirestore(app);ready=true;
+      auth=A.getAuth(app);db=F.getFirestore(app);
+      await A.setPersistence(auth,A.browserLocalPersistence);
       emailLink=A.isSignInWithEmailLink(auth,location.href)?location.href:'';
-      A.onAuthStateChanged(auth,user=>{if(!emailLink&&!completing)checkSession(user);},error=>show('error',failure(error),true));
-      if(emailLink){
+      A.onAuthStateChanged(auth,async user=>{
+        ready=true;
+        if(completing)return;
+        if(user){emailLink='';checkSession(user);return;}
+        if(!emailLink){checkSession(null);return;}
         const saved=readTemporary();
-        if(saved){busy=true;controls();await completeLink(saved.email);busy=false;controls();}
-        else show('login','Per completare l’accesso inserisci l’indirizzo email che ha ricevuto il link.');
-      }
+        if(saved){
+          busy=true;controls();
+          try{await completeLink(saved.email);}finally{busy=false;controls();}
+        }else show('login','Per completare l’accesso inserisci l’indirizzo email che ha ricevuto il link.');
+      },error=>{ready=false;show('error',failure(error),true);});
     }catch(error){ready=false;show('error','Impossibile avviare l’accesso Firebase. Controlla la connessione e premi Verifica di nuovo.',true);}
   }
-  lock();start();
+  show('checking','Ripristino della sessione RDA…');start();
 })();
