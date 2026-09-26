@@ -399,6 +399,21 @@ function rdaLicenceCard(d){
   const gate=el('rdaAuthGate'), shell=el('rdaPrivateShell');
   if(!gate||!shell)return;
   const requestForm=el('rdaAuthRequestForm'), loginForm=el('rdaAuthLoginForm');
+  // UI locale del gate: nessuna modifica all'HTML o agli stili pubblicati.
+  const pasteForm=document.createElement('form');
+  pasteForm.id='rdaAuthPasteForm';pasteForm.className=loginForm.className;pasteForm.hidden=true;
+  const pasteFields=document.createElement('fieldset');
+  const pasteLabel=document.createElement('label');
+  pasteLabel.className='rda-auth-field';pasteLabel.htmlFor='rdaAuthPastedLink';
+  pasteLabel.textContent='Incolla il collegamento completo ricevuto via email';
+  const pasteInput=document.createElement('input');
+  pasteInput.id='rdaAuthPastedLink';pasteInput.type='text';pasteInput.autocomplete='off';
+  pasteInput.spellcheck=false;pasteInput.setAttribute('autocapitalize','none');
+  pasteInput.setAttribute('autocorrect','off');
+  const pasteSubmit=document.createElement('button');
+  pasteSubmit.type='submit';pasteSubmit.className='rda-auth-submit';pasteSubmit.textContent='COMPLETA ACCESSO';
+  pasteLabel.appendChild(pasteInput);pasteFields.append(pasteLabel,pasteSubmit);
+  pasteForm.appendChild(pasteFields);loginForm.insertAdjacentElement('afterend',pasteForm);
   const status=el('rdaAuthStatus'), modeButton=el('rdaAuthMode');
   const refresh=el('rdaAuthRefresh'), logout=el('rdaAuthSignOut');
   const privacyVersion='2026-09-25', temporaryKey='rda.emailLink.v1';
@@ -412,7 +427,7 @@ function rdaLicenceCard(d){
     appId:'1:628775504971:web:e9e8b2a0d2c0e670c1d1ce'
   };
   let A,F,auth,db,unsubscribe,session=0,revision=0,mode='login',busy=false;
-  let emailLink='',draft=null,completing=false,ready=false;
+  let emailLink='',draft=null,completing=false,ready=false,sentEmail='';
   function message(text,error=false){
     status.textContent=text;status.hidden=!text;status.dataset.error=String(error);
   }
@@ -430,15 +445,18 @@ function rdaLicenceCard(d){
   function controls(){
     el('rdaAuthRequestFields').disabled=!ready||busy;
     el('rdaAuthLoginFields').disabled=!ready||busy;
+    pasteFields.disabled=!ready||busy;
     modeButton.disabled=!ready||busy;refresh.disabled=busy;logout.disabled=busy;
   }
   function show(next,text='',error=false){
     mode=next;lock();
     requestForm.hidden=next!=='request';loginForm.hidden=next!=='login';
+    pasteForm.hidden=next!=='sent';
+    if(next!=='sent')pasteInput.value='';
     el('rdaAuthPending').hidden=next!=='pending';
     el('rdaAuthIntro').hidden=next!=='request';
-    modeButton.hidden=!!auth?.currentUser||!!emailLink||!['login','request'].includes(next);
-    modeButton.textContent=next==='login'?'Non hai ancora un’autorizzazione? Richiedi accesso':'Hai già un’autorizzazione RDA? Accedi';
+    modeButton.hidden=!!auth?.currentUser||!!emailLink||!['login','request','sent'].includes(next);
+    modeButton.textContent=next==='sent'?'Torna all’accesso / invia un nuovo link':next==='login'?'Non hai ancora un’autorizzazione? Richiedi accesso':'Hai già un’autorizzazione RDA? Accedi';
     refresh.hidden=next!=='error'&&next!=='pending';
     logout.hidden=!auth?.currentUser;
     el('rdaAuthEmail').readOnly=!!auth?.currentUser;
@@ -540,10 +558,38 @@ function rdaLicenceCard(d){
     await A.sendSignInLinkToEmail(auth,email,{url:returnUrl,handleCodeInApp:true});
     let stored=true;
     try{localStorage.setItem(temporaryKey,JSON.stringify({email,at:Date.now(),draft:value}));}catch(_){stored=false;}
-    show('sent','Link inviato. Apri l’email e conferma l’accesso. La richiesta sarà registrata dopo la verifica dell’email.'+
-      (stored?'':' Su questo dispositivo dovrai reinserire email e dati della richiesta.'));
+    sentEmail=email;
+    show('sent','Link di accesso inviato. Su iPhone: nell’email ricevuta copia il collegamento di accesso SENZA aprirlo in Safari. Torna qui, incollalo e completa l’accesso.'+
+      (stored?'':' Mantieni aperta questa schermata: l’email è conservata solo per questa sessione.'));
     modeButton.hidden=false;modeButton.textContent='Torna all’accesso / invia un nuovo link';
   }
+  pasteForm.addEventListener('submit',async event=>{
+    event.preventDefault();
+    if(!ready||busy||mode!=='sent'){pasteInput.value='';return;}
+    let pastedUrl=pasteInput.value.trim();
+    pasteInput.value='';
+    if(auth.currentUser){pastedUrl='';checkSession(auth.currentUser);return;}
+    if(!pastedUrl){message('Incolla il collegamento ricevuto via email.',true);return;}
+    busy=true;controls();
+    try{
+      if(!sentEmail||!A.isSignInWithEmailLink(auth,pastedUrl)){
+        message('Collegamento non valido. Copia il link completo ricevuto via email.',true);return;
+      }
+      completing=true;stop();show('checking','Verifica del link email…');
+      const result=await A.signInWithEmailLink(auth,sentEmail,pastedUrl);
+      pastedUrl='';sentEmail='';emailLink='';draft=null;removeTemporary();
+      completing=false;checkSession(result.user);
+    }catch(error){
+      // Non mostrare/loggare l'errore originale: potrebbe contenere il link.
+      const known=['auth/expired-action-code','auth/invalid-action-code','auth/invalid-email',
+        'auth/too-many-requests','auth/quota-exceeded','auth/unauthorized-domain'];
+      const text=known.includes(error?.code)?failure({code:error.code}):
+        'Impossibile completare l’accesso. Verifica la connessione e che il link sia valido e non già utilizzato.';
+      show('sent',text,true);
+    }finally{
+      pastedUrl='';pasteInput.value='';completing=false;busy=false;controls();
+    }
+  });
   requestForm.addEventListener('submit',async event=>{
     event.preventDefault();if(!ready||busy||mode!=='request'||!requestForm.reportValidity())return;
     const value={email:el('rdaAuthEmail').value.trim(),psn_id:el('rdaAuthPsn').value.trim(),
