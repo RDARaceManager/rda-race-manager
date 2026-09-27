@@ -363,7 +363,14 @@ function renderChampionshipRaces(c){
  box.innerHTML=a.length?a.map(r=>`<button type="button" class="champ-race-btn" data-event="${r.eventId}"><b>${r.gara?`Gara ${r.gara}`:'Gara ufficiale'}</b><span>${r.date||''} • ${r.track||'Circuito non indicato'}</span><em>Apri risultati ›</em></button>`).join(''):emptyState('Nessuna gara ufficiale pubblicata');
  $$('#championshipRaces [data-event]').forEach(b=>b.onclick=()=>openRaceResult(b.dataset.event));
 }
-function openDriverCard(name){const d=arr('drivers').find(x=>x.name===name);if(!d)return;const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div>${rdaLicenceCard(d)}<h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;go('drivercard')}
+function openDriverCard(name){const d=arr('drivers').find(x=>x.name===name);if(!d)return;renderDriverCard(d)}
+function openDriverCardById(driverId){
+  if(!Number.isSafeInteger(driverId)||driverId<=0)return false;
+  const matches=arr('drivers').filter(d=>d.driver_id===driverId);
+  if(matches.length!==1)return false;
+  renderDriverCard(matches[0]);return true;
+}
+function renderDriverCard(d){const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div>${rdaLicenceCard(d)}<h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;go('drivercard')}
 function renderTrackRecords(q=''){const a=arr('trackRecords').filter(x=>x.track.toLowerCase().includes(q.toLowerCase()));$('#trackRecordCards').innerHTML=a.length?a.map(x=>`<article class="record-card panel"><div class="record-map"><img src="${mapFileForTrack(x.track)}" alt="Sagoma ${x.track}" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">Sagoma non disponibile</span></div><div><div class="eyebrow">RECORD RDA</div><h3>${x.track}</h3><strong class="record-time">${x.time}</strong><p>🏎️ ${x.driver}<br>${x.car}<br><small>${x.championship} • ${x.date}</small></p></div></article>`).join(''):emptyState('Nessun record circuito disponibile')}
 const trs=$('#trackRecordSearch');if(trs)trs.addEventListener('input',e=>renderTrackRecords(e.target.value));
 setTimeout(()=>renderTrackRecords(),0);
@@ -434,6 +441,7 @@ function rdaLicenceCard(d){
     appId:'1:628775504971:web:e9e8b2a0d2c0e670c1d1ce'
   };
   let A,F,auth,db,unsubscribe,session=0,revision=0,mode='login',busy=false,ready=false,authSubmitting=false;
+  let ownCardUid=null,ownCardAttempted=false;
   function clearPasswords(){loginPassword.value='';registerPassword.value='';registerConfirm.value='';}
   function message(text,error=false){status.textContent=text;status.hidden=!text;status.dataset.error=String(error);}
   function lock(){
@@ -498,6 +506,7 @@ function rdaLicenceCard(d){
       Number.isSafeInteger(value.driver_id)&&value.driver_id>0;
   }
   function checkSession(user){
+    if((user?.uid||null)!==ownCardUid){ownCardUid=user?.uid||null;ownCardAttempted=false;go('home');}
     stop();const current=session;
     if(!user){show('login');return;}
     show('checking','Verifica autorizzazione RDA…');
@@ -506,7 +515,7 @@ function rdaLicenceCard(d){
       if(!isCurrent())return;
       const ownRevision=++revision;
       if(snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites){show('error','È necessaria una connessione per verificare l’autorizzazione RDA.');return;}
-      if(approved(snapshot)){clearPasswords();requestForm.hidden=true;registerForm.hidden=true;loginForm.hidden=true;unlock();return;}
+      if(approved(snapshot)){clearPasswords();requestForm.hidden=true;registerForm.hidden=true;loginForm.hidden=true;unlock();if(!ownCardAttempted){ownCardAttempted=true;if(!openDriverCardById(snapshot.data().driver_id))go('home');}return;}
       show('checking','Controllo richiesta di accesso…');
       try{
         const request=await F.getDocFromServer(F.doc(db,'access_requests',user.uid));
