@@ -430,9 +430,8 @@ function rdaLicenceCard(d){
   let emailLink='',draft=null,completing=false,ready=false,sentEmail='';
   // Migrazione temporanea FASE 1: solo credenziali dell'utente APPROVED corrente.
   let passwordUi=null,passwordUid='',passwordBusy=false,passwordBlocked=false;
-  const linkedPasswordUids=new Set();
-  const providerNotice='Firebase ha rifiutato il collegamento: provider già collegato. Nessuna password confermata e nessuna procedura alternativa avviata. Contatta il team RDA.';
-  const migrationSuccess='PASSWORD COLLEGATA CORRETTAMENTE — UID RDA verificato e invariato. Non effettuare ancora il logout.';
+  const updatedPasswordUids=new Set();
+  const migrationSuccess='PASSWORD IMPOSTATA CORRETTAMENTE — UID RDA verificato e invariato. Non effettuare ancora il logout.';
   const migrationUncertain='ESITO DA VERIFICARE — non riprovare e non effettuare il logout.';
   function migrationMessage(text,state='info'){
     const note=passwordUi.note;
@@ -441,8 +440,8 @@ function rdaLicenceCard(d){
     note.style.cssText='display:block !important;visibility:visible !important;opacity:1 !important;padding:14px !important;margin:12px 0 !important;border:2px solid '+colors[2]+' !important;border-radius:8px !important;background:'+colors[0]+' !important;color:'+colors[1]+' !important;font:600 16px/1.5 system-ui,sans-serif !important;white-space:pre-wrap !important;overflow-wrap:anywhere !important;text-align:left !important;';
     if(!passwordUi.form.hidden&&typeof note.scrollIntoView==='function')note.scrollIntoView({block:'nearest'});
   }
-  function hasLinkedPassword(user){
-    return linkedPasswordUids.has(user.uid);
+  function hasUpdatedPassword(user){
+    return updatedPasswordUids.has(user.uid);
   }
   function hidePasswordMigration(){
     passwordUid='';
@@ -466,39 +465,40 @@ function rdaLicenceCard(d){
       };
       const password=makeInput('rdaMigrationPassword','Nuova password');
       const confirm=makeInput('rdaMigrationConfirm','Conferma password');
-      const submit=document.createElement('button');submit.type='submit';submit.textContent='COLLEGA PASSWORD';
+      const submit=document.createElement('button');submit.type='submit';submit.textContent='IMPOSTA PASSWORD';
       const note=document.createElement('p');note.id='rdaMigrationStatus';note.setAttribute('role','status');note.setAttribute('aria-live','polite');note.setAttribute('aria-atomic','true');
       fields.append(note,submit);form.append(title,fields);shell.appendChild(form);
       passwordUi={form,fields,password,confirm,note};
-      form.addEventListener('submit',linkPassword);
+      form.addEventListener('submit',setPassword);
     }
     passwordUid=user.uid;
     passwordUi.form.hidden=false;
-    passwordUi.fields.disabled=passwordBusy||passwordBlocked||!!hasLinkedPassword(user);
+    passwordUi.fields.disabled=passwordBusy||passwordBlocked||!!hasUpdatedPassword(user);
     if(passwordBlocked)return; // Conserva l'esito diagnostico già mostrato.
-    migrationMessage(hasLinkedPassword(user)?migrationSuccess:passwordBusy?'Collegamento password in corso…':'La password sarà collegata alla sessione corrente, mantenendo lo stesso UID.',hasLinkedPassword(user)?'success':'info');
+    migrationMessage(hasUpdatedPassword(user)?migrationSuccess:passwordBusy?'Impostazione password in corso…':'La password sarà impostata per l’utente corrente, mantenendo lo stesso UID.',hasUpdatedPassword(user)?'success':'info');
   }
-  async function linkPassword(event){
+  async function setPassword(event){
     event.preventDefault();
     const ui=passwordUi;
-    let credential=null,ownsBusy=false;
+    let password='',ownsBusy=false;
     try{
       if(passwordBusy||passwordBlocked)return;
       const user=auth.currentUser;
       const initialUid=user?.uid,initialSession=session;
       if(!ready||busy||!initialUid||passwordUid!==initialUid||ui.form.hidden||!user.email){
-        migrationMessage('Sessione o autorizzazione non valida. Nessun collegamento tentato.','error');return;
+        migrationMessage('Sessione o autorizzazione non valida. Nessuna impostazione tentata.','error');return;
       }
-      if(hasLinkedPassword(user)){ui.fields.disabled=true;migrationMessage(migrationSuccess,'success');return;}
+      if(hasUpdatedPassword(user)){ui.fields.disabled=true;migrationMessage(migrationSuccess,'success');return;}
       if(!ui.password.value||ui.password.value!==ui.confirm.value){
         migrationMessage('Inserisci la password e una conferma identica.','error');return;
       }
       passwordBusy=true;ownsBusy=true;ui.fields.disabled=true;
-      migrationMessage('Collegamento password in corso…');
-      credential=A.EmailAuthProvider.credential(user.email,ui.password.value);
+      migrationMessage('Impostazione password in corso…');
+      password=ui.password.value;
       ui.password.value='';ui.confirm.value='';
-      const result=await A.linkWithCredential(user,credential);
-      if(result?.user?.uid!==initialUid||auth.currentUser?.uid!==initialUid){
+      await A.updatePassword(user,password);
+      password='';
+      if(auth.currentUser?.uid!==initialUid){
         passwordBlocked=true;
         migrationMessage(migrationUncertain,'error');return;
       }
@@ -506,27 +506,25 @@ function rdaLicenceCard(d){
         passwordBlocked=true;
         migrationMessage(migrationUncertain,'error');return;
       }
-      linkedPasswordUids.add(initialUid);
+      updatedPasswordUids.add(initialUid);
       migrationMessage(migrationSuccess,'success');
     }catch(error){
+      password='';
       const explanations={
-        'auth/weak-password':'Password troppo debole: scegli una password conforme ai requisiti Firebase.',
-        'auth/requires-recent-login':'È richiesto un accesso recente. Usa manualmente il flusso Email-Link esistente prima di riprovare.',
-        'auth/provider-already-linked':providerNotice,
-        'auth/email-already-in-use':'Email già utilizzata da un altro account. Contatta il team RDA.',
-        'auth/credential-already-in-use':'Credenziale già associata a un altro account. Contatta il team RDA.',
-        'auth/operation-not-allowed':'Operazione non abilitata in Firebase. Contatta il team RDA.',
-        'auth/network-request-failed':'Connessione non disponibile. Esito da verificare prima di un nuovo tentativo.'
+        'auth/requires-recent-login':'ACCESSO RECENTE RICHIESTO — non effettuare il logout e non riprovare.',
+        'auth/weak-password':'Password non conforme ai requisiti Firebase.',
+        'auth/network-request-failed':migrationUncertain,
+        'auth/operation-not-allowed':'Operazione non disponibile. Contatta il team RDA.'
       };
-      const code=typeof error?.code==='string'&&Object.prototype.hasOwnProperty.call(explanations,error.code)?error.code:'';
-      if(!code||code==='auth/network-request-failed')passwordBlocked=true;
-      migrationMessage(code?'COLLEGAMENTO NON RIUSCITO — '+code+'\n'+explanations[code]+(code==='auth/network-request-failed'?'\n'+migrationUncertain:''):
-        'COLLEGAMENTO NON RIUSCITO — codice Firebase non riconosciuto. Non riprovare e contatta il team RDA.\n'+migrationUncertain,'error');
-      if(error?.code==='auth/provider-already-linked')passwordBlocked=true;
+      // Mostra soltanto il codice, mai dettagli grezzi dell'errore.
+      const code=typeof error?.code==='string'&&/^auth\/[a-z0-9-]{1,80}$/.test(error.code)?error.code:'';
+      const known=Object.prototype.hasOwnProperty.call(explanations,code);
+      if(code!=='auth/weak-password')passwordBlocked=true;
+      migrationMessage(known?code+'\n'+explanations[code]:(code?code+'\n':'')+migrationUncertain,'error');
     }finally{
-      credential=null;ui.password.value='';ui.confirm.value='';
+      password='';ui.password.value='';ui.confirm.value='';
       if(ownsBusy)passwordBusy=false;
-      ui.fields.disabled=passwordBusy||passwordBlocked||!passwordUid||passwordUid!==auth.currentUser?.uid||!!hasLinkedPassword(auth.currentUser||{});
+      ui.fields.disabled=passwordBusy||passwordBlocked||!passwordUid||passwordUid!==auth.currentUser?.uid||!!hasUpdatedPassword(auth.currentUser||{});
     }
   }
 
