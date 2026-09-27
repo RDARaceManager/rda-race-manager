@@ -396,28 +396,35 @@ function rdaLicenceCard(d){
 (function setupRdaAccessGate(){
   'use strict';
   const el=id=>document.getElementById(id);
-  const gate=el('rdaAuthGate'), shell=el('rdaPrivateShell');
+  const gate=el('rdaAuthGate'),shell=el('rdaPrivateShell');
   if(!gate||!shell)return;
-  const requestForm=el('rdaAuthRequestForm'), loginForm=el('rdaAuthLoginForm');
-  // UI locale del gate: nessuna modifica all'HTML o agli stili pubblicati.
-  const pasteForm=document.createElement('form');
-  pasteForm.id='rdaAuthPasteForm';pasteForm.className=loginForm.className;pasteForm.hidden=true;
-  const pasteFields=document.createElement('fieldset');
-  const pasteLabel=document.createElement('label');
-  pasteLabel.className='rda-auth-field';pasteLabel.htmlFor='rdaAuthPastedLink';
-  pasteLabel.textContent='Incolla il collegamento completo ricevuto via email';
-  const pasteInput=document.createElement('input');
-  pasteInput.id='rdaAuthPastedLink';pasteInput.type='text';pasteInput.autocomplete='off';
-  pasteInput.spellcheck=false;pasteInput.setAttribute('autocapitalize','none');
-  pasteInput.setAttribute('autocorrect','off');
-  const pasteSubmit=document.createElement('button');
-  pasteSubmit.type='submit';pasteSubmit.className='rda-auth-submit';pasteSubmit.textContent='COMPLETA ACCESSO';
-  pasteLabel.appendChild(pasteInput);pasteFields.append(pasteLabel,pasteSubmit);
-  pasteForm.appendChild(pasteFields);loginForm.insertAdjacentElement('afterend',pasteForm);
-  const status=el('rdaAuthStatus'), modeButton=el('rdaAuthMode');
-  const refresh=el('rdaAuthRefresh'), logout=el('rdaAuthSignOut');
-  const privacyVersion='2026-09-25', temporaryKey='rda.emailLink.v1';
-  const returnUrl='https://rdaracemanager.github.io/rda-race-manager/';
+  const requestForm=el('rdaAuthRequestForm'),loginForm=el('rdaAuthLoginForm');
+  const loginFields=el('rdaAuthLoginFields'),requestFields=el('rdaAuthRequestFields');
+  const status=el('rdaAuthStatus'),modeButton=el('rdaAuthMode');
+  const refresh=el('rdaAuthRefresh'),logout=el('rdaAuthSignOut');
+  const privacyVersion='2026-09-25';
+  // Tutta la UI nuova è locale al gate; nessuna modifica a HTML/CSS.
+  function input(fields,id,text,type,autocomplete){
+    const label=document.createElement('label');label.className='rda-auth-field';label.htmlFor=id;label.textContent=text;
+    const value=document.createElement('input');value.id=id;value.type=type;value.autocomplete=autocomplete;value.required=true;
+    if(type==='email'){value.maxLength=254;value.spellcheck=false;value.setAttribute('autocapitalize','none');}
+    label.appendChild(value);fields.appendChild(label);return value;
+  }
+  const loginEmailLabel=el('rdaAuthLoginEmail').parentElement;
+  loginFields.replaceChildren(loginEmailLabel);
+  const loginPassword=input(loginFields,'rdaLoginPassword','Password','password','current-password');
+  const loginSubmit=document.createElement('button');loginSubmit.id='rdaAuthLoginSubmit';loginSubmit.type='submit';loginSubmit.className='rda-auth-submit';loginSubmit.textContent='ACCEDI';loginFields.appendChild(loginSubmit);
+  const registerForm=document.createElement('form');registerForm.id='rdaRegisterForm';registerForm.className=loginForm.className;registerForm.hidden=true;
+  const registerFields=document.createElement('fieldset');registerFields.id='rdaRegisterFields';
+  const registerEmail=input(registerFields,'rdaRegisterEmail','Email','email','email');
+  const registerPassword=input(registerFields,'rdaRegisterPassword','Password','password','new-password');
+  const registerConfirm=input(registerFields,'rdaRegisterConfirm','Conferma password','password','new-password');
+  const registerSubmit=document.createElement('button');registerSubmit.type='submit';registerSubmit.className='rda-auth-submit';registerSubmit.textContent='CREA ACCOUNT';
+  registerFields.appendChild(registerSubmit);registerForm.appendChild(registerFields);loginForm.insertAdjacentElement('afterend',registerForm);
+  const privacyLabel=el('rdaAuthPrivacy').parentElement;
+  const privacyText=document.createElement('span');privacyText.textContent='Ho letto l’Informativa Privacy RDA e prendo atto del trattamento dei dati personali necessario alla gestione del mio account e dell’accesso a RDA Mobile.';
+  privacyLabel.replaceChildren(el('rdaAuthPrivacy'),privacyText);
+  el('rdaAuthEmail').readOnly=true;
   const config={
     apiKey:'AIzaSyAb6OQDclhfEkbJKAUWDpT8MhwqEp9EioI',
     authDomain:'rda-race-manager-c8138.firebaseapp.com',
@@ -426,176 +433,54 @@ function rdaLicenceCard(d){
     messagingSenderId:'628775504971',
     appId:'1:628775504971:web:e9e8b2a0d2c0e670c1d1ce'
   };
-  let A,F,auth,db,unsubscribe,session=0,revision=0,mode='login',busy=false;
-  let emailLink='',draft=null,completing=false,ready=false,sentEmail='';
-  // Migrazione temporanea FASE 1: solo credenziali dell'utente APPROVED corrente.
-  let passwordUi=null,passwordUid='',passwordBusy=false,passwordBlocked=false;
-  const updatedPasswordUids=new Set();
-  const migrationSuccess='PASSWORD IMPOSTATA CORRETTAMENTE — UID RDA verificato e invariato. Non effettuare ancora il logout.';
-  const migrationUncertain='ESITO DA VERIFICARE — non riprovare e non effettuare il logout.';
-  function migrationMessage(text,state='info'){
-    const note=passwordUi.note;
-    note.textContent=text;note.hidden=false;note.dataset.state=state;
-    const colors={info:['#eff6ff','#1e3a8a','#2563eb'],success:['#ecfdf5','#064e3b','#059669'],error:['#fff1f2','#881337','#e11d48']}[state];
-    note.style.cssText='display:block !important;visibility:visible !important;opacity:1 !important;padding:14px !important;margin:12px 0 !important;border:2px solid '+colors[2]+' !important;border-radius:8px !important;background:'+colors[0]+' !important;color:'+colors[1]+' !important;font:600 16px/1.5 system-ui,sans-serif !important;white-space:pre-wrap !important;overflow-wrap:anywhere !important;text-align:left !important;';
-    if(!passwordUi.form.hidden&&typeof note.scrollIntoView==='function')note.scrollIntoView({block:'nearest'});
-  }
-  function hasUpdatedPassword(user){
-    return updatedPasswordUids.has(user.uid);
-  }
-  function hidePasswordMigration(){
-    passwordUid='';
-    if(passwordUi){
-      passwordUi.form.hidden=true;
-      passwordUi.password.value='';passwordUi.confirm.value='';
-      passwordUi.fields.disabled=true;
-    }
-  }
-  function showPasswordMigration(user){
-    if(auth.currentUser!==user)return;
-    if(!passwordUi){
-      const form=document.createElement('form');form.id='rdaPasswordMigration';form.hidden=true;
-      const title=document.createElement('h2');title.textContent='IMPOSTA PASSWORD DI ACCESSO';
-      const fields=document.createElement('fieldset');
-      const makeInput=(id,text)=>{
-        const label=document.createElement('label');label.htmlFor=id;label.textContent=text;
-        const input=document.createElement('input');input.id=id;input.type='password';
-        input.autocomplete='new-password';
-        label.appendChild(input);fields.appendChild(label);return input;
-      };
-      const password=makeInput('rdaMigrationPassword','Nuova password');
-      const confirm=makeInput('rdaMigrationConfirm','Conferma password');
-      const submit=document.createElement('button');submit.type='submit';submit.textContent='IMPOSTA PASSWORD';
-      const note=document.createElement('p');note.id='rdaMigrationStatus';note.setAttribute('role','status');note.setAttribute('aria-live','polite');note.setAttribute('aria-atomic','true');
-      fields.append(note,submit);form.append(title,fields);shell.appendChild(form);
-      passwordUi={form,fields,password,confirm,note};
-      form.addEventListener('submit',setPassword);
-    }
-    passwordUid=user.uid;
-    passwordUi.form.hidden=false;
-    passwordUi.fields.disabled=passwordBusy||passwordBlocked||!!hasUpdatedPassword(user);
-    if(passwordBlocked)return; // Conserva l'esito diagnostico già mostrato.
-    migrationMessage(hasUpdatedPassword(user)?migrationSuccess:passwordBusy?'Impostazione password in corso…':'La password sarà impostata per l’utente corrente, mantenendo lo stesso UID.',hasUpdatedPassword(user)?'success':'info');
-  }
-  async function setPassword(event){
-    event.preventDefault();
-    const ui=passwordUi;
-    let password='',ownsBusy=false;
-    try{
-      if(passwordBusy||passwordBlocked)return;
-      const user=auth.currentUser;
-      const initialUid=user?.uid,initialSession=session;
-      if(!ready||busy||!initialUid||passwordUid!==initialUid||ui.form.hidden||!user.email){
-        migrationMessage('Sessione o autorizzazione non valida. Nessuna impostazione tentata.','error');return;
-      }
-      if(hasUpdatedPassword(user)){ui.fields.disabled=true;migrationMessage(migrationSuccess,'success');return;}
-      if(!ui.password.value||ui.password.value!==ui.confirm.value){
-        migrationMessage('Inserisci la password e una conferma identica.','error');return;
-      }
-      passwordBusy=true;ownsBusy=true;ui.fields.disabled=true;
-      migrationMessage('Impostazione password in corso…');
-      password=ui.password.value;
-      ui.password.value='';ui.confirm.value='';
-      await A.updatePassword(user,password);
-      password='';
-      if(auth.currentUser?.uid!==initialUid){
-        passwordBlocked=true;
-        migrationMessage(migrationUncertain,'error');return;
-      }
-      if(session!==initialSession||passwordUid!==initialUid){
-        passwordBlocked=true;
-        migrationMessage(migrationUncertain,'error');return;
-      }
-      updatedPasswordUids.add(initialUid);
-      migrationMessage(migrationSuccess,'success');
-    }catch(error){
-      password='';
-      const explanations={
-        'auth/requires-recent-login':'ACCESSO RECENTE RICHIESTO — non effettuare il logout e non riprovare.',
-        'auth/weak-password':'Password non conforme ai requisiti Firebase.',
-        'auth/network-request-failed':migrationUncertain,
-        'auth/operation-not-allowed':'Operazione non disponibile. Contatta il team RDA.'
-      };
-      // Mostra soltanto il codice, mai dettagli grezzi dell'errore.
-      const code=typeof error?.code==='string'&&/^auth\/[a-z0-9-]{1,80}$/.test(error.code)?error.code:'';
-      const known=Object.prototype.hasOwnProperty.call(explanations,code);
-      if(code!=='auth/weak-password')passwordBlocked=true;
-      migrationMessage(known?code+'\n'+explanations[code]:(code?code+'\n':'')+migrationUncertain,'error');
-    }finally{
-      password='';ui.password.value='';ui.confirm.value='';
-      if(ownsBusy)passwordBusy=false;
-      ui.fields.disabled=passwordBusy||passwordBlocked||!passwordUid||passwordUid!==auth.currentUser?.uid||!!hasUpdatedPassword(auth.currentUser||{});
-    }
-  }
-
-  function message(text,error=false){
-    status.textContent=text;status.hidden=!text;status.dataset.error=String(error);
-  }
+  let A,F,auth,db,unsubscribe,session=0,revision=0,mode='login',busy=false,ready=false,authSubmitting=false;
+  function clearPasswords(){loginPassword.value='';registerPassword.value='';registerConfirm.value='';}
+  function message(text,error=false){status.textContent=text;status.hidden=!text;status.dataset.error=String(error);}
   function lock(){
-    hidePasswordMigration();
     const viewer=el('rdaRegulationViewer');
-    if(viewer&&viewer.open)viewer.close(); // Conserva il cleanup del viewer originale.
-    shell.hidden=true;shell.inert=true;shell.setAttribute('aria-hidden','true');
-    shell.style.display='none';gate.hidden=false;
+    if(viewer&&viewer.open)viewer.close();
+    shell.hidden=true;shell.inert=true;shell.setAttribute('aria-hidden','true');shell.style.display='none';gate.hidden=false;
   }
-  function unlock(){
-    gate.hidden=true;shell.hidden=false;shell.inert=false;
-    shell.removeAttribute('aria-hidden');shell.style.removeProperty('display');
-  }
+  function unlock(){gate.hidden=true;shell.hidden=false;shell.inert=false;shell.removeAttribute('aria-hidden');shell.style.removeProperty('display');}
   function stop(){session++;revision++;if(unsubscribe)unsubscribe();unsubscribe=null;}
   function controls(){
-    el('rdaAuthRequestFields').disabled=!ready||busy;
-    el('rdaAuthLoginFields').disabled=!ready||busy;
-    pasteFields.disabled=!ready||busy;
+    requestFields.disabled=!ready||busy;loginFields.disabled=!ready||busy;registerFields.disabled=!ready||busy;
     modeButton.disabled=!ready||busy;refresh.disabled=busy;logout.disabled=busy;
   }
   function show(next,text='',error=false){
-    mode=next;lock();
-    requestForm.hidden=next!=='request';loginForm.hidden=next!=='login';
-    pasteForm.hidden=next!=='sent';
-    if(next!=='sent')pasteInput.value='';
+    mode=next;lock();clearPasswords();
+    requestForm.hidden=next!=='request';loginForm.hidden=next!=='login';registerForm.hidden=next!=='register';
     el('rdaAuthPending').hidden=next!=='pending';
     el('rdaAuthIntro').hidden=next!=='request';
-    modeButton.hidden=!!auth?.currentUser||!!emailLink||!['login','request','sent'].includes(next);
-    modeButton.textContent=next==='sent'?'Torna all’accesso / invia un nuovo link':next==='login'?'Non hai ancora un’autorizzazione? Richiedi accesso':'Hai già un’autorizzazione RDA? Accedi';
-    refresh.hidden=next!=='error'&&next!=='pending';
-    logout.hidden=!auth?.currentUser;
-    el('rdaAuthEmail').readOnly=!!auth?.currentUser;
-    if(auth?.currentUser)el('rdaAuthEmail').value=auth.currentUser.email||'';
-    el('rdaAuthLoginSubmit').textContent=emailLink?'CONFERMA EMAIL E ACCEDI':'INVIA LINK DI ACCESSO';
-    message(text,error);controls();
+    el('rdaAuthTitle').textContent=next==='request'?'RICHIESTA ACCESSO RDA':next==='register'?'CREA ACCOUNT':next==='login'?'ACCEDI':'ACCESSO RDA';
+    modeButton.hidden=!!auth?.currentUser||!['login','register'].includes(next);
+    modeButton.textContent=next==='register'?'ACCEDI':'CREA ACCOUNT';
+    refresh.hidden=next!=='error';logout.hidden=!auth?.currentUser;
+    el('rdaAuthEmail').value=auth?.currentUser?.email||'';
+    message(next==='pending'?'':text,error);controls();
   }
   function failure(error){
-    const code=String(error?.code||error?.name||'errore');
-    const detail={
+    const messages={
       'auth/invalid-email':'Controlla l’indirizzo email.',
-      'auth/expired-action-code':'Il link è scaduto: richiedi un nuovo link.',
-      'auth/invalid-action-code':'Link non valido o già utilizzato. Richiedi un nuovo link.',
+      'auth/invalid-credential':'Email o password non corrette.',
+      'auth/user-disabled':'Account disabilitato. Contatta il team RDA.',
+      'auth/email-already-in-use':'Email già utilizzata. Accedi con il tuo account.',
+      'auth/weak-password':'Password non conforme ai requisiti Firebase.',
       'auth/too-many-requests':'Troppi tentativi. Attendi prima di riprovare.',
-      'auth/quota-exceeded':'Limite di invio email raggiunto. Non richiedere altri link ora; attendi o contatta il team RDA.',
-      'auth/unauthorized-domain':'Il dominio non è autorizzato in Firebase.',
+      'auth/network-request-failed':'Connessione non disponibile. Verifica la rete.',
+      'auth/operation-not-allowed':'Operazione non disponibile. Contatta il team RDA.',
       'permission-denied':'Firebase non consente questa operazione. Contatta il team RDA.'
-    }[code]||'Accesso non verificato. Controlla la connessione e riprova.';
-    return detail+' ('+code+')';
+    };
+    return Object.prototype.hasOwnProperty.call(messages,error?.code)?messages[error.code]:'Operazione non confermata. Contatta il team RDA.';
   }
-  function removeTemporary(){try{localStorage.removeItem(temporaryKey);}catch(_){}}
-  function readTemporary(){
-    try{
-      const value=JSON.parse(localStorage.getItem(temporaryKey)||'null');
-      if(value&&typeof value.email==='string'&&Number.isFinite(value.at)&&Date.now()-value.at>=0&&Date.now()-value.at<86400000)return value;
-    }catch(_){}
-    removeTemporary();return null;
-  }
-  function sameEmail(a,b){return typeof a==='string'&&typeof b==='string'&&a.trim().toLowerCase()===b.trim().toLowerCase();}
   function validDraft(value,user){
-    return value&&sameEmail(value.email,user.email)&&value.privacy_version===privacyVersion&&value.privacy_acknowledged===true&&
+    return value&&value.email===user.email&&value.privacy_version===privacyVersion&&value.privacy_acknowledged===true&&
       typeof value.psn_id==='string'&&value.psn_id.trim().length>0&&value.psn_id.length<=100&&
       typeof value.nickname_secondary==='string'&&value.nickname_secondary.trim().length>0&&value.nickname_secondary.length<=100;
   }
   async function createRequest(user,value){
-    if(!user.email||!user.emailVerified||!validDraft(value,user))throw new Error('Dati richiesta incompleti');
+    if(!user.email||!validDraft(value,user))throw new Error('Dati richiesta incompleti');
     const ref=F.doc(db,'access_requests',user.uid);
-    // Transazione: crea solo se assente, senza aggiornare richieste preesistenti.
     await F.runTransaction(db,async tx=>{
       const existing=await tx.get(ref);
       if(auth.currentUser?.uid!==user.uid)throw new Error('Sessione cambiata');
@@ -609,7 +494,6 @@ function rdaLicenceCard(d){
   function approved(snapshot){
     if(!snapshot.exists()||snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites)return false;
     const value=snapshot.data();
-    // Documento gestito esclusivamente dal team RDA. Nessuna deduzione da nickname.
     return value.uid===auth.currentUser?.uid&&value.status==='APPROVED'&&
       Number.isSafeInteger(value.driver_id)&&value.driver_id>0;
   }
@@ -617,113 +501,64 @@ function rdaLicenceCard(d){
     stop();const current=session;
     if(!user){show('login');return;}
     show('checking','Verifica autorizzazione RDA…');
-    const isCurrent=()=>current===session&&auth.currentUser?.uid===user.uid&&!completing;
+    const isCurrent=()=>current===session&&auth.currentUser?.uid===user.uid&&!authSubmitting;
     unsubscribe=F.onSnapshot(F.doc(db,'authorizations',user.uid),{includeMetadataChanges:true},async snapshot=>{
       if(!isCurrent())return;
       const ownRevision=++revision;
-      if(snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites){
-        show('error','È necessaria una connessione per verificare l’autorizzazione RDA.');return;
-      }
-      if(approved(snapshot)){draft=null;removeTemporary();unlock();showPasswordMigration(user);return;}
+      if(snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites){show('error','È necessaria una connessione per verificare l’autorizzazione RDA.');return;}
+      if(approved(snapshot)){clearPasswords();requestForm.hidden=true;registerForm.hidden=true;loginForm.hidden=true;unlock();return;}
       show('checking','Controllo richiesta di accesso…');
       try{
         const request=await F.getDocFromServer(F.doc(db,'access_requests',user.uid));
         if(!isCurrent()||ownRevision!==revision)return;
         if(!request.exists()){show('request');return;}
-        draft=null;removeTemporary();
         if(request.data().status==='PENDING')show('pending','Richiesta in attesa di approvazione RDA.');
         else if(request.data().status==='APPROVED')show('error','Richiesta approvata, ma autorizzazione RDA mancante o non valida. Contatta il team RDA.',true);
         else show('error','Accesso non autorizzato. Contatta il team RDA.');
       }catch(error){if(isCurrent()&&ownRevision===revision)show('error',failure(error),true);}
     },error=>{if(isCurrent())show('error',failure(error),true);});
   }
-  async function completeLink(email){
-    completing=true;stop();show('checking','Verifica del link email…');
-    const saved=readTemporary();
+  async function submitIdentity(event,creating){
+    event.preventDefault();let password='';
+    const form=creating?registerForm:loginForm,next=creating?'register':'login';
+    let ownsBusy=false;
     try{
-      const result=await A.signInWithEmailLink(auth,email,emailLink);
-      draft=saved&&sameEmail(saved.email,result.user.email)?saved.draft:null;
-      removeTemporary();emailLink='';
-      const clean=new URL(location.href);
-      ['apiKey','oobCode','mode','continueUrl','lang'].forEach(key=>clean.searchParams.delete(key));
-      history.replaceState(history.state,'',clean.pathname+clean.search+clean.hash);
-      completing=false;checkSession(result.user);
+      if(!ready||busy||mode!==next||auth.currentUser||!form.reportValidity())return;
+      if(creating&&registerPassword.value!==registerConfirm.value){message('Le password non coincidono.',true);return;}
+      const email=(creating?registerEmail:el('rdaAuthLoginEmail')).value.trim();
+      password=(creating?registerPassword:loginPassword).value;clearPasswords();
+      busy=true;ownsBusy=true;authSubmitting=true;stop();show('checking',creating?'Creazione account…':'Accesso in corso…');
+      const result=creating?await A.createUserWithEmailAndPassword(auth,email,password):await A.signInWithEmailAndPassword(auth,email,password);
+      password='';authSubmitting=false;
+      if(!result.user||auth.currentUser?.uid!==result.user.uid){show('error','Sessione cambiata. Verifica di nuovo.',true);return;}
+      checkSession(result.user);
     }catch(error){
-      completing=false;
-      if(['auth/expired-action-code','auth/invalid-action-code'].includes(error.code)){emailLink='';removeTemporary();}
-      show('login',failure(error),true);
-    }
+      password='';authSubmitting=false;
+      if(auth.currentUser){checkSession(auth.currentUser);}else show(next,failure(error),true);
+    }finally{password='';clearPasswords();if(ownsBusy){authSubmitting=false;busy=false;controls();}}
   }
-  async function sendLink(email,value){
-    if(auth.currentUser){checkSession(auth.currentUser);return;}
-    await A.sendSignInLinkToEmail(auth,email,{url:returnUrl,handleCodeInApp:true});
-    let stored=true;
-    try{localStorage.setItem(temporaryKey,JSON.stringify({email,at:Date.now(),draft:value}));}catch(_){stored=false;}
-    sentEmail=email;
-    show('sent','Link di accesso inviato. Su iPhone: nell’email ricevuta copia il collegamento di accesso SENZA aprirlo in Safari. Torna qui, incollalo e completa l’accesso.'+
-      (stored?'':' Mantieni aperta questa schermata: l’email è conservata solo per questa sessione.'));
-    modeButton.hidden=false;modeButton.textContent='Torna all’accesso / invia un nuovo link';
-  }
-  pasteForm.addEventListener('submit',async event=>{
-    event.preventDefault();
-    if(!ready||busy||mode!=='sent'){pasteInput.value='';return;}
-    let pastedUrl=pasteInput.value.trim();
-    pasteInput.value='';
-    if(auth.currentUser){pastedUrl='';checkSession(auth.currentUser);return;}
-    if(!pastedUrl){message('Incolla il collegamento ricevuto via email.',true);return;}
-    busy=true;controls();
-    try{
-      if(!sentEmail||!A.isSignInWithEmailLink(auth,pastedUrl)){
-        message('Collegamento non valido. Copia il link completo ricevuto via email.',true);return;
-      }
-      completing=true;stop();show('checking','Verifica del link email…');
-      const result=await A.signInWithEmailLink(auth,sentEmail,pastedUrl);
-      pastedUrl='';sentEmail='';emailLink='';draft=null;removeTemporary();
-      completing=false;checkSession(result.user);
-    }catch(error){
-      // Non mostrare/loggare l'errore originale: potrebbe contenere il link.
-      const known=['auth/expired-action-code','auth/invalid-action-code','auth/invalid-email',
-        'auth/too-many-requests','auth/quota-exceeded','auth/unauthorized-domain'];
-      const text=known.includes(error?.code)?failure({code:error.code}):
-        'Impossibile completare l’accesso. Verifica la connessione e che il link sia valido e non già utilizzato.';
-      show('sent',text,true);
-    }finally{
-      pastedUrl='';pasteInput.value='';completing=false;busy=false;controls();
-    }
-  });
+  loginForm.addEventListener('submit',event=>submitIdentity(event,false));
+  registerForm.addEventListener('submit',event=>submitIdentity(event,true));
   requestForm.addEventListener('submit',async event=>{
-    event.preventDefault();if(!ready||busy||mode!=='request'||!requestForm.reportValidity())return;
-    const value={email:el('rdaAuthEmail').value.trim(),psn_id:el('rdaAuthPsn').value.trim(),
-      nickname_secondary:el('rdaAuthNickname').value.trim(),privacy_acknowledged:el('rdaAuthPrivacy').checked,privacy_version:privacyVersion};
-    if(!value.psn_id||!value.nickname_secondary){message('Compila PSN / ID e Nickname secondario.',true);return;}
+    event.preventDefault();if(!ready||busy||mode!=='request'||!auth.currentUser||!requestForm.reportValidity())return;
+    const user=auth.currentUser,current=session;
+    const value={email:user.email,psn_id:el('rdaAuthPsn').value.trim(),nickname_secondary:el('rdaAuthNickname').value.trim(),
+      privacy_acknowledged:el('rdaAuthPrivacy').checked,privacy_version:privacyVersion};
     busy=true;controls();
-    try{
-      const user=auth.currentUser;
-      if(user){await createRequest(user,value);draft=null;removeTemporary();checkSession(user);}
-      else await sendLink(value.email,value);
-    }catch(error){message(failure(error),true);}
+    try{await createRequest(user,value);if(auth.currentUser?.uid===user.uid&&current===session)checkSession(user);}
+    catch(error){if(auth.currentUser?.uid===user.uid&&current===session)message(failure(error),true);}
     finally{busy=false;controls();}
   });
-  loginForm.addEventListener('submit',async event=>{
-    event.preventDefault();if(!ready||busy||mode!=='login'||!loginForm.reportValidity())return;
-    busy=true;controls();
-    try{
-      const email=el('rdaAuthLoginEmail').value.trim();
-      if(emailLink)await completeLink(email);else await sendLink(email,null);
-    }catch(error){message(failure(error),true);}
-    finally{busy=false;controls();}
-  });
-  modeButton.addEventListener('click',()=>{if(ready&&!busy&&!auth.currentUser)show(mode==='login'?'request':'login');});
-  refresh.addEventListener('click',()=>{if(!ready)location.reload();else checkSession(auth.currentUser);});
+  modeButton.addEventListener('click',()=>{if(ready&&!busy&&!auth.currentUser)show(mode==='login'?'register':'login');});
+  refresh.addEventListener('click',()=>{if(busy)return;if(!ready)location.reload();else checkSession(auth.currentUser);});
   el('rdaAuthSessionExit').addEventListener('click',()=>logout.click());
   logout.addEventListener('click',async()=>{
-    if(busy)return;
-    busy=true;stop();lock();controls();draft=null;removeTemporary();
+    if(busy)return;busy=true;stop();lock();clearPasswords();controls();
     try{await A.signOut(auth);show('login');}catch(error){show('error',failure(error),true);}
     finally{busy=false;controls();}
   });
   window.addEventListener('offline',()=>{stop();show('error','È necessaria una connessione per verificare l’accesso RDA.');});
-  window.addEventListener('online',()=>{if(ready&&!emailLink&&!completing)checkSession(auth.currentUser);});
+  window.addEventListener('online',()=>{if(ready&&!authSubmitting)checkSession(auth.currentUser);});
   async function start(){
     try{
       const modules=await Promise.all([
@@ -734,18 +569,7 @@ function rdaLicenceCard(d){
       A=modules[1];F=modules[2];const app=modules[0].initializeApp(config);
       auth=A.getAuth(app);db=F.getFirestore(app);
       await A.setPersistence(auth,A.browserLocalPersistence);
-      emailLink=A.isSignInWithEmailLink(auth,location.href)?location.href:'';
-      A.onAuthStateChanged(auth,async user=>{
-        ready=true;
-        if(completing)return;
-        if(user){emailLink='';checkSession(user);return;}
-        if(!emailLink){checkSession(null);return;}
-        const saved=readTemporary();
-        if(saved){
-          busy=true;controls();
-          try{await completeLink(saved.email);}finally{busy=false;controls();}
-        }else show('login','Per completare l’accesso inserisci l’indirizzo email che ha ricevuto il link.');
-      },error=>{ready=false;show('error',failure(error),true);});
+      A.onAuthStateChanged(auth,user=>{ready=true;if(!authSubmitting)checkSession(user);},error=>{ready=false;show('error',failure(error),true);});
     }catch(error){ready=false;show('error','Impossibile avviare l’accesso Firebase. Controlla la connessione e premi Verifica di nuovo.',true);}
   }
   show('checking','Ripristino della sessione RDA…');start();
