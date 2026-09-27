@@ -432,6 +432,15 @@ function rdaLicenceCard(d){
   let passwordUi=null,passwordUid='',passwordBusy=false,passwordBlocked=false;
   const linkedPasswordUids=new Set();
   const providerNotice='Firebase ha rifiutato il collegamento: provider già collegato. Nessuna password confermata e nessuna procedura alternativa avviata. Contatta il team RDA.';
+  const migrationSuccess='PASSWORD COLLEGATA CORRETTAMENTE — UID RDA verificato e invariato. Non effettuare ancora il logout.';
+  const migrationUncertain='ESITO DA VERIFICARE — non riprovare e non effettuare il logout.';
+  function migrationMessage(text,state='info'){
+    const note=passwordUi.note;
+    note.textContent=text;note.hidden=false;note.dataset.state=state;
+    const colors={info:['#eff6ff','#1e3a8a','#2563eb'],success:['#ecfdf5','#064e3b','#059669'],error:['#fff1f2','#881337','#e11d48']}[state];
+    note.style.cssText='display:block !important;visibility:visible !important;opacity:1 !important;padding:14px !important;margin:12px 0 !important;border:2px solid '+colors[2]+' !important;border-radius:8px !important;background:'+colors[0]+' !important;color:'+colors[1]+' !important;font:600 16px/1.5 system-ui,sans-serif !important;white-space:pre-wrap !important;overflow-wrap:anywhere !important;text-align:left !important;';
+    if(!passwordUi.form.hidden&&typeof note.scrollIntoView==='function')note.scrollIntoView({block:'nearest'});
+  }
   function hasLinkedPassword(user){
     return linkedPasswordUids.has(user.uid);
   }
@@ -458,16 +467,16 @@ function rdaLicenceCard(d){
       const password=makeInput('rdaMigrationPassword','Nuova password');
       const confirm=makeInput('rdaMigrationConfirm','Conferma password');
       const submit=document.createElement('button');submit.type='submit';submit.textContent='COLLEGA PASSWORD';
-      const note=document.createElement('p');note.id='rdaMigrationStatus';note.setAttribute('role','status');note.setAttribute('aria-live','polite');
-      fields.appendChild(submit);form.append(title,fields,note);shell.appendChild(form);
+      const note=document.createElement('p');note.id='rdaMigrationStatus';note.setAttribute('role','status');note.setAttribute('aria-live','polite');note.setAttribute('aria-atomic','true');
+      fields.append(note,submit);form.append(title,fields);shell.appendChild(form);
       passwordUi={form,fields,password,confirm,note};
       form.addEventListener('submit',linkPassword);
     }
     passwordUid=user.uid;
     passwordUi.form.hidden=false;
     passwordUi.fields.disabled=passwordBusy||passwordBlocked||!!hasLinkedPassword(user);
-    passwordUi.note.textContent=passwordBlocked?'Operazione bloccata. Contatta il team RDA per verificare l’esito.':
-      hasLinkedPassword(user)?'Password già collegata e UID verificato in questa pagina.':'La password sarà collegata alla sessione corrente, mantenendo lo stesso UID.';
+    if(passwordBlocked)return; // Conserva l'esito diagnostico già mostrato.
+    migrationMessage(hasLinkedPassword(user)?migrationSuccess:passwordBusy?'Collegamento password in corso…':'La password sarà collegata alla sessione corrente, mantenendo lo stesso UID.',hasLinkedPassword(user)?'success':'info');
   }
   async function linkPassword(event){
     event.preventDefault();
@@ -478,28 +487,29 @@ function rdaLicenceCard(d){
       const user=auth.currentUser;
       const initialUid=user?.uid,initialSession=session;
       if(!ready||busy||!initialUid||passwordUid!==initialUid||ui.form.hidden||!user.email){
-        ui.note.textContent='Sessione o autorizzazione non valida. Nessun collegamento tentato.';return;
+        migrationMessage('Sessione o autorizzazione non valida. Nessun collegamento tentato.','error');return;
       }
-      if(hasLinkedPassword(user)){ui.fields.disabled=true;ui.note.textContent='Password già collegata e UID verificato in questa pagina.';return;}
+      if(hasLinkedPassword(user)){ui.fields.disabled=true;migrationMessage(migrationSuccess,'success');return;}
       if(!ui.password.value||ui.password.value!==ui.confirm.value){
-        ui.note.textContent='Inserisci la password e una conferma identica.';return;
+        migrationMessage('Inserisci la password e una conferma identica.','error');return;
       }
       passwordBusy=true;ownsBusy=true;ui.fields.disabled=true;
+      migrationMessage('Collegamento password in corso…');
       credential=A.EmailAuthProvider.credential(user.email,ui.password.value);
       ui.password.value='';ui.confirm.value='';
       const result=await A.linkWithCredential(user,credential);
       if(result?.user?.uid!==initialUid||auth.currentUser?.uid!==initialUid){
         passwordBlocked=true;
-        ui.note.textContent='Errore: UID cambiato durante il collegamento. Operazione interrotta; contatta il team RDA.';return;
+        migrationMessage(migrationUncertain,'error');return;
       }
       if(session!==initialSession||passwordUid!==initialUid){
         passwordBlocked=true;
-        ui.note.textContent='Autorizzazione o sessione cambiata durante il collegamento. Esito da verificare con il team RDA.';return;
+        migrationMessage(migrationUncertain,'error');return;
       }
       linkedPasswordUids.add(initialUid);
-      ui.note.textContent='Password collegata. UID verificato e sessione corrente mantenuta.';
+      migrationMessage(migrationSuccess,'success');
     }catch(error){
-      ui.note.textContent={
+      const explanations={
         'auth/weak-password':'Password troppo debole: scegli una password conforme ai requisiti Firebase.',
         'auth/requires-recent-login':'È richiesto un accesso recente. Usa manualmente il flusso Email-Link esistente prima di riprovare.',
         'auth/provider-already-linked':providerNotice,
@@ -507,7 +517,11 @@ function rdaLicenceCard(d){
         'auth/credential-already-in-use':'Credenziale già associata a un altro account. Contatta il team RDA.',
         'auth/operation-not-allowed':'Operazione non abilitata in Firebase. Contatta il team RDA.',
         'auth/network-request-failed':'Connessione non disponibile. Esito da verificare prima di un nuovo tentativo.'
-      }[error?.code]||'Collegamento non confermato. Contatta il team RDA prima di riprovare.';
+      };
+      const code=typeof error?.code==='string'&&Object.prototype.hasOwnProperty.call(explanations,error.code)?error.code:'';
+      if(!code||code==='auth/network-request-failed')passwordBlocked=true;
+      migrationMessage(code?'COLLEGAMENTO NON RIUSCITO — '+code+'\n'+explanations[code]+(code==='auth/network-request-failed'?'\n'+migrationUncertain:''):
+        'COLLEGAMENTO NON RIUSCITO — codice Firebase non riconosciuto. Non riprovare e contatta il team RDA.\n'+migrationUncertain,'error');
       if(error?.code==='auth/provider-already-linked')passwordBlocked=true;
     }finally{
       credential=null;ui.password.value='';ui.confirm.value='';
