@@ -361,32 +361,6 @@ window.RDA_DATA = {
     },
     {
       "pos": 26,
-      "name": "Mapucci_56",
-      "car": "911 GT3 RS (992) '22",
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 27,
-      "name": "ICIOmnt",
-      "car": "911 GT3 RS (992) '22",
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 28,
       "name": "troppobello81",
       "car": "911 GT3 RS (992) '22",
       "session": "21:00",
@@ -399,7 +373,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 29,
+      "pos": 27,
       "name": "AL1EN__999",
       "car": "911 GT3 RS (992) '22",
       "session": "21:00",
@@ -412,7 +386,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 30,
+      "pos": 28,
       "name": "XanderMich",
       "car": "911 GT3 RS (992) '22",
       "session": "21:00",
@@ -425,7 +399,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 31,
+      "pos": 29,
       "name": "danilomarika89",
       "car": "911 GT3 RS (992) '22",
       "session": "21:00",
@@ -438,10 +412,36 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 32,
+      "pos": 30,
       "name": "thegamer73",
       "car": "911 GT3 RS (992) '22",
       "session": "21:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 31,
+      "name": "Mapucci_56",
+      "car": "911 GT3 RS (992) '22",
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 32,
+      "name": "ICIOmnt",
+      "car": "911 GT3 RS (992) '22",
+      "session": "23:00",
       "time": "—",
       "status": "1giro",
       "rdaSeconds": 0,
@@ -605,17 +605,17 @@ window.RDA_DATA = {
     },
     {
       "pos": 26,
-      "name": "ICIOmnt",
+      "name": "danilomarika89",
       "pts": 3
     },
     {
       "pos": 27,
-      "name": "Mapucci_56",
+      "name": "Onmanuel-Btw_09",
       "pts": 3
     },
     {
       "pos": 28,
-      "name": "Onmanuel-Btw_09",
+      "name": "thegamer73",
       "pts": 3
     },
     {
@@ -630,12 +630,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 31,
-      "name": "danilomarika89",
+      "name": "ICIOmnt",
       "pts": 1
     },
     {
       "pos": 32,
-      "name": "thegamer73",
+      "name": "Mapucci_56",
       "pts": 1
     },
     {
@@ -1468,8 +1468,8 @@ window.RDA_DATA = {
       "elo": 1123.29,
       "ranking": 1123.29,
       "driver_id": 12,
-      "psn": "",
-      "nicknameSecondary": "",
+      "psn": "JONNYK7",
+      "nicknameSecondary": "JONNYK7",
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
@@ -5365,7 +5365,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 26,
-          "name": "ICIOmnt",
+          "name": "danilomarika89",
           "pts": 3,
           "races": 1,
           "wins": 0,
@@ -5373,7 +5373,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 27,
-          "name": "Mapucci_56",
+          "name": "Onmanuel-Btw_09",
           "pts": 3,
           "races": 1,
           "wins": 0,
@@ -5381,7 +5381,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 28,
-          "name": "Onmanuel-Btw_09",
+          "name": "thegamer73",
           "pts": 3,
           "races": 1,
           "wins": 0,
@@ -5405,7 +5405,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 31,
-          "name": "danilomarika89",
+          "name": "ICIOmnt",
           "pts": 1,
           "races": 1,
           "wins": 0,
@@ -5413,7 +5413,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 32,
-          "name": "thegamer73",
+          "name": "Mapucci_56",
           "pts": 1,
           "races": 1,
           "wins": 0,
@@ -7325,32 +7325,6 @@ window.RDA_DATA = {
         },
         {
           "pos": 26,
-          "name": "Mapucci_56",
-          "car": "911 GT3 RS (992) '22",
-          "session": "23:00",
-          "time": "—",
-          "status": "1giro",
-          "rdaSeconds": 0,
-          "rdaLastPlace": false,
-          "rdaZeroRanking": false,
-          "rdaLabel": "",
-          "originalTime": ""
-        },
-        {
-          "pos": 27,
-          "name": "ICIOmnt",
-          "car": "911 GT3 RS (992) '22",
-          "session": "23:00",
-          "time": "—",
-          "status": "1giro",
-          "rdaSeconds": 0,
-          "rdaLastPlace": false,
-          "rdaZeroRanking": false,
-          "rdaLabel": "",
-          "originalTime": ""
-        },
-        {
-          "pos": 28,
           "name": "troppobello81",
           "car": "911 GT3 RS (992) '22",
           "session": "21:00",
@@ -7363,7 +7337,7 @@ window.RDA_DATA = {
           "originalTime": ""
         },
         {
-          "pos": 29,
+          "pos": 27,
           "name": "AL1EN__999",
           "car": "911 GT3 RS (992) '22",
           "session": "21:00",
@@ -7376,7 +7350,7 @@ window.RDA_DATA = {
           "originalTime": ""
         },
         {
-          "pos": 30,
+          "pos": 28,
           "name": "XanderMich",
           "car": "911 GT3 RS (992) '22",
           "session": "21:00",
@@ -7389,7 +7363,7 @@ window.RDA_DATA = {
           "originalTime": ""
         },
         {
-          "pos": 31,
+          "pos": 29,
           "name": "danilomarika89",
           "car": "911 GT3 RS (992) '22",
           "session": "21:00",
@@ -7402,10 +7376,36 @@ window.RDA_DATA = {
           "originalTime": ""
         },
         {
-          "pos": 32,
+          "pos": 30,
           "name": "thegamer73",
           "car": "911 GT3 RS (992) '22",
           "session": "21:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 31,
+          "name": "Mapucci_56",
+          "car": "911 GT3 RS (992) '22",
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 32,
+          "name": "ICIOmnt",
+          "car": "911 GT3 RS (992) '22",
+          "session": "23:00",
           "time": "—",
           "status": "1giro",
           "rdaSeconds": 0,
