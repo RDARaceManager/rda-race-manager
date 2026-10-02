@@ -503,7 +503,8 @@ function rdaLicenceCard(d){
     if(!snapshot.exists()||snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites)return false;
     const value=snapshot.data();
     return value.uid===auth.currentUser?.uid&&value.status==='APPROVED'&&
-      Number.isSafeInteger(value.driver_id)&&value.driver_id>0;
+      (value.role==='ADMIN'||((value.role===undefined||value.role==='PILOTA')&&
+      Number.isSafeInteger(value.driver_id)&&value.driver_id>0));
   }
   function checkSession(user){
     if((user?.uid||null)!==ownCardUid){ownCardUid=user?.uid||null;ownCardAttempted=false;go('home');}
@@ -515,7 +516,8 @@ function rdaLicenceCard(d){
       if(!isCurrent())return;
       const ownRevision=++revision;
       if(snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites){show('error','È necessaria una connessione per verificare l’autorizzazione RDA.');return;}
-      if(approved(snapshot)){clearPasswords();requestForm.hidden=true;registerForm.hidden=true;loginForm.hidden=true;unlock();if(!ownCardAttempted){ownCardAttempted=true;if(!openDriverCardById(snapshot.data().driver_id))go('home');}return;}
+      if(approved(snapshot)){clearPasswords();requestForm.hidden=true;registerForm.hidden=true;loginForm.hidden=true;unlock();if(!ownCardAttempted){ownCardAttempted=true;if(snapshot.data().role==='ADMIN')go('home');else if(!openDriverCardById(snapshot.data().driver_id))go('home');}return;}
+      if(snapshot.exists()&&snapshot.data().status==='REVOKED'){ownCardAttempted=false;show('error','Accesso non autorizzato. Contatta il team RDA.');return;}
       show('checking','Controllo richiesta di accesso…');
       try{
         const request=await F.getDocFromServer(F.doc(db,'access_requests',user.uid));
