@@ -310,3 +310,17 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
 .race-best-lap-card .race-best-lap-visual{flex-direction:column}
 .race-best-lap-card .race-best-lap-car-visual{width:100%;text-align:center;min-width:0}
 .race-best-lap-card .race-best-lap-car-photo{width:100%;object-fit:contain;border-radius:10px}
+
+/* Search + Best Lap Gold V3: solo presentazione della card Best Lap. */
+.race-best-lap-card{border-color:#edc665;box-shadow:inset 0 1px 0 rgba(255,244,189,.6),inset 0 -2px 0 rgba(128,80,17,.5),0 0 20px rgba(224,173,55,.24)}
+.race-best-lap-card h3,.race-best-lap-card .race-best-lap-time{color:#ffe08a;text-shadow:0 1px 0 rgba(102,62,8,.5),0 0 12px rgba(242,192,70,.24)}
+@supports ((background-clip:text) or (-webkit-background-clip:text)){
+ .race-best-lap-card h3,.race-best-lap-card .race-best-lap-time{background:linear-gradient(175deg,#fff4c5 8%,#ffe28a 38%,#e3b344 68%,#f5d57e 94%);background-clip:text;-webkit-background-clip:text;color:transparent}
+}
+.race-best-lap-card .race-best-lap-clock,.race-best-lap-card .race-best-lap-drivers>div,.race-best-lap-card .race-best-lap-metadata>div{border-bottom:1px solid rgba(225,178,66,.38);padding-bottom:10px}
+.race-best-lap-card .race-best-lap-drivers>div+div{border-top-color:rgba(225,178,66,.38)}
+.race-best-lap-card .race-best-lap-driver{display:block}
+.race-best-lap-card .race-best-lap-drivers .race-best-lap-label{border-top:1px solid rgba(225,178,66,.25);padding-top:8px}
+.race-best-lap-card .race-best-lap-visual{border-color:rgba(234,191,88,.65);box-shadow:inset 0 1px 0 rgba(255,233,164,.18)}
+.race-best-lap-card .race-best-lap-time{white-space:nowrap;font-size:clamp(2.2rem,7.5vw,4.4rem)}
+@media(max-width:600px){.race-best-lap-card .race-best-lap-time{font-size:clamp(1.7rem,10vw,3.8rem)}}
