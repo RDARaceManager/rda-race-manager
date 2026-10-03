@@ -606,10 +606,22 @@ function renderRaceBestLaps(){
   for(const race of races){
     const card=node('article','record-card panel race-best-lap-card');
     const map=node('div','record-map race-best-lap-visual');const file=mapFileForTrack(race.track);
-    const fallback=node('span','','Sagoma non disponibile');
-    if(file){const img=node('img');img.src=file;img.alt=`Sagoma ${race.track||''}`;
-      img.addEventListener('error',()=>img.replaceWith(fallback),{once:true});map.append(img);
-    }else map.append(fallback);
+    const showFallback=host=>{
+      const fallback=node('span','','Sagoma non disponibile');
+      if(file){const img=node('img');img.src=file;img.alt=`Sagoma ${race.track||''}`;
+        img.addEventListener('error',()=>img.replaceWith(fallback),{once:true});host.append(img);
+      }else host.append(fallback);
+    };
+    for(const driver of race.drivers||[]){
+      const visual=node('div','race-best-lap-car-visual');
+      const image=typeof driver.car_image==='string'&&/^car_images\/car_[0-9]+\.webp$/.test(driver.car_image)?driver.car_image:'';
+      if(image){const img=node('img','race-best-lap-car-photo');img.src=image;img.alt=`${driver.car||'Auto'} — ${driver.name||''}`;
+        img.addEventListener('error',()=>{visual.replaceChildren();showFallback(visual);},{once:true});visual.append(img);
+      }else showFallback(visual);
+      if((race.drivers||[]).length>1)visual.append(node('small','race-best-lap-note',driver.name||''));
+      map.append(visual);
+    }
+    if(!(race.drivers||[]).length)showFallback(map);
     const content=node('div','race-best-lap-content');heading(content);
     const time=node('div','race-best-lap-clock');time.append(node('span','race-best-lap-label','TEMPO'),node('strong','record-time race-best-lap-time',race.time||'Non disponibile'));content.append(time);
     const drivers=node('div','race-best-lap-drivers');
