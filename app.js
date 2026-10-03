@@ -181,7 +181,7 @@ function mapFileForTrack(name){const n=normTrack(name), wanted=normTrack(trackAl
  return x?`track_maps/${x.file}`:'';
 }
 function trackMapHtml(name){const f=mapFileForTrack(name);return f?`<img class="real-track-map" src="${f}" alt="Sagoma ${name}">`:''}
-fetch('track_maps/tracks.json').then(r=>r.ok?r.json():[]).then(x=>{trackMapCatalog=Array.isArray(x)?x:[];renderCalendar();renderHome();renderTrackRecords();}).catch(()=>{});
+fetch('track_maps/tracks.json').then(r=>r.ok?r.json():[]).then(x=>{trackMapCatalog=Array.isArray(x)?x:[];renderCalendar();renderHome();renderTrackRecords();renderRaceBestLaps();}).catch(()=>{});
 
 function renderCalendar(){
   const races=arr('completedRaces'),future=arr('futureRaces');
@@ -585,3 +585,41 @@ function rdaLicenceCard(d){
   }
   show('checking','Ripristino della sessione RDA…');start();
 })();
+
+// Best Lap GARA: visualizza soltanto i riconoscimenti informativi del Manager.
+function renderRaceBestLaps(){
+  const host=document.getElementById('raceBestLapCards');if(!host)return;
+  host.replaceChildren();
+  const races=arr('raceBestLaps');
+  if(!races.length){
+    const empty=document.createElement('div');empty.className='empty-state';
+    const title=document.createElement('strong');title.textContent='🏁 BEST LAP GARA';
+    const note=document.createElement('span');note.textContent='Nessun Best Lap GARA informativo disponibile.';
+    empty.append(title,note);host.append(empty);return;
+  }
+  const node=(tag,cls,text)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(text!=null)el.textContent=String(text);return el;};
+  for(const race of races){
+    const card=node('article','record-card panel race-best-lap-card');
+    const map=node('div','record-map');const file=mapFileForTrack(race.track);
+    const fallback=node('span','','Sagoma non disponibile');
+    if(file){const img=node('img');img.src=file;img.alt=`Sagoma ${race.track||''}`;
+      img.addEventListener('error',()=>img.replaceWith(fallback),{once:true});map.append(img);
+    }else map.append(fallback);
+    const content=node('div','race-best-lap-content');
+    content.append(node('h3','','🏁 BEST LAP GARA'),node('small','race-best-lap-note','SOLO INFORMATIVO'));
+    const time=node('div');time.append(node('span','race-best-lap-label','TEMPO'),node('strong','record-time race-best-lap-time',race.time||'Non disponibile'));content.append(time);
+    const drivers=node('div','race-best-lap-drivers');
+    if((race.drivers||[]).length>1)drivers.append(node('small','race-best-lap-note','EX AEQUO'));
+    for(const driver of race.drivers||[]){
+      const row=node('div');row.append(node('span','race-best-lap-label','PILOTA'),node('strong','',driver.name||'Non disponibile'),node('span','race-best-lap-label','AUTO'),node('span','',driver.car||'Non disponibile'));drivers.append(row);
+    }
+    content.append(drivers);
+    const metadata=node('dl');
+    const round=race.gara?`Gara ${race.gara}`:race.round?`Round ${race.round}`:'';
+    for(const [label,value] of [['CIRCUITO',race.track],['DATA',race.date],['CAMPIONATO / GARA',[race.championship,round].filter(Boolean).join(' • ')]]){
+      metadata.append(node('dt','race-best-lap-label',label),node('dd','',value||'Non disponibile'));
+    }
+    content.append(metadata);card.append(map,content);host.append(card);
+  }
+}
+setTimeout(()=>renderRaceBestLaps(),0);
