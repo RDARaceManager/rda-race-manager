@@ -79,6 +79,7 @@
       <div class="home-welcome home-welcome-photo panel" role="img" aria-label="Racing Drivers Academy - More Than Racing"></div>
       <div class="home-live panel"><div><small>ULTIMA GARA UFFICIALE</small><strong id="homeRaceTitle">In attesa</strong><span id="homeRaceTrack">—</span></div><div><b id="homeRaceDate">—</b><em id="homeRaceMaster">RDA</em></div></div>
       <div class="home-menu">
+       <button data-go="records"><b>🏁</b><strong>Best Lap</strong><span>Il miglior giro gara della giornata</span></button>
        <button data-go="calendar"><b>📅</b><strong>Calendario</strong><span>Gare disputate e prossimi appuntamenti</span></button>
        <button data-go="results"><b>🏁</b><strong>Risultati</strong><span>Apri ogni gara e la sua classifica</span></button>
        <button data-go="championship"><b>🏆</b><strong>Campionati</strong><span>Classifiche generali e regolamenti</span></button>
@@ -179,10 +180,11 @@
       </div>
     </section>
 
-    <section class="view" data-view="records">
-      <div class="section-head"><div><div class="eyebrow">🏁 ARCHIVIO RDA</div><h2>Record Circuiti</h2><p>I migliori giri registrati nelle gare ufficiali RDA.</p></div></div>
+    <section class="view race-best-lap-page" data-view="records">
+      <div class="section-head"><div><h2>🏁 BEST LAP GARA</h2><div class="race-best-lap-section-title">DELLA GIORNATA</div></div></div>
+      <div id="raceBestLapCards" class="race-best-lap-list"></div>
+      <div class="section-head"><div><h3>RECORD CIRCUITI</h3><p>I migliori giri registrati nelle gare ufficiali RDA.</p></div></div>
       <label class="searchbox">⌕ <input id="trackRecordSearch" type="search" placeholder="Cerca circuito..."></label>
-      <div id="raceBestLapCards" class="record-grid"></div>
       <div id="trackRecordCards" class="record-grid"></div>
     </section>
 
@@ -228,7 +230,7 @@
     <button class="nav-btn" data-view-target="drivers"><span>◉</span><small>Piloti</small></button>
     <button class="nav-btn" data-view-target="teams"><span>◆</span><small>Team</small></button>
     <button class="nav-btn" data-view-target="flyers"><span>▤</span><small>Volantini</small></button>
-    <button class="nav-btn" data-view-target="records"><span>🏁</span><small>Record</small></button>
+    <button class="nav-btn" data-view-target="records"><span>🏁</span><small>Best Lap</small></button>
     <button class="nav-btn" data-view-target="history"><span>ℹ</span><small>Storia RDA</small></button>
   </nav>
   <button class="nav-reveal" id="navReveal" type="button">▲ MENU</button>
