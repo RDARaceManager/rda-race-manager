@@ -19870,7 +19870,8 @@ window.RDA_DATA = {
           "driverId": 5,
           "name": "MaxMossa",
           "carId": 28,
-          "car": "155 2.5 V6 TI '93"
+          "car": "155 2.5 V6 TI '93",
+          "car_image": "car_images/car_28.webp"
         }
       ]
     }
