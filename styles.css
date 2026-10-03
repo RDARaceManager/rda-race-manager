@@ -274,3 +274,11 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
   border-top-color: rgba(35,190,255,.58);
   box-shadow: inset 0 1px 0 rgba(194,243,255,.20), 0 -3px 12px rgba(0,175,255,.12);
 }
+
+/* Solo la nuova card: baseline Racing 3D e Record circuito conservati. */
+.race-best-lap-card .race-best-lap-content{min-width:0;overflow-wrap:anywhere}
+.race-best-lap-card .race-best-lap-time{display:block;font-size:clamp(1.7rem,6vw,2.6rem);color:var(--cyan);text-shadow:0 0 14px rgba(32,232,255,.22)}
+.race-best-lap-card .race-best-lap-label{display:block;font-size:.7rem;letter-spacing:.08em;color:var(--muted);margin-top:10px}
+.race-best-lap-card .race-best-lap-note{color:var(--cyan);font-size:.7rem;letter-spacing:.06em}
+.race-best-lap-card dl,.race-best-lap-card dd{margin:0}
+.race-best-lap-card .race-best-lap-drivers>div+div{margin-top:10px;border-top:1px solid var(--line)}
