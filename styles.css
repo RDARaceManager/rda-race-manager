@@ -207,3 +207,70 @@ button,input{font:inherit}.app-shell{max-width:1400px;margin:auto;min-height:100
 
 .rda-auth-session{display:flex;justify-content:flex-end;padding:0 18px 6px;}
 .rda-auth-session button{border:0;background:none;color:#bca3f1;font:inherit;font-size:12px;padding:10px;cursor:pointer;text-decoration:underline;}
+
+/* RDA Racing 3D: sola decorazione, senza asset o modifiche strutturali. */
+:root {
+  --rda-racing-bg:
+    radial-gradient(ellipse at 4% 8%, rgba(23,107,255,.56), transparent 54%),
+    radial-gradient(ellipse at 96% 28%, rgba(224,38,190,.34), transparent 52%),
+    radial-gradient(ellipse at 88% 65%, rgba(255,107,45,.30), transparent 46%),
+    radial-gradient(ellipse at 12% 92%, rgba(0,211,255,.28), transparent 54%),
+    linear-gradient(165deg, #0b1d3b 0%, #123458 38%, #292043 65%, #0a1e38 100%);
+}
+html { background-color: #0b1d3b; }
+body, .rda-auth-gate { background: var(--rda-racing-bg); }
+
+/* Il banner fotografico e i pannelli con bordi narrativi/medaglie restano autonomi. */
+.panel:not(.home-welcome-photo):not(.founder-card):not(.history-card):not(.history-origin),
+.home-menu button,
+.driver-card,
+.searchbox,
+.champ-choice:not(.active),
+.rda-auth-card {
+  box-shadow:
+    inset 0 1px 0 rgba(203,245,255,.58),
+    inset 1px 0 0 rgba(0,211,255,.34),
+    inset -1px -1px 0 rgba(119,61,255,.26),
+    0 0 0 1px rgba(13,154,255,.22),
+    -3px 0 12px rgba(0,210,255,.16),
+    3px 3px 12px rgba(149,48,255,.12),
+    0 12px 24px rgba(2,6,17,.40);
+}
+
+.panel:not(.home-welcome-photo):not(.founder-card):not(.history-card):not(.history-origin):not(.history-future) {
+  border-color: rgba(55,196,255,.62);
+}
+.panel:not(.home-welcome-photo):not(.home-welcome):not(.home-live):not(.podium-arena):not(.champ-arena):not(.history-hero):not(.history-story):not(.history-future):not(.founder-card):not(.history-card):not(.history-origin),
+.driver-card,
+.searchbox,
+.champ-choice:not(.active),
+.rda-auth-card {
+  background: linear-gradient(155deg, rgba(16,34,61,.96), rgba(7,17,35,.97));
+}
+.home-menu button {
+  background:
+    radial-gradient(ellipse at 95% 0%, rgba(255,105,42,.14), transparent 36%),
+    radial-gradient(ellipse at 100% 65%, rgba(138,43,255,.17), transparent 58%),
+    linear-gradient(145deg, rgba(13,31,58,.98), rgba(9,23,44,.98));
+  border-color: rgba(55,196,255,.65);
+}
+.driver-card, .searchbox, .champ-choice:not(.active), .rda-auth-card {
+  border-color: rgba(55,196,255,.58);
+}
+.home-live {
+  background:
+    radial-gradient(ellipse at 100% 15%, rgba(255,105,42,.12), transparent 38%),
+    linear-gradient(110deg, rgba(8,25,47,.98), rgba(16,39,66,.97));
+}
+
+/* Cornici stabili e scure; viola active e ONLINE verde non vengono sovrascritti. */
+.topbar {
+  background: rgba(5,12,27,.97);
+  border-bottom-color: rgba(35,174,247,.43);
+  box-shadow: inset 0 -1px 0 rgba(134,78,255,.18), 0 5px 16px rgba(2,8,23,.32);
+}
+.bottom-nav {
+  background: rgba(5,12,27,.98);
+  border-top-color: rgba(35,190,255,.58);
+  box-shadow: inset 0 1px 0 rgba(194,243,255,.20), 0 -3px 12px rgba(0,175,255,.12);
+}
