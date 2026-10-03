@@ -304,3 +304,9 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
  .race-best-lap-card .race-best-lap-visual img{height:160px}
  .race-best-lap-card .race-best-lap-time{font-size:clamp(2.2rem,11vw,3.8rem)}
 }
+
+/* Foto Auto V1: esclusivamente card Best Lap. */
+.race-best-lap-card{border:1px solid #d7ae50;box-shadow:inset 0 1px 0 rgba(255,232,163,.5),inset 0 -2px 0 rgba(109,70,17,.45),0 0 16px rgba(218,166,53,.2)}
+.race-best-lap-card .race-best-lap-visual{flex-direction:column}
+.race-best-lap-card .race-best-lap-car-visual{width:100%;text-align:center;min-width:0}
+.race-best-lap-card .race-best-lap-car-photo{width:100%;object-fit:contain;border-radius:10px}
