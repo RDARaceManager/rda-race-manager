@@ -19573,19 +19573,22 @@ window.RDA_DATA = {
           "pos": 1,
           "name": "NICOLACI1966",
           "car": "911 GT3 RS (992) '22",
-          "time": "34:56.109"
+          "time": "34:56.109",
+          "car_image": "car_images/car_491.webp"
         },
         {
           "pos": 2,
           "name": "Flavio_Nicolazzi",
           "car": "911 GT3 RS (992) '22",
-          "time": "35:00.227"
+          "time": "35:00.227",
+          "car_image": "car_images/car_491.webp"
         },
         {
           "pos": 3,
           "name": "JONNYK7",
           "car": "911 GT3 RS (992) '22",
-          "time": "35:01.704"
+          "time": "35:01.704",
+          "car_image": "car_images/car_491.webp"
         }
       ]
     },
@@ -19603,19 +19606,22 @@ window.RDA_DATA = {
           "pos": 1,
           "name": "Spano19",
           "car": "155 2.5 V6 TI '93",
-          "time": "35:34.141"
+          "time": "35:34.141",
+          "car_image": "car_images/car_28.webp"
         },
         {
           "pos": 2,
           "name": "MaxMossa",
           "car": "155 2.5 V6 TI '93",
-          "time": "35:49.552"
+          "time": "35:49.552",
+          "car_image": "car_images/car_28.webp"
         },
         {
           "pos": 3,
           "name": "Z_Mark005",
           "car": "155 2.5 V6 TI '93",
-          "time": "35:54.274"
+          "time": "35:54.274",
+          "car_image": "car_images/car_28.webp"
         }
       ]
     }
