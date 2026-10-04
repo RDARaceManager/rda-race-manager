@@ -318,7 +318,7 @@ function racePodiumStageRDA(rows){
     const cls=r.pos==1?'winner':r.pos==2?'runner':'third';
     const image=typeof r.car_image==='string'&&/^car_images\/car_[0-9]+\.webp$/.test(r.car_image)?r.car_image:'';
     const photo=image?`<div class="race-podium-photo"><img src="${escape(image)}" alt="${escape(r.car||'Auto')}" loading="lazy" decoding="async"></div>`:'';
-    return `<div class="stage-driver ${cls} race-podium-driver"><div class="laurel race-podium-rank"><span>${escape(r.pos)}</span></div><div class="stage-step">${photo}<b class="race-podium-name">${escape(r.name)}</b><small class="race-podium-time">${escape(r.time||'—')}</small><small class="race-podium-model">${escape(r.car||'—')}</small></div></div>`;
+    return `<div class="stage-driver ${cls} race-podium-driver"><div class="race-podium-heading"><div class="laurel race-podium-rank"><span>${escape(r.pos)}</span></div><b class="race-podium-name">${escape(r.name)}</b><small class="race-podium-time">${escape(r.time||'—')}</small></div><div class="race-podium-vehicle">${photo}</div><small class="race-podium-model">${escape(r.car||'—')}</small><div class="race-podium-platform" aria-hidden="true"><span>${escape(r.pos)}</span></div></div>`;
   }).join('');
 }
 function bindRacePodiumPhotosRDA(){
