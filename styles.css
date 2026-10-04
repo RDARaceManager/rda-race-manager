@@ -361,7 +361,7 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
 @supports (mask-image:linear-gradient(#000,#000)){
  #racePodiumArena .race-podium-photo{mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent),linear-gradient(180deg,transparent,#000 9%,#000 90%,transparent);mask-composite:intersect}
 }
-#racePodiumArena .race-podium-platform{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;height:var(--platform-height);margin-top:8px;color:var(--podium-metal);border:1px solid rgba(var(--podium-rgb),.7);background:linear-gradient(110deg,#090b0e,rgba(var(--podium-rgb),.16) 40%,#090b0e 85%);box-shadow:inset 0 2px 2px #ffffff20,inset -8px 0 12px #0009,0 -2px 8px rgba(var(--podium-rgb),.7),0 6px 14px #000}
+#racePodiumArena .race-podium-platform{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;height:var(--platform-height);margin-top:8px;color:var(--podium-metal);border:1px solid rgba(var(--podium-rgb),.7);background:linear-gradient(110deg,#090b0e,rgba(var(--podium-rgb),.16) 40%,#090b0e 85%),#090b0e;box-shadow:inset 0 2px 2px #ffffff20,inset -8px 0 12px #0009,0 -2px 8px rgba(var(--podium-rgb),.7),0 6px 14px #000}
 #racePodiumArena .race-podium-platform::before{content:"";position:absolute;left:-1px;right:-1px;top:-12px;height:11px;clip-path:polygon(7% 0,93% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(var(--podium-rgb),.7),#181818 80%,var(--podium-metal));pointer-events:none}
 #racePodiumArena .race-podium-platform::after{content:"";position:absolute;left:4%;right:4%;top:100%;height:30px;background:linear-gradient(180deg,rgba(var(--podium-rgb),.3),transparent);transform:skewX(-18deg);filter:blur(4px);pointer-events:none}
 #racePodiumArena .race-podium-platform span{font-size:64px;font-weight:1000;line-height:1;text-shadow:0 3px #514331,0 5px 5px #000,0 0 13px rgba(var(--podium-rgb),.4)}
@@ -380,7 +380,8 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
  #racePodiumArena .race-podium-rank{height:58px}
  #racePodiumArena .race-podium-rank span{font-size:48px}
  #racePodiumArena .winner .race-podium-rank span{font-size:59px}
- #racePodiumArena .race-podium-name{font-size:11px;padding:5px 2px;margin:0}
+ #racePodiumArena .race-podium-name{font-size:11px;padding:5px 2px;margin:0;white-space:nowrap}
+ #racePodiumArena .runner .race-podium-name,#racePodiumArena .third .race-podium-name{font-size:clamp(8px,2.3vw,10px)}
  #racePodiumArena .race-podium-time{font-size:11px}
  #racePodiumArena .race-podium-model{font-size:9px;line-height:1.25}
  #racePodiumArena .race-podium-platform{margin-top:7px}
