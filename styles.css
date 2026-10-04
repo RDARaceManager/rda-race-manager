@@ -331,86 +331,61 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
 .race-best-lap-card .race-best-lap-visual .race-best-lap-car-photo{position:absolute;inset:0;display:block;width:100%;max-width:100%;height:100%;min-height:0;padding:0;margin:0;object-fit:cover;object-position:center;border-radius:inherit}
 .race-best-lap-card .race-best-lap-car-visual:has(>.race-best-lap-car-photo)>small{position:relative;z-index:1;display:block;align-self:end;background:rgba(7,22,45,.85)}
 
-/* FOTO MOBILE solo nel pannello Ultima gara ufficiale. */
-#racePodiumArena{min-height:0;padding:22px 22px 0}
-#racePodiumArena .podium-copy{padding-bottom:20px}
-#racePodiumArena .podium-stage{position:relative;left:auto;right:auto;bottom:auto;height:auto;width:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.14fr) minmax(0,1fr);align-items:start;gap:10px}
-#racePodiumArena .race-podium-driver{width:auto;min-width:0;display:flex;flex-direction:column;grid-row:1}
-#racePodiumArena .race-podium-driver.winner{order:2;grid-column:2;margin-top:0}
-#racePodiumArena .race-podium-driver.runner{order:1;grid-column:1;margin-top:48px}
-#racePodiumArena .race-podium-driver.third{order:3;grid-column:3;margin-top:64px}
-#racePodiumArena .race-podium-rank{font-size:0;line-height:1;margin-bottom:10px}
-#racePodiumArena .race-podium-rank span{font-size:54px;font-weight:1000}
-#racePodiumArena .winner .race-podium-rank span{font-size:66px}
-#racePodiumArena .stage-step{justify-content:flex-start;min-height:150px;padding:12px 10px 18px;gap:10px;min-width:0}
-#racePodiumArena .winner .stage-step{min-height:190px}
-#racePodiumArena .race-podium-photo{width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;box-shadow:0 0 16px rgba(25,223,243,.13);flex-shrink:0}
+/* REV4: unico blocco dedicato a Ultima gara ufficiale. */
+#racePodiumArena{position:relative;isolation:isolate;overflow:hidden;min-height:0;padding:16px 16px 38px;background:linear-gradient(180deg,rgba(7,10,14,.08),rgba(7,10,14,.15) 60%,rgba(7,10,14,.32)),url("assets/podium/podium_sunset_bg.webp");background-size:cover;background-position:center;background-repeat:no-repeat;background-color:#090d12;border-color:#87664a}
+#racePodiumArena::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(5,8,12,.12),transparent 20%,transparent 80%,rgba(5,8,12,.12));pointer-events:none}
+#racePodiumArena::after{content:"";position:absolute;z-index:-1;inset:auto 0 0;height:20%;background:linear-gradient(180deg,transparent,rgba(5,8,12,.25));pointer-events:none}
+#racePodiumArena .podium-copy{position:relative;z-index:2;margin:-16px -16px 18px;padding:12px 16px;background:rgba(5,10,16,.92);border-bottom:1px solid #66533a}
+#racePodiumArena .podium-copy h2{margin:4px 0;font-size:clamp(17px,2.1vw,28px)}
+#racePodiumArena .podium-copy p{margin:3px 0;color:#ede4d9}
+#racePodiumArena .podium-stage{position:relative;left:auto;right:auto;bottom:auto;width:100%;height:auto;max-width:1060px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.23fr) minmax(0,1fr);align-items:end;gap:0;padding:0 0 8px}
+#racePodiumArena .race-podium-driver{position:relative;grid-row:1;display:flex;flex-direction:column;justify-content:flex-end;width:auto;min-width:0;margin:0;text-align:center;--podium-metal:#d5dbe3;--podium-rgb:192,204,219;--platform-height:82px}
+#racePodiumArena .race-podium-driver.runner{grid-column:1;order:1}
+#racePodiumArena .race-podium-driver.winner{grid-column:2;order:2;z-index:2;--podium-metal:#ffd976;--podium-rgb:255,188,49;--platform-height:116px}
+#racePodiumArena .race-podium-driver.third{grid-column:3;order:3;--podium-metal:#efae83;--podium-rgb:217,125,61;--platform-height:64px}
+#racePodiumArena .race-podium-heading{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:0;min-height:230px;width:78%;margin:0 auto -29px;padding:20px 9px 39px;filter:drop-shadow(0 5px 9px #0009)}
+#racePodiumArena .race-podium-heading::before{content:"";position:absolute;inset:0;z-index:-1;clip-path:polygon(0 8%,33% 4%,41% 0,59% 0,67% 4%,100% 8%,100% 100%,0 100%);background:linear-gradient(110deg,rgba(var(--podium-rgb),.5),#100f0e 4%,#090b0e 52%,rgba(var(--podium-rgb),.2) 97%,var(--podium-metal));border-bottom:2px solid var(--podium-metal)}
+#racePodiumArena .winner .race-podium-heading{min-height:258px;width:80%;background:radial-gradient(ellipse at 50% 90%,rgba(255,175,32,.13),transparent 70%)}
+#racePodiumArena .race-podium-rank{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:88px;margin:0;color:var(--podium-metal);font-size:0;line-height:1}
+#racePodiumArena .race-podium-rank span{position:relative;font-size:76px;font-weight:1000;line-height:1;text-shadow:0 2px #9b805c,0 4px #3b2b1c,0 7px 7px #000,0 0 18px rgba(var(--podium-rgb),.5)}
+#racePodiumArena .winner .race-podium-rank span{font-size:92px}
+#racePodiumArena .race-podium-laurels{position:absolute;width:100%;height:100%;left:0;top:0;fill:currentColor;color:var(--podium-metal);pointer-events:none}
+#racePodiumArena .race-podium-name{display:block;width:100%;min-width:0;margin:3px 0;padding:6px 4px;border:1px solid rgba(var(--podium-rgb),.6);border-radius:3px;background:linear-gradient(180deg,rgba(var(--podium-rgb),.7),rgba(var(--podium-rgb),.28) 23%,rgba(var(--podium-rgb),.15) 67%,#090b0e);box-shadow:inset 0 1px 1px #ffffff70,inset 0 -3px 3px #0008,0 4px 6px #0008;color:#fff;font-size:clamp(12px,1.35vw,19px);font-weight:900;line-height:1.2;white-space:normal;overflow-wrap:anywhere;text-shadow:0 2px 2px #000}
+#racePodiumArena .race-podium-time{display:block;margin:0;color:#fff5e9;font-size:clamp(12px,1.4vw,18px);font-weight:850;font-variant-numeric:tabular-nums;line-height:1.25;white-space:normal;overflow-wrap:anywhere;text-shadow:0 2px 3px #000}
+#racePodiumArena .race-podium-model{display:block;margin:0;padding:2px 0;color:#d7d3cf;font-size:clamp(10px,1vw,13px);line-height:1.3;white-space:normal;overflow-wrap:anywhere}
+#racePodiumArena .race-podium-vehicle{position:relative;width:100%;aspect-ratio:16/9;min-width:0;isolation:isolate;z-index:1}
+#racePodiumArena .race-podium-vehicle::after{content:"";position:absolute;left:4%;right:4%;bottom:-3px;height:12px;background:rgba(var(--podium-rgb),.6);filter:blur(8px);pointer-events:none;z-index:-1}
+#racePodiumArena .race-podium-photo{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;border:0;border-radius:0;box-shadow:none}
 #racePodiumArena .race-podium-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
-#racePodiumArena .stage-step .race-podium-name{font-size:clamp(14px,1.6vw,21px);line-height:1.25;overflow-wrap:anywhere;white-space:normal}
-#racePodiumArena .winner .stage-step .race-podium-name{font-size:clamp(16px,1.9vw,24px)}
-#racePodiumArena .stage-step small{margin:0;display:block;line-height:1.35}
-#racePodiumArena .stage-step .race-podium-time{color:var(--cyan);font-size:clamp(12px,1.3vw,17px);font-weight:800;white-space:normal;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
-#racePodiumArena .stage-step .race-podium-model{font-size:clamp(11px,1.15vw,15px);overflow-wrap:anywhere;white-space:normal;color:#d8e7fa}
-@media(max-width:600px){
- #racePodiumArena{padding:16px 8px 0}
- #racePodiumArena .podium-copy{padding:0 6px 16px}
- #racePodiumArena .podium-stage{gap:4px}
- #racePodiumArena .race-podium-driver.runner{margin-top:34px}
- #racePodiumArena .race-podium-driver.third{margin-top:46px}
- #racePodiumArena .race-podium-rank{margin-bottom:6px}
- #racePodiumArena .race-podium-rank span{font-size:34px}
- #racePodiumArena .winner .race-podium-rank span{font-size:44px}
- #racePodiumArena .stage-step{padding:7px 4px 12px;gap:8px;min-height:144px;border-radius:10px 10px 0 0}
- #racePodiumArena .winner .stage-step{min-height:178px}
- #racePodiumArena .race-podium-photo{border-radius:6px}
- #racePodiumArena .stage-step .race-podium-name{font-size:12px}
- #racePodiumArena .winner .stage-step .race-podium-name{font-size:13px}
- #racePodiumArena .stage-step .race-podium-time{font-size:11px}
- #racePodiumArena .stage-step .race-podium-model{font-size:10px}
+#racePodiumArena .race-podium-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#10101290,transparent 24%,transparent 85%,#21141770),linear-gradient(90deg,#13111370,transparent 12%,transparent 88%,#13111370);pointer-events:none}
+@supports (mask-image:linear-gradient(#000,#000)){
+ #racePodiumArena .race-podium-photo{mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent),linear-gradient(180deg,transparent,#000 9%,#000 90%,transparent);mask-composite:intersect}
 }
-
-/* Podio cinematografico REV3: esclusivamente Ultima gara ufficiale. */
-#racePodiumArena{padding:22px 18px 0;background:radial-gradient(ellipse at 50% 30%,rgba(229,187,85,.11),transparent 48%),linear-gradient(145deg,#07162d,#0d213d 52%,#071225)}
-#racePodiumArena .podium-stage{position:relative;isolation:isolate;max-width:1000px;margin-inline:auto;grid-template-columns:minmax(0,1fr) minmax(0,1.23fr) minmax(0,1fr);align-items:end;gap:8px;padding:12px 0 0}
-#racePodiumArena .podium-stage::before{content:"";position:absolute;z-index:-1;left:0;right:0;bottom:0;height:76px;background:radial-gradient(ellipse at 50% 100%,rgba(25,223,243,.16),transparent 72%),linear-gradient(180deg,transparent,#071225);border-bottom:1px solid rgba(25,223,243,.25);pointer-events:none}
-#racePodiumArena .race-podium-driver{display:flex;justify-content:flex-end;align-items:stretch;min-width:0;margin-top:0;position:relative;z-index:1}
-#racePodiumArena .race-podium-driver.winner{--podium-metal:#f3d681;--podium-rgb:229,187,85;--platform-height:116px;margin-top:0}
-#racePodiumArena .race-podium-driver.runner{--podium-metal:#d4dfef;--podium-rgb:183,204,226;--platform-height:82px;margin-top:0}
-#racePodiumArena .race-podium-driver.third{--podium-metal:#e3a27b;--podium-rgb:191,119,75;--platform-height:64px;margin-top:0}
-#racePodiumArena .race-podium-heading{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:8px;min-width:0;min-height:146px;margin-bottom:13px}
-#racePodiumArena .race-podium-rank{line-height:.88;margin:0;color:var(--podium-metal);text-shadow:0 2px 0 rgba(0,0,0,.8),0 0 18px rgba(var(--podium-rgb),.3)}
-#racePodiumArena .race-podium-rank span{display:block;font-size:clamp(48px,5vw,74px);font-weight:1000;letter-spacing:-.055em}
-#racePodiumArena .winner .race-podium-rank span{font-size:clamp(64px,6.6vw,96px)}
-#racePodiumArena .race-podium-name{display:block;width:100%;min-width:0;padding:7px 6px;color:#f5f7ff;font-size:clamp(13px,1.35vw,20px);line-height:1.25;overflow-wrap:anywhere;white-space:normal;background:linear-gradient(110deg,rgba(7,22,45,.5),rgba(var(--podium-rgb),.16),rgba(7,22,45,.5));border-top:1px solid rgba(var(--podium-rgb),.65);border-bottom:1px solid rgba(var(--podium-rgb),.25);box-shadow:0 5px 12px rgba(0,0,0,.24);font-weight:900;letter-spacing:.015em}
-#racePodiumArena .winner .race-podium-name{font-size:clamp(15px,1.6vw,23px)}
-#racePodiumArena .race-podium-time{display:block;margin:0;color:#19dff3;font-size:clamp(12px,1.35vw,19px);font-variant-numeric:tabular-nums;font-weight:850;line-height:1.25;overflow-wrap:anywhere;white-space:normal;text-shadow:0 0 10px rgba(25,223,243,.16)}
-#racePodiumArena .race-podium-vehicle{position:relative;width:100%;aspect-ratio:16/9;min-width:0;background:radial-gradient(ellipse at 50% 100%,rgba(var(--podium-rgb),.13),transparent 68%),linear-gradient(180deg,rgba(7,22,45,0),rgba(7,22,45,.6));isolation:isolate}
-#racePodiumArena .race-podium-vehicle::after{content:"";position:absolute;z-index:-1;left:8%;right:8%;bottom:-3px;height:16px;border-radius:50%;background:rgba(var(--podium-rgb),.2);filter:blur(10px);pointer-events:none}
-#racePodiumArena .race-podium-photo{position:absolute;inset:0;aspect-ratio:auto;width:100%;height:100%;overflow:hidden;border-radius:8px 8px 3px 3px;border-top:1px solid rgba(var(--podium-rgb),.65);box-shadow:0 14px 20px rgba(0,0,0,.36),0 0 18px rgba(var(--podium-rgb),.1)}
-#racePodiumArena .race-podium-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,22,45,.03) 58%,rgba(7,22,45,.55) 100%);pointer-events:none}
-#racePodiumArena .race-podium-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
-#racePodiumArena .race-podium-model{display:flex;align-items:center;justify-content:center;min-height:42px;margin:0;padding:8px 3px 12px;font-size:clamp(11px,1.1vw,15px);line-height:1.3;color:#91a9cc;overflow-wrap:anywhere;white-space:normal}
-#racePodiumArena .race-podium-platform{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;min-height:var(--platform-height);margin-top:12px;padding:12px 8px 9px;border-top:1px solid rgba(var(--podium-rgb),.9);border-left:1px solid rgba(var(--podium-rgb),.35);border-right:1px solid rgba(0,0,0,.4);background:linear-gradient(120deg,rgba(var(--podium-rgb),.26),rgba(7,22,45,.96) 62%),linear-gradient(180deg,#0d213d,#07162d);box-shadow:inset 0 1px 0 rgba(255,255,255,.13),inset -10px 0 12px rgba(0,0,0,.25),0 -6px 18px rgba(var(--podium-rgb),.1)}
-#racePodiumArena .race-podium-platform::before{content:"";position:absolute;left:-1px;right:-1px;top:-13px;height:12px;background:linear-gradient(180deg,rgba(var(--podium-rgb),.65),rgba(var(--podium-rgb),.15));clip-path:polygon(6% 0,94% 0,100% 100%,0 100%);pointer-events:none}
-#racePodiumArena .race-podium-platform::after{content:"";position:absolute;left:8%;right:8%;top:10px;height:1px;background:linear-gradient(90deg,transparent,rgba(var(--podium-rgb),.65),transparent);pointer-events:none}
-#racePodiumArena .race-podium-platform span{font-size:clamp(40px,4.8vw,68px);line-height:1;font-weight:1000;color:var(--podium-metal);text-shadow:0 3px 1px rgba(0,0,0,.8),0 0 16px rgba(var(--podium-rgb),.2)}
-#racePodiumArena .winner .race-podium-platform span{font-size:clamp(54px,6vw,84px)}
+#racePodiumArena .race-podium-platform{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;height:var(--platform-height);margin-top:8px;color:var(--podium-metal);border:1px solid rgba(var(--podium-rgb),.7);background:linear-gradient(110deg,#090b0e,rgba(var(--podium-rgb),.16) 40%,#090b0e 85%);box-shadow:inset 0 2px 2px #ffffff20,inset -8px 0 12px #0009,0 -2px 8px rgba(var(--podium-rgb),.7),0 6px 14px #000}
+#racePodiumArena .race-podium-platform::before{content:"";position:absolute;left:-1px;right:-1px;top:-12px;height:11px;clip-path:polygon(7% 0,93% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(var(--podium-rgb),.7),#181818 80%,var(--podium-metal));pointer-events:none}
+#racePodiumArena .race-podium-platform::after{content:"";position:absolute;left:4%;right:4%;top:100%;height:30px;background:linear-gradient(180deg,rgba(var(--podium-rgb),.3),transparent);transform:skewX(-18deg);filter:blur(4px);pointer-events:none}
+#racePodiumArena .race-podium-platform span{font-size:64px;font-weight:1000;line-height:1;text-shadow:0 3px #514331,0 5px 5px #000,0 0 13px rgba(var(--podium-rgb),.4)}
+#racePodiumArena .winner .race-podium-platform span{font-size:82px}
+#racePodiumArena .race-podium-platform .race-podium-laurels{width:110px;left:calc(50% - 55px)}
 @media(max-width:600px){
- #racePodiumArena{padding:16px 8px 0}
- #racePodiumArena .podium-stage{gap:5px;padding-top:5px}
- #racePodiumArena .race-podium-driver.winner{--platform-height:84px;margin-top:0}
- #racePodiumArena .race-podium-driver.runner{--platform-height:58px;margin-top:0}
- #racePodiumArena .race-podium-driver.third{--platform-height:44px;margin-top:0}
- #racePodiumArena .race-podium-heading{min-height:118px;gap:6px;margin-bottom:9px}
- #racePodiumArena .race-podium-rank span{font-size:44px}
- #racePodiumArena .winner .race-podium-rank span{font-size:58px}
- #racePodiumArena .race-podium-name{font-size:11px;padding:6px 3px;letter-spacing:0}
- #racePodiumArena .winner .race-podium-name{font-size:12px}
- #racePodiumArena .race-podium-time{font-size:11px;letter-spacing:-.025em}
- #racePodiumArena .race-podium-photo{border-radius:5px 5px 2px 2px}
- #racePodiumArena .race-podium-model{min-height:42px;padding:7px 2px 11px;font-size:10px}
- #racePodiumArena .race-podium-platform{padding:10px 3px 6px;margin-top:10px}
- #racePodiumArena .race-podium-platform::before{top:-11px;height:10px}
- #racePodiumArena .race-podium-platform span{font-size:36px}
- #racePodiumArena .winner .race-podium-platform span{font-size:49px}
+ #racePodiumArena{padding:12px 6px 25px}
+ #racePodiumArena .podium-copy{margin:-12px -6px 14px;padding:10px 10px}
+ #racePodiumArena .podium-copy p{font-size:11px}
+ #racePodiumArena .podium-stage{gap:0;padding:0}
+ #racePodiumArena .race-podium-driver.winner{--platform-height:77px}
+ #racePodiumArena .race-podium-driver.runner{--platform-height:56px}
+ #racePodiumArena .race-podium-driver.third{--platform-height:44px}
+ #racePodiumArena .race-podium-heading{width:94%;min-height:175px;margin-bottom:-12px;padding:13px 4px 22px;gap:5px}
+ #racePodiumArena .winner .race-podium-heading{width:94%;min-height:193px}
+ #racePodiumArena .race-podium-rank{height:58px}
+ #racePodiumArena .race-podium-rank span{font-size:48px}
+ #racePodiumArena .winner .race-podium-rank span{font-size:59px}
+ #racePodiumArena .race-podium-name{font-size:11px;padding:5px 2px;margin:0}
+ #racePodiumArena .race-podium-time{font-size:11px}
+ #racePodiumArena .race-podium-model{font-size:9px;line-height:1.25}
+ #racePodiumArena .race-podium-platform{margin-top:7px}
+ #racePodiumArena .race-podium-platform span{font-size:39px}
+ #racePodiumArena .winner .race-podium-platform span{font-size:53px}
+ #racePodiumArena .race-podium-platform .race-podium-laurels{width:74px;left:calc(50% - 37px)}
+ #racePodiumArena .race-podium-platform::before{top:-9px;height:8px}
 }
