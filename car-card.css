@@ -1,0 +1,22 @@
+.rda-car-card{box-sizing:border-box;width:min(700px,calc(100vw - 24px));max-height:calc(100dvh - 24px);padding:0;border:1px solid #19dff355;border-radius:18px;background:#07162d;color:#f5f7ff;box-shadow:0 22px 80px #000a;overflow:hidden;font-family:Segoe UI,Arial,sans-serif}
+.rda-car-card::backdrop{background:#020817c9}
+.rda-car-card[open]{display:flex;flex-direction:column}
+.rda-car-card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px 22px;background:#0d213d;border-bottom:1px solid #19dff333;flex-shrink:0}
+.rda-car-card-eyebrow{color:#19dff3;font-size:11px;letter-spacing:2px;font-weight:700}
+.rda-car-card-header h2{font-size:clamp(19px,4.5vw,26px);line-height:1.25;margin:8px 0;overflow-wrap:anywhere}
+.rda-car-card-header p{margin:0;color:#91a9cc;font-size:14px}
+.rda-car-card-close{border:1px solid #91a9cc55;border-radius:10px;color:#f5f7ff;background:#07162d;min-width:44px;min-height:44px;font-size:26px;cursor:pointer;flex-shrink:0}
+.rda-car-card-close:focus-visible{outline:2px solid #19dff3;outline-offset:2px}
+.rda-car-card-body{padding:18px 22px 22px;overflow-y:auto;overscroll-behavior:contain;min-height:0}
+.rda-car-card-visual{display:flex;align-items:center;justify-content:center;min-height:150px;border-radius:12px;background:radial-gradient(ellipse at center,#1264b533,#0d213d);color:#91a9cc}
+.rda-car-card-visual img{display:block;width:100%;height:clamp(150px,35vw,245px);object-fit:contain}
+.rda-car-card-category{color:#e5bb55;font-weight:700;font-size:13px;margin:14px 0}
+.rda-car-card-specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0}
+.rda-car-card-specs>div{background:#0d213d;border:1px solid #91a9cc20;border-radius:10px;padding:12px;min-width:0}
+.rda-car-card-specs dt{color:#91a9cc;font-size:12px;margin-bottom:6px}
+.rda-car-card-specs dd{margin:0;font-size:15px;font-weight:600;line-height:1.4;overflow-wrap:anywhere}
+.rda-car-card-note{color:#91a9cc;font-size:12px;margin:16px 0 0;line-height:1.5}
+.rda-car-card-unmatched{padding:14px;background:#0d213d;border-radius:10px;line-height:1.5}
+@media(max-width:380px){.rda-car-card-header{padding:16px}.rda-car-card-body{padding:14px}.rda-car-card-specs{gap:8px}.rda-car-card-specs>div{padding:10px}.rda-car-card-specs dd{font-size:14px}}
+
+.rda-car-link{font:inherit;color:inherit;background:none;border:0;padding:0;text-align:inherit;text-decoration:underline;text-decoration-color:#19dff388;text-underline-offset:3px;cursor:pointer;max-width:100%;overflow-wrap:anywhere}.rda-car-link:focus-visible{outline:2px solid #19dff3;outline-offset:4px;border-radius:3px}
