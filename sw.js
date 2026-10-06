@@ -1,4 +1,4 @@
-const CACHE='rda-portrait-rev4-20261006';
+const CACHE='rda-compact-lists-20261006';
 const REGULATION_CACHE='rda-regulation-documents-v1';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/rda-mark.png','./assets/rda-icon-192.png','./assets/rda-icon-512.png','./assets/rda-icon-maskable-512.png','./assets/apple-touch-icon.png','./assets/calendario-settembre-2026.jpg','./assets/rda-home-hero-v460.png'];
 // PDF.js locale e risorse necessarie anche senza rete.
