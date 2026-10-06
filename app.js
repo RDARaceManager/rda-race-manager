@@ -11,6 +11,19 @@ function rdaCarLink(row){
   return car?`<button type="button" class="rda-car-link" data-rda-car-id="${Number(car.carId)}">${escaped}</button>`:escaped;
 }
 
+// Risultati portrait: auto sotto il pilota, stessi ID e stessa scheda.
+function rdaResultDriver(row){
+  const name=String(row.name??'—').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  const car=row.car&&row.car!=='—'?`<span class="rda-result-car">${rdaCarLink(row)}</span>`:'';
+  return `<span class="rda-result-driver-name">${name}</span>${car}`;
+}
+
+// Risultati portrait: tempo finale e dettagli secondari nella stessa cella.
+function rdaResultTime(row){
+  const escape=value=>String(value??'—').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  return `<span class="rda-result-session-wide">${escape(row.session)}</span><span class="rda-result-time-portrait"><strong>${rdaPenaltyTime(row)}</strong><small>Sessione ${escape(row.session)} <span>·</span> ${statusHtml(row.status)}</small></span>`;
+}
+
 function emptyState(t){return `<div class="empty-state"><strong>${t}</strong><span>I dati compariranno dopo la pubblicazione dal Race Manager.</span></div>`}
 // Regolamento: il dialog conserva la schermata e lo scorrimento sottostanti.
 function setupRegulationViewer(){
@@ -315,7 +328,7 @@ function renderChampionships(){
 }
 
 
-function renderSelectedRace(index=0){const a=arr('raceArchive'),r=a[index];if(!r)return;$('#resultChamp').textContent=r.championship||'—';$('#resultRace').textContent=r.gara?`Gara ${r.gara}`:'—';$('#resultDate').textContent=r.date||'—';$('#resultTrack').textContent=r.track||'Circuito non indicato';$('#resultMaster').textContent=r.master?`RDA MASTER ${r.master}`:'—';const cols=[{label:'#',render:x=>`<span class="pos ${rankClass(x.pos)}">${x.pos}</span>`},{label:'Pilota',key:'name'},{label:'Auto',render:r=>rdaCarLink(r),cls:'hide-mobile'},{label:'Sessione',key:'session'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:x=>statusHtml(x.status)}];$('#resultsTable').innerHTML=table(r.results||[],cols,'Nessun risultato per questa gara');$('#podium').innerHTML=(r.results||[]).slice(0,3).map((x,i)=>`<div class="pod-card ${['first','second','third'][i]}"><div class="pod-rank">P${x.pos}</div><div class="pod-name">${x.name}</div><div class="pod-time">${x.time}</div></div>`).join('')}
+function renderSelectedRace(index=0){const a=arr('raceArchive'),r=a[index];if(!r)return;$('#resultChamp').textContent=r.championship||'—';$('#resultRace').textContent=r.gara?`Gara ${r.gara}`:'—';$('#resultDate').textContent=r.date||'—';$('#resultTrack').textContent=r.track||'Circuito non indicato';$('#resultMaster').textContent=r.master?`RDA MASTER ${r.master}`:'—';const cols=[{label:'#',render:x=>`<span class="pos ${rankClass(x.pos)}">${x.pos}</span>`},{label:'Pilota',render:r=>rdaResultDriver(r),cls:'rda-result-driver'},{label:'Auto',render:r=>rdaCarLink(r),cls:'hide-mobile'},{label:'<span class="rda-result-session-wide">Sessione</span><span class="rda-result-time-portrait">Tempo finale</span>',render:r=>rdaResultTime(r),cls:'rda-result-time-cell'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:x=>statusHtml(x.status)}];$('#resultsTable').innerHTML=table(r.results||[],cols,'Nessun risultato per questa gara');$('#podium').innerHTML=(r.results||[]).slice(0,3).map((x,i)=>`<div class="pod-card ${['first','second','third'][i]}"><div class="pod-rank">P${x.pos}</div><div class="pod-name">${x.name}</div><div class="pod-time">${x.time}</div></div>`).join('')}
 function setupRaceArchive(){const a=arr('raceArchive'),s=$('#raceResultSelect');if(!s)return;s.innerHTML=a.length?a.map((r,i)=>`<option value="${i}">${r.date} • ${r.championship} • Gara ${r.gara} • ${r.track}</option>`).join(''):'<option>Nessuna gara ufficiale</option>';s.onchange=()=>renderSelectedRace(Number(s.value));if(a.length)renderSelectedRace(0)}
 function openRaceResult(eventId){go('results');const a=arr('raceArchive'),i=a.findIndex(r=>Number(r.eventId)===Number(eventId)),s=$('#raceResultSelect');if(s&&i>=0){s.value=String(i);renderSelectedRace(i)}}
 
@@ -346,7 +359,7 @@ function renderPodiumsByChampionship(){
 function render(){
   const day=arr('dayResults'), champ=arr('championship'), elo=arr('elo'), drivers=arr('drivers'), teams=arr('teams'), cons=arr('constructors');
   const meta=D.meta||{}, pday=arr('podiumDay'), pchamp=arr('podiumChampionship'), pm=D.podiumMeta||{};
-  const resultCols=[{label:'#',render:r=>`<span class="pos ${rankClass(r.pos)}">${r.pos}</span>`},{label:'Pilota',key:'name'},{label:'Auto',render:r=>rdaCarLink(r),cls:'hide-mobile'},{label:'Sessione',key:'session'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:r=>statusHtml(r.status)}];
+  const resultCols=[{label:'#',render:r=>`<span class="pos ${rankClass(r.pos)}">${r.pos}</span>`},{label:'Pilota',render:r=>rdaResultDriver(r),cls:'rda-result-driver'},{label:'Auto',render:r=>rdaCarLink(r),cls:'hide-mobile'},{label:'<span class="rda-result-session-wide">Sessione</span><span class="rda-result-time-portrait">Tempo finale</span>',render:r=>rdaResultTime(r),cls:'rda-result-time-cell'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:r=>statusHtml(r.status)}];
   $('#homeResults').innerHTML=table(day.slice(0,5),resultCols,'Nessuna classifica pubblicata');
   $('#resultsTable').innerHTML=table(day,resultCols,'Nessun risultato ufficiale pubblicato');
   $('#podium').innerHTML=day.slice(0,3).map((r,i)=>`<div class="pod-card ${['first','second','third'][i]}"><div class="pod-rank">P${r.pos}</div><div class="pod-name">${r.name}</div><div class="pod-time">${r.time}</div></div>`).join('');
