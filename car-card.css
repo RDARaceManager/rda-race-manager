@@ -20,3 +20,43 @@
 @media(max-width:380px){.rda-car-card-header{padding:16px}.rda-car-card-body{padding:14px}.rda-car-card-specs{gap:8px}.rda-car-card-specs>div{padding:10px}.rda-car-card-specs dd{font-size:14px}}
 
 .rda-car-link{font:inherit;color:inherit;background:none;border:0;padding:0;text-align:inherit;text-decoration:underline;text-decoration-color:#19dff388;text-underline-offset:3px;cursor:pointer;max-width:100%;overflow-wrap:anywhere}.rda-car-link:focus-visible{outline:2px solid #19dff3;outline-offset:4px;border-radius:3px}
+
+/* Risultati: aggiunta esclusivamente portrait, senza scroll orizzontale. */
+.rda-result-car{display:none}
+@media (orientation:portrait) and (max-width:780px){
+ #resultsTable .rtable,#homeResults .rtable{min-width:0;width:100%;table-layout:fixed}
+ #resultsTable .rtable th:nth-child(1),#homeResults .rtable th:nth-child(1){width:10%}
+ #resultsTable .rtable th:nth-child(2),#homeResults .rtable th:nth-child(2){width:64%}
+ #resultsTable .rtable th:nth-child(4),#homeResults .rtable th:nth-child(4){width:26%}
+ #resultsTable .rtable th:nth-child(n+5),#resultsTable .rtable td:nth-child(n+5),#homeResults .rtable th:nth-child(n+5),#homeResults .rtable td:nth-child(n+5){display:none}
+ #resultsTable .rtable th,#resultsTable .rtable td,#homeResults .rtable th,#homeResults .rtable td{box-sizing:border-box;padding-left:8px;padding-right:8px}
+ #resultsTable .rda-result-driver,#homeResults .rda-result-driver{white-space:normal;overflow-wrap:anywhere}
+ .rda-result-car{display:block;margin-top:6px;font-size:.88em;line-height:1.4;color:#91a9cc;white-space:normal;overflow-wrap:anywhere}
+ .rda-result-car .rda-car-link{white-space:normal;overflow-wrap:anywhere}
+}
+
+/* Risultati portrait REV4 approvati: gerarchia compatta, medaglie. */
+.rda-result-time-portrait{display:none}
+@media (orientation:portrait) and (max-width:780px){
+ #resultsTable .rtable th:nth-child(1),#homeResults .rtable th:nth-child(1){width:7%}
+ #resultsTable .rtable th:nth-child(2),#homeResults .rtable th:nth-child(2){width:49%}
+ #resultsTable .rtable th:nth-child(4),#homeResults .rtable th:nth-child(4){width:44%;text-align:right}
+ #resultsTable .rtable td,#homeResults .rtable td{padding-top:18px;padding-bottom:18px;vertical-align:middle}
+ .rda-result-time-cell{text-align:right}
+ .rda-result-time-cell .rda-result-session-wide{display:none}
+ .rda-result-time-portrait{display:block}
+ .rda-result-time-portrait strong{display:block;font-size:16px;color:#f5f7ff;line-height:1.4}
+ .rda-result-time-portrait small{display:block;margin-top:8px;font-size:10px;color:#91a9cc;line-height:1.5}
+ .rda-result-time-portrait small>span{padding:0 3px}
+ .rda-result-time-portrait .status{font-size:9px}
+ .rda-result-driver-name{font-weight:600;font-size:14px}
+ .rda-result-car{font-size:11px;margin-top:7px}
+ #resultsTable .pos.p1,#homeResults .pos.p1{color:#E5BB55;font-weight:800;font-size:18px}
+ #resultsTable .pos.p2,#homeResults .pos.p2{color:#C7D2DF;font-weight:800;font-size:18px}
+ #resultsTable .pos.p3,#homeResults .pos.p3{color:#CD8B58;font-weight:800;font-size:18px}
+}
+@media (orientation:portrait) and (max-width:360px){
+ .rda-result-time-portrait strong{font-size:14px}
+ .rda-result-time-portrait small{font-size:9px}
+ .rda-result-driver-name{font-size:13px}
+}
