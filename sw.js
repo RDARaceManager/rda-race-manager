@@ -1,4 +1,4 @@
-const CACHE='rda-v467-firebase-session';
+const CACHE='rda-portrait-rev4-20261006';
 const REGULATION_CACHE='rda-regulation-documents-v1';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/rda-mark.png','./assets/rda-icon-192.png','./assets/rda-icon-512.png','./assets/rda-icon-maskable-512.png','./assets/apple-touch-icon.png','./assets/calendario-settembre-2026.jpg','./assets/rda-home-hero-v460.png'];
 // PDF.js locale e risorse necessarie anche senza rete.
@@ -232,4 +232,4 @@ if(e.request.method==='GET'&&u.origin===self.location.origin&&u.pathname.include
   e.respondWith(result.then(value=>value.response));
   return;
 }
-const fresh=/\/(data\.js|index\.html|app\.js|styles\.css|sw\.js)$/.test(u.pathname)||u.pathname.endsWith('/rda-race-manager/');if(fresh)e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r}).catch(()=>caches.match(e.request)));else e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});
+const fresh=/\/(data\.js|index\.html|app\.js|styles\.css|sw\.js|car-card\.css|car-card\.js)$/.test(u.pathname)||u.pathname.endsWith('/rda-race-manager/');if(fresh)e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r}).catch(()=>caches.match(e.request)));else e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});
