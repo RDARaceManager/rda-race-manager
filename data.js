@@ -20198,26 +20198,6 @@ window.RDA_DATA = {
   "championshipPodiumVisible": false,
   "futureRaces": [
     {
-      "eventId": "future-6-2026-10-05-9",
-      "isoDate": "2026-10-05",
-      "day": 5,
-      "month": 10,
-      "year": 2026,
-      "date": "05.10.2026",
-      "title": "RDA DTM 2026",
-      "championship": "RDA DTM 2026",
-      "championshipId": 6,
-      "master": 1000,
-      "round": 0,
-      "gara": 0,
-      "track": "Monza",
-      "regulation": {
-        "championshipId": 6,
-        "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-rda-dtm-2026.pdf"
-      }
-    },
-    {
       "eventId": "future-7-2026-10-06-18",
       "isoDate": "2026-10-06",
       "day": 6,
