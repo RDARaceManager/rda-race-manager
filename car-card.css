@@ -60,3 +60,25 @@
  .rda-result-time-portrait small{font-size:9px}
  .rda-result-driver-name{font-size:13px}
 }
+
+/* Liste Mobile compatte: solo viste Ranking/Campionato; niente riquadri duplicati nei Risultati. */
+.view[data-view="results"] #podium{display:none}
+@media (orientation:portrait) and (max-width:780px){
+ #eloTable .rtable,#championshipTable .rtable{width:100%;min-width:0;table-layout:fixed}
+ #eloTable .rtable th,#eloTable .rtable td,#championshipTable .rtable th,#championshipTable .rtable td{padding:12px 7px;box-sizing:border-box}
+ #eloTable .rtable th,#championshipTable .rtable th{font-size:9px;letter-spacing:.04em}
+ #eloTable .rtable td,#championshipTable .rtable td{font-size:12px}
+ #eloTable .rtable th:first-child,#championshipTable .rtable th:first-child{width:9%}
+ #eloTable .rtable th:nth-child(2){width:46%}
+ #eloTable .rtable th:nth-child(3){width:28%;text-align:right}
+ #eloTable .rtable th:nth-child(4){width:17%;text-align:right}
+ #eloTable .rtable td:nth-child(3),#eloTable .rtable td:nth-child(4){text-align:right;white-space:nowrap}
+ #championshipTable .rtable th:nth-child(2){width:65%}
+ #championshipTable .rtable th:last-child{width:26%;text-align:right}
+ #championshipTable .rtable td:last-child{text-align:right;white-space:nowrap}
+ #eloTable .rtable td:nth-child(2),#championshipTable .rtable td:nth-child(2){white-space:normal;overflow-wrap:anywhere}
+ .view[data-view="elo"] .elo-hero{padding:14px;gap:12px;margin-bottom:12px}
+ .view[data-view="elo"] .elo-hero>span{font-size:32px}
+ .view[data-view="elo"] .elo-hero strong{font-size:20px}
+ .view[data-view="elo"] .elo-hero p{font-size:12px;margin:6px 0 0}
+}
