@@ -344,6 +344,8 @@ function renderPodiumsByChampionship(){
  if(fs){if(finals.length){if(selectedFinalPodiumChamp===null||!finals.some(x=>Number(x.championshipId)===Number(selectedFinalPodiumChamp)))selectedFinalPodiumChamp=Number(finals[0].championshipId);fs.innerHTML=finals.map(x=>`<button class="champ-choice ${Number(x.championshipId)===Number(selectedFinalPodiumChamp)?'active':''}" data-fp="${x.championshipId}"><strong>${x.championship}</strong><small>${x.master?`RDA MASTER ${x.master}`:'RDA'} • FINALE UFFICIALE</small></button>`).join('');$$('#finalPodiumSelector [data-fp]').forEach(b=>b.onclick=()=>{selectedFinalPodiumChamp=Number(b.dataset.fp);renderPodiumsByChampionship()});const x=finals.find(v=>Number(v.championshipId)===Number(selectedFinalPodiumChamp));$('#finalPodiumArena').style.display='block';$('#podiumChampTitle').textContent=x.championship;$('#podiumChampMeta').textContent=`${x.master?`MASTER ${x.master} • `:''}FINALE UFFICIALE`;$('#podiumChampFull').innerHTML=podiumStageRDA(x.rows,true);startPodiumFireworksRDA()}else{fs.innerHTML=emptyState('Nessun campionato ancora concluso');$('#finalPodiumArena').style.display='none'}}
 }
 function render(){
+ renderRdaNews();
+  renderRdaHallOfFame();
   const day=arr('dayResults'), champ=arr('championship'), elo=arr('elo'), drivers=arr('drivers'), teams=arr('teams'), cons=arr('constructors');
   const meta=D.meta||{}, pday=arr('podiumDay'), pchamp=arr('podiumChampionship'), pm=D.podiumMeta||{};
   const resultCols=[{label:'#',render:r=>`<span class="pos ${rankClass(r.pos)}">${r.pos}</span>`},{label:'Pilota',render:r=>rdaResultDriver(r),cls:'rda-result-driver'},{label:'Auto',render:r=>rdaCarLink(r),cls:'hide-mobile'},{label:'<span class="rda-result-session-wide">Sessione</span><span class="rda-result-time-portrait">Tempo finale</span>',render:r=>rdaResultTime(r),cls:'rda-result-time-cell'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:r=>statusHtml(r.status)}];
@@ -665,3 +667,71 @@ function renderRaceBestLaps(){
 setTimeout(()=>renderRaceBestLaps(),0);
 
 function startPodiumFireworksRDA(){if(window.rdaFireworkStop)window.rdaFireworkStop();const c=document.querySelector('#podiumChampFull .fireworks');if(!c)return;let stopped=false,raf=0;window.rdaFireworkStop=()=>{stopped=true;cancelAnimationFrame(raf);observer.disconnect()};const ctx=c.getContext('2d'),box=c.parentElement,button=document.querySelector('.motion-control');let w,h,particles=[],running=!matchMedia('(prefers-reduced-motion: reduce)').matches,last=0,next=0;const colors=['#fff09c','#ffd000','#ff538b','#55dfff','#ba83ff','#ffffff'];function resize(){w=box.clientWidth;h=box.clientHeight;const d=Math.min(devicePixelRatio||1,2);c.width=w*d;c.height=h*d;ctx.setTransform(d,0,0,d,0,0)}const observer=new ResizeObserver(resize);observer.observe(box);function burst(){let x=w*(.12+Math.random()*.76),y=h*(.06+Math.random()*.45),color=colors[Math.floor(Math.random()*colors.length)];for(let i=0;i<80;i++){let a=Math.PI*2*i/80,v=40+Math.random()*95;particles.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,age:0,life:1.6+Math.random()*.8,color})}}function label(){button.textContent=running?'Ferma i fuochi d’artificio':'Avvia i fuochi d’artificio'}button.onclick=()=>{running=!running;particles=[];ctx.clearRect(0,0,w,h);next=0;label()};label();function frame(t){if(stopped)return;const dt=Math.min((t-last)/1000,.04);last=t;ctx.clearRect(0,0,w,h);if(running&&!document.hidden&&box.getClientRects().length>0){next-=dt;if(next<=0){burst();next=.45+Math.random()*.45}particles=particles.filter(p=>p.age<p.life);for(const p of particles){p.age+=dt;let ox=p.x,oy=p.y;p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=24*dt;ctx.globalAlpha=Math.max(0,1-p.age/p.life);ctx.strokeStyle=p.color;ctx.lineWidth=2.3;ctx.shadowColor=p.color;ctx.shadowBlur=9;ctx.beginPath();ctx.moveTo(ox,oy);ctx.lineTo(p.x,p.y);ctx.stroke()}ctx.globalAlpha=1;ctx.shadowBlur=0}raf=requestAnimationFrame(frame)}raf=requestAnimationFrame(frame)}
+
+// Albo d’oro: historical data only; never changes live standings or ranking.
+function renderRdaHallOfFame(){
+  const list=document.getElementById('rdaHallList'), detail=document.getElementById('rdaHallDetail');
+  if(!list||!detail)return;
+  const events=arr('hallOfFame');
+  const search=document.getElementById('rdaHallSearch');
+  const make=(tag,text,cls)=>{const element=document.createElement(tag);if(text!==undefined)element.textContent=String(text);if(cls)element.className=cls;return element;};
+  const dateLabel=value=>/^\d{4}-\d{2}-\d{2}$/.test(value||'')?value.split('-').reverse().join('/'):String(value||'Data non indicata');
+  function show(event){
+    detail.replaceChildren();detail.hidden=false;
+    const back=make('button','← Torna agli eventi','rda-hall-back');
+    back.onclick=()=>{detail.hidden=true;list.hidden=false;search.hidden=false;};
+    detail.append(back,make('div','ALBO D’ORO RDA','eyebrow'),make('h3',event.title),
+      make('p',[event.championship,event.season].filter(Boolean).join(' · ')),
+      make('p',[dateLabel(event.date),event.track,event.category].filter(Boolean).join(' · ')));
+    if(/^assets\/history\/[a-f0-9]{32}\.jpg$/.test(event.image||'')){
+      const image=make('img',undefined,'rda-hall-photo');image.src=event.image;image.alt='Foto / locandina: '+event.title;
+      image.loading='lazy';image.onerror=()=>{image.remove();detail.append(make('p','Foto non disponibile.'));};detail.append(image);
+    }
+    const results=Array.isArray(event.results)?event.results:[];
+    const podium=make('div',undefined,'rda-hall-podium');
+    for(const row of results.filter(row=>Number(row.pos)>=1&&Number(row.pos)<=3)){
+      const card=make('article',undefined,'panel');card.append(make('span',['🥇','🥈','🥉'][Number(row.pos)-1]),
+        make('strong',row.driver),make('small',row.team||row.car||'Podio storico'));podium.append(card);
+    }
+    detail.append(podium,make('h3','Classifica finale'));
+    const ranking=make('ol',undefined,'rda-hall-results');
+    const labels={team:'Team',car:'Auto',time:'Tempo',gap:'Distacco',points:'Punti',penalty:'Penalità',status:'Stato'};
+    for(const row of results){
+      const item=make('li',undefined,'rda-hall-result');item.append(make('b',row.pos,'rda-hall-position'));
+      const body=make('div');body.append(make('strong',row.driver));
+      const values=make('div',undefined,'rda-hall-values');
+      for(const [key,label] of Object.entries(labels)){if(row[key]!==undefined&&row[key]!=='')values.append(make('span',label+': '+row[key]));}
+      body.append(values);item.append(body);ranking.append(item);
+    }
+    detail.append(ranking);
+    if(event.notes)detail.append(make('p',event.notes,'rda-hall-notes'));
+    list.hidden=true;search.hidden=true;detail.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  function filter(){
+    const query=search.value.trim().toLocaleLowerCase('it-IT');list.replaceChildren();
+    const visible=events.filter(event=>[event.title,event.championship,event.season,event.track,...(event.results||[]).map(row=>row.driver)].join(' ').toLocaleLowerCase('it-IT').includes(query));
+    if(!visible.length)list.append(make('p',events.length?'Nessun evento corrisponde alla ricerca.':'Nessun evento storico pubblicato.'));
+    for(const event of visible){
+      const card=make('article',undefined,'panel rda-hall-event');
+      card.append(make('div',[event.championship,event.season].filter(Boolean).join(' · '),'eyebrow'),
+        make('h3',event.title),make('p',dateLabel(event.date)+' · '+event.track));
+      const winner=(event.results||[]).find(row=>Number(row.pos)===1);
+      if(winner)card.append(make('p','🏆 Vincitore: '+winner.driver));
+      const button=make('button','Apri classifica finale');button.type='button';button.onclick=()=>show(event);card.append(button);list.append(card);
+    }
+  }
+  detail.hidden=true;list.hidden=false;search.hidden=false;search.oninput=filter;filter();
+}
+
+function renderRdaNews(){
+ const list=document.getElementById('rdaNewsList'),search=document.getElementById('rdaNewsSearch');if(!list||!search)return;
+ const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);if(cls)e.className=cls;return e;};
+ const draw=()=>{list.replaceChildren();const query=search.value.toLocaleLowerCase();const values=arr('rdaNews').filter(v=>[v.title,v.body,v.driver,v.championship,v.track,v.kind].join(' ').toLocaleLowerCase().includes(query));
+ if(!values.length){list.append(make('p',query?'Nessun comunicato corrispondente.':'Nessun comunicato pubblicato.'));return;}
+ for(const v of values){const card=make('article',undefined,'panel rda-news-card');card.append(make('div',v.kind+' · '+String(v.date||'').split('-').reverse().join('/'),'eyebrow'),make('h3',v.title));
+ const meta=[v.driver&&'Pilota: '+v.driver,v.championship&&'Campionato: '+v.championship,v.track&&'Circuito: '+v.track,v.penalty&&'Penalità: '+v.penalty,v.license_points&&'Punti patente tolti: '+v.license_points].filter(Boolean);
+ for(const text of meta)card.append(make('p',text,'rda-news-meta'));
+ card.append(make('p',v.body,'rda-news-body'));
+ if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const image=make('img');image.src=v.image;image.alt='Locandina: '+v.title;image.loading='lazy';image.onerror=()=>image.remove();card.append(image);}
+ list.append(card);}};search.oninput=draw;draw();
+}
