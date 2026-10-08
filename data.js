@@ -36025,6 +36025,21 @@ window.RDA_DATA = {
   "hallOfFame": [],
   "rdaNews": [
     {
+      "title": "Accademia Prova",
+      "date": "2026-10-08",
+      "kind": "Comunicato",
+      "driver": "",
+      "championship": "",
+      "track": "",
+      "penalty": "",
+      "license_points": "",
+      "body": "Grazie la Direzione",
+      "image": "assets/news/fc56619c74f3409eaf318df90e52ae0b.jpg",
+      "published": true,
+      "id": "7218476dba6343eea04030960bac9c21",
+      "updated_at": "2026-10-08T18:25:22.526271+00:00"
+    },
+    {
       "title": "Comunicato di prova",
       "date": "2026-10-08",
       "kind": "Penalità",
