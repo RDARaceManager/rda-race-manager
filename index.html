@@ -9,7 +9,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/rda-icon-192.png">
-  <link rel="stylesheet" href="styles.css?v=467-firebase-session">
+  <link rel="stylesheet" href="styles.css?v=news-20261008">
   <link rel="stylesheet" href="car-card.css?v=podium-layout-fix-20261006">
 </head>
 <body>
@@ -89,6 +89,8 @@
        <button data-go="drivers"><b>◉</b><strong>Piloti</strong><span>Archivio dei piloti pubblicati</span></button>
        <button data-go="teams"><b>◆</b><strong>Team</strong><span>Scopri i team RDA</span></button>
        <button data-go="flyers"><b>▤</b><strong>Volantini</strong><span>Locandine ed eventi ufficiali</span></button>
+       <button data-go="rda-news"><b>📣</b><strong>Comunicati RDA</strong><span>Notizie e comunicazioni ufficiali</span></button>
+<button data-go="hall-of-fame"><b>🏆</b><strong>Albo d’oro RDA</strong><span>Campioni, gare e classifiche storiche</span></button>
        <button data-go="history"><b>ℹ</b><strong>Storia RDA</strong><span>Le origini, Francesco Pini e la community</span></button>
       </div>
     <div class="home-compat" hidden><span id="homeRaceDay"></span><span id="homeRaceMonth"></span><span id="homeRaceYear"></span><span id="homeRaceChamp"></span><span id="leaderChampName"></span><span id="leaderChampSub"></span><span id="leaderEloName"></span><span id="leaderEloSub"></span><span id="publishedDriverCount"></span><span id="homeOfficialRounds"></span><div id="homeResults"></div></div></section>
@@ -216,7 +218,13 @@
         </aside>
       </div>
     </section>
-  </main>
+  <section class="view" data-view="hall-of-fame">
+<div class="section-head"><div><div class="eyebrow">PALMARES STORICO</div><h2>Albo d’oro RDA</h2><p>Campioni, circuiti e classifiche degli eventi conclusi.</p></div></div>
+<label for="rdaHallSearch">Cerca evento, stagione, circuito o pilota</label><input id="rdaHallSearch" class="rda-hall-search" type="search" placeholder="Cerca nell’Albo d’oro…">
+<div id="rdaHallList" class="rda-hall-list"></div><article id="rdaHallDetail" class="panel rda-hall-detail" hidden></article>
+</section>
+<section class="view" data-view="rda-news"><div class="section-head"><div><div class="eyebrow">LA VOCE UFFICIALE RDA</div><h2>📣 Comunicati RDA</h2></div></div><label for="rdaNewsSearch">Cerca comunicato, pilota o campionato</label><input id="rdaNewsSearch" class="rda-news-search" type="search"><div id="rdaNewsList" class="rda-news-list"></div></section>
+</main>
 
   <nav class="bottom-nav" aria-label="Navigazione principale">
     <button class="nav-btn active" data-view-target="home"><span>⌂</span><small>Home</small></button>
@@ -229,6 +237,8 @@
     <button class="nav-btn" data-view-target="teams"><span>◆</span><small>Team</small></button>
     <button class="nav-btn" data-view-target="flyers"><span>▤</span><small>Volantini</small></button>
     <button class="nav-btn" data-view-target="records"><span>🏁</span><small>Best Lap</small></button>
+    <button class="nav-btn" data-view-target="rda-news"><span>📣</span><small>Comunicati</small></button>
+<button class="nav-btn" data-view-target="hall-of-fame"><span>🏆</span><small>Albo d’oro</small></button>
     <button class="nav-btn" data-view-target="history"><span>ℹ</span><small>Storia RDA</small></button>
   </nav>
   <button class="nav-reveal" id="navReveal" type="button">▲ MENU</button>
@@ -241,6 +251,6 @@
   <div id="rdaRegulationPdf" role="region" aria-label="Pagine del Regolamento Ufficiale" tabindex="0"></div>
 </dialog>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=467-firebase-session"></script>
+<script src="app.js?v=news-20261008"></script>
 <script src="car-card.js?v=gt7-1"></script>
 </body></html>
