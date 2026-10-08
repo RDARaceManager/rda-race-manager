@@ -390,3 +390,23 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
  #racePodiumArena .race-podium-platform .race-podium-laurels{width:74px;left:calc(50% - 37px)}
  #racePodiumArena .race-podium-platform::before{top:-9px;height:8px}
 }
+
+/* Historical section keeps the established RDA colors and spacing. */
+.rda-hall-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:18px;margin-top:20px}
+.rda-hall-event,.rda-hall-detail{padding:24px}
+.rda-hall-event h3,.rda-hall-detail h3{font-size:1.4rem;margin:12px 0}
+.rda-hall-event button,.rda-hall-back{background:#102c48;color:#eaf3ff;border:1px solid #2c637d;border-radius:10px;padding:12px 16px;cursor:pointer;min-height:44px}
+.rda-hall-search{width:100%;padding:14px;border:1px solid #285774;background:#0b1c33;color:#eef5ff;border-radius:12px;font:inherit}
+.rda-hall-podium{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px 0}
+.rda-hall-podium article{display:flex;flex-direction:column;gap:10px;padding:18px;text-align:center;overflow-wrap:anywhere}
+.rda-hall-podium article>span{font-size:2rem}
+.rda-hall-results{list-style:none;padding:0;margin:0}
+.rda-hall-result{display:grid;grid-template-columns:45px minmax(0,1fr);gap:14px;padding:18px 0;border-bottom:1px solid #24405b}
+.rda-hall-position{font-size:1.5rem;color:#13d8ef}
+.rda-hall-values{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:9px;color:#a8bbd6;font-size:.9rem;overflow-wrap:anywhere}
+.rda-hall-photo{width:100%;max-height:650px;object-fit:contain;background:#071226;border-radius:14px;margin:16px 0}
+.rda-hall-notes{white-space:pre-wrap;overflow-wrap:anywhere;margin-top:22px}
+.rda-hall-detail[hidden],.rda-hall-list[hidden],.rda-hall-search[hidden]{display:none!important}
+@media(max-width:550px){.rda-hall-detail,.rda-hall-event{padding:18px}.rda-hall-podium{grid-template-columns:1fr}.rda-hall-podium article{display:grid;grid-template-columns:40px minmax(0,1fr);text-align:left}.rda-hall-podium small{grid-column:2}.rda-hall-values{flex-direction:column;gap:5px}.rda-hall-result strong{overflow-wrap:anywhere}}
+
+.rda-news-list{display:grid;gap:18px}.rda-news-card{padding:22px}.rda-news-body{white-space:pre-wrap;overflow-wrap:anywhere}.rda-news-card img{display:block;max-width:100%;height:auto;border-radius:12px;margin-top:18px}.rda-news-meta{margin:6px 0}.rda-news-search{width:100%;margin:10px 0 20px}
