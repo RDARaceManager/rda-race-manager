@@ -1196,8 +1196,8 @@ window.RDA_DATA = {
       "elo": 1577.0,
       "ranking": 1577.0,
       "driver_id": 6,
-      "psn": "",
-      "nicknameSecondary": "",
+      "psn": "Caciotta_95",
+      "nicknameSecondary": "Roslin_90",
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
@@ -36020,6 +36020,24 @@ window.RDA_DATA = {
         "width": "69.1 in.",
         "height": "55.1 in."
       }
+    }
+  ],
+  "hallOfFame": [],
+  "rdaNews": [
+    {
+      "title": "Comunicato di prova",
+      "date": "2026-10-08",
+      "kind": "Penalità",
+      "driver": "tony123230 [ID 107]",
+      "championship": "dtm",
+      "track": "monza",
+      "penalty": "10",
+      "license_points": "5",
+      "body": "Il Pilota Tony123230 si prende 10 sec. di penalitá e 5 punti patente per una prova",
+      "image": "",
+      "published": true,
+      "id": "cdaa7a6d0119447d92d4a3ec4e05e194",
+      "updated_at": "2026-10-08T18:06:15.822388+00:00"
     }
   ]
 };
