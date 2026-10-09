@@ -1,10 +1,10 @@
-const CACHE='rda-news-portrait-20261009';
+const CACHE='rda-history-media-20261009';
 const REGULATION_CACHE='rda-regulation-documents-v1';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/rda-mark.png','./assets/rda-icon-192.png','./assets/rda-icon-512.png','./assets/rda-icon-maskable-512.png','./assets/apple-touch-icon.png','./assets/calendario-settembre-2026.jpg','./assets/rda-home-hero-v460.png'];
 // PDF.js locale e risorse necessarie anche senza rete.
 ASSETS.push(...[
-  "./app.js?v=news-portrait-20261009",
-  "./styles.css?v=news-portrait-20261009",
+  "./app.js?v=history-media-20261009",
+  "./styles.css?v=history-media-20261009",
   "./vendor/pdfjs-5.6.205/cmaps/78-EUC-H.bcmap",
   "./vendor/pdfjs-5.6.205/cmaps/78-EUC-V.bcmap",
   "./vendor/pdfjs-5.6.205/cmaps/78-H.bcmap",
