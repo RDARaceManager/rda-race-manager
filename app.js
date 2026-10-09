@@ -669,58 +669,57 @@ setTimeout(()=>renderRaceBestLaps(),0);
 function startPodiumFireworksRDA(){if(window.rdaFireworkStop)window.rdaFireworkStop();const c=document.querySelector('#podiumChampFull .fireworks');if(!c)return;let stopped=false,raf=0;window.rdaFireworkStop=()=>{stopped=true;cancelAnimationFrame(raf);observer.disconnect()};const ctx=c.getContext('2d'),box=c.parentElement,button=document.querySelector('.motion-control');let w,h,particles=[],running=!matchMedia('(prefers-reduced-motion: reduce)').matches,last=0,next=0;const colors=['#fff09c','#ffd000','#ff538b','#55dfff','#ba83ff','#ffffff'];function resize(){w=box.clientWidth;h=box.clientHeight;const d=Math.min(devicePixelRatio||1,2);c.width=w*d;c.height=h*d;ctx.setTransform(d,0,0,d,0,0)}const observer=new ResizeObserver(resize);observer.observe(box);function burst(){let x=w*(.12+Math.random()*.76),y=h*(.06+Math.random()*.45),color=colors[Math.floor(Math.random()*colors.length)];for(let i=0;i<80;i++){let a=Math.PI*2*i/80,v=40+Math.random()*95;particles.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,age:0,life:1.6+Math.random()*.8,color})}}function label(){button.textContent=running?'Ferma i fuochi d’artificio':'Avvia i fuochi d’artificio'}button.onclick=()=>{running=!running;particles=[];ctx.clearRect(0,0,w,h);next=0;label()};label();function frame(t){if(stopped)return;const dt=Math.min((t-last)/1000,.04);last=t;ctx.clearRect(0,0,w,h);if(running&&!document.hidden&&box.getClientRects().length>0){next-=dt;if(next<=0){burst();next=.45+Math.random()*.45}particles=particles.filter(p=>p.age<p.life);for(const p of particles){p.age+=dt;let ox=p.x,oy=p.y;p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=24*dt;ctx.globalAlpha=Math.max(0,1-p.age/p.life);ctx.strokeStyle=p.color;ctx.lineWidth=2.3;ctx.shadowColor=p.color;ctx.shadowBlur=9;ctx.beginPath();ctx.moveTo(ox,oy);ctx.lineTo(p.x,p.y);ctx.stroke()}ctx.globalAlpha=1;ctx.shadowBlur=0}raf=requestAnimationFrame(frame)}raf=requestAnimationFrame(frame)}
 
 // Albo d’oro: historical data only; never changes live standings or ranking.
+// Independent historical championship archive. No live ranking calculations.
+function rdaHistoricalParticipant(row){const name=String(row.driver||'').trim();return name!==''&&!['(leer)','leer'].includes(name.toLocaleLowerCase('it-IT'));}
+function rdaHistoricalYearStats(events){
+ const pilots=new Set();let attendance=0,missing=0;
+ for(const event of events)for(const row of event.results||[]){if(!rdaHistoricalParticipant(row))continue;pilots.add(String(row.driver).trim().toLocaleLowerCase('it-IT'));if(/^\d+$/.test(String(row.attendance??'')))attendance+=Number(row.attendance);else missing++;}
+ return {pilots:pilots.size,championships:events.length,attendance,missing};
+}
 function renderRdaHallOfFame(){
-  const list=document.getElementById('rdaHallList'), detail=document.getElementById('rdaHallDetail');
-  if(!list||!detail)return;
-  const events=arr('hallOfFame');
-  const search=document.getElementById('rdaHallSearch');
-  const make=(tag,text,cls)=>{const element=document.createElement(tag);if(text!==undefined)element.textContent=String(text);if(cls)element.className=cls;return element;};
-  const dateLabel=value=>/^\d{4}-\d{2}-\d{2}$/.test(value||'')?value.split('-').reverse().join('/'):String(value||'Data non indicata');
-  function show(event){
-    detail.replaceChildren();detail.hidden=false;
-    const back=make('button','← Torna agli eventi','rda-hall-back');
-    back.onclick=()=>{detail.hidden=true;list.hidden=false;search.hidden=false;};
-    detail.append(back,make('div','ALBO D’ORO RDA','eyebrow'),make('h3',event.title),
-      make('p',[event.championship,event.season].filter(Boolean).join(' · ')),
-      make('p',[dateLabel(event.date),event.track,event.category].filter(Boolean).join(' · ')));
-    if(/^assets\/history\/[a-f0-9]{32}\.jpg$/.test(event.image||'')){
-      const image=make('img',undefined,'rda-hall-photo');image.src=event.image;image.alt='Foto / locandina: '+event.title;
-      image.loading='lazy';image.onerror=()=>{image.remove();detail.append(make('p','Foto non disponibile.'));};detail.append(image);
-    }
-    const results=Array.isArray(event.results)?event.results:[];
-    const podium=make('div',undefined,'rda-hall-podium');
-    for(const row of results.filter(row=>Number(row.pos)>=1&&Number(row.pos)<=3)){
-      const card=make('article',undefined,'panel');card.append(make('span',['🥇','🥈','🥉'][Number(row.pos)-1]),
-        make('strong',row.driver),make('small',row.team||row.car||'Podio storico'));podium.append(card);
-    }
-    detail.append(podium,make('h3','Classifica finale'));
-    const ranking=make('ol',undefined,'rda-hall-results');
-    const labels={team:'Team',car:'Auto',time:'Tempo',gap:'Distacco',points:'Punti',penalty:'Penalità',status:'Stato'};
-    for(const row of results){
-      const item=make('li',undefined,'rda-hall-result');item.append(make('b',row.pos,'rda-hall-position'));
-      const body=make('div');body.append(make('strong',row.driver));
-      const values=make('div',undefined,'rda-hall-values');
-      for(const [key,label] of Object.entries(labels)){if(row[key]!==undefined&&row[key]!=='')values.append(make('span',label+': '+row[key]));}
-      body.append(values);item.append(body);ranking.append(item);
-    }
-    detail.append(ranking);
-    if(event.notes)detail.append(make('p',event.notes,'rda-hall-notes'));
-    list.hidden=true;search.hidden=true;detail.scrollIntoView({behavior:'smooth',block:'start'});
+ const list=document.getElementById('rdaHallList'),detail=document.getElementById('rdaHallDetail'),search=document.getElementById('rdaHallSearch');if(!list||!detail||!search)return;
+ const events=arr('hallOfFame'),state=list._rdaHistoryState||(list._rdaHistoryState={year:null,id:null});
+ const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);if(cls)e.className=cls;return e;};
+ const button=(text,action,cls)=>{const e=make('button',text,cls);e.type='button';e.onclick=action;return e;};
+ const yearOf=v=>String(v.season||'Anno non indicato');
+ const hero=()=>{const box=make('header',undefined,'rda-hall-hero');box.append(make('div','RACING DRIVERS ASSOCIATION','rda-hall-kicker'));const heading=make('h2','ALBO ');heading.append(make('span','D’ORO','rda-hall-gold'));box.append(heading,make('p','CAMPIONATI RDA'),make('p','STORIA · PILOTI · CAMPIONI'));return box;};
+ const head=document.querySelector('[data-view="hall-of-fame"] .section-head');if(head&&!head.dataset.rdaYearHero){head.replaceChildren(hero());head.dataset.rdaYearHero='1';}
+ function draw(){
+  list.replaceChildren();detail.replaceChildren();detail.hidden=true;list.hidden=false;search.hidden=false;
+  const query=search.value.trim().toLocaleLowerCase('it-IT');
+  const filtered=events.filter(v=>[v.championship,v.season,...(v.results||[]).map(r=>r.driver)].join(' ').toLocaleLowerCase('it-IT').includes(query));
+  if(!events.length){list.append(make('p','Nessun campionato storico pubblicato.'));return;}
+  if(state.id){const event=events.find(v=>v.id===state.id);if(event){show(event);return;}state.id=null;}
+  if(state.year!==null){
+   list.append(button('← Tutti gli anni',()=>{state.year=null;draw();},'rda-hall-back'),make('h3','Campionati '+state.year));
+   const selected=filtered.filter(v=>yearOf(v)===state.year);
+   if(!selected.length)list.append(make('p','Nessun campionato corrisponde alla ricerca.'));
+   for(const event of selected){const card=make('article',undefined,'rda-hall-championship');card.append(make('h3',event.championship||event.title));const count=(event.results||[]).filter(rdaHistoricalParticipant).length;card.append(make('p',count+' piloti in classifica'));const winner=(event.results||[]).find(r=>Number(r.pos)===1&&rdaHistoricalParticipant(r));if(winner)card.append(make('p','🏆 '+winner.driver));card.append(button('Apri classifica finale',()=>{state.id=event.id;draw();}));list.append(card);}return;
   }
-  function filter(){
-    const query=search.value.trim().toLocaleLowerCase('it-IT');list.replaceChildren();
-    const visible=events.filter(event=>[event.title,event.championship,event.season,event.track,...(event.results||[]).map(row=>row.driver)].join(' ').toLocaleLowerCase('it-IT').includes(query));
-    if(!visible.length)list.append(make('p',events.length?'Nessun evento corrisponde alla ricerca.':'Nessun evento storico pubblicato.'));
-    for(const event of visible){
-      const card=make('article',undefined,'panel rda-hall-event');
-      card.append(make('div',[event.championship,event.season].filter(Boolean).join(' · '),'eyebrow'),
-        make('h3',event.title),make('p',dateLabel(event.date)+' · '+event.track));
-      const winner=(event.results||[]).find(row=>Number(row.pos)===1);
-      if(winner)card.append(make('p','🏆 Vincitore: '+winner.driver));
-      const button=make('button','Apri classifica finale');button.type='button';button.onclick=()=>show(event);card.append(button);list.append(card);
-    }
+  list.append(make('h3','Scegli l’anno'),make('p','Statistiche dei campionati archiviati','rda-hall-description'));
+  const years=[...new Set(filtered.map(yearOf))].sort((a,b)=>b.localeCompare(a));
+  if(!years.length)list.append(make('p','Nessun campionato corrisponde alla ricerca.'));
+  for(const year of years){
+   // Statistics use all loaded championships in a year, even during a search.
+   const stats=rdaHistoricalYearStats(events.filter(v=>yearOf(v)===year));
+   const card=button('',()=>{state.year=year;draw();},'rda-hall-year');card.append(make('strong',year,'rda-hall-year-title'));
+   const grid=make('div',undefined,'rda-hall-year-stats');for(const [count,label] of [[stats.pilots,'Piloti distinti'],[stats.championships,'Campionati'],[stats.attendance,'Presenze'+(stats.missing?' note':'')]]){const cell=make('span');cell.append(make('strong',count),make('small',label));grid.append(cell);}card.append(grid);if(stats.missing)card.append(make('small','Presenze mancanti per '+stats.missing+' righe: conteggio parziale.'));list.append(card);
   }
-  detail.hidden=true;list.hidden=false;search.hidden=false;search.oninput=filter;filter();
+  list.append(make('p','Conteggi riferiti ai campionati caricati. Piloti distinti in base al nome riportato; righe senza nome escluse.','rda-hall-description'));
+ }
+ function show(event){
+  detail.hidden=false;list.hidden=true;search.hidden=true;
+  detail.append(button('← Campionati '+yearOf(event),()=>{state.id=null;state.year=yearOf(event);draw();},'rda-hall-back'),make('h3',event.championship||event.title),make('p','Classifica finale · '+yearOf(event)));
+  const rows=Array.isArray(event.results)?event.results:[];const podium=make('div',undefined,'rda-hall-podium-v2');
+  for(const pos of [2,1,3]){const row=rows.find(r=>Number(r.pos)===pos);if(row&&rdaHistoricalParticipant(row)){const card=make('div',undefined,pos===1?'rda-hall-first':'');card.append(make('span',['🥇','🥈','🥉'][pos-1]),make('strong',row.driver));if(row.points!=='')card.append(make('small',row.points+' punti'));podium.append(card);}}
+  detail.append(podium,make('h3','Classifica completa'));
+  const wrap=make('div',undefined,'rda-hall-table-wrap'),table=make('table',undefined,'rda-hall-table'),thead=make('thead'),header=make('tr');
+  for(const label of ['Pos.','Pilota','Punti gara','Punti totali','Presenze','Rank calcolato']){const th=make('th',label);th.scope='col';header.append(th);}thead.append(header);table.append(thead);const tbody=make('tbody');
+  for(const row of rows){const tr=make('tr');for(const key of ['pos','driver','race_points','points','attendance','rank'])tr.append(make('td',row[key]??''));tbody.append(tr);}table.append(tbody);wrap.append(table);detail.append(wrap);
+  if(event.notes)detail.append(make('p',event.notes,'rda-hall-notes'));
+  if(/^assets\/history\/[a-f0-9]{32}\.jpg$/.test(event.image||'')){const image=make('img',undefined,'rda-hall-photo');image.src=event.image;image.alt='Allegato storico: '+(event.championship||event.title);detail.append(image);}
+ }
+ search.oninput=()=>{state.id=null;draw();};draw();
 }
 
 function renderRdaNews(){
@@ -728,10 +727,27 @@ function renderRdaNews(){
  const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);if(cls)e.className=cls;return e;};
  const draw=()=>{list.replaceChildren();const query=search.value.toLocaleLowerCase();const values=arr('rdaNews').filter(v=>[v.title,v.body,v.driver,v.championship,v.track,v.kind].join(' ').toLocaleLowerCase().includes(query));
  if(!values.length){list.append(make('p',query?'Nessun comunicato corrispondente.':'Nessun comunicato pubblicato.'));return;}
- for(const v of values){const card=make('article',undefined,'panel rda-news-card');card.append(make('div',v.kind+' · '+String(v.date||'').split('-').reverse().join('/'),'eyebrow'),make('h3',v.title));
+ for(const v of values){if(v.kind==='Penalità'){const penalty=buildRdaPenalty(v,make);if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const photo=make('img');photo.src=v.image;photo.alt='Allegato al comunicato';penalty.append(photo);}list.append(penalty);continue;}const card=make('article',undefined,'panel rda-news-card');card.append(make('div',[v.kind,v.date&&String(v.date).split('-').reverse().join('/')].filter(Boolean).join(' · '),'eyebrow'));if(v.title)card.append(make('h3',v.title));
  const meta=[v.driver&&'Pilota: '+v.driver,v.championship&&'Campionato: '+v.championship,v.track&&'Circuito: '+v.track,v.penalty&&'Penalità: '+v.penalty,v.license_points&&'Punti patente tolti: '+v.license_points].filter(Boolean);
  for(const text of meta)card.append(make('p',text,'rda-news-meta'));
- card.append(make('p',v.body,'rda-news-body'));
- if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const image=make('img');image.src=v.image;image.alt='Locandina: '+v.title;image.loading='lazy';image.onerror=()=>image.remove();card.append(image);}
+ if(v.body)card.append(make('p',v.body,'rda-news-body'));
+ if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const image=make('img');image.src=v.image;image.alt=v.title?'Locandina: '+v.title:'Foto / locandina del comunicato';image.loading='lazy';image.onerror=()=>image.remove();card.append(image);}
  list.append(card);}};search.oninput=draw;draw();
+}
+
+function buildRdaPenalty(v,make){
+ const card=make('article',undefined,'panel rda-news-card rda-penalty-card');
+ const art=make('div',undefined,'rda-penalty-art');
+ const image=make('img');image.src='assets/news-template/penalty-v2.png';image.alt='Modello RDA Direzione Gara con firma e timbro';art.append(image);
+ const date=String(v.date||'').split('-').reverse().join('/');
+ const fields=[['title',v.title],['body',v.body],['date',date],['driver',v.driver],['champ',v.championship],['track',v.track],['penalty',v.penalty],['points',v.license_points]];
+ for(const [key,text] of fields){const node=make('div',text||'','rp-'+(key==='title'?'title':key==='body'?'body':'value rp-'+key));art.append(node);}
+ card.append(art);
+ const button=make('button','Ingrandisci comunicato','rda-penalty-zoom');button.type='button';
+ button.onclick=()=>{const overlay=make('div',undefined,'rda-penalty-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','Comunicazione penalità ingrandita');
+ const close=make('button','Chiudi');close.type='button';const dismiss=()=>{overlay.remove();document.removeEventListener('keydown',keys);button.focus();};
+ const keys=e=>{if(e.key==='Escape')dismiss();if(e.key==='Tab'){e.preventDefault();close.focus();}};
+ close.onclick=dismiss;overlay.append(close,art.cloneNode(true));document.body.append(overlay);document.addEventListener('keydown',keys);close.focus();};card.append(button);
+ const readable=make('div',undefined,'rda-penalty-readable');readable.append(make('h3',v.title),make('p',v.body));const dl=make('dl');
+ const labels=['Data','Pilota','Campionato','Circuito','Penalità','Punti patente tolti'];fields.slice(2).forEach(([key,text],i)=>{if(text){dl.append(make('dt',labels[i]),make('dd',text));}});readable.append(dl);card.append(readable);return card;
 }
