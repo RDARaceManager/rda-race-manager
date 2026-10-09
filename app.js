@@ -670,6 +670,7 @@ function startPodiumFireworksRDA(){if(window.rdaFireworkStop)window.rdaFireworkS
 
 // Albo d’oro: historical data only; never changes live standings or ranking.
 // Independent historical championship archive. No live ranking calculations.
+// Independent historical championship archive. No live ranking calculations.
 function rdaHistoricalParticipant(row){const name=String(row.driver||'').trim();return name!==''&&!['(leer)','leer'].includes(name.toLocaleLowerCase('it-IT'));}
 function rdaHistoricalYearStats(events){
  const pilots=new Set();let attendance=0,missing=0;
@@ -714,8 +715,8 @@ function renderRdaHallOfFame(){
   for(const pos of [2,1,3]){const row=rows.find(r=>Number(r.pos)===pos);if(row&&rdaHistoricalParticipant(row)){const card=make('div',undefined,pos===1?'rda-hall-first':'');card.append(make('span',['🥇','🥈','🥉'][pos-1]),make('strong',row.driver));if(row.points!=='')card.append(make('small',row.points+' punti'));podium.append(card);}}
   detail.append(podium,make('h3','Classifica completa'));
   const wrap=make('div',undefined,'rda-hall-table-wrap'),table=make('table',undefined,'rda-hall-table'),thead=make('thead'),header=make('tr');
-  for(const label of ['Pos.','Pilota','Punti gara','Punti totali','Presenze','Rank calcolato']){const th=make('th',label);th.scope='col';header.append(th);}thead.append(header);table.append(thead);const tbody=make('tbody');
-  for(const row of rows){const tr=make('tr');for(const key of ['pos','driver','race_points','points','attendance','rank'])tr.append(make('td',row[key]??''));tbody.append(tr);}table.append(tbody);wrap.append(table);detail.append(wrap);
+  const showAverage=rows.some(row=>String(row.average_points??'').trim());const labels=['Pos.','Pilota','Punti gara','Punti totali','Presenze','Rank calcolato'];const keys=['pos','driver','race_points','points','attendance','rank'];if(showAverage){labels.splice(5,0,'Media punti');keys.splice(5,0,'average_points');}for(const label of labels){const th=make('th',label);th.scope='col';header.append(th);}thead.append(header);table.append(thead);const tbody=make('tbody');
+  for(const row of rows){const tr=make('tr');for(const key of keys)tr.append(make('td',row[key]??''));tbody.append(tr);}table.append(tbody);wrap.append(table);detail.append(wrap);
   if(event.notes)detail.append(make('p',event.notes,'rda-hall-notes'));
   if(/^assets\/history\/[a-f0-9]{32}\.jpg$/.test(event.image||'')){const image=make('img',undefined,'rda-hall-photo');image.src=event.image;image.alt='Allegato storico: '+(event.championship||event.title);detail.append(image);}
  }
