@@ -731,7 +731,7 @@ function renderRdaNews(){
  const meta=[v.driver&&'Pilota: '+v.driver,v.championship&&'Campionato: '+v.championship,v.track&&'Circuito: '+v.track,v.penalty&&'Penalità: '+v.penalty,v.license_points&&'Punti patente tolti: '+v.license_points].filter(Boolean);
  for(const text of meta)card.append(make('p',text,'rda-news-meta'));
  if(v.body)card.append(make('p',v.body,'rda-news-body'));
- if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const image=make('img');image.src=v.image;image.alt=v.title?'Locandina: '+v.title:'Foto / locandina del comunicato';image.loading='lazy';image.onerror=()=>image.remove();card.append(image);}
+ if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const image=make('img');image.src=v.image;image.alt=v.title?'Locandina: '+v.title:'Foto / locandina del comunicato';image.loading='lazy';image.onerror=()=>image.remove();card.append(image);const zoom=make('button','Ingrandisci locandina','rda-news-image-zoom');zoom.type='button';zoom.onclick=()=>openRdaNewsImage(image,zoom,make);card.append(zoom);}
  list.append(card);}};search.oninput=draw;draw();
 }
 
@@ -747,7 +747,15 @@ function buildRdaPenalty(v,make){
  button.onclick=()=>{const overlay=make('div',undefined,'rda-penalty-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','Comunicazione penalità ingrandita');
  const close=make('button','Chiudi');close.type='button';const dismiss=()=>{overlay.remove();document.removeEventListener('keydown',keys);button.focus();};
  const keys=e=>{if(e.key==='Escape')dismiss();if(e.key==='Tab'){e.preventDefault();close.focus();}};
- close.onclick=dismiss;overlay.append(close,art.cloneNode(true));document.body.append(overlay);document.addEventListener('keydown',keys);close.focus();};card.append(button);
+ close.onclick=dismiss;overlay.append(close,art.cloneNode(true),readable.cloneNode(true));document.body.append(overlay);document.addEventListener('keydown',keys);close.focus();};card.append(button);
  const readable=make('div',undefined,'rda-penalty-readable');readable.append(make('h3',v.title),make('p',v.body));const dl=make('dl');
  const labels=['Data','Pilota','Campionato','Circuito','Penalità','Punti patente tolti'];fields.slice(2).forEach(([key,text],i)=>{if(text){dl.append(make('dt',labels[i]),make('dd',text));}});readable.append(dl);card.append(readable);return card;
+}
+
+function openRdaNewsImage(image,trigger,make){
+ const overlay=make('div',undefined,'rda-news-image-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',image.alt||'Locandina ingrandita');
+ const close=make('button','Chiudi');close.type='button';const picture=make('img');picture.src=image.src;picture.alt=image.alt;
+ const dismiss=()=>{overlay.remove();document.removeEventListener('keydown',keys);trigger.focus();};
+ const keys=e=>{if(e.key==='Escape')dismiss();if(e.key==='Tab'){e.preventDefault();close.focus();}};
+ close.onclick=dismiss;overlay.append(close,picture);document.body.append(overlay);document.addEventListener('keydown',keys);close.focus();
 }
