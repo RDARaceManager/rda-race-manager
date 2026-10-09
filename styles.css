@@ -410,3 +410,33 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
 @media(max-width:550px){.rda-hall-detail,.rda-hall-event{padding:18px}.rda-hall-podium{grid-template-columns:1fr}.rda-hall-podium article{display:grid;grid-template-columns:40px minmax(0,1fr);text-align:left}.rda-hall-podium small{grid-column:2}.rda-hall-values{flex-direction:column;gap:5px}.rda-hall-result strong{overflow-wrap:anywhere}}
 
 .rda-news-list{display:grid;gap:18px}.rda-news-card{padding:22px}.rda-news-body{white-space:pre-wrap;overflow-wrap:anywhere}.rda-news-card img{display:block;max-width:100%;height:auto;border-radius:12px;margin-top:18px}.rda-news-meta{margin:6px 0}.rda-news-search{width:100%;margin:10px 0 20px}
+
+
+/* RDA penalty template only. */
+.rda-penalty-art{position:relative;container-type:inline-size;aspect-ratio:1672/941;background:#f7f8fb;border-radius:0;overflow:hidden;color:#0a1524}
+.rda-penalty-art>img{position:absolute!important;inset:0;width:100%!important;height:100%!important;margin:0!important;border-radius:0!important;object-fit:fill}
+.rda-penalty-art .rp-title{position:absolute;left:6%;top:35.5%;width:55%;height:7%;color:#fff;font-size:3.1cqw;line-height:1.15;font-weight:800;font-style:italic;overflow:hidden;overflow-wrap:anywhere}
+.rda-penalty-art .rp-body{position:absolute;left:5.5%;top:52%;width:56%;height:14%;font-size:2.15cqw;line-height:1.3;white-space:pre-wrap;overflow:hidden;overflow-wrap:anywhere}
+.rda-penalty-art .rp-value{position:absolute;left:76.3%;width:21.7%;color:#f5f7ff;font-size:2.2cqw;line-height:1.12;font-weight:650;overflow-wrap:anywhere;overflow:hidden;max-height:6.5%}
+.rda-penalty-art .rp-date{top:17.8%}.rda-penalty-art .rp-driver{top:31%}.rda-penalty-art .rp-champ{top:44.5%}.rda-penalty-art .rp-track{top:57.5%}.rda-penalty-art .rp-penalty{top:71%}.rda-penalty-art .rp-points{top:85%}
+.rda-penalty-card{padding:0!important;overflow:hidden}.rda-penalty-readable{padding:18px 22px;background:#102139;color:#edf4ff;white-space:pre-wrap;overflow-wrap:anywhere}
+.rda-penalty-readable h3{margin-top:0}.rda-penalty-readable dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px}.rda-penalty-readable dt{color:#20d8ec}.rda-penalty-readable dd{margin:0}
+.rda-penalty-zoom{margin:14px;padding:10px 16px;min-height:44px}
+.rda-penalty-overlay{position:fixed;inset:0;z-index:20000;background:#071326;color:#edf4ff;padding:15px;overflow:auto}.rda-penalty-overlay .rda-penalty-art{min-width:900px}.rda-penalty-overlay button{margin-bottom:15px;padding:12px 20px}
+
+/* Scoped Albo d’oro: approved white/gold header and navy year cards. */
+[data-view="hall-of-fame"]{background:linear-gradient(135deg,#edf3fa,#dbe8f5 40%,#eee6f6);color:#10243c;padding:20px;border-radius:18px}
+[data-view="hall-of-fame"] .section-head{display:block!important;width:100%}
+.rda-hall-hero{position:relative;isolation:isolate;overflow:hidden;padding:35px 14px 24px;text-align:center;background:linear-gradient(125deg,#491b92 0%,#b8d9fa 13%,#f4f8fc 38%,#eff3f8 68%,#b084e1 88%,#091e40 100%);border-bottom:3px solid #21cce5;border-radius:12px;margin-bottom:20px}
+.rda-hall-hero:before{content:'RDA';position:absolute;z-index:-1;top:0;left:0;right:0;font-size:110px;font-weight:900;font-style:italic;letter-spacing:10px;color:#192f51;opacity:.1;transform:skew(-12deg)}
+.rda-hall-hero h2{font-size:32px!important;font-weight:900;font-style:italic;letter-spacing:-1px;margin:28px 0 8px;color:#0b1828!important}.rda-hall-gold{color:#977017;text-shadow:0 1px 0 #fff3c7}.rda-hall-hero p{font-size:12px;letter-spacing:2px;margin:5px 0;color:#243857!important}.rda-hall-kicker{font-size:12px;color:#172e50;font-weight:700}
+#rdaHallList{display:grid;gap:16px}.rda-hall-description{color:#405873;font-size:14px}
+.rda-hall-year{width:100%;text-align:left!important;background:linear-gradient(125deg,#0b1e36,#142c48)!important;color:#f0f6ff!important;border-radius:17px!important;border:1px solid #28c1dc!important;padding:18px!important;box-shadow:0 3px 12px #15326920;white-space:normal!important}
+.rda-hall-year-title{display:block;font-size:26px;color:#f0d489}.rda-hall-year-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:12px}.rda-hall-year-stats strong{display:block;color:#f4f8ff;font-size:22px}.rda-hall-year-stats small{display:block;color:#c4d5e9;font-size:12px}.rda-hall-year>small{display:block;color:#c4d5e9;margin-top:8px}
+.rda-hall-championship{padding:22px;background:#102139;color:#edf4ff;border-radius:15px;border:1px solid #21bed6}.rda-hall-championship h3,.rda-hall-championship p{color:#edf4ff!important}
+#rdaHallDetail{padding:18px;background:#f4f7fb;color:#10243c;border-radius:12px}#rdaHallDetail>h3,#rdaHallDetail>p{color:#10243c!important}
+.rda-hall-podium-v2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;align-items:end;margin:24px 0}.rda-hall-podium-v2>div{padding:14px 7px;background:#152942;color:#edf4ff;border-radius:12px;text-align:center;overflow-wrap:anywhere}.rda-hall-podium-v2 .rda-hall-first{padding-top:30px;border-top:3px solid #eac767}.rda-hall-podium-v2 strong,.rda-hall-podium-v2 small{display:block}.rda-hall-podium-v2 small{color:#bacce4}
+.rda-hall-table-wrap{overflow-x:auto;width:100%;border-radius:12px}.rda-hall-table{border-collapse:collapse;width:100%;min-width:550px;background:#0b1b30;color:#edf4ff;font-size:14px}.rda-hall-table th,.rda-hall-table td{padding:12px 8px;border-bottom:1px solid #263c55;text-align:right;font-variant-numeric:tabular-nums}.rda-hall-table th{color:#23d9e8;font-weight:500}.rda-hall-table th:nth-child(2),.rda-hall-table td:nth-child(2){text-align:left;min-width:120px;overflow-wrap:anywhere}.rda-hall-table td{height:25px}
+[data-view="hall-of-fame"] button{min-height:44px}[data-view="hall-of-fame"] .rda-hall-back{background:#10273f;color:#edf4ff;padding:12px;border-radius:10px;border:1px solid #2583a0}.rda-hall-notes{white-space:pre-wrap;overflow-wrap:anywhere}
+#rdaHallList[hidden],#rdaHallDetail[hidden],#rdaHallSearch[hidden]{display:none!important}
+@media(max-width:370px){[data-view="hall-of-fame"]{padding:12px}.rda-hall-hero h2{font-size:27px!important}.rda-hall-podium-v2{font-size:13px}.rda-hall-year-stats strong{font-size:20px}}
