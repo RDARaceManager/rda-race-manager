@@ -440,3 +440,15 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
 [data-view="hall-of-fame"] button{min-height:44px}[data-view="hall-of-fame"] .rda-hall-back{background:#10273f;color:#edf4ff;padding:12px;border-radius:10px;border:1px solid #2583a0}.rda-hall-notes{white-space:pre-wrap;overflow-wrap:anywhere}
 #rdaHallList[hidden],#rdaHallDetail[hidden],#rdaHallSearch[hidden]{display:none!important}
 @media(max-width:370px){[data-view="hall-of-fame"]{padding:12px}.rda-hall-hero h2{font-size:27px!important}.rda-hall-podium-v2{font-size:13px}.rda-hall-year-stats strong{font-size:20px}}
+
+/* Portrait reading and larger news posters. */
+.rda-penalty-overlay{box-sizing:border-box;padding:12px;padding-top:max(12px,env(safe-area-inset-top));padding-bottom:max(20px,env(safe-area-inset-bottom));overscroll-behavior:contain}
+.rda-penalty-overlay .rda-penalty-art{min-width:0;width:100%;max-width:1100px;margin:0 auto}
+.rda-penalty-overlay .rda-penalty-readable{box-sizing:border-box;width:100%;max-width:1100px;margin:0 auto;font-size:18px;line-height:1.55}
+.rda-penalty-overlay>button,.rda-news-image-overlay>button{position:sticky;top:0;z-index:2;min-height:44px}
+.rda-news-card:not(.rda-penalty-card)>img{width:calc(100% + 44px);max-width:none;margin-left:-22px;margin-right:-22px;border-radius:0;height:auto;object-fit:contain}
+.rda-news-image-zoom{min-height:44px;margin-top:12px;padding:10px 16px}
+.rda-news-image-overlay{position:fixed;inset:0;z-index:20000;background:#071326;padding:12px;padding-top:max(12px,env(safe-area-inset-top));padding-bottom:max(20px,env(safe-area-inset-bottom));box-sizing:border-box;overflow:auto;overscroll-behavior:contain}
+.rda-news-image-overlay>button{padding:12px 20px;margin-bottom:12px}
+.rda-news-image-overlay>img{display:block;width:100%;height:auto;max-width:1400px;margin:0 auto}
+@media(max-width:600px){.rda-penalty-overlay .rda-penalty-readable{padding:18px 14px}.rda-penalty-overlay .rda-penalty-readable dl{grid-template-columns:1fr;gap:4px}.rda-penalty-overlay .rda-penalty-readable dd{margin-bottom:12px}}
