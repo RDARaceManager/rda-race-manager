@@ -84933,9 +84933,9 @@ window.RDA_DATA = {
       "body": "La Direzione Gara comunica che al pilota VanMike91 viene inflitta una penalità di 50 secondi, con la conseguente decurtazione di 4 punti patente, a seguito di due contatti gravi ai danni del pilota gallo_opc_2.\n\nDopo aver valutato gli episodi, la Direzione Gara ha ritenuto entrambi i contatti meritevoli di sanzione, in quanto contrari ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n50 secondi di penalità\n\n4 punti patente decurtati\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,",
       "image": "",
       "published": true,
-      "signature_choice": "Nessuna",
+      "signature_choice": "Firma e timbro RDA",
       "id": "a2740053a4134194af6634e7f56d020e",
-      "updated_at": "2026-10-10T05:09:23.719418+00:00"
+      "updated_at": "2026-10-10T05:15:37.203302+00:00"
     },
     {
       "title": "BENVENUTI",
