@@ -21864,26 +21864,6 @@ window.RDA_DATA = {
   "championshipPodiumVisible": false,
   "futureRaces": [
     {
-      "eventId": "future-6-2026-10-09-10",
-      "isoDate": "2026-10-09",
-      "day": 9,
-      "month": 10,
-      "year": 2026,
-      "date": "09.10.2026",
-      "title": "RDA DTM 2026",
-      "championship": "RDA DTM 2026",
-      "championshipId": 6,
-      "master": 1000,
-      "round": 0,
-      "gara": 0,
-      "track": "Spa-Francorchamps",
-      "regulation": {
-        "championshipId": 6,
-        "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-rda-dtm-2026.pdf"
-      }
-    },
-    {
       "eventId": "future-6-2026-10-12-11",
       "isoDate": "2026-10-12",
       "day": 12,
@@ -84942,6 +84922,22 @@ window.RDA_DATA = {
   ],
   "rdaNews": [
     {
+      "title": "DIREZIONE GARA – PROVVEDIMENTO DISCIPLINARE",
+      "date": "2026-10-06",
+      "kind": "Penalità",
+      "driver": "VanMike91 [ID 136]",
+      "championship": "RDA 911 PORSCHE CUP 2026",
+      "track": "SUZUKA",
+      "penalty": "50 sec",
+      "license_points": "4",
+      "body": "La Direzione Gara comunica che al pilota VanMike91 viene inflitta una penalità di 50 secondi, con la conseguente decurtazione di 4 punti patente, a seguito di due contatti gravi ai danni del pilota gallo_opc_2.\n\nDopo aver valutato gli episodi, la Direzione Gara ha ritenuto entrambi i contatti meritevoli di sanzione, in quanto contrari ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n50 secondi di penalità\n\n4 punti patente decurtati\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,",
+      "image": "",
+      "published": true,
+      "signature_choice": "Nessuna",
+      "id": "a2740053a4134194af6634e7f56d020e",
+      "updated_at": "2026-10-10T05:09:23.719418+00:00"
+    },
+    {
       "title": "BENVENUTI",
       "date": "2026-11-01",
       "kind": "Comunicato",
@@ -84953,6 +84949,7 @@ window.RDA_DATA = {
       "body": "",
       "image": "assets/news/567298d2802649b085c00e1d2e4f8fbb.jpg",
       "published": true,
+      "signature_choice": "Nessuna",
       "id": "1a820760b75742ddbf3c09bd7caaf8c5",
       "updated_at": "2026-10-09T16:02:01.856306+00:00"
     },
@@ -84968,23 +84965,9 @@ window.RDA_DATA = {
       "body": "Grazie la Direzione",
       "image": "assets/news/fc56619c74f3409eaf318df90e52ae0b.jpg",
       "published": true,
+      "signature_choice": "Nessuna",
       "id": "7218476dba6343eea04030960bac9c21",
       "updated_at": "2026-10-08T18:25:22.526271+00:00"
-    },
-    {
-      "title": "DIREZIONE GARA – PROVVEDIMENTO DISCIPLINARE",
-      "date": "2026-10-06",
-      "kind": "Penalità",
-      "driver": "VanMike91 [ID 136]",
-      "championship": "RDA 911 PORSCHE CUP 2026",
-      "track": "SUZUKA",
-      "penalty": "50 sec",
-      "license_points": "4",
-      "body": "La Direzione Gara comunica che al pilota VanMike91 viene inflitta una penalità di 50 secondi, con la conseguente decurtazione di 4 punti patente, a seguito di due contatti gravi ai danni del pilota gallo_opc_2.\n\nDopo aver valutato gli episodi, la Direzione Gara ha ritenuto entrambi i contatti meritevoli di sanzione, in quanto contrari ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n50 secondi di penalità\n\n4 punti patente decurtati\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,",
-      "image": "",
-      "published": true,
-      "id": "a2740053a4134194af6634e7f56d020e",
-      "updated_at": "2026-10-09T20:55:31.353431+00:00"
     }
   ]
 };
