@@ -733,24 +733,26 @@ function renderRdaNews(){
  for(const text of meta)card.append(make('p',text,'rda-news-meta'));
  if(v.body)card.append(make('p',v.body,'rda-news-body'));
  if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const image=make('img');image.src=v.image;image.alt=v.title?'Locandina: '+v.title:'Foto / locandina del comunicato';image.loading='lazy';image.onerror=()=>image.remove();card.append(image);const zoom=make('button','Ingrandisci locandina','rda-news-image-zoom');zoom.type='button';zoom.onclick=()=>openRdaNewsImage(image,zoom,make);card.append(zoom);}
- list.append(card);}};search.oninput=draw;draw();
+ if(v.signature_choice&&v.signature_choice!=='Nessuna'){const footer=make('div',undefined,'rda-news-signature');if(['Firma RDA','Firma e timbro RDA'].includes(v.signature_choice)){const sign=make('div',undefined,'rda-sign-piece');sign.setAttribute('role','img');sign.setAttribute('aria-label','Firma RDA');footer.append(sign);}if(['Timbro RDA','Firma e timbro RDA'].includes(v.signature_choice)){const stamp=make('div',undefined,'rda-stamp-piece');stamp.setAttribute('role','img');stamp.setAttribute('aria-label','Timbro RDA Direzione Gara');footer.append(stamp);}card.append(footer);}list.append(card);}};search.oninput=draw;draw();
 }
 
+function buildRdaPaper(v,make){
+ const paper=make('div',undefined,'rda-paper');const brand=make('div',undefined,'rda-paper-brand');const logo=make('img');logo.src='assets/news-template/rda-logo-original.jpg';logo.alt='Logo originale RDA';brand.append(logo);paper.append(brand);
+ if(v.title){const band=make('div',undefined,'rda-paper-title');band.append(make('h3',v.title));paper.append(band);}
+ const content=make('div',undefined,'rda-paper-content');const meta=make('div',undefined,'rda-paper-meta');
+ const pairs=[['Data',String(v.date||'').split('-').reverse().join('/')],['Pilota',v.driver],['Campionato',v.championship],['Circuito',v.track],['Penalità',v.penalty],['Punti patente tolti',v.license_points]];
+ pairs.forEach(([label,value])=>{if(value)meta.append(make('span',label+': '+value));});if(meta.children.length)content.append(meta);
+ if(v.body)content.append(make('p',v.body,'rda-paper-body'));
+ const choice=v.signature_choice||'Nessuna';if(['Firma RDA','Timbro RDA','Firma e timbro RDA'].includes(choice)){
+ const footer=make('footer',undefined,'rda-news-signature');const background=make('div',undefined,'rda-seal-backdrop');background.setAttribute('aria-hidden','true');background.append(make('div',undefined,'rda-seal-led'));footer.append(background,make('strong','La Direzione Gara RDA'));const marks=make('div',undefined,'rda-sign-marks');
+ if(['Firma RDA','Firma e timbro RDA'].includes(choice)){const sign=make('div',undefined,'rda-sign-piece');sign.setAttribute('role','img');sign.setAttribute('aria-label','Firma RDA');marks.append(sign);}
+ if(['Timbro RDA','Firma e timbro RDA'].includes(choice)){const stamp=make('div',undefined,'rda-stamp-piece');stamp.setAttribute('role','img');stamp.setAttribute('aria-label','Timbro Direzione Gara RDA');marks.append(stamp);}
+ footer.append(marks);content.append(footer);}
+ paper.append(content);return paper;
+}
 function buildRdaPenalty(v,make){
- const card=make('article',undefined,'panel rda-news-card rda-penalty-card');
- const art=make('div',undefined,'rda-penalty-art');
- const image=make('img');image.src='assets/news-template/penalty-v2.png';image.alt='Modello RDA Direzione Gara con firma e timbro';art.append(image);
- const date=String(v.date||'').split('-').reverse().join('/');
- const fields=[['title',v.title],['body',v.body],['date',date],['driver',v.driver],['champ',v.championship],['track',v.track],['penalty',v.penalty],['points',v.license_points]];
- for(const [key,text] of fields){const node=make('div',text||'','rp-'+(key==='title'?'title':key==='body'?'body':'value rp-'+key));art.append(node);}
- card.append(art);
- const button=make('button','Ingrandisci comunicato','rda-penalty-zoom');button.type='button';
- button.onclick=()=>{const overlay=make('div',undefined,'rda-penalty-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','Comunicazione penalità ingrandita');
- const close=make('button','Chiudi');close.type='button';const dismiss=()=>{overlay.remove();document.removeEventListener('keydown',keys);button.focus();};
- const keys=e=>{if(e.key==='Escape')dismiss();if(e.key==='Tab'){e.preventDefault();close.focus();}};
- close.onclick=dismiss;overlay.append(close,art.cloneNode(true),readable.cloneNode(true));document.body.append(overlay);document.addEventListener('keydown',keys);close.focus();};card.append(button);
- const readable=make('div',undefined,'rda-penalty-readable');readable.append(make('h3',v.title),make('p',v.body));const dl=make('dl');
- const labels=['Data','Pilota','Campionato','Circuito','Penalità','Punti patente tolti'];fields.slice(2).forEach(([key,text],i)=>{if(text){dl.append(make('dt',labels[i]),make('dd',text));}});readable.append(dl);card.append(readable);return card;
+ const card=make('article',undefined,'panel rda-news-card rda-penalty-card');const paper=buildRdaPaper(v,make);card.append(paper);const button=make('button','Ingrandisci comunicato','rda-penalty-zoom');button.type='button';button.onclick=()=>{
+ const overlay=make('div',undefined,'rda-penalty-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','Comunicato RDA ingrandito');const close=make('button','Chiudi');close.type='button';const dismiss=()=>{overlay.remove();document.removeEventListener('keydown',keys);button.focus();};const keys=e=>{if(e.key==='Escape')dismiss();if(e.key==='Tab'){e.preventDefault();close.focus();}};close.onclick=dismiss;overlay.append(close,paper.cloneNode(true));document.body.append(overlay);document.addEventListener('keydown',keys);close.focus();};card.append(button);return card;
 }
 
 function openRdaNewsImage(image,trigger,make){
