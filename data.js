@@ -24671,7 +24671,7 @@ window.RDA_DATA = {
       "carId": 1,
       "model": "180SX Type X '96",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car24",
@@ -24695,7 +24695,7 @@ window.RDA_DATA = {
       "carId": 2,
       "model": "Camaro Z28 '69",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car31",
@@ -24719,7 +24719,7 @@ window.RDA_DATA = {
       "carId": 3,
       "model": "Corvette Stingray (C3) '69",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car41",
@@ -24743,7 +24743,7 @@ window.RDA_DATA = {
       "carId": 4,
       "model": "Fairlady 240ZG (HS30) '71",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car48",
@@ -24767,7 +24767,7 @@ window.RDA_DATA = {
       "carId": 5,
       "model": "Corolla Levin 1600GT APEX (AE86) '83",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car63",
@@ -24791,7 +24791,7 @@ window.RDA_DATA = {
       "carId": 6,
       "model": "Supra RZ '97",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car82",
@@ -24815,7 +24815,7 @@ window.RDA_DATA = {
       "carId": 7,
       "model": "Sileighty '98",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car104",
@@ -24839,7 +24839,7 @@ window.RDA_DATA = {
       "carId": 8,
       "model": "205 Turbo 16 Evolution 2 '86",
       "brand": "Peugeot",
-      "category": "",
+      "category": "Gr.B",
       "car_image": "",
       "gt7": {
         "id": "car105",
@@ -24863,7 +24863,7 @@ window.RDA_DATA = {
       "carId": 9,
       "model": "S800 '66",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car135",
@@ -24887,7 +24887,7 @@ window.RDA_DATA = {
       "carId": 10,
       "model": "Beat '91",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car137",
@@ -24911,7 +24911,7 @@ window.RDA_DATA = {
       "carId": 11,
       "model": "Copen '02",
       "brand": "Daihatsu",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car145",
@@ -24935,7 +24935,7 @@ window.RDA_DATA = {
       "carId": 12,
       "model": "R5 Turbo '80",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car173",
@@ -24959,7 +24959,7 @@ window.RDA_DATA = {
       "carId": 13,
       "model": "Tuscan Speed 6 '00",
       "brand": "TVR",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car187",
@@ -24983,7 +24983,7 @@ window.RDA_DATA = {
       "carId": 14,
       "model": "Eunos Roadster (NA) '89",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car201",
@@ -25007,7 +25007,7 @@ window.RDA_DATA = {
       "carId": 15,
       "model": "Integra Type R (DC2) '98",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car203",
@@ -25031,7 +25031,7 @@ window.RDA_DATA = {
       "carId": 16,
       "model": "Civic Type R (EK) '98",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car204",
@@ -25055,7 +25055,7 @@ window.RDA_DATA = {
       "carId": 17,
       "model": "RX-7 Spirit R Type A (FD) '02",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car205",
@@ -25079,7 +25079,7 @@ window.RDA_DATA = {
       "carId": 18,
       "model": "MR2 GT-S '97",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car207",
@@ -25103,7 +25103,7 @@ window.RDA_DATA = {
       "carId": 19,
       "model": "R34 GT-R V-spec II Nur '02",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car210",
@@ -25127,7 +25127,7 @@ window.RDA_DATA = {
       "carId": 20,
       "model": "Lancer Evolution V GSR '98",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car211",
@@ -25175,7 +25175,7 @@ window.RDA_DATA = {
       "carId": 22,
       "model": "NSX Type R '92",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car293",
@@ -25199,7 +25199,7 @@ window.RDA_DATA = {
       "carId": 23,
       "model": "787B '91",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car296",
@@ -25223,7 +25223,7 @@ window.RDA_DATA = {
       "carId": 24,
       "model": "Lancer Evolution IV GSR '96",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car301",
@@ -25247,7 +25247,7 @@ window.RDA_DATA = {
       "carId": 25,
       "model": "Cobra 427 '66",
       "brand": "Shelby",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car315",
@@ -25271,7 +25271,7 @@ window.RDA_DATA = {
       "carId": 26,
       "model": "Clio V6 24V '00",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car334",
@@ -25295,7 +25295,7 @@ window.RDA_DATA = {
       "carId": 27,
       "model": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car345",
@@ -25319,7 +25319,7 @@ window.RDA_DATA = {
       "carId": 28,
       "model": "155 2.5 V6 TI '93",
       "brand": "Alfa Romeo",
-      "category": "",
+      "category": "Gr.4",
       "car_image": "car_images/car_28.webp",
       "gt7": {
         "id": "car365",
@@ -25343,7 +25343,7 @@ window.RDA_DATA = {
       "carId": 29,
       "model": "RX-7 GT-X (FC) '90",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car374",
@@ -25367,7 +25367,7 @@ window.RDA_DATA = {
       "carId": 30,
       "model": "Impreza Coupe WRX Type R STi Ver.VI '99",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car379",
@@ -25391,7 +25391,7 @@ window.RDA_DATA = {
       "carId": 31,
       "model": "300 SL Coupe '54",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car387",
@@ -25415,7 +25415,7 @@ window.RDA_DATA = {
       "carId": 32,
       "model": "NSX Type R '02",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car396",
@@ -25439,7 +25439,7 @@ window.RDA_DATA = {
       "carId": 33,
       "model": "Impreza 22B-STi '98",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car451",
@@ -25487,7 +25487,7 @@ window.RDA_DATA = {
       "carId": 35,
       "model": "R33 GT-R V-spec '97",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car489",
@@ -25511,7 +25511,7 @@ window.RDA_DATA = {
       "carId": 36,
       "model": "S2000 '99",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car514",
@@ -25535,7 +25535,7 @@ window.RDA_DATA = {
       "carId": 37,
       "model": "Stratos '73",
       "brand": "Lancia",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car533",
@@ -25559,7 +25559,7 @@ window.RDA_DATA = {
       "carId": 38,
       "model": "2000GT '67",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car604",
@@ -25583,7 +25583,7 @@ window.RDA_DATA = {
       "carId": 39,
       "model": "Superbird '70",
       "brand": "Plymouth",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car665",
@@ -25607,7 +25607,7 @@ window.RDA_DATA = {
       "carId": 40,
       "model": "Integra Type R (DC2) '95",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car688",
@@ -25631,7 +25631,7 @@ window.RDA_DATA = {
       "carId": 41,
       "model": "Fairlady Z 300ZX TT 2seater '89",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car709",
@@ -25655,7 +25655,7 @@ window.RDA_DATA = {
       "carId": 42,
       "model": "R32 GT-R V-spec II '94",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car773",
@@ -25679,7 +25679,7 @@ window.RDA_DATA = {
       "carId": 43,
       "model": "Sprinter Trueno 1600GT APEX (AE86) '83",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car810",
@@ -25703,7 +25703,7 @@ window.RDA_DATA = {
       "carId": 44,
       "model": "Corvette (C2) '63",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car818",
@@ -25727,7 +25727,7 @@ window.RDA_DATA = {
       "carId": 45,
       "model": "Civic Type R (EK) '97",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car821",
@@ -25751,7 +25751,7 @@ window.RDA_DATA = {
       "carId": 46,
       "model": "Delta HF Integrale Evoluzione '91",
       "brand": "Lancia",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car829",
@@ -25775,7 +25775,7 @@ window.RDA_DATA = {
       "carId": 47,
       "model": "Skyline Hard Top 2000GT-R (KPGC10) '70",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car837",
@@ -25799,7 +25799,7 @@ window.RDA_DATA = {
       "carId": 48,
       "model": "Supra 3.0GT Turbo A '88",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car843",
@@ -25823,7 +25823,7 @@ window.RDA_DATA = {
       "carId": 49,
       "model": "Silvia Q's (S13) '88",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car919",
@@ -25847,7 +25847,7 @@ window.RDA_DATA = {
       "carId": 50,
       "model": "Corvette ZR-1 (C4) '89",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car942",
@@ -25871,7 +25871,7 @@ window.RDA_DATA = {
       "carId": 51,
       "model": "R92CP '92",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car954",
@@ -25895,7 +25895,7 @@ window.RDA_DATA = {
       "carId": 52,
       "model": "TT Coupe 3.2 quattro '03",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car959",
@@ -25919,7 +25919,7 @@ window.RDA_DATA = {
       "carId": 53,
       "model": "Sauber Mercedes C9 '89",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car998",
@@ -25943,7 +25943,7 @@ window.RDA_DATA = {
       "carId": 54,
       "model": "DeLorean S2 '04",
       "brand": "DMC",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1027",
@@ -25991,7 +25991,7 @@ window.RDA_DATA = {
       "carId": 56,
       "model": "Sports 800 '65",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1044",
@@ -26015,7 +26015,7 @@ window.RDA_DATA = {
       "carId": 57,
       "model": "XJR-9 '88",
       "brand": "Jaguar",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car1067",
@@ -26039,7 +26039,7 @@ window.RDA_DATA = {
       "carId": 58,
       "model": "2J '70",
       "brand": "Chaparral",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car1069",
@@ -26063,7 +26063,7 @@ window.RDA_DATA = {
       "carId": 59,
       "model": "R8 4.2 '07",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1365",
@@ -26087,7 +26087,7 @@ window.RDA_DATA = {
       "carId": 60,
       "model": "MINI Cooper S '05",
       "brand": "MINI",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1370",
@@ -26111,7 +26111,7 @@ window.RDA_DATA = {
       "carId": 61,
       "model": "Viper GTS '02",
       "brand": "Dodge",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1373",
@@ -26135,7 +26135,7 @@ window.RDA_DATA = {
       "carId": 62,
       "model": "F430 '06",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1378",
@@ -26159,7 +26159,7 @@ window.RDA_DATA = {
       "carId": 63,
       "model": "Fairlady Z Version S (Z33) '07",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1384",
@@ -26183,7 +26183,7 @@ window.RDA_DATA = {
       "carId": 64,
       "model": "Swift Sport '07",
       "brand": "Suzuki",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1385",
@@ -26207,7 +26207,7 @@ window.RDA_DATA = {
       "carId": 65,
       "model": "M3 '07",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1399",
@@ -26231,7 +26231,7 @@ window.RDA_DATA = {
       "carId": 66,
       "model": "Viper SRT10 Coupe '06",
       "brand": "Dodge",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1402",
@@ -26255,7 +26255,7 @@ window.RDA_DATA = {
       "carId": 67,
       "model": "F40 '92",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1409",
@@ -26279,7 +26279,7 @@ window.RDA_DATA = {
       "carId": 68,
       "model": "512 BB '76",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1410",
@@ -26303,7 +26303,7 @@ window.RDA_DATA = {
       "carId": 69,
       "model": "Ford GT LM Spec II Test Car",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car1425",
@@ -26327,7 +26327,7 @@ window.RDA_DATA = {
       "carId": 70,
       "model": "Ford GT '06",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1426",
@@ -26351,7 +26351,7 @@ window.RDA_DATA = {
       "carId": 71,
       "model": "RE Amemiya FD3S RX-7",
       "brand": "RE Amemiya",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1431",
@@ -26375,7 +26375,7 @@ window.RDA_DATA = {
       "carId": 72,
       "model": "Amuse S2000 GT1 Turbo",
       "brand": "Amuse",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1433",
@@ -26399,7 +26399,7 @@ window.RDA_DATA = {
       "carId": 73,
       "model": "SILVIA spec-R Aero (S15) '02",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1448",
@@ -26423,7 +26423,7 @@ window.RDA_DATA = {
       "carId": 74,
       "model": "Fairlady Z (Z34) '08",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1458",
@@ -26447,7 +26447,7 @@ window.RDA_DATA = {
       "carId": 75,
       "model": "Silvia K's Dia Selection (S13) '90",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1461",
@@ -26519,7 +26519,7 @@ window.RDA_DATA = {
       "carId": 78,
       "model": "Enzo Ferrari '02",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1474",
@@ -26543,7 +26543,7 @@ window.RDA_DATA = {
       "carId": 79,
       "model": "Corvette ZR1 (C6) '09",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1480",
@@ -26567,7 +26567,7 @@ window.RDA_DATA = {
       "carId": 80,
       "model": "Countach 25th Anniversary '88",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1481",
@@ -26591,7 +26591,7 @@ window.RDA_DATA = {
       "carId": 81,
       "model": "Countach LP400 '74",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1484",
@@ -26615,7 +26615,7 @@ window.RDA_DATA = {
       "carId": 82,
       "model": "458 Italia '09",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1504",
@@ -26639,7 +26639,7 @@ window.RDA_DATA = {
       "carId": 83,
       "model": "SLS AMG '10",
       "brand": "AMG",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1507",
@@ -26663,7 +26663,7 @@ window.RDA_DATA = {
       "carId": 84,
       "model": "Lancer Evolution VI GSR T.M. SCP '99",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1508",
@@ -26735,7 +26735,7 @@ window.RDA_DATA = {
       "carId": 87,
       "model": "500 F '68",
       "brand": "Fiat",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1523",
@@ -26759,7 +26759,7 @@ window.RDA_DATA = {
       "carId": 88,
       "model": "500 1.2 8V Lounge SS '08",
       "brand": "Fiat",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1527",
@@ -26783,7 +26783,7 @@ window.RDA_DATA = {
       "carId": 89,
       "model": "SLR McLaren '09",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1528",
@@ -26807,7 +26807,7 @@ window.RDA_DATA = {
       "carId": 90,
       "model": "Zonda R '09",
       "brand": "Pagani",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car1536",
@@ -26831,7 +26831,7 @@ window.RDA_DATA = {
       "carId": 91,
       "model": "Prius G '09",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1537",
@@ -26855,7 +26855,7 @@ window.RDA_DATA = {
       "carId": 92,
       "model": "GranTurismo S '08",
       "brand": "Maserati",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1539",
@@ -26879,7 +26879,7 @@ window.RDA_DATA = {
       "carId": 93,
       "model": "McLaren F1 '94",
       "brand": "McLaren",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1540",
@@ -26903,7 +26903,7 @@ window.RDA_DATA = {
       "carId": 94,
       "model": "Corvette Convertible (C3) '69",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1542",
@@ -26927,7 +26927,7 @@ window.RDA_DATA = {
       "carId": 95,
       "model": "Challenger R/T '70",
       "brand": "Dodge",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1543",
@@ -26951,7 +26951,7 @@ window.RDA_DATA = {
       "carId": 96,
       "model": "Murcielago LP 640 '09",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1545",
@@ -26975,7 +26975,7 @@ window.RDA_DATA = {
       "carId": 97,
       "model": "Amuse NISMO 380RS Super Leggera",
       "brand": "Amuse",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1549",
@@ -26999,7 +26999,7 @@ window.RDA_DATA = {
       "carId": 98,
       "model": "330 P4 '67",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car1551",
@@ -27023,7 +27023,7 @@ window.RDA_DATA = {
       "carId": 99,
       "model": "XJ13 '66",
       "brand": "Jaguar",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car1553",
@@ -27047,7 +27047,7 @@ window.RDA_DATA = {
       "carId": 100,
       "model": "Megane Trophy '11",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.4",
       "car_image": "",
       "gt7": {
         "id": "car1563",
@@ -27095,7 +27095,7 @@ window.RDA_DATA = {
       "carId": 102,
       "model": "8C Competizione '08",
       "brand": "Alfa Romeo",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1578",
@@ -27119,7 +27119,7 @@ window.RDA_DATA = {
       "carId": 103,
       "model": "GT by Citroen Road Car",
       "brand": "Citroen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1581",
@@ -27143,7 +27143,7 @@ window.RDA_DATA = {
       "carId": 104,
       "model": "Miura P400 Bertone Prototype '67",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1582",
@@ -27167,7 +27167,7 @@ window.RDA_DATA = {
       "carId": 105,
       "model": "GIULIA TZ2 carrozzata da ZAGATO '65",
       "brand": "Alfa Romeo",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car1645",
@@ -27191,7 +27191,7 @@ window.RDA_DATA = {
       "carId": 106,
       "model": "908 HDi FAP '10",
       "brand": "Peugeot",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car1646",
@@ -27215,7 +27215,7 @@ window.RDA_DATA = {
       "carId": 107,
       "model": "Sambabus Typ 2 '62",
       "brand": "Volkswagen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1671",
@@ -27263,7 +27263,7 @@ window.RDA_DATA = {
       "carId": 109,
       "model": "MP4-12C '10",
       "brand": "McLaren",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1722",
@@ -27287,7 +27287,7 @@ window.RDA_DATA = {
       "carId": 110,
       "model": "Mustang Mach 1 '71",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1729",
@@ -27335,7 +27335,7 @@ window.RDA_DATA = {
       "carId": 112,
       "model": "Aventador LP 700-4 '11",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1770",
@@ -27359,7 +27359,7 @@ window.RDA_DATA = {
       "carId": 113,
       "model": "Scirocco R '10",
       "brand": "Volkswagen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1773",
@@ -27383,7 +27383,7 @@ window.RDA_DATA = {
       "carId": 114,
       "model": "Volkswagen 1200 '66",
       "brand": "Volkswagen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1778",
@@ -27407,7 +27407,7 @@ window.RDA_DATA = {
       "carId": 115,
       "model": "A110 '72",
       "brand": "Alpine",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1796",
@@ -27455,7 +27455,7 @@ window.RDA_DATA = {
       "carId": 117,
       "model": "Z8 '01",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1893",
@@ -27479,7 +27479,7 @@ window.RDA_DATA = {
       "carId": 118,
       "model": "Dino 246 GT '71",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1895",
@@ -27503,7 +27503,7 @@ window.RDA_DATA = {
       "carId": 119,
       "model": "Model S Signature Performance '12",
       "brand": "Tesla",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car1896",
@@ -27527,7 +27527,7 @@ window.RDA_DATA = {
       "carId": 120,
       "model": "One-77 '11",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1898",
@@ -27551,7 +27551,7 @@ window.RDA_DATA = {
       "carId": 121,
       "model": "XNR Ghia Roadster '60",
       "brand": "Plymouth",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1900",
@@ -27599,7 +27599,7 @@ window.RDA_DATA = {
       "carId": 123,
       "model": "M3 GT '11",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car1904",
@@ -27647,7 +27647,7 @@ window.RDA_DATA = {
       "carId": 125,
       "model": "X-BOW R '12",
       "brand": "KTM",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1907",
@@ -27671,7 +27671,7 @@ window.RDA_DATA = {
       "carId": 126,
       "model": "Corvette C7 '14",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1916",
@@ -27695,7 +27695,7 @@ window.RDA_DATA = {
       "carId": 127,
       "model": "G.T.350 '65",
       "brand": "Shelby",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1925",
@@ -27719,7 +27719,7 @@ window.RDA_DATA = {
       "carId": 128,
       "model": "Cobra Daytona Coupe '64",
       "brand": "Shelby",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car1926",
@@ -27743,7 +27743,7 @@ window.RDA_DATA = {
       "carId": 129,
       "model": "Sport quattro S1 Pikes Peak '87",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.B",
       "car_image": "",
       "gt7": {
         "id": "car1927",
@@ -27767,7 +27767,7 @@ window.RDA_DATA = {
       "carId": 130,
       "model": "250 GT Berlinetta passo corto '61",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1931",
@@ -27791,7 +27791,7 @@ window.RDA_DATA = {
       "carId": 131,
       "model": "1500 Biposto Bertone B.A.T 1 '52",
       "brand": "Abarth",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1932",
@@ -27815,7 +27815,7 @@ window.RDA_DATA = {
       "carId": 132,
       "model": "MiTo '09",
       "brand": "Alfa Romeo",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1933",
@@ -27839,7 +27839,7 @@ window.RDA_DATA = {
       "carId": 133,
       "model": "GT40 Mark I '66",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1935",
@@ -27863,7 +27863,7 @@ window.RDA_DATA = {
       "carId": 134,
       "model": "Viper GTS '13",
       "brand": "Dodge",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1956",
@@ -27887,7 +27887,7 @@ window.RDA_DATA = {
       "carId": 135,
       "model": "R18 TDI '11",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car1965",
@@ -27911,7 +27911,7 @@ window.RDA_DATA = {
       "carId": 136,
       "model": "Abarth 500 '09",
       "brand": "Abarth",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1973",
@@ -27935,7 +27935,7 @@ window.RDA_DATA = {
       "carId": 137,
       "model": "RX500 '70",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1975",
@@ -27959,7 +27959,7 @@ window.RDA_DATA = {
       "carId": 138,
       "model": "McLaren F1 GTR - BMW '95",
       "brand": "McLaren",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car1984",
@@ -27983,7 +27983,7 @@ window.RDA_DATA = {
       "carId": 139,
       "model": "Firebird Trans Am '78",
       "brand": "Pontiac",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1985",
@@ -28007,7 +28007,7 @@ window.RDA_DATA = {
       "carId": 140,
       "model": "R8 Gordini '66",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car1986",
@@ -28031,7 +28031,7 @@ window.RDA_DATA = {
       "carId": 141,
       "model": "Megane R.S. Trophy '11",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1987",
@@ -28055,7 +28055,7 @@ window.RDA_DATA = {
       "carId": 142,
       "model": "Diablo GT '00",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1990",
@@ -28079,7 +28079,7 @@ window.RDA_DATA = {
       "carId": 143,
       "model": "250 GTO '62",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car2010",
@@ -28103,7 +28103,7 @@ window.RDA_DATA = {
       "carId": 144,
       "model": "500 Mondial Pinin Farina Coupe '54",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2011",
@@ -28127,7 +28127,7 @@ window.RDA_DATA = {
       "carId": 145,
       "model": "GTO '84",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2017",
@@ -28151,7 +28151,7 @@ window.RDA_DATA = {
       "carId": 146,
       "model": "365 GTB4 '71",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2018",
@@ -28175,7 +28175,7 @@ window.RDA_DATA = {
       "carId": 147,
       "model": "Aqua S '11",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2026",
@@ -28199,7 +28199,7 @@ window.RDA_DATA = {
       "carId": 148,
       "model": "Veyron 16.4 '13",
       "brand": "Bugatti",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2049",
@@ -28223,7 +28223,7 @@ window.RDA_DATA = {
       "carId": 149,
       "model": "Huayra '13",
       "brand": "Pagani",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2050",
@@ -28247,7 +28247,7 @@ window.RDA_DATA = {
       "carId": 150,
       "model": "Genesis Coupe 3.8 '13",
       "brand": "Hyundai",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2051",
@@ -28295,7 +28295,7 @@ window.RDA_DATA = {
       "carId": 152,
       "model": "Corvette Stingray Racer Concept '59",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car2059",
@@ -28319,7 +28319,7 @@ window.RDA_DATA = {
       "carId": 153,
       "model": "Racing Kart 125 Shifter",
       "brand": "Gran Turismo",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car2060",
@@ -28343,7 +28343,7 @@ window.RDA_DATA = {
       "carId": 154,
       "model": "M4 '14",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2074",
@@ -28391,7 +28391,7 @@ window.RDA_DATA = {
       "carId": 156,
       "model": "Red Bull X2014 Standard",
       "brand": "Gran Turismo",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car2077",
@@ -28415,7 +28415,7 @@ window.RDA_DATA = {
       "carId": 157,
       "model": "Red Bull X2014 Junior",
       "brand": "Gran Turismo",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car2078",
@@ -28439,7 +28439,7 @@ window.RDA_DATA = {
       "carId": 158,
       "model": "FT-1",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car2080",
@@ -28559,7 +28559,7 @@ window.RDA_DATA = {
       "carId": 163,
       "model": "TS030 Hybrid '12",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car2101",
@@ -28641,11 +28641,11 @@ window.RDA_DATA = {
         "category": "Gr.X",
         "pp": "PP 1103.48",
         "displacement": "- cc",
-        "drivetrain": null,
+        "drivetrain": "---",
         "max_power": "905 HP / 9100 rpm",
         "max_torque": "587.4 ft-lb / 6200 rpm",
         "weight": "992 lbs.",
-        "aspiration": null,
+        "aspiration": "---",
         "length": "163.4 in.",
         "width": "77.7 in.",
         "height": "34.6 in."
@@ -28967,7 +28967,7 @@ window.RDA_DATA = {
       "carId": 180,
       "model": "GT-R LM NISMO '15",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car2127",
@@ -29063,7 +29063,7 @@ window.RDA_DATA = {
       "carId": 184,
       "model": "4C '14",
       "brand": "Alfa Romeo",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2136",
@@ -29087,7 +29087,7 @@ window.RDA_DATA = {
       "carId": 185,
       "model": "Mustang GT '15",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2138",
@@ -29111,7 +29111,7 @@ window.RDA_DATA = {
       "carId": 186,
       "model": "RC F '14",
       "brand": "Lexus",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2139",
@@ -29135,7 +29135,7 @@ window.RDA_DATA = {
       "carId": 187,
       "model": "Golf VII GTI '14",
       "brand": "Volkswagen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2141",
@@ -29183,7 +29183,7 @@ window.RDA_DATA = {
       "carId": 189,
       "model": "R8 LMS '15",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car2143",
@@ -29207,7 +29207,7 @@ window.RDA_DATA = {
       "carId": 190,
       "model": "S-FR '15",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2144",
@@ -29231,7 +29231,7 @@ window.RDA_DATA = {
       "carId": 191,
       "model": "Focus ST '15",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2145",
@@ -29255,7 +29255,7 @@ window.RDA_DATA = {
       "carId": 192,
       "model": "F-type R '14",
       "brand": "Jaguar",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2146",
@@ -29279,7 +29279,7 @@ window.RDA_DATA = {
       "carId": 193,
       "model": "Veneno '14",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2147",
@@ -29303,7 +29303,7 @@ window.RDA_DATA = {
       "carId": 194,
       "model": "Roadster S (ND) '15",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2148",
@@ -29327,7 +29327,7 @@ window.RDA_DATA = {
       "carId": 195,
       "model": "Mercedes-AMG GT S '15",
       "brand": "AMG",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2149",
@@ -29351,7 +29351,7 @@ window.RDA_DATA = {
       "carId": 196,
       "model": "Lancer Evolution Final '15",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2150",
@@ -29375,7 +29375,7 @@ window.RDA_DATA = {
       "carId": 197,
       "model": "Charger SRT Hellcat '15",
       "brand": "Dodge",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2152",
@@ -29399,7 +29399,7 @@ window.RDA_DATA = {
       "carId": 198,
       "model": "WRX STI Type S '14",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2153",
@@ -29423,7 +29423,7 @@ window.RDA_DATA = {
       "carId": 199,
       "model": "86 GT '15",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2154",
@@ -29447,7 +29447,7 @@ window.RDA_DATA = {
       "carId": 200,
       "model": "Polo GTI '14",
       "brand": "Volkswagen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2155",
@@ -29471,7 +29471,7 @@ window.RDA_DATA = {
       "carId": 201,
       "model": "2&4 powered by RC213V",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car2156",
@@ -29615,7 +29615,7 @@ window.RDA_DATA = {
       "carId": 207,
       "model": "LaFerrari '13",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2162",
@@ -29711,7 +29711,7 @@ window.RDA_DATA = {
       "carId": 211,
       "model": "GT-R '17",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2167",
@@ -29735,7 +29735,7 @@ window.RDA_DATA = {
       "carId": 212,
       "model": "TTS Coupe '14",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2169",
@@ -29759,7 +29759,7 @@ window.RDA_DATA = {
       "carId": 213,
       "model": "A 45 AMG '13",
       "brand": "AMG",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "car_images/car_213.webp",
       "gt7": {
         "id": "car2170",
@@ -29783,7 +29783,7 @@ window.RDA_DATA = {
       "carId": 214,
       "model": "Huracan LP 610-4 '15",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2171",
@@ -29807,7 +29807,7 @@ window.RDA_DATA = {
       "carId": 215,
       "model": "DS 3 Racing '11",
       "brand": "DS AUTOMOBILES",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2172",
@@ -29831,7 +29831,7 @@ window.RDA_DATA = {
       "carId": 216,
       "model": "Atenza Sedan XD L Package '15",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2173",
@@ -29855,7 +29855,7 @@ window.RDA_DATA = {
       "carId": 217,
       "model": "650S '14",
       "brand": "McLaren",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2174",
@@ -29879,7 +29879,7 @@ window.RDA_DATA = {
       "carId": 218,
       "model": "V8 Vantage S '15",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2175",
@@ -29903,7 +29903,7 @@ window.RDA_DATA = {
       "carId": 219,
       "model": "RCZ GT Line '15",
       "brand": "Peugeot",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2176",
@@ -29951,7 +29951,7 @@ window.RDA_DATA = {
       "carId": 221,
       "model": "S-FR Racing Concept '16",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car2178",
@@ -30431,7 +30431,7 @@ window.RDA_DATA = {
       "carId": 241,
       "model": "Civic Type R (FK2) '15",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3214",
@@ -30455,7 +30455,7 @@ window.RDA_DATA = {
       "carId": 242,
       "model": "208 GTi by Peugeot Sport '14",
       "brand": "Peugeot",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3215",
@@ -30479,7 +30479,7 @@ window.RDA_DATA = {
       "carId": 243,
       "model": "R.S.01 '16",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3216",
@@ -30503,7 +30503,7 @@ window.RDA_DATA = {
       "carId": 244,
       "model": "Camaro SS '16",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3217",
@@ -30551,7 +30551,7 @@ window.RDA_DATA = {
       "carId": 246,
       "model": "NSX '17",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3219",
@@ -30575,7 +30575,7 @@ window.RDA_DATA = {
       "carId": 247,
       "model": "Clio R.S. 220 Trophy '15",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3220",
@@ -30623,7 +30623,7 @@ window.RDA_DATA = {
       "carId": 249,
       "model": "86 GRMN '16",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3222",
@@ -30719,7 +30719,7 @@ window.RDA_DATA = {
       "carId": 253,
       "model": "LC500 '17",
       "brand": "Lexus",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3227",
@@ -31487,7 +31487,7 @@ window.RDA_DATA = {
       "carId": 285,
       "model": "i3 '15",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3266",
@@ -31511,7 +31511,7 @@ window.RDA_DATA = {
       "carId": 286,
       "model": "F12berlinetta '12",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3267",
@@ -31559,7 +31559,7 @@ window.RDA_DATA = {
       "carId": 288,
       "model": "86 GT 'Limited' '16",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3295",
@@ -31607,7 +31607,7 @@ window.RDA_DATA = {
       "carId": 290,
       "model": "WRX STI Isle of Man '16",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3297",
@@ -31631,7 +31631,7 @@ window.RDA_DATA = {
       "carId": 291,
       "model": "TT Cup '16",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.4",
       "car_image": "",
       "gt7": {
         "id": "car3298",
@@ -31823,7 +31823,7 @@ window.RDA_DATA = {
       "carId": 299,
       "model": "Vulcan '16",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3309",
@@ -31847,7 +31847,7 @@ window.RDA_DATA = {
       "carId": 300,
       "model": "Cayman GT4 Clubsport '16",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.4",
       "car_image": "",
       "gt7": {
         "id": "car3310",
@@ -31871,7 +31871,7 @@ window.RDA_DATA = {
       "carId": 301,
       "model": "911 RSR (991) '17",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car3311",
@@ -31895,7 +31895,7 @@ window.RDA_DATA = {
       "carId": 302,
       "model": "TS050 - Hybrid '16",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3312",
@@ -31919,7 +31919,7 @@ window.RDA_DATA = {
       "carId": 303,
       "model": "919 Hybrid '16",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3313",
@@ -32063,7 +32063,7 @@ window.RDA_DATA = {
       "carId": 309,
       "model": "R18 '16",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3334",
@@ -32111,7 +32111,7 @@ window.RDA_DATA = {
       "carId": 311,
       "model": "F-150 SVT Raptor '11",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3336",
@@ -32135,7 +32135,7 @@ window.RDA_DATA = {
       "carId": 312,
       "model": "A110 '17",
       "brand": "Alpine",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3337",
@@ -32159,7 +32159,7 @@ window.RDA_DATA = {
       "carId": 313,
       "model": "CHC 1967 Chevy Nova",
       "brand": "Chris Holstrom Concepts",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3338",
@@ -32183,7 +32183,7 @@ window.RDA_DATA = {
       "carId": 314,
       "model": "BRZ Drift Car '17",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3339",
@@ -32231,7 +32231,7 @@ window.RDA_DATA = {
       "carId": 316,
       "model": "Pantera '71",
       "brand": "De Tomaso",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3341",
@@ -32255,7 +32255,7 @@ window.RDA_DATA = {
       "carId": 317,
       "model": "F1500T-A",
       "brand": "Gran Turismo",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3342",
@@ -32279,7 +32279,7 @@ window.RDA_DATA = {
       "carId": 318,
       "model": "DB11 '16",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3343",
@@ -32303,7 +32303,7 @@ window.RDA_DATA = {
       "carId": 319,
       "model": "M3 Sport Evolution '89",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "car_images/car_319.webp",
       "gt7": {
         "id": "car3344",
@@ -32327,7 +32327,7 @@ window.RDA_DATA = {
       "carId": 320,
       "model": "GT-R NISMO '17",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3345",
@@ -32351,7 +32351,7 @@ window.RDA_DATA = {
       "carId": 321,
       "model": "Mach Forty",
       "brand": "Eckert's Rod & Custom",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3346",
@@ -32375,7 +32375,7 @@ window.RDA_DATA = {
       "carId": 322,
       "model": "NSX CONCEPT-GT '16",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.2",
       "car_image": "",
       "gt7": {
         "id": "car3348",
@@ -32471,7 +32471,7 @@ window.RDA_DATA = {
       "carId": 326,
       "model": "GR Supra Racing Concept '18",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car3352",
@@ -32495,7 +32495,7 @@ window.RDA_DATA = {
       "carId": 327,
       "model": "Clio R.S. 220 Trophy '16",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3353",
@@ -32519,7 +32519,7 @@ window.RDA_DATA = {
       "carId": 328,
       "model": "BRZ S '15",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3354",
@@ -32543,7 +32543,7 @@ window.RDA_DATA = {
       "carId": 329,
       "model": "Mini-Cooper 'S' '65",
       "brand": "MINI",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3356",
@@ -32567,7 +32567,7 @@ window.RDA_DATA = {
       "carId": 330,
       "model": "S660 '15",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3357",
@@ -32639,7 +32639,7 @@ window.RDA_DATA = {
       "carId": 333,
       "model": "McLaren P1 GTR '16",
       "brand": "McLaren",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3360",
@@ -32663,7 +32663,7 @@ window.RDA_DATA = {
       "carId": 334,
       "model": "E-type Coupe '61",
       "brand": "Jaguar",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3361",
@@ -32687,7 +32687,7 @@ window.RDA_DATA = {
       "carId": 335,
       "model": "F50 '95",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3362",
@@ -32711,7 +32711,7 @@ window.RDA_DATA = {
       "carId": 336,
       "model": "DB3S '53",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3363",
@@ -32735,7 +32735,7 @@ window.RDA_DATA = {
       "carId": 337,
       "model": "Greddy Fugu Z",
       "brand": "Greddy",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3364",
@@ -32759,7 +32759,7 @@ window.RDA_DATA = {
       "carId": 338,
       "model": "356 A/1500 GS GT Carrera Speedster '56",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3365",
@@ -32783,7 +32783,7 @@ window.RDA_DATA = {
       "carId": 339,
       "model": "GR Supra RZ '19",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3367",
@@ -32807,7 +32807,7 @@ window.RDA_DATA = {
       "carId": 340,
       "model": "Tundra TRD Pro '19",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3368",
@@ -32831,7 +32831,7 @@ window.RDA_DATA = {
       "carId": 341,
       "model": "SR3 SL '13",
       "brand": "Radical",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3369",
@@ -32855,7 +32855,7 @@ window.RDA_DATA = {
       "carId": 342,
       "model": "Fit Hybrid '14",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3370",
@@ -32927,7 +32927,7 @@ window.RDA_DATA = {
       "carId": 345,
       "model": "962 C '88",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3373",
@@ -32951,7 +32951,7 @@ window.RDA_DATA = {
       "carId": 346,
       "model": "Red Bull X2019 Competition",
       "brand": "Gran Turismo",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3374",
@@ -32975,7 +32975,7 @@ window.RDA_DATA = {
       "carId": 347,
       "model": "356 A/1500 GS Carrera '56",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3375",
@@ -32999,7 +32999,7 @@ window.RDA_DATA = {
       "carId": 348,
       "model": "D-type '54",
       "brand": "Jaguar",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3376",
@@ -33023,7 +33023,7 @@ window.RDA_DATA = {
       "carId": 349,
       "model": "Super Bee '70",
       "brand": "Dodge",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3377",
@@ -33047,7 +33047,7 @@ window.RDA_DATA = {
       "carId": 350,
       "model": "Demio XD Touring '15",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3383",
@@ -33071,7 +33071,7 @@ window.RDA_DATA = {
       "carId": 351,
       "model": "GTO Twin Turbo '91",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3384",
@@ -33095,7 +33095,7 @@ window.RDA_DATA = {
       "carId": 352,
       "model": "911 Turbo (930) '81",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3385",
@@ -33119,7 +33119,7 @@ window.RDA_DATA = {
       "carId": 353,
       "model": "Camaro ZL1 1LE Package '18",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3387",
@@ -33143,7 +33143,7 @@ window.RDA_DATA = {
       "carId": 354,
       "model": "300 SEL 6.8 AMG '71",
       "brand": "AMG",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "car_images/car_354.webp",
       "gt7": {
         "id": "car3388",
@@ -33167,7 +33167,7 @@ window.RDA_DATA = {
       "carId": 355,
       "model": "M3 '03",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3389",
@@ -33191,7 +33191,7 @@ window.RDA_DATA = {
       "carId": 356,
       "model": "Taycan Turbo S '19",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3390",
@@ -33239,7 +33239,7 @@ window.RDA_DATA = {
       "carId": 358,
       "model": "Aventador LP 750-4 SV '15",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3392",
@@ -33263,7 +33263,7 @@ window.RDA_DATA = {
       "carId": 359,
       "model": "Carrera GT '04",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3393",
@@ -33287,7 +33287,7 @@ window.RDA_DATA = {
       "carId": 360,
       "model": "DBR9 GT1 '10",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car3394",
@@ -33335,7 +33335,7 @@ window.RDA_DATA = {
       "carId": 362,
       "model": "CLK-LM '98",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.2",
       "car_image": "",
       "gt7": {
         "id": "car3397",
@@ -33359,7 +33359,7 @@ window.RDA_DATA = {
       "carId": 363,
       "model": "CTR3 '07",
       "brand": "RUF",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3398",
@@ -33407,7 +33407,7 @@ window.RDA_DATA = {
       "carId": 365,
       "model": "911 GT1 Strassenversion '97",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3400",
@@ -33431,7 +33431,7 @@ window.RDA_DATA = {
       "carId": 366,
       "model": "Crown Athlete G '13",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3401",
@@ -33455,7 +33455,7 @@ window.RDA_DATA = {
       "carId": 367,
       "model": "Ford GT '17",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3402",
@@ -33479,7 +33479,7 @@ window.RDA_DATA = {
       "carId": 368,
       "model": "Golf I GTI '83",
       "brand": "Volkswagen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3403",
@@ -33503,7 +33503,7 @@ window.RDA_DATA = {
       "carId": 369,
       "model": "911 Carrera RS CS (993) '95",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3404",
@@ -33527,7 +33527,7 @@ window.RDA_DATA = {
       "carId": 370,
       "model": "R8 LMS Evo '19",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car3405",
@@ -33623,7 +33623,7 @@ window.RDA_DATA = {
       "carId": 374,
       "model": "Mono '16",
       "brand": "BAC",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3409",
@@ -33647,7 +33647,7 @@ window.RDA_DATA = {
       "carId": 375,
       "model": "917K '70",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3410",
@@ -33671,7 +33671,7 @@ window.RDA_DATA = {
       "carId": 376,
       "model": "BRZ STI Sport '18",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3413",
@@ -33719,7 +33719,7 @@ window.RDA_DATA = {
       "carId": 378,
       "model": "8C 2900B Touring Berlinetta '38",
       "brand": "Alfa Romeo",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3415",
@@ -33743,7 +33743,7 @@ window.RDA_DATA = {
       "carId": 379,
       "model": "Mercedes-AMG GT R '17",
       "brand": "AMG",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3416",
@@ -33791,7 +33791,7 @@ window.RDA_DATA = {
       "carId": 381,
       "model": "GR Supra RZ '20",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3418",
@@ -33839,7 +33839,7 @@ window.RDA_DATA = {
       "carId": 383,
       "model": "Focus RS '18",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3420",
@@ -33863,7 +33863,7 @@ window.RDA_DATA = {
       "carId": 384,
       "model": "3.0 CSL '73",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3422",
@@ -33887,7 +33887,7 @@ window.RDA_DATA = {
       "carId": 385,
       "model": "Wicked Fabrication GT 51",
       "brand": "Wicked Fabrication",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3423",
@@ -33911,7 +33911,7 @@ window.RDA_DATA = {
       "carId": 386,
       "model": "RX-8 Spirit R '12",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3427",
@@ -33935,7 +33935,7 @@ window.RDA_DATA = {
       "carId": 387,
       "model": "S Barker Tourer '29",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3428",
@@ -33959,7 +33959,7 @@ window.RDA_DATA = {
       "carId": 388,
       "model": "Fairlady Z 432 '69",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3429",
@@ -33983,7 +33983,7 @@ window.RDA_DATA = {
       "carId": 389,
       "model": "Willys MB '45",
       "brand": "Jeep",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3430",
@@ -34007,7 +34007,7 @@ window.RDA_DATA = {
       "carId": 390,
       "model": "911 Carrera RS (964) '92",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3431",
@@ -34031,7 +34031,7 @@ window.RDA_DATA = {
       "carId": 391,
       "model": "FXX K '14",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3433",
@@ -34055,7 +34055,7 @@ window.RDA_DATA = {
       "carId": 392,
       "model": "Testarossa '91",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3434",
@@ -34103,7 +34103,7 @@ window.RDA_DATA = {
       "carId": 394,
       "model": "Mangusta '69",
       "brand": "De Tomaso",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3437",
@@ -34127,7 +34127,7 @@ window.RDA_DATA = {
       "carId": 395,
       "model": "Abarth 595 SS '70",
       "brand": "Abarth",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3438",
@@ -34151,7 +34151,7 @@ window.RDA_DATA = {
       "carId": 396,
       "model": "911 Carrera RS (993) '95",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3439",
@@ -34175,7 +34175,7 @@ window.RDA_DATA = {
       "carId": 397,
       "model": "300 SL (W194) '52",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3441",
@@ -34199,7 +34199,7 @@ window.RDA_DATA = {
       "carId": 398,
       "model": "A112 Abarth '85",
       "brand": "Autobianchi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3442",
@@ -34223,7 +34223,7 @@ window.RDA_DATA = {
       "carId": 399,
       "model": "308 GTB '75",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3443",
@@ -34247,7 +34247,7 @@ window.RDA_DATA = {
       "carId": 400,
       "model": "DB5 '64",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3445",
@@ -34271,7 +34271,7 @@ window.RDA_DATA = {
       "carId": 401,
       "model": "Spyder type 550/1500RS '55",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3446",
@@ -34295,7 +34295,7 @@ window.RDA_DATA = {
       "carId": 402,
       "model": "Corvette C7 ZR1 '19",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3449",
@@ -34319,7 +34319,7 @@ window.RDA_DATA = {
       "carId": 403,
       "model": "GR Yaris RZ 'High performance' '20",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3451",
@@ -34343,7 +34343,7 @@ window.RDA_DATA = {
       "carId": 404,
       "model": "917 LIVING LEGEND",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3452",
@@ -34367,7 +34367,7 @@ window.RDA_DATA = {
       "carId": 405,
       "model": "M3 '89",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3453",
@@ -34391,7 +34391,7 @@ window.RDA_DATA = {
       "carId": 406,
       "model": "3.0 CSL '71",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3454",
@@ -34415,7 +34415,7 @@ window.RDA_DATA = {
       "carId": 407,
       "model": "Swift Sport '17",
       "brand": "Suzuki",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3456",
@@ -34463,7 +34463,7 @@ window.RDA_DATA = {
       "carId": 409,
       "model": "Mercedes-AMG C 63 S '15",
       "brand": "AMG",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "car_images/car_409.webp",
       "gt7": {
         "id": "car3458",
@@ -34487,7 +34487,7 @@ window.RDA_DATA = {
       "carId": 410,
       "model": "Civic Type R Limited Edition (FK8) '20",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3467",
@@ -34511,7 +34511,7 @@ window.RDA_DATA = {
       "carId": 411,
       "model": "F8 Tributo '19",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3469",
@@ -34535,7 +34535,7 @@ window.RDA_DATA = {
       "carId": 412,
       "model": "Celica GT-Four (ST205) '94",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3471",
@@ -34655,7 +34655,7 @@ window.RDA_DATA = {
       "carId": 417,
       "model": "GR86 RZ '21",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3481",
@@ -34679,7 +34679,7 @@ window.RDA_DATA = {
       "carId": 418,
       "model": "Mercedes-AMG GT Black Series '20",
       "brand": "AMG",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3485",
@@ -34703,7 +34703,7 @@ window.RDA_DATA = {
       "carId": 419,
       "model": "Mustang Boss 429 '69",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3487",
@@ -34727,7 +34727,7 @@ window.RDA_DATA = {
       "carId": 420,
       "model": "RX-VISION '15",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3495",
@@ -34751,7 +34751,7 @@ window.RDA_DATA = {
       "carId": 421,
       "model": "G70 3.3T AWD Prestige Package '22",
       "brand": "Genesis",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3500",
@@ -34799,7 +34799,7 @@ window.RDA_DATA = {
       "carId": 423,
       "model": "Genesis X GR3",
       "brand": "Genesis",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car3502",
@@ -34847,7 +34847,7 @@ window.RDA_DATA = {
       "carId": 425,
       "model": "Z Performance '23",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3504",
@@ -34871,7 +34871,7 @@ window.RDA_DATA = {
       "carId": 426,
       "model": "Cappuccino (EA11R) '91",
       "brand": "Suzuki",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car779",
@@ -34919,7 +34919,7 @@ window.RDA_DATA = {
       "carId": 428,
       "model": "BRZ S '21",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3506",
@@ -34943,7 +34943,7 @@ window.RDA_DATA = {
       "carId": 429,
       "model": "Roadster Shop Rampage",
       "brand": "Roadster Shop",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3426",
@@ -34991,7 +34991,7 @@ window.RDA_DATA = {
       "carId": 431,
       "model": "GR010 HYBRID '21",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3499",
@@ -35039,31 +35039,31 @@ window.RDA_DATA = {
       "carId": 433,
       "model": "1932 Ford Roadster Hot Rod",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
-        "id": null,
-        "url": null,
-        "brand": null,
-        "model": null,
-        "category": null,
-        "pp": null,
-        "displacement": null,
-        "drivetrain": null,
-        "max_power": null,
-        "max_torque": null,
-        "weight": null,
-        "aspiration": null,
-        "length": null,
-        "width": null,
-        "height": null
+        "id": "car3444",
+        "url": "https://www.gran-turismo.com/it/gt7/carlist/id/car3444",
+        "brand": "Ford",
+        "model": "Ford Roadster",
+        "category": "Gr.N",
+        "pp": "PP 403.86",
+        "displacement": "5.424 cc",
+        "drivetrain": "FR",
+        "max_power": "182 CV / 3.800 G/min",
+        "max_torque": "417,6 Nm / 3.000 G/min",
+        "weight": "1.115 kg",
+        "aspiration": "AN",
+        "length": "3.734 mm",
+        "width": "1.664 mm",
+        "height": "1.422 mm"
       }
     },
     {
       "carId": 434,
       "model": "V6 Escudo Pikes Peak Special spec.98",
       "brand": "Suzuki",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car808",
@@ -35087,7 +35087,7 @@ window.RDA_DATA = {
       "carId": 435,
       "model": "918 Spyder '13",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3459",
@@ -35111,7 +35111,7 @@ window.RDA_DATA = {
       "carId": 436,
       "model": "A6GCS/53 Spyder '54",
       "brand": "Maserati",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3489",
@@ -35135,7 +35135,7 @@ window.RDA_DATA = {
       "carId": 437,
       "model": "Skyline Super Silhouette Group 5 '84",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.3",
       "car_image": "",
       "gt7": {
         "id": "car3493",
@@ -35159,7 +35159,7 @@ window.RDA_DATA = {
       "carId": 438,
       "model": "Cayman GT4 '16",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3488",
@@ -35207,7 +35207,7 @@ window.RDA_DATA = {
       "carId": 440,
       "model": "MP4/4 '88",
       "brand": "McLaren",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3475",
@@ -35231,7 +35231,7 @@ window.RDA_DATA = {
       "carId": 441,
       "model": "GTO 'The Judge' '69",
       "brand": "Pontiac",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3462",
@@ -35279,7 +35279,7 @@ window.RDA_DATA = {
       "carId": 443,
       "model": "ID.R '19",
       "brand": "Volkswagen",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3511",
@@ -35303,7 +35303,7 @@ window.RDA_DATA = {
       "carId": 444,
       "model": "Silvia K's Type S (S14) '94",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3513",
@@ -35327,7 +35327,7 @@ window.RDA_DATA = {
       "carId": 445,
       "model": "Skyline 2000GT-R (KPGC110) '73",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car836",
@@ -35351,7 +35351,7 @@ window.RDA_DATA = {
       "carId": 446,
       "model": "Merak SS '80",
       "brand": "Maserati",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3421",
@@ -35399,7 +35399,7 @@ window.RDA_DATA = {
       "carId": 448,
       "model": "Roadster NR-A (ND) '22",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3512",
@@ -35423,7 +35423,7 @@ window.RDA_DATA = {
       "carId": 449,
       "model": "Sierra RS 500 Cosworth '87",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "car_images/car_449.webp",
       "gt7": {
         "id": "car3466",
@@ -35447,7 +35447,7 @@ window.RDA_DATA = {
       "carId": 450,
       "model": "M2 Competition '18",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3483",
@@ -35471,7 +35471,7 @@ window.RDA_DATA = {
       "carId": 451,
       "model": "Silvia K's Aero (S14) '96",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car78",
@@ -35519,7 +35519,7 @@ window.RDA_DATA = {
       "carId": 453,
       "model": "Giulia GTAm '20",
       "brand": "Alfa Romeo",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3411",
@@ -35543,7 +35543,7 @@ window.RDA_DATA = {
       "carId": 454,
       "model": "Chiron '16",
       "brand": "Bugatti",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3473",
@@ -35591,7 +35591,7 @@ window.RDA_DATA = {
       "carId": 456,
       "model": "Corvette C8 Stingray '20",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3518",
@@ -35687,7 +35687,7 @@ window.RDA_DATA = {
       "carId": 460,
       "model": "911 Carrera RS (901) '73",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3509",
@@ -35711,7 +35711,7 @@ window.RDA_DATA = {
       "carId": 461,
       "model": "DS 21 Pallas '70",
       "brand": "Citroen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3514",
@@ -35735,7 +35735,7 @@ window.RDA_DATA = {
       "carId": 462,
       "model": "RA272 '65",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3525",
@@ -35759,7 +35759,7 @@ window.RDA_DATA = {
       "carId": 463,
       "model": "Carrera GTS (904) '64",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3490",
@@ -35783,7 +35783,7 @@ window.RDA_DATA = {
       "carId": 464,
       "model": "959 '87",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3519",
@@ -35807,7 +35807,7 @@ window.RDA_DATA = {
       "carId": 465,
       "model": "Alphard Executive Lounge '18",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3494",
@@ -35831,7 +35831,7 @@ window.RDA_DATA = {
       "carId": 466,
       "model": "Mazda3 '19",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3521",
@@ -35855,7 +35855,7 @@ window.RDA_DATA = {
       "carId": 467,
       "model": "RS 5 Turbo DTM '19",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.2",
       "car_image": "",
       "gt7": {
         "id": "car3523",
@@ -35879,7 +35879,7 @@ window.RDA_DATA = {
       "carId": 468,
       "model": "XJ220 '92",
       "brand": "Jaguar",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car543",
@@ -35999,7 +35999,7 @@ window.RDA_DATA = {
       "carId": 473,
       "model": "Maverick",
       "brand": "Greening Auto Company",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3522",
@@ -36023,7 +36023,7 @@ window.RDA_DATA = {
       "carId": 474,
       "model": "GT-R NISMO (R32) '90",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3524",
@@ -36047,7 +36047,7 @@ window.RDA_DATA = {
       "carId": 475,
       "model": "Giulia Sprint GT Veloce '67",
       "brand": "Alfa Romeo",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3530",
@@ -36071,7 +36071,7 @@ window.RDA_DATA = {
       "carId": 476,
       "model": "Lancer Evolution III GSR '95",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car931",
@@ -36095,7 +36095,7 @@ window.RDA_DATA = {
       "carId": 477,
       "model": "Impreza Sedan WRX STi '04",
       "brand": "Subaru",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3432",
@@ -36119,7 +36119,7 @@ window.RDA_DATA = {
       "carId": 478,
       "model": "Valkyrie '21",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3532",
@@ -36143,7 +36143,7 @@ window.RDA_DATA = {
       "carId": 479,
       "model": "Corvette (C1) '58",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3464",
@@ -36167,7 +36167,7 @@ window.RDA_DATA = {
       "carId": 480,
       "model": "MC20 '20",
       "brand": "Maserati",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3533",
@@ -36191,7 +36191,7 @@ window.RDA_DATA = {
       "carId": 481,
       "model": "Ambulance Himedic '21",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3534",
@@ -36215,7 +36215,7 @@ window.RDA_DATA = {
       "carId": 482,
       "model": "GR Corolla MORIZO Edition '22",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3535",
@@ -36239,7 +36239,7 @@ window.RDA_DATA = {
       "carId": 483,
       "model": "Civic",
       "brand": "Garage RCR",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3526",
@@ -36263,7 +36263,7 @@ window.RDA_DATA = {
       "carId": 484,
       "model": "Civic Type R (FL5) '22",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3536",
@@ -36311,7 +36311,7 @@ window.RDA_DATA = {
       "carId": 486,
       "model": "LFA '10",
       "brand": "Lexus",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1562",
@@ -36335,7 +36335,7 @@ window.RDA_DATA = {
       "carId": 487,
       "model": "Challenger SRT Demon '18",
       "brand": "Dodge",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3486",
@@ -36359,7 +36359,7 @@ window.RDA_DATA = {
       "carId": 488,
       "model": "400R '95",
       "brand": "NISMO",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3520",
@@ -36383,7 +36383,7 @@ window.RDA_DATA = {
       "carId": 489,
       "model": "190 E 2.5-16 Evolution II '91",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "car_images/car_489.webp",
       "gt7": {
         "id": "car575",
@@ -36407,7 +36407,7 @@ window.RDA_DATA = {
       "carId": 490,
       "model": "Charger R/T 426 Hemi '68",
       "brand": "Dodge",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3538",
@@ -36455,7 +36455,7 @@ window.RDA_DATA = {
       "carId": 492,
       "model": "Model 3 Performance '23",
       "brand": "Tesla",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3540",
@@ -36527,7 +36527,7 @@ window.RDA_DATA = {
       "carId": 495,
       "model": "Jimny XC '18",
       "brand": "Suzuki",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3545",
@@ -36551,7 +36551,7 @@ window.RDA_DATA = {
       "carId": 496,
       "model": "TTS Coupe '09",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1541",
@@ -36575,7 +36575,7 @@ window.RDA_DATA = {
       "carId": 497,
       "model": "Lancer Evolution IX MR GSR '06",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3424",
@@ -36599,7 +36599,7 @@ window.RDA_DATA = {
       "carId": 498,
       "model": "R4 GTL '85",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3547",
@@ -36623,7 +36623,7 @@ window.RDA_DATA = {
       "carId": 499,
       "model": "GT-One (TS020) '99",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.2",
       "car_image": "",
       "gt7": {
         "id": "car116",
@@ -36647,7 +36647,7 @@ window.RDA_DATA = {
       "carId": 500,
       "model": "R8 Coupé V10 plus '16",
       "brand": "Audi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3412",
@@ -36671,7 +36671,7 @@ window.RDA_DATA = {
       "carId": 501,
       "model": "Urus '18",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3548",
@@ -36695,7 +36695,7 @@ window.RDA_DATA = {
       "carId": 502,
       "model": "Chevelle SS 454 Sport Coupé '70",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car36",
@@ -36743,7 +36743,7 @@ window.RDA_DATA = {
       "carId": 504,
       "model": "AFEELA Prototype 2024",
       "brand": "AFEELA",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "car_images/car_504.webp",
       "gt7": {
         "id": "car3546",
@@ -36767,7 +36767,7 @@ window.RDA_DATA = {
       "carId": 505,
       "model": "Civic SiR-II (EG) '93",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car37",
@@ -36815,7 +36815,7 @@ window.RDA_DATA = {
       "carId": 507,
       "model": "Skyline GTS-R (R31) '87",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car102",
@@ -36839,7 +36839,7 @@ window.RDA_DATA = {
       "carId": 508,
       "model": "V40 T5 R-Design '13",
       "brand": "Volvo",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3482",
@@ -36863,7 +36863,7 @@ window.RDA_DATA = {
       "carId": 509,
       "model": "240 SE Estate '93",
       "brand": "Volvo",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3549",
@@ -36887,7 +36887,7 @@ window.RDA_DATA = {
       "carId": 510,
       "model": "M3 '97",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3551",
@@ -36911,7 +36911,7 @@ window.RDA_DATA = {
       "carId": 511,
       "model": "430 Scuderia '07",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1544",
@@ -36959,7 +36959,7 @@ window.RDA_DATA = {
       "carId": 513,
       "model": "Gallardo LP 560-4 '08",
       "brand": "Lamborghini",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1506",
@@ -36983,7 +36983,7 @@ window.RDA_DATA = {
       "carId": 514,
       "model": "RGT 4.2 '16",
       "brand": "RUF",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3468",
@@ -37031,7 +37031,7 @@ window.RDA_DATA = {
       "carId": 516,
       "model": "Lancer Evolution VIII MR GSR '04",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car799",
@@ -37055,7 +37055,7 @@ window.RDA_DATA = {
       "carId": 517,
       "model": "GT-R Premium edition T-spec '24",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3553",
@@ -37079,7 +37079,7 @@ window.RDA_DATA = {
       "carId": 518,
       "model": "Hiace Van DX '16",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3554",
@@ -37103,7 +37103,7 @@ window.RDA_DATA = {
       "carId": 519,
       "model": "Escort RS Cosworth '92",
       "brand": "Ford",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3555",
@@ -37127,7 +37127,7 @@ window.RDA_DATA = {
       "carId": 520,
       "model": "W 196 R '55",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3557",
@@ -37151,7 +37151,7 @@ window.RDA_DATA = {
       "carId": 521,
       "model": "911 Turbo S (992) '20",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3558",
@@ -37175,7 +37175,7 @@ window.RDA_DATA = {
       "carId": 522,
       "model": "Jimny Sierra JC '18",
       "brand": "Suzuki",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3559",
@@ -37199,7 +37199,7 @@ window.RDA_DATA = {
       "carId": 523,
       "model": "Mission X '23",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3560",
@@ -37223,7 +37223,7 @@ window.RDA_DATA = {
       "carId": 524,
       "model": "IONIQ 5 N '24",
       "brand": "Hyundai",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3561",
@@ -37247,7 +37247,7 @@ window.RDA_DATA = {
       "carId": 525,
       "model": "F3500-A",
       "brand": "Gran Turismo",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3562",
@@ -37271,7 +37271,7 @@ window.RDA_DATA = {
       "carId": 526,
       "model": "Civic Si Extra (EF) '87",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3563",
@@ -37295,7 +37295,7 @@ window.RDA_DATA = {
       "carId": 527,
       "model": "C-HR S '18",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3565",
@@ -37319,7 +37319,7 @@ window.RDA_DATA = {
       "carId": 528,
       "model": "Z4 3.0i '03",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car655",
@@ -37343,7 +37343,7 @@ window.RDA_DATA = {
       "carId": 529,
       "model": "205 GTI '88",
       "brand": "Peugeot",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3564",
@@ -37367,7 +37367,7 @@ window.RDA_DATA = {
       "carId": 530,
       "model": "Unimog Type 411 '62",
       "brand": "Mercedes-Benz",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3556",
@@ -37391,7 +37391,7 @@ window.RDA_DATA = {
       "carId": 531,
       "model": "Vantage '18",
       "brand": "Aston Martin",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3447",
@@ -37415,7 +37415,7 @@ window.RDA_DATA = {
       "carId": 532,
       "model": "CX-30 X Smart Edition '21",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3566",
@@ -37439,7 +37439,7 @@ window.RDA_DATA = {
       "carId": 533,
       "model": "Kangoo 1.4 '01",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3567",
@@ -37463,7 +37463,7 @@ window.RDA_DATA = {
       "carId": 534,
       "model": "812 Superfast '17",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3470",
@@ -37487,7 +37487,7 @@ window.RDA_DATA = {
       "carId": 535,
       "model": "Corvette Z06 (C5) '01",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3570",
@@ -37511,7 +37511,7 @@ window.RDA_DATA = {
       "carId": 536,
       "model": "Carry KC '12",
       "brand": "Suzuki",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3571",
@@ -37535,7 +37535,7 @@ window.RDA_DATA = {
       "carId": 537,
       "model": "CR-V e:HEV EX Black Edition '21",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3572",
@@ -37583,7 +37583,7 @@ window.RDA_DATA = {
       "carId": 539,
       "model": "BX 19 TRS '87",
       "brand": "Citroen",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3573",
@@ -37607,7 +37607,7 @@ window.RDA_DATA = {
       "carId": 540,
       "model": "SUV 2008 Allure '21",
       "brand": "Peugeot",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3574",
@@ -37631,7 +37631,7 @@ window.RDA_DATA = {
       "carId": 541,
       "model": "Qashqai Tekna 190 2wd e-Power '22",
       "brand": "Nissan",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3568",
@@ -37655,7 +37655,7 @@ window.RDA_DATA = {
       "carId": 542,
       "model": "R34 GT-R Z-tune '05",
       "brand": "NISMO",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3569",
@@ -37679,7 +37679,7 @@ window.RDA_DATA = {
       "carId": 543,
       "model": "N-ONE RS '22",
       "brand": "Honda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3576",
@@ -37703,7 +37703,7 @@ window.RDA_DATA = {
       "carId": 544,
       "model": "AFEELA 1 '26",
       "brand": "AFEELA",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "car_images/car_544.webp",
       "gt7": {
         "id": "car3579",
@@ -37727,7 +37727,7 @@ window.RDA_DATA = {
       "carId": 545,
       "model": "Corvette CX Concept '25",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3581",
@@ -37775,7 +37775,7 @@ window.RDA_DATA = {
       "carId": 547,
       "model": "Avantime 3.0 V6 24V '02",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car729",
@@ -37823,7 +37823,7 @@ window.RDA_DATA = {
       "carId": 549,
       "model": "MAZDA SPIRIT RACING ROADSTER 12R '25",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3578",
@@ -37847,7 +37847,7 @@ window.RDA_DATA = {
       "carId": 550,
       "model": "RAV4 Adventure '20",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3583",
@@ -37871,7 +37871,7 @@ window.RDA_DATA = {
       "carId": 551,
       "model": "Land Cruiser FJ40V '74",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3584",
@@ -37895,7 +37895,7 @@ window.RDA_DATA = {
       "carId": 552,
       "model": "ELANTRA N '23",
       "brand": "Hyundai",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3585",
@@ -37919,7 +37919,7 @@ window.RDA_DATA = {
       "carId": 553,
       "model": "FTO GP Version R '97",
       "brand": "Mitsubishi",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car51",
@@ -37943,7 +37943,7 @@ window.RDA_DATA = {
       "carId": 554,
       "model": "BNR34 GT-R N1 base",
       "brand": "Mine's",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car1427",
@@ -37967,7 +37967,7 @@ window.RDA_DATA = {
       "carId": 555,
       "model": "Panda 30 CL '85",
       "brand": "Fiat",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3575",
@@ -37991,7 +37991,7 @@ window.RDA_DATA = {
       "carId": 556,
       "model": "Polestar 5 Performance",
       "brand": "Polestar",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3586",
@@ -38015,7 +38015,7 @@ window.RDA_DATA = {
       "carId": 557,
       "model": "296 GTB '22",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3587",
@@ -38063,7 +38063,7 @@ window.RDA_DATA = {
       "carId": 559,
       "model": "F3500-B",
       "brand": "Gran Turismo",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3589",
@@ -38087,7 +38087,7 @@ window.RDA_DATA = {
       "carId": 560,
       "model": "Espace F1 '95",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3591",
@@ -38255,7 +38255,7 @@ window.RDA_DATA = {
       "carId": 567,
       "model": "ELANTRA N TC '24",
       "brand": "Hyundai",
-      "category": "",
+      "category": "Gr.4",
       "car_image": "",
       "gt7": {
         "id": "car3590",
@@ -38279,7 +38279,7 @@ window.RDA_DATA = {
       "carId": 568,
       "model": "SU7 Ultra '25",
       "brand": "Xiaomi",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3599",
@@ -38327,7 +38327,7 @@ window.RDA_DATA = {
       "carId": 570,
       "model": "Camaro 1969 Race-Mod",
       "brand": "Chevrolet",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3592",
@@ -38351,7 +38351,7 @@ window.RDA_DATA = {
       "carId": 571,
       "model": "Captur S Edition TCe 140 '21",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3601",
@@ -38375,7 +38375,7 @@ window.RDA_DATA = {
       "carId": 572,
       "model": "efini RX-7 Type R (FD) '91",
       "brand": "Mazda",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car967",
@@ -38399,7 +38399,7 @@ window.RDA_DATA = {
       "carId": 573,
       "model": "911 Turbo S Leichtbau (964) '93",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3440",
@@ -38423,7 +38423,7 @@ window.RDA_DATA = {
       "carId": 574,
       "model": "U9 '24",
       "brand": "Yangwang",
-      "category": "",
+      "category": "Gr.X",
       "car_image": "",
       "gt7": {
         "id": "car3602",
@@ -38447,7 +38447,7 @@ window.RDA_DATA = {
       "carId": 575,
       "model": "Twingo '93",
       "brand": "Renault",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3603",
@@ -38471,7 +38471,7 @@ window.RDA_DATA = {
       "carId": 576,
       "model": "M Hybrid V8 '25",
       "brand": "BMW",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3604",
@@ -38495,7 +38495,7 @@ window.RDA_DATA = {
       "carId": 577,
       "model": "499P '23",
       "brand": "Ferrari",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3605",
@@ -38519,7 +38519,7 @@ window.RDA_DATA = {
       "carId": 578,
       "model": "9X8 '25",
       "brand": "Peugeot",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3606",
@@ -38543,7 +38543,7 @@ window.RDA_DATA = {
       "carId": 579,
       "model": "963 '24",
       "brand": "Porsche",
-      "category": "",
+      "category": "Gr.1",
       "car_image": "",
       "gt7": {
         "id": "car3607",
@@ -38591,7 +38591,7 @@ window.RDA_DATA = {
       "carId": 581,
       "model": "Seven Superlight R500 '08",
       "brand": "Caterham",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3395",
@@ -38615,7 +38615,7 @@ window.RDA_DATA = {
       "carId": 582,
       "model": "IONIQ 6N '25",
       "brand": "Hyundai",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3610",
@@ -38639,7 +38639,7 @@ window.RDA_DATA = {
       "carId": 583,
       "model": "Mark II Tourer V '97",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3611",
@@ -38663,7 +38663,7 @@ window.RDA_DATA = {
       "carId": 584,
       "model": "Chaser Tourer V '97",
       "brand": "Toyota",
-      "category": "",
+      "category": "Gr.N",
       "car_image": "",
       "gt7": {
         "id": "car3612",
@@ -38681,6 +38681,150 @@ window.RDA_DATA = {
         "length": "185.6 in.",
         "width": "69.1 in.",
         "height": "55.1 in."
+      }
+    },
+    {
+      "carId": 585,
+      "model": "Civic Si Group A version '87",
+      "brand": "Honda",
+      "category": "Gr.X",
+      "car_image": "",
+      "gt7": {
+        "id": "car683",
+        "url": "https://www.gran-turismo.com/it/gt7/carlist/id/car683",
+        "brand": "Honda",
+        "model": "Civic Si Group A version '87",
+        "category": "Gr.X",
+        "pp": "PP 593.52",
+        "displacement": "1.595 cc",
+        "drivetrain": "FF",
+        "max_power": "225 CV / 8.500 G/min",
+        "max_torque": "196,0 Nm / 6.000 G/min",
+        "weight": "890 kg",
+        "aspiration": "AN",
+        "length": "3.810 mm",
+        "width": "1.630 mm",
+        "height": "1.310 mm"
+      }
+    },
+    {
+      "carId": 586,
+      "model": "RX-VISION GT3 EVO '26",
+      "brand": "Mazda",
+      "category": "Gr.3",
+      "car_image": "",
+      "gt7": {
+        "id": "car3609",
+        "url": "https://www.gran-turismo.com/it/gt7/carlist/id/car3609",
+        "brand": "Mazda",
+        "model": "RX-VISION GT3 EVO '26",
+        "category": "Gr.3",
+        "pp": "PP 723.08",
+        "displacement": "- cc",
+        "drivetrain": "FR",
+        "max_power": "570 CV / 8.900 G/min",
+        "max_torque": "539,0 Nm / 6.500 G/min",
+        "weight": "1.250 kg",
+        "aspiration": "AN",
+        "length": "4.590 mm",
+        "width": "2.075 mm",
+        "height": "1.120 mm"
+      }
+    },
+    {
+      "carId": 587,
+      "model": "2 CV 6 Charleston '86",
+      "brand": "Citroen",
+      "category": "Gr.N",
+      "car_image": "",
+      "gt7": {
+        "id": "car3653",
+        "url": "https://www.gran-turismo.com/it/gt7/carlist/id/car3653",
+        "brand": "Citroën",
+        "model": "2 CV 6 Charleston '86",
+        "category": "Gr.N",
+        "pp": "PP 160.52",
+        "displacement": "602 cc",
+        "drivetrain": "FF",
+        "max_power": "29 CV / 5.700 G/min",
+        "max_torque": "39,2 Nm / 3.500 G/min",
+        "weight": "585 kg",
+        "aspiration": "AN",
+        "length": "3.830 mm",
+        "width": "1.480 mm",
+        "height": "1.600 mm"
+      }
+    },
+    {
+      "carId": 588,
+      "model": "F355 Berlinetta '94",
+      "brand": "Ferrari",
+      "category": "Gr.N",
+      "car_image": "",
+      "gt7": {
+        "id": "car3654",
+        "url": "https://www.gran-turismo.com/it/gt7/carlist/id/car3654",
+        "brand": "Ferrari",
+        "model": "F355 Berlinetta '94",
+        "category": "Gr.N",
+        "pp": "PP 525.93",
+        "displacement": "3.495 cc",
+        "drivetrain": "MR",
+        "max_power": "380 CV / 8.200 G/min",
+        "max_torque": "362,6 Nm / 6.000 G/min",
+        "weight": "1.350 kg",
+        "aspiration": "AN",
+        "length": "4.250 mm",
+        "width": "1.900 mm",
+        "height": "1.170 mm"
+      }
+    },
+    {
+      "carId": 589,
+      "model": "Step WGN Spada Premium Line '23",
+      "brand": "Honda",
+      "category": "Gr.N",
+      "car_image": "",
+      "gt7": {
+        "id": "car3655",
+        "url": "https://www.gran-turismo.com/it/gt7/carlist/id/car3655",
+        "brand": "Honda",
+        "model": "Step WGN Spada Premium Line '23",
+        "category": "Gr.N",
+        "pp": "PP 305.81",
+        "displacement": "1.496 cc",
+        "drivetrain": "4WD",
+        "max_power": "150 CV / 5.500 G/min",
+        "max_torque": "203,3 Nm / 3.300 G/min",
+        "weight": "1.810 kg",
+        "aspiration": "TC",
+        "length": "4.830 mm",
+        "width": "1.750 mm",
+        "height": "1.855 mm"
+      }
+    },
+    {
+      "carId": 590,
+      "model": "Xiaomi VGT",
+      "brand": "Xiaomi",
+      "category": "VGT",
+      "car_image": "",
+      "gt7": {
+        "id": "car3656",
+        "url": "https://www.gran-turismo.com/it/gt7/carlist/id/car3656",
+        "brand": "Xiaomi",
+        "model": "Xiaomi VGT",
+        "category": "Gr.X",
+        "pp": "PP 801.61",
+        "displacement": "- cc",
+        "drivetrain": "4WD",
+        "max_power": "2.039 CV / - G/min",
+        "max_torque": "- Nm / - G/min",
+        "weight": "1.969 kg",
+        "aspiration": "VE",
+        "length": "4.734 mm",
+        "width": "2.077 mm",
+        "height": "1.071 mm"
       }
     }
   ],
