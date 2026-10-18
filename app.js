@@ -729,7 +729,7 @@ function renderRdaNews(){
  const draw=()=>{list.replaceChildren();const query=search.value.toLocaleLowerCase();const values=arr('rdaNews').filter(v=>[v.title,v.body,v.driver,v.championship,v.track,v.kind].join(' ').toLocaleLowerCase().includes(query));
  if(!values.length){list.append(make('p',query?'Nessun comunicato corrispondente.':'Nessun comunicato pubblicato.'));return;}
  for(const v of values){if(v.kind==='Penalità'){const penalty=buildRdaPenalty(v,make);if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const photo=make('img');photo.src=v.image;photo.alt='Allegato al comunicato';penalty.append(photo);}list.append(penalty);continue;}const card=make('article',undefined,'panel rda-news-card');card.append(make('div',[v.kind,v.date&&String(v.date).split('-').reverse().join('/')].filter(Boolean).join(' · '),'eyebrow'));if(v.title)card.append(make('h3',v.title));
- const meta=[v.driver&&'Pilota: '+v.driver,v.championship&&'Campionato: '+v.championship,v.track&&'Circuito: '+v.track,v.penalty&&'Penalità: '+v.penalty,v.license_points&&'Punti patente tolti: '+v.license_points].filter(Boolean);
+ const meta=[v.driver&&'Pilota: '+v.driver,v.championship&&'Campionato: '+v.championship,v.track&&'Circuito: '+v.track,v.race_round&&'Gara / round: '+v.race_round,v.incident_lap&&'Giro dell’episodio: '+v.incident_lap,v.penalty&&'Penalità: '+v.penalty,v.license_points&&'Punti patente tolti: '+v.license_points].filter(Boolean);
  for(const text of meta)card.append(make('p',text,'rda-news-meta'));
  if(v.body)card.append(make('p',v.body,'rda-news-body'));
  if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const image=make('img');image.src=v.image;image.alt=v.title?'Locandina: '+v.title:'Foto / locandina del comunicato';image.loading='lazy';image.onerror=()=>image.remove();card.append(image);const zoom=make('button','Ingrandisci locandina','rda-news-image-zoom');zoom.type='button';zoom.onclick=()=>openRdaNewsImage(image,zoom,make);card.append(zoom);}
@@ -740,7 +740,7 @@ function buildRdaPaper(v,make){
  const paper=make('div',undefined,'rda-paper');const brand=make('div',undefined,'rda-paper-brand');const logo=make('img');logo.src='assets/news-template/rda-logo-original.jpg';logo.alt='Logo originale RDA';brand.append(logo);paper.append(brand);
  if(v.title){const band=make('div',undefined,'rda-paper-title');band.append(make('h3',v.title));paper.append(band);}
  const content=make('div',undefined,'rda-paper-content');const meta=make('div',undefined,'rda-paper-meta');
- const pairs=[['Data',String(v.date||'').split('-').reverse().join('/')],['Pilota',v.driver],['Campionato',v.championship],['Circuito',v.track],['Penalità',v.penalty],['Punti patente tolti',v.license_points]];
+ const pairs=[['Data',String(v.date||'').split('-').reverse().join('/')],['Pilota',v.driver],['Campionato',v.championship],['Circuito',v.track],['Gara / round',v.race_round],['Giro dell’episodio',v.incident_lap],['Penalità',v.penalty],['Punti patente tolti',v.license_points]];
  pairs.forEach(([label,value])=>{if(value)meta.append(make('span',label+': '+value));});if(meta.children.length)content.append(meta);
  if(v.body)content.append(make('p',v.body,'rda-paper-body'));
  const choice=v.signature_choice||'Nessuna';if(['Firma RDA','Timbro RDA','Firma e timbro RDA'].includes(choice)){
