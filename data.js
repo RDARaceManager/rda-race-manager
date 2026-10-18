@@ -87051,12 +87051,12 @@ window.RDA_DATA = {
       "track": "Red Bull Ring",
       "penalty": "0",
       "license_points": "0",
-      "body": "Comunicato n. 01/2026 | Data: 18/10/2026\n\nOggetto: Esito investigazione - DTM 2026 - Gara 5 / Circuito: Red Bull\n\nA seguito della segnalazione relativa all’episodio tra NICOLACCI1966 e Gallo_OPC_2, avvenuto al giro 7, lo staff RDA ha esaminato il materiale disponibile e valutato la dinamica dell’accaduto.\n\nDopo un’attenta analisi, lo staff ritiene che l’episodio sia da classificare come contatto di gara, non rilevando elementi sufficienti per attribuire una responsabilità sanzionabile a uno dei piloti coinvolti.\n\nNon vengono pertanto applicate penalità per l’episodio esaminato. Il procedimento è concluso.\n\nRicordiamo a tutti i piloti l’importanza di mantenere una condotta corretta e rispettosa, prestando particolare attenzione allo spazio lasciato agli avversari nelle fasi di lotta.\n\nRingraziamo i piloti coinvolti per la collaborazione e invitiamo tutti a proseguire il campionato con spirito sportivo e rispetto reciproco.\n\nLo Staff RDA",
+      "body": "A seguito della segnalazione relativa all’episodio tra NICOLACCI1966 e Gallo_OPC_2, avvenuto al giro 7, lo staff RDA ha esaminato il materiale disponibile e valutato la dinamica dell’accaduto.\n\nDopo un’attenta analisi, lo staff ritiene che l’episodio sia da classificare come contatto di gara, non rilevando elementi sufficienti per attribuire una responsabilità sanzionabile a uno dei piloti coinvolti.\n\nNon vengono pertanto applicate penalità per l’episodio esaminato. Il procedimento è concluso.\n\nRicordiamo a tutti i piloti l’importanza di mantenere una condotta corretta e rispettosa, prestando particolare attenzione allo spazio lasciato agli avversari nelle fasi di lotta.\n\nRingraziamo i piloti coinvolti per la collaborazione e invitiamo tutti a proseguire il campionato con spirito sportivo e rispetto reciproco.\n\nLo Staff RDA",
       "image": "",
       "published": true,
       "signature_choice": "Firma e timbro RDA",
       "id": "d37db8b4b0fe48cf85c4e9631532e95a",
-      "updated_at": "2026-10-18T09:01:19.203121+00:00"
+      "updated_at": "2026-10-18T09:09:15.922304+00:00"
     },
     {
       "title": "Provvedimento disciplinare — Contatto tra piloti",
@@ -87067,12 +87067,12 @@ window.RDA_DATA = {
       "track": "Le Mans",
       "penalty": "10 Sec",
       "license_points": "0",
-      "body": "Campionato: PORSCHE 911 CUP\nGara / round: 5\nCircuito: LE MANS \nGiro dell’episodio: 1\n\nLa Direzione Gara comunica che al pilota Luglio88 viene inflitta una penalità di 10 Sec secondi, a seguito di un contatto ai danni del pilota Brown1.\n\nDopo aver valutato l’episodio, la Direzione Gara ha ritenuto il contatto meritevole di sanzione, in quanto contrario ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n- 10 Sec secondi di penalità.\n- 0 punti patente decurtati.\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,\nLa Direzione Gara RDA",
+      "body": "Gara / round: 5\nGiro dell’episodio: 1\n\nLa Direzione Gara comunica che al pilota Luglio88 viene inflitta una penalità di 10 Sec secondi, a seguito di un contatto ai danni del pilota Brown1.\n\nDopo aver valutato l’episodio, la Direzione Gara ha ritenuto il contatto meritevole di sanzione, in quanto contrario ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n- 10 Sec secondi di penalità.\n- 0 punti patente decurtati.\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,\nLa Direzione Gara RDA",
       "image": "",
       "published": true,
       "signature_choice": "Firma e timbro RDA",
       "id": "b7ae18950ca444b9b4095964bf823356",
-      "updated_at": "2026-10-18T09:03:04.113231+00:00"
+      "updated_at": "2026-10-18T09:10:17.665187+00:00"
     },
     {
       "title": "Esito autosegnalazione — Penalità in secondi",
