@@ -6137,7 +6137,11 @@ window.RDA_DATA = {
           "podiums": 0
         }
       ],
-      "regulation": null
+      "regulation": {
+        "championshipId": 9,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
+      }
     },
     {
       "id": 7,
@@ -29475,7 +29479,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Blue Moon Bay Speedway - Infield A",
-      "regulation": null
+      "regulation": {
+        "championshipId": 9,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
+      }
     },
     {
       "eventId": "future-6-2026-10-19-13",
@@ -29571,7 +29579,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Suzuka",
-      "regulation": null
+      "regulation": {
+        "championshipId": 9,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
+      }
     },
     {
       "eventId": "future-9-2026-10-25-28",
@@ -29587,7 +29599,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Circuit Gilles-Villeneuve",
-      "regulation": null
+      "regulation": {
+        "championshipId": 9,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
+      }
     },
     {
       "eventId": "future-6-2026-10-29-15",
@@ -29683,7 +29699,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Kyoto Driving Park - Yamagiwa",
-      "regulation": null
+      "regulation": {
+        "championshipId": 9,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
+      }
     },
     {
       "eventId": "future-9-2026-11-01-Finale",
@@ -29699,7 +29719,11 @@ window.RDA_DATA = {
       "round": "Finale",
       "gara": 0,
       "track": "Sardegna - Road Track - B",
-      "regulation": null
+      "regulation": {
+        "championshipId": 9,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
+      }
     }
   ],
   "podiumsByChampionship": [
@@ -29719,7 +29743,7 @@ window.RDA_DATA = {
           "car": "GT by Citroen Gr.4",
           "carId": 269,
           "time": "38:09.175",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         },
         {
           "pos": 2,
@@ -29727,7 +29751,7 @@ window.RDA_DATA = {
           "car": "GT by Citroen Gr.4",
           "carId": 269,
           "time": "38:09.326",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         },
         {
           "pos": 3,
@@ -29735,7 +29759,7 @@ window.RDA_DATA = {
           "car": "GT by Citroen Gr.4",
           "carId": 269,
           "time": "38:11.224",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30284,7 +30308,7 @@ window.RDA_DATA = {
           "name": "MaxMossa",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30399,7 +30423,7 @@ window.RDA_DATA = {
           "name": "Cinciripini79",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30422,7 +30446,7 @@ window.RDA_DATA = {
           "name": "SpeedSparco",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30537,7 +30561,7 @@ window.RDA_DATA = {
           "name": "Spano19",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30560,7 +30584,7 @@ window.RDA_DATA = {
           "name": "Spano19",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30606,7 +30630,7 @@ window.RDA_DATA = {
           "name": "forte984riso",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30629,7 +30653,7 @@ window.RDA_DATA = {
           "name": "NICOLACI1966",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30652,7 +30676,7 @@ window.RDA_DATA = {
           "name": "forte984riso",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30675,7 +30699,7 @@ window.RDA_DATA = {
           "name": "SpeedSparco",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30698,7 +30722,7 @@ window.RDA_DATA = {
           "name": "SpeedSparco",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30721,7 +30745,7 @@ window.RDA_DATA = {
           "name": "forte984riso",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30744,7 +30768,7 @@ window.RDA_DATA = {
           "name": "Onmanuel-Btw_09",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     },
@@ -30767,7 +30791,7 @@ window.RDA_DATA = {
           "name": "SpeedSparco",
           "carId": 269,
           "car": "GT by Citroen Gr.4",
-          "car_image": ""
+          "car_image": "car_images/car_269.webp"
         }
       ]
     }
@@ -37186,7 +37210,7 @@ window.RDA_DATA = {
       "model": "Corvette C7 Gr.4",
       "brand": "Chevrolet",
       "category": "Gr.4",
-      "car_image": "",
+      "car_image": "car_images/car_268.webp",
       "gt7": {
         "id": "car3247",
         "url": "https://www.gran-turismo.com/us/gt7/carlist/id/car3247",
@@ -37210,7 +37234,7 @@ window.RDA_DATA = {
       "model": "GT by Citroen Gr.4",
       "brand": "Citroen",
       "category": "Gr.4",
-      "car_image": "",
+      "car_image": "car_images/car_269.webp",
       "gt7": {
         "id": "car3248",
         "url": "https://www.gran-turismo.com/us/gt7/carlist/id/car3248",
@@ -37378,7 +37402,7 @@ window.RDA_DATA = {
       "model": "650S Gr.4",
       "brand": "McLaren",
       "category": "Gr.4",
-      "car_image": "",
+      "car_image": "car_images/car_276.webp",
       "gt7": {
         "id": "car3257",
         "url": "https://www.gran-turismo.com/us/gt7/carlist/id/car3257",
@@ -37402,7 +37426,7 @@ window.RDA_DATA = {
       "model": "Lancer Evolution Final Gr.4",
       "brand": "Mitsubishi",
       "category": "Gr.4",
-      "car_image": "",
+      "car_image": "car_images/car_277.webp",
       "gt7": {
         "id": "car3258",
         "url": "https://www.gran-turismo.com/us/gt7/carlist/id/car3258",
@@ -37474,7 +37498,7 @@ window.RDA_DATA = {
       "model": "WRX Gr.4",
       "brand": "Subaru",
       "category": "Gr.4",
-      "car_image": "",
+      "car_image": "car_images/car_280.webp",
       "gt7": {
         "id": "car3261",
         "url": "https://www.gran-turismo.com/us/gt7/carlist/id/car3261",
