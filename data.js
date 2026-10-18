@@ -87065,14 +87065,14 @@ window.RDA_DATA = {
       "driver": "luglio88 [ID 30]",
       "championship": "RDA 911 PORSCHE CUP 2026",
       "track": "Le Mans",
-      "penalty": "10 Sec",
+      "penalty": "10",
       "license_points": "0",
       "body": "Gara / round: 5\nGiro dell’episodio: 1\n\nLa Direzione Gara comunica che al pilota Luglio88 viene inflitta una penalità di 10 Sec secondi, a seguito di un contatto ai danni del pilota Brown1.\n\nDopo aver valutato l’episodio, la Direzione Gara ha ritenuto il contatto meritevole di sanzione, in quanto contrario ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n- 10 Sec secondi di penalità.\n- 0 punti patente decurtati.\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,\nLa Direzione Gara RDA",
       "image": "",
       "published": true,
       "signature_choice": "Firma e timbro RDA",
       "id": "b7ae18950ca444b9b4095964bf823356",
-      "updated_at": "2026-10-18T09:10:17.665187+00:00"
+      "updated_at": "2026-10-18T09:42:21.241444+00:00"
     },
     {
       "title": "Esito autosegnalazione — Penalità in secondi",
@@ -87081,14 +87081,14 @@ window.RDA_DATA = {
       "driver": "luglio88 [ID 30]",
       "championship": "RDA 911 PORSCHE CUP 2026",
       "track": "Le Mans",
-      "penalty": "5 Sec",
+      "penalty": "5",
       "license_points": "0",
       "body": "Lo staff RDA comunica di aver esaminato l’episodio avvenuto durante PORSCHE 911 CUP, gara 5 / LE MANS Circuito Completo, al giro 6, tra Luglio88 e M.Vangi.\n\nIl pilota Luglio88 ha segnalato spontaneamente il proprio comportamento, riconoscendo la responsabilità nel contatto con M.Vangi. Lo staff ha apprezzato la correttezza e la collaborazione dimostrate.\n\nDopo aver valutato la dinamica e le conseguenze dell’episodio, lo staff dispone per Luglio88 una penalità di 5 Sec. secondi, da aggiungere al tempo finale della gara.\n\nPer questo episodio non vengono decurtati punti dalla Patente RDA. La decisione riguarda il caso esaminato: l’autosegnalazione non comporta automaticamente l’esclusione di ulteriori sanzioni in altri episodi.\n\nRingraziamo il pilota per il gesto di responsabilità e ricordiamo a tutti l’importanza del rispetto reciproco in pista.\n\nLo Staff RDA",
       "image": "",
       "published": true,
       "signature_choice": "Firma e timbro RDA",
       "id": "9ee6555a66214da2a1829a57617800a9",
-      "updated_at": "2026-10-18T09:03:35.896517+00:00"
+      "updated_at": "2026-10-18T09:43:03.040810+00:00"
     },
     {
       "title": "DIREZIONE GARA – PROVVEDIMENTO DISCIPLINARE",
