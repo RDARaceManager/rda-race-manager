@@ -1,609 +1,28 @@
 window.RDA_DATA = {
   "meta": {
-    "hasOfficialResults": true,
-    "officialRounds": 6,
+    "hasOfficialResults": false,
+    "officialRounds": 0,
     "publishedDrivers": 62,
     "rankingSeason": 2026,
-    "rankingName": "RANKING RDA 2026"
+    "rankingName": "RANKING RDA 2026",
+    "quarterBonusPolicy": {
+      "start": "2026-11-01",
+      "points": 150,
+      "minRacesPerChampionship": 3,
+      "periods": "nov-gen, feb-apr, mag-lug, ago-ott",
+      "awardedAfterQuarter": true,
+      "gt7PenaltiesExcluded": true
+    }
   },
   "calendar": [
     {
-      "date": "01.10.2026 – 29.10.2026",
-      "series": "RDA MASTER 500",
-      "title": "RDA 911 PORSCHE CUP 2026"
+      "date": "03.11.2026 – 26.11.2026",
+      "series": "RDA MASTER 250",
+      "title": "CAMPIONATO TOYOTA 86 \nGRMN 2"
     }
   ],
-  "dayResults": [
-    {
-      "pos": 1,
-      "name": "Twitc_Simomazz86",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "23:00",
-      "time": "29:47.776",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 2,
-      "name": "PYX69",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "23:00",
-      "time": "29:57.264",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 3,
-      "name": "gallo_opc_2",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "30:01.237",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 4,
-      "name": "stoccametuttu",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "30:18.353",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 5,
-      "name": "andrecalimero73",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "30:23.971",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 6,
-      "name": "SpeedSparco",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "30:25.275",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 7,
-      "name": "Spano19",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "30:25.598",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 8,
-      "name": "MaxMossa",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "30:25.949",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 9,
-      "name": "NICOLACI1966",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "30:43.881",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 10,
-      "name": "jnior_billokillo",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "21:00",
-      "time": "30:55.438",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 11,
-      "name": "brown_dsc",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "31:03.506",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 12,
-      "name": "G-BERNA",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "23:00",
-      "time": "31:05.796",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 13,
-      "name": "blmta73",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "23:00",
-      "time": "31:11.379",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 14,
-      "name": "danilomarika89",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "21:00",
-      "time": "32:51.676",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 15,
-      "name": "Pasky_Alfa",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 16,
-      "name": "cambridgino92",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 17,
-      "name": "Onmanuel-Btw_09",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "—",
-      "status": "1 giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 18,
-      "name": "lamonaca72",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "—",
-      "status": "1 giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 19,
-      "name": "premanugito",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "—",
-      "status": "1 giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 20,
-      "name": "ony89traccia",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "—",
-      "status": "1 giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 21,
-      "name": "AL1EN__999",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "21:00",
-      "time": "—",
-      "status": "DNF",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 22,
-      "name": "JONNYK7",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "21:00",
-      "time": "—",
-      "status": "DNF",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 23,
-      "name": "Fax-86-",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "—",
-      "status": "DNF",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    }
-  ],
-  "championship": [
-    {
-      "pos": 1,
-      "name": "Spano19",
-      "pts": 262
-    },
-    {
-      "pos": 2,
-      "name": "Twitc_Simomazz86",
-      "pts": 242
-    },
-    {
-      "pos": 3,
-      "name": "NICOLACI1966",
-      "pts": 228
-    },
-    {
-      "pos": 4,
-      "name": "PYX69",
-      "pts": 221
-    },
-    {
-      "pos": 5,
-      "name": "andrecalimero73",
-      "pts": 154
-    },
-    {
-      "pos": 6,
-      "name": "gallo_opc_2",
-      "pts": 151
-    },
-    {
-      "pos": 7,
-      "name": "brown_dsc",
-      "pts": 131
-    },
-    {
-      "pos": 8,
-      "name": "a88312alfa",
-      "pts": 128
-    },
-    {
-      "pos": 9,
-      "name": "JONNYK7",
-      "pts": 128
-    },
-    {
-      "pos": 10,
-      "name": "Onmanuel-Btw_09",
-      "pts": 125
-    },
-    {
-      "pos": 11,
-      "name": "stoccametuttu",
-      "pts": 120
-    },
-    {
-      "pos": 12,
-      "name": "jnior_billokillo",
-      "pts": 104
-    },
-    {
-      "pos": 13,
-      "name": "Fax-86-",
-      "pts": 103
-    },
-    {
-      "pos": 14,
-      "name": "G-BERNA",
-      "pts": 102
-    },
-    {
-      "pos": 15,
-      "name": "Flavio_Nicolazzi",
-      "pts": 83
-    },
-    {
-      "pos": 16,
-      "name": "SpeedSparco",
-      "pts": 81
-    },
-    {
-      "pos": 17,
-      "name": "xxsiculo96xx",
-      "pts": 81
-    },
-    {
-      "pos": 18,
-      "name": "Caciotta_95",
-      "pts": 76
-    },
-    {
-      "pos": 19,
-      "name": "Vimdav",
-      "pts": 76
-    },
-    {
-      "pos": 20,
-      "name": "MaxMossa",
-      "pts": 65
-    },
-    {
-      "pos": 21,
-      "name": "VanMike91",
-      "pts": 64
-    },
-    {
-      "pos": 22,
-      "name": "luglio88",
-      "pts": 63
-    },
-    {
-      "pos": 23,
-      "name": "Pasky_Alfa",
-      "pts": 61
-    },
-    {
-      "pos": 24,
-      "name": "Squilybrio",
-      "pts": 55
-    },
-    {
-      "pos": 25,
-      "name": "forte984riso",
-      "pts": 50
-    },
-    {
-      "pos": 26,
-      "name": "Orsetto63",
-      "pts": 48
-    },
-    {
-      "pos": 27,
-      "name": "Izras1990",
-      "pts": 45
-    },
-    {
-      "pos": 28,
-      "name": "danilomarika89",
-      "pts": 44
-    },
-    {
-      "pos": 29,
-      "name": "illibrosnavi",
-      "pts": 40
-    },
-    {
-      "pos": 30,
-      "name": "Knowhere_7",
-      "pts": 32
-    },
-    {
-      "pos": 31,
-      "name": "blmta73",
-      "pts": 31
-    },
-    {
-      "pos": 32,
-      "name": "ghostman_79",
-      "pts": 27
-    },
-    {
-      "pos": 33,
-      "name": "lamonaca72",
-      "pts": 24
-    },
-    {
-      "pos": 34,
-      "name": "RTH_Yattaman373",
-      "pts": 22
-    },
-    {
-      "pos": 35,
-      "name": "familydidoschy",
-      "pts": 20
-    },
-    {
-      "pos": 36,
-      "name": "cambridgino92",
-      "pts": 19
-    },
-    {
-      "pos": 37,
-      "name": "teamanuel",
-      "pts": 18
-    },
-    {
-      "pos": 38,
-      "name": "giorobert",
-      "pts": 15
-    },
-    {
-      "pos": 39,
-      "name": "ICIOmnt",
-      "pts": 14
-    },
-    {
-      "pos": 40,
-      "name": "Mapucci_56",
-      "pts": 14
-    },
-    {
-      "pos": 41,
-      "name": "ony89traccia",
-      "pts": 14
-    },
-    {
-      "pos": 42,
-      "name": "premanugito",
-      "pts": 14
-    },
-    {
-      "pos": 43,
-      "name": "Ven0m_96-_",
-      "pts": 12
-    },
-    {
-      "pos": 44,
-      "name": "Aktarus1970",
-      "pts": 10
-    },
-    {
-      "pos": 45,
-      "name": "GiNiUs_Man",
-      "pts": 10
-    },
-    {
-      "pos": 46,
-      "name": "luigigar89",
-      "pts": 9
-    },
-    {
-      "pos": 47,
-      "name": "Ivlaisdead",
-      "pts": 7
-    },
-    {
-      "pos": 48,
-      "name": "XanderMich",
-      "pts": 7
-    },
-    {
-      "pos": 49,
-      "name": "Fantasmino7794",
-      "pts": 6
-    },
-    {
-      "pos": 50,
-      "name": "maverick370kmh",
-      "pts": 6
-    },
-    {
-      "pos": 51,
-      "name": "AL1EN__999",
-      "pts": 3
-    },
-    {
-      "pos": 52,
-      "name": "thegamer73",
-      "pts": 3
-    },
-    {
-      "pos": 53,
-      "name": "troppobello81",
-      "pts": 3
-    }
-  ],
+  "dayResults": [],
+  "championship": [],
   "elo": [
     {
       "pos": 1,
@@ -611,7 +30,9 @@ window.RDA_DATA = {
       "elo": 3257.48,
       "ranking": 3257.48,
       "championships": 7,
-      "races": 61
+      "races": 61,
+      "quarterBonus": 0,
+      "rankingBase": 3257.48
     },
     {
       "pos": 2,
@@ -619,7 +40,9 @@ window.RDA_DATA = {
       "elo": 2581.67,
       "ranking": 2581.67,
       "championships": 6,
-      "races": 40
+      "races": 40,
+      "quarterBonus": 0,
+      "rankingBase": 2581.67
     },
     {
       "pos": 3,
@@ -627,7 +50,9 @@ window.RDA_DATA = {
       "elo": 2294.43,
       "ranking": 2294.43,
       "championships": 4,
-      "races": 29
+      "races": 29,
+      "quarterBonus": 0,
+      "rankingBase": 2294.43
     },
     {
       "pos": 4,
@@ -635,7 +60,9 @@ window.RDA_DATA = {
       "elo": 2160.0,
       "ranking": 2160.0,
       "championships": 3,
-      "races": 20
+      "races": 20,
+      "quarterBonus": 0,
+      "rankingBase": 2160.0
     },
     {
       "pos": 5,
@@ -643,7 +70,9 @@ window.RDA_DATA = {
       "elo": 1920.39,
       "ranking": 1920.39,
       "championships": 7,
-      "races": 57
+      "races": 57,
+      "quarterBonus": 0,
+      "rankingBase": 1920.39
     },
     {
       "pos": 6,
@@ -651,7 +80,9 @@ window.RDA_DATA = {
       "elo": 1903.54,
       "ranking": 1903.54,
       "championships": 7,
-      "races": 46
+      "races": 46,
+      "quarterBonus": 0,
+      "rankingBase": 1903.54
     },
     {
       "pos": 7,
@@ -659,7 +90,9 @@ window.RDA_DATA = {
       "elo": 1881.44,
       "ranking": 1881.44,
       "championships": 6,
-      "races": 29
+      "races": 29,
+      "quarterBonus": 0,
+      "rankingBase": 1881.44
     },
     {
       "pos": 8,
@@ -667,7 +100,9 @@ window.RDA_DATA = {
       "elo": 1845.0,
       "ranking": 1845.0,
       "championships": 6,
-      "races": 30
+      "races": 30,
+      "quarterBonus": 0,
+      "rankingBase": 1845.0
     },
     {
       "pos": 9,
@@ -675,7 +110,9 @@ window.RDA_DATA = {
       "elo": 1754.95,
       "ranking": 1754.95,
       "championships": 4,
-      "races": 23
+      "races": 23,
+      "quarterBonus": 0,
+      "rankingBase": 1754.95
     },
     {
       "pos": 10,
@@ -683,7 +120,9 @@ window.RDA_DATA = {
       "elo": 1745.45,
       "ranking": 1745.45,
       "championships": 5,
-      "races": 30
+      "races": 30,
+      "quarterBonus": 0,
+      "rankingBase": 1745.45
     },
     {
       "pos": 11,
@@ -691,7 +130,9 @@ window.RDA_DATA = {
       "elo": 1707.73,
       "ranking": 1707.73,
       "championships": 6,
-      "races": 45
+      "races": 45,
+      "quarterBonus": 0,
+      "rankingBase": 1707.73
     },
     {
       "pos": 12,
@@ -699,7 +140,9 @@ window.RDA_DATA = {
       "elo": 1673.38,
       "ranking": 1673.38,
       "championships": 7,
-      "races": 54
+      "races": 54,
+      "quarterBonus": 0,
+      "rankingBase": 1673.38
     },
     {
       "pos": 13,
@@ -707,7 +150,9 @@ window.RDA_DATA = {
       "elo": 1640.51,
       "ranking": 1640.51,
       "championships": 6,
-      "races": 32
+      "races": 32,
+      "quarterBonus": 0,
+      "rankingBase": 1640.51
     },
     {
       "pos": 14,
@@ -715,7 +160,9 @@ window.RDA_DATA = {
       "elo": 1586.38,
       "ranking": 1586.38,
       "championships": 7,
-      "races": 51
+      "races": 51,
+      "quarterBonus": 0,
+      "rankingBase": 1586.38
     },
     {
       "pos": 15,
@@ -723,7 +170,9 @@ window.RDA_DATA = {
       "elo": 1581.96,
       "ranking": 1581.96,
       "championships": 7,
-      "races": 51
+      "races": 51,
+      "quarterBonus": 0,
+      "rankingBase": 1581.96
     },
     {
       "pos": 16,
@@ -731,7 +180,9 @@ window.RDA_DATA = {
       "elo": 1550.1,
       "ranking": 1550.1,
       "championships": 7,
-      "races": 46
+      "races": 46,
+      "quarterBonus": 0,
+      "rankingBase": 1550.1
     },
     {
       "pos": 17,
@@ -739,7 +190,9 @@ window.RDA_DATA = {
       "elo": 1521.67,
       "ranking": 1521.67,
       "championships": 3,
-      "races": 15
+      "races": 15,
+      "quarterBonus": 0,
+      "rankingBase": 1521.67
     },
     {
       "pos": 18,
@@ -747,7 +200,9 @@ window.RDA_DATA = {
       "elo": 1313.75,
       "ranking": 1313.75,
       "championships": 7,
-      "races": 48
+      "races": 48,
+      "quarterBonus": 0,
+      "rankingBase": 1313.75
     },
     {
       "pos": 19,
@@ -755,7 +210,9 @@ window.RDA_DATA = {
       "elo": 1290.4,
       "ranking": 1290.4,
       "championships": 6,
-      "races": 29
+      "races": 29,
+      "quarterBonus": 0,
+      "rankingBase": 1290.4
     },
     {
       "pos": 20,
@@ -763,7 +220,9 @@ window.RDA_DATA = {
       "elo": 1285.5,
       "ranking": 1285.5,
       "championships": 4,
-      "races": 23
+      "races": 23,
+      "quarterBonus": 0,
+      "rankingBase": 1285.5
     },
     {
       "pos": 21,
@@ -771,7 +230,9 @@ window.RDA_DATA = {
       "elo": 1147.14,
       "ranking": 1147.14,
       "championships": 6,
-      "races": 37
+      "races": 37,
+      "quarterBonus": 0,
+      "rankingBase": 1147.14
     },
     {
       "pos": 22,
@@ -779,7 +240,9 @@ window.RDA_DATA = {
       "elo": 1029.33,
       "ranking": 1029.33,
       "championships": 2,
-      "races": 8
+      "races": 8,
+      "quarterBonus": 0,
+      "rankingBase": 1029.33
     },
     {
       "pos": 23,
@@ -787,7 +250,9 @@ window.RDA_DATA = {
       "elo": 901.33,
       "ranking": 901.33,
       "championships": 7,
-      "races": 35
+      "races": 35,
+      "quarterBonus": 0,
+      "rankingBase": 901.33
     },
     {
       "pos": 24,
@@ -795,7 +260,9 @@ window.RDA_DATA = {
       "elo": 843.45,
       "ranking": 843.45,
       "championships": 6,
-      "races": 40
+      "races": 40,
+      "quarterBonus": 0,
+      "rankingBase": 843.45
     },
     {
       "pos": 25,
@@ -803,7 +270,9 @@ window.RDA_DATA = {
       "elo": 798.33,
       "ranking": 798.33,
       "championships": 2,
-      "races": 7
+      "races": 7,
+      "quarterBonus": 0,
+      "rankingBase": 798.33
     },
     {
       "pos": 26,
@@ -811,7 +280,9 @@ window.RDA_DATA = {
       "elo": 778.0,
       "ranking": 778.0,
       "championships": 2,
-      "races": 8
+      "races": 8,
+      "quarterBonus": 0,
+      "rankingBase": 778.0
     },
     {
       "pos": 27,
@@ -819,7 +290,9 @@ window.RDA_DATA = {
       "elo": 773.57,
       "ranking": 773.57,
       "championships": 7,
-      "races": 41
+      "races": 41,
+      "quarterBonus": 0,
+      "rankingBase": 773.57
     },
     {
       "pos": 28,
@@ -827,7 +300,9 @@ window.RDA_DATA = {
       "elo": 771.35,
       "ranking": 771.35,
       "championships": 5,
-      "races": 33
+      "races": 33,
+      "quarterBonus": 0,
+      "rankingBase": 771.35
     },
     {
       "pos": 29,
@@ -835,7 +310,9 @@ window.RDA_DATA = {
       "elo": 718.48,
       "ranking": 718.48,
       "championships": 4,
-      "races": 22
+      "races": 22,
+      "quarterBonus": 0,
+      "rankingBase": 718.48
     },
     {
       "pos": 30,
@@ -843,7 +320,9 @@ window.RDA_DATA = {
       "elo": 607.5,
       "ranking": 607.5,
       "championships": 3,
-      "races": 12
+      "races": 12,
+      "quarterBonus": 0,
+      "rankingBase": 607.5
     },
     {
       "pos": 31,
@@ -851,7 +330,9 @@ window.RDA_DATA = {
       "elo": 506.04,
       "ranking": 506.04,
       "championships": 5,
-      "races": 21
+      "races": 21,
+      "quarterBonus": 0,
+      "rankingBase": 506.04
     },
     {
       "pos": 32,
@@ -859,7 +340,9 @@ window.RDA_DATA = {
       "elo": 493.67,
       "ranking": 493.67,
       "championships": 5,
-      "races": 30
+      "races": 30,
+      "quarterBonus": 0,
+      "rankingBase": 493.67
     },
     {
       "pos": 33,
@@ -867,7 +350,9 @@ window.RDA_DATA = {
       "elo": 466.67,
       "ranking": 466.67,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 466.67
     },
     {
       "pos": 34,
@@ -875,7 +360,9 @@ window.RDA_DATA = {
       "elo": 441.5,
       "ranking": 441.5,
       "championships": 3,
-      "races": 12
+      "races": 12,
+      "quarterBonus": 0,
+      "rankingBase": 441.5
     },
     {
       "pos": 35,
@@ -883,7 +370,9 @@ window.RDA_DATA = {
       "elo": 433.33,
       "ranking": 433.33,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 433.33
     },
     {
       "pos": 36,
@@ -891,7 +380,9 @@ window.RDA_DATA = {
       "elo": 418.29,
       "ranking": 418.29,
       "championships": 5,
-      "races": 25
+      "races": 25,
+      "quarterBonus": 0,
+      "rankingBase": 418.29
     },
     {
       "pos": 37,
@@ -899,7 +390,9 @@ window.RDA_DATA = {
       "elo": 394.64,
       "ranking": 394.64,
       "championships": 6,
-      "races": 40
+      "races": 40,
+      "quarterBonus": 0,
+      "rankingBase": 394.64
     },
     {
       "pos": 38,
@@ -907,7 +400,9 @@ window.RDA_DATA = {
       "elo": 393.79,
       "ranking": 393.79,
       "championships": 5,
-      "races": 28
+      "races": 28,
+      "quarterBonus": 0,
+      "rankingBase": 393.79
     },
     {
       "pos": 39,
@@ -915,7 +410,9 @@ window.RDA_DATA = {
       "elo": 378.25,
       "ranking": 378.25,
       "championships": 2,
-      "races": 16
+      "races": 16,
+      "quarterBonus": 0,
+      "rankingBase": 378.25
     },
     {
       "pos": 40,
@@ -923,7 +420,9 @@ window.RDA_DATA = {
       "elo": 333.79,
       "ranking": 333.79,
       "championships": 4,
-      "races": 16
+      "races": 16,
+      "quarterBonus": 0,
+      "rankingBase": 333.79
     },
     {
       "pos": 41,
@@ -931,7 +430,9 @@ window.RDA_DATA = {
       "elo": 332.0,
       "ranking": 332.0,
       "championships": 4,
-      "races": 19
+      "races": 19,
+      "quarterBonus": 0,
+      "rankingBase": 332.0
     },
     {
       "pos": 42,
@@ -939,7 +440,9 @@ window.RDA_DATA = {
       "elo": 310.0,
       "ranking": 310.0,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 310.0
     },
     {
       "pos": 43,
@@ -947,7 +450,9 @@ window.RDA_DATA = {
       "elo": 273.32,
       "ranking": 273.32,
       "championships": 5,
-      "races": 26
+      "races": 26,
+      "quarterBonus": 0,
+      "rankingBase": 273.32
     },
     {
       "pos": 44,
@@ -955,7 +460,9 @@ window.RDA_DATA = {
       "elo": 270.0,
       "ranking": 270.0,
       "championships": 1,
-      "races": 4
+      "races": 4,
+      "quarterBonus": 0,
+      "rankingBase": 270.0
     },
     {
       "pos": 45,
@@ -963,7 +470,9 @@ window.RDA_DATA = {
       "elo": 268.0,
       "ranking": 268.0,
       "championships": 1,
-      "races": 5
+      "races": 5,
+      "quarterBonus": 0,
+      "rankingBase": 268.0
     },
     {
       "pos": 46,
@@ -971,7 +480,9 @@ window.RDA_DATA = {
       "elo": 262.5,
       "ranking": 262.5,
       "championships": 2,
-      "races": 9
+      "races": 9,
+      "quarterBonus": 0,
+      "rankingBase": 262.5
     },
     {
       "pos": 47,
@@ -979,7 +490,9 @@ window.RDA_DATA = {
       "elo": 246.67,
       "ranking": 246.67,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 246.67
     },
     {
       "pos": 48,
@@ -987,7 +500,9 @@ window.RDA_DATA = {
       "elo": 221.67,
       "ranking": 221.67,
       "championships": 1,
-      "races": 6
+      "races": 6,
+      "quarterBonus": 0,
+      "rankingBase": 221.67
     },
     {
       "pos": 49,
@@ -995,7 +510,9 @@ window.RDA_DATA = {
       "elo": 162.64,
       "ranking": 162.64,
       "championships": 4,
-      "races": 24
+      "races": 24,
+      "quarterBonus": 0,
+      "rankingBase": 162.64
     },
     {
       "pos": 50,
@@ -1003,7 +520,9 @@ window.RDA_DATA = {
       "elo": 156.75,
       "ranking": 156.75,
       "championships": 2,
-      "races": 9
+      "races": 9,
+      "quarterBonus": 0,
+      "rankingBase": 156.75
     },
     {
       "pos": 51,
@@ -1011,7 +530,9 @@ window.RDA_DATA = {
       "elo": 150.0,
       "ranking": 150.0,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 150.0
     },
     {
       "pos": 52,
@@ -1019,7 +540,9 @@ window.RDA_DATA = {
       "elo": 138.33,
       "ranking": 138.33,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 138.33
     },
     {
       "pos": 53,
@@ -1027,7 +550,9 @@ window.RDA_DATA = {
       "elo": 104.17,
       "ranking": 104.17,
       "championships": 2,
-      "races": 7
+      "races": 7,
+      "quarterBonus": 0,
+      "rankingBase": 104.17
     },
     {
       "pos": 54,
@@ -1035,7 +560,9 @@ window.RDA_DATA = {
       "elo": 104.0,
       "ranking": 104.0,
       "championships": 2,
-      "races": 9
+      "races": 9,
+      "quarterBonus": 0,
+      "rankingBase": 104.0
     },
     {
       "pos": 55,
@@ -1043,7 +570,9 @@ window.RDA_DATA = {
       "elo": 80.0,
       "ranking": 80.0,
       "championships": 1,
-      "races": 5
+      "races": 5,
+      "quarterBonus": 0,
+      "rankingBase": 80.0
     },
     {
       "pos": 56,
@@ -1051,7 +580,9 @@ window.RDA_DATA = {
       "elo": 60.0,
       "ranking": 60.0,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 60.0
     },
     {
       "pos": 57,
@@ -1059,7 +590,9 @@ window.RDA_DATA = {
       "elo": 50.0,
       "ranking": 50.0,
       "championships": 1,
-      "races": 7
+      "races": 7,
+      "quarterBonus": 0,
+      "rankingBase": 50.0
     },
     {
       "pos": 58,
@@ -1067,7 +600,9 @@ window.RDA_DATA = {
       "elo": 46.25,
       "ranking": 46.25,
       "championships": 1,
-      "races": 4
+      "races": 4,
+      "quarterBonus": 0,
+      "rankingBase": 46.25
     },
     {
       "pos": 59,
@@ -1075,7 +610,9 @@ window.RDA_DATA = {
       "elo": 36.67,
       "ranking": 36.67,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 36.67
     },
     {
       "pos": 60,
@@ -1083,7 +620,9 @@ window.RDA_DATA = {
       "elo": 23.33,
       "ranking": 23.33,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 23.33
     },
     {
       "pos": 61,
@@ -1091,7 +630,9 @@ window.RDA_DATA = {
       "elo": 23.33,
       "ranking": 23.33,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 23.33
     },
     {
       "pos": 62,
@@ -1099,7 +640,9 @@ window.RDA_DATA = {
       "elo": 0.0,
       "ranking": 0.0,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 0.0
     }
   ],
   "drivers": [
@@ -1161,7 +704,9 @@ window.RDA_DATA = {
         }
       ],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 3257.48
     },
     {
       "name": "SpeedSparco",
@@ -1190,7 +735,9 @@ window.RDA_DATA = {
         }
       ],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 2581.67
     },
     {
       "name": "forte984riso",
@@ -1213,7 +760,9 @@ window.RDA_DATA = {
         }
       ],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 2294.43
     },
     {
       "name": "Svenom_21",
@@ -1249,7 +798,9 @@ window.RDA_DATA = {
         }
       ],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 2160.0
     },
     {
       "name": "gallo_opc_2",
@@ -1278,7 +829,9 @@ window.RDA_DATA = {
         }
       ],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1920.39
     },
     {
       "name": "MaxMossa",
@@ -1294,7 +847,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1903.54
     },
     {
       "name": "Caciotta_95",
@@ -1310,7 +865,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1881.44
     },
     {
       "name": "brown_dsc",
@@ -1326,7 +883,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1845.0
     },
     {
       "name": "Granata_93",
@@ -1342,7 +901,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1754.95
     },
     {
       "name": "familydidoschy",
@@ -1358,7 +919,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1745.45
     },
     {
       "name": "Twitc_Simomazz86",
@@ -1374,7 +937,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1707.73
     },
     {
       "name": "NICOLACI1966",
@@ -1397,7 +962,9 @@ window.RDA_DATA = {
         }
       ],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1673.38
     },
     {
       "name": "JONNYK7",
@@ -1413,7 +980,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1640.51
     },
     {
       "name": "Vimdav",
@@ -1429,7 +998,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1586.38
     },
     {
       "name": "PYX69",
@@ -1445,7 +1016,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1581.96
     },
     {
       "name": "a88312alfa",
@@ -1461,7 +1034,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1550.1
     },
     {
       "name": "Knowhere_7",
@@ -1477,7 +1052,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1521.67
     },
     {
       "name": "Onmanuel-Btw_09",
@@ -1493,7 +1070,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1313.75
     },
     {
       "name": "andrecalimero73",
@@ -1509,7 +1088,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1290.4
     },
     {
       "name": "xxsiculo96xx",
@@ -1525,7 +1106,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1285.5
     },
     {
       "name": "G-BERNA",
@@ -1541,7 +1124,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1147.14
     },
     {
       "name": "Izras1990",
@@ -1557,7 +1142,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1029.33
     },
     {
       "name": "VanMike91",
@@ -1573,7 +1160,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 6,
-      "rdaPenaltyCount": 1
+      "rdaPenaltyCount": 1,
+      "quarterBonus": 0,
+      "rankingBase": 901.33
     },
     {
       "name": "jnior_billokillo",
@@ -1589,7 +1178,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 843.45
     },
     {
       "name": "Mauri8156",
@@ -1605,7 +1196,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 798.33
     },
     {
       "name": "ghostman_79",
@@ -1621,7 +1214,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 778.0
     },
     {
       "name": "luglio88",
@@ -1637,7 +1232,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 2
+      "rdaPenaltyCount": 2,
+      "quarterBonus": 0,
+      "rankingBase": 773.57
     },
     {
       "name": "giorobert",
@@ -1653,7 +1250,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 771.35
     },
     {
       "name": "stoccametuttu",
@@ -1669,7 +1268,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 718.48
     },
     {
       "name": "blmta73",
@@ -1685,7 +1286,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 607.5
     },
     {
       "name": "Dom_78_furious",
@@ -1701,7 +1304,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 506.04
     },
     {
       "name": "lamonaca72",
@@ -1717,7 +1322,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 493.67
     },
     {
       "name": "streetracer2701",
@@ -1733,7 +1340,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 466.67
     },
     {
       "name": "MikaelDubbio",
@@ -1749,7 +1358,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 441.5
     },
     {
       "name": "LordAki_88",
@@ -1765,7 +1376,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 433.33
     },
     {
       "name": "illibrosnavi",
@@ -1781,7 +1394,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 418.29
     },
     {
       "name": "Pasky_Alfa",
@@ -1797,7 +1412,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 394.64
     },
     {
       "name": "danilomarika89",
@@ -1813,7 +1430,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 393.79
     },
     {
       "name": "Cinciripini79",
@@ -1829,7 +1448,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 378.25
     },
     {
       "name": "lucap1969",
@@ -1845,7 +1466,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 333.79
     },
     {
       "name": "Ivlaisdead",
@@ -1861,7 +1484,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 332.0
     },
     {
       "name": "JoeMan-17",
@@ -1877,7 +1502,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 310.0
     },
     {
       "name": "ony89traccia",
@@ -1893,7 +1520,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 273.32
     },
     {
       "name": "icehands1968_",
@@ -1909,7 +1538,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 270.0
     },
     {
       "name": "danwolk_68",
@@ -1925,7 +1556,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 268.0
     },
     {
       "name": "Fax-86-",
@@ -1941,7 +1574,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 262.5
     },
     {
       "name": "NicolaCirotto",
@@ -1957,7 +1592,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 246.67
     },
     {
       "name": "Chico_G_70",
@@ -1973,7 +1610,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 221.67
     },
     {
       "name": "ICIOmnt",
@@ -1989,7 +1628,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 162.64
     },
     {
       "name": "Squilybrio",
@@ -2005,7 +1646,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 156.75
     },
     {
       "name": "tony123230",
@@ -2021,7 +1664,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 150.0
     },
     {
       "name": "Flavio_Nicolazzi",
@@ -2037,7 +1682,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 138.33
     },
     {
       "name": "premanugito",
@@ -2053,7 +1700,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 104.17
     },
     {
       "name": "Orsetto63",
@@ -2069,7 +1718,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 104.0
     },
     {
       "name": "ninok_90",
@@ -2085,7 +1736,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 80.0
     },
     {
       "name": "Aktarus1970",
@@ -2101,7 +1754,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 60.0
     },
     {
       "name": "AL1EN__999",
@@ -2117,7 +1772,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 50.0
     },
     {
       "name": "Fantasmino7794",
@@ -2133,7 +1790,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 46.25
     },
     {
       "name": "Ivlai",
@@ -2149,7 +1808,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 36.67
     },
     {
       "name": "Mapucci_56",
@@ -2165,7 +1826,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 23.33
     },
     {
       "name": "marcoalparco",
@@ -2181,7 +1844,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 23.33
     },
     {
       "name": "XxGGGIOCATORE23x",
@@ -2197,7 +1862,9 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 0.0
     },
     {
       "name": "a395d71",
@@ -4337,7 +4004,9 @@ window.RDA_DATA = {
       "elo": 3257.48,
       "ranking": 3257.48,
       "championships": 7,
-      "races": 61
+      "races": 61,
+      "quarterBonus": 0,
+      "rankingBase": 3257.48
     },
     {
       "pos": 2,
@@ -4345,7 +4014,9 @@ window.RDA_DATA = {
       "elo": 2581.67,
       "ranking": 2581.67,
       "championships": 6,
-      "races": 40
+      "races": 40,
+      "quarterBonus": 0,
+      "rankingBase": 2581.67
     },
     {
       "pos": 3,
@@ -4353,7 +4024,9 @@ window.RDA_DATA = {
       "elo": 2294.43,
       "ranking": 2294.43,
       "championships": 4,
-      "races": 29
+      "races": 29,
+      "quarterBonus": 0,
+      "rankingBase": 2294.43
     },
     {
       "pos": 4,
@@ -4361,7 +4034,9 @@ window.RDA_DATA = {
       "elo": 2160.0,
       "ranking": 2160.0,
       "championships": 3,
-      "races": 20
+      "races": 20,
+      "quarterBonus": 0,
+      "rankingBase": 2160.0
     },
     {
       "pos": 5,
@@ -4369,7 +4044,9 @@ window.RDA_DATA = {
       "elo": 1920.39,
       "ranking": 1920.39,
       "championships": 7,
-      "races": 57
+      "races": 57,
+      "quarterBonus": 0,
+      "rankingBase": 1920.39
     },
     {
       "pos": 6,
@@ -4377,7 +4054,9 @@ window.RDA_DATA = {
       "elo": 1903.54,
       "ranking": 1903.54,
       "championships": 7,
-      "races": 46
+      "races": 46,
+      "quarterBonus": 0,
+      "rankingBase": 1903.54
     },
     {
       "pos": 7,
@@ -4385,7 +4064,9 @@ window.RDA_DATA = {
       "elo": 1881.44,
       "ranking": 1881.44,
       "championships": 6,
-      "races": 29
+      "races": 29,
+      "quarterBonus": 0,
+      "rankingBase": 1881.44
     },
     {
       "pos": 8,
@@ -4393,7 +4074,9 @@ window.RDA_DATA = {
       "elo": 1845.0,
       "ranking": 1845.0,
       "championships": 6,
-      "races": 30
+      "races": 30,
+      "quarterBonus": 0,
+      "rankingBase": 1845.0
     },
     {
       "pos": 9,
@@ -4401,7 +4084,9 @@ window.RDA_DATA = {
       "elo": 1754.95,
       "ranking": 1754.95,
       "championships": 4,
-      "races": 23
+      "races": 23,
+      "quarterBonus": 0,
+      "rankingBase": 1754.95
     },
     {
       "pos": 10,
@@ -4409,7 +4094,9 @@ window.RDA_DATA = {
       "elo": 1745.45,
       "ranking": 1745.45,
       "championships": 5,
-      "races": 30
+      "races": 30,
+      "quarterBonus": 0,
+      "rankingBase": 1745.45
     },
     {
       "pos": 11,
@@ -4417,7 +4104,9 @@ window.RDA_DATA = {
       "elo": 1707.73,
       "ranking": 1707.73,
       "championships": 6,
-      "races": 45
+      "races": 45,
+      "quarterBonus": 0,
+      "rankingBase": 1707.73
     },
     {
       "pos": 12,
@@ -4425,7 +4114,9 @@ window.RDA_DATA = {
       "elo": 1673.38,
       "ranking": 1673.38,
       "championships": 7,
-      "races": 54
+      "races": 54,
+      "quarterBonus": 0,
+      "rankingBase": 1673.38
     },
     {
       "pos": 13,
@@ -4433,7 +4124,9 @@ window.RDA_DATA = {
       "elo": 1640.51,
       "ranking": 1640.51,
       "championships": 6,
-      "races": 32
+      "races": 32,
+      "quarterBonus": 0,
+      "rankingBase": 1640.51
     },
     {
       "pos": 14,
@@ -4441,7 +4134,9 @@ window.RDA_DATA = {
       "elo": 1586.38,
       "ranking": 1586.38,
       "championships": 7,
-      "races": 51
+      "races": 51,
+      "quarterBonus": 0,
+      "rankingBase": 1586.38
     },
     {
       "pos": 15,
@@ -4449,7 +4144,9 @@ window.RDA_DATA = {
       "elo": 1581.96,
       "ranking": 1581.96,
       "championships": 7,
-      "races": 51
+      "races": 51,
+      "quarterBonus": 0,
+      "rankingBase": 1581.96
     },
     {
       "pos": 16,
@@ -4457,7 +4154,9 @@ window.RDA_DATA = {
       "elo": 1550.1,
       "ranking": 1550.1,
       "championships": 7,
-      "races": 46
+      "races": 46,
+      "quarterBonus": 0,
+      "rankingBase": 1550.1
     },
     {
       "pos": 17,
@@ -4465,7 +4164,9 @@ window.RDA_DATA = {
       "elo": 1521.67,
       "ranking": 1521.67,
       "championships": 3,
-      "races": 15
+      "races": 15,
+      "quarterBonus": 0,
+      "rankingBase": 1521.67
     },
     {
       "pos": 18,
@@ -4473,7 +4174,9 @@ window.RDA_DATA = {
       "elo": 1313.75,
       "ranking": 1313.75,
       "championships": 7,
-      "races": 48
+      "races": 48,
+      "quarterBonus": 0,
+      "rankingBase": 1313.75
     },
     {
       "pos": 19,
@@ -4481,7 +4184,9 @@ window.RDA_DATA = {
       "elo": 1290.4,
       "ranking": 1290.4,
       "championships": 6,
-      "races": 29
+      "races": 29,
+      "quarterBonus": 0,
+      "rankingBase": 1290.4
     },
     {
       "pos": 20,
@@ -4489,7 +4194,9 @@ window.RDA_DATA = {
       "elo": 1285.5,
       "ranking": 1285.5,
       "championships": 4,
-      "races": 23
+      "races": 23,
+      "quarterBonus": 0,
+      "rankingBase": 1285.5
     },
     {
       "pos": 21,
@@ -4497,7 +4204,9 @@ window.RDA_DATA = {
       "elo": 1147.14,
       "ranking": 1147.14,
       "championships": 6,
-      "races": 37
+      "races": 37,
+      "quarterBonus": 0,
+      "rankingBase": 1147.14
     },
     {
       "pos": 22,
@@ -4505,7 +4214,9 @@ window.RDA_DATA = {
       "elo": 1029.33,
       "ranking": 1029.33,
       "championships": 2,
-      "races": 8
+      "races": 8,
+      "quarterBonus": 0,
+      "rankingBase": 1029.33
     },
     {
       "pos": 23,
@@ -4513,7 +4224,9 @@ window.RDA_DATA = {
       "elo": 901.33,
       "ranking": 901.33,
       "championships": 7,
-      "races": 35
+      "races": 35,
+      "quarterBonus": 0,
+      "rankingBase": 901.33
     },
     {
       "pos": 24,
@@ -4521,7 +4234,9 @@ window.RDA_DATA = {
       "elo": 843.45,
       "ranking": 843.45,
       "championships": 6,
-      "races": 40
+      "races": 40,
+      "quarterBonus": 0,
+      "rankingBase": 843.45
     },
     {
       "pos": 25,
@@ -4529,7 +4244,9 @@ window.RDA_DATA = {
       "elo": 798.33,
       "ranking": 798.33,
       "championships": 2,
-      "races": 7
+      "races": 7,
+      "quarterBonus": 0,
+      "rankingBase": 798.33
     },
     {
       "pos": 26,
@@ -4537,7 +4254,9 @@ window.RDA_DATA = {
       "elo": 778.0,
       "ranking": 778.0,
       "championships": 2,
-      "races": 8
+      "races": 8,
+      "quarterBonus": 0,
+      "rankingBase": 778.0
     },
     {
       "pos": 27,
@@ -4545,7 +4264,9 @@ window.RDA_DATA = {
       "elo": 773.57,
       "ranking": 773.57,
       "championships": 7,
-      "races": 41
+      "races": 41,
+      "quarterBonus": 0,
+      "rankingBase": 773.57
     },
     {
       "pos": 28,
@@ -4553,7 +4274,9 @@ window.RDA_DATA = {
       "elo": 771.35,
       "ranking": 771.35,
       "championships": 5,
-      "races": 33
+      "races": 33,
+      "quarterBonus": 0,
+      "rankingBase": 771.35
     },
     {
       "pos": 29,
@@ -4561,7 +4284,9 @@ window.RDA_DATA = {
       "elo": 718.48,
       "ranking": 718.48,
       "championships": 4,
-      "races": 22
+      "races": 22,
+      "quarterBonus": 0,
+      "rankingBase": 718.48
     },
     {
       "pos": 30,
@@ -4569,7 +4294,9 @@ window.RDA_DATA = {
       "elo": 607.5,
       "ranking": 607.5,
       "championships": 3,
-      "races": 12
+      "races": 12,
+      "quarterBonus": 0,
+      "rankingBase": 607.5
     },
     {
       "pos": 31,
@@ -4577,7 +4304,9 @@ window.RDA_DATA = {
       "elo": 506.04,
       "ranking": 506.04,
       "championships": 5,
-      "races": 21
+      "races": 21,
+      "quarterBonus": 0,
+      "rankingBase": 506.04
     },
     {
       "pos": 32,
@@ -4585,7 +4314,9 @@ window.RDA_DATA = {
       "elo": 493.67,
       "ranking": 493.67,
       "championships": 5,
-      "races": 30
+      "races": 30,
+      "quarterBonus": 0,
+      "rankingBase": 493.67
     },
     {
       "pos": 33,
@@ -4593,7 +4324,9 @@ window.RDA_DATA = {
       "elo": 466.67,
       "ranking": 466.67,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 466.67
     },
     {
       "pos": 34,
@@ -4601,7 +4334,9 @@ window.RDA_DATA = {
       "elo": 441.5,
       "ranking": 441.5,
       "championships": 3,
-      "races": 12
+      "races": 12,
+      "quarterBonus": 0,
+      "rankingBase": 441.5
     },
     {
       "pos": 35,
@@ -4609,7 +4344,9 @@ window.RDA_DATA = {
       "elo": 433.33,
       "ranking": 433.33,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 433.33
     },
     {
       "pos": 36,
@@ -4617,7 +4354,9 @@ window.RDA_DATA = {
       "elo": 418.29,
       "ranking": 418.29,
       "championships": 5,
-      "races": 25
+      "races": 25,
+      "quarterBonus": 0,
+      "rankingBase": 418.29
     },
     {
       "pos": 37,
@@ -4625,7 +4364,9 @@ window.RDA_DATA = {
       "elo": 394.64,
       "ranking": 394.64,
       "championships": 6,
-      "races": 40
+      "races": 40,
+      "quarterBonus": 0,
+      "rankingBase": 394.64
     },
     {
       "pos": 38,
@@ -4633,7 +4374,9 @@ window.RDA_DATA = {
       "elo": 393.79,
       "ranking": 393.79,
       "championships": 5,
-      "races": 28
+      "races": 28,
+      "quarterBonus": 0,
+      "rankingBase": 393.79
     },
     {
       "pos": 39,
@@ -4641,7 +4384,9 @@ window.RDA_DATA = {
       "elo": 378.25,
       "ranking": 378.25,
       "championships": 2,
-      "races": 16
+      "races": 16,
+      "quarterBonus": 0,
+      "rankingBase": 378.25
     },
     {
       "pos": 40,
@@ -4649,7 +4394,9 @@ window.RDA_DATA = {
       "elo": 333.79,
       "ranking": 333.79,
       "championships": 4,
-      "races": 16
+      "races": 16,
+      "quarterBonus": 0,
+      "rankingBase": 333.79
     },
     {
       "pos": 41,
@@ -4657,7 +4404,9 @@ window.RDA_DATA = {
       "elo": 332.0,
       "ranking": 332.0,
       "championships": 4,
-      "races": 19
+      "races": 19,
+      "quarterBonus": 0,
+      "rankingBase": 332.0
     },
     {
       "pos": 42,
@@ -4665,7 +4414,9 @@ window.RDA_DATA = {
       "elo": 310.0,
       "ranking": 310.0,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 310.0
     },
     {
       "pos": 43,
@@ -4673,7 +4424,9 @@ window.RDA_DATA = {
       "elo": 273.32,
       "ranking": 273.32,
       "championships": 5,
-      "races": 26
+      "races": 26,
+      "quarterBonus": 0,
+      "rankingBase": 273.32
     },
     {
       "pos": 44,
@@ -4681,7 +4434,9 @@ window.RDA_DATA = {
       "elo": 270.0,
       "ranking": 270.0,
       "championships": 1,
-      "races": 4
+      "races": 4,
+      "quarterBonus": 0,
+      "rankingBase": 270.0
     },
     {
       "pos": 45,
@@ -4689,7 +4444,9 @@ window.RDA_DATA = {
       "elo": 268.0,
       "ranking": 268.0,
       "championships": 1,
-      "races": 5
+      "races": 5,
+      "quarterBonus": 0,
+      "rankingBase": 268.0
     },
     {
       "pos": 46,
@@ -4697,7 +4454,9 @@ window.RDA_DATA = {
       "elo": 262.5,
       "ranking": 262.5,
       "championships": 2,
-      "races": 9
+      "races": 9,
+      "quarterBonus": 0,
+      "rankingBase": 262.5
     },
     {
       "pos": 47,
@@ -4705,7 +4464,9 @@ window.RDA_DATA = {
       "elo": 246.67,
       "ranking": 246.67,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 246.67
     },
     {
       "pos": 48,
@@ -4713,7 +4474,9 @@ window.RDA_DATA = {
       "elo": 221.67,
       "ranking": 221.67,
       "championships": 1,
-      "races": 6
+      "races": 6,
+      "quarterBonus": 0,
+      "rankingBase": 221.67
     },
     {
       "pos": 49,
@@ -4721,7 +4484,9 @@ window.RDA_DATA = {
       "elo": 162.64,
       "ranking": 162.64,
       "championships": 4,
-      "races": 24
+      "races": 24,
+      "quarterBonus": 0,
+      "rankingBase": 162.64
     },
     {
       "pos": 50,
@@ -4729,7 +4494,9 @@ window.RDA_DATA = {
       "elo": 156.75,
       "ranking": 156.75,
       "championships": 2,
-      "races": 9
+      "races": 9,
+      "quarterBonus": 0,
+      "rankingBase": 156.75
     },
     {
       "pos": 51,
@@ -4737,7 +4504,9 @@ window.RDA_DATA = {
       "elo": 150.0,
       "ranking": 150.0,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 150.0
     },
     {
       "pos": 52,
@@ -4745,7 +4514,9 @@ window.RDA_DATA = {
       "elo": 138.33,
       "ranking": 138.33,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 138.33
     },
     {
       "pos": 53,
@@ -4753,7 +4524,9 @@ window.RDA_DATA = {
       "elo": 104.17,
       "ranking": 104.17,
       "championships": 2,
-      "races": 7
+      "races": 7,
+      "quarterBonus": 0,
+      "rankingBase": 104.17
     },
     {
       "pos": 54,
@@ -4761,7 +4534,9 @@ window.RDA_DATA = {
       "elo": 104.0,
       "ranking": 104.0,
       "championships": 2,
-      "races": 9
+      "races": 9,
+      "quarterBonus": 0,
+      "rankingBase": 104.0
     },
     {
       "pos": 55,
@@ -4769,7 +4544,9 @@ window.RDA_DATA = {
       "elo": 80.0,
       "ranking": 80.0,
       "championships": 1,
-      "races": 5
+      "races": 5,
+      "quarterBonus": 0,
+      "rankingBase": 80.0
     },
     {
       "pos": 56,
@@ -4777,7 +4554,9 @@ window.RDA_DATA = {
       "elo": 60.0,
       "ranking": 60.0,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 60.0
     },
     {
       "pos": 57,
@@ -4785,7 +4564,9 @@ window.RDA_DATA = {
       "elo": 50.0,
       "ranking": 50.0,
       "championships": 1,
-      "races": 7
+      "races": 7,
+      "quarterBonus": 0,
+      "rankingBase": 50.0
     },
     {
       "pos": 58,
@@ -4793,7 +4574,9 @@ window.RDA_DATA = {
       "elo": 46.25,
       "ranking": 46.25,
       "championships": 1,
-      "races": 4
+      "races": 4,
+      "quarterBonus": 0,
+      "rankingBase": 46.25
     },
     {
       "pos": 59,
@@ -4801,7 +4584,9 @@ window.RDA_DATA = {
       "elo": 36.67,
       "ranking": 36.67,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 36.67
     },
     {
       "pos": 60,
@@ -4809,7 +4594,9 @@ window.RDA_DATA = {
       "elo": 23.33,
       "ranking": 23.33,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 23.33
     },
     {
       "pos": 61,
@@ -4817,7 +4604,9 @@ window.RDA_DATA = {
       "elo": 23.33,
       "ranking": 23.33,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 23.33
     },
     {
       "pos": 62,
@@ -4825,44 +4614,17 @@ window.RDA_DATA = {
       "elo": 0.0,
       "ranking": 0.0,
       "championships": 1,
-      "races": 3
+      "races": 3,
+      "quarterBonus": 0,
+      "rankingBase": 0.0
     }
   ],
-  "podiumDay": [
-    {
-      "pos": 1,
-      "name": "Twitc_Simomazz86",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "23:00",
-      "time": "29:47.776"
-    },
-    {
-      "pos": 2,
-      "name": "PYX69",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "23:00",
-      "time": "29:57.264"
-    },
-    {
-      "pos": 3,
-      "name": "gallo_opc_2",
-      "car": "911 GT3 RS (992) '22",
-      "carId": 491,
-      "session": "18:00",
-      "time": "30:01.237"
-    }
-  ],
+  "podiumDay": [],
   "podiumChampionship": [],
   "podiumMeta": {
-    "dayTitle": "RDA 911 PORSCHE CUP 2026",
-    "dayDate": "2026-10-20",
-    "dayTrack": "Kyoto Driving Park - Yamagiwa",
-    "dayRace": "Gara 6",
-    "champName": "RDA 911 PORSCHE CUP 2026",
+    "champName": "CAMPIONATO TOYOTA 86 \nGRMN 2",
     "champClosed": false,
-    "champMaster": 500
+    "champMaster": 250
   },
   "completedRaces": [
     {
@@ -5777,6 +5539,16 @@ window.RDA_DATA = {
     }
   ],
   "flyers": [
+    {
+      "id": "10-2-4-rda-master-500-911-porsche-cup-2026-ott-mart-giov-2",
+      "label": "10 2 4 Rda Master 500 911 Porsche Cup 2026   Ott  Mart Giov (2)",
+      "image": "assets/volantino-10-2-4-rda-master-500-911-porsche-cup-2026-ott-mart-giov-2.jpeg"
+    },
+    {
+      "id": "10-1-5-rda-master-1000",
+      "label": "10 1 5 Rda Master 1000",
+      "image": "assets/volantino-10-1-5-rda-master-1000.jpeg"
+    },
     {
       "id": "rda-accademia",
       "label": "Rda Accademia",
@@ -7144,7 +6916,7 @@ window.RDA_DATA = {
       }
     }
   ],
-  "currentChampionshipId": 7,
+  "currentChampionshipId": 11,
   "raceArchive": [
     {
       "eventId": 71,
@@ -30901,6 +30673,22 @@ window.RDA_DATA = {
         "label": "Regolamento ufficiale",
         "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
       }
+    },
+    {
+      "eventId": 72,
+      "isoDate": "2026-11-03",
+      "day": 3,
+      "month": 11,
+      "year": 2026,
+      "date": "03.11.2026",
+      "title": "CAMPIONATO TOYOTA 86 \nGRMN 2",
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2",
+      "championshipId": 11,
+      "master": 250,
+      "round": 1,
+      "gara": 1,
+      "track": "Circuito da definire",
+      "regulation": null
     }
   ],
   "podiumsByChampionship": [
