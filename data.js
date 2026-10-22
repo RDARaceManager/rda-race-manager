@@ -1,7 +1,7 @@
 window.RDA_DATA = {
   "meta": {
-    "hasOfficialResults": false,
-    "officialRounds": 0,
+    "hasOfficialResults": true,
+    "officialRounds": 6,
     "publishedDrivers": 62,
     "rankingSeason": 2026,
     "rankingName": "RANKING RDA 2026",
@@ -16,13 +16,602 @@ window.RDA_DATA = {
   },
   "calendar": [
     {
-      "date": "03.11.2026 – 26.11.2026",
-      "series": "RDA MASTER 250",
-      "title": "CAMPIONATO TOYOTA 86 \nGRMN 2"
+      "date": "01.10.2026 – 29.10.2026",
+      "series": "RDA MASTER 500",
+      "title": "RDA 911 PORSCHE CUP 2026"
     }
   ],
-  "dayResults": [],
-  "championship": [],
+  "dayResults": [
+    {
+      "pos": 1,
+      "name": "Twitc_Simomazz86",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "23:00",
+      "time": "29:47.776",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 2,
+      "name": "PYX69",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "23:00",
+      "time": "29:57.264",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 3,
+      "name": "gallo_opc_2",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "30:01.237",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 4,
+      "name": "stoccametuttu",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "30:18.353",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 5,
+      "name": "andrecalimero73",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "30:23.971",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 6,
+      "name": "SpeedSparco",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "30:25.275",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 7,
+      "name": "Spano19",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "30:25.598",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 8,
+      "name": "MaxMossa",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "30:25.949",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 9,
+      "name": "NICOLACI1966",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "30:43.881",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 10,
+      "name": "jnior_billokillo",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "21:00",
+      "time": "30:55.438",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 11,
+      "name": "brown_dsc",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "31:03.506",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 12,
+      "name": "G-BERNA",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "23:00",
+      "time": "31:05.796",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 13,
+      "name": "blmta73",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "23:00",
+      "time": "31:11.379",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 14,
+      "name": "danilomarika89",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "21:00",
+      "time": "32:51.676",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 15,
+      "name": "Pasky_Alfa",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 16,
+      "name": "cambridgino92",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 17,
+      "name": "Onmanuel-Btw_09",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "—",
+      "status": "1 giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 18,
+      "name": "lamonaca72",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "—",
+      "status": "1 giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 19,
+      "name": "premanugito",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "—",
+      "status": "1 giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 20,
+      "name": "ony89traccia",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "—",
+      "status": "1 giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 21,
+      "name": "AL1EN__999",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "21:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 22,
+      "name": "JONNYK7",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "21:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 23,
+      "name": "Fax-86-",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    }
+  ],
+  "championship": [
+    {
+      "pos": 1,
+      "name": "Spano19",
+      "pts": 262
+    },
+    {
+      "pos": 2,
+      "name": "Twitc_Simomazz86",
+      "pts": 242
+    },
+    {
+      "pos": 3,
+      "name": "NICOLACI1966",
+      "pts": 228
+    },
+    {
+      "pos": 4,
+      "name": "PYX69",
+      "pts": 221
+    },
+    {
+      "pos": 5,
+      "name": "andrecalimero73",
+      "pts": 154
+    },
+    {
+      "pos": 6,
+      "name": "gallo_opc_2",
+      "pts": 151
+    },
+    {
+      "pos": 7,
+      "name": "brown_dsc",
+      "pts": 131
+    },
+    {
+      "pos": 8,
+      "name": "a88312alfa",
+      "pts": 128
+    },
+    {
+      "pos": 9,
+      "name": "JONNYK7",
+      "pts": 128
+    },
+    {
+      "pos": 10,
+      "name": "Onmanuel-Btw_09",
+      "pts": 125
+    },
+    {
+      "pos": 11,
+      "name": "stoccametuttu",
+      "pts": 120
+    },
+    {
+      "pos": 12,
+      "name": "jnior_billokillo",
+      "pts": 104
+    },
+    {
+      "pos": 13,
+      "name": "Fax-86-",
+      "pts": 103
+    },
+    {
+      "pos": 14,
+      "name": "G-BERNA",
+      "pts": 102
+    },
+    {
+      "pos": 15,
+      "name": "Flavio_Nicolazzi",
+      "pts": 83
+    },
+    {
+      "pos": 16,
+      "name": "SpeedSparco",
+      "pts": 81
+    },
+    {
+      "pos": 17,
+      "name": "xxsiculo96xx",
+      "pts": 81
+    },
+    {
+      "pos": 18,
+      "name": "Caciotta_95",
+      "pts": 76
+    },
+    {
+      "pos": 19,
+      "name": "Vimdav",
+      "pts": 76
+    },
+    {
+      "pos": 20,
+      "name": "MaxMossa",
+      "pts": 65
+    },
+    {
+      "pos": 21,
+      "name": "VanMike91",
+      "pts": 64
+    },
+    {
+      "pos": 22,
+      "name": "luglio88",
+      "pts": 63
+    },
+    {
+      "pos": 23,
+      "name": "Pasky_Alfa",
+      "pts": 61
+    },
+    {
+      "pos": 24,
+      "name": "Squilybrio",
+      "pts": 55
+    },
+    {
+      "pos": 25,
+      "name": "forte984riso",
+      "pts": 50
+    },
+    {
+      "pos": 26,
+      "name": "Orsetto63",
+      "pts": 48
+    },
+    {
+      "pos": 27,
+      "name": "Izras1990",
+      "pts": 45
+    },
+    {
+      "pos": 28,
+      "name": "danilomarika89",
+      "pts": 44
+    },
+    {
+      "pos": 29,
+      "name": "illibrosnavi",
+      "pts": 40
+    },
+    {
+      "pos": 30,
+      "name": "Knowhere_7",
+      "pts": 32
+    },
+    {
+      "pos": 31,
+      "name": "blmta73",
+      "pts": 31
+    },
+    {
+      "pos": 32,
+      "name": "ghostman_79",
+      "pts": 27
+    },
+    {
+      "pos": 33,
+      "name": "lamonaca72",
+      "pts": 24
+    },
+    {
+      "pos": 34,
+      "name": "RTH_Yattaman373",
+      "pts": 22
+    },
+    {
+      "pos": 35,
+      "name": "familydidoschy",
+      "pts": 20
+    },
+    {
+      "pos": 36,
+      "name": "cambridgino92",
+      "pts": 19
+    },
+    {
+      "pos": 37,
+      "name": "teamanuel",
+      "pts": 18
+    },
+    {
+      "pos": 38,
+      "name": "giorobert",
+      "pts": 15
+    },
+    {
+      "pos": 39,
+      "name": "ICIOmnt",
+      "pts": 14
+    },
+    {
+      "pos": 40,
+      "name": "Mapucci_56",
+      "pts": 14
+    },
+    {
+      "pos": 41,
+      "name": "ony89traccia",
+      "pts": 14
+    },
+    {
+      "pos": 42,
+      "name": "premanugito",
+      "pts": 14
+    },
+    {
+      "pos": 43,
+      "name": "Ven0m_96-_",
+      "pts": 12
+    },
+    {
+      "pos": 44,
+      "name": "Aktarus1970",
+      "pts": 10
+    },
+    {
+      "pos": 45,
+      "name": "GiNiUs_Man",
+      "pts": 10
+    },
+    {
+      "pos": 46,
+      "name": "luigigar89",
+      "pts": 9
+    },
+    {
+      "pos": 47,
+      "name": "Ivlaisdead",
+      "pts": 7
+    },
+    {
+      "pos": 48,
+      "name": "XanderMich",
+      "pts": 7
+    },
+    {
+      "pos": 49,
+      "name": "Fantasmino7794",
+      "pts": 6
+    },
+    {
+      "pos": 50,
+      "name": "maverick370kmh",
+      "pts": 6
+    },
+    {
+      "pos": 51,
+      "name": "AL1EN__999",
+      "pts": 3
+    },
+    {
+      "pos": 52,
+      "name": "thegamer73",
+      "pts": 3
+    },
+    {
+      "pos": 53,
+      "name": "troppobello81",
+      "pts": 3
+    }
+  ],
   "elo": [
     {
       "pos": 1,
@@ -2955,6 +3544,22 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0
     },
     {
+      "name": "Lucapizzi23",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "driver_id": 196,
+      "psn": "Lucapizzi23",
+      "nicknameSecondary": "Pizzi",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
       "name": "luigigar89",
       "races": 6,
       "wins": 0,
@@ -4619,12 +5224,41 @@ window.RDA_DATA = {
       "rankingBase": 0.0
     }
   ],
-  "podiumDay": [],
+  "podiumDay": [
+    {
+      "pos": 1,
+      "name": "Twitc_Simomazz86",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "23:00",
+      "time": "29:47.776"
+    },
+    {
+      "pos": 2,
+      "name": "PYX69",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "23:00",
+      "time": "29:57.264"
+    },
+    {
+      "pos": 3,
+      "name": "gallo_opc_2",
+      "car": "911 GT3 RS (992) '22",
+      "carId": 491,
+      "session": "18:00",
+      "time": "30:01.237"
+    }
+  ],
   "podiumChampionship": [],
   "podiumMeta": {
-    "champName": "CAMPIONATO TOYOTA 86 \nGRMN 2",
+    "dayTitle": "RDA 911 PORSCHE CUP 2026",
+    "dayDate": "2026-10-20",
+    "dayTrack": "Kyoto Driving Park - Yamagiwa",
+    "dayRace": "Gara 6",
+    "champName": "RDA 911 PORSCHE CUP 2026",
     "champClosed": false,
-    "champMaster": 250
+    "champMaster": 500
   },
   "completedRaces": [
     {
@@ -6916,7 +7550,7 @@ window.RDA_DATA = {
       }
     }
   ],
-  "currentChampionshipId": 11,
+  "currentChampionshipId": 7,
   "raceArchive": [
     {
       "eventId": 71,
@@ -30673,22 +31307,6 @@ window.RDA_DATA = {
         "label": "Regolamento ufficiale",
         "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
       }
-    },
-    {
-      "eventId": 72,
-      "isoDate": "2026-11-03",
-      "day": 3,
-      "month": 11,
-      "year": 2026,
-      "date": "03.11.2026",
-      "title": "CAMPIONATO TOYOTA 86 \nGRMN 2",
-      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2",
-      "championshipId": 11,
-      "master": 250,
-      "round": 1,
-      "gara": 1,
-      "track": "Circuito da definire",
-      "regulation": null
     }
   ],
   "podiumsByChampionship": [
@@ -94320,6 +94938,24 @@ window.RDA_DATA = {
     }
   ],
   "rdaNews": [
+    {
+      "title": "Mi presento alla comunità RDA",
+      "date": "2026-10-22",
+      "kind": "Comunicato",
+      "driver": "",
+      "championship": "",
+      "track": "",
+      "penalty": "",
+      "license_points": "",
+      "body": "Ciao a tutti i piloti RDA!\n\nSono jonny e sono felice di entrare nella squadra come operatore.\n\nCollaborerò alla gestione delle gare, dei risultati e dei comunicati, con l’obiettivo di darvi informazioni chiare e aggiornate. Per qualsiasi dubbio sulle attività che seguirò, sarò a vostra disposizione.\n\nVi ringrazio per l’accoglienza e vi auguro buon divertimento e belle gare in pista!\n\nOperatore RDA",
+      "image": "",
+      "race_round": "",
+      "incident_lap": "",
+      "published": true,
+      "signature_choice": "Firma e timbro RDA",
+      "id": "1f1422588c7c48e881735c52767ed95a",
+      "updated_at": "2026-10-22T17:37:56.681860+00:00"
+    },
     {
       "title": "Mi presento alla comunità RDA",
       "date": "2026-10-21",
