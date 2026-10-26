@@ -1,7 +1,7 @@
 window.RDA_DATA = {
   "meta": {
     "hasOfficialResults": true,
-    "officialRounds": 15,
+    "officialRounds": 16,
     "publishedDrivers": 64,
     "rankingSeason": 2026,
     "rankingName": "RANKING RDA 2026",
@@ -18,11 +18,11 @@ window.RDA_DATA = {
   "dayResults": [
     {
       "pos": 1,
-      "name": "Cinciripini79",
+      "name": "Spano19",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "21:00",
-      "time": "57:51.948",
+      "session": "23:00",
+      "time": "48:46.032",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -32,11 +32,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 2,
-      "name": "Spano19",
+      "name": "brown_dsc",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "21:00",
-      "time": "57:53.689",
+      "session": "23:00",
+      "time": "49:04.481",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -46,11 +46,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 3,
-      "name": "a88312alfa",
+      "name": "Cinciripini79",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "23:00",
-      "time": "58:13.846",
+      "session": "18:00",
+      "time": "49:05.797",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -60,11 +60,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 4,
-      "name": "JONNYK7",
+      "name": "MaxMossa",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
       "session": "15:00",
-      "time": "58:23.404",
+      "time": "49:12.537",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -74,11 +74,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 5,
-      "name": "MaxMossa",
+      "name": "Twitc_Simomazz86",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "15:00",
-      "time": "58:24.913",
+      "session": "23:00",
+      "time": "49:14.287",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -88,11 +88,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 6,
-      "name": "giorobert",
+      "name": "gallo_opc_2",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "15:00",
-      "time": "58:42.962",
+      "session": "18:00",
+      "time": "49:22.760",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -102,11 +102,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 7,
-      "name": "jnior_billokillo",
+      "name": "JONNYK7",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "21:00",
-      "time": "58:51.838",
+      "session": "15:00",
+      "time": "49:25.039",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -116,11 +116,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 8,
-      "name": "gallo_opc_2",
+      "name": "Caciotta_95",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
       "session": "15:00",
-      "time": "58:55.224",
+      "time": "49:25.322",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -130,11 +130,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 9,
-      "name": "illibrosnavi",
+      "name": "a88312alfa",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
       "session": "23:00",
-      "time": "59:10.004",
+      "time": "49:43.726",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -144,11 +144,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 10,
-      "name": "PYX69",
+      "name": "NICOLACI1966",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "23:00",
-      "time": "59:13.669",
+      "session": "15:00",
+      "time": "49:45.278",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -158,11 +158,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 11,
-      "name": "VanMike91",
+      "name": "giorobert",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "21:00",
-      "time": "59:23.570",
+      "session": "15:00",
+      "time": "49:48.892",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -172,11 +172,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 12,
-      "name": "Onmanuel-Btw_09",
+      "name": "VanMike91",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "15:00",
-      "time": "59:30.674",
+      "session": "23:00",
+      "time": "50:01.446",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -186,11 +186,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 13,
-      "name": "NICOLACI1966",
+      "name": "Onmanuel-Btw_09",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
       "session": "15:00",
-      "time": "59:36.057",
+      "time": "50:07.335",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -200,11 +200,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 14,
-      "name": "andrecalimero73",
-      "car": "WRX Gr.4",
-      "carId": 280,
+      "name": "luglio88",
+      "car": "GT by Citroen Gr.4",
+      "carId": 269,
       "session": "15:00",
-      "time": "59:36.481",
+      "time": "50:26.104",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -214,11 +214,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 15,
-      "name": "Caciotta_95",
-      "car": "F-type Gr.4",
-      "carId": 272,
-      "session": "23:00",
-      "time": "59:39.661",
+      "name": "lamonaca72",
+      "car": "GT by Citroen Gr.4",
+      "carId": 269,
+      "session": "15:00",
+      "time": "50:34.475",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -228,12 +228,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 16,
-      "name": "lamonaca72",
+      "name": "jnior_billokillo",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "15:00",
-      "time": "59:45.581",
-      "status": "FINITO",
+      "session": "18:00",
+      "time": "—",
+      "status": "1giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -242,12 +242,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 17,
-      "name": "luglio88",
+      "name": "premanugito",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
       "session": "15:00",
-      "time": "1:00:03.247",
-      "status": "FINITO",
+      "time": "—",
+      "status": "1giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -260,8 +260,8 @@ window.RDA_DATA = {
       "car": "V8 Vantage Gr.4",
       "carId": 202,
       "session": "23:00",
-      "time": "1:00:17.416",
-      "status": "FINITO",
+      "time": "—",
+      "status": "1giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -270,12 +270,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 19,
-      "name": "danilomarika89",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
+      "name": "Pasky_Alfa",
+      "car": "650S Gr.4",
+      "carId": 276,
       "session": "23:00",
-      "time": "1:00:24.321",
-      "status": "FINITO",
+      "time": "—",
+      "status": "1giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -284,12 +284,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 20,
-      "name": "premanugito",
+      "name": "ERT_G_Ap83",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "15:00",
+      "session": "18:00",
       "time": "—",
-      "status": "1 giro",
+      "status": "DNF",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -298,37 +298,9 @@ window.RDA_DATA = {
     },
     {
       "pos": 21,
-      "name": "Ivlaisdead",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "23:00",
-      "time": "—",
-      "status": "1 giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 22,
-      "name": "Pasky_Alfa",
-      "car": "650S Gr.4",
-      "carId": 276,
-      "session": "23:00",
-      "time": "—",
-      "status": "1 giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 23,
       "name": "Onofrio",
-      "car": "650S Gr.4",
-      "carId": 276,
+      "car": "F-type Gr.4",
+      "carId": 272,
       "session": "15:00",
       "time": "—",
       "status": "DNF",
@@ -339,8 +311,36 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
+      "pos": 22,
+      "name": "danilomarika89",
+      "car": "GT by Citroen Gr.4",
+      "carId": 269,
+      "session": "23:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 23,
+      "name": "PYX69",
+      "car": "GT by Citroen Gr.4",
+      "carId": 269,
+      "session": "23:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
       "pos": 24,
-      "name": "Luca_x90ct",
+      "name": "Ivlaisdead",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
       "session": "23:00",
@@ -357,52 +357,52 @@ window.RDA_DATA = {
     {
       "pos": 1,
       "name": "Spano19",
-      "pts": 627
+      "pts": 677
     },
     {
       "pos": 2,
       "name": "MaxMossa",
-      "pts": 471
+      "pts": 511
     },
     {
       "pos": 3,
       "name": "gallo_opc_2",
-      "pts": 421
+      "pts": 457
     },
     {
       "pos": 4,
       "name": "giorobert",
-      "pts": 407
+      "pts": 432
     },
     {
       "pos": 5,
+      "name": "Twitc_Simomazz86",
+      "pts": 424
+    },
+    {
+      "pos": 6,
       "name": "forte984riso",
       "pts": 390
     },
     {
-      "pos": 6,
-      "name": "Twitc_Simomazz86",
+      "pos": 7,
+      "name": "JONNYK7",
+      "pts": 388
+    },
+    {
+      "pos": 8,
+      "name": "Cinciripini79",
       "pts": 386
     },
     {
-      "pos": 7,
+      "pos": 9,
       "name": "PYX69",
       "pts": 386
     },
     {
-      "pos": 8,
-      "name": "JONNYK7",
-      "pts": 354
-    },
-    {
-      "pos": 9,
-      "name": "Cinciripini79",
-      "pts": 343
-    },
-    {
       "pos": 10,
       "name": "NICOLACI1966",
-      "pts": 334
+      "pts": 361
     },
     {
       "pos": 11,
@@ -416,23 +416,23 @@ window.RDA_DATA = {
     },
     {
       "pos": 13,
-      "name": "a88312alfa",
-      "pts": 261
+      "name": "Caciotta_95",
+      "pts": 292
     },
     {
       "pos": 14,
-      "name": "Caciotta_95",
-      "pts": 260
+      "name": "a88312alfa",
+      "pts": 291
     },
     {
       "pos": 15,
       "name": "Onmanuel-Btw_09",
-      "pts": 228
+      "pts": 248
     },
     {
       "pos": 16,
       "name": "jnior_billokillo",
-      "pts": 221
+      "pts": 235
     },
     {
       "pos": 17,
@@ -442,7 +442,7 @@ window.RDA_DATA = {
     {
       "pos": 18,
       "name": "lamonaca72",
-      "pts": 185
+      "pts": 201
     },
     {
       "pos": 19,
@@ -461,13 +461,13 @@ window.RDA_DATA = {
     },
     {
       "pos": 22,
-      "name": "andrecalimero73",
-      "pts": 120
+      "name": "VanMike91",
+      "pts": 139
     },
     {
       "pos": 23,
-      "name": "VanMike91",
-      "pts": 117
+      "name": "andrecalimero73",
+      "pts": 120
     },
     {
       "pos": 24,
@@ -477,7 +477,7 @@ window.RDA_DATA = {
     {
       "pos": 25,
       "name": "luglio88",
-      "pts": 89
+      "pts": 107
     },
     {
       "pos": 26,
@@ -491,77 +491,77 @@ window.RDA_DATA = {
     },
     {
       "pos": 28,
+      "name": "brown_dsc",
+      "pts": 81
+    },
+    {
+      "pos": 29,
+      "name": "Pasky_Alfa",
+      "pts": 77
+    },
+    {
+      "pos": 30,
       "name": "Fantasmino7794",
       "pts": 74
     },
     {
-      "pos": 29,
+      "pos": 31,
       "name": "illibrosnavi",
       "pts": 69
     },
     {
-      "pos": 30,
-      "name": "Pasky_Alfa",
-      "pts": 63
-    },
-    {
-      "pos": 31,
+      "pos": 32,
       "name": "blmta73",
       "pts": 55
     },
     {
-      "pos": 32,
+      "pos": 33,
       "name": "danilomarika89",
       "pts": 54
     },
     {
-      "pos": 33,
+      "pos": 34,
       "name": "lucap1969",
       "pts": 53
     },
     {
-      "pos": 34,
+      "pos": 35,
+      "name": "premanugito",
+      "pts": 52
+    },
+    {
+      "pos": 36,
       "name": "dado1381",
       "pts": 48
     },
     {
-      "pos": 35,
+      "pos": 37,
+      "name": "Squilybrio",
+      "pts": 45
+    },
+    {
+      "pos": 38,
       "name": "Ivlai",
       "pts": 44
     },
     {
-      "pos": 36,
+      "pos": 39,
       "name": "zyx_977",
       "pts": 41
     },
     {
-      "pos": 37,
+      "pos": 40,
       "name": "AT29Andrea",
       "pts": 40
     },
     {
-      "pos": 38,
-      "name": "premanugito",
-      "pts": 38
-    },
-    {
-      "pos": 39,
+      "pos": 41,
       "name": "streetracer2701",
       "pts": 38
     },
     {
-      "pos": 40,
-      "name": "brown_dsc",
-      "pts": 36
-    },
-    {
-      "pos": 41,
-      "name": "Dom_78_furious",
-      "pts": 31
-    },
-    {
       "pos": 42,
-      "name": "Squilybrio",
+      "name": "Dom_78_furious",
       "pts": 31
     },
     {
@@ -636,31 +636,36 @@ window.RDA_DATA = {
     },
     {
       "pos": 57,
-      "name": "fenice_00700",
+      "name": "ERT_G_Ap83",
       "pts": 0
     },
     {
       "pos": 58,
-      "name": "Luca_x90ct",
+      "name": "fenice_00700",
       "pts": 0
     },
     {
       "pos": 59,
-      "name": "Mapucci_56",
+      "name": "Luca_x90ct",
       "pts": 0
     },
     {
       "pos": 60,
-      "name": "Onofrio",
+      "name": "Mapucci_56",
       "pts": 0
     },
     {
       "pos": 61,
-      "name": "Richy_1322",
+      "name": "Onofrio",
       "pts": 0
     },
     {
       "pos": 62,
+      "name": "Richy_1322",
+      "pts": 0
+    },
+    {
+      "pos": 63,
       "name": "Svenom_21",
       "pts": 0
     }
@@ -669,12 +674,12 @@ window.RDA_DATA = {
     {
       "pos": 1,
       "name": "Spano19",
-      "elo": 3245.62,
-      "ranking": 3245.62,
+      "elo": 3246.48,
+      "ranking": 3246.48,
       "championships": 7,
-      "races": 64,
+      "races": 65,
       "quarterBonus": 0,
-      "rankingBase": 3245.62
+      "rankingBase": 3246.48
     },
     {
       "pos": 2,
@@ -709,42 +714,42 @@ window.RDA_DATA = {
     {
       "pos": 5,
       "name": "MaxMossa",
-      "elo": 1943.64,
-      "ranking": 1943.64,
+      "elo": 1944.98,
+      "ranking": 1944.98,
       "championships": 7,
-      "races": 49,
+      "races": 50,
       "quarterBonus": 0,
-      "rankingBase": 1943.64
+      "rankingBase": 1944.98
     },
     {
       "pos": 6,
       "name": "gallo_opc_2",
-      "elo": 1935.38,
-      "ranking": 1935.38,
+      "elo": 1936.03,
+      "ranking": 1936.03,
       "championships": 7,
-      "races": 60,
+      "races": 61,
       "quarterBonus": 0,
-      "rankingBase": 1935.38
+      "rankingBase": 1936.03
     },
     {
       "pos": 7,
       "name": "Caciotta_95",
-      "elo": 1903.25,
-      "ranking": 1903.25,
+      "elo": 1904.61,
+      "ranking": 1904.61,
       "championships": 6,
-      "races": 32,
+      "races": 33,
       "quarterBonus": 0,
-      "rankingBase": 1903.25
+      "rankingBase": 1904.61
     },
     {
       "pos": 8,
       "name": "brown_dsc",
-      "elo": 1857.5,
-      "ranking": 1857.5,
+      "elo": 1878.12,
+      "ranking": 1878.12,
       "championships": 6,
-      "races": 31,
+      "races": 32,
       "quarterBonus": 0,
-      "rankingBase": 1857.5
+      "rankingBase": 1878.12
     },
     {
       "pos": 9,
@@ -779,42 +784,42 @@ window.RDA_DATA = {
     {
       "pos": 12,
       "name": "Twitc_Simomazz86",
-      "elo": 1703.92,
-      "ranking": 1703.92,
+      "elo": 1704.52,
+      "ranking": 1704.52,
       "championships": 6,
-      "races": 47,
+      "races": 48,
       "quarterBonus": 0,
-      "rankingBase": 1703.92
+      "rankingBase": 1704.52
     },
     {
       "pos": 13,
       "name": "NICOLACI1966",
-      "elo": 1654.12,
-      "ranking": 1654.12,
+      "elo": 1653.42,
+      "ranking": 1653.42,
       "championships": 7,
-      "races": 57,
+      "races": 58,
       "quarterBonus": 0,
-      "rankingBase": 1654.12
+      "rankingBase": 1653.42
     },
     {
       "pos": 14,
       "name": "JONNYK7",
-      "elo": 1641.79,
-      "ranking": 1641.79,
+      "elo": 1641.47,
+      "ranking": 1641.47,
       "championships": 6,
-      "races": 33,
+      "races": 34,
       "quarterBonus": 0,
-      "rankingBase": 1641.79
+      "rankingBase": 1641.47
     },
     {
       "pos": 15,
       "name": "PYX69",
-      "elo": 1612.44,
-      "ranking": 1612.44,
+      "elo": 1607.85,
+      "ranking": 1607.85,
       "championships": 7,
-      "races": 54,
+      "races": 55,
       "quarterBonus": 0,
-      "rankingBase": 1612.44
+      "rankingBase": 1607.85
     },
     {
       "pos": 16,
@@ -829,12 +834,12 @@ window.RDA_DATA = {
     {
       "pos": 17,
       "name": "a88312alfa",
-      "elo": 1540.8,
-      "ranking": 1540.8,
+      "elo": 1541.68,
+      "ranking": 1541.68,
       "championships": 7,
-      "races": 48,
+      "races": 49,
       "quarterBonus": 0,
-      "rankingBase": 1540.8
+      "rankingBase": 1541.68
     },
     {
       "pos": 18,
@@ -849,12 +854,12 @@ window.RDA_DATA = {
     {
       "pos": 19,
       "name": "Onmanuel-Btw_09",
-      "elo": 1315.02,
-      "ranking": 1315.02,
+      "elo": 1315.22,
+      "ranking": 1315.22,
       "championships": 7,
-      "races": 51,
+      "races": 52,
       "quarterBonus": 0,
-      "rankingBase": 1315.02
+      "rankingBase": 1315.22
     },
     {
       "pos": 20,
@@ -899,22 +904,22 @@ window.RDA_DATA = {
     {
       "pos": 24,
       "name": "VanMike91",
-      "elo": 897.92,
-      "ranking": 897.92,
+      "elo": 900.17,
+      "ranking": 900.17,
       "championships": 7,
-      "races": 38,
+      "races": 39,
       "quarterBonus": 0,
-      "rankingBase": 897.92
+      "rankingBase": 900.17
     },
     {
       "pos": 25,
       "name": "jnior_billokillo",
-      "elo": 847.95,
-      "ranking": 847.95,
+      "elo": 847.1,
+      "ranking": 847.1,
       "championships": 6,
-      "races": 43,
+      "races": 44,
       "quarterBonus": 0,
-      "rankingBase": 847.95
+      "rankingBase": 847.1
     },
     {
       "pos": 26,
@@ -939,22 +944,22 @@ window.RDA_DATA = {
     {
       "pos": 28,
       "name": "luglio88",
-      "elo": 758.9,
-      "ranking": 758.9,
+      "elo": 760.04,
+      "ranking": 760.04,
       "championships": 7,
-      "races": 44,
+      "races": 45,
       "quarterBonus": 0,
-      "rankingBase": 758.9
+      "rankingBase": 760.04
     },
     {
       "pos": 29,
       "name": "giorobert",
-      "elo": 736.49,
-      "ranking": 736.49,
+      "elo": 735.81,
+      "ranking": 735.81,
       "championships": 5,
-      "races": 35,
+      "races": 36,
       "quarterBonus": 0,
-      "rankingBase": 736.49
+      "rankingBase": 735.81
     },
     {
       "pos": 30,
@@ -969,12 +974,12 @@ window.RDA_DATA = {
     {
       "pos": 31,
       "name": "lamonaca72",
-      "elo": 561.71,
-      "ranking": 561.71,
+      "elo": 561.54,
+      "ranking": 561.54,
       "championships": 6,
-      "races": 35,
+      "races": 36,
       "quarterBonus": 0,
-      "rankingBase": 561.71
+      "rankingBase": 561.54
     },
     {
       "pos": 32,
@@ -1029,35 +1034,45 @@ window.RDA_DATA = {
     {
       "pos": 37,
       "name": "Pasky_Alfa",
-      "elo": 399.57,
-      "ranking": 399.57,
+      "elo": 401.27,
+      "ranking": 401.27,
       "championships": 6,
-      "races": 42,
+      "races": 43,
       "quarterBonus": 0,
-      "rankingBase": 399.57
+      "rankingBase": 401.27
     },
     {
       "pos": 38,
       "name": "danilomarika89",
-      "elo": 391.67,
-      "ranking": 391.67,
+      "elo": 390.17,
+      "ranking": 390.17,
       "championships": 5,
-      "races": 31,
+      "races": 32,
       "quarterBonus": 0,
-      "rankingBase": 391.67
+      "rankingBase": 390.17
     },
     {
       "pos": 39,
       "name": "Cinciripini79",
-      "elo": 382.95,
-      "ranking": 382.95,
+      "elo": 385.42,
+      "ranking": 385.42,
       "championships": 2,
-      "races": 17,
+      "races": 18,
       "quarterBonus": 0,
-      "rankingBase": 382.95
+      "rankingBase": 385.42
     },
     {
       "pos": 40,
+      "name": "Ivlaisdead",
+      "elo": 346.17,
+      "ranking": 346.17,
+      "championships": 5,
+      "races": 22,
+      "quarterBonus": 0,
+      "rankingBase": 346.17
+    },
+    {
+      "pos": 41,
       "name": "lucap1969",
       "elo": 333.79,
       "ranking": 333.79,
@@ -1065,16 +1080,6 @@ window.RDA_DATA = {
       "races": 16,
       "quarterBonus": 0,
       "rankingBase": 333.79
-    },
-    {
-      "pos": 41,
-      "name": "Ivlaisdead",
-      "elo": 332.0,
-      "ranking": 332.0,
-      "championships": 4,
-      "races": 19,
-      "quarterBonus": 0,
-      "rankingBase": 332.0
     },
     {
       "pos": 42,
@@ -1148,6 +1153,16 @@ window.RDA_DATA = {
     },
     {
       "pos": 49,
+      "name": "Squilybrio",
+      "elo": 194.5,
+      "ranking": 194.5,
+      "championships": 3,
+      "races": 13,
+      "quarterBonus": 0,
+      "rankingBase": 194.5
+    },
+    {
+      "pos": 50,
       "name": "ICIOmnt",
       "elo": 162.64,
       "ranking": 162.64,
@@ -1155,16 +1170,6 @@ window.RDA_DATA = {
       "races": 24,
       "quarterBonus": 0,
       "rankingBase": 162.64
-    },
-    {
-      "pos": 50,
-      "name": "Squilybrio",
-      "elo": 157.0,
-      "ranking": 157.0,
-      "championships": 2,
-      "races": 10,
-      "quarterBonus": 0,
-      "rankingBase": 157.0
     },
     {
       "pos": 51,
@@ -1189,12 +1194,12 @@ window.RDA_DATA = {
     {
       "pos": 53,
       "name": "premanugito",
-      "elo": 105.67,
-      "ranking": 105.67,
+      "elo": 108.33,
+      "ranking": 108.33,
       "championships": 2,
-      "races": 8,
+      "races": 9,
       "quarterBonus": 0,
-      "rankingBase": 105.67
+      "rankingBase": 108.33
     },
     {
       "pos": 54,
@@ -1310,11 +1315,11 @@ window.RDA_DATA = {
   "drivers": [
     {
       "name": "Spano19",
-      "races": 64,
-      "wins": 21,
-      "podiums": 53,
-      "elo": 3245.62,
-      "ranking": 3245.62,
+      "races": 65,
+      "wins": 22,
+      "podiums": 54,
+      "elo": 3246.48,
+      "ranking": 3246.48,
       "driver_id": 1,
       "psn": "Spano19",
       "nicknameSecondary": "RDA_Spano19",
@@ -1368,7 +1373,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 3245.62
+      "rankingBase": 3246.48
     },
     {
       "name": "SpeedSparco",
@@ -1466,11 +1471,11 @@ window.RDA_DATA = {
     },
     {
       "name": "MaxMossa",
-      "races": 49,
+      "races": 50,
       "wins": 1,
       "podiums": 7,
-      "elo": 1943.64,
-      "ranking": 1943.64,
+      "elo": 1944.98,
+      "ranking": 1944.98,
       "driver_id": 5,
       "psn": "",
       "nicknameSecondary": "Rda_M.Mossa",
@@ -1480,15 +1485,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1943.64
+      "rankingBase": 1944.98
     },
     {
       "name": "gallo_opc_2",
-      "races": 60,
+      "races": 61,
       "wins": 0,
       "podiums": 5,
-      "elo": 1935.38,
-      "ranking": 1935.38,
+      "elo": 1936.03,
+      "ranking": 1936.03,
       "driver_id": 10,
       "psn": "gallo_opc_2",
       "nicknameSecondary": "Gallo ST",
@@ -1511,15 +1516,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1935.38
+      "rankingBase": 1936.03
     },
     {
       "name": "Caciotta_95",
-      "races": 34,
+      "races": 35,
       "wins": 0,
       "podiums": 5,
-      "elo": 1903.25,
-      "ranking": 1903.25,
+      "elo": 1904.61,
+      "ranking": 1904.61,
       "driver_id": 6,
       "psn": "Caciotta_95",
       "nicknameSecondary": "Roslin_90",
@@ -1529,15 +1534,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1903.25
+      "rankingBase": 1904.61
     },
     {
       "name": "brown_dsc",
-      "races": 33,
+      "races": 34,
       "wins": 2,
-      "podiums": 6,
-      "elo": 1857.5,
-      "ranking": 1857.5,
+      "podiums": 7,
+      "elo": 1878.12,
+      "ranking": 1878.12,
       "driver_id": 34,
       "psn": "brown_dsc",
       "nicknameSecondary": "Brown",
@@ -1547,7 +1552,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1857.5
+      "rankingBase": 1878.12
     },
     {
       "name": "Granata_93",
@@ -1605,11 +1610,11 @@ window.RDA_DATA = {
     },
     {
       "name": "Twitc_Simomazz86",
-      "races": 47,
+      "races": 48,
       "wins": 4,
       "podiums": 6,
-      "elo": 1703.92,
-      "ranking": 1703.92,
+      "elo": 1704.52,
+      "ranking": 1704.52,
       "driver_id": 33,
       "psn": "Twich_simomazz86",
       "nicknameSecondary": "Simomaz",
@@ -1619,18 +1624,18 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1703.92
+      "rankingBase": 1704.52
     },
     {
       "name": "NICOLACI1966",
-      "races": 57,
+      "races": 58,
       "wins": 1,
       "podiums": 6,
-      "elo": 1654.12,
-      "ranking": 1654.12,
+      "elo": 1653.42,
+      "ranking": 1653.42,
       "driver_id": 15,
-      "psn": "",
-      "nicknameSecondary": "",
+      "psn": "NICOLACI1966",
+      "nicknameSecondary": "NICOLACI66",
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [
@@ -1644,15 +1649,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1654.12
+      "rankingBase": 1653.42
     },
     {
       "name": "JONNYK7",
-      "races": 33,
+      "races": 34,
       "wins": 0,
       "podiums": 4,
-      "elo": 1641.79,
-      "ranking": 1641.79,
+      "elo": 1641.47,
+      "ranking": 1641.47,
       "driver_id": 12,
       "psn": "JONNYK7",
       "nicknameSecondary": "JONNYK7",
@@ -1662,15 +1667,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1641.79
+      "rankingBase": 1641.47
     },
     {
       "name": "PYX69",
-      "races": 54,
+      "races": 55,
       "wins": 0,
       "podiums": 4,
-      "elo": 1612.44,
-      "ranking": 1612.44,
+      "elo": 1607.85,
+      "ranking": 1607.85,
       "driver_id": 17,
       "psn": "PYX69",
       "nicknameSecondary": "PYX69",
@@ -1680,7 +1685,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1612.44
+      "rankingBase": 1607.85
     },
     {
       "name": "Vimdav",
@@ -1702,11 +1707,11 @@ window.RDA_DATA = {
     },
     {
       "name": "a88312alfa",
-      "races": 48,
+      "races": 49,
       "wins": 2,
       "podiums": 5,
-      "elo": 1540.8,
-      "ranking": 1540.8,
+      "elo": 1541.68,
+      "ranking": 1541.68,
       "driver_id": 11,
       "psn": "",
       "nicknameSecondary": "",
@@ -1716,7 +1721,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1540.8
+      "rankingBase": 1541.68
     },
     {
       "name": "xxsiculo96xx",
@@ -1738,11 +1743,11 @@ window.RDA_DATA = {
     },
     {
       "name": "Onmanuel-Btw_09",
-      "races": 51,
+      "races": 52,
       "wins": 0,
       "podiums": 1,
-      "elo": 1315.02,
-      "ranking": 1315.02,
+      "elo": 1315.22,
+      "ranking": 1315.22,
       "driver_id": 22,
       "psn": "Onmanuel-Btw_09",
       "nicknameSecondary": "RDA_Ivan.Gallo",
@@ -1752,7 +1757,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1315.02
+      "rankingBase": 1315.22
     },
     {
       "name": "andrecalimero73",
@@ -1828,11 +1833,11 @@ window.RDA_DATA = {
     },
     {
       "name": "VanMike91",
-      "races": 38,
+      "races": 39,
       "wins": 0,
       "podiums": 0,
-      "elo": 897.92,
-      "ranking": 897.92,
+      "elo": 900.17,
+      "ranking": 900.17,
       "driver_id": 136,
       "psn": "VanMike91",
       "nicknameSecondary": "M.VANGI",
@@ -1842,15 +1847,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 6,
       "rdaPenaltyCount": 1,
       "quarterBonus": 0,
-      "rankingBase": 897.92
+      "rankingBase": 900.17
     },
     {
       "name": "jnior_billokillo",
-      "races": 43,
+      "races": 44,
       "wins": 0,
       "podiums": 0,
-      "elo": 847.95,
-      "ranking": 847.95,
+      "elo": 847.1,
+      "ranking": 847.1,
       "driver_id": 26,
       "psn": "",
       "nicknameSecondary": "Billokillo",
@@ -1860,7 +1865,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 847.95
+      "rankingBase": 847.1
     },
     {
       "name": "Mauri8156",
@@ -1900,11 +1905,11 @@ window.RDA_DATA = {
     },
     {
       "name": "luglio88",
-      "races": 44,
+      "races": 45,
       "wins": 0,
       "podiums": 1,
-      "elo": 758.9,
-      "ranking": 758.9,
+      "elo": 760.04,
+      "ranking": 760.04,
       "driver_id": 30,
       "psn": "luglio 88",
       "nicknameSecondary": "Luglio 88",
@@ -1914,15 +1919,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 2,
       "quarterBonus": 0,
-      "rankingBase": 758.9
+      "rankingBase": 760.04
     },
     {
       "name": "giorobert",
-      "races": 38,
+      "races": 39,
       "wins": 0,
       "podiums": 2,
-      "elo": 736.49,
-      "ranking": 736.49,
+      "elo": 735.81,
+      "ranking": 735.81,
       "driver_id": 38,
       "psn": "",
       "nicknameSecondary": "giorobert",
@@ -1932,7 +1937,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 736.49
+      "rankingBase": 735.81
     },
     {
       "name": "blmta73",
@@ -1954,11 +1959,11 @@ window.RDA_DATA = {
     },
     {
       "name": "lamonaca72",
-      "races": 37,
+      "races": 38,
       "wins": 0,
       "podiums": 0,
-      "elo": 561.71,
-      "ranking": 561.71,
+      "elo": 561.54,
+      "ranking": 561.54,
       "driver_id": 37,
       "psn": "lamonaca72",
       "nicknameSecondary": "Anto72",
@@ -1968,7 +1973,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 561.71
+      "rankingBase": 561.54
     },
     {
       "name": "Dom_78_furious",
@@ -2062,11 +2067,11 @@ window.RDA_DATA = {
     },
     {
       "name": "Pasky_Alfa",
-      "races": 43,
+      "races": 44,
       "wins": 0,
       "podiums": 0,
-      "elo": 399.57,
-      "ranking": 399.57,
+      "elo": 401.27,
+      "ranking": 401.27,
       "driver_id": 43,
       "psn": "pasky-alfa",
       "nicknameSecondary": "Pasqualino Sarcinella",
@@ -2076,15 +2081,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 399.57
+      "rankingBase": 401.27
     },
     {
       "name": "danilomarika89",
-      "races": 34,
+      "races": 35,
       "wins": 0,
       "podiums": 0,
-      "elo": 391.67,
-      "ranking": 391.67,
+      "elo": 390.17,
+      "ranking": 390.17,
       "driver_id": 80,
       "psn": "danilomarika89",
       "nicknameSecondary": "Danilokush",
@@ -2094,15 +2099,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 391.67
+      "rankingBase": 390.17
     },
     {
       "name": "Cinciripini79",
-      "races": 20,
+      "races": 21,
       "wins": 2,
-      "podiums": 6,
-      "elo": 382.95,
-      "ranking": 382.95,
+      "podiums": 7,
+      "elo": 385.42,
+      "ranking": 385.42,
       "driver_id": 62,
       "psn": "cinciripini79",
       "nicknameSecondary": "Scarrace79",
@@ -2112,7 +2117,25 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 382.95
+      "rankingBase": 385.42
+    },
+    {
+      "name": "Ivlaisdead",
+      "races": 24,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 346.17,
+      "ranking": 346.17,
+      "driver_id": 82,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 346.17
     },
     {
       "name": "lucap1969",
@@ -2131,24 +2154,6 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
       "rankingBase": 333.79
-    },
-    {
-      "name": "Ivlaisdead",
-      "races": 23,
-      "wins": 0,
-      "podiums": 0,
-      "elo": 332.0,
-      "ranking": 332.0,
-      "driver_id": 82,
-      "psn": "",
-      "nicknameSecondary": "",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": [],
-      "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0,
-      "quarterBonus": 0,
-      "rankingBase": 332.0
     },
     {
       "name": "JoeMan-17",
@@ -2277,6 +2282,24 @@ window.RDA_DATA = {
       "rankingBase": 221.67
     },
     {
+      "name": "Squilybrio",
+      "races": 17,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 194.5,
+      "ranking": 194.5,
+      "driver_id": 46,
+      "psn": "Squilybrio",
+      "nicknameSecondary": "Gabriele",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 194.5
+    },
+    {
       "name": "ICIOmnt",
       "races": 28,
       "wins": 0,
@@ -2293,24 +2316,6 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
       "rankingBase": 162.64
-    },
-    {
-      "name": "Squilybrio",
-      "races": 16,
-      "wins": 0,
-      "podiums": 0,
-      "elo": 157.0,
-      "ranking": 157.0,
-      "driver_id": 46,
-      "psn": "Squilybrio",
-      "nicknameSecondary": "Gabriele",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": [],
-      "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0,
-      "quarterBonus": 0,
-      "rankingBase": 157.0
     },
     {
       "name": "tony123230",
@@ -2350,11 +2355,11 @@ window.RDA_DATA = {
     },
     {
       "name": "premanugito",
-      "races": 13,
+      "races": 14,
       "wins": 0,
       "podiums": 0,
-      "elo": 105.67,
-      "ranking": 105.67,
+      "elo": 108.33,
+      "ranking": 108.33,
       "driver_id": 142,
       "psn": "premanugito",
       "nicknameSecondary": "Prema",
@@ -2364,7 +2369,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 105.67
+      "rankingBase": 108.33
     },
     {
       "name": "Orsetto63",
@@ -2392,8 +2397,8 @@ window.RDA_DATA = {
       "elo": 85.0,
       "ranking": 85.0,
       "driver_id": 86,
-      "psn": "",
-      "nicknameSecondary": "",
+      "psn": "Aktarus1970",
+      "nicknameSecondary": "Aktarus70",
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
@@ -2476,7 +2481,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Ivlai",
-      "races": 27,
+      "races": 28,
       "wins": 0,
       "podiums": 0,
       "elo": 36.67,
@@ -2620,7 +2625,7 @@ window.RDA_DATA = {
       "elo": 0,
       "ranking": 0,
       "driver_id": 116,
-      "psn": "",
+      "psn": "Alessin",
       "nicknameSecondary": "Alchimia bianconera JOFC G Scirea",
       "nicknameRacing": "",
       "titles": [],
@@ -3254,7 +3259,7 @@ window.RDA_DATA = {
     },
     {
       "name": "ERT_G_Ap83",
-      "races": 0,
+      "races": 1,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3910,7 +3915,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Onofrio",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -4715,12 +4720,12 @@ window.RDA_DATA = {
     {
       "pos": 1,
       "name": "Spano19",
-      "elo": 3245.62,
-      "ranking": 3245.62,
+      "elo": 3246.48,
+      "ranking": 3246.48,
       "championships": 7,
-      "races": 64,
+      "races": 65,
       "quarterBonus": 0,
-      "rankingBase": 3245.62
+      "rankingBase": 3246.48
     },
     {
       "pos": 2,
@@ -4755,42 +4760,42 @@ window.RDA_DATA = {
     {
       "pos": 5,
       "name": "MaxMossa",
-      "elo": 1943.64,
-      "ranking": 1943.64,
+      "elo": 1944.98,
+      "ranking": 1944.98,
       "championships": 7,
-      "races": 49,
+      "races": 50,
       "quarterBonus": 0,
-      "rankingBase": 1943.64
+      "rankingBase": 1944.98
     },
     {
       "pos": 6,
       "name": "gallo_opc_2",
-      "elo": 1935.38,
-      "ranking": 1935.38,
+      "elo": 1936.03,
+      "ranking": 1936.03,
       "championships": 7,
-      "races": 60,
+      "races": 61,
       "quarterBonus": 0,
-      "rankingBase": 1935.38
+      "rankingBase": 1936.03
     },
     {
       "pos": 7,
       "name": "Caciotta_95",
-      "elo": 1903.25,
-      "ranking": 1903.25,
+      "elo": 1904.61,
+      "ranking": 1904.61,
       "championships": 6,
-      "races": 32,
+      "races": 33,
       "quarterBonus": 0,
-      "rankingBase": 1903.25
+      "rankingBase": 1904.61
     },
     {
       "pos": 8,
       "name": "brown_dsc",
-      "elo": 1857.5,
-      "ranking": 1857.5,
+      "elo": 1878.12,
+      "ranking": 1878.12,
       "championships": 6,
-      "races": 31,
+      "races": 32,
       "quarterBonus": 0,
-      "rankingBase": 1857.5
+      "rankingBase": 1878.12
     },
     {
       "pos": 9,
@@ -4825,42 +4830,42 @@ window.RDA_DATA = {
     {
       "pos": 12,
       "name": "Twitc_Simomazz86",
-      "elo": 1703.92,
-      "ranking": 1703.92,
+      "elo": 1704.52,
+      "ranking": 1704.52,
       "championships": 6,
-      "races": 47,
+      "races": 48,
       "quarterBonus": 0,
-      "rankingBase": 1703.92
+      "rankingBase": 1704.52
     },
     {
       "pos": 13,
       "name": "NICOLACI1966",
-      "elo": 1654.12,
-      "ranking": 1654.12,
+      "elo": 1653.42,
+      "ranking": 1653.42,
       "championships": 7,
-      "races": 57,
+      "races": 58,
       "quarterBonus": 0,
-      "rankingBase": 1654.12
+      "rankingBase": 1653.42
     },
     {
       "pos": 14,
       "name": "JONNYK7",
-      "elo": 1641.79,
-      "ranking": 1641.79,
+      "elo": 1641.47,
+      "ranking": 1641.47,
       "championships": 6,
-      "races": 33,
+      "races": 34,
       "quarterBonus": 0,
-      "rankingBase": 1641.79
+      "rankingBase": 1641.47
     },
     {
       "pos": 15,
       "name": "PYX69",
-      "elo": 1612.44,
-      "ranking": 1612.44,
+      "elo": 1607.85,
+      "ranking": 1607.85,
       "championships": 7,
-      "races": 54,
+      "races": 55,
       "quarterBonus": 0,
-      "rankingBase": 1612.44
+      "rankingBase": 1607.85
     },
     {
       "pos": 16,
@@ -4875,12 +4880,12 @@ window.RDA_DATA = {
     {
       "pos": 17,
       "name": "a88312alfa",
-      "elo": 1540.8,
-      "ranking": 1540.8,
+      "elo": 1541.68,
+      "ranking": 1541.68,
       "championships": 7,
-      "races": 48,
+      "races": 49,
       "quarterBonus": 0,
-      "rankingBase": 1540.8
+      "rankingBase": 1541.68
     },
     {
       "pos": 18,
@@ -4895,12 +4900,12 @@ window.RDA_DATA = {
     {
       "pos": 19,
       "name": "Onmanuel-Btw_09",
-      "elo": 1315.02,
-      "ranking": 1315.02,
+      "elo": 1315.22,
+      "ranking": 1315.22,
       "championships": 7,
-      "races": 51,
+      "races": 52,
       "quarterBonus": 0,
-      "rankingBase": 1315.02
+      "rankingBase": 1315.22
     },
     {
       "pos": 20,
@@ -4945,22 +4950,22 @@ window.RDA_DATA = {
     {
       "pos": 24,
       "name": "VanMike91",
-      "elo": 897.92,
-      "ranking": 897.92,
+      "elo": 900.17,
+      "ranking": 900.17,
       "championships": 7,
-      "races": 38,
+      "races": 39,
       "quarterBonus": 0,
-      "rankingBase": 897.92
+      "rankingBase": 900.17
     },
     {
       "pos": 25,
       "name": "jnior_billokillo",
-      "elo": 847.95,
-      "ranking": 847.95,
+      "elo": 847.1,
+      "ranking": 847.1,
       "championships": 6,
-      "races": 43,
+      "races": 44,
       "quarterBonus": 0,
-      "rankingBase": 847.95
+      "rankingBase": 847.1
     },
     {
       "pos": 26,
@@ -4985,22 +4990,22 @@ window.RDA_DATA = {
     {
       "pos": 28,
       "name": "luglio88",
-      "elo": 758.9,
-      "ranking": 758.9,
+      "elo": 760.04,
+      "ranking": 760.04,
       "championships": 7,
-      "races": 44,
+      "races": 45,
       "quarterBonus": 0,
-      "rankingBase": 758.9
+      "rankingBase": 760.04
     },
     {
       "pos": 29,
       "name": "giorobert",
-      "elo": 736.49,
-      "ranking": 736.49,
+      "elo": 735.81,
+      "ranking": 735.81,
       "championships": 5,
-      "races": 35,
+      "races": 36,
       "quarterBonus": 0,
-      "rankingBase": 736.49
+      "rankingBase": 735.81
     },
     {
       "pos": 30,
@@ -5015,12 +5020,12 @@ window.RDA_DATA = {
     {
       "pos": 31,
       "name": "lamonaca72",
-      "elo": 561.71,
-      "ranking": 561.71,
+      "elo": 561.54,
+      "ranking": 561.54,
       "championships": 6,
-      "races": 35,
+      "races": 36,
       "quarterBonus": 0,
-      "rankingBase": 561.71
+      "rankingBase": 561.54
     },
     {
       "pos": 32,
@@ -5075,35 +5080,45 @@ window.RDA_DATA = {
     {
       "pos": 37,
       "name": "Pasky_Alfa",
-      "elo": 399.57,
-      "ranking": 399.57,
+      "elo": 401.27,
+      "ranking": 401.27,
       "championships": 6,
-      "races": 42,
+      "races": 43,
       "quarterBonus": 0,
-      "rankingBase": 399.57
+      "rankingBase": 401.27
     },
     {
       "pos": 38,
       "name": "danilomarika89",
-      "elo": 391.67,
-      "ranking": 391.67,
+      "elo": 390.17,
+      "ranking": 390.17,
       "championships": 5,
-      "races": 31,
+      "races": 32,
       "quarterBonus": 0,
-      "rankingBase": 391.67
+      "rankingBase": 390.17
     },
     {
       "pos": 39,
       "name": "Cinciripini79",
-      "elo": 382.95,
-      "ranking": 382.95,
+      "elo": 385.42,
+      "ranking": 385.42,
       "championships": 2,
-      "races": 17,
+      "races": 18,
       "quarterBonus": 0,
-      "rankingBase": 382.95
+      "rankingBase": 385.42
     },
     {
       "pos": 40,
+      "name": "Ivlaisdead",
+      "elo": 346.17,
+      "ranking": 346.17,
+      "championships": 5,
+      "races": 22,
+      "quarterBonus": 0,
+      "rankingBase": 346.17
+    },
+    {
+      "pos": 41,
       "name": "lucap1969",
       "elo": 333.79,
       "ranking": 333.79,
@@ -5111,16 +5126,6 @@ window.RDA_DATA = {
       "races": 16,
       "quarterBonus": 0,
       "rankingBase": 333.79
-    },
-    {
-      "pos": 41,
-      "name": "Ivlaisdead",
-      "elo": 332.0,
-      "ranking": 332.0,
-      "championships": 4,
-      "races": 19,
-      "quarterBonus": 0,
-      "rankingBase": 332.0
     },
     {
       "pos": 42,
@@ -5194,6 +5199,16 @@ window.RDA_DATA = {
     },
     {
       "pos": 49,
+      "name": "Squilybrio",
+      "elo": 194.5,
+      "ranking": 194.5,
+      "championships": 3,
+      "races": 13,
+      "quarterBonus": 0,
+      "rankingBase": 194.5
+    },
+    {
+      "pos": 50,
       "name": "ICIOmnt",
       "elo": 162.64,
       "ranking": 162.64,
@@ -5201,16 +5216,6 @@ window.RDA_DATA = {
       "races": 24,
       "quarterBonus": 0,
       "rankingBase": 162.64
-    },
-    {
-      "pos": 50,
-      "name": "Squilybrio",
-      "elo": 157.0,
-      "ranking": 157.0,
-      "championships": 2,
-      "races": 10,
-      "quarterBonus": 0,
-      "rankingBase": 157.0
     },
     {
       "pos": 51,
@@ -5235,12 +5240,12 @@ window.RDA_DATA = {
     {
       "pos": 53,
       "name": "premanugito",
-      "elo": 105.67,
-      "ranking": 105.67,
+      "elo": 108.33,
+      "ranking": 108.33,
       "championships": 2,
-      "races": 8,
+      "races": 9,
       "quarterBonus": 0,
-      "rankingBase": 105.67
+      "rankingBase": 108.33
     },
     {
       "pos": 54,
@@ -5356,35 +5361,35 @@ window.RDA_DATA = {
   "podiumDay": [
     {
       "pos": 1,
-      "name": "Cinciripini79",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "21:00",
-      "time": "57:51.948"
-    },
-    {
-      "pos": 2,
       "name": "Spano19",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
-      "session": "21:00",
-      "time": "57:53.689"
+      "session": "23:00",
+      "time": "48:46.032"
     },
     {
-      "pos": 3,
-      "name": "a88312alfa",
+      "pos": 2,
+      "name": "brown_dsc",
       "car": "GT by Citroen Gr.4",
       "carId": 269,
       "session": "23:00",
-      "time": "58:13.846"
+      "time": "49:04.481"
+    },
+    {
+      "pos": 3,
+      "name": "Cinciripini79",
+      "car": "GT by Citroen Gr.4",
+      "carId": 269,
+      "session": "18:00",
+      "time": "49:05.797"
     }
   ],
   "podiumChampionship": [],
   "podiumMeta": {
     "dayTitle": "RDA WTCR CHAMPIONSHIP",
-    "dayDate": "2026-10-24",
-    "dayTrack": "Suzuka Circuit",
-    "dayRace": "Gara 15",
+    "dayDate": "2026-10-25",
+    "dayTrack": "Circuit Gilles-Villeneuve",
+    "dayRace": "Gara 16",
     "champName": "RDA WTCR CHAMPIONSHIP",
     "champClosed": false,
     "champMaster": 250
@@ -6341,6 +6346,20 @@ window.RDA_DATA = {
       "round": 15,
       "track": "Suzuka Circuit",
       "status": "UFFICIALE"
+    },
+    {
+      "eventId": 75,
+      "isoDate": "2026-10-25",
+      "day": 25,
+      "month": 10,
+      "year": 2026,
+      "date": "25.10.2026",
+      "title": "RDA WTCR CHAMPIONSHIP",
+      "championship": "RDA WTCR CHAMPIONSHIP",
+      "master": 250,
+      "round": 16,
+      "track": "Circuit Gilles-Villeneuve",
+      "status": "UFFICIALE"
     }
   ],
   "flyers": [
@@ -6370,43 +6389,51 @@ window.RDA_DATA = {
       "id": 9,
       "name": "RDA WTCR CHAMPIONSHIP",
       "master": 250,
-      "officialRounds": 15,
+      "officialRounds": 16,
       "closed": false,
       "standings": [
         {
           "pos": 1,
           "name": "Spano19",
-          "pts": 627,
-          "races": 14,
-          "wins": 3,
-          "podiums": 12
+          "pts": 677,
+          "races": 15,
+          "wins": 4,
+          "podiums": 13
         },
         {
           "pos": 2,
           "name": "MaxMossa",
-          "pts": 471,
-          "races": 15,
+          "pts": 511,
+          "races": 16,
           "wins": 1,
           "podiums": 4
         },
         {
           "pos": 3,
           "name": "gallo_opc_2",
-          "pts": 421,
-          "races": 13,
+          "pts": 457,
+          "races": 14,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 4,
           "name": "giorobert",
-          "pts": 407,
-          "races": 14,
+          "pts": 432,
+          "races": 15,
           "wins": 0,
           "podiums": 1
         },
         {
           "pos": 5,
+          "name": "Twitc_Simomazz86",
+          "pts": 424,
+          "races": 12,
+          "wins": 1,
+          "podiums": 1
+        },
+        {
+          "pos": 6,
           "name": "forte984riso",
           "pts": 390,
           "races": 8,
@@ -6414,42 +6441,34 @@ window.RDA_DATA = {
           "podiums": 8
         },
         {
-          "pos": 6,
-          "name": "Twitc_Simomazz86",
-          "pts": 386,
-          "races": 11,
-          "wins": 1,
-          "podiums": 1
-        },
-        {
           "pos": 7,
-          "name": "PYX69",
-          "pts": 386,
-          "races": 14,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 8,
           "name": "JONNYK7",
-          "pts": 354,
-          "races": 10,
+          "pts": 388,
+          "races": 11,
           "wins": 0,
           "podiums": 2
         },
         {
-          "pos": 9,
+          "pos": 8,
           "name": "Cinciripini79",
-          "pts": 343,
-          "races": 11,
+          "pts": 386,
+          "races": 12,
           "wins": 2,
-          "podiums": 4
+          "podiums": 5
+        },
+        {
+          "pos": 9,
+          "name": "PYX69",
+          "pts": 386,
+          "races": 15,
+          "wins": 0,
+          "podiums": 1
         },
         {
           "pos": 10,
           "name": "NICOLACI1966",
-          "pts": 334,
-          "races": 11,
+          "pts": 361,
+          "races": 12,
           "wins": 0,
           "podiums": 1
         },
@@ -6471,33 +6490,33 @@ window.RDA_DATA = {
         },
         {
           "pos": 13,
-          "name": "a88312alfa",
-          "pts": 261,
-          "races": 10,
-          "wins": 1,
-          "podiums": 2
-        },
-        {
-          "pos": 14,
           "name": "Caciotta_95",
-          "pts": 260,
-          "races": 10,
+          "pts": 292,
+          "races": 11,
           "wins": 0,
           "podiums": 0
         },
         {
+          "pos": 14,
+          "name": "a88312alfa",
+          "pts": 291,
+          "races": 11,
+          "wins": 1,
+          "podiums": 2
+        },
+        {
           "pos": 15,
           "name": "Onmanuel-Btw_09",
-          "pts": 228,
-          "races": 12,
+          "pts": 248,
+          "races": 13,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 16,
           "name": "jnior_billokillo",
-          "pts": 221,
-          "races": 12,
+          "pts": 235,
+          "races": 13,
           "wins": 0,
           "podiums": 0
         },
@@ -6512,8 +6531,8 @@ window.RDA_DATA = {
         {
           "pos": 18,
           "name": "lamonaca72",
-          "pts": 185,
-          "races": 11,
+          "pts": 201,
+          "races": 12,
           "wins": 0,
           "podiums": 0
         },
@@ -6543,17 +6562,17 @@ window.RDA_DATA = {
         },
         {
           "pos": 22,
-          "name": "andrecalimero73",
-          "pts": 120,
-          "races": 4,
+          "name": "VanMike91",
+          "pts": 139,
+          "races": 10,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 23,
-          "name": "VanMike91",
-          "pts": 117,
-          "races": 9,
+          "name": "andrecalimero73",
+          "pts": 120,
+          "races": 4,
           "wins": 0,
           "podiums": 0
         },
@@ -6568,8 +6587,8 @@ window.RDA_DATA = {
         {
           "pos": 25,
           "name": "luglio88",
-          "pts": 89,
-          "races": 6,
+          "pts": 107,
+          "races": 7,
           "wins": 0,
           "podiums": 0
         },
@@ -6591,6 +6610,22 @@ window.RDA_DATA = {
         },
         {
           "pos": 28,
+          "name": "brown_dsc",
+          "pts": 81,
+          "races": 4,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 29,
+          "name": "Pasky_Alfa",
+          "pts": 77,
+          "races": 9,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 30,
           "name": "Fantasmino7794",
           "pts": 74,
           "races": 4,
@@ -6598,7 +6633,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 29,
+          "pos": 31,
           "name": "illibrosnavi",
           "pts": 69,
           "races": 6,
@@ -6606,15 +6641,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 30,
-          "name": "Pasky_Alfa",
-          "pts": 63,
-          "races": 8,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 31,
+          "pos": 32,
           "name": "blmta73",
           "pts": 55,
           "races": 3,
@@ -6622,15 +6649,15 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 32,
+          "pos": 33,
           "name": "danilomarika89",
           "pts": 54,
-          "races": 9,
+          "races": 10,
           "wins": 0,
           "podiums": 0
         },
         {
-          "pos": 33,
+          "pos": 34,
           "name": "lucap1969",
           "pts": 53,
           "races": 4,
@@ -6638,7 +6665,15 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 34,
+          "pos": 35,
+          "name": "premanugito",
+          "pts": 52,
+          "races": 6,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 36,
           "name": "dado1381",
           "pts": 48,
           "races": 2,
@@ -6646,7 +6681,15 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 35,
+          "pos": 37,
+          "name": "Squilybrio",
+          "pts": 45,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 38,
           "name": "Ivlai",
           "pts": 44,
           "races": 3,
@@ -6654,7 +6697,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 36,
+          "pos": 39,
           "name": "zyx_977",
           "pts": 41,
           "races": 2,
@@ -6662,7 +6705,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 37,
+          "pos": 40,
           "name": "AT29Andrea",
           "pts": 40,
           "races": 2,
@@ -6670,15 +6713,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 38,
-          "name": "premanugito",
-          "pts": 38,
-          "races": 5,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 39,
+          "pos": 41,
           "name": "streetracer2701",
           "pts": 38,
           "races": 2,
@@ -6686,26 +6721,10 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 40,
-          "name": "brown_dsc",
-          "pts": 36,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 41,
+          "pos": 42,
           "name": "Dom_78_furious",
           "pts": 31,
           "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 42,
-          "name": "Squilybrio",
-          "pts": 31,
-          "races": 2,
           "wins": 0,
           "podiums": 0
         },
@@ -6753,7 +6772,7 @@ window.RDA_DATA = {
           "pos": 48,
           "name": "Ivlaisdead",
           "pts": 17,
-          "races": 2,
+          "races": 3,
           "wins": 0,
           "podiums": 0
         },
@@ -6823,7 +6842,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 57,
-          "name": "fenice_00700",
+          "name": "ERT_G_Ap83",
           "pts": 0,
           "races": 1,
           "wins": 0,
@@ -6831,7 +6850,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 58,
-          "name": "Luca_x90ct",
+          "name": "fenice_00700",
           "pts": 0,
           "races": 1,
           "wins": 0,
@@ -6839,6 +6858,14 @@ window.RDA_DATA = {
         },
         {
           "pos": 59,
+          "name": "Luca_x90ct",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 60,
           "name": "Mapucci_56",
           "pts": 0,
           "races": 2,
@@ -6846,16 +6873,8 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 60,
-          "name": "Onofrio",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
           "pos": 61,
-          "name": "Richy_1322",
+          "name": "Onofrio",
           "pts": 0,
           "races": 2,
           "wins": 0,
@@ -6863,6 +6882,14 @@ window.RDA_DATA = {
         },
         {
           "pos": 62,
+          "name": "Richy_1322",
+          "pts": 0,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 63,
           "name": "Svenom_21",
           "pts": 0,
           "races": 1,
@@ -7755,6 +7782,355 @@ window.RDA_DATA = {
   ],
   "currentChampionshipId": 9,
   "raceArchive": [
+    {
+      "eventId": 75,
+      "date": "25.10.2026",
+      "isoDate": "2026-10-25",
+      "title": "RDA WTCR CHAMPIONSHIP",
+      "championship": "RDA WTCR CHAMPIONSHIP",
+      "master": 250,
+      "gara": 16,
+      "track": "Circuit Gilles-Villeneuve",
+      "championshipClosed": false,
+      "results": [
+        {
+          "pos": 1,
+          "name": "Spano19",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "23:00",
+          "time": "48:46.032",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 2,
+          "name": "brown_dsc",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "23:00",
+          "time": "49:04.481",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 3,
+          "name": "Cinciripini79",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "18:00",
+          "time": "49:05.797",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 4,
+          "name": "MaxMossa",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "49:12.537",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 5,
+          "name": "Twitc_Simomazz86",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "23:00",
+          "time": "49:14.287",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 6,
+          "name": "gallo_opc_2",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "18:00",
+          "time": "49:22.760",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 7,
+          "name": "JONNYK7",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "49:25.039",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 8,
+          "name": "Caciotta_95",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "49:25.322",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 9,
+          "name": "a88312alfa",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "23:00",
+          "time": "49:43.726",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 10,
+          "name": "NICOLACI1966",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "49:45.278",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 11,
+          "name": "giorobert",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "49:48.892",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 12,
+          "name": "VanMike91",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "23:00",
+          "time": "50:01.446",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 13,
+          "name": "Onmanuel-Btw_09",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "50:07.335",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 14,
+          "name": "luglio88",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "50:26.104",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 15,
+          "name": "lamonaca72",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "50:34.475",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 16,
+          "name": "jnior_billokillo",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "18:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 17,
+          "name": "premanugito",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "15:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 18,
+          "name": "Squilybrio",
+          "car": "V8 Vantage Gr.4",
+          "carId": 202,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 19,
+          "name": "Pasky_Alfa",
+          "car": "650S Gr.4",
+          "carId": 276,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 20,
+          "name": "ERT_G_Ap83",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "18:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 21,
+          "name": "Onofrio",
+          "car": "F-type Gr.4",
+          "carId": 272,
+          "session": "15:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 22,
+          "name": "danilomarika89",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "23:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 23,
+          "name": "PYX69",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "23:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 24,
+          "name": "Ivlaisdead",
+          "car": "GT by Citroen Gr.4",
+          "carId": 269,
+          "session": "23:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        }
+      ]
+    },
     {
       "eventId": 74,
       "date": "24.10.2026",
@@ -32443,26 +32819,6 @@ window.RDA_DATA = {
   "championshipPodiumVisible": false,
   "futureRaces": [
     {
-      "eventId": "future-9-2026-10-25-28",
-      "isoDate": "2026-10-25",
-      "day": 25,
-      "month": 10,
-      "year": 2026,
-      "date": "25.10.2026",
-      "title": "RDA WTCR CHAMPIONSHIP",
-      "championship": "RDA WTCR CHAMPIONSHIP",
-      "championshipId": 9,
-      "master": 250,
-      "round": 0,
-      "gara": 0,
-      "track": "Circuit Gilles-Villeneuve",
-      "regulation": {
-        "championshipId": 9,
-        "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
-      }
-    },
-    {
       "eventId": "future-6-2026-10-29-15",
       "isoDate": "2026-10-26",
       "day": 26,
@@ -32588,34 +32944,34 @@ window.RDA_DATA = {
       "championshipId": 9,
       "championship": "RDA WTCR CHAMPIONSHIP",
       "master": 250,
-      "eventId": 74,
+      "eventId": 75,
       "title": "RDA WTCR CHAMPIONSHIP",
-      "date": "2026-10-24",
-      "track": "Suzuka Circuit",
-      "gara": 15,
+      "date": "2026-10-25",
+      "track": "Circuit Gilles-Villeneuve",
+      "gara": 16,
       "rows": [
         {
           "pos": 1,
-          "name": "Cinciripini79",
+          "name": "Spano19",
           "car": "GT by Citroen Gr.4",
           "carId": 269,
-          "time": "57:51.948",
+          "time": "48:46.032",
           "car_image": "car_images/car_269.webp"
         },
         {
           "pos": 2,
-          "name": "Spano19",
+          "name": "brown_dsc",
           "car": "GT by Citroen Gr.4",
           "carId": 269,
-          "time": "57:53.689",
+          "time": "49:04.481",
           "car_image": "car_images/car_269.webp"
         },
         {
           "pos": 3,
-          "name": "a88312alfa",
+          "name": "Cinciripini79",
           "car": "GT by Citroen Gr.4",
           "carId": 269,
-          "time": "58:13.846",
+          "time": "49:05.797",
           "car_image": "car_images/car_269.webp"
         }
       ]
@@ -32696,6 +33052,13 @@ window.RDA_DATA = {
   "finalPodiumsByChampionship": [],
   "championshipRaces": {
     "9": [
+      {
+        "eventId": 75,
+        "date": "25.10.2026",
+        "gara": 16,
+        "track": "Circuit Gilles-Villeneuve",
+        "title": "RDA WTCR CHAMPIONSHIP"
+      },
       {
         "eventId": 74,
         "date": "24.10.2026",
@@ -33188,6 +33551,29 @@ window.RDA_DATA = {
   },
   "trackRecords": [],
   "raceBestLaps": [
+    {
+      "eventId": 75,
+      "kind": "race",
+      "title": "RDA WTCR CHAMPIONSHIP",
+      "date": "2026-10-25",
+      "track": "Circuit Gilles-Villeneuve",
+      "championshipId": 9,
+      "championship": "RDA WTCR CHAMPIONSHIP",
+      "gara": 16,
+      "round": 16,
+      "lap_ms": 95289,
+      "time": "1:35.289",
+      "drivers": [
+        {
+          "resultId": 2672,
+          "driverId": 12,
+          "name": "JONNYK7",
+          "carId": 269,
+          "car": "GT by Citroen Gr.4",
+          "car_image": "car_images/car_269.webp"
+        }
+      ]
+    },
     {
       "eventId": 74,
       "kind": "race",
