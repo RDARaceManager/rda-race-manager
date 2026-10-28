@@ -457,13 +457,13 @@ window.RDA_DATA = {
     },
     {
       "pos": 6,
-      "name": "NICOLACI1966",
-      "pts": 206
+      "name": "SpeedSparco",
+      "pts": 202
     },
     {
       "pos": 7,
-      "name": "SpeedSparco",
-      "pts": 202
+      "name": "NICOLACI1966",
+      "pts": 200
     },
     {
       "pos": 8,
@@ -558,41 +558,41 @@ window.RDA_DATA = {
     {
       "pos": 26,
       "name": "Pasky_Alfa",
-      "pts": 54
+      "pts": 62
     },
     {
       "pos": 27,
+      "name": "G-BERNA",
+      "pts": 59
+    },
+    {
+      "pos": 28,
+      "name": "Squilybrio",
+      "pts": 59
+    },
+    {
+      "pos": 29,
       "name": "Fax-86-",
       "pts": 53
     },
     {
-      "pos": 28,
-      "name": "G-BERNA",
+      "pos": 30,
+      "name": "Ivlaisdead",
       "pts": 53
     },
     {
-      "pos": 29,
+      "pos": 31,
       "name": "PYX69",
       "pts": 50
     },
     {
-      "pos": 30,
-      "name": "Squilybrio",
-      "pts": 50
-    },
-    {
-      "pos": 31,
+      "pos": 32,
       "name": "lamonaca72",
       "pts": 47
     },
     {
-      "pos": 32,
-      "name": "Caciotta_95",
-      "pts": 46
-    },
-    {
       "pos": 33,
-      "name": "Ivlaisdead",
+      "name": "Caciotta_95",
       "pts": 46
     },
     {
@@ -627,18 +627,18 @@ window.RDA_DATA = {
     },
     {
       "pos": 40,
-      "name": "Orsetto63",
+      "name": "lucap1969",
       "pts": 22
     },
     {
       "pos": 41,
-      "name": "MMRT_CERQUI83",
-      "pts": 18
+      "name": "Orsetto63",
+      "pts": 22
     },
     {
       "pos": 42,
-      "name": "lucap1969",
-      "pts": 17
+      "name": "MMRT_CERQUI83",
+      "pts": 18
     },
     {
       "pos": 43,
@@ -682,17 +682,17 @@ window.RDA_DATA = {
     },
     {
       "pos": 51,
+      "name": "illibrosnavi",
+      "pts": 5
+    },
+    {
+      "pos": 52,
       "name": "Aktarus1970",
       "pts": 0
     },
     {
-      "pos": 52,
-      "name": "GiNiUs_Man",
-      "pts": 0
-    },
-    {
       "pos": 53,
-      "name": "illibrosnavi",
+      "name": "GiNiUs_Man",
       "pts": 0
     },
     {
@@ -835,25 +835,15 @@ window.RDA_DATA = {
     {
       "pos": 14,
       "name": "NICOLACI1966",
-      "elo": 1669.49,
-      "ranking": 1669.49,
+      "elo": 1661.99,
+      "ranking": 1661.99,
       "championships": 7,
       "races": 59,
       "quarterBonus": 0,
-      "rankingBase": 1669.49
+      "rankingBase": 1661.99
     },
     {
       "pos": 15,
-      "name": "JONNYK7",
-      "elo": 1641.47,
-      "ranking": 1641.47,
-      "championships": 6,
-      "races": 34,
-      "quarterBonus": 0,
-      "rankingBase": 1641.47
-    },
-    {
-      "pos": 16,
       "name": "PYX69",
       "elo": 1598.92,
       "ranking": 1598.92,
@@ -861,6 +851,16 @@ window.RDA_DATA = {
       "races": 56,
       "quarterBonus": 0,
       "rankingBase": 1598.92
+    },
+    {
+      "pos": 16,
+      "name": "JONNYK7",
+      "elo": 1573.97,
+      "ranking": 1573.97,
+      "championships": 6,
+      "races": 35,
+      "quarterBonus": 0,
+      "rankingBase": 1573.97
     },
     {
       "pos": 17,
@@ -875,12 +875,12 @@ window.RDA_DATA = {
     {
       "pos": 18,
       "name": "a88312alfa",
-      "elo": 1541.68,
-      "ranking": 1541.68,
+      "elo": 1512.02,
+      "ranking": 1512.02,
       "championships": 7,
-      "races": 49,
+      "races": 50,
       "quarterBonus": 0,
-      "rankingBase": 1541.68
+      "rankingBase": 1512.02
     },
     {
       "pos": 19,
@@ -905,12 +905,12 @@ window.RDA_DATA = {
     {
       "pos": 21,
       "name": "G-BERNA",
-      "elo": 1165.62,
-      "ranking": 1165.62,
+      "elo": 1161.57,
+      "ranking": 1161.57,
       "championships": 6,
-      "races": 39,
+      "races": 40,
       "quarterBonus": 0,
-      "rankingBase": 1165.62
+      "rankingBase": 1161.57
     },
     {
       "pos": 22,
@@ -1034,6 +1034,16 @@ window.RDA_DATA = {
     },
     {
       "pos": 34,
+      "name": "illibrosnavi",
+      "elo": 444.2,
+      "ranking": 444.2,
+      "championships": 6,
+      "races": 30,
+      "quarterBonus": 0,
+      "rankingBase": 444.2
+    },
+    {
+      "pos": 35,
       "name": "MikaelDubbio",
       "elo": 441.5,
       "ranking": 441.5,
@@ -1043,7 +1053,7 @@ window.RDA_DATA = {
       "rankingBase": 441.5
     },
     {
-      "pos": 35,
+      "pos": 36,
       "name": "LordAki_88",
       "elo": 433.33,
       "ranking": 433.33,
@@ -1053,24 +1063,14 @@ window.RDA_DATA = {
       "rankingBase": 433.33
     },
     {
-      "pos": 36,
-      "name": "illibrosnavi",
-      "elo": 427.54,
-      "ranking": 427.54,
-      "championships": 5,
-      "races": 27,
-      "quarterBonus": 0,
-      "rankingBase": 427.54
-    },
-    {
       "pos": 37,
       "name": "Pasky_Alfa",
-      "elo": 396.75,
-      "ranking": 396.75,
+      "elo": 397.1,
+      "ranking": 397.1,
       "championships": 6,
-      "races": 44,
+      "races": 45,
       "quarterBonus": 0,
-      "rankingBase": 396.75
+      "rankingBase": 397.1
     },
     {
       "pos": 38,
@@ -1095,22 +1095,22 @@ window.RDA_DATA = {
     {
       "pos": 40,
       "name": "Ivlaisdead",
-      "elo": 344.83,
-      "ranking": 344.83,
+      "elo": 343.88,
+      "ranking": 343.88,
       "championships": 5,
-      "races": 23,
+      "races": 24,
       "quarterBonus": 0,
-      "rankingBase": 344.83
+      "rankingBase": 343.88
     },
     {
       "pos": 41,
       "name": "lucap1969",
-      "elo": 333.79,
-      "ranking": 333.79,
+      "elo": 332.12,
+      "ranking": 332.12,
       "championships": 4,
-      "races": 16,
+      "races": 17,
       "quarterBonus": 0,
-      "rankingBase": 333.79
+      "rankingBase": 332.12
     },
     {
       "pos": 42,
@@ -1185,12 +1185,12 @@ window.RDA_DATA = {
     {
       "pos": 49,
       "name": "Squilybrio",
-      "elo": 189.83,
-      "ranking": 189.83,
+      "elo": 190.79,
+      "ranking": 190.79,
       "championships": 3,
-      "races": 14,
+      "races": 15,
       "quarterBonus": 0,
-      "rankingBase": 189.83
+      "rankingBase": 190.79
     },
     {
       "pos": 50,
@@ -1680,8 +1680,8 @@ window.RDA_DATA = {
       "races": 59,
       "wins": 1,
       "podiums": 7,
-      "elo": 1669.49,
-      "ranking": 1669.49,
+      "elo": 1661.99,
+      "ranking": 1661.99,
       "driver_id": 15,
       "psn": "NICOLACI1966",
       "nicknameSecondary": "NICOLACI66",
@@ -1698,25 +1698,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 8,
       "rdaPenaltyCount": 2,
       "quarterBonus": 0,
-      "rankingBase": 1669.49
-    },
-    {
-      "name": "JONNYK7",
-      "races": 34,
-      "wins": 0,
-      "podiums": 4,
-      "elo": 1641.47,
-      "ranking": 1641.47,
-      "driver_id": 12,
-      "psn": "JONNYK7",
-      "nicknameSecondary": "JONNYK7",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": [],
-      "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0,
-      "quarterBonus": 0,
-      "rankingBase": 1641.47
+      "rankingBase": 1661.99
     },
     {
       "name": "PYX69",
@@ -1735,6 +1717,24 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
       "rankingBase": 1598.92
+    },
+    {
+      "name": "JONNYK7",
+      "races": 35,
+      "wins": 0,
+      "podiums": 4,
+      "elo": 1573.97,
+      "ranking": 1573.97,
+      "driver_id": 12,
+      "psn": "JONNYK7",
+      "nicknameSecondary": "JONNYK7",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 1573.97
     },
     {
       "name": "Vimdav",
@@ -1756,11 +1756,11 @@ window.RDA_DATA = {
     },
     {
       "name": "a88312alfa",
-      "races": 49,
+      "races": 50,
       "wins": 2,
       "podiums": 5,
-      "elo": 1541.68,
-      "ranking": 1541.68,
+      "elo": 1512.02,
+      "ranking": 1512.02,
       "driver_id": 11,
       "psn": "",
       "nicknameSecondary": "",
@@ -1770,7 +1770,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1541.68
+      "rankingBase": 1512.02
     },
     {
       "name": "Onmanuel-Btw_09",
@@ -1810,11 +1810,11 @@ window.RDA_DATA = {
     },
     {
       "name": "G-BERNA",
-      "races": 41,
+      "races": 42,
       "wins": 0,
       "podiums": 1,
-      "elo": 1165.62,
-      "ranking": 1165.62,
+      "elo": 1161.57,
+      "ranking": 1161.57,
       "driver_id": 23,
       "psn": "G-BERNA",
       "nicknameSecondary": "G-BERNA",
@@ -1824,7 +1824,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 1165.62
+      "rankingBase": 1161.57
     },
     {
       "name": "Izras1990",
@@ -2043,6 +2043,24 @@ window.RDA_DATA = {
       "rankingBase": 466.67
     },
     {
+      "name": "illibrosnavi",
+      "races": 32,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 444.2,
+      "ranking": 444.2,
+      "driver_id": 41,
+      "psn": "",
+      "nicknameSecondary": "Billion@ire",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0,
+      "quarterBonus": 0,
+      "rankingBase": 444.2
+    },
+    {
       "name": "MikaelDubbio",
       "races": 17,
       "wins": 0,
@@ -2079,30 +2097,12 @@ window.RDA_DATA = {
       "rankingBase": 433.33
     },
     {
-      "name": "illibrosnavi",
-      "races": 31,
-      "wins": 0,
-      "podiums": 0,
-      "elo": 427.54,
-      "ranking": 427.54,
-      "driver_id": 41,
-      "psn": "",
-      "nicknameSecondary": "Billion@ire",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": [],
-      "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0,
-      "quarterBonus": 0,
-      "rankingBase": 427.54
-    },
-    {
       "name": "Pasky_Alfa",
-      "races": 45,
+      "races": 46,
       "wins": 0,
       "podiums": 0,
-      "elo": 396.75,
-      "ranking": 396.75,
+      "elo": 397.1,
+      "ranking": 397.1,
       "driver_id": 43,
       "psn": "pasky-alfa",
       "nicknameSecondary": "Pasqualino Sarcinella",
@@ -2112,7 +2112,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 396.75
+      "rankingBase": 397.1
     },
     {
       "name": "Cinciripini79",
@@ -2152,11 +2152,11 @@ window.RDA_DATA = {
     },
     {
       "name": "Ivlaisdead",
-      "races": 25,
+      "races": 26,
       "wins": 0,
       "podiums": 0,
-      "elo": 344.83,
-      "ranking": 344.83,
+      "elo": 343.88,
+      "ranking": 343.88,
       "driver_id": 82,
       "psn": "",
       "nicknameSecondary": "",
@@ -2166,15 +2166,15 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 344.83
+      "rankingBase": 343.88
     },
     {
       "name": "lucap1969",
-      "races": 18,
+      "races": 19,
       "wins": 0,
       "podiums": 0,
-      "elo": 333.79,
-      "ranking": 333.79,
+      "elo": 332.12,
+      "ranking": 332.12,
       "driver_id": 146,
       "psn": "lucap1969",
       "nicknameSecondary": "TRC_BARAKINO69",
@@ -2184,7 +2184,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 333.79
+      "rankingBase": 332.12
     },
     {
       "name": "JoeMan-17",
@@ -2314,11 +2314,11 @@ window.RDA_DATA = {
     },
     {
       "name": "Squilybrio",
-      "races": 18,
+      "races": 19,
       "wins": 0,
       "podiums": 0,
-      "elo": 189.83,
-      "ranking": 189.83,
+      "elo": 190.79,
+      "ranking": 190.79,
       "driver_id": 46,
       "psn": "Squilybrio",
       "nicknameSecondary": "Gabriele",
@@ -2328,7 +2328,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 189.83
+      "rankingBase": 190.79
     },
     {
       "name": "ICIOmnt",
@@ -2512,7 +2512,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Ivlai",
-      "races": 29,
+      "races": 30,
       "wins": 0,
       "podiums": 0,
       "elo": 36.67,
@@ -4881,25 +4881,15 @@ window.RDA_DATA = {
     {
       "pos": 14,
       "name": "NICOLACI1966",
-      "elo": 1669.49,
-      "ranking": 1669.49,
+      "elo": 1661.99,
+      "ranking": 1661.99,
       "championships": 7,
       "races": 59,
       "quarterBonus": 0,
-      "rankingBase": 1669.49
+      "rankingBase": 1661.99
     },
     {
       "pos": 15,
-      "name": "JONNYK7",
-      "elo": 1641.47,
-      "ranking": 1641.47,
-      "championships": 6,
-      "races": 34,
-      "quarterBonus": 0,
-      "rankingBase": 1641.47
-    },
-    {
-      "pos": 16,
       "name": "PYX69",
       "elo": 1598.92,
       "ranking": 1598.92,
@@ -4907,6 +4897,16 @@ window.RDA_DATA = {
       "races": 56,
       "quarterBonus": 0,
       "rankingBase": 1598.92
+    },
+    {
+      "pos": 16,
+      "name": "JONNYK7",
+      "elo": 1573.97,
+      "ranking": 1573.97,
+      "championships": 6,
+      "races": 35,
+      "quarterBonus": 0,
+      "rankingBase": 1573.97
     },
     {
       "pos": 17,
@@ -4921,12 +4921,12 @@ window.RDA_DATA = {
     {
       "pos": 18,
       "name": "a88312alfa",
-      "elo": 1541.68,
-      "ranking": 1541.68,
+      "elo": 1512.02,
+      "ranking": 1512.02,
       "championships": 7,
-      "races": 49,
+      "races": 50,
       "quarterBonus": 0,
-      "rankingBase": 1541.68
+      "rankingBase": 1512.02
     },
     {
       "pos": 19,
@@ -4951,12 +4951,12 @@ window.RDA_DATA = {
     {
       "pos": 21,
       "name": "G-BERNA",
-      "elo": 1165.62,
-      "ranking": 1165.62,
+      "elo": 1161.57,
+      "ranking": 1161.57,
       "championships": 6,
-      "races": 39,
+      "races": 40,
       "quarterBonus": 0,
-      "rankingBase": 1165.62
+      "rankingBase": 1161.57
     },
     {
       "pos": 22,
@@ -5080,6 +5080,16 @@ window.RDA_DATA = {
     },
     {
       "pos": 34,
+      "name": "illibrosnavi",
+      "elo": 444.2,
+      "ranking": 444.2,
+      "championships": 6,
+      "races": 30,
+      "quarterBonus": 0,
+      "rankingBase": 444.2
+    },
+    {
+      "pos": 35,
       "name": "MikaelDubbio",
       "elo": 441.5,
       "ranking": 441.5,
@@ -5089,7 +5099,7 @@ window.RDA_DATA = {
       "rankingBase": 441.5
     },
     {
-      "pos": 35,
+      "pos": 36,
       "name": "LordAki_88",
       "elo": 433.33,
       "ranking": 433.33,
@@ -5099,24 +5109,14 @@ window.RDA_DATA = {
       "rankingBase": 433.33
     },
     {
-      "pos": 36,
-      "name": "illibrosnavi",
-      "elo": 427.54,
-      "ranking": 427.54,
-      "championships": 5,
-      "races": 27,
-      "quarterBonus": 0,
-      "rankingBase": 427.54
-    },
-    {
       "pos": 37,
       "name": "Pasky_Alfa",
-      "elo": 396.75,
-      "ranking": 396.75,
+      "elo": 397.1,
+      "ranking": 397.1,
       "championships": 6,
-      "races": 44,
+      "races": 45,
       "quarterBonus": 0,
-      "rankingBase": 396.75
+      "rankingBase": 397.1
     },
     {
       "pos": 38,
@@ -5141,22 +5141,22 @@ window.RDA_DATA = {
     {
       "pos": 40,
       "name": "Ivlaisdead",
-      "elo": 344.83,
-      "ranking": 344.83,
+      "elo": 343.88,
+      "ranking": 343.88,
       "championships": 5,
-      "races": 23,
+      "races": 24,
       "quarterBonus": 0,
-      "rankingBase": 344.83
+      "rankingBase": 343.88
     },
     {
       "pos": 41,
       "name": "lucap1969",
-      "elo": 333.79,
-      "ranking": 333.79,
+      "elo": 332.12,
+      "ranking": 332.12,
       "championships": 4,
-      "races": 16,
+      "races": 17,
       "quarterBonus": 0,
-      "rankingBase": 333.79
+      "rankingBase": 332.12
     },
     {
       "pos": 42,
@@ -5231,12 +5231,12 @@ window.RDA_DATA = {
     {
       "pos": 49,
       "name": "Squilybrio",
-      "elo": 189.83,
-      "ranking": 189.83,
+      "elo": 190.79,
+      "ranking": 190.79,
       "championships": 3,
-      "races": 14,
+      "races": 15,
       "quarterBonus": 0,
-      "rankingBase": 189.83
+      "rankingBase": 190.79
     },
     {
       "pos": 50,
@@ -7448,18 +7448,18 @@ window.RDA_DATA = {
         },
         {
           "pos": 6,
-          "name": "NICOLACI1966",
-          "pts": 206,
-          "races": 8,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 7,
           "name": "SpeedSparco",
           "pts": 202,
           "races": 6,
           "wins": 1,
+          "podiums": 1
+        },
+        {
+          "pos": 7,
+          "name": "NICOLACI1966",
+          "pts": 200,
+          "races": 8,
+          "wins": 0,
           "podiums": 1
         },
         {
@@ -7562,7 +7562,7 @@ window.RDA_DATA = {
           "pos": 20,
           "name": "a88312alfa",
           "pts": 89,
-          "races": 5,
+          "races": 6,
           "wins": 0,
           "podiums": 0
         },
@@ -7586,7 +7586,7 @@ window.RDA_DATA = {
           "pos": 23,
           "name": "JONNYK7",
           "pts": 81,
-          "races": 3,
+          "races": 4,
           "wins": 0,
           "podiums": 0
         },
@@ -7609,13 +7609,29 @@ window.RDA_DATA = {
         {
           "pos": 26,
           "name": "Pasky_Alfa",
-          "pts": 54,
-          "races": 7,
+          "pts": 62,
+          "races": 8,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 27,
+          "name": "G-BERNA",
+          "pts": 59,
+          "races": 7,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 28,
+          "name": "Squilybrio",
+          "pts": 59,
+          "races": 7,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 29,
           "name": "Fax-86-",
           "pts": 53,
           "races": 3,
@@ -7623,15 +7639,15 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 28,
-          "name": "G-BERNA",
+          "pos": 30,
+          "name": "Ivlaisdead",
           "pts": 53,
-          "races": 6,
+          "races": 7,
           "wins": 0,
           "podiums": 0
         },
         {
-          "pos": 29,
+          "pos": 31,
           "name": "PYX69",
           "pts": 50,
           "races": 8,
@@ -7639,15 +7655,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 30,
-          "name": "Squilybrio",
-          "pts": 50,
-          "races": 6,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 31,
+          "pos": 32,
           "name": "lamonaca72",
           "pts": 47,
           "races": 6,
@@ -7655,18 +7663,10 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 32,
+          "pos": 33,
           "name": "Caciotta_95",
           "pts": 46,
           "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 33,
-          "name": "Ivlaisdead",
-          "pts": 46,
-          "races": 6,
           "wins": 0,
           "podiums": 0
         },
@@ -7720,6 +7720,14 @@ window.RDA_DATA = {
         },
         {
           "pos": 40,
+          "name": "lucap1969",
+          "pts": 22,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 41,
           "name": "Orsetto63",
           "pts": 22,
           "races": 5,
@@ -7727,18 +7735,10 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 41,
+          "pos": 42,
           "name": "MMRT_CERQUI83",
           "pts": 18,
           "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 42,
-          "name": "lucap1969",
-          "pts": 17,
-          "races": 3,
           "wins": 0,
           "podiums": 0
         },
@@ -7808,6 +7808,14 @@ window.RDA_DATA = {
         },
         {
           "pos": 51,
+          "name": "illibrosnavi",
+          "pts": 5,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 52,
           "name": "Aktarus1970",
           "pts": 0,
           "races": 1,
@@ -7815,18 +7823,10 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 52,
+          "pos": 53,
           "name": "GiNiUs_Man",
           "pts": 0,
           "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 53,
-          "name": "illibrosnavi",
-          "pts": 0,
-          "races": 2,
           "wins": 0,
           "podiums": 0
         },
@@ -9272,6 +9272,90 @@ window.RDA_DATA = {
         },
         {
           "pos": 22,
+          "name": "Squilybrio",
+          "car": "155 2.5 V6 TI '93",
+          "carId": 28,
+          "session": "23:00",
+          "time": "34:51.184",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 23,
+          "name": "Pasky_Alfa",
+          "car": "155 2.5 V6 TI '93",
+          "carId": 28,
+          "session": "23:00",
+          "time": "35:01.210",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 24,
+          "name": "Ivlaisdead",
+          "car": "155 2.5 V6 TI '93",
+          "carId": 28,
+          "session": "23:00",
+          "time": "35:02.184",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 25,
+          "name": "G-BERNA",
+          "car": "190 E 2.5-16 Evolution II '91",
+          "carId": 489,
+          "session": "23:00",
+          "time": "35:08.850",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 26,
+          "name": "illibrosnavi",
+          "car": "190 E 2.5-16 Evolution II '91",
+          "carId": 489,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 27,
+          "name": "lucap1969",
+          "car": "190 E 2.5-16 Evolution II '91",
+          "carId": 489,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 28,
           "name": "NICOLACI1966",
           "car": "155 2.5 V6 TI '93",
           "carId": 28,
@@ -9285,7 +9369,7 @@ window.RDA_DATA = {
           "originalTime": "34:06.149"
         },
         {
-          "pos": 23,
+          "pos": 29,
           "name": "Dom_78_furious",
           "car": "155 2.5 V6 TI '93",
           "carId": 28,
@@ -9299,7 +9383,7 @@ window.RDA_DATA = {
           "originalTime": ""
         },
         {
-          "pos": 24,
+          "pos": 30,
           "name": "luglio88",
           "car": "M3 Sport Evolution '89",
           "carId": 319,
@@ -9313,7 +9397,7 @@ window.RDA_DATA = {
           "originalTime": ""
         },
         {
-          "pos": 25,
+          "pos": 31,
           "name": "andrecalimero73",
           "car": "190 E 2.5-16 Evolution II '91",
           "carId": 489,
@@ -9327,11 +9411,39 @@ window.RDA_DATA = {
           "originalTime": ""
         },
         {
-          "pos": 26,
+          "pos": 32,
           "name": "giorobert",
           "car": "155 2.5 V6 TI '93",
           "carId": 28,
           "session": "18:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 33,
+          "name": "JONNYK7",
+          "car": "M3 Sport Evolution '89",
+          "carId": 319,
+          "session": "23:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 34,
+          "name": "a88312alfa",
+          "car": "155 2.5 V6 TI '93",
+          "carId": 28,
+          "session": "23:00",
           "time": "—",
           "status": "DNF",
           "rdaSeconds": 0,
@@ -33303,26 +33415,6 @@ window.RDA_DATA = {
   ],
   "championshipPodiumVisible": false,
   "futureRaces": [
-    {
-      "eventId": "future-7-2026-10-27-24",
-      "isoDate": "2026-10-27",
-      "day": 27,
-      "month": 10,
-      "year": 2026,
-      "date": "27.10.2026",
-      "title": "RDA 911 PORSCHE CUP 2026",
-      "championship": "RDA 911 PORSCHE CUP 2026",
-      "championshipId": 7,
-      "master": 500,
-      "round": 0,
-      "gara": 0,
-      "track": "Yas Marina Circuit",
-      "regulation": {
-        "championshipId": 7,
-        "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-rda-911-porsche-cup-2026.pdf"
-      }
-    },
     {
       "eventId": "future-7-2026-10-29-Finale",
       "isoDate": "2026-10-29",
