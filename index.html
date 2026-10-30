@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/rda-icon-192.png?v=rda-logo-v38">
   <link rel="stylesheet" href="styles.css?v=news-fields-v2-20261018">
   <link rel="stylesheet" href="car-card.css?v=podium-layout-fix-20261006">
-</head>
+<style>.rda-claims{max-width:850px;margin:auto}.rda-claims-hero{position:relative;overflow:hidden;padding:35px 24px;border:1px solid #3ac8ed;border-radius:24px;background:radial-gradient(circle at 95% 0,#7c29b54d,transparent 55%),linear-gradient(130deg,#0a233b,#141a36);margin-bottom:24px;box-shadow:0 0 24px #16c8ef18}.rda-claims-symbol{font-size:55px;color:#61dafa}.rda-claims-hero h2{font-size:clamp(32px,7vw,48px);margin:12px 0}.rda-claims-hero p{line-height:1.7;color:#bacfe2}.rda-claims-panel{padding:26px!important}.rda-claims-steps p{padding:16px 0;border-bottom:1px solid #4b66834d;line-height:1.65}.rda-claims-steps b{color:#79dfef}.rda-claims-submit{display:block;text-align:center;margin-top:24px;padding:19px;border-radius:14px;background:linear-gradient(110deg,#0086ad,#7228b5);color:white;font-size:19px;font-weight:800;text-decoration:none;border:1px solid #5de5ef}.rda-claims-help{color:#a7bdd2;font-size:14px;line-height:1.7}</style></head>
 <body>
 <section id="rdaAuthGate" class="rda-auth-gate" aria-labelledby="rdaAuthTitle">
   <header class="rda-auth-brand">
@@ -91,7 +91,8 @@
        <button data-go="flyers"><b>▤</b><strong>Volantini</strong><span>Locandine ed eventi ufficiali</span></button>
        <button data-go="rda-news"><b>📣</b><strong>Comunicati RDA</strong><span>Notizie e comunicazioni ufficiali</span></button>
 <button data-go="hall-of-fame"><b>🏆</b><strong>Albo d’oro RDA</strong><span>Campioni, gare e classifiche storiche</span></button>
-       <button data-go="history"><b>ℹ</b><strong>Storia RDA</strong><span>Le origini, Francesco Pini e la community</span></button>
+       <button data-go="claims"><b>⚑</b><strong>Reclami di gara</strong><span>Segnala un episodio alla direzione gara</span></button>
+<button data-go="history"><b>ℹ</b><strong>Storia RDA</strong><span>Le origini, Francesco Pini e la community</span></button>
       </div>
     <div class="home-compat" hidden><span id="homeRaceDay"></span><span id="homeRaceMonth"></span><span id="homeRaceYear"></span><span id="homeRaceChamp"></span><span id="leaderChampName"></span><span id="leaderChampSub"></span><span id="leaderEloName"></span><span id="leaderEloSub"></span><span id="publishedDriverCount"></span><span id="homeOfficialRounds"></span><div id="homeResults"></div></div></section>
 
@@ -218,7 +219,8 @@
         </aside>
       </div>
     </section>
-  <section class="view" data-view="hall-of-fame">
+  <section class="view rda-claims" data-view="claims"><div class="rda-claims-hero"><div class="eyebrow">DIREZIONE GARA · RDA</div><div class="rda-claims-symbol" aria-hidden="true">⚑</div><h2>Reclami di gara</h2><p>Il rispetto in pista merita attenzione.<br>Segnala l’episodio e affidalo alla valutazione dello staff.</p></div><article class="panel rda-claims-panel"><h3>Presenta il tuo reclamo</h3><p>Indica piloti, campionato, circuito, data, sessione e giro. Descrivi con precisione l’accaduto.</p><div class="rda-claims-steps"><p><b>01 · L’episodio</b><br>Scrivi i fatti e il minuto da esaminare nel video.</p><p><b>02 · I due video</b><br>Video 1: la tua vettura. Video 2: la vettura del pilota segnalato. Per entrambi usa la visuale esterna con tutti i dati della telemetria attivi.</p><p><b>03 · L’invio</b><br>Il sistema assegna il codice del reclamo e riunisce i video nella sua cartella dedicata.</p></div><a class="rda-claims-submit" href="https://docs.google.com/forms/d/e/1FAIpQLScAXvYo_RIgL-H_Nh_PToHpk9JHNizkzwou_j1I9YOf6vWzhg/viewform" target="_blank" rel="noopener noreferrer">Invia un reclamo →</a><p class="rda-claims-help">Il modulo si apre in una nuova scheda. Per allegare i video accedi con il tuo account Google personale. Le valutazioni sono riservate allo staff.</p></article><button data-go="home" type="button">← Torna alla Home</button></section>
+<section class="view" data-view="hall-of-fame">
 <div class="section-head"><div><div class="eyebrow">PALMARES STORICO</div><h2>Albo d’oro RDA</h2><p>Campioni, circuiti e classifiche degli eventi conclusi.</p></div></div>
 <label for="rdaHallSearch">Cerca campionato, anno o pilota</label><input id="rdaHallSearch" class="rda-hall-search" type="search" placeholder="Cerca campionato o pilota…">
 <div id="rdaHallList" class="rda-hall-list"></div><article id="rdaHallDetail" class="panel rda-hall-detail" hidden></article>
@@ -239,7 +241,8 @@
     <button class="nav-btn" data-view-target="records"><span>🏁</span><small>Best Lap</small></button>
     <button class="nav-btn" data-view-target="rda-news"><span>📣</span><small>Comunicati</small></button>
 <button class="nav-btn" data-view-target="hall-of-fame"><span>🏆</span><small>Albo d’oro</small></button>
-    <button class="nav-btn" data-view-target="history"><span>ℹ</span><small>Storia RDA</small></button>
+    <button class="nav-btn" data-view-target="claims"><span>⚑</span><small>Reclami</small></button>
+<button class="nav-btn" data-view-target="history"><span>ℹ</span><small>Storia RDA</small></button>
   </nav>
   <button class="nav-reveal" id="navReveal" type="button">▲ MENU</button>
 </div>
