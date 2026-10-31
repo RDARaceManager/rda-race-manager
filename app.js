@@ -629,7 +629,7 @@ function renderRaceBestLaps(){
     const flag=node('span','race-best-lap-flag','🏁');flag.setAttribute('aria-hidden','true');visual.append(flag);
     card.append(visual,content);host.append(card);return;
   }
-  for(const race of races){
+  const buildCard=race=>{
     const card=node('article','record-card panel race-best-lap-card');
     const map=node('div','record-map race-best-lap-visual');const file=mapFileForTrack(race.track);
     const showFallback=host=>{
@@ -661,9 +661,49 @@ function renderRaceBestLaps(){
     for(const [label,value] of [['CIRCUITO',race.track],['DATA',race.date],['CAMPIONATO',race.championship],['GARA',round]]){
       const field=node('div');field.append(node('dt','race-best-lap-label',label),node('dd','',value||'Non disponibile'));metadata.append(field);
     }
-    content.append(metadata);card.append(map,content);host.append(card);
+    content.append(metadata);card.append(map,content);return card;
   }
+  // Date grouping is derived from published results: republishing never duplicates entries.
+  const dayKey=value=>{
+    const text=String(value||'').trim();let m;
+    if((m=text.match(/^(\d{4})-(\d{2})-(\d{2})(?:$|[T ])/)))return m[1]+'-'+m[2]+'-'+m[3];
+    if((m=text.match(/^(\d{1,2})[./](\d{1,2})[./](\d{4})$/)))return m[3]+'-'+m[2].padStart(2,'0')+'-'+m[1].padStart(2,'0');
+    return '';
+  };
+  const label=key=>key?key.slice(8,10)+'/'+key.slice(5,7)+'/'+key.slice(0,4):'Data non disponibile';
+  const groups=new Map();
+  for(const race of races){const key=dayKey(race.date);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(race);}
+  const keys=[...groups.keys()].sort((a,b)=>b.localeCompare(a));
+  const latest=keys.find(Boolean)||keys[0];
+  const current=node('section','bestlap-current');
+  const currentTitle=node('h3','bestlap-current-title','Ultima giornata · '+label(latest));current.append(currentTitle);
+  const currentCards=node('div','race-best-lap-list');currentCards.append(...groups.get(latest).map(buildCard));current.append(currentCards);host.append(current);
+  const previous=keys.filter(k=>k!==latest);
+  if(!previous.length)return;
+  const open=node('button','bestlap-archive-button','Gare precedenti · '+previous.length+' giornate →');open.type='button';current.append(open);
+  const archive=node('section','bestlap-archive');archive.hidden=true;
+  const back=node('button','bestlap-back','← Torna agli ultimi Best Lap');back.type='button';
+  const archiveTitle=node('h3','','Gare precedenti');
+  const selectLabel=node('label','bestlap-month-label','Mese');const select=node('select','bestlap-month');selectLabel.append(select);
+  const months=[...new Set(previous.map(k=>k?k.slice(0,7):''))];
+  const monthNames=['Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno','Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'];
+  for(const month of months){const option=node('option','',month?monthNames[Number(month.slice(5))-1]+' '+month.slice(0,4):'Senza data');option.value=month;select.append(option);}
+  const days=node('div','bestlap-archive-days');
+  const renderDays=()=>{
+    days.replaceChildren();
+    for(const key of previous.filter(k=>(k?k.slice(0,7):'')===select.value)){
+      const entries=groups.get(key),detail=node('details','bestlap-day');const summary=node('summary');
+      summary.append(node('strong','',label(key)),node('span','bestlap-day-caption',entries.length+' '+(entries.length===1?'gara':'gare')+' · '+[...new Set(entries.map(r=>r.track).filter(Boolean))].join(' · ')));
+      const cards=node('div','race-best-lap-list');detail.append(summary,cards);
+      detail.addEventListener('toggle',()=>{if(detail.open&&!cards.childElementCount)cards.append(...entries.map(buildCard));});days.append(detail);
+    }
+  };
+  select.onchange=renderDays;archive.append(back,archiveTitle,selectLabel,days);host.append(archive);
+  const focusTitle=title=>{title.tabIndex=-1;title.focus({preventScroll:true});title.scrollIntoView({block:'start',behavior:'auto'});};
+  open.onclick=()=>{current.hidden=true;archive.hidden=false;renderDays();focusTitle(archiveTitle);};
+  back.onclick=()=>{archive.hidden=true;current.hidden=false;focusTitle(currentTitle);};
 }
+
 setTimeout(()=>renderRaceBestLaps(),0);
 
 function startPodiumFireworksRDA(){if(window.rdaFireworkStop)window.rdaFireworkStop();const c=document.querySelector('#podiumChampFull .fireworks');if(!c)return;let stopped=false,raf=0;window.rdaFireworkStop=()=>{stopped=true;cancelAnimationFrame(raf);observer.disconnect()};const ctx=c.getContext('2d'),box=c.parentElement,button=document.querySelector('.motion-control');let w,h,particles=[],running=!matchMedia('(prefers-reduced-motion: reduce)').matches,last=0,next=0;const colors=['#fff09c','#ffd000','#ff538b','#55dfff','#ba83ff','#ffffff'];function resize(){w=box.clientWidth;h=box.clientHeight;const d=Math.min(devicePixelRatio||1,2);c.width=w*d;c.height=h*d;ctx.setTransform(d,0,0,d,0,0)}const observer=new ResizeObserver(resize);observer.observe(box);function burst(){let x=w*(.12+Math.random()*.76),y=h*(.06+Math.random()*.45),color=colors[Math.floor(Math.random()*colors.length)];for(let i=0;i<80;i++){let a=Math.PI*2*i/80,v=40+Math.random()*95;particles.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,age:0,life:1.6+Math.random()*.8,color})}}function label(){button.textContent=running?'Ferma i fuochi d’artificio':'Avvia i fuochi d’artificio'}button.onclick=()=>{running=!running;particles=[];ctx.clearRect(0,0,w,h);next=0;label()};label();function frame(t){if(stopped)return;const dt=Math.min((t-last)/1000,.04);last=t;ctx.clearRect(0,0,w,h);if(running&&!document.hidden&&box.getClientRects().length>0){next-=dt;if(next<=0){burst();next=.45+Math.random()*.45}particles=particles.filter(p=>p.age<p.life);for(const p of particles){p.age+=dt;let ox=p.x,oy=p.y;p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=24*dt;ctx.globalAlpha=Math.max(0,1-p.age/p.life);ctx.strokeStyle=p.color;ctx.lineWidth=2.3;ctx.shadowColor=p.color;ctx.shadowBlur=9;ctx.beginPath();ctx.moveTo(ox,oy);ctx.lineTo(p.x,p.y);ctx.stroke()}ctx.globalAlpha=1;ctx.shadowBlur=0}raf=requestAnimationFrame(frame)}raf=requestAnimationFrame(frame)}
