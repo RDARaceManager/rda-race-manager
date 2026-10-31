@@ -270,6 +270,7 @@ function renderFlyers(){
 }
 
 
+let rdaChampionshipFocusDriver=null;
 let selectedChampionshipId=null, expandedChampionshipId=null;
 
 function publicChampionships(){return arr('championships')}
@@ -325,6 +326,7 @@ function renderChampionships(){
     {label:'Vittorie',key:'wins',cls:'hide-mobile'},
     {label:'Punti',render:r=>`<strong>${r.pts}</strong>`}
   ],'Nessun pilota classificato');
+  rdaHighlightChampionshipPilot();
 }
 
 
@@ -396,7 +398,67 @@ function openDriverCardById(driverId){
   if(matches.length!==1)return false;
   renderDriverCard(matches[0]);return true;
 }
-function renderDriverCard(d){const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div>${rdaLicenceCard(d)}<h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;go('drivercard')}
+// Match published standings to the canonical pilot selected by the account.
+// Older exports have only canonical names: accept those only when unambiguous.
+function rdaStandingForPilot(championship,driver,drivers){
+  if(!driver||!Number.isSafeInteger(driver.driver_id)||driver.driver_id<=0)return null;
+  const canonical=drivers.filter(d=>d.driver_id===driver.driver_id);
+  if(canonical.length!==1)return null;
+  const rows=Array.isArray(championship.standings)?championship.standings:[];
+  const uniqueName=drivers.filter(d=>d.name===driver.name).length===1;
+  const matches=rows.filter(row=>{
+    const id=row.driver_id??row.driverId;
+    return id!=null?Number(id)===driver.driver_id:uniqueName&&row.name===driver.name;
+  });
+  if(matches.length!==1)return null;
+  const row=matches[0];
+  if(typeof row.pts!=='number'||!Number.isFinite(row.pts)||!Number.isInteger(Number(row.pos))||Number(row.pos)<1)return null;
+  return row;
+}
+
+function rdaHighlightChampionshipPilot(){
+  if(!rdaChampionshipFocusDriver)return;
+  const c=selectedPublicChampionship();if(!c)return;
+  const row=rdaStandingForPilot(c,rdaChampionshipFocusDriver,arr('drivers'));if(!row)return;
+  const index=c.standings.indexOf(row);
+  const tr=document.querySelectorAll('#championshipTable tbody tr')[index];
+  if(tr){tr.classList.add('rda-my-standing');tr.setAttribute('aria-label','La tua posizione in questa classifica');}
+}
+function rdaPilotChampionships(driver){
+  const details=document.createElement('details');details.className='rda-my-championships';
+  const summary=document.createElement('summary');
+  const title=document.createElement('strong');title.textContent='🏁 I miei campionati';
+  const hint=document.createElement('small');
+  const entries=publicChampionships().map(c=>({c,row:rdaStandingForPilot(c,driver,arr('drivers'))})).filter(e=>e.row);
+  const active=entries.filter(e=>!e.c.closed),closed=entries.filter(e=>e.c.closed);
+  hint.textContent=active.length?active.length+' in corso · Posizione e punti':closed.length?'Campionati conclusi · Posizione e punti':'Nessuna classifica pubblicata';
+  summary.append(title,hint);details.append(summary);
+  const makeList=list=>{
+    const container=document.createElement('div');container.className='rda-my-champs-list';
+    const labels=document.createElement('div');labels.className='rda-my-champs-labels';
+    for(const text of ['Campionato','Pos.','Punti']){const s=document.createElement('span');s.textContent=text;labels.append(s);}container.append(labels);
+    for(const {c,row} of list){
+      const b=document.createElement('button');b.type='button';b.className='rda-my-champs-row';
+      const name=document.createElement('span'),strong=document.createElement('strong'),master=document.createElement('small');
+      strong.textContent=c.name;master.textContent=c.master?'RDA MASTER '+c.master:'RDA';name.append(strong,master);
+      const pos=document.createElement('b');pos.textContent=row.pos+'°';
+      const pts=document.createElement('b');pts.textContent=row.pts.toLocaleString('it-IT')+' ›';
+      b.setAttribute('aria-label',c.name+': posizione '+row.pos+', '+row.pts+' punti. Apri classifica');
+      b.append(name,pos,pts);b.onclick=()=>{
+        rdaChampionshipFocusDriver=driver;selectedChampionshipId=Number(c.id);expandedChampionshipId=null;renderChampionships();go('championship');
+        const marked=document.querySelector('#championshipTable .rda-my-standing');if(marked)marked.scrollIntoView({block:'center',behavior:'auto'});
+      };container.append(b);
+    }
+    return container;
+  };
+  if(active.length)details.append(makeList(active));
+  if(closed.length){const old=document.createElement('details'),s=document.createElement('summary');old.className='rda-my-champs-closed';s.textContent='Campionati conclusi ('+closed.length+')';old.append(s,makeList(closed));details.append(old);}
+  if(!entries.length){const p=document.createElement('p');p.className='rda-my-champs-note';p.textContent='Non ci sono ancora classifiche pubblicate associate a questo pilota.';details.append(p);}
+  else {const p=document.createElement('p');p.className='rda-my-champs-note';p.textContent='Dati dell’ultima pubblicazione del Manager. Tocca un campionato per aprire la classifica.';details.append(p);}
+  return details;
+}
+
+function renderDriverCard(d){const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div>${rdaLicenceCard(d)}<h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;$('#driverIdentityCard .identity-top').after(rdaPilotChampionships(d));go('drivercard')}
 function renderTrackRecords(q=''){if(!$('#trackRecordCards'))return;const a=arr('trackRecords').filter(x=>x.track.toLowerCase().includes(q.toLowerCase()));$('#trackRecordCards').innerHTML=a.length?a.map(x=>`<article class="record-card panel"><div class="record-map"><img src="${mapFileForTrack(x.track)}" alt="Sagoma ${x.track}" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">Sagoma non disponibile</span></div><div><div class="eyebrow">RECORD RDA</div><h3>${x.track}</h3><strong class="record-time">${x.time}</strong><p>🏎️ ${x.driver}<br>${rdaCarLink(x)}<br><small>${x.championship} • ${x.date}</small></p></div></article>`).join(''):emptyState('Nessun record circuito disponibile')}
 const trs=$('#trackRecordSearch');if(trs)trs.addEventListener('input',e=>renderTrackRecords(e.target.value));
 setTimeout(()=>renderTrackRecords(),0);
