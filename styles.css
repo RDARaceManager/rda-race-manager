@@ -476,3 +476,17 @@ body, .rda-auth-gate { background: var(--rda-racing-bg); }
 @media(max-width:400px){.rda-paper-content{padding:18px}.rda-paper-title{padding:18px}.rda-paper .rda-news-signature{margin-left:-18px;margin-right:-18px;margin-bottom:-18px;padding-left:18px;padding-right:18px}}
 
 .rda-penalty-overlay>.rda-paper{width:100%;max-width:800px;margin:0 auto}
+
+/* Best Lap: latest race day and on-demand archive. */
+#raceBestLapCards{display:block}
+.bestlap-current-title{margin:0 0 18px;color:var(--text,#eef5ff)}
+.bestlap-current[hidden],.bestlap-archive[hidden]{display:none!important}
+.bestlap-archive-button,.bestlap-back{font:inherit;color:inherit;background:rgba(60,165,210,.12);border:1px solid rgba(80,199,230,.5);border-radius:12px;padding:14px 18px;min-height:46px;cursor:pointer}
+.bestlap-archive-button{display:block;width:100%;margin:22px 0;text-align:left;font-weight:700}
+.bestlap-back{margin-bottom:18px}
+.bestlap-month-label{display:block;margin:18px 0;font-size:14px}
+.bestlap-month{display:block;margin-top:8px;max-width:340px;width:100%;font:inherit;min-height:44px;padding:10px;border-radius:8px}
+.bestlap-day{border-bottom:1px solid rgba(120,165,200,.3);padding:8px 0}
+.bestlap-day summary{cursor:pointer;padding:14px 4px;min-height:48px}
+.bestlap-day-caption{display:block;font-size:13px;line-height:1.5;opacity:.8;margin:7px 0 0 18px;overflow-wrap:anywhere}
+.bestlap-day>.race-best-lap-list{margin:15px 0}
