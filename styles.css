@@ -510,3 +510,9 @@ button.rda-my-champs-row{width:100%;min-height:54px;text-align:left;background:t
 #championshipTable tr.rda-my-standing td{background:rgba(0,215,240,.17);font-weight:700}
 #championshipTable tr.rda-my-standing td:first-child{box-shadow:inset 3px 0 #25d6e8}
 @media(max-width:420px){.rda-my-champs-labels,.rda-my-champs-row{grid-template-columns:minmax(0,1fr) 34px 62px;gap:5px}.rda-my-champs-row strong{font-size:12px}.rda-my-champs-row>b{font-size:16px}.rda-my-championships{padding:0 11px}}
+
+/* Official rule library */
+.rda-rules{max-width:1000px;margin:auto}.rda-rules-heading{border-top:3px solid #28dbef;padding:26px!important;background:linear-gradient(120deg,#102942,#11182b)}
+.rda-rules-heading h2{font-size:clamp(28px,6vw,42px);margin:14px 0}.rda-rules-heading p{color:#b1c4dc;line-height:1.6}
+.rda-rules-tabs{display:flex;gap:10px;margin:18px 0}.rda-rules-tabs button{flex:1;padding:15px 10px;border:1px solid #3b5875;border-radius:12px;background:#0e1c30;color:#c4d8ed;font-weight:700}
+.rda-rules-tabs button[aria-pressed=true]{border-color:#31d4e6;color:#5aebf6;background:#12344a}.rda-rule-document{padding:22px!important;margin-bottom:14px}.rda-rule-document small{color:#3ad6e9}.rda-rule-document h3{line-height:1.4}.rda-rule-document p{color:#a7bed6}.rda-rule-open{display:inline-block;padding:13px 20px;border:1px solid #2bd2e9;border-radius:10px;color:#fff;text-decoration:none;background:#123b53;font-weight:700}
