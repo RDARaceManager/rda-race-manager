@@ -346,6 +346,7 @@ function renderPodiumsByChampionship(){
  if(fs){if(finals.length){if(selectedFinalPodiumChamp===null||!finals.some(x=>Number(x.championshipId)===Number(selectedFinalPodiumChamp)))selectedFinalPodiumChamp=Number(finals[0].championshipId);fs.innerHTML=finals.map(x=>`<button class="champ-choice ${Number(x.championshipId)===Number(selectedFinalPodiumChamp)?'active':''}" data-fp="${x.championshipId}"><strong>${x.championship}</strong><small>${x.master?`RDA MASTER ${x.master}`:'RDA'} • FINALE UFFICIALE</small></button>`).join('');$$('#finalPodiumSelector [data-fp]').forEach(b=>b.onclick=()=>{selectedFinalPodiumChamp=Number(b.dataset.fp);renderPodiumsByChampionship()});const x=finals.find(v=>Number(v.championshipId)===Number(selectedFinalPodiumChamp));$('#finalPodiumArena').style.display='block';$('#podiumChampTitle').textContent=x.championship;$('#podiumChampMeta').textContent=`${x.master?`MASTER ${x.master} • `:''}FINALE UFFICIALE`;$('#podiumChampFull').innerHTML=podiumStageRDA(x.rows,true);startPodiumFireworksRDA()}else{fs.innerHTML=emptyState('Nessun campionato ancora concluso');$('#finalPodiumArena').style.display='none'}}
 }
 function render(){
+ renderRdaRegulations();
  renderRdaNews();
   renderRdaHallOfFame();
   const day=arr('dayResults'), champ=arr('championship'), elo=arr('elo'), drivers=arr('drivers'), teams=arr('teams'), cons=arr('constructors');
@@ -863,4 +864,24 @@ function openRdaNewsImage(image,trigger,make){
  const dismiss=()=>{overlay.remove();document.removeEventListener('keydown',keys);trigger.focus();};
  const keys=e=>{if(e.key==='Escape')dismiss();if(e.key==='Tab'){e.preventDefault();close.focus();}};
  close.onclick=dismiss;overlay.append(close,picture);document.body.append(overlay);document.addEventListener('keydown',keys);close.focus();
+}
+
+
+function renderRdaRegulations(){
+ const host=document.getElementById('rdaRegulationsList');if(!host)return;
+ const tabs=document.querySelectorAll('[data-reg-category]');
+ const category=host.dataset.category||'Gara';
+ tabs.forEach(button=>{button.setAttribute('aria-pressed',String(button.dataset.regCategory===category));button.onclick=()=>{host.dataset.category=button.dataset.regCategory;renderRdaRegulations()}});
+ const rows=(Array.isArray(D.rdaRegulations)?D.rdaRegulations:[]).filter(row=>row.online&&row.category===category);
+ host.replaceChildren();
+ if(!rows.length){const p=document.createElement('p');p.className='panel';p.textContent='Nessun documento pubblicato in questa sezione.';host.append(p);return}
+ rows.forEach(row=>{
+  if(!/^regolamenti_rda\/[a-f0-9]+\.pdf$/.test(row.url||''))return;
+  const card=document.createElement('article');card.className='panel rda-rule-document';
+  const label=document.createElement('small');label.textContent=category==='Gara'?(row.championship||'REGOLAMENTO GARA'):'REGOLAMENTO GENERALE RDA';
+  const title=document.createElement('h3');title.textContent=row.title;
+  const info=document.createElement('p');info.textContent=`Versione ${row.version} · ${row.date}`;
+  const link=document.createElement('a');link.href=row.url;link.target='_blank';link.rel='noopener';link.textContent='▣  Leggi PDF';link.className='rda-rule-open';
+  card.append(label,title,info,link);host.append(card);
+ });
 }
