@@ -97731,5 +97731,79 @@ window.RDA_DATA = {
       "id": "7218476dba6343eea04030960bac9c21",
       "updated_at": "2026-10-08T18:25:22.526271+00:00"
     }
+  ],
+  "rdaRegulations": [
+    {
+      "id": "2a9fc2c96d064519a2de82b5d4066a7a",
+      "file": "2a9fc2c96d064519a2de82b5d4066a7a.pdf",
+      "category": "Gara",
+      "title": "Campionato Red bull",
+      "version": "1",
+      "date": "2026-11-01",
+      "championshipId": 13,
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "online": true,
+      "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf"
+    },
+    {
+      "id": "64c4248dfe43461c88c28b14240f652f",
+      "file": "64c4248dfe43461c88c28b14240f652f.pdf",
+      "category": "Gara",
+      "title": "Campionato Toyota",
+      "version": "1",
+      "date": "2026-11-01",
+      "championshipId": 10,
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "online": true,
+      "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf"
+    },
+    {
+      "id": "9b3d2568e244473da5ccf5145610370e",
+      "file": "9b3d2568e244473da5ccf5145610370e.pdf",
+      "category": "Gara",
+      "title": "Campionato Lamborghini",
+      "version": "1",
+      "date": "2026-11-01",
+      "championshipId": 11,
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "online": true,
+      "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf"
+    },
+    {
+      "id": "c177ce8835cf408db5a83ced4970e2c6",
+      "file": "c177ce8835cf408db5a83ced4970e2c6.pdf",
+      "category": "Gara",
+      "title": "Campionato ESET",
+      "version": "1",
+      "date": "2026-11-01",
+      "championshipId": 12,
+      "championship": "RDA MASTER ESET V4 CUP",
+      "online": true,
+      "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf"
+    },
+    {
+      "id": "c386b2a34e804e4a89a5e2cf3754f531",
+      "file": "c386b2a34e804e4a89a5e2cf3754f531.pdf",
+      "category": "Generali RDA",
+      "title": "Spiegazione per Reclamo",
+      "version": "1",
+      "date": "2026-11-01",
+      "championshipId": null,
+      "championship": "",
+      "online": true,
+      "url": "regolamenti_rda/c386b2a34e804e4a89a5e2cf3754f531.pdf"
+    },
+    {
+      "id": "fa6de7d46850442ca9d8acea910a4baa",
+      "file": "fa6de7d46850442ca9d8acea910a4baa.pdf",
+      "category": "Generali RDA",
+      "title": "REGOLAMENTO RDA",
+      "version": "1",
+      "date": "2026-11-01",
+      "championshipId": null,
+      "championship": "",
+      "online": true,
+      "url": "regolamenti_rda/fa6de7d46850442ca9d8acea910a4baa.pdf"
+    }
   ]
 };
