@@ -888,6 +888,7 @@ function renderRdaRegulations(){
 }
 
 
+
 function rdaBriefingSelection(rows,today){
  const valid=rows.filter(r=>/^\d{4}-\d{2}-\d{2}$/.test(r.isoDate||'')).sort((a,b)=>a.isoDate.localeCompare(b.isoDate));
  const day=valid.find(r=>r.isoDate>=today)?.isoDate;
@@ -916,12 +917,13 @@ function renderRdaBriefing(){
  host.innerHTML=selected.rows.map(r=>{
   const s=r.settings||{},source=r.source;
   const allowed=s.allowedTyres&&s.tyreType?`${s.tyreType} · ${s.allowedTyres}`:s.allowedTyres;
-  const pit=s.pitStops==='0'?'0 soste minime indicate nel PDF':s.pitStops?`${s.pitStops} soste minime`:null;
+  const pit=Number.isInteger(s.effectivePitStops)?(s.effectivePitStops===0?'Nessuna sosta minima imposta':`Almeno ${s.effectivePitStops} ${s.effectivePitStops===1?'sosta':'soste'}`):null;
+  const pitDetail=s.tyrePitStops>0?'Per utilizzare tutte le mescole obbligatorie':'';
   const carName=s.car||r.car?.model;
   const car=`<div class="rda-brief-car"><div><small>AUTO DELLA GARA</small><strong>${value(carName)}</strong></div></div>`;
-  const extra=[['Gomme consentite',allowed],['Cambio tipo gomme',s.tyreChange],['Giri',s.laps],['Partenza',s.start],['BoP / divieto elaborazione',s.bop],['Danni meccanici',s.damage],['Carburante iniziale',s.initialFuel]];
+  const extra=[['Gomme consentite',allowed],['Cambio tipo gomme',s.effectiveTyreChange||s.tyreChange],['Giri',s.laps],['Partenza',s.start],['BoP / divieto elaborazione',s.bop],['Danni meccanici',s.damage],['Carburante iniziale',s.initialFuel]];
   const url=source?.url||'';const safePdf=/^(?:regolamenti|regolamenti_rda)\/[a-zA-Z0-9_.-]+\.pdf$/.test(url);
-  return `<article class="panel rda-brief-card"><div class="eyebrow">${esc(r.championship||r.title||'Gara RDA')}</div><h3>${esc(r.track||'Circuito da definire')}</h3><p class="rda-brief-date">${esc(r.date||r.isoDate)}</p>${car}<div class="rda-brief-list"><h4>Le cose da sapere</h4>${line('🛞','GOMME OBBLIGATORIE',s.requiredTyres,s.tyreType?`Tipo: ${s.tyreType}`:'')}${line('🔧','PIT STOP',pit)}${line('⛽','CARBURANTE',s.fuel?`Consumo ${s.fuel}`:null)}${line('🛞','USURA GOMME',s.wear?`Moltiplicatore ${s.wear}`:null)}</div>${s.sessions?.length?`<div class="rda-brief-times">${s.sessions.map(t=>`<span>${esc(t)}</span>`).join('')}</div>`:''}${r.issue?`<p class="rda-brief-warning">${esc(r.issue)}</p>`:''}${(s.warnings||[]).map(w=>`<p class="rda-brief-warning">⚠ ${esc(w)}</p>`).join('')}<details class="rda-brief-extra"><summary>Tutte le impostazioni</summary><dl>${extra.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${value(v)}</dd></div>`).join('')}</dl></details>${safePdf?`<a class="regulation-btn rda-brief-read" href="${esc(url)}">📖 Regolamento completo</a><p class="rda-brief-source">${esc(source.title)}${source.version?` · versione ${esc(source.version)}`:''}</p>`:''}</article>`;
+  return `<article class="panel rda-brief-card"><div class="eyebrow">${esc(r.championship||r.title||'Gara RDA')}</div><h3>${esc(r.track||'Circuito da definire')}</h3><p class="rda-brief-date">${esc(r.date||r.isoDate)}</p>${car}<div class="rda-brief-list"><h4>Le cose da sapere</h4>${line('🛞','GOMME OBBLIGATORIE',s.requiredTyres,s.tyreType?`Tipo: ${s.tyreType}`:'')}${line('🔧','PIT STOP',pit,pitDetail)}${line('⛽','CARBURANTE',s.fuel?`Consumo ${s.fuel}`:null)}${line('🛞','USURA GOMME',s.wear?`Moltiplicatore ${s.wear}`:null)}</div>${s.sessions?.length?`<div class="rda-brief-times">${s.sessions.map(t=>`<span>${esc(t)}</span>`).join('')}</div>`:''}${r.directionNote?`<p class="rda-brief-source">${esc(r.directionNote)}</p>`:''}${r.issue?`<p class="rda-brief-warning">${esc(r.issue)}</p>`:''}${(s.warnings||[]).map(w=>`<p class="rda-brief-warning">⚠ ${esc(w)}</p>`).join('')}<details class="rda-brief-extra"><summary>Tutte le impostazioni</summary><dl>${extra.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${value(v)}</dd></div>`).join('')}</dl></details>${safePdf?`<a class="regulation-btn rda-brief-read" href="${esc(url)}">📖 Regolamento completo</a><p class="rda-brief-source">${esc(source.title)}${source.version?` · versione ${esc(source.version)}`:''}</p>`:''}</article>`;
  }).join('');
 }
 setInterval(()=>{
