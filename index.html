@@ -9,7 +9,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=rda-logo-v38">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/rda-icon-192.png?v=rda-logo-v38">
-  <link rel="stylesheet" href="styles.css?v=my-championships-20261031">
+  <link rel="stylesheet" href="styles.css?v=regolamenti-20261101">
   <link rel="stylesheet" href="car-card.css?v=podium-layout-fix-20261006">
 <style>.rda-claims{max-width:850px;margin:auto}.rda-claims-hero{position:relative;overflow:hidden;padding:35px 24px;border:1px solid #3ac8ed;border-radius:24px;background:radial-gradient(circle at 95% 0,#7c29b54d,transparent 55%),linear-gradient(130deg,#0a233b,#141a36);margin-bottom:24px;box-shadow:0 0 24px #16c8ef18}.rda-claims-symbol{font-size:55px;color:#61dafa}.rda-claims-hero h2{font-size:clamp(32px,7vw,48px);margin:12px 0}.rda-claims-hero p{line-height:1.7;color:#bacfe2}.rda-claims-panel{padding:26px!important}.rda-claims-steps p{padding:16px 0;border-bottom:1px solid #4b66834d;line-height:1.65}.rda-claims-steps b{color:#79dfef}.rda-claims-submit{display:block;text-align:center;margin-top:24px;padding:19px;border-radius:14px;background:linear-gradient(110deg,#0086ad,#7228b5);color:white;font-size:19px;font-weight:800;text-decoration:none;border:1px solid #5de5ef}.rda-claims-help{color:#a7bdd2;font-size:14px;line-height:1.7}</style></head>
 <body>
@@ -80,6 +80,7 @@
       <div class="home-welcome home-welcome-photo panel" role="img" aria-label="Racing Drivers Academy - More Than Racing"></div>
       <div class="home-live panel"><div><small>ULTIMA GARA UFFICIALE</small><strong id="homeRaceTitle">In attesa</strong><span id="homeRaceTrack">—</span></div><div><b id="homeRaceDate">—</b><em id="homeRaceMaster">RDA</em></div></div>
       <div class="home-menu">
+       <button data-go="rda-regulations"><b>▣</b><strong>Regolamenti RDA</strong><span>Regolamenti Gara e Generali RDA · Documenti ufficiali</span></button>
        <button data-go="records"><b>🏁</b><strong>Best Lap</strong><span>Il miglior giro gara della giornata</span></button>
        <button data-go="calendar"><b>📅</b><strong>Calendario</strong><span>Gare disputate e prossimi appuntamenti</span></button>
        <button data-go="results"><b>🏁</b><strong>Risultati</strong><span>Apri ogni gara e la sua classifica</span></button>
@@ -96,6 +97,11 @@
       </div>
     <div class="home-compat" hidden><span id="homeRaceDay"></span><span id="homeRaceMonth"></span><span id="homeRaceYear"></span><span id="homeRaceChamp"></span><span id="leaderChampName"></span><span id="leaderChampSub"></span><span id="leaderEloName"></span><span id="leaderEloSub"></span><span id="publishedDriverCount"></span><span id="homeOfficialRounds"></span><div id="homeResults"></div></div></section>
 
+    <section class="view rda-rules" data-view="rda-regulations">
+      <div class="panel rda-rules-heading"><div class="eyebrow">DIREZIONE GARA · DOCUMENTI UFFICIALI</div><h2>Regolamenti RDA</h2><p>Le regole della pista e della community. Consulta la versione pubblicata prima di gareggiare.</p></div>
+      <div class="rda-rules-tabs"><button type="button" data-reg-category="Gara" aria-pressed="true">Regolamenti Gara</button><button type="button" data-reg-category="Generali RDA" aria-pressed="false">Regolamenti Generali RDA</button></div>
+      <div id="rdaRegulationsList"></div>
+    </section>
     <section class="view" data-view="calendar">
       <div class="section-head calendar-title"><div><div class="eyebrow">STORICO UFFICIALE RDA</div><h2>Calendario Gare</h2><p>Verde: gara disputata e ufficiale. Rosso: prossimo appuntamento già programmato nel Manager.</p></div><span class="live-pill" id="calendarYearPill">2026</span></div>
       <div class="calendar-layout">
@@ -230,6 +236,7 @@
 
   <nav class="bottom-nav" aria-label="Navigazione principale">
     <button class="nav-btn active" data-view-target="home"><span>⌂</span><small>Home</small></button>
+    <button class="nav-btn" data-view-target="rda-regulations"><span>▣</span><small>Regolamenti</small></button>
     <button class="nav-btn" data-view-target="calendar"><span>▣</span><small>Calendario</small></button>
     <button class="nav-btn" data-view-target="results"><span>🏁</span><small>Risultati</small></button>
     <button class="nav-btn" data-view-target="championship"><span>🏆</span><small>Campionato</small></button>
@@ -254,6 +261,6 @@
   <div id="rdaRegulationPdf" role="region" aria-label="Pagine del Regolamento Ufficiale" tabindex="0"></div>
 </dialog>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=my-championships-20261031"></script>
+<script src="app.js?v=regolamenti-20261101"></script>
 <script src="car-card.js?v=gt7-1"></script>
 </body></html>
