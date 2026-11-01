@@ -97817,21 +97817,29 @@ window.RDA_DATA = {
       "track": "Sardegna - Road Track - B",
       "master": 250,
       "settings": {
-        "requiredTyres": null,
-        "allowedTyres": null,
-        "tyreType": null,
-        "pitStops": null,
+        "requiredTyres": "Dure, Medie, Morbide",
+        "allowedTyres": "Tutte",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
         "tyreChange": null,
-        "fuel": null,
-        "wear": null,
-        "start": null,
-        "bop": null,
-        "damage": null,
-        "initialFuel": null,
-        "car": null,
-        "laps": null,
-        "sessions": [],
-        "warnings": []
+        "fuel": "1x",
+        "wear": "1x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "NO",
+        "damage": "Ridotti",
+        "initialFuel": "25 Litri",
+        "car": "Chevrolet Corvette C7 · Jaguar F-type · Aston Martin V8 Vantage · McLaren 650S · Citroen GT · Subaru WRX · Mitsubishi Lancer Evolution Final · Hyundai Genesis",
+        "laps": "33",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [],
+        "effectivePitStops": 2,
+        "tyrePitStops": 2,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti/regolamento-rda-wtcr-championship.pdf",
@@ -97839,7 +97847,8 @@ window.RDA_DATA = {
         "version": null,
         "sha256": "5d9c3ecaa81552b9acf108fecf9d84761ad9f2f35a01173aed907a117403c35e"
       },
-      "issue": "Il PDF non contiene campi testuali riconoscibili: consulta il documento completo."
+      "issue": null,
+      "directionNote": "Direzione gara: per il 1° novembre 2026 sono obbligatorie tutte e tre le mescole."
     },
     {
       "eventId": "future-12-2026-11-02-43",
@@ -97870,9 +97879,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
@@ -97916,9 +97926,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
@@ -97962,9 +97973,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
@@ -98008,9 +98020,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
@@ -98054,9 +98067,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
@@ -98097,7 +98111,10 @@ window.RDA_DATA = {
         ],
         "warnings": [
           "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ]
+        ],
+        "effectivePitStops": 2,
+        "tyrePitStops": null,
+        "effectiveTyreChange": "Si"
       },
       "source": {
         "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
@@ -98143,7 +98160,10 @@ window.RDA_DATA = {
         ],
         "warnings": [
           "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ]
+        ],
+        "effectivePitStops": 2,
+        "tyrePitStops": null,
+        "effectiveTyreChange": "Si"
       },
       "source": {
         "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
@@ -98187,9 +98207,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
@@ -98233,9 +98254,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
@@ -98279,9 +98301,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
@@ -98325,9 +98348,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
@@ -98371,9 +98395,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
@@ -98419,7 +98444,10 @@ window.RDA_DATA = {
         ],
         "warnings": [
           "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ]
+        ],
+        "effectivePitStops": 2,
+        "tyrePitStops": null,
+        "effectiveTyreChange": "Si"
       },
       "source": {
         "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
@@ -98465,7 +98493,10 @@ window.RDA_DATA = {
         ],
         "warnings": [
           "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ]
+        ],
+        "effectivePitStops": 2,
+        "tyrePitStops": null,
+        "effectiveTyreChange": "Si"
       },
       "source": {
         "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
@@ -98509,9 +98540,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
@@ -98555,9 +98587,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
@@ -98601,9 +98634,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
@@ -98647,9 +98681,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
@@ -98693,9 +98728,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
@@ -98736,7 +98772,10 @@ window.RDA_DATA = {
         ],
         "warnings": [
           "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ]
+        ],
+        "effectivePitStops": 2,
+        "tyrePitStops": null,
+        "effectiveTyreChange": "Si"
       },
       "source": {
         "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
@@ -98782,7 +98821,10 @@ window.RDA_DATA = {
         ],
         "warnings": [
           "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ]
+        ],
+        "effectivePitStops": 2,
+        "tyrePitStops": null,
+        "effectiveTyreChange": "Si"
       },
       "source": {
         "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
@@ -98826,9 +98868,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
@@ -98872,9 +98915,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
@@ -98918,9 +98962,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
@@ -98964,9 +99009,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
@@ -99010,9 +99056,10 @@ window.RDA_DATA = {
           "21:00",
           "23:00"
         ],
-        "warnings": [
-          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
-        ]
+        "warnings": [],
+        "effectivePitStops": 1,
+        "tyrePitStops": 1,
+        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
         "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
@@ -99058,7 +99105,10 @@ window.RDA_DATA = {
         ],
         "warnings": [
           "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ]
+        ],
+        "effectivePitStops": 2,
+        "tyrePitStops": null,
+        "effectiveTyreChange": "Si"
       },
       "source": {
         "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
@@ -99104,7 +99154,10 @@ window.RDA_DATA = {
         ],
         "warnings": [
           "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ]
+        ],
+        "effectivePitStops": 2,
+        "tyrePitStops": null,
+        "effectiveTyreChange": "Si"
       },
       "source": {
         "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
