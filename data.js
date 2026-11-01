@@ -3590,6 +3590,22 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0
     },
     {
+      "name": "TheHeavenkaiser",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "driver_id": 199,
+      "psn": "TheHeavenKaiser",
+      "nicknameSecondary": "Pliskin95",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
       "name": "Tommaso9777",
       "races": 0,
       "wins": 0,
