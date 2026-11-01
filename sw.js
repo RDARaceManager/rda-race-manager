@@ -1,10 +1,10 @@
-const CACHE='rda-briefing-v47-20261101';
+const CACHE='rda-briefing-v48-20261101';
 const REGULATION_CACHE='rda-regulation-documents-v1';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/rda-mark.png?v=rda-logo-v38','./assets/rda-icon-192.png?v=rda-logo-v38','./assets/rda-icon-512.png?v=rda-logo-v38','./assets/rda-icon-maskable-512.png?v=rda-logo-v38','./assets/apple-touch-icon.png?v=rda-logo-v38','./assets/calendario-settembre-2026.jpg','./assets/rda-home-hero-v460.png'];
 // PDF.js locale e risorse necessarie anche senza rete.
 ASSETS.push(...[
-  "./app.js?v=briefing-v47-20261101",
-  "./styles.css?v=briefing-v47-20261101",
+  "./app.js?v=briefing-v48-20261101",
+  "./styles.css?v=briefing-v48-20261101",
   "./vendor/pdfjs-5.6.205/cmaps/78-EUC-H.bcmap",
   "./vendor/pdfjs-5.6.205/cmaps/78-EUC-V.bcmap",
   "./vendor/pdfjs-5.6.205/cmaps/78-H.bcmap",
