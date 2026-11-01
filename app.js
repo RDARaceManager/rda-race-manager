@@ -347,6 +347,7 @@ function renderPodiumsByChampionship(){
 }
 function render(){
  renderRdaRegulations();
+ renderRdaBriefing();
  renderRdaNews();
   renderRdaHallOfFame();
   const day=arr('dayResults'), champ=arr('championship'), elo=arr('elo'), drivers=arr('drivers'), teams=arr('teams'), cons=arr('constructors');
@@ -881,7 +882,51 @@ function renderRdaRegulations(){
   const label=document.createElement('small');label.textContent=category==='Gara'?(row.championship||'REGOLAMENTO GARA'):'REGOLAMENTO GENERALE RDA';
   const title=document.createElement('h3');title.textContent=row.title;
   const info=document.createElement('p');info.textContent=`Versione ${row.version} · ${row.date}`;
-  const link=document.createElement('a');link.href=row.url;link.target='_blank';link.rel='noopener';link.textContent='▣  Leggi PDF';link.className='rda-rule-open';
+  const link=document.createElement('a');link.href=row.url;link.target='_blank';link.rel='noopener';link.textContent='▣  Leggi PDF';link.className='rda-rule-open regulation-btn';
   card.append(label,title,info,link);host.append(card);
  });
 }
+
+
+function rdaBriefingSelection(rows,today){
+ const valid=rows.filter(r=>/^\d{4}-\d{2}-\d{2}$/.test(r.isoDate||'')).sort((a,b)=>a.isoDate.localeCompare(b.isoDate));
+ const day=valid.find(r=>r.isoDate>=today)?.isoDate;
+ return {day,rows:day?valid.filter(r=>r.isoDate===day):[],isToday:day===today};
+}
+function renderRdaBriefing(){
+ const host=document.getElementById('rdaBriefingContent'),entry=document.getElementById('rdaBriefingEntry');if(!host||!entry)return;
+ const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Rome',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+ const part=k=>parts.find(p=>p.type===k).value,today=`${part('year')}-${part('month')}-${part('day')}`;
+ host.dataset.today=today;
+ const rows=Array.isArray(D.raceBriefings)?D.raceBriefings:[];
+ const automatic=rdaBriefingSelection(rows,today);
+ const selected=host.dataset.selectedDate?{day:host.dataset.selectedDate,rows:rows.filter(r=>r.isoDate===host.dataset.selectedDate),isToday:host.dataset.selectedDate===today}:automatic;
+ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const unknown='Da verificare nel regolamento',value=v=>esc(v||unknown);
+ const dateLabel=selected.rows[0]?.date||selected.day||'';
+ document.getElementById('rdaBriefingEntryTitle').textContent=automatic.rows.length?(automatic.isToday?'La gara di oggi':'La prossima gara'):'Briefing gara';
+ document.getElementById('rdaBriefingEntryDetail').textContent=automatic.rows.length?`${automatic.rows[0]?.date||automatic.day} · ${automatic.rows.map(r=>r.championship||r.title).join(' · ')}`:'Nessuna gara futura pubblicata nel calendario.';
+ document.getElementById('rdaBriefingDay').textContent=selected.rows.length?(selected.isToday?'OGGI IN PISTA':`PROSSIMO APPUNTAMENTO · ${dateLabel}`):'CALENDARIO GARE';
+ const picker=document.getElementById('rdaBriefingDate');
+ const days=[...new Set(rows.map(r=>r.isoDate).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d||'')&&d>=today))].sort();
+ picker.innerHTML='<option value="">Oggi / prossima gara</option>'+days.map(d=>`<option value="${d}">${esc(rows.find(r=>r.isoDate===d)?.date||d)}</option>`).join('');
+ picker.value=host.dataset.selectedDate||'';picker.onchange=()=>{host.dataset.selectedDate=picker.value;renderRdaBriefing()};
+ if(!selected.rows.length){host.innerHTML='<div class="panel"><h3>Nessuna gara programmata</h3><p>Il briefing comparirà con la pubblicazione dei prossimi appuntamenti.</p></div>';return}
+ function line(icon,label,main,detail=''){return `<div class="rda-brief-line"><span aria-hidden="true">${icon}</span><div><small>${label}</small><strong>${value(main)}</strong>${detail?`<p>${esc(detail)}</p>`:''}</div></div>`}
+ host.innerHTML=selected.rows.map(r=>{
+  const s=r.settings||{},source=r.source;
+  const allowed=s.allowedTyres&&s.tyreType?`${s.tyreType} · ${s.allowedTyres}`:s.allowedTyres;
+  const pit=s.pitStops==='0'?'0 soste minime indicate nel PDF':s.pitStops?`${s.pitStops} soste minime`:null;
+  const carName=s.car||r.car?.model;
+  const car=`<div class="rda-brief-car"><div><small>AUTO DELLA GARA</small><strong>${value(carName)}</strong></div></div>`;
+  const extra=[['Gomme consentite',allowed],['Cambio tipo gomme',s.tyreChange],['Giri',s.laps],['Partenza',s.start],['BoP / divieto elaborazione',s.bop],['Danni meccanici',s.damage],['Carburante iniziale',s.initialFuel]];
+  const url=source?.url||'';const safePdf=/^(?:regolamenti|regolamenti_rda)\/[a-zA-Z0-9_.-]+\.pdf$/.test(url);
+  return `<article class="panel rda-brief-card"><div class="eyebrow">${esc(r.championship||r.title||'Gara RDA')}</div><h3>${esc(r.track||'Circuito da definire')}</h3><p class="rda-brief-date">${esc(r.date||r.isoDate)}</p>${car}<div class="rda-brief-list"><h4>Le cose da sapere</h4>${line('🛞','GOMME OBBLIGATORIE',s.requiredTyres,s.tyreType?`Tipo: ${s.tyreType}`:'')}${line('🔧','PIT STOP',pit)}${line('⛽','CARBURANTE',s.fuel?`Consumo ${s.fuel}`:null)}${line('🛞','USURA GOMME',s.wear?`Moltiplicatore ${s.wear}`:null)}</div>${s.sessions?.length?`<div class="rda-brief-times">${s.sessions.map(t=>`<span>${esc(t)}</span>`).join('')}</div>`:''}${r.issue?`<p class="rda-brief-warning">${esc(r.issue)}</p>`:''}${(s.warnings||[]).map(w=>`<p class="rda-brief-warning">⚠ ${esc(w)}</p>`).join('')}<details class="rda-brief-extra"><summary>Tutte le impostazioni</summary><dl>${extra.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${value(v)}</dd></div>`).join('')}</dl></details>${safePdf?`<a class="regulation-btn rda-brief-read" href="${esc(url)}">📖 Regolamento completo</a><p class="rda-brief-source">${esc(source.title)}${source.version?` · versione ${esc(source.version)}`:''}</p>`:''}</article>`;
+ }).join('');
+}
+setInterval(()=>{
+ const host=document.getElementById('rdaBriefingContent');if(!host)return;
+ const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Rome',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+ const day=['year','month','day'].map(k=>parts.find(p=>p.type===k).value).join('-');
+ if(host.dataset.today!==day){delete host.dataset.selectedDate;renderRdaBriefing()}
+},60000);
