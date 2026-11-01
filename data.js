@@ -97805,5 +97805,1319 @@ window.RDA_DATA = {
       "online": true,
       "url": "regolamenti_rda/fa6de7d46850442ca9d8acea910a4baa.pdf"
     }
+  ],
+  "raceBriefings": [
+    {
+      "eventId": "future-9-2026-11-01-Finale",
+      "isoDate": "2026-11-01",
+      "date": "01.11.2026",
+      "title": "RDA WTCR CHAMPIONSHIP",
+      "championship": "RDA WTCR CHAMPIONSHIP",
+      "championshipId": 9,
+      "track": "Sardegna - Road Track - B",
+      "master": 250,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": null,
+        "tyreType": null,
+        "pitStops": null,
+        "tyreChange": null,
+        "fuel": null,
+        "wear": null,
+        "start": null,
+        "bop": null,
+        "damage": null,
+        "initialFuel": null,
+        "car": null,
+        "laps": null,
+        "sessions": [],
+        "warnings": []
+      },
+      "source": {
+        "url": "regolamenti/regolamento-rda-wtcr-championship.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "5d9c3ecaa81552b9acf108fecf9d84761ad9f2f35a01173aed907a117403c35e"
+      },
+      "issue": "Il PDF non contiene campi testuali riconoscibili: consulta il documento completo."
+    },
+    {
+      "eventId": "future-12-2026-11-02-43",
+      "isoDate": "2026-11-02",
+      "date": "02.11.2026",
+      "title": "RDA MASTER ESET V4 CUP",
+      "championship": "RDA MASTER ESET V4 CUP",
+      "championshipId": 12,
+      "track": "Goodwood Motor Circuit",
+      "master": 500,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "3x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "35 litri",
+        "car": "Mercedes-Benz A45 AMG ’13",
+        "laps": "20",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
+        "title": "Campionato ESET",
+        "version": "1",
+        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+      },
+      "issue": null,
+      "car": {
+        "carId": 213,
+        "model": "A 45 AMG '13",
+        "brand": "AMG"
+      }
+    },
+    {
+      "eventId": "future-10-2026-11-03-31",
+      "isoDate": "2026-11-03",
+      "date": "03.11.2026",
+      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championshipId": 10,
+      "track": "Kyoto Driving Park - Miyabi",
+      "master": 250,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "20 litri",
+        "car": "TOYOTA 86 GRMN ’16",
+        "laps": "30",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
+        "title": "Campionato Toyota",
+        "version": "1",
+        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+      },
+      "issue": null,
+      "car": {
+        "carId": 249,
+        "model": "86 GRMN '16",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "eventId": "future-13-2026-11-04-39",
+      "isoDate": "2026-11-04",
+      "date": "04.11.2026",
+      "title": "RDA CAMPIONATO RED BULL X 2019",
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "championshipId": 13,
+      "track": "Spa-Francorchamps",
+      "master": 1000,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "5x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "100 litri",
+        "car": "RED BULL X2019 COMPETITION",
+        "laps": "18",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
+        "title": "Campionato Red bull",
+        "version": "1",
+        "sha256": "b69beeb863f713d51102d4b7aa64c1ee5594f271d91221ab61ff964ef5790711"
+      },
+      "issue": null,
+      "car": {
+        "carId": 346,
+        "model": "Red Bull X2019 Competition",
+        "brand": "Gran Turismo"
+      }
+    },
+    {
+      "eventId": "future-10-2026-11-05-32",
+      "isoDate": "2026-11-05",
+      "date": "05.11.2026",
+      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championshipId": 10,
+      "track": "Blue Moon Bay Speedway - Infield A",
+      "master": 250,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "20 litri",
+        "car": "TOYOTA 86 GRMN ’16",
+        "laps": "30",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
+        "title": "Campionato Toyota",
+        "version": "1",
+        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+      },
+      "issue": null,
+      "car": {
+        "carId": 249,
+        "model": "86 GRMN '16",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "eventId": "future-12-2026-11-06-44",
+      "isoDate": "2026-11-06",
+      "date": "06.11.2026",
+      "title": "RDA MASTER ESET V4 CUP",
+      "championship": "RDA MASTER ESET V4 CUP",
+      "championshipId": 12,
+      "track": "Tsukuba Circuit",
+      "master": 500,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "3x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "35 litri",
+        "car": "Tutte le GR4 FF presenti nel gioco",
+        "laps": "30",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
+        "title": "Campionato ESET",
+        "version": "1",
+        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+      },
+      "issue": null
+    },
+    {
+      "eventId": "future-11-2026-11-07-51",
+      "isoDate": "2026-11-07",
+      "date": "07.11.2026",
+      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championshipId": 11,
+      "track": "Spa-Francorchamps",
+      "master": 500,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "2",
+        "tyreChange": "Si",
+        "fuel": "1x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "80 litri",
+        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
+        "laps": "21",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
+        "title": "Campionato Lamborghini",
+        "version": "1",
+        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
+      },
+      "issue": null,
+      "car": {
+        "carId": 220,
+        "model": "Huracan GT3 '15",
+        "brand": "Lamborghini"
+      }
+    },
+    {
+      "eventId": "future-11-2026-11-08-52",
+      "isoDate": "2026-11-08",
+      "date": "08.11.2026",
+      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championshipId": 11,
+      "track": "Fuji Speedway",
+      "master": 500,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "2",
+        "tyreChange": "Si",
+        "fuel": "1x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "80 litri",
+        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
+        "laps": "27",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
+        "title": "Campionato Lamborghini",
+        "version": "1",
+        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
+      },
+      "issue": null,
+      "car": {
+        "carId": 220,
+        "model": "Huracan GT3 '15",
+        "brand": "Lamborghini"
+      }
+    },
+    {
+      "eventId": "future-12-2026-11-09-45",
+      "isoDate": "2026-11-09",
+      "date": "09.11.2026",
+      "title": "RDA MASTER ESET V4 CUP",
+      "championship": "RDA MASTER ESET V4 CUP",
+      "championshipId": 12,
+      "track": "Suzuka Circuit East Course",
+      "master": 500,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "3x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "35 litri",
+        "car": "Mercedes-AMG GT Black Series '20",
+        "laps": "30",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
+        "title": "Campionato ESET",
+        "version": "1",
+        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+      },
+      "issue": null,
+      "car": {
+        "carId": 418,
+        "model": "Mercedes-AMG GT Black Series '20",
+        "brand": "AMG"
+      }
+    },
+    {
+      "eventId": "future-10-2026-11-10-33",
+      "isoDate": "2026-11-10",
+      "date": "10.11.2026",
+      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championshipId": 10,
+      "track": "Suzuka Circuit East Course",
+      "master": 250,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "20 litri",
+        "car": "TOYOTA 86 GRMN ’16",
+        "laps": "30",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
+        "title": "Campionato Toyota",
+        "version": "1",
+        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+      },
+      "issue": null,
+      "car": {
+        "carId": 249,
+        "model": "86 GRMN '16",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "eventId": "future-13-2026-11-11-40",
+      "isoDate": "2026-11-11",
+      "date": "11.11.2026",
+      "title": "RDA CAMPIONATO RED BULL X 2019",
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "championshipId": 13,
+      "track": "Daytona Road Course",
+      "master": 1000,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "5x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "100 litri",
+        "car": "RED BULL X2019 COMPETITION",
+        "laps": "20",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
+        "title": "Campionato Red bull",
+        "version": "1",
+        "sha256": "b69beeb863f713d51102d4b7aa64c1ee5594f271d91221ab61ff964ef5790711"
+      },
+      "issue": null,
+      "car": {
+        "carId": 346,
+        "model": "Red Bull X2019 Competition",
+        "brand": "Gran Turismo"
+      }
+    },
+    {
+      "eventId": "future-10-2026-11-12-34",
+      "isoDate": "2026-11-12",
+      "date": "12.11.2026",
+      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championshipId": 10,
+      "track": "BB Raceway",
+      "master": 250,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "20 litri",
+        "car": "TOYOTA 86 GRMN ’16",
+        "laps": "55",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
+        "title": "Campionato Toyota",
+        "version": "1",
+        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+      },
+      "issue": null,
+      "car": {
+        "carId": 249,
+        "model": "86 GRMN '16",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "eventId": "future-12-2026-11-13-46",
+      "isoDate": "2026-11-13",
+      "date": "13.11.2026",
+      "title": "RDA MASTER ESET V4 CUP",
+      "championship": "RDA MASTER ESET V4 CUP",
+      "championshipId": 12,
+      "track": "Blue Moon Bay Speedway",
+      "master": 500,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "3x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "35 litri",
+        "car": "Gran Turismo F1500T-A",
+        "laps": "55",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
+        "title": "Campionato ESET",
+        "version": "1",
+        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+      },
+      "issue": null,
+      "car": {
+        "carId": 317,
+        "model": "F1500T-A",
+        "brand": "Gran Turismo"
+      }
+    },
+    {
+      "eventId": "future-11-2026-11-14-53",
+      "isoDate": "2026-11-14",
+      "date": "14.11.2026",
+      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championshipId": 11,
+      "track": "Red Bull Ring",
+      "master": 500,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "2",
+        "tyreChange": "Si",
+        "fuel": "1x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "80 litri",
+        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
+        "laps": "30",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
+        "title": "Campionato Lamborghini",
+        "version": "1",
+        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
+      },
+      "issue": null,
+      "car": {
+        "carId": 220,
+        "model": "Huracan GT3 '15",
+        "brand": "Lamborghini"
+      }
+    },
+    {
+      "eventId": "future-11-2026-11-15-54",
+      "isoDate": "2026-11-15",
+      "date": "15.11.2026",
+      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championshipId": 11,
+      "track": "Le Mans",
+      "master": 500,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "2",
+        "tyreChange": "Si",
+        "fuel": "1x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "80 litri",
+        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
+        "laps": "12",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
+        "title": "Campionato Lamborghini",
+        "version": "1",
+        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
+      },
+      "issue": null,
+      "car": {
+        "carId": 220,
+        "model": "Huracan GT3 '15",
+        "brand": "Lamborghini"
+      }
+    },
+    {
+      "eventId": "future-12-2026-11-16-47",
+      "isoDate": "2026-11-16",
+      "date": "16.11.2026",
+      "title": "RDA MASTER ESET V4 CUP",
+      "championship": "RDA MASTER ESET V4 CUP",
+      "championshipId": 12,
+      "track": "WeatherTech Raceway Laguna Seca",
+      "master": 500,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "3x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "35 litri",
+        "car": "Mercedes-AMG GT R '17",
+        "laps": "20",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
+        "title": "Campionato ESET",
+        "version": "1",
+        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+      },
+      "issue": null,
+      "car": {
+        "carId": 379,
+        "model": "Mercedes-AMG GT R '17",
+        "brand": "AMG"
+      }
+    },
+    {
+      "eventId": "future-10-2026-11-17-35",
+      "isoDate": "2026-11-17",
+      "date": "17.11.2026",
+      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championshipId": 10,
+      "track": "Willow Springs International Raceway: Streets of Willow Springs",
+      "master": 250,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "20 litri",
+        "car": "TOYOTA 86 GRMN ’16",
+        "laps": "25",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
+        "title": "Campionato Toyota",
+        "version": "1",
+        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+      },
+      "issue": null,
+      "car": {
+        "carId": 249,
+        "model": "86 GRMN '16",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "eventId": "future-13-2026-11-18-41",
+      "isoDate": "2026-11-18",
+      "date": "18.11.2026",
+      "title": "RDA CAMPIONATO RED BULL X 2019",
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "championshipId": 13,
+      "track": "Tokyo Expressway - East Clockwise",
+      "master": 1000,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "5x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "100 litri",
+        "car": "RED BULL X2019 COMPETITION",
+        "laps": "21",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
+        "title": "Campionato Red bull",
+        "version": "1",
+        "sha256": "b69beeb863f713d51102d4b7aa64c1ee5594f271d91221ab61ff964ef5790711"
+      },
+      "issue": null,
+      "car": {
+        "carId": 346,
+        "model": "Red Bull X2019 Competition",
+        "brand": "Gran Turismo"
+      }
+    },
+    {
+      "eventId": "future-10-2026-11-19-36",
+      "isoDate": "2026-11-19",
+      "date": "19.11.2026",
+      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championshipId": 10,
+      "track": "Tsukuba Circuit",
+      "master": 250,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "20 litri",
+        "car": "TOYOTA 86 GRMN ’16",
+        "laps": "30",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
+        "title": "Campionato Toyota",
+        "version": "1",
+        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+      },
+      "issue": null,
+      "car": {
+        "carId": 249,
+        "model": "86 GRMN '16",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "eventId": "future-12-2026-11-20-48",
+      "isoDate": "2026-11-20",
+      "date": "20.11.2026",
+      "title": "RDA MASTER ESET V4 CUP",
+      "championship": "RDA MASTER ESET V4 CUP",
+      "championshipId": 12,
+      "track": "Michelin Raceway Road Atlanta",
+      "master": 500,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "3x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "35 litri",
+        "car": "Tutte le GR4 FR presenti nel gioco",
+        "laps": "18",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
+        "title": "Campionato ESET",
+        "version": "1",
+        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+      },
+      "issue": null
+    },
+    {
+      "eventId": "future-11-2026-11-21-55",
+      "isoDate": "2026-11-21",
+      "date": "21.11.2026",
+      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championshipId": 11,
+      "track": "Dragon Trail - Giardini",
+      "master": 500,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "2",
+        "tyreChange": "Si",
+        "fuel": "1x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "80 litri",
+        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
+        "laps": "27",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
+        "title": "Campionato Lamborghini",
+        "version": "1",
+        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
+      },
+      "issue": null,
+      "car": {
+        "carId": 220,
+        "model": "Huracan GT3 '15",
+        "brand": "Lamborghini"
+      }
+    },
+    {
+      "eventId": "future-11-2026-11-22-56",
+      "isoDate": "2026-11-22",
+      "date": "22.11.2026",
+      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championshipId": 11,
+      "track": "Circuit Gilles-Villeneuve",
+      "master": 500,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "2",
+        "tyreChange": "Si",
+        "fuel": "1x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "80 litri",
+        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
+        "laps": "29",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
+        "title": "Campionato Lamborghini",
+        "version": "1",
+        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
+      },
+      "issue": null,
+      "car": {
+        "carId": 220,
+        "model": "Huracan GT3 '15",
+        "brand": "Lamborghini"
+      }
+    },
+    {
+      "eventId": "future-12-2026-11-23-49",
+      "isoDate": "2026-11-23",
+      "date": "23.11.2026",
+      "title": "RDA MASTER ESET V4 CUP",
+      "championship": "RDA MASTER ESET V4 CUP",
+      "championshipId": 12,
+      "track": "BB Raceway Reverse",
+      "master": 500,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "3x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "35 litri",
+        "car": "Mercedes-AMG GT S '15",
+        "laps": "60",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
+        "title": "Campionato ESET",
+        "version": "1",
+        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+      },
+      "issue": null,
+      "car": {
+        "carId": 195,
+        "model": "Mercedes-AMG GT S '15",
+        "brand": "AMG"
+      }
+    },
+    {
+      "eventId": "future-10-2026-11-24-37",
+      "isoDate": "2026-11-24",
+      "date": "24.11.2026",
+      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championshipId": 10,
+      "track": "Brands Hatch Indy Circuit",
+      "master": 250,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "20 litri",
+        "car": "TOYOTA 86 GRMN ’16",
+        "laps": "30",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
+        "title": "Campionato Toyota",
+        "version": "1",
+        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+      },
+      "issue": null,
+      "car": {
+        "carId": 249,
+        "model": "86 GRMN '16",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "eventId": "future-13-2026-11-25-Finale",
+      "isoDate": "2026-11-25",
+      "date": "25.11.2026",
+      "title": "RDA CAMPIONATO RED BULL X 2019",
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "championshipId": 13,
+      "track": "Blue Moon Bay Speedway",
+      "master": 1000,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "5x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "100 litri",
+        "car": "RED BULL X2019 COMPETITION",
+        "laps": "55",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
+        "title": "Campionato Red bull",
+        "version": "1",
+        "sha256": "b69beeb863f713d51102d4b7aa64c1ee5594f271d91221ab61ff964ef5790711"
+      },
+      "issue": null,
+      "car": {
+        "carId": 346,
+        "model": "Red Bull X2019 Competition",
+        "brand": "Gran Turismo"
+      }
+    },
+    {
+      "eventId": "future-10-2026-11-26-38",
+      "isoDate": "2026-11-26",
+      "date": "26.11.2026",
+      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
+      "championshipId": 10,
+      "track": "Alsace - Test Course",
+      "master": 250,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "2x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "20 litri",
+        "car": "TOYOTA 86 GRMN ’16",
+        "laps": "27",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
+        "title": "Campionato Toyota",
+        "version": "1",
+        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+      },
+      "issue": null,
+      "car": {
+        "carId": 249,
+        "model": "86 GRMN '16",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "eventId": "future-12-2026-11-27-Finale",
+      "isoDate": "2026-11-27",
+      "date": "27.11.2026",
+      "title": "RDA MASTER ESET V4 CUP",
+      "championship": "RDA MASTER ESET V4 CUP",
+      "championshipId": 12,
+      "track": "Daytona Tri-Oval",
+      "master": 500,
+      "settings": {
+        "requiredTyres": "Dure, Morbide",
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "0",
+        "tyreChange": null,
+        "fuel": "3x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "Si",
+        "damage": "Ridotti",
+        "initialFuel": "35 litri",
+        "car": "Gran Turismo F1500T-A",
+        "laps": "31",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Il PDF indica 0 soste minime ma richiede più mescole: verifica con la direzione gara."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
+        "title": "Campionato ESET",
+        "version": "1",
+        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+      },
+      "issue": null,
+      "car": {
+        "carId": 317,
+        "model": "F1500T-A",
+        "brand": "Gran Turismo"
+      }
+    },
+    {
+      "eventId": "future-11-2026-11-28-Finale",
+      "isoDate": "2026-11-28",
+      "date": "28.11.2026",
+      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championshipId": 11,
+      "track": "Yas Marina Circuit",
+      "master": 500,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "2",
+        "tyreChange": "Si",
+        "fuel": "1x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "80 litri",
+        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
+        "laps": "27",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
+        "title": "Campionato Lamborghini",
+        "version": "1",
+        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
+      },
+      "issue": null,
+      "car": {
+        "carId": 220,
+        "model": "Huracan GT3 '15",
+        "brand": "Lamborghini"
+      }
+    },
+    {
+      "eventId": "future-11-2026-11-29-Finale",
+      "isoDate": "2026-11-29",
+      "date": "29.11.2026",
+      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER lAMBORGHINI SUPER TROFEO",
+      "championshipId": 11,
+      "track": "Suzuka",
+      "master": 500,
+      "settings": {
+        "requiredTyres": null,
+        "allowedTyres": "Tutto",
+        "tyreType": "Da corsa",
+        "pitStops": "2",
+        "tyreChange": "Si",
+        "fuel": "1x",
+        "wear": "4x",
+        "start": "Dalla griglia con falsa partenza",
+        "bop": "No",
+        "damage": "Ridotti",
+        "initialFuel": "80 litri",
+        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
+        "laps": "23",
+        "sessions": [
+          "15:00",
+          "18:00",
+          "21:00",
+          "23:00"
+        ],
+        "warnings": [
+          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
+        ]
+      },
+      "source": {
+        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
+        "title": "Campionato Lamborghini",
+        "version": "1",
+        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
+      },
+      "issue": null,
+      "car": {
+        "carId": 220,
+        "model": "Huracan GT3 '15",
+        "brand": "Lamborghini"
+      }
+    }
   ]
 };
