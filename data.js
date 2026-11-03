@@ -1,7 +1,7 @@
 window.RDA_DATA = {
   "meta": {
     "hasOfficialResults": true,
-    "officialRounds": 18,
+    "officialRounds": 1,
     "publishedDrivers": 0,
     "rankingSeason": 2027,
     "rankingName": "RANKING RDA 2027",
@@ -18,11 +18,11 @@ window.RDA_DATA = {
   "dayResults": [
     {
       "pos": 1,
-      "name": "ERT_G_Ap83",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "18:00",
-      "time": "46:58.441",
+      "name": "Svenom_21",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "28:14.521",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -32,11 +32,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 2,
-      "name": "PYX69",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "23:00",
-      "time": "47:19.589",
+      "name": "forte984riso",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "28:20.988",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -46,11 +46,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 3,
-      "name": "Twitc_Simomazz86",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "23:00",
-      "time": "47:20.963",
+      "name": "Spano19",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "28:23.612",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -60,11 +60,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 4,
-      "name": "Caciotta_95",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
+      "name": "Twitc_Simomazz86",
+      "car": "A 45 AMG '13",
+      "carId": 213,
       "session": "23:00",
-      "time": "47:21.845",
+      "time": "28:32.882",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -74,11 +74,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 5,
-      "name": "NICOLACI1966",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "18:00",
-      "time": "47:27.081",
+      "name": "xxsiculo96xx",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "28:40.521",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -88,11 +88,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 6,
-      "name": "MaxMossa",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "15:00",
-      "time": "47:28.313",
+      "name": "brown_dsc",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "28:41.444",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -102,11 +102,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 7,
-      "name": "gallo_opc_2",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "18:00",
-      "time": "47:46.593",
+      "name": "UBy20_97",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "28:43.245",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -116,11 +116,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 8,
-      "name": "stoccametuttu",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
+      "name": "Knowhere_7",
+      "car": "A 45 AMG '13",
+      "carId": 213,
       "session": "21:00",
-      "time": "47:47.849",
+      "time": "28:43.533",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -130,11 +130,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 9,
-      "name": "gancio-criptico",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "21:00",
-      "time": "48:05.854",
+      "name": "NICOLACI1966",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "28:45.340",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -144,11 +144,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 10,
-      "name": "MikSnake21",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "15:00",
-      "time": "48:14.941",
+      "name": "Granata_93",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "28:47.380",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -158,11 +158,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 11,
-      "name": "blmta73",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "23:00",
-      "time": "48:24.171",
+      "name": "Izras1990",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "28:50.055",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -172,11 +172,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 12,
-      "name": "Onmanuel-Btw_09",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "15:00",
-      "time": "48:44.558",
+      "name": "SpeedSparco",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "29:10.936",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -186,10 +186,192 @@ window.RDA_DATA = {
     },
     {
       "pos": 13,
+      "name": "stoccametuttu",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "29:12.817",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 14,
+      "name": "luglio88",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "29:15.661",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 15,
+      "name": "gallo_opc_2",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "29:15.824",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 16,
+      "name": "Caciotta_95",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "29:17.434",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 17,
+      "name": "Onmanuel-Btw_09",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "29:23.883",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 18,
+      "name": "blmta73",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "29:26.936",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 19,
+      "name": "G-BERNA",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "29:40.654",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 20,
+      "name": "PYX69",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "29:41.309",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 21,
+      "name": "Ivlaisdead",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "29:41.654",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 22,
+      "name": "VanMike91",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "29:42.669",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 23,
       "name": "tony123230",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "15:00",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "29:45.226",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 24,
+      "name": "MMRT_CERQUI83",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "29:52.786",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 25,
+      "name": "andrecalimero73",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "30:10.961",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 26,
+      "name": "MaxMossa",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
       "time": "—",
       "status": "1giro",
       "rdaSeconds": 0,
@@ -199,11 +381,25 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 14,
-      "name": "ony89traccia",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "15:00",
+      "pos": 27,
+      "name": "Aktarus1970",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 28,
+      "name": "lamonaca72",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
       "time": "—",
       "status": "1 giro",
       "rdaSeconds": 0,
@@ -213,10 +409,10 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 15,
-      "name": "Vimdav",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
+      "pos": 29,
+      "name": "Sacks77",
+      "car": "A 45 AMG '13",
+      "carId": 213,
       "session": "21:00",
       "time": "—",
       "status": "1giro",
@@ -227,41 +423,139 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 16,
-      "name": "Ivlaisdead",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 17,
-      "name": "Pasky_Alfa",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 18,
+      "pos": 30,
       "name": "danilomarika89",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 31,
+      "name": "cambridgino92",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 32,
+      "name": "Squilybrio",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 33,
+      "name": "luigigar89",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 34,
+      "name": "Pasky_Alfa",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "—",
+      "status": "2giri",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 35,
+      "name": "lucap1969",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "—",
+      "status": "3giri",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 36,
+      "name": "ony89traccia",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 37,
+      "name": "familydidoschy",
+      "car": "A 45 AMG '13",
+      "carId": 213,
       "session": "21:00",
       "time": "—",
       "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 38,
+      "name": "Alessin",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 39,
+      "name": "Vimdav",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "—",
+      "status": "DSQ",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -272,337 +566,197 @@ window.RDA_DATA = {
   "championship": [
     {
       "pos": 1,
-      "name": "Spano19",
-      "pts": 722
+      "name": "Svenom_21",
+      "pts": 50
     },
     {
       "pos": 2,
-      "name": "MaxMossa",
-      "pts": 590
+      "name": "forte984riso",
+      "pts": 45
     },
     {
       "pos": 3,
-      "name": "gallo_opc_2",
-      "pts": 525
+      "name": "Spano19",
+      "pts": 43
     },
     {
       "pos": 4,
       "name": "Twitc_Simomazz86",
-      "pts": 467
+      "pts": 40
     },
     {
       "pos": 5,
-      "name": "PYX69",
-      "pts": 463
+      "name": "xxsiculo96xx",
+      "pts": 38
     },
     {
       "pos": 6,
-      "name": "NICOLACI1966",
-      "pts": 437
+      "name": "brown_dsc",
+      "pts": 36
     },
     {
       "pos": 7,
-      "name": "giorobert",
-      "pts": 432
+      "name": "UBy20_97",
+      "pts": 34
     },
     {
       "pos": 8,
-      "name": "JONNYK7",
-      "pts": 424
+      "name": "Knowhere_7",
+      "pts": 32
     },
     {
       "pos": 9,
-      "name": "forte984riso",
-      "pts": 390
+      "name": "NICOLACI1966",
+      "pts": 30
     },
     {
       "pos": 10,
-      "name": "Cinciripini79",
-      "pts": 386
+      "name": "Granata_93",
+      "pts": 27
     },
     {
       "pos": 11,
-      "name": "Caciotta_95",
-      "pts": 359
+      "name": "Izras1990",
+      "pts": 25
     },
     {
       "pos": 12,
-      "name": "stoccametuttu",
-      "pts": 337
+      "name": "SpeedSparco",
+      "pts": 22
     },
     {
       "pos": 13,
-      "name": "SpeedSparco",
-      "pts": 328
+      "name": "stoccametuttu",
+      "pts": 20
     },
     {
       "pos": 14,
-      "name": "Onmanuel-Btw_09",
-      "pts": 310
+      "name": "luglio88",
+      "pts": 18
     },
     {
       "pos": 15,
-      "name": "a88312alfa",
-      "pts": 291
+      "name": "gallo_opc_2",
+      "pts": 16
     },
     {
       "pos": 16,
-      "name": "jnior_billokillo",
-      "pts": 235
+      "name": "Caciotta_95",
+      "pts": 15
     },
     {
       "pos": 17,
-      "name": "lamonaca72",
-      "pts": 221
+      "name": "Onmanuel-Btw_09",
+      "pts": 14
     },
     {
       "pos": 18,
-      "name": "familydidoschy",
-      "pts": 214
+      "name": "blmta73",
+      "pts": 13
     },
     {
       "pos": 19,
-      "name": "Vimdav",
-      "pts": 199
+      "name": "G-BERNA",
+      "pts": 12
     },
     {
       "pos": 20,
-      "name": "xxsiculo96xx",
-      "pts": 151
+      "name": "PYX69",
+      "pts": 11
     },
     {
       "pos": 21,
-      "name": "ICIOmnt",
-      "pts": 148
+      "name": "Ivlaisdead",
+      "pts": 10
     },
     {
       "pos": 22,
       "name": "VanMike91",
-      "pts": 139
-    },
-    {
-      "pos": 23,
-      "name": "luglio88",
-      "pts": 132
-    },
-    {
-      "pos": 24,
-      "name": "andrecalimero73",
-      "pts": 120
-    },
-    {
-      "pos": 25,
-      "name": "Knowhere_7",
-      "pts": 110
-    },
-    {
-      "pos": 26,
-      "name": "Pasky_Alfa",
-      "pts": 109
-    },
-    {
-      "pos": 27,
-      "name": "blmta73",
-      "pts": 102
-    },
-    {
-      "pos": 28,
-      "name": "ony89traccia",
-      "pts": 102
-    },
-    {
-      "pos": 29,
-      "name": "AT29Andrea",
-      "pts": 90
-    },
-    {
-      "pos": 30,
-      "name": "MikaelDubbio",
-      "pts": 88
-    },
-    {
-      "pos": 31,
-      "name": "illibrosnavi",
-      "pts": 85
-    },
-    {
-      "pos": 32,
-      "name": "brown_dsc",
-      "pts": 81
-    },
-    {
-      "pos": 33,
-      "name": "Fantasmino7794",
-      "pts": 74
-    },
-    {
-      "pos": 34,
-      "name": "danilomarika89",
-      "pts": 54
-    },
-    {
-      "pos": 35,
-      "name": "lucap1969",
-      "pts": 53
-    },
-    {
-      "pos": 36,
-      "name": "premanugito",
-      "pts": 52
-    },
-    {
-      "pos": 37,
-      "name": "ERT_G_Ap83",
-      "pts": 50
-    },
-    {
-      "pos": 38,
-      "name": "Ivlaisdead",
-      "pts": 49
-    },
-    {
-      "pos": 39,
-      "name": "dado1381",
-      "pts": 48
-    },
-    {
-      "pos": 40,
-      "name": "Squilybrio",
-      "pts": 45
-    },
-    {
-      "pos": 41,
-      "name": "Ivlai",
-      "pts": 44
-    },
-    {
-      "pos": 42,
-      "name": "Mauri8156",
-      "pts": 42
-    },
-    {
-      "pos": 43,
-      "name": "zyx_977",
-      "pts": 41
-    },
-    {
-      "pos": 44,
-      "name": "streetracer2701",
-      "pts": 38
-    },
-    {
-      "pos": 45,
-      "name": "tony123230",
-      "pts": 35
-    },
-    {
-      "pos": 46,
-      "name": "Dom_78_furious",
-      "pts": 31
-    },
-    {
-      "pos": 47,
-      "name": "gancio-criptico",
-      "pts": 30
-    },
-    {
-      "pos": 48,
-      "name": "luigigar89",
-      "pts": 30
-    },
-    {
-      "pos": 49,
-      "name": "G-BERNA",
-      "pts": 29
-    },
-    {
-      "pos": 50,
-      "name": "marcoalparco",
-      "pts": 28
-    },
-    {
-      "pos": 51,
-      "name": "MikSnake21",
-      "pts": 27
-    },
-    {
-      "pos": 52,
-      "name": "RoSik-n-Sil3Nc3",
-      "pts": 27
-    },
-    {
-      "pos": 53,
-      "name": "LordAki_88",
-      "pts": 22
-    },
-    {
-      "pos": 54,
-      "name": "XxGGGIOCATORE23x",
-      "pts": 13
-    },
-    {
-      "pos": 55,
-      "name": "Orsetto63",
-      "pts": 12
-    },
-    {
-      "pos": 56,
-      "name": "xgiangiux",
-      "pts": 12
-    },
-    {
-      "pos": 57,
-      "name": "AL1EN__999",
       "pts": 9
     },
     {
-      "pos": 58,
-      "name": "bwt_Banana33",
+      "pos": 23,
+      "name": "tony123230",
+      "pts": 8
+    },
+    {
+      "pos": 24,
+      "name": "MMRT_CERQUI83",
       "pts": 7
     },
     {
-      "pos": 59,
-      "name": "thegamer73",
-      "pts": 7
+      "pos": 25,
+      "name": "andrecalimero73",
+      "pts": 6
     },
     {
-      "pos": 60,
+      "pos": 26,
+      "name": "Aktarus1970",
+      "pts": 2
+    },
+    {
+      "pos": 27,
+      "name": "danilomarika89",
+      "pts": 2
+    },
+    {
+      "pos": 28,
+      "name": "lamonaca72",
+      "pts": 2
+    },
+    {
+      "pos": 29,
+      "name": "MaxMossa",
+      "pts": 2
+    },
+    {
+      "pos": 30,
+      "name": "Sacks77",
+      "pts": 2
+    },
+    {
+      "pos": 31,
       "name": "cambridgino92",
+      "pts": 1
+    },
+    {
+      "pos": 32,
+      "name": "lucap1969",
+      "pts": 1
+    },
+    {
+      "pos": 33,
+      "name": "luigigar89",
+      "pts": 1
+    },
+    {
+      "pos": 34,
+      "name": "Pasky_Alfa",
+      "pts": 1
+    },
+    {
+      "pos": 35,
+      "name": "Squilybrio",
+      "pts": 1
+    },
+    {
+      "pos": 36,
+      "name": "Alessin",
       "pts": 0
     },
     {
-      "pos": 61,
-      "name": "fenice_00700",
+      "pos": 37,
+      "name": "familydidoschy",
       "pts": 0
     },
     {
-      "pos": 62,
-      "name": "Luca_x90ct",
+      "pos": 38,
+      "name": "ony89traccia",
       "pts": 0
     },
     {
-      "pos": 63,
-      "name": "Mapucci_56",
-      "pts": 0
-    },
-    {
-      "pos": 64,
-      "name": "Onofrio",
-      "pts": 0
-    },
-    {
-      "pos": 65,
-      "name": "Richy_1322",
-      "pts": 0
-    },
-    {
-      "pos": 66,
-      "name": "Svenom_21",
-      "pts": 0
-    },
-    {
-      "pos": 67,
-      "name": "varvolina",
+      "pos": 39,
+      "name": "Vimdav",
       "pts": 0
     }
   ],
@@ -658,7 +812,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Aktarus1970",
-      "races": 11,
+      "races": 12,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -706,7 +860,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Alessin",
-      "races": 0,
+      "races": 1,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -738,7 +892,7 @@ window.RDA_DATA = {
     },
     {
       "name": "andrecalimero73",
-      "races": 37,
+      "races": 38,
       "wins": 1,
       "podiums": 6,
       "elo": 0,
@@ -994,7 +1148,7 @@ window.RDA_DATA = {
     },
     {
       "name": "blmta73",
-      "races": 22,
+      "races": 23,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1042,7 +1196,7 @@ window.RDA_DATA = {
     },
     {
       "name": "brown_dsc",
-      "races": 36,
+      "races": 37,
       "wins": 2,
       "podiums": 7,
       "elo": 0,
@@ -1106,7 +1260,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Caciotta_95",
-      "races": 38,
+      "races": 39,
       "wins": 0,
       "podiums": 5,
       "elo": 0,
@@ -1138,7 +1292,7 @@ window.RDA_DATA = {
     },
     {
       "name": "cambridgino92",
-      "races": 6,
+      "races": 7,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1346,7 +1500,7 @@ window.RDA_DATA = {
     },
     {
       "name": "danilomarika89",
-      "races": 40,
+      "races": 41,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1522,7 +1676,7 @@ window.RDA_DATA = {
     },
     {
       "name": "familydidoschy",
-      "races": 32,
+      "races": 33,
       "wins": 0,
       "podiums": 3,
       "elo": 0,
@@ -1634,9 +1788,9 @@ window.RDA_DATA = {
     },
     {
       "name": "forte984riso",
-      "races": 35,
+      "races": 36,
       "wins": 15,
-      "podiums": 24,
+      "podiums": 25,
       "elo": 0,
       "ranking": 0,
       "driver_id": 2,
@@ -1689,7 +1843,7 @@ window.RDA_DATA = {
     },
     {
       "name": "G-BERNA",
-      "races": 44,
+      "races": 45,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -1721,7 +1875,7 @@ window.RDA_DATA = {
     },
     {
       "name": "gallo_opc_2",
-      "races": 67,
+      "races": 68,
       "wins": 0,
       "podiums": 5,
       "elo": 0,
@@ -1868,7 +2022,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Granata_93",
-      "races": 26,
+      "races": 27,
       "wins": 0,
       "podiums": 5,
       "elo": 0,
@@ -2035,7 +2189,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Ivlai",
-      "races": 32,
+      "races": 33,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2051,7 +2205,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Ivlaisdead",
-      "races": 28,
+      "races": 29,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2067,7 +2221,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Izras1990",
-      "races": 11,
+      "races": 12,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2163,7 +2317,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Knowhere_7",
-      "races": 23,
+      "races": 24,
       "wins": 1,
       "podiums": 3,
       "elo": 0,
@@ -2179,7 +2333,7 @@ window.RDA_DATA = {
     },
     {
       "name": "lamonaca72",
-      "races": 42,
+      "races": 43,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2275,7 +2429,7 @@ window.RDA_DATA = {
     },
     {
       "name": "lucap1969",
-      "races": 19,
+      "races": 20,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2307,7 +2461,7 @@ window.RDA_DATA = {
     },
     {
       "name": "luglio88",
-      "races": 49,
+      "races": 50,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -2323,7 +2477,7 @@ window.RDA_DATA = {
     },
     {
       "name": "luigigar89",
-      "races": 8,
+      "races": 9,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2499,7 +2653,7 @@ window.RDA_DATA = {
     },
     {
       "name": "MaxMossa",
-      "races": 56,
+      "races": 57,
       "wins": 1,
       "podiums": 10,
       "elo": 0,
@@ -2608,7 +2762,7 @@ window.RDA_DATA = {
     },
     {
       "name": "MMRT_CERQUI83",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2656,7 +2810,7 @@ window.RDA_DATA = {
     },
     {
       "name": "NICOLACI1966",
-      "races": 64,
+      "races": 65,
       "wins": 1,
       "podiums": 7,
       "elo": 0,
@@ -2759,7 +2913,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Onmanuel-Btw_09",
-      "races": 58,
+      "races": 59,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -2791,7 +2945,7 @@ window.RDA_DATA = {
     },
     {
       "name": "ony89traccia",
-      "races": 31,
+      "races": 32,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2839,7 +2993,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Pasky_Alfa",
-      "races": 50,
+      "races": 51,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2967,7 +3121,7 @@ window.RDA_DATA = {
     },
     {
       "name": "PYX69",
-      "races": 61,
+      "races": 62,
       "wins": 0,
       "podiums": 6,
       "elo": 0,
@@ -3150,7 +3304,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Sacks77",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3246,9 +3400,9 @@ window.RDA_DATA = {
     },
     {
       "name": "Spano19",
-      "races": 70,
+      "races": 71,
       "wins": 24,
-      "podiums": 59,
+      "podiums": 60,
       "elo": 0,
       "ranking": 0,
       "driver_id": 1,
@@ -3358,7 +3512,7 @@ window.RDA_DATA = {
     },
     {
       "name": "SpeedSparco",
-      "races": 45,
+      "races": 46,
       "wins": 7,
       "podiums": 23,
       "elo": 0,
@@ -3387,7 +3541,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Squilybrio",
-      "races": 19,
+      "races": 20,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3435,7 +3589,7 @@ window.RDA_DATA = {
     },
     {
       "name": "stoccametuttu",
-      "races": 31,
+      "races": 32,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -3483,9 +3637,9 @@ window.RDA_DATA = {
     },
     {
       "name": "Svenom_21",
-      "races": 25,
-      "wins": 8,
-      "podiums": 16,
+      "races": 26,
+      "wins": 9,
+      "podiums": 17,
       "elo": 0,
       "ranking": 0,
       "driver_id": 19,
@@ -3679,7 +3833,7 @@ window.RDA_DATA = {
     },
     {
       "name": "tony123230",
-      "races": 7,
+      "races": 8,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3727,7 +3881,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Twitc_Simomazz86",
-      "races": 51,
+      "races": 52,
       "wins": 5,
       "podiums": 8,
       "elo": 0,
@@ -3750,7 +3904,7 @@ window.RDA_DATA = {
     },
     {
       "name": "UBy20_97",
-      "races": 0,
+      "races": 1,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3798,7 +3952,7 @@ window.RDA_DATA = {
     },
     {
       "name": "VanMike91",
-      "races": 43,
+      "races": 44,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3846,7 +4000,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Vimdav",
-      "races": 57,
+      "races": 58,
       "wins": 0,
       "podiums": 2,
       "elo": 0,
@@ -3942,7 +4096,7 @@ window.RDA_DATA = {
     },
     {
       "name": "xxsiculo96xx",
-      "races": 31,
+      "races": 32,
       "wins": 0,
       "podiums": 2,
       "elo": 0,
@@ -4027,60 +4181,38 @@ window.RDA_DATA = {
   "podiumDay": [
     {
       "pos": 1,
-      "name": "ERT_G_Ap83",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "18:00",
-      "time": "46:58.441"
+      "name": "Svenom_21",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "23:00",
+      "time": "28:14.521"
     },
     {
       "pos": 2,
-      "name": "PYX69",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "23:00",
-      "time": "47:19.589"
+      "name": "forte984riso",
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "21:00",
+      "time": "28:20.988"
     },
     {
       "pos": 3,
-      "name": "Twitc_Simomazz86",
-      "car": "GT by Citroen Gr.4",
-      "carId": 269,
-      "session": "23:00",
-      "time": "47:20.963"
-    }
-  ],
-  "podiumChampionship": [
-    {
-      "pos": 1,
       "name": "Spano19",
-      "pts": 722.0,
-      "wins": 4,
-      "podiums": 14
-    },
-    {
-      "pos": 2,
-      "name": "MaxMossa",
-      "pts": 590.0,
-      "wins": 1,
-      "podiums": 5
-    },
-    {
-      "pos": 3,
-      "name": "gallo_opc_2",
-      "pts": 525.0,
-      "wins": 0,
-      "podiums": 0
+      "car": "A 45 AMG '13",
+      "carId": 213,
+      "session": "18:00",
+      "time": "28:23.612"
     }
   ],
+  "podiumChampionship": [],
   "podiumMeta": {
-    "dayTitle": "RDA WTCR CHAMPIONSHIP",
-    "dayDate": "2026-11-01",
-    "dayTrack": "Sardegna - Road Track - B",
-    "dayRace": "Gara 18",
-    "champName": "RDA WTCR CHAMPIONSHIP",
-    "champClosed": true,
-    "champMaster": 250
+    "dayTitle": "ESET V4 CUP",
+    "dayDate": "2026-11-02",
+    "dayTrack": "Goodwood Motor Circuit",
+    "dayRace": "Gara 1",
+    "champName": "ESET V4 CUP",
+    "champClosed": false,
+    "champMaster": 500
   },
   "completedRaces": [
     {
@@ -5132,6 +5264,20 @@ window.RDA_DATA = {
       "round": 18,
       "track": "Sardegna - Road Track - B",
       "status": "UFFICIALE"
+    },
+    {
+      "eventId": 82,
+      "isoDate": "2026-11-02",
+      "day": 2,
+      "month": 11,
+      "year": 2026,
+      "date": "02.11.2026",
+      "title": "ESET V4 CUP",
+      "championship": "ESET V4 CUP",
+      "master": 500,
+      "round": 1,
+      "track": "Goodwood Motor Circuit",
+      "status": "UFFICIALE"
     }
   ],
   "flyers": [
@@ -5142,6 +5288,328 @@ window.RDA_DATA = {
     }
   ],
   "championships": [
+    {
+      "id": 14,
+      "name": "ESET V4 CUP",
+      "master": 500,
+      "officialRounds": 1,
+      "closed": false,
+      "standings": [
+        {
+          "pos": 1,
+          "name": "Svenom_21",
+          "pts": 50,
+          "races": 1,
+          "wins": 1,
+          "podiums": 1
+        },
+        {
+          "pos": 2,
+          "name": "forte984riso",
+          "pts": 45,
+          "races": 1,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 3,
+          "name": "Spano19",
+          "pts": 43,
+          "races": 1,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 4,
+          "name": "Twitc_Simomazz86",
+          "pts": 40,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 5,
+          "name": "xxsiculo96xx",
+          "pts": 38,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 6,
+          "name": "brown_dsc",
+          "pts": 36,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 7,
+          "name": "UBy20_97",
+          "pts": 34,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 8,
+          "name": "Knowhere_7",
+          "pts": 32,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 9,
+          "name": "NICOLACI1966",
+          "pts": 30,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 10,
+          "name": "Granata_93",
+          "pts": 27,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 11,
+          "name": "Izras1990",
+          "pts": 25,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 12,
+          "name": "SpeedSparco",
+          "pts": 22,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 13,
+          "name": "stoccametuttu",
+          "pts": 20,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 14,
+          "name": "luglio88",
+          "pts": 18,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 15,
+          "name": "gallo_opc_2",
+          "pts": 16,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 16,
+          "name": "Caciotta_95",
+          "pts": 15,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 17,
+          "name": "Onmanuel-Btw_09",
+          "pts": 14,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 18,
+          "name": "blmta73",
+          "pts": 13,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 19,
+          "name": "G-BERNA",
+          "pts": 12,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 20,
+          "name": "PYX69",
+          "pts": 11,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 21,
+          "name": "Ivlaisdead",
+          "pts": 10,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 22,
+          "name": "VanMike91",
+          "pts": 9,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 23,
+          "name": "tony123230",
+          "pts": 8,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 24,
+          "name": "MMRT_CERQUI83",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 25,
+          "name": "andrecalimero73",
+          "pts": 6,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 26,
+          "name": "Aktarus1970",
+          "pts": 2,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 27,
+          "name": "danilomarika89",
+          "pts": 2,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 28,
+          "name": "lamonaca72",
+          "pts": 2,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 29,
+          "name": "MaxMossa",
+          "pts": 2,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 30,
+          "name": "Sacks77",
+          "pts": 2,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 31,
+          "name": "cambridgino92",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 32,
+          "name": "lucap1969",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 33,
+          "name": "luigigar89",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 34,
+          "name": "Pasky_Alfa",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 35,
+          "name": "Squilybrio",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 36,
+          "name": "Alessin",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 37,
+          "name": "familydidoschy",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 38,
+          "name": "ony89traccia",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 39,
+          "name": "Vimdav",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        }
+      ],
+      "regulation": null
+    },
     {
       "id": 9,
       "name": "RDA WTCR CHAMPIONSHIP",
@@ -5693,8 +6161,567 @@ window.RDA_DATA = {
       }
     }
   ],
-  "currentChampionshipId": 9,
+  "currentChampionshipId": 14,
   "raceArchive": [
+    {
+      "eventId": 82,
+      "date": "02.11.2026",
+      "isoDate": "2026-11-02",
+      "title": "ESET V4 CUP",
+      "championship": "ESET V4 CUP",
+      "master": 500,
+      "gara": 1,
+      "track": "Goodwood Motor Circuit",
+      "championshipClosed": false,
+      "results": [
+        {
+          "pos": 1,
+          "name": "Svenom_21",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "28:14.521",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 2,
+          "name": "forte984riso",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "28:20.988",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 3,
+          "name": "Spano19",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "28:23.612",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 4,
+          "name": "Twitc_Simomazz86",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "28:32.882",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 5,
+          "name": "xxsiculo96xx",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "28:40.521",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 6,
+          "name": "brown_dsc",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "28:41.444",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 7,
+          "name": "UBy20_97",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "28:43.245",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 8,
+          "name": "Knowhere_7",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "28:43.533",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 9,
+          "name": "NICOLACI1966",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "28:45.340",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 10,
+          "name": "Granata_93",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "28:47.380",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 11,
+          "name": "Izras1990",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "28:50.055",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 12,
+          "name": "SpeedSparco",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "29:10.936",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 13,
+          "name": "stoccametuttu",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "29:12.817",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 14,
+          "name": "luglio88",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "29:15.661",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 15,
+          "name": "gallo_opc_2",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "29:15.824",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 16,
+          "name": "Caciotta_95",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "29:17.434",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 17,
+          "name": "Onmanuel-Btw_09",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "29:23.883",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 18,
+          "name": "blmta73",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "29:26.936",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 19,
+          "name": "G-BERNA",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "29:40.654",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 20,
+          "name": "PYX69",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "29:41.309",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 21,
+          "name": "Ivlaisdead",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "29:41.654",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 22,
+          "name": "VanMike91",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "29:42.669",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 23,
+          "name": "tony123230",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "29:45.226",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 24,
+          "name": "MMRT_CERQUI83",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "29:52.786",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 25,
+          "name": "andrecalimero73",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "30:10.961",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 26,
+          "name": "MaxMossa",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 27,
+          "name": "Aktarus1970",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 28,
+          "name": "lamonaca72",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "—",
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 29,
+          "name": "Sacks77",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 30,
+          "name": "danilomarika89",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 31,
+          "name": "cambridgino92",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 32,
+          "name": "Squilybrio",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 33,
+          "name": "luigigar89",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 34,
+          "name": "Pasky_Alfa",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "—",
+          "status": "2giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 35,
+          "name": "lucap1969",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "—",
+          "status": "3giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 36,
+          "name": "ony89traccia",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "18:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 37,
+          "name": "familydidoschy",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 38,
+          "name": "Alessin",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "23:00",
+          "time": "—",
+          "status": "DNF",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 39,
+          "name": "Vimdav",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "session": "21:00",
+          "time": "—",
+          "status": "DSQ",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        }
+      ]
+    },
     {
       "eventId": 81,
       "date": "01.11.2026",
@@ -32767,24 +33794,8 @@ window.RDA_DATA = {
       ]
     }
   ],
-  "championshipPodiumVisible": true,
+  "championshipPodiumVisible": false,
   "futureRaces": [
-    {
-      "eventId": "future-12-2026-11-02-43",
-      "isoDate": "2026-11-02",
-      "day": 2,
-      "month": 11,
-      "year": 2026,
-      "date": "02.11.2026",
-      "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
-      "master": 500,
-      "round": 0,
-      "gara": 0,
-      "track": "Goodwood Motor Circuit",
-      "regulation": null
-    },
     {
       "eventId": "future-10-2026-11-03-31",
       "isoDate": "2026-11-03",
@@ -33220,6 +34231,42 @@ window.RDA_DATA = {
   ],
   "podiumsByChampionship": [
     {
+      "championshipId": 14,
+      "championship": "ESET V4 CUP",
+      "master": 500,
+      "eventId": 82,
+      "title": "ESET V4 CUP",
+      "date": "2026-11-02",
+      "track": "Goodwood Motor Circuit",
+      "gara": 1,
+      "rows": [
+        {
+          "pos": 1,
+          "name": "Svenom_21",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "time": "28:14.521",
+          "car_image": "car_images/car_213.webp"
+        },
+        {
+          "pos": 2,
+          "name": "forte984riso",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "time": "28:20.988",
+          "car_image": "car_images/car_213.webp"
+        },
+        {
+          "pos": 3,
+          "name": "Spano19",
+          "car": "A 45 AMG '13",
+          "carId": 213,
+          "time": "28:23.612",
+          "car_image": "car_images/car_213.webp"
+        }
+      ]
+    },
+    {
       "championshipId": 9,
       "championship": "RDA WTCR CHAMPIONSHIP",
       "master": 250,
@@ -33284,6 +34331,15 @@ window.RDA_DATA = {
     }
   ],
   "championshipRaces": {
+    "14": [
+      {
+        "eventId": 82,
+        "date": "02.11.2026",
+        "gara": 1,
+        "track": "Goodwood Motor Circuit",
+        "title": "ESET V4 CUP"
+      }
+    ],
     "9": [
       {
         "eventId": 81,
@@ -33826,6 +34882,29 @@ window.RDA_DATA = {
   },
   "trackRecords": [],
   "raceBestLaps": [
+    {
+      "eventId": 82,
+      "kind": "race",
+      "title": "ESET V4 CUP",
+      "date": "2026-11-02",
+      "track": "Goodwood Motor Circuit",
+      "championshipId": 14,
+      "championship": "ESET V4 CUP",
+      "gara": 1,
+      "round": 1,
+      "lap_ms": 79427,
+      "time": "1:19.427",
+      "drivers": [
+        {
+          "resultId": 2978,
+          "driverId": 19,
+          "name": "Svenom_21",
+          "carId": 213,
+          "car": "A 45 AMG '13",
+          "car_image": "car_images/car_213.webp"
+        }
+      ]
+    },
     {
       "eventId": 81,
       "kind": "race",
@@ -99237,53 +100316,6 @@ window.RDA_DATA = {
     }
   ],
   "raceBriefings": [
-    {
-      "eventId": "future-12-2026-11-02-43",
-      "isoDate": "2026-11-02",
-      "date": "02.11.2026",
-      "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
-      "track": "Goodwood Motor Circuit",
-      "master": 500,
-      "settings": {
-        "requiredTyres": "Dure, Morbide",
-        "allowedTyres": "Tutto",
-        "tyreType": "Da corsa",
-        "pitStops": "0",
-        "tyreChange": null,
-        "fuel": "3x",
-        "wear": "4x",
-        "start": "Dalla griglia con falsa partenza",
-        "bop": "Si",
-        "damage": "Ridotti",
-        "initialFuel": "35 litri",
-        "car": "Mercedes-Benz A45 AMG ’13",
-        "laps": "20",
-        "sessions": [
-          "15:00",
-          "18:00",
-          "21:00",
-          "23:00"
-        ],
-        "warnings": [],
-        "effectivePitStops": 1,
-        "tyrePitStops": 1,
-        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
-      },
-      "source": {
-        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
-        "title": "Campionato ESET",
-        "version": "1",
-        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
-      },
-      "issue": null,
-      "car": {
-        "carId": 213,
-        "model": "A 45 AMG '13",
-        "brand": "AMG"
-      }
-    },
     {
       "eventId": "future-10-2026-11-03-31",
       "isoDate": "2026-11-03",
