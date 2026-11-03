@@ -2188,7 +2188,7 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0
     },
     {
-      "name": "Ivlai",
+      "name": "Ivlaisdead",
       "races": 33,
       "wins": 0,
       "podiums": 0,
@@ -2197,22 +2197,6 @@ window.RDA_DATA = {
       "driver_id": 179,
       "psn": "Ivlai",
       "nicknameSecondary": "Ivlaisdead",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": [],
-      "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
-    },
-    {
-      "name": "Ivlaisdead",
-      "races": 29,
-      "wins": 0,
-      "podiums": 0,
-      "elo": 0,
-      "ranking": 0,
-      "driver_id": 82,
-      "psn": "",
-      "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
@@ -5608,556 +5592,10 @@ window.RDA_DATA = {
           "podiums": 0
         }
       ],
-      "regulation": null
-    },
-    {
-      "id": 9,
-      "name": "RDA WTCR CHAMPIONSHIP",
-      "master": 250,
-      "officialRounds": 18,
-      "closed": true,
-      "standings": [
-        {
-          "pos": 1,
-          "name": "Spano19",
-          "pts": 722,
-          "races": 16,
-          "wins": 4,
-          "podiums": 14
-        },
-        {
-          "pos": 2,
-          "name": "MaxMossa",
-          "pts": 590,
-          "races": 18,
-          "wins": 1,
-          "podiums": 5
-        },
-        {
-          "pos": 3,
-          "name": "gallo_opc_2",
-          "pts": 525,
-          "races": 16,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 4,
-          "name": "Twitc_Simomazz86",
-          "pts": 467,
-          "races": 13,
-          "wins": 1,
-          "podiums": 2
-        },
-        {
-          "pos": 5,
-          "name": "PYX69",
-          "pts": 463,
-          "races": 17,
-          "wins": 0,
-          "podiums": 2
-        },
-        {
-          "pos": 6,
-          "name": "NICOLACI1966",
-          "pts": 437,
-          "races": 14,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 7,
-          "name": "giorobert",
-          "pts": 432,
-          "races": 15,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 8,
-          "name": "JONNYK7",
-          "pts": 424,
-          "races": 12,
-          "wins": 0,
-          "podiums": 2
-        },
-        {
-          "pos": 9,
-          "name": "forte984riso",
-          "pts": 390,
-          "races": 8,
-          "wins": 6,
-          "podiums": 8
-        },
-        {
-          "pos": 10,
-          "name": "Cinciripini79",
-          "pts": 386,
-          "races": 12,
-          "wins": 2,
-          "podiums": 5
-        },
-        {
-          "pos": 11,
-          "name": "Caciotta_95",
-          "pts": 359,
-          "races": 13,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 12,
-          "name": "stoccametuttu",
-          "pts": 337,
-          "races": 12,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 13,
-          "name": "SpeedSparco",
-          "pts": 328,
-          "races": 8,
-          "wins": 1,
-          "podiums": 5
-        },
-        {
-          "pos": 14,
-          "name": "Onmanuel-Btw_09",
-          "pts": 310,
-          "races": 15,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 15,
-          "name": "a88312alfa",
-          "pts": 291,
-          "races": 11,
-          "wins": 1,
-          "podiums": 2
-        },
-        {
-          "pos": 16,
-          "name": "jnior_billokillo",
-          "pts": 235,
-          "races": 13,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 17,
-          "name": "lamonaca72",
-          "pts": 221,
-          "races": 13,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 18,
-          "name": "familydidoschy",
-          "pts": 214,
-          "races": 8,
-          "wins": 0,
-          "podiums": 2
-        },
-        {
-          "pos": 19,
-          "name": "Vimdav",
-          "pts": 199,
-          "races": 11,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 20,
-          "name": "xxsiculo96xx",
-          "pts": 151,
-          "races": 5,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 21,
-          "name": "ICIOmnt",
-          "pts": 148,
-          "races": 11,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 22,
-          "name": "VanMike91",
-          "pts": 139,
-          "races": 10,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 23,
-          "name": "luglio88",
-          "pts": 132,
-          "races": 8,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 24,
-          "name": "andrecalimero73",
-          "pts": 120,
-          "races": 5,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 25,
-          "name": "Knowhere_7",
-          "pts": 110,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 26,
-          "name": "Pasky_Alfa",
-          "pts": 109,
-          "races": 11,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 27,
-          "name": "blmta73",
-          "pts": 102,
-          "races": 5,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 28,
-          "name": "ony89traccia",
-          "pts": 102,
-          "races": 13,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 29,
-          "name": "AT29Andrea",
-          "pts": 90,
-          "races": 3,
-          "wins": 1,
-          "podiums": 1
-        },
-        {
-          "pos": 30,
-          "name": "MikaelDubbio",
-          "pts": 88,
-          "races": 5,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 31,
-          "name": "illibrosnavi",
-          "pts": 85,
-          "races": 7,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 32,
-          "name": "brown_dsc",
-          "pts": 81,
-          "races": 4,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 33,
-          "name": "Fantasmino7794",
-          "pts": 74,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 34,
-          "name": "danilomarika89",
-          "pts": 54,
-          "races": 12,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 35,
-          "name": "lucap1969",
-          "pts": 53,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 36,
-          "name": "premanugito",
-          "pts": 52,
-          "races": 6,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 37,
-          "name": "ERT_G_Ap83",
-          "pts": 50,
-          "races": 2,
-          "wins": 1,
-          "podiums": 1
-        },
-        {
-          "pos": 38,
-          "name": "Ivlaisdead",
-          "pts": 49,
-          "races": 5,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 39,
-          "name": "dado1381",
-          "pts": 48,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 40,
-          "name": "Squilybrio",
-          "pts": 45,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 41,
-          "name": "Ivlai",
-          "pts": 44,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 42,
-          "name": "Mauri8156",
-          "pts": 42,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 43,
-          "name": "zyx_977",
-          "pts": 41,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 44,
-          "name": "streetracer2701",
-          "pts": 38,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 45,
-          "name": "tony123230",
-          "pts": 35,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 46,
-          "name": "Dom_78_furious",
-          "pts": 31,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 47,
-          "name": "gancio-criptico",
-          "pts": 30,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 48,
-          "name": "luigigar89",
-          "pts": 30,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 49,
-          "name": "G-BERNA",
-          "pts": 29,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 50,
-          "name": "marcoalparco",
-          "pts": 28,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 51,
-          "name": "MikSnake21",
-          "pts": 27,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 52,
-          "name": "RoSik-n-Sil3Nc3",
-          "pts": 27,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 53,
-          "name": "LordAki_88",
-          "pts": 22,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 54,
-          "name": "XxGGGIOCATORE23x",
-          "pts": 13,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 55,
-          "name": "Orsetto63",
-          "pts": 12,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 56,
-          "name": "xgiangiux",
-          "pts": 12,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 57,
-          "name": "AL1EN__999",
-          "pts": 9,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 58,
-          "name": "bwt_Banana33",
-          "pts": 7,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 59,
-          "name": "thegamer73",
-          "pts": 7,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 60,
-          "name": "cambridgino92",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 61,
-          "name": "fenice_00700",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 62,
-          "name": "Luca_x90ct",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 63,
-          "name": "Mapucci_56",
-          "pts": 0,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 64,
-          "name": "Onofrio",
-          "pts": 0,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 65,
-          "name": "Richy_1322",
-          "pts": 0,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 66,
-          "name": "Svenom_21",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 67,
-          "name": "varvolina",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        }
-      ],
       "regulation": {
-        "championshipId": 9,
+        "championshipId": 14,
         "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-rda-wtcr-championship.pdf"
+        "file": "regolamenti/regolamento-eset-v4-cup.pdf"
       }
     }
   ],
@@ -11273,7 +10711,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 17,
-          "name": "Ivlai",
+          "name": "Ivlaisdead",
           "car": "GT by Citroen Gr.4",
           "carId": 269,
           "session": "23:00",
@@ -18437,7 +17875,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 15,
-          "name": "Ivlai",
+          "name": "Ivlaisdead",
           "car": "Sport quattro S1 Pikes Peak '87",
           "carId": 129,
           "session": "23:00",
@@ -19121,7 +18559,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 15,
-          "name": "Ivlai",
+          "name": "Ivlaisdead",
           "car": "GT by Citroen Gr.4",
           "carId": 269,
           "session": "23:00",
@@ -21606,7 +21044,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 21,
-          "name": "Ivlai",
+          "name": "Ivlaisdead",
           "car": "GT by Citroen Gr.4",
           "carId": 269,
           "session": "23:00",
@@ -33852,13 +33290,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "06.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "master": 500,
       "round": 0,
       "gara": 0,
       "track": "Tsukuba Circuit",
-      "regulation": null
+      "regulation": {
+        "championshipId": 14,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-eset-v4-cup.pdf"
+      }
     },
     {
       "eventId": "future-11-2026-11-07-51",
@@ -33900,13 +33342,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "09.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "master": 500,
       "round": 0,
       "gara": 0,
       "track": "Suzuka Circuit East Course",
-      "regulation": null
+      "regulation": {
+        "championshipId": 14,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-eset-v4-cup.pdf"
+      }
     },
     {
       "eventId": "future-10-2026-11-10-33",
@@ -33964,13 +33410,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "13.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "master": 500,
       "round": 0,
       "gara": 0,
       "track": "Blue Moon Bay Speedway",
-      "regulation": null
+      "regulation": {
+        "championshipId": 14,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-eset-v4-cup.pdf"
+      }
     },
     {
       "eventId": "future-11-2026-11-14-53",
@@ -34012,13 +33462,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "16.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "master": 500,
       "round": 0,
       "gara": 0,
       "track": "WeatherTech Raceway Laguna Seca",
-      "regulation": null
+      "regulation": {
+        "championshipId": 14,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-eset-v4-cup.pdf"
+      }
     },
     {
       "eventId": "future-10-2026-11-17-35",
@@ -34076,13 +33530,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "20.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "master": 500,
       "round": 0,
       "gara": 0,
       "track": "Michelin Raceway Road Atlanta",
-      "regulation": null
+      "regulation": {
+        "championshipId": 14,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-eset-v4-cup.pdf"
+      }
     },
     {
       "eventId": "future-11-2026-11-21-55",
@@ -34124,13 +33582,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "23.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "master": 500,
       "round": 0,
       "gara": 0,
       "track": "BB Raceway Reverse",
-      "regulation": null
+      "regulation": {
+        "championshipId": 14,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-eset-v4-cup.pdf"
+      }
     },
     {
       "eventId": "future-10-2026-11-24-37",
@@ -34188,13 +33650,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "27.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "master": 500,
       "round": "Finale",
       "gara": 0,
       "track": "Daytona Tri-Oval",
-      "regulation": null
+      "regulation": {
+        "championshipId": 14,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-eset-v4-cup.pdf"
+      }
     },
     {
       "eventId": "future-11-2026-11-28-Finale",
@@ -34265,71 +33731,9 @@ window.RDA_DATA = {
           "car_image": "car_images/car_213.webp"
         }
       ]
-    },
-    {
-      "championshipId": 9,
-      "championship": "RDA WTCR CHAMPIONSHIP",
-      "master": 250,
-      "eventId": 81,
-      "title": "RDA WTCR CHAMPIONSHIP",
-      "date": "2026-11-01",
-      "track": "Sardegna - Road Track - B",
-      "gara": 18,
-      "rows": [
-        {
-          "pos": 1,
-          "name": "ERT_G_Ap83",
-          "car": "GT by Citroen Gr.4",
-          "carId": 269,
-          "time": "46:58.441",
-          "car_image": "car_images/car_269.webp"
-        },
-        {
-          "pos": 2,
-          "name": "PYX69",
-          "car": "GT by Citroen Gr.4",
-          "carId": 269,
-          "time": "47:19.589",
-          "car_image": "car_images/car_269.webp"
-        },
-        {
-          "pos": 3,
-          "name": "Twitc_Simomazz86",
-          "car": "GT by Citroen Gr.4",
-          "carId": 269,
-          "time": "47:20.963",
-          "car_image": "car_images/car_269.webp"
-        }
-      ]
     }
   ],
-  "finalPodiumsByChampionship": [
-    {
-      "championshipId": 9,
-      "championship": "RDA WTCR CHAMPIONSHIP",
-      "master": 250,
-      "rows": [
-        {
-          "pos": 1,
-          "name": "Spano19",
-          "pts": 722,
-          "wins": 4
-        },
-        {
-          "pos": 2,
-          "name": "MaxMossa",
-          "pts": 590,
-          "wins": 1
-        },
-        {
-          "pos": 3,
-          "name": "gallo_opc_2",
-          "pts": 525,
-          "wins": 0
-        }
-      ]
-    }
-  ],
+  "finalPodiumsByChampionship": [],
   "championshipRaces": {
     "14": [
       {
@@ -100462,8 +99866,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-06",
       "date": "06.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "track": "Tsukuba Circuit",
       "master": 500,
       "settings": {
@@ -100478,7 +99882,7 @@ window.RDA_DATA = {
         "bop": "Si",
         "damage": "Ridotti",
         "initialFuel": "35 litri",
-        "car": "Tutte le GR4 FF presenti nel gioco",
+        "car": "Tutte le GR4 FF presenti nel",
         "laps": "30",
         "sessions": [
           "15:00",
@@ -100492,10 +99896,10 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
-        "title": "Campionato ESET",
-        "version": "1",
-        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+        "url": "regolamenti/regolamento-eset-v4-cup.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "01ab14574846bd81f49b400fb3ffc1ae3aa974b185e669320ab0bb75a9af50ae"
       },
       "issue": null
     },
@@ -100602,8 +100006,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-09",
       "date": "09.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "track": "Suzuka Circuit East Course",
       "master": 500,
       "settings": {
@@ -100618,7 +100022,7 @@ window.RDA_DATA = {
         "bop": "Si",
         "damage": "Ridotti",
         "initialFuel": "35 litri",
-        "car": "Mercedes-AMG GT Black Series '20",
+        "car": "Mercedes-AMG GT Black Series",
         "laps": "30",
         "sessions": [
           "15:00",
@@ -100632,17 +100036,12 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
-        "title": "Campionato ESET",
-        "version": "1",
-        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+        "url": "regolamenti/regolamento-eset-v4-cup.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "01ab14574846bd81f49b400fb3ffc1ae3aa974b185e669320ab0bb75a9af50ae"
       },
-      "issue": null,
-      "car": {
-        "carId": 418,
-        "model": "Mercedes-AMG GT Black Series '20",
-        "brand": "AMG"
-      }
+      "issue": null
     },
     {
       "eventId": "future-10-2026-11-10-33",
@@ -100790,8 +100189,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-13",
       "date": "13.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "track": "Blue Moon Bay Speedway",
       "master": 500,
       "settings": {
@@ -100820,10 +100219,10 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
-        "title": "Campionato ESET",
-        "version": "1",
-        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+        "url": "regolamenti/regolamento-eset-v4-cup.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "01ab14574846bd81f49b400fb3ffc1ae3aa974b185e669320ab0bb75a9af50ae"
       },
       "issue": null,
       "car": {
@@ -100935,8 +100334,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-16",
       "date": "16.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "track": "WeatherTech Raceway Laguna Seca",
       "master": 500,
       "settings": {
@@ -100965,10 +100364,10 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
-        "title": "Campionato ESET",
-        "version": "1",
-        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+        "url": "regolamenti/regolamento-eset-v4-cup.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "01ab14574846bd81f49b400fb3ffc1ae3aa974b185e669320ab0bb75a9af50ae"
       },
       "issue": null,
       "car": {
@@ -101123,8 +100522,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-20",
       "date": "20.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "track": "Michelin Raceway Road Atlanta",
       "master": 500,
       "settings": {
@@ -101139,7 +100538,7 @@ window.RDA_DATA = {
         "bop": "Si",
         "damage": "Ridotti",
         "initialFuel": "35 litri",
-        "car": "Tutte le GR4 FR presenti nel gioco",
+        "car": "Tutte le GR4 FR presenti nel",
         "laps": "18",
         "sessions": [
           "15:00",
@@ -101153,10 +100552,10 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
-        "title": "Campionato ESET",
-        "version": "1",
-        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+        "url": "regolamenti/regolamento-eset-v4-cup.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "01ab14574846bd81f49b400fb3ffc1ae3aa974b185e669320ab0bb75a9af50ae"
       },
       "issue": null
     },
@@ -101263,8 +100662,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-23",
       "date": "23.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "track": "BB Raceway Reverse",
       "master": 500,
       "settings": {
@@ -101293,10 +100692,10 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
-        "title": "Campionato ESET",
-        "version": "1",
-        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+        "url": "regolamenti/regolamento-eset-v4-cup.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "01ab14574846bd81f49b400fb3ffc1ae3aa974b185e669320ab0bb75a9af50ae"
       },
       "issue": null,
       "car": {
@@ -101451,8 +100850,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-27",
       "date": "27.11.2026",
       "title": "RDA MASTER ESET V4 CUP",
-      "championship": "RDA MASTER ESET V4 CUP",
-      "championshipId": 12,
+      "championship": "ESET V4 CUP",
+      "championshipId": 14,
       "track": "Daytona Tri-Oval",
       "master": 500,
       "settings": {
@@ -101481,10 +100880,10 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/c177ce8835cf408db5a83ced4970e2c6.pdf",
-        "title": "Campionato ESET",
-        "version": "1",
-        "sha256": "3965f5046e442f2baa76c57e72f49a2a9b9eebf4b2a5670e360d4e6d68ac245e"
+        "url": "regolamenti/regolamento-eset-v4-cup.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "01ab14574846bd81f49b400fb3ffc1ae3aa974b185e669320ab0bb75a9af50ae"
       },
       "issue": null,
       "car": {
