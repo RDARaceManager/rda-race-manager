@@ -2167,6 +2167,22 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0
     },
     {
+      "name": "juve90dome",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "driver_id": 203,
+      "psn": "juve90dome",
+      "nicknameSecondary": "Dome90",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
       "name": "Knowhere_7",
       "races": 24,
       "wins": 1,
