@@ -1334,6 +1334,22 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0
     },
     {
+      "name": "Daniel_Cesare81",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "driver_id": 204,
+      "psn": "Daniel_Cesare81",
+      "nicknameSecondary": "Daniel_Cesare81",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
       "name": "Danielecomito",
       "races": 0,
       "wins": 0,
@@ -5433,7 +5449,11 @@ window.RDA_DATA = {
           "podiums": 0
         }
       ],
-      "regulation": null
+      "regulation": {
+        "championshipId": 15,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf"
+      }
     },
     {
       "id": 14,
@@ -33882,13 +33902,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "05.11.2026",
       "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championshipId": 15,
       "master": 250,
       "round": 0,
       "gara": 0,
       "track": "Blue Moon Bay Speedway - Infield A",
-      "regulation": null
+      "regulation": {
+        "championshipId": 15,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf"
+      }
     },
     {
       "eventId": "future-12-2026-11-06-44",
@@ -33970,13 +33994,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "10.11.2026",
       "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championshipId": 15,
       "master": 250,
       "round": 0,
       "gara": 0,
       "track": "Suzuka Circuit East Course",
-      "regulation": null
+      "regulation": {
+        "championshipId": 15,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf"
+      }
     },
     {
       "eventId": "future-13-2026-11-11-40",
@@ -34122,13 +34150,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "19.11.2026",
       "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championshipId": 15,
       "master": 250,
       "round": 0,
       "gara": 0,
       "track": "Tsukuba Circuit",
-      "regulation": null
+      "regulation": {
+        "championshipId": 15,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf"
+      }
     },
     {
       "eventId": "future-12-2026-11-20-48",
@@ -34210,13 +34242,17 @@ window.RDA_DATA = {
       "year": 2026,
       "date": "24.11.2026",
       "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championshipId": 15,
       "master": 250,
       "round": 0,
       "gara": 0,
       "track": "Brands Hatch Indy Circuit",
-      "regulation": null
+      "regulation": {
+        "championshipId": 15,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf"
+      }
     },
     {
       "eventId": "future-13-2026-11-25-Finale",
@@ -100448,8 +100484,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-05",
       "date": "05.11.2026",
       "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championshipId": 15,
       "track": "Blue Moon Bay Speedway - Infield A",
       "master": 250,
       "settings": {
@@ -100464,7 +100500,7 @@ window.RDA_DATA = {
         "bop": "No",
         "damage": "Ridotti",
         "initialFuel": "20 litri",
-        "car": "TOYOTA 86 GRMN ’16",
+        "car": "TOYOTA 86 GRMN",
         "laps": "30",
         "sessions": [
           "15:00",
@@ -100478,17 +100514,12 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
-        "title": "Campionato Toyota",
-        "version": "1",
-        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+        "url": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "cf1065c53e91202ff4596fa7abf9377d1d2eccd38040caddc2e2facfe257d216"
       },
-      "issue": null,
-      "car": {
-        "carId": 249,
-        "model": "86 GRMN '16",
-        "brand": "Toyota"
-      }
+      "issue": null
     },
     {
       "eventId": "future-12-2026-11-06-44",
@@ -100677,8 +100708,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-10",
       "date": "10.11.2026",
       "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championshipId": 15,
       "track": "Suzuka Circuit East Course",
       "master": 250,
       "settings": {
@@ -100693,7 +100724,7 @@ window.RDA_DATA = {
         "bop": "No",
         "damage": "Ridotti",
         "initialFuel": "20 litri",
-        "car": "TOYOTA 86 GRMN ’16",
+        "car": "TOYOTA 86 GRMN",
         "laps": "30",
         "sessions": [
           "15:00",
@@ -100707,17 +100738,12 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
-        "title": "Campionato Toyota",
-        "version": "1",
-        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+        "url": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "cf1065c53e91202ff4596fa7abf9377d1d2eccd38040caddc2e2facfe257d216"
       },
-      "issue": null,
-      "car": {
-        "carId": 249,
-        "model": "86 GRMN '16",
-        "brand": "Toyota"
-      }
+      "issue": null
     },
     {
       "eventId": "future-13-2026-11-11-40",
@@ -101104,8 +101130,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-19",
       "date": "19.11.2026",
       "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championshipId": 15,
       "track": "Tsukuba Circuit",
       "master": 250,
       "settings": {
@@ -101120,7 +101146,7 @@ window.RDA_DATA = {
         "bop": "No",
         "damage": "Ridotti",
         "initialFuel": "20 litri",
-        "car": "TOYOTA 86 GRMN ’16",
+        "car": "TOYOTA 86 GRMN",
         "laps": "30",
         "sessions": [
           "15:00",
@@ -101134,17 +101160,12 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
-        "title": "Campionato Toyota",
-        "version": "1",
-        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+        "url": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "cf1065c53e91202ff4596fa7abf9377d1d2eccd38040caddc2e2facfe257d216"
       },
-      "issue": null,
-      "car": {
-        "carId": 249,
-        "model": "86 GRMN '16",
-        "brand": "Toyota"
-      }
+      "issue": null
     },
     {
       "eventId": "future-12-2026-11-20-48",
@@ -101338,8 +101359,8 @@ window.RDA_DATA = {
       "isoDate": "2026-11-24",
       "date": "24.11.2026",
       "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championshipId": 15,
       "track": "Brands Hatch Indy Circuit",
       "master": 250,
       "settings": {
@@ -101354,7 +101375,7 @@ window.RDA_DATA = {
         "bop": "No",
         "damage": "Ridotti",
         "initialFuel": "20 litri",
-        "car": "TOYOTA 86 GRMN ’16",
+        "car": "TOYOTA 86 GRMN",
         "laps": "30",
         "sessions": [
           "15:00",
@@ -101368,17 +101389,12 @@ window.RDA_DATA = {
         "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
       },
       "source": {
-        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
-        "title": "Campionato Toyota",
-        "version": "1",
-        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
+        "url": "regolamenti/regolamento-campionato-toyota-86-grmn-2026.pdf",
+        "title": "Regolamento ufficiale",
+        "version": null,
+        "sha256": "cf1065c53e91202ff4596fa7abf9377d1d2eccd38040caddc2e2facfe257d216"
       },
-      "issue": null,
-      "car": {
-        "carId": 249,
-        "model": "86 GRMN '16",
-        "brand": "Toyota"
-      }
+      "issue": null
     },
     {
       "eventId": "future-13-2026-11-25-Finale",
