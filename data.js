@@ -18,11 +18,11 @@ window.RDA_DATA = {
   "dayResults": [
     {
       "pos": 1,
-      "name": "Svenom_21",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "28:14.521",
+      "name": "MaxMossa",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "21:30.278",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -32,11 +32,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 2,
-      "name": "forte984riso",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "28:20.988",
+      "name": "Twitc_Simomazz86",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "21:37.270",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -47,10 +47,10 @@ window.RDA_DATA = {
     {
       "pos": 3,
       "name": "Spano19",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "18:00",
-      "time": "28:23.612",
+      "time": "21:39.126",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -60,11 +60,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 4,
-      "name": "Twitc_Simomazz86",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "28:32.882",
+      "name": "MMRT_CERQUI83",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "21:48.866",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -74,11 +74,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 5,
-      "name": "xxsiculo96xx",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "28:40.521",
+      "name": "PYX69",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "21:51.674",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -88,11 +88,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 6,
-      "name": "brown_dsc",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "28:41.444",
+      "name": "Cinciripini79",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "21:00",
+      "time": "21:55.644",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -102,11 +102,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 7,
-      "name": "UBy20_97",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "28:43.245",
+      "name": "gallo_opc_2",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "21:57.081",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -116,11 +116,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 8,
-      "name": "Knowhere_7",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "name": "gancio-criptico",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "21:00",
-      "time": "28:43.533",
+      "time": "21:57.391",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -130,11 +130,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 9,
-      "name": "NICOLACI1966",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "name": "luglio88",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "18:00",
-      "time": "28:45.340",
+      "time": "21:58.997",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -144,11 +144,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 10,
-      "name": "Granata_93",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "name": "Caciotta_95",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "23:00",
-      "time": "28:47.380",
+      "time": "21:59.490",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -158,11 +158,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 11,
-      "name": "Izras1990",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "28:50.055",
+      "name": "andrecalimero73",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "22:03.257",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -172,11 +172,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 12,
-      "name": "SpeedSparco",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "29:10.936",
+      "name": "NICOLACI1966",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "22:05.146",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -186,11 +186,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 13,
-      "name": "stoccametuttu",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "29:12.817",
+      "name": "luigigar89",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "22:11.543",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -200,11 +200,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 14,
-      "name": "luglio88",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "29:15.661",
+      "name": "G-BERNA",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "22:12.286",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -214,11 +214,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 15,
-      "name": "gallo_opc_2",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "29:15.824",
+      "name": "jnior_billokillo",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "21:00",
+      "time": "22:12.293",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -228,11 +228,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 16,
-      "name": "Caciotta_95",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "name": "Squilybrio",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "23:00",
-      "time": "29:17.434",
+      "time": "22:12.976",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -242,11 +242,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 17,
-      "name": "Onmanuel-Btw_09",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "29:23.883",
+      "name": "a88312alfa",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "22:19.085",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -256,11 +256,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 18,
-      "name": "blmta73",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "name": "brown_dsc",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "23:00",
-      "time": "29:26.936",
+      "time": "22:19.748",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -270,11 +270,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 19,
-      "name": "G-BERNA",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "29:40.654",
+      "name": "Vimdav",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "21:00",
+      "time": "22:31.783",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -284,12 +284,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 20,
-      "name": "PYX69",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "29:41.309",
-      "status": "FINITO",
+      "name": "VanMike91",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "—",
+      "status": "1giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -298,12 +298,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 21,
-      "name": "Ivlaisdead",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "29:41.654",
-      "status": "FINITO",
+      "name": "Onmanuel-Btw_09",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "—",
+      "status": "1giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -312,93 +312,9 @@ window.RDA_DATA = {
     },
     {
       "pos": 22,
-      "name": "VanMike91",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "29:42.669",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 23,
-      "name": "tony123230",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "29:45.226",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 24,
-      "name": "MMRT_CERQUI83",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "29:52.786",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 25,
-      "name": "andrecalimero73",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "30:10.961",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 26,
-      "name": "MaxMossa",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 27,
-      "name": "Aktarus1970",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 28,
-      "name": "lamonaca72",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "name": "ony89traccia",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "18:00",
       "time": "—",
       "status": "1 giro",
@@ -409,11 +325,95 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 29,
-      "name": "Sacks77",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "pos": 23,
+      "name": "lamonaca72",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 24,
+      "name": "Aktarus1970",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 25,
+      "name": "illibrosnavi",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 26,
+      "name": "danilomarika89",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "21:00",
+      "time": "—",
+      "status": "1 giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 27,
+      "name": "Pasky_Alfa",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 28,
+      "name": "cambridgino92",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 29,
+      "name": "blmta73",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
       "time": "—",
       "status": "1giro",
       "rdaSeconds": 0,
@@ -424,12 +424,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 30,
-      "name": "danilomarika89",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
+      "name": "tony123230",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
       "time": "—",
-      "status": "1giro",
+      "status": "2giri",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -438,51 +438,9 @@ window.RDA_DATA = {
     },
     {
       "pos": 31,
-      "name": "cambridgino92",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 32,
-      "name": "Squilybrio",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 33,
-      "name": "luigigar89",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 34,
-      "name": "Pasky_Alfa",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "name": "Orsetto63",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "23:00",
       "time": "—",
       "status": "2giri",
@@ -493,69 +451,13 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 35,
-      "name": "lucap1969",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "pos": 32,
+      "name": "Ivlaisdead",
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "23:00",
       "time": "—",
       "status": "3giri",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 36,
-      "name": "ony89traccia",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "18:00",
-      "time": "—",
-      "status": "DNF",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 37,
-      "name": "familydidoschy",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "—",
-      "status": "DNF",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 38,
-      "name": "Alessin",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "—",
-      "status": "DNF",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 39,
-      "name": "Vimdav",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "—",
-      "status": "DSQ",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -566,12 +468,12 @@ window.RDA_DATA = {
   "championship": [
     {
       "pos": 1,
-      "name": "Svenom_21",
+      "name": "MaxMossa",
       "pts": 50
     },
     {
       "pos": 2,
-      "name": "forte984riso",
+      "name": "Twitc_Simomazz86",
       "pts": 45
     },
     {
@@ -581,183 +483,148 @@ window.RDA_DATA = {
     },
     {
       "pos": 4,
-      "name": "Twitc_Simomazz86",
+      "name": "MMRT_CERQUI83",
       "pts": 40
     },
     {
       "pos": 5,
-      "name": "xxsiculo96xx",
+      "name": "PYX69",
       "pts": 38
     },
     {
       "pos": 6,
-      "name": "brown_dsc",
+      "name": "Cinciripini79",
       "pts": 36
     },
     {
       "pos": 7,
-      "name": "UBy20_97",
+      "name": "gallo_opc_2",
       "pts": 34
     },
     {
       "pos": 8,
-      "name": "Knowhere_7",
+      "name": "gancio-criptico",
       "pts": 32
     },
     {
       "pos": 9,
-      "name": "NICOLACI1966",
+      "name": "luglio88",
       "pts": 30
     },
     {
       "pos": 10,
-      "name": "Granata_93",
+      "name": "Caciotta_95",
       "pts": 27
     },
     {
       "pos": 11,
-      "name": "Izras1990",
+      "name": "andrecalimero73",
       "pts": 25
     },
     {
       "pos": 12,
-      "name": "SpeedSparco",
+      "name": "NICOLACI1966",
       "pts": 22
     },
     {
       "pos": 13,
-      "name": "stoccametuttu",
+      "name": "luigigar89",
       "pts": 20
     },
     {
       "pos": 14,
-      "name": "luglio88",
+      "name": "G-BERNA",
       "pts": 18
     },
     {
       "pos": 15,
-      "name": "gallo_opc_2",
+      "name": "jnior_billokillo",
       "pts": 16
     },
     {
       "pos": 16,
-      "name": "Caciotta_95",
+      "name": "Squilybrio",
       "pts": 15
     },
     {
       "pos": 17,
-      "name": "Onmanuel-Btw_09",
+      "name": "a88312alfa",
       "pts": 14
     },
     {
       "pos": 18,
-      "name": "blmta73",
+      "name": "brown_dsc",
       "pts": 13
     },
     {
       "pos": 19,
-      "name": "G-BERNA",
+      "name": "Vimdav",
       "pts": 12
     },
     {
       "pos": 20,
-      "name": "PYX69",
-      "pts": 11
+      "name": "Aktarus1970",
+      "pts": 7
     },
     {
       "pos": 21,
-      "name": "Ivlaisdead",
-      "pts": 10
+      "name": "blmta73",
+      "pts": 7
     },
     {
       "pos": 22,
-      "name": "VanMike91",
-      "pts": 9
+      "name": "cambridgino92",
+      "pts": 7
     },
     {
       "pos": 23,
-      "name": "tony123230",
-      "pts": 8
+      "name": "danilomarika89",
+      "pts": 7
     },
     {
       "pos": 24,
-      "name": "MMRT_CERQUI83",
+      "name": "illibrosnavi",
       "pts": 7
     },
     {
       "pos": 25,
-      "name": "andrecalimero73",
-      "pts": 6
+      "name": "lamonaca72",
+      "pts": 7
     },
     {
       "pos": 26,
-      "name": "Aktarus1970",
-      "pts": 2
+      "name": "Onmanuel-Btw_09",
+      "pts": 7
     },
     {
       "pos": 27,
-      "name": "danilomarika89",
-      "pts": 2
+      "name": "ony89traccia",
+      "pts": 7
     },
     {
       "pos": 28,
-      "name": "lamonaca72",
-      "pts": 2
+      "name": "Pasky_Alfa",
+      "pts": 7
     },
     {
       "pos": 29,
-      "name": "MaxMossa",
-      "pts": 2
+      "name": "VanMike91",
+      "pts": 7
     },
     {
       "pos": 30,
-      "name": "Sacks77",
-      "pts": 2
+      "name": "Ivlaisdead",
+      "pts": 1
     },
     {
       "pos": 31,
-      "name": "cambridgino92",
+      "name": "Orsetto63",
       "pts": 1
     },
     {
       "pos": 32,
-      "name": "lucap1969",
+      "name": "tony123230",
       "pts": 1
-    },
-    {
-      "pos": 33,
-      "name": "luigigar89",
-      "pts": 1
-    },
-    {
-      "pos": 34,
-      "name": "Pasky_Alfa",
-      "pts": 1
-    },
-    {
-      "pos": 35,
-      "name": "Squilybrio",
-      "pts": 1
-    },
-    {
-      "pos": 36,
-      "name": "Alessin",
-      "pts": 0
-    },
-    {
-      "pos": 37,
-      "name": "familydidoschy",
-      "pts": 0
-    },
-    {
-      "pos": 38,
-      "name": "ony89traccia",
-      "pts": 0
-    },
-    {
-      "pos": 39,
-      "name": "Vimdav",
-      "pts": 0
     }
   ],
   "elo": [],
@@ -780,7 +647,7 @@ window.RDA_DATA = {
     },
     {
       "name": "a88312alfa",
-      "races": 51,
+      "races": 52,
       "wins": 2,
       "podiums": 5,
       "elo": 0,
@@ -812,7 +679,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Aktarus1970",
-      "races": 12,
+      "races": 13,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -892,7 +759,7 @@ window.RDA_DATA = {
     },
     {
       "name": "andrecalimero73",
-      "races": 38,
+      "races": 39,
       "wins": 1,
       "podiums": 6,
       "elo": 0,
@@ -1148,7 +1015,7 @@ window.RDA_DATA = {
     },
     {
       "name": "blmta73",
-      "races": 23,
+      "races": 24,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1196,7 +1063,7 @@ window.RDA_DATA = {
     },
     {
       "name": "brown_dsc",
-      "races": 37,
+      "races": 38,
       "wins": 2,
       "podiums": 7,
       "elo": 0,
@@ -1260,7 +1127,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Caciotta_95",
-      "races": 39,
+      "races": 40,
       "wins": 0,
       "podiums": 5,
       "elo": 0,
@@ -1292,7 +1159,7 @@ window.RDA_DATA = {
     },
     {
       "name": "cambridgino92",
-      "races": 7,
+      "races": 8,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1420,7 +1287,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Cinciripini79",
-      "races": 21,
+      "races": 22,
       "wins": 2,
       "podiums": 7,
       "elo": 0,
@@ -1500,7 +1367,7 @@ window.RDA_DATA = {
     },
     {
       "name": "danilomarika89",
-      "races": 41,
+      "races": 42,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1843,7 +1710,7 @@ window.RDA_DATA = {
     },
     {
       "name": "G-BERNA",
-      "races": 45,
+      "races": 46,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -1875,7 +1742,7 @@ window.RDA_DATA = {
     },
     {
       "name": "gallo_opc_2",
-      "races": 68,
+      "races": 69,
       "wins": 0,
       "podiums": 5,
       "elo": 0,
@@ -1910,7 +1777,7 @@ window.RDA_DATA = {
     },
     {
       "name": "gancio-criptico",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2141,7 +2008,7 @@ window.RDA_DATA = {
     },
     {
       "name": "illibrosnavi",
-      "races": 35,
+      "races": 36,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2189,7 +2056,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Ivlaisdead",
-      "races": 33,
+      "races": 34,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2253,7 +2120,7 @@ window.RDA_DATA = {
     },
     {
       "name": "jnior_billokillo",
-      "races": 48,
+      "races": 49,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2317,7 +2184,7 @@ window.RDA_DATA = {
     },
     {
       "name": "lamonaca72",
-      "races": 43,
+      "races": 44,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2445,7 +2312,7 @@ window.RDA_DATA = {
     },
     {
       "name": "luglio88",
-      "races": 50,
+      "races": 51,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -2461,7 +2328,7 @@ window.RDA_DATA = {
     },
     {
       "name": "luigigar89",
-      "races": 9,
+      "races": 10,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2637,9 +2504,9 @@ window.RDA_DATA = {
     },
     {
       "name": "MaxMossa",
-      "races": 57,
-      "wins": 1,
-      "podiums": 10,
+      "races": 58,
+      "wins": 2,
+      "podiums": 11,
       "elo": 0,
       "ranking": 0,
       "driver_id": 5,
@@ -2746,7 +2613,7 @@ window.RDA_DATA = {
     },
     {
       "name": "MMRT_CERQUI83",
-      "races": 5,
+      "races": 6,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2794,7 +2661,7 @@ window.RDA_DATA = {
     },
     {
       "name": "NICOLACI1966",
-      "races": 65,
+      "races": 66,
       "wins": 1,
       "podiums": 7,
       "elo": 0,
@@ -2897,7 +2764,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Onmanuel-Btw_09",
-      "races": 59,
+      "races": 60,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -2929,7 +2796,7 @@ window.RDA_DATA = {
     },
     {
       "name": "ony89traccia",
-      "races": 32,
+      "races": 33,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2945,7 +2812,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Orsetto63",
-      "races": 15,
+      "races": 16,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2977,7 +2844,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Pasky_Alfa",
-      "races": 51,
+      "races": 52,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3105,7 +2972,7 @@ window.RDA_DATA = {
     },
     {
       "name": "PYX69",
-      "races": 62,
+      "races": 63,
       "wins": 0,
       "podiums": 6,
       "elo": 0,
@@ -3384,9 +3251,9 @@ window.RDA_DATA = {
     },
     {
       "name": "Spano19",
-      "races": 71,
+      "races": 72,
       "wins": 24,
-      "podiums": 60,
+      "podiums": 61,
       "elo": 0,
       "ranking": 0,
       "driver_id": 1,
@@ -3525,7 +3392,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Squilybrio",
-      "races": 20,
+      "races": 21,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3817,7 +3684,7 @@ window.RDA_DATA = {
     },
     {
       "name": "tony123230",
-      "races": 8,
+      "races": 9,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3865,9 +3732,9 @@ window.RDA_DATA = {
     },
     {
       "name": "Twitc_Simomazz86",
-      "races": 52,
+      "races": 53,
       "wins": 5,
-      "podiums": 8,
+      "podiums": 9,
       "elo": 0,
       "ranking": 0,
       "driver_id": 33,
@@ -3936,7 +3803,7 @@ window.RDA_DATA = {
     },
     {
       "name": "VanMike91",
-      "races": 44,
+      "races": 45,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3984,7 +3851,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Vimdav",
-      "races": 58,
+      "races": 59,
       "wins": 0,
       "podiums": 2,
       "elo": 0,
@@ -4165,38 +4032,38 @@ window.RDA_DATA = {
   "podiumDay": [
     {
       "pos": 1,
-      "name": "Svenom_21",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "23:00",
-      "time": "28:14.521"
+      "name": "MaxMossa",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "18:00",
+      "time": "21:30.278"
     },
     {
       "pos": 2,
-      "name": "forte984riso",
-      "car": "A 45 AMG '13",
-      "carId": 213,
-      "session": "21:00",
-      "time": "28:20.988"
+      "name": "Twitc_Simomazz86",
+      "car": "86 GRMN '16",
+      "carId": 249,
+      "session": "23:00",
+      "time": "21:37.270"
     },
     {
       "pos": 3,
       "name": "Spano19",
-      "car": "A 45 AMG '13",
-      "carId": 213,
+      "car": "86 GRMN '16",
+      "carId": 249,
       "session": "18:00",
-      "time": "28:23.612"
+      "time": "21:39.126"
     }
   ],
   "podiumChampionship": [],
   "podiumMeta": {
-    "dayTitle": "ESET V4 CUP",
-    "dayDate": "2026-11-02",
-    "dayTrack": "Goodwood Motor Circuit",
+    "dayTitle": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+    "dayDate": "2026-11-03",
+    "dayTrack": "—",
     "dayRace": "Gara 1",
-    "champName": "ESET V4 CUP",
+    "champName": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
     "champClosed": false,
-    "champMaster": 500
+    "champMaster": 250
   },
   "completedRaces": [
     {
@@ -5262,6 +5129,20 @@ window.RDA_DATA = {
       "round": 1,
       "track": "Goodwood Motor Circuit",
       "status": "UFFICIALE"
+    },
+    {
+      "eventId": 83,
+      "isoDate": "2026-11-03",
+      "day": 3,
+      "month": 11,
+      "year": 2026,
+      "date": "03.11.2026",
+      "title": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "master": 250,
+      "round": 1,
+      "track": "Circuito non indicato",
+      "status": "UFFICIALE"
     }
   ],
   "flyers": [
@@ -5272,6 +5153,272 @@ window.RDA_DATA = {
     }
   ],
   "championships": [
+    {
+      "id": 15,
+      "name": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "master": 250,
+      "officialRounds": 1,
+      "closed": false,
+      "standings": [
+        {
+          "pos": 1,
+          "name": "MaxMossa",
+          "pts": 50,
+          "races": 1,
+          "wins": 1,
+          "podiums": 1
+        },
+        {
+          "pos": 2,
+          "name": "Twitc_Simomazz86",
+          "pts": 45,
+          "races": 1,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 3,
+          "name": "Spano19",
+          "pts": 43,
+          "races": 1,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 4,
+          "name": "MMRT_CERQUI83",
+          "pts": 40,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 5,
+          "name": "PYX69",
+          "pts": 38,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 6,
+          "name": "Cinciripini79",
+          "pts": 36,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 7,
+          "name": "gallo_opc_2",
+          "pts": 34,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 8,
+          "name": "gancio-criptico",
+          "pts": 32,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 9,
+          "name": "luglio88",
+          "pts": 30,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 10,
+          "name": "Caciotta_95",
+          "pts": 27,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 11,
+          "name": "andrecalimero73",
+          "pts": 25,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 12,
+          "name": "NICOLACI1966",
+          "pts": 22,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 13,
+          "name": "luigigar89",
+          "pts": 20,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 14,
+          "name": "G-BERNA",
+          "pts": 18,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 15,
+          "name": "jnior_billokillo",
+          "pts": 16,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 16,
+          "name": "Squilybrio",
+          "pts": 15,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 17,
+          "name": "a88312alfa",
+          "pts": 14,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 18,
+          "name": "brown_dsc",
+          "pts": 13,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 19,
+          "name": "Vimdav",
+          "pts": 12,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 20,
+          "name": "Aktarus1970",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 21,
+          "name": "blmta73",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 22,
+          "name": "cambridgino92",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 23,
+          "name": "danilomarika89",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 24,
+          "name": "illibrosnavi",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 25,
+          "name": "lamonaca72",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 26,
+          "name": "Onmanuel-Btw_09",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 27,
+          "name": "ony89traccia",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 28,
+          "name": "Pasky_Alfa",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 29,
+          "name": "VanMike91",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 30,
+          "name": "Ivlaisdead",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 31,
+          "name": "Orsetto63",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 32,
+          "name": "tony123230",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        }
+      ],
+      "regulation": null
+    },
     {
       "id": 14,
       "name": "ESET V4 CUP",
@@ -5599,8 +5746,469 @@ window.RDA_DATA = {
       }
     }
   ],
-  "currentChampionshipId": 14,
+  "currentChampionshipId": 15,
   "raceArchive": [
+    {
+      "eventId": 83,
+      "date": "03.11.2026",
+      "isoDate": "2026-11-03",
+      "title": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "master": 250,
+      "gara": 1,
+      "track": "Circuito non indicato",
+      "championshipClosed": false,
+      "results": [
+        {
+          "pos": 1,
+          "name": "MaxMossa",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "21:30.278",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 2,
+          "name": "Twitc_Simomazz86",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "21:37.270",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 3,
+          "name": "Spano19",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "21:39.126",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 4,
+          "name": "MMRT_CERQUI83",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "21:48.866",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 5,
+          "name": "PYX69",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "21:51.674",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 6,
+          "name": "Cinciripini79",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "21:00",
+          "time": "21:55.644",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 7,
+          "name": "gallo_opc_2",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "21:57.081",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 8,
+          "name": "gancio-criptico",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "21:00",
+          "time": "21:57.391",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 9,
+          "name": "luglio88",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "21:58.997",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 10,
+          "name": "Caciotta_95",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "21:59.490",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 11,
+          "name": "andrecalimero73",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "22:03.257",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 12,
+          "name": "NICOLACI1966",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "22:05.146",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 13,
+          "name": "luigigar89",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "22:11.543",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 14,
+          "name": "G-BERNA",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "22:12.286",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 15,
+          "name": "jnior_billokillo",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "21:00",
+          "time": "22:12.293",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 16,
+          "name": "Squilybrio",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "22:12.976",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 17,
+          "name": "a88312alfa",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "22:19.085",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 18,
+          "name": "brown_dsc",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "22:19.748",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 19,
+          "name": "Vimdav",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "21:00",
+          "time": "22:31.783",
+          "status": "FINITO",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 20,
+          "name": "VanMike91",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 21,
+          "name": "Onmanuel-Btw_09",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 22,
+          "name": "ony89traccia",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "—",
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 23,
+          "name": "lamonaca72",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 24,
+          "name": "Aktarus1970",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 25,
+          "name": "illibrosnavi",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 26,
+          "name": "danilomarika89",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "21:00",
+          "time": "—",
+          "status": "1 giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 27,
+          "name": "Pasky_Alfa",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 28,
+          "name": "cambridgino92",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 29,
+          "name": "blmta73",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "—",
+          "status": "1giro",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 30,
+          "name": "tony123230",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "18:00",
+          "time": "—",
+          "status": "2giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 31,
+          "name": "Orsetto63",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "—",
+          "status": "2giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 32,
+          "name": "Ivlaisdead",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "session": "23:00",
+          "time": "—",
+          "status": "3giri",
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        }
+      ]
+    },
     {
       "eventId": 82,
       "date": "02.11.2026",
@@ -33235,22 +33843,6 @@ window.RDA_DATA = {
   "championshipPodiumVisible": false,
   "futureRaces": [
     {
-      "eventId": "future-10-2026-11-03-31",
-      "isoDate": "2026-11-03",
-      "day": 3,
-      "month": 11,
-      "year": 2026,
-      "date": "03.11.2026",
-      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
-      "master": 250,
-      "round": 0,
-      "gara": 0,
-      "track": "Kyoto Driving Park - Miyabi",
-      "regulation": null
-    },
-    {
       "eventId": "future-13-2026-11-04-39",
       "isoDate": "2026-11-04",
       "day": 4,
@@ -33697,6 +34289,42 @@ window.RDA_DATA = {
   ],
   "podiumsByChampionship": [
     {
+      "championshipId": 15,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "master": 250,
+      "eventId": 83,
+      "title": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "date": "2026-11-03",
+      "track": "Circuito non indicato",
+      "gara": 1,
+      "rows": [
+        {
+          "pos": 1,
+          "name": "MaxMossa",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "time": "21:30.278",
+          "car_image": "car_images/car_249.webp"
+        },
+        {
+          "pos": 2,
+          "name": "Twitc_Simomazz86",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "time": "21:37.270",
+          "car_image": "car_images/car_249.webp"
+        },
+        {
+          "pos": 3,
+          "name": "Spano19",
+          "car": "86 GRMN '16",
+          "carId": 249,
+          "time": "21:39.126",
+          "car_image": "car_images/car_249.webp"
+        }
+      ]
+    },
+    {
       "championshipId": 14,
       "championship": "ESET V4 CUP",
       "master": 500,
@@ -33735,6 +34363,15 @@ window.RDA_DATA = {
   ],
   "finalPodiumsByChampionship": [],
   "championshipRaces": {
+    "15": [
+      {
+        "eventId": 83,
+        "date": "03.11.2026",
+        "gara": 1,
+        "track": "Circuito non indicato",
+        "title": "CAMPIONATO TOYOTA 86 \nGRMN 2026"
+      }
+    ],
     "14": [
       {
         "eventId": 82,
@@ -34286,6 +34923,29 @@ window.RDA_DATA = {
   },
   "trackRecords": [],
   "raceBestLaps": [
+    {
+      "eventId": 83,
+      "kind": "race",
+      "title": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "date": "2026-11-03",
+      "track": null,
+      "championshipId": 15,
+      "championship": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+      "gara": 1,
+      "round": 1,
+      "lap_ms": 39453,
+      "time": "0:39.453",
+      "drivers": [
+        {
+          "resultId": 3006,
+          "driverId": 5,
+          "name": "MaxMossa",
+          "carId": 249,
+          "car": "86 GRMN '16",
+          "car_image": "car_images/car_249.webp"
+        }
+      ]
+    },
     {
       "eventId": 82,
       "kind": "race",
@@ -99720,53 +100380,6 @@ window.RDA_DATA = {
     }
   ],
   "raceBriefings": [
-    {
-      "eventId": "future-10-2026-11-03-31",
-      "isoDate": "2026-11-03",
-      "date": "03.11.2026",
-      "title": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championship": "RDA MASTER CAMPIONATO TOYOTA 86 GRMN",
-      "championshipId": 10,
-      "track": "Kyoto Driving Park - Miyabi",
-      "master": 250,
-      "settings": {
-        "requiredTyres": "Dure, Morbide",
-        "allowedTyres": "Tutto",
-        "tyreType": "Da corsa",
-        "pitStops": "0",
-        "tyreChange": null,
-        "fuel": "2x",
-        "wear": "4x",
-        "start": "Dalla griglia con falsa partenza",
-        "bop": "No",
-        "damage": "Ridotti",
-        "initialFuel": "20 litri",
-        "car": "TOYOTA 86 GRMN ’16",
-        "laps": "30",
-        "sessions": [
-          "15:00",
-          "18:00",
-          "21:00",
-          "23:00"
-        ],
-        "warnings": [],
-        "effectivePitStops": 1,
-        "tyrePitStops": 1,
-        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
-      },
-      "source": {
-        "url": "regolamenti_rda/64c4248dfe43461c88c28b14240f652f.pdf",
-        "title": "Campionato Toyota",
-        "version": "1",
-        "sha256": "eb1654916a29b8e288b872e13392be3ef4f807b3c5ed012c80c3a0240466c105"
-      },
-      "issue": null,
-      "car": {
-        "carId": 249,
-        "model": "86 GRMN '16",
-        "brand": "Toyota"
-      }
-    },
     {
       "eventId": "future-13-2026-11-04-39",
       "isoDate": "2026-11-04",
