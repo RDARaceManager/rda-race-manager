@@ -33879,22 +33879,6 @@ window.RDA_DATA = {
   "championshipPodiumVisible": false,
   "futureRaces": [
     {
-      "eventId": "future-13-2026-11-04-39",
-      "isoDate": "2026-11-04",
-      "day": 4,
-      "month": 11,
-      "year": 2026,
-      "date": "04.11.2026",
-      "title": "RDA CAMPIONATO RED BULL X 2019",
-      "championship": "RDA CAMPIONATO RED BULL X 2019",
-      "championshipId": 13,
-      "master": 1000,
-      "round": 0,
-      "gara": 0,
-      "track": "Spa-Francorchamps",
-      "regulation": null
-    },
-    {
       "eventId": "future-10-2026-11-05-32",
       "isoDate": "2026-11-05",
       "day": 5,
@@ -100432,53 +100416,6 @@ window.RDA_DATA = {
     }
   ],
   "raceBriefings": [
-    {
-      "eventId": "future-13-2026-11-04-39",
-      "isoDate": "2026-11-04",
-      "date": "04.11.2026",
-      "title": "RDA CAMPIONATO RED BULL X 2019",
-      "championship": "RDA CAMPIONATO RED BULL X 2019",
-      "championshipId": 13,
-      "track": "Spa-Francorchamps",
-      "master": 1000,
-      "settings": {
-        "requiredTyres": "Dure, Morbide",
-        "allowedTyres": "Tutto",
-        "tyreType": "Da corsa",
-        "pitStops": "0",
-        "tyreChange": null,
-        "fuel": "2x",
-        "wear": "5x",
-        "start": "Dalla griglia con falsa partenza",
-        "bop": "Si",
-        "damage": "Ridotti",
-        "initialFuel": "100 litri",
-        "car": "RED BULL X2019 COMPETITION",
-        "laps": "18",
-        "sessions": [
-          "15:00",
-          "18:00",
-          "21:00",
-          "23:00"
-        ],
-        "warnings": [],
-        "effectivePitStops": 1,
-        "tyrePitStops": 1,
-        "effectiveTyreChange": "Sì, per usare le mescole obbligatorie"
-      },
-      "source": {
-        "url": "regolamenti_rda/2a9fc2c96d064519a2de82b5d4066a7a.pdf",
-        "title": "Campionato Red bull",
-        "version": "1",
-        "sha256": "b69beeb863f713d51102d4b7aa64c1ee5594f271d91221ab61ff964ef5790711"
-      },
-      "issue": null,
-      "car": {
-        "carId": 346,
-        "model": "Red Bull X2019 Competition",
-        "brand": "Gran Turismo"
-      }
-    },
     {
       "eventId": "future-10-2026-11-05-32",
       "isoDate": "2026-11-05",
