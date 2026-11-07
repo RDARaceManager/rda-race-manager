@@ -339,6 +339,10 @@ function renderRacePoints(race){
     box.textContent='Punti di gara non disponibili nei dati pubblicati.';
     return;
   }
+  const heading=document.createElement('h3');
+  heading.className='race-points-heading';
+  heading.textContent=race.gara?'Punti assegnati · Gara '+race.gara:'Punti assegnati';
+  box.append(heading);
   const grid=document.createElement('table');
   const headings=grid.createTHead().insertRow();
   ['Pos.','Pilota','Punti gara'].forEach(label=>{
@@ -347,7 +351,13 @@ function renderRacePoints(race){
   const body=grid.createTBody();
   rows.forEach(row=>{
     const line=body.insertRow();
-    [row.pos,row.name,Number.isFinite(row.points)?row.points+' pt':'—'].forEach(value=>line.insertCell().textContent=value);
+    if(Number(row.pos)===1)line.className='race-points-leader';
+    line.insertCell().textContent=row.pos;
+    line.insertCell().textContent=row.name;
+    const score=document.createElement('span');
+    score.className='race-points-score';
+    score.textContent=Number.isFinite(row.points)?row.points+' pt':'—';
+    line.insertCell().append(score);
   });
   box.append(grid);
 }
