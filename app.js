@@ -330,7 +330,43 @@ function renderChampionships(){
 }
 
 
-function renderSelectedRace(index=0){const a=arr('raceArchive'),r=a[index];if(!r)return;$('#resultChamp').textContent=r.championship||'—';$('#resultRace').textContent=r.gara?`Gara ${r.gara}`:'—';$('#resultDate').textContent=r.date||'—';$('#resultTrack').textContent=r.track||'Circuito non indicato';$('#resultMaster').textContent=r.master?`RDA MASTER ${r.master}`:'—';const cols=[{label:'#',render:x=>`<span class="pos ${rankClass(x.pos)}">${x.pos}</span>`},{label:'Pilota',render:r=>rdaResultDriver(r),cls:'rda-result-driver'},{label:'Auto',render:r=>rdaCarLink(r),cls:'hide-mobile'},{label:'<span class="rda-result-session-wide">Sessione</span><span class="rda-result-time-portrait">Tempo finale</span>',render:r=>rdaResultTime(r),cls:'rda-result-time-cell'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:x=>statusHtml(x.status)}];$('#resultsTable').innerHTML=table(r.results||[],cols,'Nessun risultato per questa gara');$('#podium').innerHTML=(r.results||[]).slice(0,3).map((x,i)=>`<div class="pod-card ${['first','second','third'][i]}"><div class="pod-rank">P${x.pos}</div><div class="pod-name">${x.name}</div><div class="pod-time">${x.time}</div></div>`).join('')}
+function renderRacePoints(race){
+  const box=$('#rdaRacePoints');
+  if(!box)return;
+  const rows=race.results||[];
+  box.replaceChildren();
+  if(!rows.some(row=>Number.isFinite(row.points))){
+    box.textContent='Punti di gara non disponibili nei dati pubblicati.';
+    return;
+  }
+  const grid=document.createElement('table');
+  const headings=grid.createTHead().insertRow();
+  ['Pos.','Pilota','Punti gara'].forEach(label=>{
+    const cell=document.createElement('th');cell.scope='col';cell.textContent=label;headings.append(cell);
+  });
+  const body=grid.createTBody();
+  rows.forEach(row=>{
+    const line=body.insertRow();
+    [row.pos,row.name,Number.isFinite(row.points)?row.points+' pt':'—'].forEach(value=>line.insertCell().textContent=value);
+  });
+  box.append(grid);
+}
+function setupRaceResultModes(){
+  const modes=$('#rdaRaceResultModes');
+  if(!modes)return;
+  const points=$('#rdaRacePoints'),results=$('#rdaRaceDayResults');
+  const buttons=Array.from(modes.querySelectorAll('[data-race-mode]'));
+  buttons.forEach(button=>button.addEventListener('click',()=>{
+    const showPoints=button.dataset.raceMode==='points';
+    points.hidden=!showPoints;
+    points.style.display=showPoints?'':'none';
+    results.hidden=showPoints;
+    results.style.display=showPoints?'none':'';
+    buttons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+  }));
+}
+setupRaceResultModes();
+function renderSelectedRace(index=0){const a=arr('raceArchive'),r=a[index];if(!r)return;renderRacePoints(r);$('#resultChamp').textContent=r.championship||'—';$('#resultRace').textContent=r.gara?`Gara ${r.gara}`:'—';$('#resultDate').textContent=r.date||'—';$('#resultTrack').textContent=r.track||'Circuito non indicato';$('#resultMaster').textContent=r.master?`RDA MASTER ${r.master}`:'—';const cols=[{label:'#',render:x=>`<span class="pos ${rankClass(x.pos)}">${x.pos}</span>`},{label:'Pilota',render:r=>rdaResultDriver(r),cls:'rda-result-driver'},{label:'Auto',render:r=>rdaCarLink(r),cls:'hide-mobile'},{label:'<span class="rda-result-session-wide">Sessione</span><span class="rda-result-time-portrait">Tempo finale</span>',render:r=>rdaResultTime(r),cls:'rda-result-time-cell'},{label:'Tempo',render:r=>rdaPenaltyTime(r)},{label:'Stato',render:x=>statusHtml(x.status)}];$('#resultsTable').innerHTML=table(r.results||[],cols,'Nessun risultato per questa gara');$('#podium').innerHTML=(r.results||[]).slice(0,3).map((x,i)=>`<div class="pod-card ${['first','second','third'][i]}"><div class="pod-rank">P${x.pos}</div><div class="pod-name">${x.name}</div><div class="pod-time">${x.time}</div></div>`).join('')}
 function setupRaceArchive(){const a=arr('raceArchive'),s=$('#raceResultSelect');if(!s)return;s.innerHTML=a.length?a.map((r,i)=>`<option value="${i}">${r.date} • ${r.championship} • Gara ${r.gara} • ${r.track}</option>`).join(''):'<option>Nessuna gara ufficiale</option>';s.onchange=()=>renderSelectedRace(Number(s.value));if(a.length)renderSelectedRace(0)}
 function openRaceResult(eventId){go('results');const a=arr('raceArchive'),i=a.findIndex(r=>Number(r.eventId)===Number(eventId)),s=$('#raceResultSelect');if(s&&i>=0){s.value=String(i);renderSelectedRace(i)}}
 
