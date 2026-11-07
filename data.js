@@ -518,12 +518,12 @@ window.RDA_DATA = {
       "car": "Red Bull X2019 Competition",
       "carId": 346,
       "session": "18:00 · Stanza 2",
-      "time": "34:26.190",
+      "time": "34:39.190",
       "status": "FINITO",
-      "rdaSeconds": 12,
+      "rdaSeconds": 25,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
-      "rdaLabel": "Penalità RDA +12 sec · −1 punti patente",
+      "rdaLabel": "Penalità RDA +25 sec · −2 punti patente",
       "originalTime": "34:14.190"
     },
     {
@@ -2865,7 +2865,7 @@ window.RDA_DATA = {
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
-      "rdaLicencePoints": 9,
+      "rdaLicencePoints": 8,
       "rdaPenaltyCount": 1
     },
     {
@@ -7954,12 +7954,12 @@ window.RDA_DATA = {
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "18:00 · Stanza 2",
-          "time": "34:26.190",
+          "time": "34:39.190",
           "status": "FINITO",
-          "rdaSeconds": 12,
+          "rdaSeconds": 25,
           "rdaLastPlace": false,
           "rdaZeroRanking": false,
-          "rdaLabel": "Penalità RDA +12 sec · −1 punti patente",
+          "rdaLabel": "Penalità RDA +25 sec · −2 punti patente",
           "originalTime": "34:14.190"
         },
         {
@@ -102499,16 +102499,16 @@ window.RDA_DATA = {
       "driver": "MMRT_CERQUI83 [ID 29]",
       "championship": "RDA CAMPIONATO RED BULL X 2019",
       "track": "Spa-Francorchamps",
-      "penalty": "12",
-      "license_points": "1",
-      "body": "La Direzione Gara comunica che al pilota MMRT_CERQUI 83 viene inflitta una penalità di 12 secondi, a seguito di un contatto ai danni del pilota Fax-86-.\n\nDopo aver valutato l’episodio, la Direzione Gara ha ritenuto il contatto meritevole di sanzione, in quanto contrario ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n- 12 secondi di penalità.\n- 1 punti patente decurtati.\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,\nLa Direzione Gara RDA",
+      "penalty": "25",
+      "license_points": "2",
+      "body": "La Direzione Gara comunica che al pilota MMRT_CERQUI 83 viene inflitta una penalità di 25 secondi, a seguito di un contatto ai danni del pilota Fax-86-.\n\nDopo aver valutato l’episodio, la Direzione Gara ha ritenuto il contatto meritevole di sanzione, in quanto contrario ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n- 25 secondi di penalità.\n- 2 punti patente decurtati.\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,\nLa Direzione Gara RDA",
       "image": "",
       "race_round": "1",
       "incident_lap": "1",
       "published": true,
       "signature_choice": "Firma e timbro RDA",
       "id": "221329c32ab64ac1a8f62977695524cd",
-      "updated_at": "2026-11-07T08:08:32.122352+00:00"
+      "updated_at": "2026-11-07T09:34:06.834237+00:00"
     },
     {
       "title": "Provvedimento disciplinare — Contatto tra piloti",
