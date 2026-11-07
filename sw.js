@@ -1,4 +1,4 @@
-const CACHE='rda-reclami-due-video-v55-20261106';
+const CACHE='rda-punti-gara-20261107';
 const REGULATION_CACHE='rda-regulation-documents-v1';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/rda-mark.png?v=rda-logo-v38','./assets/rda-icon-192.png?v=rda-logo-v38','./assets/rda-icon-512.png?v=rda-logo-v38','./assets/rda-icon-maskable-512.png?v=rda-logo-v38','./assets/apple-touch-icon.png?v=rda-logo-v38','./assets/calendario-settembre-2026.jpg','./assets/rda-home-hero-v460.png'];
 // PDF.js locale e risorse necessarie anche senza rete.
