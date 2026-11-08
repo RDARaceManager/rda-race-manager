@@ -39556,7 +39556,7 @@ window.RDA_DATA = {
           "car": "Huracan GT3 '15",
           "carId": 220,
           "time": "47:58.662",
-          "car_image": ""
+          "car_image": "car_images/car_220.webp"
         },
         {
           "pos": 2,
@@ -39564,7 +39564,7 @@ window.RDA_DATA = {
           "car": "Huracan GT3 '15",
           "carId": 220,
           "time": "48:11.438",
-          "car_image": ""
+          "car_image": "car_images/car_220.webp"
         },
         {
           "pos": 3,
@@ -39572,7 +39572,7 @@ window.RDA_DATA = {
           "car": "Huracan GT3 '15",
           "carId": 220,
           "time": "48:13.863",
-          "car_image": ""
+          "car_image": "car_images/car_220.webp"
         }
       ]
     }
@@ -40190,7 +40190,7 @@ window.RDA_DATA = {
           "name": "Twitc_Simomazz86",
           "carId": 220,
           "car": "Huracan GT3 '15",
-          "car_image": ""
+          "car_image": "car_images/car_220.webp"
         }
       ]
     },
@@ -46377,7 +46377,7 @@ window.RDA_DATA = {
       "model": "Huracan GT3 '15",
       "brand": "Lamborghini",
       "category": "Gr.3",
-      "car_image": "",
+      "car_image": "car_images/car_220.webp",
       "gt7": {
         "id": "car2177",
         "url": "https://www.gran-turismo.com/us/gt7/carlist/id/car2177",
