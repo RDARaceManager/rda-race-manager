@@ -471,6 +471,19 @@
     front: root.querySelector('#race-news-front'),
     detail: root.querySelector('#race-news-detail')
   };
+  const edition = data.raceNewsEdition;
+  if (edition?.eventId === String(race.eventId) && edition.pages?.length === 2 &&
+      edition.pages.every(page => typeof page === 'string' && /^[A-Za-z0-9+/]+={0,2}$/.test(page))) {
+    root.querySelector('header').hidden = true;
+    [pages.front, pages.detail].forEach((section, index) => {
+      const turn = section.querySelector('[data-news-turn]');
+      const image = new Image();
+      image.src = 'data:image/jpeg;base64,' + edition.pages[index];
+      image.alt = index ? 'RDA Race News, seconda pagina' : 'RDA Race News, prima pagina';
+      image.style.cssText = 'display:block;width:100%;height:auto';
+      section.replaceChildren(image, turn);
+    });
+  }
   function showPage(current, next) {
     current.hidden = true;
     next.hidden = false;
