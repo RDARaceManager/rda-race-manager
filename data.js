@@ -1,7 +1,7 @@
 window.RDA_DATA = {
   "meta": {
     "hasOfficialResults": true,
-    "officialRounds": 2,
+    "officialRounds": 1,
     "publishedDrivers": 0,
     "rankingSeason": 2027,
     "rankingName": "RANKING RDA 2027",
@@ -14,15 +14,21 @@ window.RDA_DATA = {
       "gt7PenaltiesExcluded": true
     }
   },
-  "calendar": [],
+  "calendar": [
+    {
+      "date": "07.11.2026 – 29.11.2026",
+      "series": "RDA MASTER 500",
+      "title": "RDA MASTER LAMBORGHINI SUPER TROFEO"
+    }
+  ],
   "dayResults": [
     {
       "pos": 1,
-      "name": "Svenom_21",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "23:00",
-      "time": "29:49.194",
+      "name": "MaxMossa",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
+      "time": "47:58.662",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -32,11 +38,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 2,
-      "name": "Spano19",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "21:00",
-      "time": "29:53.131",
+      "name": "Twitc_Simomazz86",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "23:00",
+      "time": "48:11.438",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -46,11 +52,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 3,
-      "name": "familydidoschy",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "21:00",
-      "time": "30:00.686",
+      "name": "gallo_opc_2",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
+      "time": "48:13.863",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -60,11 +66,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 4,
-      "name": "NICOLACI1966",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "18:00",
-      "time": "30:08.385",
+      "name": "MMRT_CERQUI83",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
+      "time": "48:17.345",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -74,11 +80,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 5,
-      "name": "Onmanuel-Btw_09",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "18:00",
-      "time": "30:12.548",
+      "name": "giorobert",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
+      "time": "48:20.656",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -88,11 +94,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 6,
-      "name": "ghostman_79",
-      "car": "TT Cup '16",
-      "carId": 291,
-      "session": "21:00",
-      "time": "30:17.034",
+      "name": "JONNYK7",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "23:00",
+      "time": "48:24.884",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -103,10 +109,10 @@ window.RDA_DATA = {
     {
       "pos": 7,
       "name": "andrecalimero73",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "18:00",
-      "time": "30:21.170",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
+      "time": "48:33.489",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -116,11 +122,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 8,
-      "name": "Caciotta_95",
-      "car": "TT Cup '16",
-      "carId": 291,
+      "name": "Spano19",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
       "session": "23:00",
-      "time": "30:22.076",
+      "time": "48:33.913",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -130,11 +136,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 9,
-      "name": "a88312alfa",
-      "car": "TT Cup '16",
-      "carId": 291,
-      "session": "23:00",
-      "time": "30:24.252",
+      "name": "NICOLACI1966",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
+      "time": "48:40.174",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -144,11 +150,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 10,
-      "name": "gallo_opc_2",
-      "car": "MAZDA3 Gr.4",
-      "carId": 485,
-      "session": "18:00",
-      "time": "30:25.458",
+      "name": "PYX69",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
+      "time": "48:40.954",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -158,11 +164,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 11,
-      "name": "Granata_93",
-      "car": "Scirocco Gr.4",
-      "carId": 257,
-      "session": "23:00",
-      "time": "30:35.388",
+      "name": "gancio-criptico",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "21:00",
+      "time": "48:54.403",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -172,11 +178,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 12,
-      "name": "stoccametuttu",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
+      "name": "Daniel_Cesare81",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
       "session": "21:00",
-      "time": "30:36.313",
+      "time": "48:55.110",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -186,11 +192,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 13,
-      "name": "forte984riso",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "21:00",
-      "time": "30:37.842",
+      "name": "ony89traccia",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
+      "time": "49:02.040",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -200,11 +206,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 14,
-      "name": "MaxMossa",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "18:00",
-      "time": "30:38.113",
+      "name": "cambridgino92",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "23:00",
+      "time": "49:12.318",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -214,11 +220,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 15,
-      "name": "gancio-criptico",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "21:00",
-      "time": "30:38.919",
+      "name": "luglio88",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
+      "time": "49:14.029",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -228,11 +234,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 16,
-      "name": "VanMike91",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "21:00",
-      "time": "30:39.864",
+      "name": "stoccametuttu",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
+      "time": "49:14.568",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -242,11 +248,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 17,
-      "name": "Squilybrio",
-      "car": "TT Cup '16",
-      "carId": 291,
-      "session": "23:00",
-      "time": "30:42.800",
+      "name": "tony123230",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
+      "time": "49:17.751",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -256,11 +262,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 18,
-      "name": "brown_dsc",
-      "car": "ELANTRA N TC '24",
-      "carId": 567,
-      "session": "18:00",
-      "time": "30:43.593",
+      "name": "Dom_78_furious",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "21:00",
+      "time": "49:24.778",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -270,11 +276,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 19,
-      "name": "blmta73",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "23:00",
-      "time": "30:45.115",
+      "name": "illibrosnavi",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "21:00",
+      "time": "49:36.329",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -284,11 +290,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 20,
-      "name": "MMRT_CERQUI83",
-      "car": "ELANTRA N TC '24",
-      "carId": 567,
-      "session": "18:00",
-      "time": "30:47.980",
+      "name": "blmta73",
+      "car": "190 E 2.5-16 Evolution II '91",
+      "carId": 489,
+      "session": "23:00",
+      "time": "49:48.539",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -298,11 +304,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 21,
-      "name": "tony123230",
-      "car": "TT Cup '16",
-      "carId": 291,
-      "session": "18:00",
-      "time": "30:49.784",
+      "name": "juve90dome",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "21:00",
+      "time": "49:53.084",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -312,11 +318,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 22,
-      "name": "danilomarika89",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "21:00",
-      "time": "30:51.047",
+      "name": "premanugito",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
+      "time": "49:54.296",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -326,11 +332,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 23,
-      "name": "ony89traccia",
-      "car": "TT Cup '16",
-      "carId": 291,
-      "session": "18:00",
-      "time": "31:00.670",
+      "name": "Squilybrio",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "23:00",
+      "time": "50:02.405",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -340,11 +346,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 24,
-      "name": "luglio88",
-      "car": "ELANTRA N TC '24",
-      "carId": 567,
-      "session": "18:00",
-      "time": "31:01.751",
+      "name": "jnior_billokillo",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "21:00",
+      "time": "50:03.462",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -354,11 +360,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 25,
-      "name": "lamonaca72",
-      "car": "Scirocco Gr.4",
-      "carId": 257,
-      "session": "18:00",
-      "time": "31:07.419",
+      "name": "luigigar89",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "23:00",
+      "time": "50:22.522",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -368,12 +374,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 26,
-      "name": "illibrosnavi",
-      "car": "MAZDA3 Gr.4",
-      "carId": 485,
-      "session": "18:00",
-      "time": "—",
-      "status": "1giro",
+      "name": "Onmanuel-Btw_09",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
+      "time": "50:41.076",
+      "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -382,10 +388,10 @@ window.RDA_DATA = {
     },
     {
       "pos": 27,
-      "name": "Fantasmino7794",
-      "car": "TT Cup '16",
-      "carId": 291,
-      "session": "23:00",
+      "name": "lamonaca72",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
       "time": "—",
       "status": "1giro",
       "rdaSeconds": 0,
@@ -396,12 +402,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 28,
-      "name": "Twitc_Simomazz86",
-      "car": "TT Cup '16",
-      "carId": 291,
+      "name": "Orsetto63",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
       "session": "23:00",
       "time": "—",
-      "status": "1giro",
+      "status": "1 giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -410,12 +416,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 29,
-      "name": "Orsetto63",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
+      "name": "Pasky_Alfa",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
       "session": "23:00",
       "time": "—",
-      "status": "1giro",
+      "status": "1 giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -424,9 +430,9 @@ window.RDA_DATA = {
     },
     {
       "pos": 30,
-      "name": "cambridgino92",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
+      "name": "danilomarika89",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
       "session": "23:00",
       "time": "—",
       "status": "1 giro",
@@ -438,12 +444,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 31,
-      "name": "Pasky_Alfa",
-      "car": "Megane Gr.4",
-      "carId": 279,
-      "session": "23:00",
+      "name": "Cinciripini79",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "21:00",
       "time": "—",
-      "status": "1giro",
+      "status": "DNF",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -452,12 +458,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 32,
-      "name": "luigigar89",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "23:00",
+      "name": "familydidoschy",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
       "time": "—",
-      "status": "1giro",
+      "status": "DNF",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -466,12 +472,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 33,
-      "name": "kakovts",
-      "car": "ELANTRA N TC '24",
-      "carId": 567,
-      "session": "23:00",
+      "name": "RMT_DeadPaul_87",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
       "time": "—",
-      "status": "1giro",
+      "status": "DNF",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -480,12 +486,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 34,
-      "name": "G-BERNA",
-      "car": "MAZDA3 Gr.4",
-      "carId": 485,
-      "session": "23:00",
+      "name": "AT29Andrea",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00 · Stanza 2",
       "time": "—",
-      "status": "1giro",
+      "status": "DNF",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -494,12 +500,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 35,
-      "name": "AT29Andrea",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
+      "name": "a88312alfa",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
       "session": "23:00",
       "time": "—",
-      "status": "1giro",
+      "status": "DNF",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -508,12 +514,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 36,
-      "name": "lucap1969",
-      "car": "TT Cup '16",
-      "carId": 291,
+      "name": "kakovts",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
       "session": "23:00",
       "time": "—",
-      "status": "2giri",
+      "status": "DNF",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -522,12 +528,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 37,
-      "name": "Daniel_Cesare81",
-      "car": "ELANTRA N TC '24",
-      "carId": 567,
+      "name": "RoSik-n-Sil3Nc3",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
       "session": "21:00",
       "time": "—",
-      "status": "DNF",
+      "status": "DSQ",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -538,242 +544,187 @@ window.RDA_DATA = {
   "championship": [
     {
       "pos": 1,
-      "name": "Svenom_21",
-      "pts": 100
+      "name": "MaxMossa",
+      "pts": 50
     },
     {
       "pos": 2,
-      "name": "Spano19",
-      "pts": 88
+      "name": "Twitc_Simomazz86",
+      "pts": 45
     },
     {
       "pos": 3,
-      "name": "NICOLACI1966",
-      "pts": 70
-    },
-    {
-      "pos": 4,
-      "name": "forte984riso",
-      "pts": 65
-    },
-    {
-      "pos": 5,
-      "name": "Granata_93",
-      "pts": 52
-    },
-    {
-      "pos": 6,
-      "name": "Onmanuel-Btw_09",
-      "pts": 52
-    },
-    {
-      "pos": 7,
-      "name": "brown_dsc",
-      "pts": 49
-    },
-    {
-      "pos": 8,
-      "name": "Caciotta_95",
-      "pts": 47
-    },
-    {
-      "pos": 9,
-      "name": "familydidoschy",
-      "pts": 43
-    },
-    {
-      "pos": 10,
       "name": "gallo_opc_2",
       "pts": 43
     },
     {
-      "pos": 11,
-      "name": "stoccametuttu",
-      "pts": 42
-    },
-    {
-      "pos": 12,
-      "name": "Twitc_Simomazz86",
-      "pts": 42
-    },
-    {
-      "pos": 13,
-      "name": "andrecalimero73",
+      "pos": 4,
+      "name": "MMRT_CERQUI83",
       "pts": 40
     },
     {
-      "pos": 14,
-      "name": "xxsiculo96xx",
+      "pos": 5,
+      "name": "giorobert",
       "pts": 38
     },
     {
-      "pos": 15,
-      "name": "ghostman_79",
+      "pos": 6,
+      "name": "JONNYK7",
       "pts": 36
     },
     {
-      "pos": 16,
-      "name": "UBy20_97",
+      "pos": 7,
+      "name": "andrecalimero73",
       "pts": 34
     },
     {
-      "pos": 17,
-      "name": "Knowhere_7",
+      "pos": 8,
+      "name": "Spano19",
       "pts": 32
     },
     {
-      "pos": 18,
-      "name": "a88312alfa",
+      "pos": 9,
+      "name": "NICOLACI1966",
       "pts": 30
     },
     {
-      "pos": 19,
-      "name": "blmta73",
+      "pos": 10,
+      "name": "PYX69",
+      "pts": 27
+    },
+    {
+      "pos": 11,
+      "name": "gancio-criptico",
       "pts": 25
     },
     {
-      "pos": 20,
-      "name": "Izras1990",
-      "pts": 25
-    },
-    {
-      "pos": 21,
-      "name": "luglio88",
-      "pts": 25
-    },
-    {
-      "pos": 22,
-      "name": "VanMike91",
-      "pts": 24
-    },
-    {
-      "pos": 23,
-      "name": "SpeedSparco",
+      "pos": 12,
+      "name": "Daniel_Cesare81",
       "pts": 22
     },
     {
-      "pos": 24,
-      "name": "MaxMossa",
+      "pos": 13,
+      "name": "ony89traccia",
       "pts": 20
     },
     {
-      "pos": 25,
-      "name": "MMRT_CERQUI83",
+      "pos": 14,
+      "name": "cambridgino92",
       "pts": 18
     },
     {
-      "pos": 26,
-      "name": "tony123230",
-      "pts": 18
-    },
-    {
-      "pos": 27,
-      "name": "gancio-criptico",
+      "pos": 15,
+      "name": "luglio88",
       "pts": 16
     },
     {
-      "pos": 28,
-      "name": "Squilybrio",
+      "pos": 16,
+      "name": "stoccametuttu",
       "pts": 15
     },
     {
-      "pos": 29,
-      "name": "G-BERNA",
+      "pos": 17,
+      "name": "tony123230",
+      "pts": 14
+    },
+    {
+      "pos": 18,
+      "name": "Dom_78_furious",
       "pts": 13
     },
     {
-      "pos": 30,
-      "name": "danilomarika89",
+      "pos": 19,
+      "name": "illibrosnavi",
+      "pts": 12
+    },
+    {
+      "pos": 20,
+      "name": "blmta73",
       "pts": 11
     },
     {
-      "pos": 31,
-      "name": "PYX69",
-      "pts": 11
-    },
-    {
-      "pos": 32,
-      "name": "Ivlaisdead",
+      "pos": 21,
+      "name": "juve90dome",
       "pts": 10
     },
     {
-      "pos": 33,
-      "name": "lamonaca72",
+      "pos": 22,
+      "name": "premanugito",
+      "pts": 9
+    },
+    {
+      "pos": 23,
+      "name": "Squilybrio",
       "pts": 8
     },
     {
-      "pos": 34,
-      "name": "ony89traccia",
-      "pts": 8
+      "pos": 24,
+      "name": "jnior_billokillo",
+      "pts": 7
     },
     {
-      "pos": 35,
-      "name": "cambridgino92",
+      "pos": 25,
+      "name": "luigigar89",
+      "pts": 6
+    },
+    {
+      "pos": 26,
+      "name": "Onmanuel-Btw_09",
+      "pts": 5
+    },
+    {
+      "pos": 27,
+      "name": "danilomarika89",
       "pts": 3
     },
     {
+      "pos": 28,
+      "name": "lamonaca72",
+      "pts": 3
+    },
+    {
+      "pos": 29,
+      "name": "Orsetto63",
+      "pts": 3
+    },
+    {
+      "pos": 30,
+      "name": "Pasky_Alfa",
+      "pts": 3
+    },
+    {
+      "pos": 31,
+      "name": "a88312alfa",
+      "pts": 0
+    },
+    {
+      "pos": 32,
+      "name": "AT29Andrea",
+      "pts": 0
+    },
+    {
+      "pos": 33,
+      "name": "Cinciripini79",
+      "pts": 0
+    },
+    {
+      "pos": 34,
+      "name": "familydidoschy",
+      "pts": 0
+    },
+    {
+      "pos": 35,
+      "name": "kakovts",
+      "pts": 0
+    },
+    {
       "pos": 36,
-      "name": "Aktarus1970",
-      "pts": 2
+      "name": "RMT_DeadPaul_87",
+      "pts": 0
     },
     {
       "pos": 37,
-      "name": "Fantasmino7794",
-      "pts": 2
-    },
-    {
-      "pos": 38,
-      "name": "illibrosnavi",
-      "pts": 2
-    },
-    {
-      "pos": 39,
-      "name": "lucap1969",
-      "pts": 2
-    },
-    {
-      "pos": 40,
-      "name": "luigigar89",
-      "pts": 2
-    },
-    {
-      "pos": 41,
-      "name": "Orsetto63",
-      "pts": 2
-    },
-    {
-      "pos": 42,
-      "name": "Pasky_Alfa",
-      "pts": 2
-    },
-    {
-      "pos": 43,
-      "name": "Sacks77",
-      "pts": 2
-    },
-    {
-      "pos": 44,
-      "name": "AT29Andrea",
-      "pts": 1
-    },
-    {
-      "pos": 45,
-      "name": "kakovts",
-      "pts": 1
-    },
-    {
-      "pos": 46,
-      "name": "Alessin",
-      "pts": 0
-    },
-    {
-      "pos": 47,
-      "name": "Daniel_Cesare81",
-      "pts": 0
-    },
-    {
-      "pos": 48,
-      "name": "Vimdav",
+      "name": "RoSik-n-Sil3Nc3",
       "pts": 0
     }
   ],
@@ -797,7 +748,7 @@ window.RDA_DATA = {
     },
     {
       "name": "a88312alfa",
-      "races": 55,
+      "races": 56,
       "wins": 2,
       "podiums": 5,
       "elo": 0,
@@ -909,7 +860,7 @@ window.RDA_DATA = {
     },
     {
       "name": "andrecalimero73",
-      "races": 42,
+      "races": 43,
       "wins": 1,
       "podiums": 6,
       "elo": 0,
@@ -1085,7 +1036,7 @@ window.RDA_DATA = {
     },
     {
       "name": "AT29Andrea",
-      "races": 6,
+      "races": 7,
       "wins": 1,
       "podiums": 2,
       "elo": 0,
@@ -1165,7 +1116,7 @@ window.RDA_DATA = {
     },
     {
       "name": "blmta73",
-      "races": 27,
+      "races": 28,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1309,7 +1260,7 @@ window.RDA_DATA = {
     },
     {
       "name": "cambridgino92",
-      "races": 11,
+      "races": 12,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1437,7 +1388,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Cinciripini79",
-      "races": 22,
+      "races": 23,
       "wins": 2,
       "podiums": 7,
       "elo": 0,
@@ -1485,7 +1436,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Daniel_Cesare81",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1533,7 +1484,7 @@ window.RDA_DATA = {
     },
     {
       "name": "danilomarika89",
-      "races": 44,
+      "races": 45,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1597,7 +1548,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Dom_78_furious",
-      "races": 23,
+      "races": 24,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -1709,7 +1660,7 @@ window.RDA_DATA = {
     },
     {
       "name": "familydidoschy",
-      "races": 35,
+      "races": 36,
       "wins": 0,
       "podiums": 4,
       "elo": 0,
@@ -1908,9 +1859,9 @@ window.RDA_DATA = {
     },
     {
       "name": "gallo_opc_2",
-      "races": 72,
+      "races": 73,
       "wins": 0,
-      "podiums": 5,
+      "podiums": 6,
       "elo": 0,
       "ranking": 0,
       "driver_id": 10,
@@ -1943,7 +1894,7 @@ window.RDA_DATA = {
     },
     {
       "name": "gancio-criptico",
-      "races": 5,
+      "races": 6,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2039,7 +1990,7 @@ window.RDA_DATA = {
     },
     {
       "name": "giorobert",
-      "races": 40,
+      "races": 41,
       "wins": 0,
       "podiums": 2,
       "elo": 0,
@@ -2174,7 +2125,7 @@ window.RDA_DATA = {
     },
     {
       "name": "illibrosnavi",
-      "races": 38,
+      "races": 39,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2302,7 +2253,7 @@ window.RDA_DATA = {
     },
     {
       "name": "jnior_billokillo",
-      "races": 51,
+      "races": 52,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2334,7 +2285,7 @@ window.RDA_DATA = {
     },
     {
       "name": "JONNYK7",
-      "races": 38,
+      "races": 39,
       "wins": 1,
       "podiums": 6,
       "elo": 0,
@@ -2350,7 +2301,7 @@ window.RDA_DATA = {
     },
     {
       "name": "juve90dome",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2366,7 +2317,7 @@ window.RDA_DATA = {
     },
     {
       "name": "kakovts",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2398,7 +2349,7 @@ window.RDA_DATA = {
     },
     {
       "name": "lamonaca72",
-      "races": 46,
+      "races": 47,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2526,7 +2477,7 @@ window.RDA_DATA = {
     },
     {
       "name": "luglio88",
-      "races": 54,
+      "races": 55,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -2542,7 +2493,7 @@ window.RDA_DATA = {
     },
     {
       "name": "luigigar89",
-      "races": 13,
+      "races": 14,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2718,9 +2669,9 @@ window.RDA_DATA = {
     },
     {
       "name": "MaxMossa",
-      "races": 61,
-      "wins": 2,
-      "podiums": 12,
+      "races": 62,
+      "wins": 3,
+      "podiums": 13,
       "elo": 0,
       "ranking": 0,
       "driver_id": 5,
@@ -2827,7 +2778,7 @@ window.RDA_DATA = {
     },
     {
       "name": "MMRT_CERQUI83",
-      "races": 8,
+      "races": 9,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -2875,7 +2826,7 @@ window.RDA_DATA = {
     },
     {
       "name": "NICOLACI1966",
-      "races": 69,
+      "races": 70,
       "wins": 1,
       "podiums": 7,
       "elo": 0,
@@ -2978,7 +2929,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Onmanuel-Btw_09",
-      "races": 63,
+      "races": 64,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -3010,7 +2961,7 @@ window.RDA_DATA = {
     },
     {
       "name": "ony89traccia",
-      "races": 35,
+      "races": 36,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3026,7 +2977,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Orsetto63",
-      "races": 18,
+      "races": 19,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3058,7 +3009,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Pasky_Alfa",
-      "races": 55,
+      "races": 56,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3170,7 +3121,7 @@ window.RDA_DATA = {
     },
     {
       "name": "premanugito",
-      "races": 14,
+      "races": 15,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3186,7 +3137,7 @@ window.RDA_DATA = {
     },
     {
       "name": "PYX69",
-      "races": 65,
+      "races": 66,
       "wins": 0,
       "podiums": 6,
       "elo": 0,
@@ -3288,6 +3239,22 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0
     },
     {
+      "name": "RMT_DeadPaul_87",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "driver_id": 207,
+      "psn": "",
+      "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
       "name": "ROCCOAMICO",
       "races": 0,
       "wins": 0,
@@ -3305,7 +3272,7 @@ window.RDA_DATA = {
     },
     {
       "name": "RoSik-n-Sil3Nc3",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3465,7 +3432,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Spano19",
-      "races": 75,
+      "races": 76,
       "wins": 24,
       "podiums": 63,
       "elo": 0,
@@ -3606,7 +3573,7 @@ window.RDA_DATA = {
     },
     {
       "name": "Squilybrio",
-      "races": 24,
+      "races": 25,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3654,7 +3621,7 @@ window.RDA_DATA = {
     },
     {
       "name": "stoccametuttu",
-      "races": 34,
+      "races": 35,
       "wins": 0,
       "podiums": 1,
       "elo": 0,
@@ -3898,7 +3865,7 @@ window.RDA_DATA = {
     },
     {
       "name": "tony123230",
-      "races": 11,
+      "races": 12,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
@@ -3946,9 +3913,9 @@ window.RDA_DATA = {
     },
     {
       "name": "Twitc_Simomazz86",
-      "races": 55,
+      "races": 56,
       "wins": 6,
-      "podiums": 10,
+      "podiums": 11,
       "elo": 0,
       "ranking": 0,
       "driver_id": 33,
@@ -4246,36 +4213,36 @@ window.RDA_DATA = {
   "podiumDay": [
     {
       "pos": 1,
-      "name": "Svenom_21",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "23:00",
-      "time": "29:49.194"
+      "name": "MaxMossa",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
+      "time": "47:58.662"
     },
     {
       "pos": 2,
-      "name": "Spano19",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "21:00",
-      "time": "29:53.131"
+      "name": "Twitc_Simomazz86",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "23:00",
+      "time": "48:11.438"
     },
     {
       "pos": 3,
-      "name": "familydidoschy",
-      "car": "Swift Sport Gr.4",
-      "carId": 416,
-      "session": "21:00",
-      "time": "30:00.686"
+      "name": "gallo_opc_2",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "15:00",
+      "time": "48:13.863"
     }
   ],
   "podiumChampionship": [],
   "podiumMeta": {
-    "dayTitle": "ESET V4 CUP",
-    "dayDate": "2026-11-06",
-    "dayTrack": "Tsukuba Circuit",
-    "dayRace": "Gara 2",
-    "champName": "ESET V4 CUP",
+    "dayTitle": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+    "dayDate": "2026-11-07",
+    "dayTrack": "Spa-Francorchamps",
+    "dayRace": "Gara 1",
+    "champName": "RDA MASTER LAMBORGHINI SUPER TROFEO",
     "champClosed": false,
     "champMaster": 500
   },
@@ -5399,6 +5366,20 @@ window.RDA_DATA = {
       "round": 2,
       "track": "Tsukuba Circuit",
       "status": "UFFICIALE"
+    },
+    {
+      "eventId": 87,
+      "isoDate": "2026-11-07",
+      "day": 7,
+      "month": 11,
+      "year": 2026,
+      "date": "07.11.2026",
+      "title": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "master": 500,
+      "round": 1,
+      "track": "Spa-Francorchamps",
+      "status": "UFFICIALE"
     }
   ],
   "flyers": [
@@ -6466,10 +6447,888 @@ window.RDA_DATA = {
         "label": "Regolamento ufficiale",
         "file": "regolamenti/regolamento-rda-campionato-red-bull-x-2019.pdf"
       }
+    },
+    {
+      "id": 11,
+      "name": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "master": 500,
+      "officialRounds": 1,
+      "closed": false,
+      "standings": [
+        {
+          "pos": 1,
+          "name": "MaxMossa",
+          "pts": 50,
+          "races": 1,
+          "wins": 1,
+          "podiums": 1
+        },
+        {
+          "pos": 2,
+          "name": "Twitc_Simomazz86",
+          "pts": 45,
+          "races": 1,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 3,
+          "name": "gallo_opc_2",
+          "pts": 43,
+          "races": 1,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 4,
+          "name": "MMRT_CERQUI83",
+          "pts": 40,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 5,
+          "name": "giorobert",
+          "pts": 38,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 6,
+          "name": "JONNYK7",
+          "pts": 36,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 7,
+          "name": "andrecalimero73",
+          "pts": 34,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 8,
+          "name": "Spano19",
+          "pts": 32,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 9,
+          "name": "NICOLACI1966",
+          "pts": 30,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 10,
+          "name": "PYX69",
+          "pts": 27,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 11,
+          "name": "gancio-criptico",
+          "pts": 25,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 12,
+          "name": "Daniel_Cesare81",
+          "pts": 22,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 13,
+          "name": "ony89traccia",
+          "pts": 20,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 14,
+          "name": "cambridgino92",
+          "pts": 18,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 15,
+          "name": "luglio88",
+          "pts": 16,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 16,
+          "name": "stoccametuttu",
+          "pts": 15,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 17,
+          "name": "tony123230",
+          "pts": 14,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 18,
+          "name": "Dom_78_furious",
+          "pts": 13,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 19,
+          "name": "illibrosnavi",
+          "pts": 12,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 20,
+          "name": "blmta73",
+          "pts": 11,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 21,
+          "name": "juve90dome",
+          "pts": 10,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 22,
+          "name": "premanugito",
+          "pts": 9,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 23,
+          "name": "Squilybrio",
+          "pts": 8,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 24,
+          "name": "jnior_billokillo",
+          "pts": 7,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 25,
+          "name": "luigigar89",
+          "pts": 6,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 26,
+          "name": "Onmanuel-Btw_09",
+          "pts": 5,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 27,
+          "name": "danilomarika89",
+          "pts": 3,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 28,
+          "name": "lamonaca72",
+          "pts": 3,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 29,
+          "name": "Orsetto63",
+          "pts": 3,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 30,
+          "name": "Pasky_Alfa",
+          "pts": 3,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 31,
+          "name": "a88312alfa",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 32,
+          "name": "AT29Andrea",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 33,
+          "name": "Cinciripini79",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 34,
+          "name": "familydidoschy",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 35,
+          "name": "kakovts",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 36,
+          "name": "RMT_DeadPaul_87",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 37,
+          "name": "RoSik-n-Sil3Nc3",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        }
+      ],
+      "regulation": {
+        "championshipId": 11,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
+      }
     }
   ],
-  "currentChampionshipId": 14,
+  "currentChampionshipId": 11,
   "raceArchive": [
+    {
+      "eventId": 87,
+      "date": "07.11.2026",
+      "isoDate": "2026-11-07",
+      "title": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "championship": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "master": 500,
+      "gara": 1,
+      "track": "Spa-Francorchamps",
+      "championshipClosed": false,
+      "results": [
+        {
+          "pos": 1,
+          "name": "MaxMossa",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00",
+          "time": "47:58.662",
+          "status": "FINITO",
+          "points": 50.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 2,
+          "name": "Twitc_Simomazz86",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "48:11.438",
+          "status": "FINITO",
+          "points": 45.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 3,
+          "name": "gallo_opc_2",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00",
+          "time": "48:13.863",
+          "status": "FINITO",
+          "points": 43.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 4,
+          "name": "MMRT_CERQUI83",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00",
+          "time": "48:17.345",
+          "status": "FINITO",
+          "points": 40.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 5,
+          "name": "giorobert",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00",
+          "time": "48:20.656",
+          "status": "FINITO",
+          "points": 38.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 6,
+          "name": "JONNYK7",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "48:24.884",
+          "status": "FINITO",
+          "points": 36.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 7,
+          "name": "andrecalimero73",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "48:33.489",
+          "status": "FINITO",
+          "points": 34.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 8,
+          "name": "Spano19",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "48:33.913",
+          "status": "FINITO",
+          "points": 32.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 9,
+          "name": "NICOLACI1966",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "48:40.174",
+          "status": "FINITO",
+          "points": 30.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 10,
+          "name": "PYX69",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "48:40.954",
+          "status": "FINITO",
+          "points": 27.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 11,
+          "name": "gancio-criptico",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "21:00",
+          "time": "48:54.403",
+          "status": "FINITO",
+          "points": 25.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 12,
+          "name": "Daniel_Cesare81",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "21:00",
+          "time": "48:55.110",
+          "status": "FINITO",
+          "points": 22.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 13,
+          "name": "ony89traccia",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00",
+          "time": "49:02.040",
+          "status": "FINITO",
+          "points": 20.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 14,
+          "name": "cambridgino92",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "49:12.318",
+          "status": "FINITO",
+          "points": 18.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 15,
+          "name": "luglio88",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "49:14.029",
+          "status": "FINITO",
+          "points": 16.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 16,
+          "name": "stoccametuttu",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "49:14.568",
+          "status": "FINITO",
+          "points": 15.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 17,
+          "name": "tony123230",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "49:17.751",
+          "status": "FINITO",
+          "points": 14.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 18,
+          "name": "Dom_78_furious",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "21:00",
+          "time": "49:24.778",
+          "status": "FINITO",
+          "points": 13.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 19,
+          "name": "illibrosnavi",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "21:00",
+          "time": "49:36.329",
+          "status": "FINITO",
+          "points": 12.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 20,
+          "name": "blmta73",
+          "car": "190 E 2.5-16 Evolution II '91",
+          "carId": 489,
+          "session": "23:00",
+          "time": "49:48.539",
+          "status": "FINITO",
+          "points": 11.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 21,
+          "name": "juve90dome",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "21:00",
+          "time": "49:53.084",
+          "status": "FINITO",
+          "points": 10.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 22,
+          "name": "premanugito",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "49:54.296",
+          "status": "FINITO",
+          "points": 9.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 23,
+          "name": "Squilybrio",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "50:02.405",
+          "status": "FINITO",
+          "points": 8.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 24,
+          "name": "jnior_billokillo",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "21:00",
+          "time": "50:03.462",
+          "status": "FINITO",
+          "points": 7.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 25,
+          "name": "luigigar89",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "50:22.522",
+          "status": "FINITO",
+          "points": 6.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 26,
+          "name": "Onmanuel-Btw_09",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "50:41.076",
+          "status": "FINITO",
+          "points": 5.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 27,
+          "name": "lamonaca72",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00",
+          "time": "—",
+          "status": "1giro",
+          "points": 3.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 28,
+          "name": "Orsetto63",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "—",
+          "status": "1 giro",
+          "points": 3.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 29,
+          "name": "Pasky_Alfa",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "—",
+          "status": "1 giro",
+          "points": 3.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 30,
+          "name": "danilomarika89",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "—",
+          "status": "1 giro",
+          "points": 3.0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 31,
+          "name": "Cinciripini79",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "21:00",
+          "time": "—",
+          "status": "DNF",
+          "points": 0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 32,
+          "name": "familydidoschy",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00",
+          "time": "—",
+          "status": "DNF",
+          "points": 0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 33,
+          "name": "RMT_DeadPaul_87",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00",
+          "time": "—",
+          "status": "DNF",
+          "points": 0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 34,
+          "name": "AT29Andrea",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "—",
+          "status": "DNF",
+          "points": 0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 35,
+          "name": "a88312alfa",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "—",
+          "status": "DNF",
+          "points": 0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 36,
+          "name": "kakovts",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "23:00",
+          "time": "—",
+          "status": "DNF",
+          "points": 0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        },
+        {
+          "pos": 37,
+          "name": "RoSik-n-Sil3Nc3",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "21:00",
+          "time": "—",
+          "status": "DSQ",
+          "points": 0,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": ""
+        }
+      ]
+    },
     {
       "eventId": 86,
       "date": "06.11.2026",
@@ -38144,22 +39003,6 @@ window.RDA_DATA = {
   "championshipPodiumVisible": false,
   "futureRaces": [
     {
-      "eventId": "future-11-2026-11-07-51",
-      "isoDate": "2026-11-07",
-      "day": 7,
-      "month": 11,
-      "year": 2026,
-      "date": "07.11.2026",
-      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
-      "championship": "RDA MASTER LAMBORGHINI SUPER TROFEO",
-      "championshipId": 11,
-      "master": 500,
-      "round": 0,
-      "gara": 0,
-      "track": "Spa-Francorchamps",
-      "regulation": null
-    },
-    {
       "eventId": "future-11-2026-11-08-52",
       "isoDate": "2026-11-08",
       "day": 8,
@@ -38173,7 +39016,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Fuji Speedway",
-      "regulation": null
+      "regulation": {
+        "championshipId": 11,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
+      }
     },
     {
       "eventId": "future-12-2026-11-09-45",
@@ -38285,7 +39132,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Red Bull Ring",
-      "regulation": null
+      "regulation": {
+        "championshipId": 11,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
+      }
     },
     {
       "eventId": "future-11-2026-11-15-54",
@@ -38301,7 +39152,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Le Mans",
-      "regulation": null
+      "regulation": {
+        "championshipId": 11,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
+      }
     },
     {
       "eventId": "future-12-2026-11-16-47",
@@ -38413,7 +39268,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Dragon Trail - Giardini",
-      "regulation": null
+      "regulation": {
+        "championshipId": 11,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
+      }
     },
     {
       "eventId": "future-11-2026-11-22-56",
@@ -38429,7 +39288,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Circuit Gilles-Villeneuve",
-      "regulation": null
+      "regulation": {
+        "championshipId": 11,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
+      }
     },
     {
       "eventId": "future-12-2026-11-23-49",
@@ -38541,7 +39404,11 @@ window.RDA_DATA = {
       "round": 0,
       "gara": 0,
       "track": "Yas Marina Circuit",
-      "regulation": null
+      "regulation": {
+        "championshipId": 11,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
+      }
     },
     {
       "eventId": "future-11-2026-11-29-Finale",
@@ -38557,7 +39424,11 @@ window.RDA_DATA = {
       "round": "Finale",
       "gara": 0,
       "track": "Suzuka",
-      "regulation": null
+      "regulation": {
+        "championshipId": 11,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
+      }
     }
   ],
   "podiumsByChampionship": [
@@ -38668,10 +39539,55 @@ window.RDA_DATA = {
           "car_image": "car_images/car_346.webp"
         }
       ]
+    },
+    {
+      "championshipId": 11,
+      "championship": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "master": 500,
+      "eventId": 87,
+      "title": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "date": "2026-11-07",
+      "track": "Spa-Francorchamps",
+      "gara": 1,
+      "rows": [
+        {
+          "pos": 1,
+          "name": "MaxMossa",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "time": "47:58.662",
+          "car_image": ""
+        },
+        {
+          "pos": 2,
+          "name": "Twitc_Simomazz86",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "time": "48:11.438",
+          "car_image": ""
+        },
+        {
+          "pos": 3,
+          "name": "gallo_opc_2",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "time": "48:13.863",
+          "car_image": ""
+        }
+      ]
     }
   ],
   "finalPodiumsByChampionship": [],
   "championshipRaces": {
+    "11": [
+      {
+        "eventId": 87,
+        "date": "07.11.2026",
+        "gara": 1,
+        "track": "Spa-Francorchamps",
+        "title": "RDA MASTER LAMBORGHINI SUPER TROFEO"
+      }
+    ],
     "14": [
       {
         "eventId": 86,
@@ -39255,6 +40171,29 @@ window.RDA_DATA = {
   },
   "trackRecords": [],
   "raceBestLaps": [
+    {
+      "eventId": 87,
+      "kind": "race",
+      "title": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "date": "2026-11-07",
+      "track": "Spa-Francorchamps",
+      "championshipId": 11,
+      "championship": "RDA MASTER LAMBORGHINI SUPER TROFEO",
+      "gara": 1,
+      "round": 1,
+      "lap_ms": 131548,
+      "time": "2:11.548",
+      "drivers": [
+        {
+          "resultId": 3202,
+          "driverId": 33,
+          "name": "Twitc_Simomazz86",
+          "carId": 220,
+          "car": "Huracan GT3 '15",
+          "car_image": ""
+        }
+      ]
+    },
     {
       "eventId": 86,
       "kind": "race",
@@ -105640,55 +106579,6 @@ window.RDA_DATA = {
     }
   ],
   "raceBriefings": [
-    {
-      "eventId": "future-11-2026-11-07-51",
-      "isoDate": "2026-11-07",
-      "date": "07.11.2026",
-      "title": "RDA MASTER lAMBORGHINI SUPER TROFEO",
-      "championship": "RDA MASTER LAMBORGHINI SUPER TROFEO",
-      "championshipId": 11,
-      "track": "Spa-Francorchamps",
-      "master": 500,
-      "settings": {
-        "requiredTyres": null,
-        "allowedTyres": "Tutto",
-        "tyreType": "Da corsa",
-        "pitStops": "2",
-        "tyreChange": "Si",
-        "fuel": "1x",
-        "wear": "4x",
-        "start": "Dalla griglia con falsa partenza",
-        "bop": "No",
-        "damage": "Ridotti",
-        "initialFuel": "80 litri",
-        "car": "LAMBORGHINI HURACAN GT3 ’15 - GR3",
-        "laps": "21",
-        "sessions": [
-          "15:00",
-          "18:00",
-          "21:00",
-          "23:00"
-        ],
-        "warnings": [
-          "Cambio gomme richiesto, ma mescole obbligatorie non specificate nel PDF."
-        ],
-        "effectivePitStops": 2,
-        "tyrePitStops": null,
-        "effectiveTyreChange": "Si"
-      },
-      "source": {
-        "url": "regolamenti_rda/9b3d2568e244473da5ccf5145610370e.pdf",
-        "title": "Campionato Lamborghini",
-        "version": "1",
-        "sha256": "f24885b810ee7b8c1a0effcdb2f2ed2b86927bcee13c1dc10a43a6ec130bacee"
-      },
-      "issue": null,
-      "car": {
-        "carId": 220,
-        "model": "Huracan GT3 '15",
-        "brand": "Lamborghini"
-      }
-    },
     {
       "eventId": "future-11-2026-11-08-52",
       "isoDate": "2026-11-08",
