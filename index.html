@@ -320,9 +320,9 @@
 
 #rda-race-news .news-page-end{display:flex;justify-content:flex-end;padding-top:18px}
 #rda-race-news #race-news-detail .news-page-end{justify-content:flex-start}
-#rda-race-news #race-news-front,#rda-race-news #race-news-detail{background:#f8dce5;backface-visibility:hidden}
+#rda-race-news #race-news-front,#rda-race-news #race-news-detail,#rda-race-news #race-news-feature{background:#f8dce5;backface-visibility:hidden}
 
-#rda-race-news #race-news-front,#rda-race-news #race-news-detail{position:relative}
+#rda-race-news #race-news-front,#rda-race-news #race-news-detail,#rda-race-news #race-news-feature{position:relative}
 #rda-race-news [data-news-turn]{touch-action:none;cursor:grab;user-select:none}
 #rda-race-news [data-news-turn]:active{cursor:grabbing}
 #rda-race-news .news-flex-sheet{position:absolute;inset:0;pointer-events:none;z-index:4}
@@ -466,20 +466,39 @@
   document.querySelectorAll('[data-go="race-news"]').forEach(entry => entry.addEventListener('click', () => {
     root.querySelector('#race-news-front').hidden = false;
     root.querySelector('#race-news-detail').hidden = true;
+    if (pages.feature) pages.feature.hidden = true;
   }));
   const pages = {
     front: root.querySelector('#race-news-front'),
     detail: root.querySelector('#race-news-detail')
   };
   const edition = data.raceNewsEdition;
-  if (edition?.eventId === String(race.eventId) && edition.pages?.length === 2 &&
+  if (edition?.eventId === String(race.eventId) && [2, 3].includes(edition.pages?.length) &&
       edition.pages.every(page => typeof page === 'string' && /^[A-Za-z0-9+/]+={0,2}$/.test(page))) {
     root.querySelector('header').hidden = true;
-    [pages.front, pages.detail].forEach((section, index) => {
-      const turn = section.querySelector('[data-news-turn]');
+    if (edition.pages.length === 3) {
+      pages.feature = document.createElement('section');
+      pages.feature.id = 'race-news-feature';
+      pages.feature.hidden = true;
+      pages.detail.before(pages.feature);
+      const controls = document.createElement('div');
+      controls.className = 'news-page-end';
+      for (const destination of ['front', 'detail']) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.dataset.newsTurn = destination;
+        controls.append(button);
+      }
+      pages.feature.append(controls);
+      pages.front.querySelector('[data-news-turn]').dataset.newsTurn = 'feature';
+      pages.detail.querySelector('[data-news-turn]').dataset.newsTurn = 'feature';
+    }
+    (edition.pages.length === 3
+      ? [pages.front, pages.feature, pages.detail] : [pages.front, pages.detail]).forEach((section, index) => {
+      const turn = section.querySelector('.news-page-end');
       const image = new Image();
       image.src = 'data:image/jpeg;base64,' + edition.pages[index];
-      image.alt = index ? 'RDA Race News, seconda pagina' : 'RDA Race News, prima pagina';
+      image.alt = 'RDA Race News, pagina ' + (index + 1);
       image.style.cssText = 'display:block;width:100%;height:auto';
       section.replaceChildren(image, turn);
     });
@@ -494,7 +513,7 @@
   root.querySelectorAll('[data-news-turn]').forEach(button => {
     const current = button.closest('section');
     const next = pages[button.dataset.newsTurn];
-    const forward = next === pages.detail;
+    const forward = current === pages.front || next === pages.detail;
     button.textContent = forward ? 'Afferra e tira ←' : '→ Afferra per tornare';
     let drag = null;
     let ignoreClick = false;
