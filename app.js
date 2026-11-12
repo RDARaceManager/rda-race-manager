@@ -978,3 +978,67 @@ setInterval(()=>{
  const day=['year','month','day'].map(k=>parts.find(p=>p.type===k).value).join('-');
  if(host.dataset.today!==day){delete host.dataset.selectedDate;renderRdaBriefing()}
 },60000);
+
+
+function setupRankingRaceModes(){
+  const modes=document.querySelector('#rdaRankingModes');
+  if(!modes)return;
+  const [seasonButton,raceButton]=modes.querySelectorAll('button');
+  const seasonPanels=[document.querySelector('#eloTable'),document.querySelector('.elo-hero')];
+  const racePanel=document.querySelector('#rdaRankingRace');
+  const select=document.querySelector('#rdaRankingRaceSelect');
+  const box=document.querySelector('#rdaRankingPoints');
+  const races=arr('raceArchive').filter(race=>(race.results||[]).some(row=>Number.isFinite(row.rankingRacePoints)));
+  for(const [index,race] of races.entries()){
+    select.add(new Option([race.date,race.championship,race.gara?'Gara '+race.gara:'',race.track].filter(Boolean).join(' · '),index));
+  }
+  select.disabled=!races.length;
+  const format=new Intl.NumberFormat('it-IT',{maximumFractionDigits:2});
+  function render(){
+    box.replaceChildren();
+    const race=races[Number(select.value)];
+    if(!race){
+      box.textContent='I punti Ranking per gara saranno disponibili dopo la prossima pubblicazione.';
+      return;
+    }
+    const heading=document.createElement('h3');
+    heading.className='race-points-heading';
+    heading.textContent='Ranking preso in gara · Master '+race.master;
+    const note=document.createElement('p');
+    note.textContent='Punti della gara con il coefficiente Master. La classifica stagionale usa le medie dei campionati validi e gli eventuali bonus trimestrali.';
+    const table=document.createElement('table');
+    const header=table.createTHead().insertRow();
+    for(const title of ['Pos.','Pilota','Punti Ranking']){
+      const cell=document.createElement('th');
+      cell.scope='col';
+      cell.textContent=title;
+      header.append(cell);
+    }
+    const body=table.createTBody();
+    for(const result of race.results){
+      const row=body.insertRow();
+      if(Number(result.pos)===1)row.className='race-points-leader';
+      row.insertCell().textContent=result.pos;
+      row.insertCell().textContent=result.name;
+      const score=document.createElement('span');
+      score.className='race-points-score';
+      score.textContent=Number.isFinite(result.rankingRacePoints)?format.format(result.rankingRacePoints)+' pt':'—';
+      row.insertCell().append(score);
+    }
+    box.append(heading,note,table);
+  }
+  function switchMode(showRace){
+    for(const panel of [...seasonPanels,racePanel]){
+      const visible=panel===racePanel?showRace:!showRace;
+      panel.hidden=!visible;
+      panel.style.display=visible?'':'none';
+    }
+    raceButton.setAttribute('aria-pressed',String(showRace));
+    seasonButton.setAttribute('aria-pressed',String(!showRace));
+    if(showRace)render();
+  }
+  seasonButton.addEventListener('click',()=>switchMode(false));
+  raceButton.addEventListener('click',()=>switchMode(true));
+  select.addEventListener('change',render);
+}
+setupRankingRaceModes();
