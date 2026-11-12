@@ -11,7 +11,23 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/rda-icon-192.png?v=rda-logo-v38">
   <link rel="stylesheet" href="styles.css?v=briefing-v48-20261101">
   <link rel="stylesheet" href="car-card.css?v=podium-layout-fix-20261006">
-<style>.rda-claims{max-width:850px;margin:auto}.rda-claims-hero{position:relative;overflow:hidden;padding:35px 24px;border:1px solid #3ac8ed;border-radius:24px;background:radial-gradient(circle at 95% 0,#7c29b54d,transparent 55%),linear-gradient(130deg,#0a233b,#141a36);margin-bottom:24px;box-shadow:0 0 24px #16c8ef18}.rda-claims-symbol{font-size:55px;color:#61dafa}.rda-claims-hero h2{font-size:clamp(32px,7vw,48px);margin:12px 0}.rda-claims-hero p{line-height:1.7;color:#bacfe2}.rda-claims-panel{padding:26px!important}.rda-claims-steps p{padding:16px 0;border-bottom:1px solid #4b66834d;line-height:1.65}.rda-claims-steps b{color:#79dfef}.rda-claims-submit{display:block;text-align:center;margin-top:24px;padding:19px;border-radius:14px;background:linear-gradient(110deg,#0086ad,#7228b5);color:white;font-size:19px;font-weight:800;text-decoration:none;border:1px solid #5de5ef}.rda-claims-help{color:#a7bdd2;font-size:14px;line-height:1.7}</style><style id="rda-claims-required-v55">.rda-claims-steps .rda-claims-required{margin:22px 0;padding:20px;border:2px solid #f6c45b;border-left:7px solid #f6c45b;border-radius:16px;background:linear-gradient(125deg,#382b19,#18243a);box-shadow:0 0 18px #f6c45b18;color:#fff4da}.rda-claims-required-title{display:block;color:#ffda85;font-size:clamp(20px,4.8vw,26px);line-height:1.3;letter-spacing:.025em}.rda-claims-steps .rda-claims-required p{margin:14px 0 0;padding:0;border:0;line-height:1.6}.rda-claims-required strong{font-weight:800}.rda-claims-required-camera{font-size:.95em;color:#e4ecf7}</style><style>
+<style>.rda-claims{max-width:850px;margin:auto}.rda-claims-hero{position:relative;overflow:hidden;padding:35px 24px;border:1px solid #3ac8ed;border-radius:24px;background:radial-gradient(circle at 95% 0,#7c29b54d,transparent 55%),linear-gradient(130deg,#0a233b,#141a36);margin-bottom:24px;box-shadow:0 0 24px #16c8ef18}.rda-claims-symbol{font-size:55px;color:#61dafa}.rda-claims-hero h2{font-size:clamp(32px,7vw,48px);margin:12px 0}.rda-claims-hero p{line-height:1.7;color:#bacfe2}.rda-claims-panel{padding:26px!important}.rda-claims-steps p{padding:16px 0;border-bottom:1px solid #4b66834d;line-height:1.65}.rda-claims-steps b{color:#79dfef}.rda-claims-submit{display:block;text-align:center;margin-top:24px;padding:19px;border-radius:14px;background:linear-gradient(110deg,#0086ad,#7228b5);color:white;font-size:19px;font-weight:800;text-decoration:none;border:1px solid #5de5ef}.rda-claims-help{color:#a7bdd2;font-size:14px;line-height:1.7}#rdaRankingModes{background:#0c172a;border:1px solid #284660;border-radius:14px;padding:5px}
+#rdaRankingModes button{flex:1 1 135px;margin:0}
+#rdaRankingModes [aria-pressed="true"]{background:linear-gradient(110deg,#174575,#6332a4);border-color:#7b72ea;color:#fff}
+#rdaRankingPoints{padding:clamp(9px,3vw,22px)}
+#rdaRankingPoints .race-points-heading{margin:0 0 12px;font-size:1.1rem;color:#7be7f4}
+#rdaRankingPoints table{width:100%;border-collapse:separate;border-spacing:0 5px;min-width:0}
+#rdaRankingPoints th{font-size:.75rem;color:#8bdcea;text-align:left;padding:7px 9px}
+#rdaRankingPoints th:last-child,#rdaRankingPoints td:last-child{text-align:right}
+#rdaRankingPoints td{background:#132641;padding:9px;border:0}
+#rdaRankingPoints td:first-child{border-radius:8px 0 0 8px;width:2.3rem;font-weight:800;color:#86e4f2}
+#rdaRankingPoints td:nth-child(2){overflow-wrap:anywhere;font-weight:650}
+#rdaRankingPoints td:last-child{border-radius:0 8px 8px 0;white-space:nowrap}
+#rdaRankingPoints .race-points-leader td{background:#312a35}
+#rdaRankingPoints .race-points-leader td:first-child{color:#ffd376}
+#rdaRankingPoints .race-points-score{display:inline-block;background:#0b384b;color:#98f1ff;padding:4px 9px;border-radius:20px;font-weight:800;font-variant-numeric:tabular-nums}
+#rdaRankingPoints .race-points-leader .race-points-score{background:#584222;color:#ffe6a4}
+</style><style id="rda-claims-required-v55">.rda-claims-steps .rda-claims-required{margin:22px 0;padding:20px;border:2px solid #f6c45b;border-left:7px solid #f6c45b;border-radius:16px;background:linear-gradient(125deg,#382b19,#18243a);box-shadow:0 0 18px #f6c45b18;color:#fff4da}.rda-claims-required-title{display:block;color:#ffda85;font-size:clamp(20px,4.8vw,26px);line-height:1.3;letter-spacing:.025em}.rda-claims-steps .rda-claims-required p{margin:14px 0 0;padding:0;border:0;line-height:1.6}.rda-claims-required strong{font-weight:800}.rda-claims-required-camera{font-size:.95em;color:#e4ecf7}</style><style>
 #rdaRaceResultModes{background:#0c172a;border:1px solid #284660;border-radius:14px;padding:5px}
 #rdaRaceResultModes button{flex:1 1 135px;margin:0}
 #rdaRaceResultModes [aria-pressed="true"]{background:linear-gradient(110deg,#174575,#6332a4);border-color:#7b72ea;color:#fff}
@@ -199,6 +215,15 @@
     <section class="view" data-view="elo">
       <div class="section-head"><div><div class="eyebrow">RANKING PILOTI</div><h2>Ranking RDA</h2></div><span class="live-pill">LIVE</span></div>
       <div class="panel elo-hero"><span id="eloHeroRank">—</span><div><small>Leader Ranking RDA</small><strong id="eloHeroName">In attesa</strong><p id="eloHeroText">Nessun ranking ufficiale pubblicato.</p></div></div>
+      <div id="rdaRankingModes" role="group" aria-label="Vista ranking" style="display:flex;gap:8px;flex-wrap:wrap;margin:12px 0">
+        <button type="button" class="back-btn" aria-pressed="true">Classifica Ranking</button>
+        <button type="button" class="back-btn" aria-pressed="false">Ranking preso in gara</button>
+      </div>
+      <div id="rdaRankingRace" hidden style="display:none">
+        <label for="rdaRankingRaceSelect">Scegli la gara</label>
+        <select id="rdaRankingRaceSelect"></select>
+        <div class="panel table-card" id="rdaRankingPoints"></div>
+      </div>
       <div class="panel table-card" id="eloTable"></div>
     </section>
 
@@ -390,7 +415,7 @@
   <div id="rdaRegulationPdf" role="region" aria-label="Pagine del Regolamento Ufficiale" tabindex="0"></div>
 </dialog>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=briefing-v48-20261101"></script>
+<script src="app.js?v=briefing-v48-20261101-ranking-gara"></script>
 <script src="car-card.js?v=gt7-1"></script>
 <script>
 
