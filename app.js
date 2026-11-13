@@ -264,35 +264,23 @@ function renderCompleted(){
   }
 }
 function renderFlyers(){
-  const flyers=arr('flyers'), box=$('#flyerGallery');
-  const viewer=$('#flyerViewer'), title=$('#flyerViewerTitle'), image=$('#flyerViewerImage');
-  viewer.hidden=true;
-  image.removeAttribute('src');
+  const box = $('#flyerGallery');
+  const flyers = arr('flyers');
   box.replaceChildren();
-  if(!flyers.length){
-    box.innerHTML=emptyState('Nessun volantino pubblicato');
+  if (!flyers.length) {
+    box.innerHTML = emptyState('Nessun volantino pubblicato');
     return;
   }
-  for(const flyer of flyers){
-    const button=document.createElement('button');
-    button.type='button';
-    button.className='flyer-card';
-    const thumbnail=document.createElement('img');
-    thumbnail.src=flyer.image;
-    thumbnail.alt='Volantino '+flyer.label;
-    const label=document.createElement('strong');
-    label.textContent=flyer.label;
-    const caption=document.createElement('small');
-    caption.textContent='Volantino ufficiale RDA';
-    button.append(thumbnail,label,caption);
-    button.addEventListener('click',()=>{
-      title.textContent=label.textContent;
-      image.src=thumbnail.src;
-      image.alt=thumbnail.alt;
-      viewer.hidden=false;
-      viewer.scrollIntoView({behavior:'smooth',block:'start'});
-    });
-    box.append(button);
+  for (const flyer of flyers) {
+    const figure = document.createElement('figure');
+    figure.className = 'flyer-card';
+    const image = document.createElement('img');
+    image.src = flyer.image;
+    image.alt = flyer.label || 'Volantino RDA';
+    const caption = document.createElement('figcaption');
+    caption.textContent = flyer.label;
+    figure.append(image, caption);
+    box.append(figure);
   }
 }
 
@@ -455,7 +443,6 @@ function go(view){$$('.view').forEach(v=>v.classList.toggle('active',v.dataset.v
 $$('.nav-btn').forEach(b=>b.addEventListener('click',()=>go(b.dataset.viewTarget)));$$('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
 $('#prevMonth').addEventListener('click',()=>{calendarCursor.m--;if(calendarCursor.m<1){calendarCursor.m=12;calendarCursor.y--}selectedRace=null;renderCalendar()});
 $('#nextMonth').addEventListener('click',()=>{calendarCursor.m++;if(calendarCursor.m>12){calendarCursor.m=1;calendarCursor.y++}selectedRace=null;renderCalendar()});
-$('#flyerClose').addEventListener('click',()=>{$('#flyerViewer').hidden=true});
 render();
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
 
