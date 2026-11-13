@@ -265,8 +265,35 @@ function renderCompleted(){
 }
 function renderFlyers(){
   const flyers=arr('flyers'), box=$('#flyerGallery');
-  box.innerHTML=flyers.length?flyers.map(f=>`<button type="button" class="flyer-card" data-flyer="${f.id}"><img src="${f.image}" alt="Volantino ${f.label}"><strong>${f.label}</strong><small>Volantino ufficiale RDA</small></button>`).join(''):emptyState('Nessun volantino pubblicato');
-  $$('.flyer-card').forEach(b=>b.addEventListener('click',()=>{const f=flyers.find(x=>x.id===b.dataset.flyer);if(!f)return;$('#flyerViewerTitle').textContent=f.label;$('#flyerViewerImage').src=f.image;$('#flyerViewer').hidden=false;$('#flyerViewer').scrollIntoView({behavior:'smooth',block:'start'})}));
+  const viewer=$('#flyerViewer'), title=$('#flyerViewerTitle'), image=$('#flyerViewerImage');
+  viewer.hidden=true;
+  image.removeAttribute('src');
+  box.replaceChildren();
+  if(!flyers.length){
+    box.innerHTML=emptyState('Nessun volantino pubblicato');
+    return;
+  }
+  for(const flyer of flyers){
+    const button=document.createElement('button');
+    button.type='button';
+    button.className='flyer-card';
+    const thumbnail=document.createElement('img');
+    thumbnail.src=flyer.image;
+    thumbnail.alt='Volantino '+flyer.label;
+    const label=document.createElement('strong');
+    label.textContent=flyer.label;
+    const caption=document.createElement('small');
+    caption.textContent='Volantino ufficiale RDA';
+    button.append(thumbnail,label,caption);
+    button.addEventListener('click',()=>{
+      title.textContent=label.textContent;
+      image.src=thumbnail.src;
+      image.alt=thumbnail.alt;
+      viewer.hidden=false;
+      viewer.scrollIntoView({behavior:'smooth',block:'start'});
+    });
+    box.append(button);
+  }
 }
 
 
@@ -472,6 +499,29 @@ function rdaHighlightChampionshipPilot(){
   const tr=document.querySelectorAll('#championshipTable tbody tr')[index];
   if(tr){tr.classList.add('rda-my-standing');tr.setAttribute('aria-label','La tua posizione in questa classifica');}
 }
+// Count distinct official events using the same archive as Risultati.
+function rdaChampionshipParticipation(championship, driver, drivers) {
+  const schedule = D.championshipRaces?.[String(championship.id)];
+  if (!Array.isArray(schedule)) return null;
+  const eventIds = new Set(schedule.map(race => Number(race.eventId)));
+  const uniqueName = drivers.filter(entry => entry.name === driver.name).length === 1;
+  const official = new Set(), entered = new Set();
+  for (const race of arr('raceArchive')) {
+    const id = Number(race.eventId);
+    if (!Number.isSafeInteger(id) || id <= 0 || !eventIds.has(id) ||
+        !Array.isArray(race.results) || !race.results.length) continue;
+    official.add(id);
+    const participated = race.results.some(row => {
+      const pilotId = row.driver_id ?? row.driverId;
+      const matches = pilotId != null ? Number(pilotId) === driver.driver_id :
+        uniqueName && row.name === driver.name;
+      return matches && String(row.status ?? '').trim().toUpperCase() !== 'DNS';
+    });
+    if (participated) entered.add(id);
+  }
+  return official.size ? {entered: entered.size, total: official.size} : null;
+}
+
 function rdaPilotChampionships(driver){
   const details=document.createElement('details');details.className='rda-my-championships';
   const summary=document.createElement('summary');
@@ -479,20 +529,42 @@ function rdaPilotChampionships(driver){
   const hint=document.createElement('small');
   const entries=publicChampionships().map(c=>({c,row:rdaStandingForPilot(c,driver,arr('drivers'))})).filter(e=>e.row);
   const active=entries.filter(e=>!e.c.closed),closed=entries.filter(e=>e.c.closed);
-  hint.textContent=active.length?active.length+' in corso · Posizione e punti':closed.length?'Campionati conclusi · Posizione e punti':'Nessuna classifica pubblicata';
+  hint.textContent=active.length?active.length+' in corso · Posizione, punti e presenze':closed.length?'Campionati conclusi · Posizione, punti e presenze':'Nessuna classifica pubblicata';
   summary.append(title,hint);details.append(summary);
   const makeList=list=>{
     const container=document.createElement('div');container.className='rda-my-champs-list';
     const labels=document.createElement('div');labels.className='rda-my-champs-labels';
-    for(const text of ['Campionato','Pos.','Punti']){const s=document.createElement('span');s.textContent=text;labels.append(s);}container.append(labels);
+    for(const text of ['Campionato','Pos.','Punti','Presenze']){const s=document.createElement('span');s.textContent=text;labels.append(s);}container.append(labels);
     for(const {c,row} of list){
       const b=document.createElement('button');b.type='button';b.className='rda-my-champs-row';
       const name=document.createElement('span'),strong=document.createElement('strong'),master=document.createElement('small');
       strong.textContent=c.name;master.textContent=c.master?'RDA MASTER '+c.master:'RDA';name.append(strong,master);
       const pos=document.createElement('b');pos.textContent=row.pos+'°';
       const pts=document.createElement('b');pts.textContent=row.pts.toLocaleString('it-IT')+' ›';
-      b.setAttribute('aria-label',c.name+': posizione '+row.pos+', '+row.pts+' punti. Apri classifica');
-      b.append(name,pos,pts);b.onclick=()=>{
+      b.append(name,pos,pts);
+      const participation = rdaChampionshipParticipation(c, driver, arr('drivers'));
+      let presenceLabel = '';
+      if (participation) {
+        const {entered, total} = participation;
+        const presence = document.createElement('span');
+        presence.className = 'rda-my-presence';
+        if (entered === total) presence.classList.add('rda-my-presence-full');
+        const number = document.createElement('strong');
+        number.textContent = entered + ' / ' + total;
+        const caption = document.createElement('small');
+        caption.textContent = 'gare corse';
+        presence.append(number, caption);
+        b.append(presence);
+        presenceLabel = ', ' + entered + ' gare corse su ' + total;
+      } else {
+        const unavailable = document.createElement('span');
+        unavailable.className = 'rda-my-presence';
+        unavailable.textContent = '—';
+        b.append(unavailable);
+        presenceLabel = ', presenze non disponibili';
+      }
+      b.setAttribute('aria-label',c.name+': posizione '+row.pos+', '+row.pts+' punti'+presenceLabel+'. Apri classifica');
+      b.onclick=()=>{
         rdaChampionshipFocusDriver=driver;selectedChampionshipId=Number(c.id);expandedChampionshipId=null;renderChampionships();go('championship');
         const marked=document.querySelector('#championshipTable .rda-my-standing');if(marked)marked.scrollIntoView({block:'center',behavior:'auto'});
       };container.append(b);
