@@ -1,7 +1,7 @@
 window.RDA_DATA = {
   "meta": {
     "hasOfficialResults": true,
-    "officialRounds": 4,
+    "officialRounds": 2,
     "publishedDrivers": 29,
     "rankingSeason": 2027,
     "rankingName": "RANKING RDA 2027",
@@ -14,15 +14,21 @@ window.RDA_DATA = {
       "gt7PenaltiesExcluded": true
     }
   },
-  "calendar": [],
+  "calendar": [
+    {
+      "date": "04.11.2026 – 25.11.2026",
+      "series": "RDA MASTER 1000",
+      "title": "RDA CAMPIONATO RED BULL X 2019"
+    }
+  ],
   "dayResults": [
     {
       "pos": 1,
-      "name": "UBy20_97",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "name": "Spano19",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "18:00",
-      "time": "30:03.782",
+      "time": "29:13.731",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -32,11 +38,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 2,
-      "name": "Twitc_Simomazz86",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "30:28.840",
+      "name": "forte984riso",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "29:19.710",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -47,10 +53,10 @@ window.RDA_DATA = {
     {
       "pos": 3,
       "name": "brown_dsc",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
-      "time": "30:29.387",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
+      "time": "29:22.694",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -60,11 +66,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 4,
-      "name": "G-BERNA",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "30:32.378",
+      "name": "AT29Andrea",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
+      "time": "29:22.740",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -74,11 +80,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 5,
-      "name": "Caciotta_95",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "name": "Knowhere_7",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "21:00",
-      "time": "30:35.947",
+      "time": "29:24.385",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -88,11 +94,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 6,
-      "name": "PYX69",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "name": "a88312alfa",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "23:00",
-      "time": "30:44.939",
+      "time": "29:25.441",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -102,11 +108,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 7,
-      "name": "luigigar89",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "name": "stoccametuttu",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "23:00",
-      "time": "30:53.373",
+      "time": "29:26.109",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -116,11 +122,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 8,
-      "name": "a88312alfa",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "30:54.479",
+      "name": "andrecalimero73",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
+      "time": "29:27.643",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -130,11 +136,11 @@ window.RDA_DATA = {
     },
     {
       "pos": 9,
-      "name": "gancio-criptico",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "name": "JONNYK7",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "21:00",
-      "time": "31:11.448",
+      "time": "29:31.046",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -144,12 +150,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 10,
-      "name": "Vimdav",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "21:00",
-      "time": "—",
-      "status": "1giro",
+      "name": "gallo_opc_2",
+      "car": "Red Bull X2019 25th Anniversary",
+      "carId": 452,
+      "session": "18:00",
+      "time": "29:36.717",
+      "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -158,12 +164,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 11,
-      "name": "Dom_78_furious",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "name": "Caciotta_95",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "21:00",
-      "time": "—",
-      "status": "1giro",
+      "time": "29:38.772",
+      "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -172,12 +178,12 @@ window.RDA_DATA = {
     },
     {
       "pos": 12,
-      "name": "jnior_billokillo",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "21:00",
-      "time": "—",
-      "status": "1giro",
+      "name": "Onmanuel-Btw_09",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
+      "time": "29:41.395",
+      "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -186,9 +192,317 @@ window.RDA_DATA = {
     },
     {
       "pos": 13,
-      "name": "danilomarika89",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "name": "Twitc_Simomazz86",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "29:42.634",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 14,
+      "name": "SpeedSparco",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "29:44.245",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 15,
+      "name": "sorgialon",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "29:44.857",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 16,
+      "name": "NICOLACI1966",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
+      "time": "29:46.845",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 17,
+      "name": "PYX69",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "29:49.962",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 18,
+      "name": "gancio-criptico",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "29:51.536",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 19,
+      "name": "jnior_billokillo",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "29:53.136",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 20,
+      "name": "MMRT_CERQUI83",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
+      "time": "29:54.008",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 21,
+      "name": "cambridgino92",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "29:55.476",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 22,
+      "name": "luigigar89",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "30:02.413",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 23,
+      "name": "VanMike91",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00",
+      "time": "30:02.675",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 24,
+      "name": "UBy20_97",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00",
+      "time": "30:06.405",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 25,
+      "name": "xxsiculo96xx",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "30:06.854",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 26,
+      "name": "Ivlaisdead",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "30:06.940",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 27,
+      "name": "Izras1990",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "30:09.458",
+      "status": "FINITO",
+      "rdaSeconds": 25,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "Penalità RDA +25 sec · −2 punti patente",
+      "originalTime": "29:44.458"
+    },
+    {
+      "pos": 28,
+      "name": "BCS_Basella",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00",
+      "time": "30:18.635",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 29,
+      "name": "G-BERNA",
+      "car": "Red Bull X2019 25th Anniversary",
+      "carId": 452,
+      "session": "23:00",
+      "time": "30:21.210",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 30,
+      "name": "Luciosly",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00",
+      "time": "30:21.927",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 31,
+      "name": "juve90dome",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "30:24.167",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 32,
+      "name": "Squilybrio",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "30:43.067",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 33,
+      "name": "MaxMossa",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
+      "time": "30:50.061",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 34,
+      "name": "illibrosnavi",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00",
+      "time": "30:53.367",
+      "status": "FINITO",
+      "rdaSeconds": 25,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "Penalità RDA +25 sec · −2 punti patente",
+      "originalTime": "30:28.367"
+    },
+    {
+      "pos": 35,
+      "name": "Umbs_tron",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "21:00",
       "time": "—",
       "status": "1giro",
@@ -199,11 +513,11 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 14,
-      "name": "Pasky_Alfa",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
+      "pos": 36,
+      "name": "Vimdav",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
       "time": "—",
       "status": "1giro",
       "rdaSeconds": 0,
@@ -213,11 +527,11 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 15,
-      "name": "Spano19",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
+      "pos": 37,
+      "name": "Dom_78_furious",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
       "time": "—",
       "status": "1giro",
       "rdaSeconds": 0,
@@ -227,11 +541,25 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 16,
-      "name": "AT29Andrea",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
+      "pos": 38,
+      "name": "Donato-il-biondo",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "—",
+      "status": "1giro",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 39,
+      "name": "ICIOmnt",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
       "time": "—",
       "status": "1 giro",
       "rdaSeconds": 0,
@@ -241,153 +569,13 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 17,
-      "name": "gallo_opc_2",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
-      "time": "—",
-      "status": "1 giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 18,
-      "name": "blmta73",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 19,
-      "name": "cambridgino92",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 20,
-      "name": "Squilybrio",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "—",
-      "status": "1giro",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 21,
-      "name": "MMRT_CERQUI83",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
-      "time": "—",
-      "status": "2giri",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 22,
-      "name": "NICOLACI1966",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
-      "time": "—",
-      "status": "2giri",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 23,
-      "name": "lucap1969",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "—",
-      "status": "2giri",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 24,
-      "name": "kakovts",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "—",
-      "status": "2giri",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 25,
-      "name": "Onmanuel-Btw_09",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
-      "time": "—",
-      "status": "2giri",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 26,
-      "name": "stoccametuttu",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
-      "time": "—",
-      "status": "2giri",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 27,
+      "pos": 40,
       "name": "luglio88",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "18:00",
       "time": "—",
-      "status": "2 giri",
+      "status": "1 giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -395,13 +583,13 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 28,
-      "name": "Luciosly",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "pos": 41,
+      "name": "Aktarus1970",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "18:00",
       "time": "—",
-      "status": "3 giri",
+      "status": "1giro",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -409,13 +597,55 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 29,
-      "name": "VanMike91",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "pos": 42,
+      "name": "Orsetto63",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 43,
+      "name": "blmta73",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "23:00",
+      "time": "—",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 44,
+      "name": "familydidoschy",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "18:00",
       "time": "—",
-      "status": "4giri",
+      "status": "DNF",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 45,
+      "name": "Fax-86-",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00",
+      "time": "—",
+      "status": "DNF",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
       "rdaZeroRanking": false,
@@ -426,222 +656,267 @@ window.RDA_DATA = {
   "championship": [
     {
       "pos": 1,
-      "name": "brown_dsc",
-      "pts": 149
+      "name": "forte984riso",
+      "pts": 95
     },
     {
       "pos": 2,
-      "name": "Caciotta_95",
-      "pts": 146
+      "name": "Spano19",
+      "pts": 95
     },
     {
       "pos": 3,
-      "name": "Twitc_Simomazz86",
-      "pts": 140
+      "name": "brown_dsc",
+      "pts": 79
     },
     {
       "pos": 4,
-      "name": "Spano19",
-      "pts": 133
+      "name": "a88312alfa",
+      "pts": 74
     },
     {
       "pos": 5,
-      "name": "G-BERNA",
-      "pts": 120
+      "name": "SpeedSparco",
+      "pts": 58
     },
     {
       "pos": 6,
-      "name": "a88312alfa",
-      "pts": 112
+      "name": "Caciotta_95",
+      "pts": 52
     },
     {
       "pos": 7,
-      "name": "PYX69",
-      "pts": 110
+      "name": "gallo_opc_2",
+      "pts": 49
     },
     {
       "pos": 8,
-      "name": "NICOLACI1966",
-      "pts": 107
+      "name": "PYX69",
+      "pts": 48
     },
     {
       "pos": 9,
-      "name": "gallo_opc_2",
-      "pts": 102
+      "name": "Izras1990",
+      "pts": 47
     },
     {
       "pos": 10,
-      "name": "MaxMossa",
-      "pts": 95
+      "name": "sorgialon",
+      "pts": 41
     },
     {
       "pos": 11,
-      "name": "gancio-criptico",
-      "pts": 95
+      "name": "AT29Andrea",
+      "pts": 40
     },
     {
       "pos": 12,
-      "name": "luigigar89",
-      "pts": 86
-    },
-    {
-      "pos": 13,
-      "name": "UBy20_97",
-      "pts": 84
-    },
-    {
-      "pos": 14,
-      "name": "MMRT_CERQUI83",
-      "pts": 81
-    },
-    {
-      "pos": 15,
-      "name": "Onmanuel-Btw_09",
-      "pts": 76
-    },
-    {
-      "pos": 16,
-      "name": "luglio88",
-      "pts": 75
-    },
-    {
-      "pos": 17,
-      "name": "Squilybrio",
-      "pts": 72
-    },
-    {
-      "pos": 18,
-      "name": "jnior_billokillo",
-      "pts": 65
-    },
-    {
-      "pos": 19,
-      "name": "blmta73",
-      "pts": 50
-    },
-    {
-      "pos": 20,
-      "name": "danilomarika89",
-      "pts": 50
-    },
-    {
-      "pos": 21,
-      "name": "Pasky_Alfa",
-      "pts": 50
-    },
-    {
-      "pos": 22,
-      "name": "Vimdav",
-      "pts": 43
-    },
-    {
-      "pos": 23,
-      "name": "cambridgino92",
+      "name": "Knowhere_7",
       "pts": 38
     },
     {
-      "pos": 24,
+      "pos": 13,
+      "name": "Onmanuel-Btw_09",
+      "pts": 38
+    },
+    {
+      "pos": 14,
+      "name": "stoccametuttu",
+      "pts": 34
+    },
+    {
+      "pos": 15,
+      "name": "NICOLACI1966",
+      "pts": 33
+    },
+    {
+      "pos": 16,
       "name": "andrecalimero73",
-      "pts": 37
-    },
-    {
-      "pos": 25,
-      "name": "Cinciripini79",
-      "pts": 36
-    },
-    {
-      "pos": 26,
-      "name": "kakovts",
       "pts": 32
     },
     {
-      "pos": 27,
-      "name": "Dom_78_furious",
+      "pos": 17,
+      "name": "familydidoschy",
+      "pts": 32
+    },
+    {
+      "pos": 18,
+      "name": "MaxMossa",
+      "pts": 31
+    },
+    {
+      "pos": 19,
+      "name": "JONNYK7",
       "pts": 30
     },
     {
-      "pos": 28,
-      "name": "illibrosnavi",
-      "pts": 27
+      "pos": 20,
+      "name": "xxsiculo96xx",
+      "pts": 26
     },
     {
-      "pos": 29,
-      "name": "lamonaca72",
+      "pos": 21,
+      "name": "MMRT_CERQUI83",
+      "pts": 25
+    },
+    {
+      "pos": 22,
+      "name": "gancio-criptico",
+      "pts": 23
+    },
+    {
+      "pos": 23,
+      "name": "luigigar89",
+      "pts": 22
+    },
+    {
+      "pos": 24,
+      "name": "Twitc_Simomazz86",
       "pts": 20
     },
     {
-      "pos": 30,
-      "name": "AT29Andrea",
-      "pts": 18
+      "pos": 25,
+      "name": "G-BERNA",
+      "pts": 17
     },
     {
-      "pos": 31,
+      "pos": 26,
       "name": "VanMike91",
       "pts": 16
     },
     {
+      "pos": 27,
+      "name": "cambridgino92",
+      "pts": 15
+    },
+    {
+      "pos": 28,
+      "name": "jnior_billokillo",
+      "pts": 14
+    },
+    {
+      "pos": 29,
+      "name": "blmta73",
+      "pts": 12
+    },
+    {
+      "pos": 30,
+      "name": "Fax-86-",
+      "pts": 11
+    },
+    {
+      "pos": 31,
+      "name": "luglio88",
+      "pts": 10
+    },
+    {
       "pos": 32,
-      "name": "Daniel_Cesare81",
-      "pts": 13
+      "name": "illibrosnavi",
+      "pts": 8
     },
     {
       "pos": 33,
-      "name": "tony123230",
-      "pts": 13
+      "name": "UBy20_97",
+      "pts": 7
     },
     {
       "pos": 34,
-      "name": "Luciosly",
-      "pts": 8
+      "name": "Ivlaisdead",
+      "pts": 6
     },
     {
       "pos": 35,
-      "name": "Orsetto63",
-      "pts": 8
+      "name": "lamonaca72",
+      "pts": 6
     },
     {
       "pos": 36,
-      "name": "Aktarus1970",
-      "pts": 7
+      "name": "Vimdav",
+      "pts": 5
     },
     {
       "pos": 37,
-      "name": "juve90dome",
-      "pts": 7
+      "name": "Squilybrio",
+      "pts": 4
     },
     {
       "pos": 38,
-      "name": "lucap1969",
-      "pts": 7
+      "name": "BCS_Basella",
+      "pts": 3
     },
     {
       "pos": 39,
-      "name": "ony89traccia",
-      "pts": 7
+      "name": "Aktarus1970",
+      "pts": 1
     },
     {
       "pos": 40,
-      "name": "stoccametuttu",
-      "pts": 7
+      "name": "Dom_78_furious",
+      "pts": 1
     },
     {
       "pos": 41,
-      "name": "Ivlaisdead",
+      "name": "Donato-il-biondo",
       "pts": 1
     },
     {
       "pos": 42,
-      "name": "ITA_SOLID_SNAKE",
-      "pts": 0
+      "name": "fia_nero",
+      "pts": 1
     },
     {
       "pos": 43,
-      "name": "leonessa_verde",
-      "pts": 0
+      "name": "ICIOmnt",
+      "pts": 1
     },
     {
       "pos": 44,
-      "name": "maverick370kmh",
+      "name": "juve90dome",
+      "pts": 1
+    },
+    {
+      "pos": 45,
+      "name": "kakovts",
+      "pts": 1
+    },
+    {
+      "pos": 46,
+      "name": "Luciosly",
+      "pts": 1
+    },
+    {
+      "pos": 47,
+      "name": "ony89traccia",
+      "pts": 1
+    },
+    {
+      "pos": 48,
+      "name": "Orsetto63",
+      "pts": 1
+    },
+    {
+      "pos": 49,
+      "name": "Pasky_Alfa",
+      "pts": 1
+    },
+    {
+      "pos": 50,
+      "name": "Sacks77",
+      "pts": 1
+    },
+    {
+      "pos": 51,
+      "name": "Umbs_tron",
+      "pts": 1
+    },
+    {
+      "pos": 52,
+      "name": "ghostman_79",
+      "pts": 0
+    },
+    {
+      "pos": 53,
+      "name": "thegamer73",
       "pts": 0
     }
   ],
@@ -2859,8 +3134,8 @@ window.RDA_DATA = {
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
-      "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaLicencePoints": 8,
+      "rdaPenaltyCount": 1
     },
     {
       "name": "imbatt1980",
@@ -2939,8 +3214,8 @@ window.RDA_DATA = {
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
-      "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
+      "rdaLicencePoints": 8,
+      "rdaPenaltyCount": 1
     },
     {
       "name": "jack-wrangler",
@@ -4850,38 +5125,38 @@ window.RDA_DATA = {
   "podiumDay": [
     {
       "pos": 1,
-      "name": "UBy20_97",
-      "car": "86 GRMN '16",
-      "carId": 249,
+      "name": "Spano19",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
       "session": "18:00",
-      "time": "30:03.782"
+      "time": "29:13.731"
     },
     {
       "pos": 2,
-      "name": "Twitc_Simomazz86",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "23:00",
-      "time": "30:28.840"
+      "name": "forte984riso",
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "21:00",
+      "time": "29:19.710"
     },
     {
       "pos": 3,
       "name": "brown_dsc",
-      "car": "86 GRMN '16",
-      "carId": 249,
-      "session": "18:00",
-      "time": "30:29.387"
+      "car": "Red Bull X2019 Competition",
+      "carId": 346,
+      "session": "18:00 · Stanza 2",
+      "time": "29:22.694"
     }
   ],
   "podiumChampionship": [],
   "podiumMeta": {
-    "dayTitle": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
-    "dayDate": "2026-11-12",
-    "dayTrack": "BB Raceway",
-    "dayRace": "Gara 4",
-    "champName": "CAMPIONATO TOYOTA 86 \nGRMN 2026",
+    "dayTitle": "RDA CAMPIONATO RED BULL X 2019",
+    "dayDate": "2026-11-11",
+    "dayTrack": "Daytona Road Course",
+    "dayRace": "Gara 2",
+    "champName": "RDA CAMPIONATO RED BULL X 2019",
     "champClosed": false,
-    "champMaster": 250
+    "champMaster": 1000
   },
   "completedRaces": [
     {
@@ -6934,14 +7209,6 @@ window.RDA_DATA = {
         },
         {
           "pos": 5,
-          "name": "Izras1990",
-          "pts": 59,
-          "races": 2,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 6,
           "name": "SpeedSparco",
           "pts": 58,
           "races": 2,
@@ -6949,7 +7216,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 7,
+          "pos": 6,
           "name": "Caciotta_95",
           "pts": 52,
           "races": 2,
@@ -6957,7 +7224,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 8,
+          "pos": 7,
           "name": "gallo_opc_2",
           "pts": 49,
           "races": 2,
@@ -6965,26 +7232,34 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 9,
+          "pos": 8,
           "name": "PYX69",
-          "pts": 47,
+          "pts": 48,
           "races": 2,
           "wins": 0,
           "podiums": 0
         },
         {
+          "pos": 9,
+          "name": "Izras1990",
+          "pts": 47,
+          "races": 2,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
           "pos": 10,
-          "name": "AT29Andrea",
-          "pts": 40,
-          "races": 1,
+          "name": "sorgialon",
+          "pts": 41,
+          "races": 2,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 11,
-          "name": "sorgialon",
+          "name": "AT29Andrea",
           "pts": 40,
-          "races": 2,
+          "races": 1,
           "wins": 0,
           "podiums": 0
         },
@@ -7014,6 +7289,14 @@ window.RDA_DATA = {
         },
         {
           "pos": 15,
+          "name": "NICOLACI1966",
+          "pts": 33,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 16,
           "name": "andrecalimero73",
           "pts": 32,
           "races": 2,
@@ -7021,16 +7304,8 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 16,
-          "name": "familydidoschy",
-          "pts": 32,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
           "pos": 17,
-          "name": "NICOLACI1966",
+          "name": "familydidoschy",
           "pts": 32,
           "races": 2,
           "wins": 0,
@@ -7055,7 +7330,7 @@ window.RDA_DATA = {
         {
           "pos": 20,
           "name": "xxsiculo96xx",
-          "pts": 25,
+          "pts": 26,
           "races": 2,
           "wins": 0,
           "podiums": 0
@@ -7063,7 +7338,7 @@ window.RDA_DATA = {
         {
           "pos": 21,
           "name": "MMRT_CERQUI83",
-          "pts": 24,
+          "pts": 25,
           "races": 2,
           "wins": 0,
           "podiums": 0
@@ -7071,7 +7346,7 @@ window.RDA_DATA = {
         {
           "pos": 22,
           "name": "gancio-criptico",
-          "pts": 22,
+          "pts": 23,
           "races": 2,
           "wins": 0,
           "podiums": 0
@@ -7079,7 +7354,7 @@ window.RDA_DATA = {
         {
           "pos": 23,
           "name": "luigigar89",
-          "pts": 21,
+          "pts": 22,
           "races": 2,
           "wins": 0,
           "podiums": 0
@@ -7103,7 +7378,7 @@ window.RDA_DATA = {
         {
           "pos": 26,
           "name": "VanMike91",
-          "pts": 15,
+          "pts": 16,
           "races": 2,
           "wins": 0,
           "podiums": 0
@@ -7111,7 +7386,7 @@ window.RDA_DATA = {
         {
           "pos": 27,
           "name": "cambridgino92",
-          "pts": 14,
+          "pts": 15,
           "races": 2,
           "wins": 0,
           "podiums": 0
@@ -7119,7 +7394,7 @@ window.RDA_DATA = {
         {
           "pos": 28,
           "name": "jnior_billokillo",
-          "pts": 13,
+          "pts": 14,
           "races": 2,
           "wins": 0,
           "podiums": 0
@@ -7158,25 +7433,25 @@ window.RDA_DATA = {
         },
         {
           "pos": 33,
-          "name": "lamonaca72",
-          "pts": 6,
+          "name": "UBy20_97",
+          "pts": 7,
           "races": 1,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 34,
-          "name": "UBy20_97",
+          "name": "Ivlaisdead",
           "pts": 6,
-          "races": 1,
+          "races": 2,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 35,
-          "name": "Ivlaisdead",
-          "pts": 5,
-          "races": 2,
+          "name": "lamonaca72",
+          "pts": 6,
+          "races": 1,
           "wins": 0,
           "podiums": 0
         },
@@ -7682,7 +7957,7 @@ window.RDA_DATA = {
       }
     }
   ],
-  "currentChampionshipId": 15,
+  "currentChampionshipId": 13,
   "raceArchive": [
     {
       "eventId": 92,
@@ -8398,11 +8673,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 15,
-          "name": "Izras1990",
+          "name": "sorgialon",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "21:00",
-          "time": "29:44.458",
+          "time": "29:44.857",
           "status": "FINITO",
           "points": 16.0,
           "rdaSeconds": 0,
@@ -8414,11 +8689,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 16,
-          "name": "sorgialon",
+          "name": "NICOLACI1966",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "21:00",
-          "time": "29:44.857",
+          "session": "18:00 · Stanza 2",
+          "time": "29:46.845",
           "status": "FINITO",
           "points": 15.0,
           "rdaSeconds": 0,
@@ -8430,11 +8705,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 17,
-          "name": "NICOLACI1966",
+          "name": "PYX69",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "18:00 · Stanza 2",
-          "time": "29:46.845",
+          "session": "23:00",
+          "time": "29:49.962",
           "status": "FINITO",
           "points": 14.0,
           "rdaSeconds": 0,
@@ -8446,11 +8721,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 18,
-          "name": "PYX69",
+          "name": "gancio-criptico",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "23:00",
-          "time": "29:49.962",
+          "session": "21:00",
+          "time": "29:51.536",
           "status": "FINITO",
           "points": 13.0,
           "rdaSeconds": 0,
@@ -8462,11 +8737,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 19,
-          "name": "gancio-criptico",
+          "name": "jnior_billokillo",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "21:00",
-          "time": "29:51.536",
+          "time": "29:53.136",
           "status": "FINITO",
           "points": 12.0,
           "rdaSeconds": 0,
@@ -8478,11 +8753,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 20,
-          "name": "jnior_billokillo",
+          "name": "MMRT_CERQUI83",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "21:00",
-          "time": "29:53.136",
+          "session": "18:00 · Stanza 2",
+          "time": "29:54.008",
           "status": "FINITO",
           "points": 11.0,
           "rdaSeconds": 0,
@@ -8494,11 +8769,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 21,
-          "name": "MMRT_CERQUI83",
+          "name": "cambridgino92",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "18:00 · Stanza 2",
-          "time": "29:54.008",
+          "session": "23:00",
+          "time": "29:55.476",
           "status": "FINITO",
           "points": 10.0,
           "rdaSeconds": 0,
@@ -8510,11 +8785,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 22,
-          "name": "cambridgino92",
+          "name": "luigigar89",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "23:00",
-          "time": "29:55.476",
+          "time": "30:02.413",
           "status": "FINITO",
           "points": 9.0,
           "rdaSeconds": 0,
@@ -8526,11 +8801,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 23,
-          "name": "luigigar89",
+          "name": "VanMike91",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "23:00",
-          "time": "30:02.413",
+          "session": "18:00",
+          "time": "30:02.675",
           "status": "FINITO",
           "points": 8.0,
           "rdaSeconds": 0,
@@ -8542,11 +8817,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 24,
-          "name": "VanMike91",
+          "name": "UBy20_97",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "18:00",
-          "time": "30:02.675",
+          "time": "30:06.405",
           "status": "FINITO",
           "points": 7.0,
           "rdaSeconds": 0,
@@ -8558,11 +8833,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 25,
-          "name": "UBy20_97",
+          "name": "xxsiculo96xx",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "18:00",
-          "time": "30:06.405",
+          "session": "21:00",
+          "time": "30:06.854",
           "status": "FINITO",
           "points": 6.0,
           "rdaSeconds": 0,
@@ -8574,11 +8849,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 26,
-          "name": "xxsiculo96xx",
+          "name": "Ivlaisdead",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "21:00",
-          "time": "30:06.854",
+          "session": "23:00",
+          "time": "30:06.940",
           "status": "FINITO",
           "points": 5.0,
           "rdaSeconds": 0,
@@ -8590,18 +8865,18 @@ window.RDA_DATA = {
         },
         {
           "pos": 27,
-          "name": "Ivlaisdead",
+          "name": "Izras1990",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
-          "session": "23:00",
-          "time": "30:06.940",
+          "session": "21:00",
+          "time": "30:09.458",
           "status": "FINITO",
           "points": 4.0,
-          "rdaSeconds": 0,
+          "rdaSeconds": 25,
           "rdaLastPlace": false,
           "rdaZeroRanking": false,
-          "rdaLabel": "",
-          "originalTime": "",
+          "rdaLabel": "Penalità RDA +25 sec · −2 punti patente",
+          "originalTime": "29:44.458",
           "rankingRacePoints": 40.0
         },
         {
@@ -8670,22 +8945,6 @@ window.RDA_DATA = {
         },
         {
           "pos": 32,
-          "name": "illibrosnavi",
-          "car": "Red Bull X2019 Competition",
-          "carId": 346,
-          "session": "18:00",
-          "time": "30:28.367",
-          "status": "FINITO",
-          "points": 1,
-          "rdaSeconds": 0,
-          "rdaLastPlace": false,
-          "rdaZeroRanking": false,
-          "rdaLabel": "",
-          "originalTime": "",
-          "rankingRacePoints": 10.0
-        },
-        {
-          "pos": 33,
           "name": "Squilybrio",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
@@ -8701,7 +8960,7 @@ window.RDA_DATA = {
           "rankingRacePoints": 10.0
         },
         {
-          "pos": 34,
+          "pos": 33,
           "name": "MaxMossa",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
@@ -8714,6 +8973,22 @@ window.RDA_DATA = {
           "rdaZeroRanking": false,
           "rdaLabel": "",
           "originalTime": "",
+          "rankingRacePoints": 10.0
+        },
+        {
+          "pos": 34,
+          "name": "illibrosnavi",
+          "car": "Red Bull X2019 Competition",
+          "carId": 346,
+          "session": "18:00",
+          "time": "30:53.367",
+          "status": "FINITO",
+          "points": 1,
+          "rdaSeconds": 25,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "Penalità RDA +25 sec · −2 punti patente",
+          "originalTime": "30:28.367",
           "rankingRacePoints": 10.0
         },
         {
@@ -112144,6 +112419,42 @@ window.RDA_DATA = {
     }
   ],
   "rdaNews": [
+    {
+      "title": "Provvedimento disciplinare — Contatto tra piloti",
+      "date": "2026-11-13",
+      "kind": "Penalità",
+      "driver": "luglio88 · luglio 88 [ID 30]",
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "track": "da",
+      "penalty": "25",
+      "license_points": "2",
+      "body": "La Direzione Gara comunica che al pilota illibrosnavi viene inflitta una penalità di 25 secondi, a seguito di un contatto ai danni del pilota Luglio88.\n\nDopo aver valutato l’episodio, la Direzione Gara ha ritenuto il contatto meritevole di sanzione, in quanto contrario ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n- 25 secondi di penalità.\n- 2 punti patente decurtati.\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,\nLa Direzione Gara RDA",
+      "image": "",
+      "race_round": "2",
+      "incident_lap": "4",
+      "published": true,
+      "signature_choice": "Firma e timbro RDA",
+      "id": "78a6b39bf39a49b88013f0c1f0dae971",
+      "updated_at": "2026-11-13T11:44:01.480682+00:00"
+    },
+    {
+      "title": "Provvedimento disciplinare — Contatto tra piloti",
+      "date": "2026-11-13",
+      "kind": "Penalità",
+      "driver": "SpeedSparco [ID 3]",
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "track": "daytona",
+      "penalty": "25",
+      "license_points": "2",
+      "body": "La Direzione Gara comunica che al pilota Izras90 viene inflitta una penalità di 25 secondi, a seguito di un contatto ai danni del pilota SpeedSparco.\n\nDopo aver valutato l’episodio, la Direzione Gara ha ritenuto il contatto meritevole di sanzione, in quanto contrario ai principi di correttezza e rispetto sportivo in pista.\n\nPenalità assegnate:\n\n- 25 secondi di penalità.\n- 2 punti patente decurtati.\n\nSi invitano tutti i piloti a mantenere una condotta di gara corretta e rispettosa degli avversari.\n\nCordiali saluti,\nLa Direzione Gara RDA",
+      "image": "",
+      "race_round": "2",
+      "incident_lap": "4",
+      "published": true,
+      "signature_choice": "Firma e timbro RDA",
+      "id": "d65ae4b15d02476884958d9d3d8d3361",
+      "updated_at": "2026-11-13T11:31:41.041585+00:00"
+    },
     {
       "title": "Provvedimento disciplinare — Contatto tra piloti",
       "date": "2026-11-07",
