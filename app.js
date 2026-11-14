@@ -637,11 +637,31 @@ function rdaLicenceCard(d){
   };
   let A,F,auth,db,unsubscribe,session=0,revision=0,mode='login',busy=false,ready=false,authSubmitting=false;
   let ownCardUid=null,ownCardAttempted=false;
+  const ownPilotButton=el('rdaNewsMyPilot');
+
+  function openPilotLanding(user, driverId){
+    const editionId=el('rda-race-news').dataset.editionId;
+    if(editionId){
+      const key='rda-news-seen:'+user.uid;
+      try{
+        if(localStorage.getItem(key)!==editionId){
+          go('race-news');
+          localStorage.setItem(key,editionId);
+          return;
+        }
+      }catch{
+        go('race-news');
+        return;
+      }
+    }
+    if(!openDriverCardById(driverId))go('home');
+  }
   function clearPasswords(){loginPassword.value='';registerPassword.value='';registerConfirm.value='';}
   function message(text,error=false){status.textContent=text;status.hidden=!text;status.dataset.error=String(error);}
   function lock(){
     const viewer=el('rdaRegulationViewer');
     if(viewer&&viewer.open)viewer.close();
+    if(ownPilotButton){ownPilotButton.hidden=true;ownPilotButton.onclick=null;}
     shell.hidden=true;shell.inert=true;shell.setAttribute('aria-hidden','true');shell.style.display='none';gate.hidden=false;
   }
   function unlock(){gate.hidden=true;shell.hidden=false;shell.inert=false;shell.removeAttribute('aria-hidden');shell.style.removeProperty('display');}
@@ -711,7 +731,25 @@ function rdaLicenceCard(d){
       if(!isCurrent())return;
       const ownRevision=++revision;
       if(snapshot.metadata.fromCache||snapshot.metadata.hasPendingWrites){show('error','È necessaria una connessione per verificare l’autorizzazione RDA.');return;}
-      if(approved(snapshot)){clearPasswords();requestForm.hidden=true;registerForm.hidden=true;loginForm.hidden=true;unlock();if(!ownCardAttempted){ownCardAttempted=true;if(snapshot.data().role==='ADMIN')go('home');else if(!openDriverCardById(snapshot.data().driver_id))go('home');}return;}
+      if(approved(snapshot)){
+        const account=snapshot.data();
+        const isPilot=account.role!=='ADMIN';
+        clearPasswords();requestForm.hidden=true;registerForm.hidden=true;loginForm.hidden=true;
+        if(ownPilotButton){
+          ownPilotButton.hidden=!isPilot;
+        ownPilotButton.onclick=isPilot?()=>{
+          if(!isCurrent()||shell.hidden)return;
+          if(!openDriverCardById(account.driver_id))go('home');
+          }:null;
+        }
+        unlock();
+        if(!ownCardAttempted){
+          ownCardAttempted=true;
+          if(isPilot)openPilotLanding(user,account.driver_id);
+          else go('home');
+        }
+        return;
+      }
       if(snapshot.exists()&&snapshot.data().status==='REVOKED'){ownCardAttempted=false;show('error','Accesso non autorizzato. Contatta il team RDA.');return;}
       show('checking','Controllo richiesta di accesso…');
       try{
