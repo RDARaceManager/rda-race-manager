@@ -639,26 +639,21 @@ function rdaLicenceCard(d){
   let ownCardUid=null,ownCardAttempted=false;
   const ownPilotButton=el('rdaNewsMyPilot');
 
-  function openPilotLanding(user, driverId){
-    const editionId=el('rda-race-news').dataset.editionId;
-    if(editionId){
-      const key='rda-news-seen:'+user.uid;
-      try{
-        if(localStorage.getItem(key)!==editionId){
-          go('race-news');
-          localStorage.setItem(key,editionId);
-          return;
-        }
-      }catch{
-        go('race-news');
-        return;
-      }
+  function openNewsLanding(account){
+    if(el('rda-race-news')?.dataset.newsAvailable==='true'){
+      go('race-news');
+    }else if(account.role==='ADMIN'||!openDriverCardById(account.driver_id)){
+      go('home');
     }
-    if(!openDriverCardById(driverId))go('home');
   }
+  let resumeNews=null;
+  document.addEventListener('visibilitychange',()=>{
+    if(document.visibilityState==='visible')resumeNews?.();
+  });
   function clearPasswords(){loginPassword.value='';registerPassword.value='';registerConfirm.value='';}
   function message(text,error=false){status.textContent=text;status.hidden=!text;status.dataset.error=String(error);}
   function lock(){
+    resumeNews=null;
     const viewer=el('rdaRegulationViewer');
     if(viewer&&viewer.open)viewer.close();
     if(ownPilotButton){ownPilotButton.hidden=true;ownPilotButton.onclick=null;}
@@ -742,11 +737,13 @@ function rdaLicenceCard(d){
           if(!openDriverCardById(account.driver_id))go('home');
           }:null;
         }
+        resumeNews=()=>{
+          if(isCurrent()&&!shell.hidden)openNewsLanding(account);
+        };
         unlock();
         if(!ownCardAttempted){
           ownCardAttempted=true;
-          if(isPilot)openPilotLanding(user,account.driver_id);
-          else go('home');
+          openNewsLanding(account);
         }
         return;
       }
