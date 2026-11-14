@@ -2726,14 +2726,14 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0
     },
     {
-      "name": "DOMIX90",
+      "name": "DOMIX90P",
       "races": 4,
       "wins": 0,
       "podiums": 0,
       "elo": 0,
       "ranking": 0,
       "driver_id": 203,
-      "psn": "DOMIX90",
+      "psn": "DOMIX90P",
       "nicknameSecondary": "Dome90",
       "nicknameRacing": "",
       "titles": [],
@@ -6744,7 +6744,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 37,
-          "name": "DOMIX90",
+          "name": "DOMIX90P",
           "pts": 7,
           "races": 1,
           "wins": 0,
@@ -7604,7 +7604,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 41,
-          "name": "DOMIX90",
+          "name": "DOMIX90P",
           "pts": 1,
           "races": 2,
           "wins": 0,
@@ -7986,7 +7986,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 34,
-          "name": "DOMIX90",
+          "name": "DOMIX90P",
           "pts": 10,
           "races": 1,
           "wins": 0,
@@ -9641,7 +9641,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 31,
-          "name": "DOMIX90",
+          "name": "DOMIX90P",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "23:00",
@@ -10262,7 +10262,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 24,
-          "name": "DOMIX90",
+          "name": "DOMIX90P",
           "car": "86 GRMN '16",
           "carId": 249,
           "session": "23:00",
@@ -11805,7 +11805,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 21,
-          "name": "DOMIX90",
+          "name": "DOMIX90P",
           "car": "Huracan GT3 '15",
           "carId": 220,
           "session": "21:00",
@@ -13796,7 +13796,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 40,
-          "name": "DOMIX90",
+          "name": "DOMIX90P",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "18:00",
