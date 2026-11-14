@@ -2726,6 +2726,22 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 0
     },
     {
+      "name": "DOMIX90",
+      "races": 4,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "driver_id": 203,
+      "psn": "DOMIX90",
+      "nicknameSecondary": "Dome90",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
       "name": "Donato-il-biondo",
       "races": 3,
       "wins": 0,
@@ -3318,22 +3334,6 @@ window.RDA_DATA = {
       "driver_id": 12,
       "psn": "JONNYK7",
       "nicknameSecondary": "JONNYK7",
-      "nicknameRacing": "",
-      "titles": [],
-      "championshipPodiums": [],
-      "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 0
-    },
-    {
-      "name": "juve90dome",
-      "races": 4,
-      "wins": 0,
-      "podiums": 0,
-      "elo": 0,
-      "ranking": 0,
-      "driver_id": 203,
-      "psn": "juve90dome",
-      "nicknameSecondary": "Dome90",
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
@@ -6744,7 +6744,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 37,
-          "name": "juve90dome",
+          "name": "DOMIX90",
           "pts": 7,
           "races": 1,
           "wins": 0,
@@ -7604,6 +7604,14 @@ window.RDA_DATA = {
         },
         {
           "pos": 41,
+          "name": "DOMIX90",
+          "pts": 1,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 42,
           "name": "Donato-il-biondo",
           "pts": 1,
           "races": 1,
@@ -7611,7 +7619,7 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 42,
+          "pos": 43,
           "name": "fia_nero",
           "pts": 1,
           "races": 1,
@@ -7619,18 +7627,10 @@ window.RDA_DATA = {
           "podiums": 0
         },
         {
-          "pos": 43,
+          "pos": 44,
           "name": "ICIOmnt",
           "pts": 1,
           "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 44,
-          "name": "juve90dome",
-          "pts": 1,
-          "races": 2,
           "wins": 0,
           "podiums": 0
         },
@@ -7986,7 +7986,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 34,
-          "name": "Ivlaisdead",
+          "name": "DOMIX90",
           "pts": 10,
           "races": 1,
           "wins": 0,
@@ -7994,7 +7994,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 35,
-          "name": "juve90dome",
+          "name": "Ivlaisdead",
           "pts": 10,
           "races": 1,
           "wins": 0,
@@ -9641,7 +9641,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 31,
-          "name": "juve90dome",
+          "name": "DOMIX90",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "23:00",
@@ -10262,7 +10262,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 24,
-          "name": "juve90dome",
+          "name": "DOMIX90",
           "car": "86 GRMN '16",
           "carId": 249,
           "session": "23:00",
@@ -11805,7 +11805,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 21,
-          "name": "juve90dome",
+          "name": "DOMIX90",
           "car": "Huracan GT3 '15",
           "carId": 220,
           "session": "21:00",
@@ -13796,7 +13796,7 @@ window.RDA_DATA = {
         },
         {
           "pos": 40,
-          "name": "juve90dome",
+          "name": "DOMIX90",
           "car": "Red Bull X2019 Competition",
           "carId": 346,
           "session": "18:00",
