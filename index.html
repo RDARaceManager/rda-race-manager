@@ -410,7 +410,7 @@
   <div id="rdaRegulationPdf" role="region" aria-label="Pagine del Regolamento Ufficiale" tabindex="0"></div>
 </dialog>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=rda-news-avvio-20261114"></script>
+<script src="app.js?v=rda-news-ogni-avvio-20261114"></script>
 <script src="car-card.js?v=gt7-1"></script>
 <script>
 
@@ -492,10 +492,10 @@
     front: root.querySelector('#race-news-front'),
     detail: root.querySelector('#race-news-detail')
   };
+  root.dataset.newsAvailable = 'true';
   const edition = data.raceNewsEdition;
   if (edition?.eventId === String(race.eventId) && [2, 3].includes(edition.pages?.length) &&
       edition.pages.every(page => typeof page === 'string' && /^[A-Za-z0-9+/]+={0,2}$/.test(page))) {
-    root.dataset.editionId = edition.eventId;
     root.querySelector('header').hidden = true;
     if (edition.pages.length === 3) {
       pages.feature = document.createElement('section');
