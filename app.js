@@ -443,6 +443,7 @@ function go(view){$$('.view').forEach(v=>v.classList.toggle('active',v.dataset.v
 $$('.nav-btn').forEach(b=>b.addEventListener('click',()=>go(b.dataset.viewTarget)));$$('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
 $('#prevMonth').addEventListener('click',()=>{calendarCursor.m--;if(calendarCursor.m<1){calendarCursor.m=12;calendarCursor.y--}selectedRace=null;renderCalendar()});
 $('#nextMonth').addEventListener('click',()=>{calendarCursor.m++;if(calendarCursor.m>12){calendarCursor.m=1;calendarCursor.y++}selectedRace=null;renderCalendar()});
+let rdaNewsPenaltyDriver=null;
 render();
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
 
@@ -565,7 +566,7 @@ function rdaPilotChampionships(driver){
   return details;
 }
 
-function renderDriverCard(d){const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div>${rdaLicenceCard(d)}<h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;$('#driverIdentityCard .identity-top').after(rdaPilotChampionships(d));go('drivercard')}
+function renderDriverCard(d){const pods=d.championshipPodiums||[],titles=d.titles||[];$('#driverIdentityCard').innerHTML=`<div class="identity-top"><div><div class="eyebrow">🪪 CARTA PILOTA RDA</div><h2>${d.name}</h2><p>${d.nicknameSecondary?`Nickname secondario: <b>${d.nicknameSecondary}</b><br>`:''}${d.nicknameRacing?`Reparto Corse: <b>${d.nicknameRacing}</b>`:''}</p></div><div class="identity-rank"><small>RANKING RDA</small><b>${d.ranking??d.elo??'—'}</b></div></div><div class="identity-stats"><span>Gare ufficiali <b>${d.races||0}</b></span><span>Vittorie gara <b>${d.wins||0}</b></span><span>Podi gara <b>${d.podiums||0}</b></span><span>Campionati vinti <b>${titles.length}</b></span></div>${rdaLicenceCard(d)}<h3>🏆 Palmares campionati</h3>${pods.length?pods.map(x=>`<div class="palmares-row"><b>${x.pos==1?'🥇':x.pos==2?'🥈':'🥉'} ${x.championship}</b><span>${x.pos}° finale${x.master?` • Master ${x.master}`:''}</span></div>`).join(''):emptyState('Nessun podio finale di campionato')}`;$('#driverIdentityCard .identity-top').after(rdaPilotChampionships(d));const penalty=$('#rdaPenaltyToday');if(penalty)penalty.onclick=()=>openRdaDriverPenalties(d);go('drivercard')}
 function renderTrackRecords(q=''){if(!$('#trackRecordCards'))return;const a=arr('trackRecords').filter(x=>x.track.toLowerCase().includes(q.toLowerCase()));$('#trackRecordCards').innerHTML=a.length?a.map(x=>`<article class="record-card panel"><div class="record-map"><img src="${mapFileForTrack(x.track)}" alt="Sagoma ${x.track}" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">Sagoma non disponibile</span></div><div><div class="eyebrow">RECORD RDA</div><h3>${x.track}</h3><strong class="record-time">${x.time}</strong><p>🏎️ ${x.driver}<br>${rdaCarLink(x)}<br><small>${x.championship} • ${x.date}</small></p></div></article>`).join(''):emptyState('Nessun record circuito disponibile')}
 const trs=$('#trackRecordSearch');if(trs)trs.addEventListener('input',e=>renderTrackRecords(e.target.value));
 setTimeout(()=>renderTrackRecords(),0);
@@ -591,7 +592,25 @@ function rdaLicenceCard(d){
   const p=Number(d.rdaLicencePoints??10), n=Number(d.rdaPenaltyCount??0);
   const points=Number.isFinite(p)?Math.max(0,Math.min(10,Math.trunc(p))):10;
   const count=Number.isFinite(n)?Math.max(0,Math.trunc(n)):0;
-  return `<h3>Patente RDA</h3><div class="identity-stats"><span>Punti Patente RDA: <b>${points} / 10</b></span><span>Penalità RDA ricevute: <b>${count}</b></span></div>`;
+  const stamp=new Date(d.rdaLatestPenaltyAt);
+  const today=count>0&&Number.isFinite(stamp.getTime())&&rdaPenaltyDate(stamp)===rdaPenaltyDate(new Date());
+  const total=`Penalità RDA ricevute: <b>${count}</b>`;
+  const tile=today
+    ?`<button type="button" id="rdaPenaltyToday">${total}<small>Penalità di oggi · Vedi comunicati →</small></button>`
+    :`<span>${total}</span>`;
+  return `<h3>Patente RDA</h3><div class="identity-stats"><span>Punti Patente RDA: <b>${points} / 10</b></span>${tile}</div>`;
+}
+
+function rdaPenaltyDate(value){
+  return new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Rome'}).format(value);
+}
+
+function openRdaDriverPenalties(driver){
+  rdaNewsPenaltyDriver=driver;
+  $('#rdaNewsSearch').value='';
+  go('rda-news');
+  renderRdaNews();
+  $('#rdaNewsClearPenalty').focus({preventScroll:true});
 }
 
 // Firebase FASE 1: cancello UI isolato; dati e funzioni RDA precedenti invariati.
@@ -970,14 +989,22 @@ function renderRdaHallOfFame(){
 function renderRdaNews(){
  const list=document.getElementById('rdaNewsList'),search=document.getElementById('rdaNewsSearch');if(!list||!search)return;
  const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);if(cls)e.className=cls;return e;};
- const draw=()=>{list.replaceChildren();const query=search.value.toLocaleLowerCase();const values=arr('rdaNews').filter(v=>[v.title,v.body,v.driver,v.championship,v.track,v.kind].join(' ').toLocaleLowerCase().includes(query));
- if(!values.length){list.append(make('p',query?'Nessun comunicato corrispondente.':'Nessun comunicato pubblicato.'));return;}
+ const clear=$('#rdaNewsClearPenalty');
+ const draw=()=>{
+ list.replaceChildren();
+ const driver=rdaNewsPenaltyDriver;
+ clear.hidden=!driver;
+ const normalize=value=>String(value??'').trim().toLowerCase();
+ const identities=driver?[driver.name,driver.psn].map(normalize).filter(Boolean):[];
+ const query=search.value.toLocaleLowerCase();
+ const values=arr('rdaNews').filter(v=>!driver||(v.kind==='Penalità'&&identities.includes(normalize(v.driver)))).filter(v=>[v.title,v.body,v.driver,v.championship,v.track,v.kind].join(' ').toLocaleLowerCase().includes(query));
+ if(!values.length){list.append(make('p',driver?'Nessun comunicato di penalità pubblicato per questo pilota.':query?'Nessun comunicato corrispondente.':'Nessun comunicato pubblicato.'));return;}
  for(const v of values){if(v.kind==='Penalità'){const penalty=buildRdaPenalty(v,make);if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const photo=make('img');photo.src=v.image;photo.alt='Allegato al comunicato';penalty.append(photo);}list.append(penalty);continue;}const card=make('article',undefined,'panel rda-news-card');card.append(make('div',[v.kind,v.date&&String(v.date).split('-').reverse().join('/')].filter(Boolean).join(' · '),'eyebrow'));if(v.title)card.append(make('h3',v.title));
  const meta=[v.driver&&'Pilota: '+v.driver,v.championship&&'Campionato: '+v.championship,v.track&&'Circuito: '+v.track,v.race_round&&'Gara / round: '+v.race_round,v.incident_lap&&'Giro dell’episodio: '+v.incident_lap,v.penalty&&'Penalità: '+v.penalty,v.license_points&&'Punti patente tolti: '+v.license_points].filter(Boolean);
  for(const text of meta)card.append(make('p',text,'rda-news-meta'));
  if(v.body)card.append(make('p',v.body,'rda-news-body'));
  if(/^assets\/news\/[a-f0-9]{32}\.jpg$/.test(v.image||'')){const image=make('img');image.src=v.image;image.alt=v.title?'Locandina: '+v.title:'Foto / locandina del comunicato';image.loading='lazy';image.onerror=()=>image.remove();card.append(image);const zoom=make('button','Ingrandisci locandina','rda-news-image-zoom');zoom.type='button';zoom.onclick=()=>openRdaNewsImage(image,zoom,make);card.append(zoom);}
- if(v.signature_choice&&v.signature_choice!=='Nessuna'){const footer=make('div',undefined,'rda-news-signature');if(['Firma RDA','Firma e timbro RDA'].includes(v.signature_choice)){const sign=make('div',undefined,'rda-sign-piece');sign.setAttribute('role','img');sign.setAttribute('aria-label','Firma RDA');footer.append(sign);}if(['Timbro RDA','Firma e timbro RDA'].includes(v.signature_choice)){const stamp=make('div',undefined,'rda-stamp-piece');stamp.setAttribute('role','img');stamp.setAttribute('aria-label','Timbro RDA Direzione Gara');footer.append(stamp);}card.append(footer);}list.append(card);}};search.oninput=draw;draw();
+ if(v.signature_choice&&v.signature_choice!=='Nessuna'){const footer=make('div',undefined,'rda-news-signature');if(['Firma RDA','Firma e timbro RDA'].includes(v.signature_choice)){const sign=make('div',undefined,'rda-sign-piece');sign.setAttribute('role','img');sign.setAttribute('aria-label','Firma RDA');footer.append(sign);}if(['Timbro RDA','Firma e timbro RDA'].includes(v.signature_choice)){const stamp=make('div',undefined,'rda-stamp-piece');stamp.setAttribute('role','img');stamp.setAttribute('aria-label','Timbro RDA Direzione Gara');footer.append(stamp);}card.append(footer);}list.append(card);}};search.oninput=draw;clear.onclick=()=>{rdaNewsPenaltyDriver=null;search.value='';draw();search.focus();};draw();
 }
 
 function buildRdaPaper(v,make){
