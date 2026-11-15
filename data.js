@@ -42,7 +42,7 @@ window.RDA_DATA = {
       "car": "Huracan GT3 '15",
       "carId": 220,
       "session": "21:00",
-      "time": "43:57.382",
+      "time": "43:56.382",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -1773,8 +1773,8 @@ window.RDA_DATA = {
       "elo": 96.67,
       "ranking": 96.67,
       "driver_id": 11,
-      "psn": "",
-      "nicknameSecondary": "",
+      "psn": "a88312alfa",
+      "nicknameSecondary": "RDA ste88412",
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
@@ -5299,7 +5299,7 @@ window.RDA_DATA = {
       "car": "Huracan GT3 '15",
       "carId": 220,
       "session": "21:00",
-      "time": "43:57.382"
+      "time": "43:56.382"
     },
     {
       "pos": 3,
@@ -8286,7 +8286,7 @@ window.RDA_DATA = {
           "car": "Huracan GT3 '15",
           "carId": 220,
           "session": "21:00",
-          "time": "43:57.382",
+          "time": "43:56.382",
           "status": "FINITO",
           "points": 45.0,
           "rdaSeconds": 0,
@@ -47009,7 +47009,7 @@ window.RDA_DATA = {
           "name": "Spano19",
           "car": "Huracan GT3 '15",
           "carId": 220,
-          "time": "43:57.382",
+          "time": "43:56.382",
           "car_image": "car_images/car_220.webp"
         },
         {
