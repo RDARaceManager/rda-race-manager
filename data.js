@@ -1336,6 +1336,7 @@ window.RDA_DATA = {
       ],
       "rdaLicencePoints": 8,
       "rdaPenaltyCount": 2,
+      "rdaLatestPenaltyAt": "2026-10-27T16:47:16+00:00",
       "quarterBonus": 0,
       "rankingBase": 340.21
     },
@@ -1557,6 +1558,7 @@ window.RDA_DATA = {
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 2,
+      "rdaLatestPenaltyAt": "2026-10-18T08:03:26+00:00",
       "quarterBonus": 0,
       "rankingBase": 181.46
     },
@@ -1708,6 +1710,7 @@ window.RDA_DATA = {
       "championshipPodiums": [],
       "rdaLicencePoints": 8,
       "rdaPenaltyCount": 1,
+      "rdaLatestPenaltyAt": "2026-11-07T08:04:17+00:00",
       "quarterBonus": 0,
       "rankingBase": 128.75
     },
@@ -1798,6 +1801,7 @@ window.RDA_DATA = {
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 1,
+      "rdaLatestPenaltyAt": "2026-10-09T20:44:20+00:00",
       "quarterBonus": 0,
       "rankingBase": 92.08
     },
@@ -1834,6 +1838,7 @@ window.RDA_DATA = {
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 1,
+      "rdaLatestPenaltyAt": "2026-09-22T15:57:41+00:00",
       "quarterBonus": 0,
       "rankingBase": 80.0
     },
@@ -2063,6 +2068,7 @@ window.RDA_DATA = {
       "championshipPodiums": [],
       "rdaLicencePoints": 8,
       "rdaPenaltyCount": 1,
+      "rdaLatestPenaltyAt": "2026-11-13T11:39:19+00:00",
       "quarterBonus": 0,
       "rankingBase": 16.67
     },
@@ -3319,7 +3325,8 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 8,
-      "rdaPenaltyCount": 1
+      "rdaPenaltyCount": 1,
+      "rdaLatestPenaltyAt": "2026-11-15T12:44:01+00:00"
     },
     {
       "name": "Izras1990",
@@ -3335,7 +3342,8 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 8,
-      "rdaPenaltyCount": 1
+      "rdaPenaltyCount": 1,
+      "rdaLatestPenaltyAt": "2026-11-13T11:27:01+00:00"
     },
     {
       "name": "jack-wrangler",
@@ -3495,7 +3503,8 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 1
+      "rdaPenaltyCount": 1,
+      "rdaLatestPenaltyAt": "2026-09-20T13:40:32+00:00"
     },
     {
       "name": "Luca_x90ct",
@@ -3795,6 +3804,22 @@ window.RDA_DATA = {
       "driver_id": 124,
       "psn": "",
       "nicknameSecondary": "",
+      "nicknameRacing": "",
+      "titles": [],
+      "championshipPodiums": [],
+      "rdaLicencePoints": 10,
+      "rdaPenaltyCount": 0
+    },
+    {
+      "name": "Mulino85",
+      "races": 0,
+      "wins": 0,
+      "podiums": 0,
+      "elo": 0,
+      "ranking": 0,
+      "driver_id": 217,
+      "psn": "Mulino85",
+      "nicknameSecondary": "Mulino85",
       "nicknameRacing": "",
       "titles": [],
       "championshipPodiums": [],
@@ -4119,7 +4144,8 @@ window.RDA_DATA = {
       "titles": [],
       "championshipPodiums": [],
       "rdaLicencePoints": 10,
-      "rdaPenaltyCount": 1
+      "rdaPenaltyCount": 1,
+      "rdaLatestPenaltyAt": "2026-09-20T13:41:00+00:00"
     },
     {
       "name": "RacerbeOne",
