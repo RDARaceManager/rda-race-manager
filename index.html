@@ -9,7 +9,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=rda-logo-v38">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/rda-icon-192.png?v=rda-logo-v38">
-  <link rel="stylesheet" href="styles.css?v=briefing-v48-20261101-penalita-comunicati">
+  <link rel="stylesheet" href="styles.css?v=rda-natale-v2">
   <link rel="stylesheet" href="car-card.css?v=podium-layout-fix-20261006">
 <style>.rda-claims{max-width:850px;margin:auto}.rda-claims-hero{position:relative;overflow:hidden;padding:35px 24px;border:1px solid #3ac8ed;border-radius:24px;background:radial-gradient(circle at 95% 0,#7c29b54d,transparent 55%),linear-gradient(130deg,#0a233b,#141a36);margin-bottom:24px;box-shadow:0 0 24px #16c8ef18}.rda-claims-symbol{font-size:55px;color:#61dafa}.rda-claims-hero h2{font-size:clamp(32px,7vw,48px);margin:12px 0}.rda-claims-hero p{line-height:1.7;color:#bacfe2}.rda-claims-panel{padding:26px!important}.rda-claims-steps p{padding:16px 0;border-bottom:1px solid #4b66834d;line-height:1.65}.rda-claims-steps b{color:#79dfef}.rda-claims-submit{display:block;text-align:center;margin-top:24px;padding:19px;border-radius:14px;background:linear-gradient(110deg,#0086ad,#7228b5);color:white;font-size:19px;font-weight:800;text-decoration:none;border:1px solid #5de5ef}.rda-claims-help{color:#a7bdd2;font-size:14px;line-height:1.7}#rdaRankingModes{background:#0c172a;border:1px solid #284660;border-radius:14px;padding:5px}
 #rdaRankingModes button{flex:1 1 135px;margin:0}
@@ -108,11 +108,13 @@
     <div class="online-badge"><i></i> ONLINE</div>
   </header>
 
+  <div id="rdaChristmasLights" hidden aria-hidden="true"></div>
+  <div id="rdaChristmasSnow" hidden aria-hidden="true"></div>
   <div class="rda-auth-session"><button id="rdaAuthSessionExit" type="button">Esci dall’account</button></div>
   <main class="content">
     <section class="view active" data-view="home">
       <div class="home-welcome home-welcome-photo panel" role="img" aria-label="Racing Drivers Academy - More Than Racing"></div>
-      <div class="home-live panel"><div><small>ULTIMA GARA UFFICIALE</small><strong id="homeRaceTitle">In attesa</strong><span id="homeRaceTrack">—</span></div><div><b id="homeRaceDate">—</b><em id="homeRaceMaster">RDA</em></div></div>
+      <div class="home-live panel"><div><small>ULTIMA GARA UFFICIALE</small><strong id="homeRaceTitle">In attesa</strong><span id="homeRaceTrack">—</span></div><div><b id="homeRaceDate">—</b><em id="homeRaceMaster">RDA</em></div><div class="rda-snowman" id="rdaChristmasHome" role="img" aria-label="Pupazzo di neve con il cartello RDA" hidden><span aria-hidden="true">⛄</span><img src="assets/rda-mark.png?v=rda-logo-v38" alt="" width="48" height="48"></div></div>
       <div class="home-menu">
        <button data-go="race-news"><b><svg width="32" height="32" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 <rect x="1" y="1" width="62" height="62" rx="14" fill="#101b36" stroke="#72daf5" stroke-width="2"/>
@@ -410,7 +412,7 @@
   <div id="rdaRegulationPdf" role="region" aria-label="Pagine del Regolamento Ufficiale" tabindex="0"></div>
 </dialog>
 <script src="data.js?v=449"></script>
-<script src="app.js?v=rda-news-ogni-avvio-20261114-penalita-comunicati"></script>
+<script src="app.js?v=rda-natale-v2"></script>
 <script src="car-card.js?v=gt7-1"></script>
 <script>
 
@@ -487,6 +489,7 @@
     root.querySelector('#race-news-front').hidden = false;
     root.querySelector('#race-news-detail').hidden = true;
     if (pages.feature) pages.feature.hidden = true;
+    if (pages.extra) pages.extra.hidden = true;
   }));
   const pages = {
     front: root.querySelector('#race-news-front'),
@@ -494,10 +497,10 @@
   };
   root.dataset.newsAvailable = 'true';
   const edition = data.raceNewsEdition;
-  if (edition?.eventId === String(race.eventId) && [2, 3].includes(edition.pages?.length) &&
+  if (edition?.eventId === String(race.eventId) && [2, 3, 4].includes(edition.pages?.length) &&
       edition.pages.every(page => typeof page === 'string' && /^[A-Za-z0-9+/]+={0,2}$/.test(page))) {
     root.querySelector('header').hidden = true;
-    if (edition.pages.length === 3) {
+    if (edition.pages.length >= 3) {
       pages.feature = document.createElement('section');
       pages.feature.id = 'race-news-feature';
       pages.feature.hidden = true;
@@ -514,8 +517,25 @@
       pages.front.querySelector('[data-news-turn]').dataset.newsTurn = 'feature';
       pages.detail.querySelector('[data-news-turn]').dataset.newsTurn = 'feature';
     }
-    (edition.pages.length === 3
-      ? [pages.front, pages.feature, pages.detail] : [pages.front, pages.detail]).forEach((section, index) => {
+    if (edition.pages.length === 4) {
+      pages.extra = document.createElement('section');
+      pages.extra.id = 'race-news-extra';
+      pages.extra.hidden = true;
+      pages.detail.after(pages.extra);
+      const controls = document.createElement('div');
+      controls.className = 'news-page-end';
+      const back = document.createElement('button');
+      back.type = 'button';
+      back.dataset.newsTurn = 'detail';
+      controls.append(back);
+      pages.extra.append(controls);
+      const next = document.createElement('button');
+      next.type = 'button';
+      next.dataset.newsTurn = 'extra';
+      pages.detail.querySelector('.news-page-end').append(next);
+    }
+    const order = [pages.front, pages.feature, pages.detail, pages.extra].filter(Boolean);
+    order.forEach((section, index) => {
       const turn = section.querySelector('.news-page-end');
       const image = new Image();
       image.src = 'data:image/jpeg;base64,' + edition.pages[index];
@@ -534,7 +554,7 @@
   root.querySelectorAll('[data-news-turn]').forEach(button => {
     const current = button.closest('section');
     const next = pages[button.dataset.newsTurn];
-    const forward = current === pages.front || next === pages.detail;
+    const forward = current === pages.front || next === pages.extra || (current === pages.feature && next === pages.detail);
     button.textContent = forward ? 'Afferra e tira ←' : '→ Afferra per tornare';
     let drag = null;
     let ignoreClick = false;
