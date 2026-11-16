@@ -374,6 +374,20 @@ window.RDA_DATA = {
     },
     {
       "pos": 26,
+      "name": "Fantasmino7794",
+      "car": "Huracan GT3 '15",
+      "carId": 220,
+      "session": "18:00",
+      "time": "48:53.216",
+      "status": "FINITO",
+      "rdaSeconds": 0,
+      "rdaLastPlace": false,
+      "rdaZeroRanking": false,
+      "rdaLabel": "",
+      "originalTime": ""
+    },
+    {
+      "pos": 27,
       "name": "ony89traccia",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -387,7 +401,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 27,
+      "pos": 28,
       "name": "jnior_billokillo",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -401,7 +415,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 28,
+      "pos": 29,
       "name": "NICOLACI1966",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -415,7 +429,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 29,
+      "pos": 30,
       "name": "cambridgino92",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -429,7 +443,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 30,
+      "pos": 31,
       "name": "luglio88",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -443,7 +457,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 31,
+      "pos": 32,
       "name": "Dom_78_furious",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -457,7 +471,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 32,
+      "pos": 33,
       "name": "fia_nero",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -471,7 +485,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 33,
+      "pos": 34,
       "name": "Squilybrio",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -485,7 +499,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 34,
+      "pos": 35,
       "name": "ICIOmnt",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -499,7 +513,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 35,
+      "pos": 36,
       "name": "Pasky_Alfa",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -513,7 +527,7 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 36,
+      "pos": 37,
       "name": "Luciosly",
       "car": "Huracan GT3 '15",
       "carId": 220,
@@ -527,26 +541,12 @@ window.RDA_DATA = {
       "originalTime": ""
     },
     {
-      "pos": 37,
+      "pos": 38,
       "name": "Onmanuel-Btw_09",
       "car": "Huracan GT3 '15",
       "carId": 220,
       "session": "15:00 · Stanza 2",
       "time": "51:52.056",
-      "status": "FINITO",
-      "rdaSeconds": 0,
-      "rdaLastPlace": false,
-      "rdaZeroRanking": false,
-      "rdaLabel": "",
-      "originalTime": ""
-    },
-    {
-      "pos": 38,
-      "name": "Fantasmino7794",
-      "car": "Huracan GT3 '15",
-      "carId": 220,
-      "session": "18:00",
-      "time": "53:05.106",
       "status": "FINITO",
       "rdaSeconds": 0,
       "rdaLastPlace": false,
@@ -759,7 +759,7 @@ window.RDA_DATA = {
     {
       "pos": 13,
       "name": "NICOLACI1966",
-      "pts": 74
+      "pts": 73
     },
     {
       "pos": 14,
@@ -784,12 +784,12 @@ window.RDA_DATA = {
     {
       "pos": 18,
       "name": "cambridgino92",
-      "pts": 48
+      "pts": 47
     },
     {
       "pos": 19,
       "name": "ony89traccia",
-      "pts": 48
+      "pts": 47
     },
     {
       "pos": 20,
@@ -863,22 +863,22 @@ window.RDA_DATA = {
     },
     {
       "pos": 34,
-      "name": "jnior_billokillo",
-      "pts": 22
+      "name": "Fantasmino7794",
+      "pts": 21
     },
     {
       "pos": 35,
-      "name": "Onmanuel-Btw_09",
+      "name": "jnior_billokillo",
       "pts": 21
     },
     {
       "pos": 36,
-      "name": "Dom_78_furious",
-      "pts": 17
+      "name": "Onmanuel-Btw_09",
+      "pts": 21
     },
     {
       "pos": 37,
-      "name": "Fantasmino7794",
+      "name": "Dom_78_furious",
       "pts": 17
     },
     {
@@ -1041,12 +1041,12 @@ window.RDA_DATA = {
     {
       "pos": 5,
       "name": "NICOLACI1966",
-      "elo": 314.38,
-      "ranking": 314.38,
+      "elo": 313.12,
+      "ranking": 313.12,
       "championships": 3,
       "races": 12,
       "quarterBonus": 0,
-      "rankingBase": 314.38
+      "rankingBase": 313.12
     },
     {
       "pos": 6,
@@ -1231,12 +1231,12 @@ window.RDA_DATA = {
     {
       "pos": 24,
       "name": "cambridgino92",
-      "elo": 100.42,
-      "ranking": 100.42,
+      "elo": 99.17,
+      "ranking": 99.17,
       "championships": 3,
       "races": 11,
       "quarterBonus": 0,
-      "rankingBase": 100.42
+      "rankingBase": 99.17
     },
     {
       "pos": 25,
@@ -1301,12 +1301,12 @@ window.RDA_DATA = {
     {
       "pos": 31,
       "name": "jnior_billokillo",
-      "elo": 68.12,
-      "ranking": 68.12,
+      "elo": 66.88,
+      "ranking": 66.88,
       "championships": 2,
       "races": 8,
       "quarterBonus": 0,
-      "rankingBase": 68.12
+      "rankingBase": 66.88
     },
     {
       "pos": 32,
@@ -1341,12 +1341,12 @@ window.RDA_DATA = {
     {
       "pos": 35,
       "name": "ony89traccia",
-      "elo": 60.0,
-      "ranking": 60.0,
+      "elo": 58.75,
+      "ranking": 58.75,
       "championships": 1,
       "races": 4,
       "quarterBonus": 0,
-      "rankingBase": 60.0
+      "rankingBase": 58.75
     },
     {
       "pos": 36,
@@ -1613,8 +1613,8 @@ window.RDA_DATA = {
       "races": 78,
       "wins": 1,
       "podiums": 7,
-      "elo": 314.38,
-      "ranking": 314.38,
+      "elo": 313.12,
+      "ranking": 313.12,
       "driver_id": 15,
       "psn": "NICOLACI1966",
       "nicknameSecondary": "NICOLACI66",
@@ -1632,7 +1632,7 @@ window.RDA_DATA = {
       "rdaPenaltyCount": 2,
       "rdaLatestPenaltyAt": "2026-10-27T16:47:16+00:00",
       "quarterBonus": 0,
-      "rankingBase": 314.38
+      "rankingBase": 313.12
     },
     {
       "name": "gancio-criptico",
@@ -2012,8 +2012,8 @@ window.RDA_DATA = {
       "races": 19,
       "wins": 0,
       "podiums": 0,
-      "elo": 100.42,
-      "ranking": 100.42,
+      "elo": 99.17,
+      "ranking": 99.17,
       "driver_id": 187,
       "psn": "cambridgino92",
       "nicknameSecondary": "Jack The Gentlemen",
@@ -2023,7 +2023,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 100.42
+      "rankingBase": 99.17
     },
     {
       "name": "VanMike91",
@@ -2152,8 +2152,8 @@ window.RDA_DATA = {
       "races": 58,
       "wins": 0,
       "podiums": 0,
-      "elo": 68.12,
-      "ranking": 68.12,
+      "elo": 66.88,
+      "ranking": 66.88,
       "driver_id": 26,
       "psn": "",
       "nicknameSecondary": "Billokillo",
@@ -2163,7 +2163,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 68.12
+      "rankingBase": 66.88
     },
     {
       "name": "andrecalimero73",
@@ -2225,8 +2225,8 @@ window.RDA_DATA = {
       "races": 39,
       "wins": 0,
       "podiums": 0,
-      "elo": 60.0,
-      "ranking": 60.0,
+      "elo": 58.75,
+      "ranking": 58.75,
       "driver_id": 113,
       "psn": "ony89traccia",
       "nicknameSecondary": "Ony",
@@ -2236,7 +2236,7 @@ window.RDA_DATA = {
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
-      "rankingBase": 60.0
+      "rankingBase": 58.75
     },
     {
       "name": "illibrosnavi",
@@ -5225,12 +5225,12 @@ window.RDA_DATA = {
     {
       "pos": 5,
       "name": "NICOLACI1966",
-      "elo": 314.38,
-      "ranking": 314.38,
+      "elo": 313.12,
+      "ranking": 313.12,
       "championships": 3,
       "races": 12,
       "quarterBonus": 0,
-      "rankingBase": 314.38
+      "rankingBase": 313.12
     },
     {
       "pos": 6,
@@ -5415,12 +5415,12 @@ window.RDA_DATA = {
     {
       "pos": 24,
       "name": "cambridgino92",
-      "elo": 100.42,
-      "ranking": 100.42,
+      "elo": 99.17,
+      "ranking": 99.17,
       "championships": 3,
       "races": 11,
       "quarterBonus": 0,
-      "rankingBase": 100.42
+      "rankingBase": 99.17
     },
     {
       "pos": 25,
@@ -5485,12 +5485,12 @@ window.RDA_DATA = {
     {
       "pos": 31,
       "name": "jnior_billokillo",
-      "elo": 68.12,
-      "ranking": 68.12,
+      "elo": 66.88,
+      "ranking": 66.88,
       "championships": 2,
       "races": 8,
       "quarterBonus": 0,
-      "rankingBase": 68.12
+      "rankingBase": 66.88
     },
     {
       "pos": 32,
@@ -5525,12 +5525,12 @@ window.RDA_DATA = {
     {
       "pos": 35,
       "name": "ony89traccia",
-      "elo": 60.0,
-      "ranking": 60.0,
+      "elo": 58.75,
+      "ranking": 58.75,
       "championships": 1,
       "races": 4,
       "quarterBonus": 0,
-      "rankingBase": 60.0
+      "rankingBase": 58.75
     },
     {
       "pos": 36,
@@ -8277,7 +8277,7 @@ window.RDA_DATA = {
         {
           "pos": 13,
           "name": "NICOLACI1966",
-          "pts": 74,
+          "pts": 73,
           "races": 4,
           "wins": 0,
           "podiums": 0
@@ -8317,7 +8317,7 @@ window.RDA_DATA = {
         {
           "pos": 18,
           "name": "cambridgino92",
-          "pts": 48,
+          "pts": 47,
           "races": 4,
           "wins": 0,
           "podiums": 0
@@ -8325,7 +8325,7 @@ window.RDA_DATA = {
         {
           "pos": 19,
           "name": "ony89traccia",
-          "pts": 48,
+          "pts": 47,
           "races": 4,
           "wins": 0,
           "podiums": 0
@@ -8444,15 +8444,15 @@ window.RDA_DATA = {
         },
         {
           "pos": 34,
-          "name": "jnior_billokillo",
-          "pts": 22,
-          "races": 4,
+          "name": "Fantasmino7794",
+          "pts": 21,
+          "races": 2,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 35,
-          "name": "Onmanuel-Btw_09",
+          "name": "jnior_billokillo",
           "pts": 21,
           "races": 4,
           "wins": 0,
@@ -8460,17 +8460,17 @@ window.RDA_DATA = {
         },
         {
           "pos": 36,
-          "name": "Dom_78_furious",
-          "pts": 17,
-          "races": 3,
+          "name": "Onmanuel-Btw_09",
+          "pts": 21,
+          "races": 4,
           "wins": 0,
           "podiums": 0
         },
         {
           "pos": 37,
-          "name": "Fantasmino7794",
+          "name": "Dom_78_furious",
           "pts": 17,
-          "races": 2,
+          "races": 3,
           "wins": 0,
           "podiums": 0
         },
@@ -9081,11 +9081,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 26,
-          "name": "ony89traccia",
+          "name": "Fantasmino7794",
           "car": "Huracan GT3 '15",
           "carId": 220,
-          "session": "15:00",
-          "time": "48:54.408",
+          "session": "18:00",
+          "time": "48:53.216",
           "status": "FINITO",
           "points": 5.0,
           "rdaSeconds": 0,
@@ -9097,11 +9097,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 27,
-          "name": "jnior_billokillo",
+          "name": "ony89traccia",
           "car": "Huracan GT3 '15",
           "carId": 220,
-          "session": "21:00",
-          "time": "48:56.267",
+          "session": "15:00",
+          "time": "48:54.408",
           "status": "FINITO",
           "points": 4.0,
           "rdaSeconds": 0,
@@ -9113,11 +9113,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 28,
-          "name": "NICOLACI1966",
+          "name": "jnior_billokillo",
           "car": "Huracan GT3 '15",
           "carId": 220,
-          "session": "15:00 · Stanza 2",
-          "time": "48:56.590",
+          "session": "21:00",
+          "time": "48:56.267",
           "status": "FINITO",
           "points": 3.0,
           "rdaSeconds": 0,
@@ -9129,11 +9129,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 29,
-          "name": "cambridgino92",
+          "name": "NICOLACI1966",
           "car": "Huracan GT3 '15",
           "carId": 220,
-          "session": "23:00",
-          "time": "49:03.326",
+          "session": "15:00 · Stanza 2",
+          "time": "48:56.590",
           "status": "FINITO",
           "points": 2.0,
           "rdaSeconds": 0,
@@ -9145,11 +9145,11 @@ window.RDA_DATA = {
         },
         {
           "pos": 30,
-          "name": "luglio88",
+          "name": "cambridgino92",
           "car": "Huracan GT3 '15",
           "carId": 220,
-          "session": "15:00 · Stanza 2",
-          "time": "49:04.345",
+          "session": "23:00",
+          "time": "49:03.326",
           "status": "FINITO",
           "points": 1.0,
           "rdaSeconds": 0,
@@ -9161,6 +9161,22 @@ window.RDA_DATA = {
         },
         {
           "pos": 31,
+          "name": "luglio88",
+          "car": "Huracan GT3 '15",
+          "carId": 220,
+          "session": "15:00 · Stanza 2",
+          "time": "49:04.345",
+          "status": "FINITO",
+          "points": 1,
+          "rdaSeconds": 0,
+          "rdaLastPlace": false,
+          "rdaZeroRanking": false,
+          "rdaLabel": "",
+          "originalTime": "",
+          "rankingRacePoints": 5.0
+        },
+        {
+          "pos": 32,
           "name": "Dom_78_furious",
           "car": "Huracan GT3 '15",
           "carId": 220,
@@ -9176,7 +9192,7 @@ window.RDA_DATA = {
           "rankingRacePoints": 5.0
         },
         {
-          "pos": 32,
+          "pos": 33,
           "name": "fia_nero",
           "car": "Huracan GT3 '15",
           "carId": 220,
@@ -9192,7 +9208,7 @@ window.RDA_DATA = {
           "rankingRacePoints": 5.0
         },
         {
-          "pos": 33,
+          "pos": 34,
           "name": "Squilybrio",
           "car": "Huracan GT3 '15",
           "carId": 220,
@@ -9208,7 +9224,7 @@ window.RDA_DATA = {
           "rankingRacePoints": 5.0
         },
         {
-          "pos": 34,
+          "pos": 35,
           "name": "ICIOmnt",
           "car": "Huracan GT3 '15",
           "carId": 220,
@@ -9224,7 +9240,7 @@ window.RDA_DATA = {
           "rankingRacePoints": 5.0
         },
         {
-          "pos": 35,
+          "pos": 36,
           "name": "Pasky_Alfa",
           "car": "Huracan GT3 '15",
           "carId": 220,
@@ -9240,7 +9256,7 @@ window.RDA_DATA = {
           "rankingRacePoints": 5.0
         },
         {
-          "pos": 36,
+          "pos": 37,
           "name": "Luciosly",
           "car": "Huracan GT3 '15",
           "carId": 220,
@@ -9256,28 +9272,12 @@ window.RDA_DATA = {
           "rankingRacePoints": 5.0
         },
         {
-          "pos": 37,
+          "pos": 38,
           "name": "Onmanuel-Btw_09",
           "car": "Huracan GT3 '15",
           "carId": 220,
           "session": "15:00 · Stanza 2",
           "time": "51:52.056",
-          "status": "FINITO",
-          "points": 1,
-          "rdaSeconds": 0,
-          "rdaLastPlace": false,
-          "rdaZeroRanking": false,
-          "rdaLabel": "",
-          "originalTime": "",
-          "rankingRacePoints": 5.0
-        },
-        {
-          "pos": 38,
-          "name": "Fantasmino7794",
-          "car": "Huracan GT3 '15",
-          "carId": 220,
-          "session": "18:00",
-          "time": "53:05.106",
           "status": "FINITO",
           "points": 1,
           "rdaSeconds": 0,
