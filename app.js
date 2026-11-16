@@ -1,4 +1,41 @@
 const D=window.RDA_DATA||{};
+if(D.rdaChristmasTheme===true){
+  const lights=document.getElementById('rdaChristmasLights');
+  const snow=document.getElementById('rdaChristmasSnow');
+  const mascot=document.getElementById('rdaChristmasHome');
+  if(lights&&snow&&mascot){
+    document.getElementById('rdaPrivateShell').classList.add('rda-christmas');
+    for(let i=0;i<16;i++){
+      const bulb=document.createElement('i');
+      bulb.style.setProperty('--bulb',['#ff555d','#ffdc66','#56ed92','#52baff','#ca6cff'][i%5]);
+      bulb.style.animationDelay=`-${i*0.37}s`;
+      lights.append(bulb);
+    }
+    const home=document.querySelector('[data-view="home"]');
+    const hero=home.querySelector('.home-welcome-photo');
+    hero.setAttribute('aria-label','Buon Natale, piloti! Buone feste da tutta la RDA');
+    const cards=home.querySelectorAll('.home-menu > button');
+    for(let index=0;index<cards.length;index+=3){
+      const garland=document.createElement('span');
+      garland.className='rda-christmas-garland rda-christmas-mini';
+      garland.setAttribute('aria-hidden','true');
+      for(const bulb of Array.from(lights.children).slice(0,5)){
+        garland.append(bulb.cloneNode());
+      }
+      cards[index].append(garland);
+    }
+    for(let i=0;i<22;i++){
+      const flake=document.createElement('i');
+      flake.style.left=`${(i*37)%100}%`;
+      flake.style.animationDuration=`${9+i%8}s`;
+      flake.style.animationDelay=`-${(i*1.73)%16}s`;
+      snow.append(flake);
+    }
+    lights.hidden=false;
+    snow.hidden=false;
+    mascot.hidden=false;
+  }
+}
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)], arr=k=>Array.isArray(D[k])?D[k]:[];
 const months=['GENNAIO','FEBBRAIO','MARZO','APRILE','MAGGIO','GIUGNO','LUGLIO','AGOSTO','SETTEMBRE','OTTOBRE','NOVEMBRE','DICEMBRE'];
 const shortMonths=['GEN','FEB','MAR','APR','MAG','GIU','LUG','AGO','SET','OTT','NOV','DIC'];
@@ -439,7 +476,7 @@ function render(){
   renderChampionships();renderCalendar();renderFlyers();setupRaceArchive();
 }
 
-function go(view){$$('.view').forEach(v=>v.classList.toggle('active',v.dataset.view===view));$$('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.viewTarget===view));window.scrollTo({top:0,behavior:'smooth'})}
+function go(view){if(D.rdaChristmasTheme===true){$('#rdaChristmasSnow')?.classList.toggle('rda-snow-light',['results','championship','elo','drivercard'].includes(view));}$$('.view').forEach(v=>v.classList.toggle('active',v.dataset.view===view));$$('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.viewTarget===view));window.scrollTo({top:0,behavior:'smooth'})}
 $$('.nav-btn').forEach(b=>b.addEventListener('click',()=>go(b.dataset.viewTarget)));$$('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
 $('#prevMonth').addEventListener('click',()=>{calendarCursor.m--;if(calendarCursor.m<1){calendarCursor.m=12;calendarCursor.y--}selectedRace=null;renderCalendar()});
 $('#nextMonth').addEventListener('click',()=>{calendarCursor.m++;if(calendarCursor.m>12){calendarCursor.m=1;calendarCursor.y++}selectedRace=null;renderCalendar()});
