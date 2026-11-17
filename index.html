@@ -490,6 +490,7 @@
     root.querySelector('#race-news-detail').hidden = true;
     if (pages.feature) pages.feature.hidden = true;
     if (pages.extra) pages.extra.hidden = true;
+    if (pages.voice) pages.voice.hidden = true;
   }));
   const pages = {
     front: root.querySelector('#race-news-front'),
@@ -497,7 +498,7 @@
   };
   root.dataset.newsAvailable = 'true';
   const edition = data.raceNewsEdition;
-  if (edition?.eventId === String(race.eventId) && [2, 3, 4].includes(edition.pages?.length) &&
+  if (edition?.eventId === String(race.eventId) && [2, 3, 4, 5].includes(edition.pages?.length) &&
       edition.pages.every(page => typeof page === 'string' && /^[A-Za-z0-9+/]+={0,2}$/.test(page))) {
     root.querySelector('header').hidden = true;
     if (edition.pages.length >= 3) {
@@ -517,7 +518,7 @@
       pages.front.querySelector('[data-news-turn]').dataset.newsTurn = 'feature';
       pages.detail.querySelector('[data-news-turn]').dataset.newsTurn = 'feature';
     }
-    if (edition.pages.length === 4) {
+    if (edition.pages.length >= 4) {
       pages.extra = document.createElement('section');
       pages.extra.id = 'race-news-extra';
       pages.extra.hidden = true;
@@ -534,7 +535,24 @@
       next.dataset.newsTurn = 'extra';
       pages.detail.querySelector('.news-page-end').append(next);
     }
-    const order = [pages.front, pages.feature, pages.detail, pages.extra].filter(Boolean);
+    if (edition.pages.length === 5) {
+      pages.voice = document.createElement('section');
+      pages.voice.id = 'race-news-voice';
+      pages.voice.hidden = true;
+      pages.extra.after(pages.voice);
+      const controls = document.createElement('div');
+      controls.className = 'news-page-end';
+      const back = document.createElement('button');
+      back.type = 'button';
+      back.dataset.newsTurn = 'extra';
+      controls.append(back);
+      pages.voice.append(controls);
+      const next = document.createElement('button');
+      next.type = 'button';
+      next.dataset.newsTurn = 'voice';
+      pages.extra.querySelector('.news-page-end').append(next);
+    }
+    const order = [pages.front, pages.feature, pages.detail, pages.extra, pages.voice].filter(Boolean);
     order.forEach((section, index) => {
       const turn = section.querySelector('.news-page-end');
       const image = new Image();
@@ -554,7 +572,7 @@
   root.querySelectorAll('[data-news-turn]').forEach(button => {
     const current = button.closest('section');
     const next = pages[button.dataset.newsTurn];
-    const forward = current === pages.front || next === pages.extra || (current === pages.feature && next === pages.detail);
+    const forward = current === pages.front || next === pages.voice && current === pages.extra || next === pages.extra && current === pages.detail || (current === pages.feature && next === pages.detail);
     button.textContent = forward ? 'Afferra e tira ←' : '→ Afferra per tornare';
     let drag = null;
     let ignoreClick = false;
@@ -670,4 +688,65 @@
 })();
 
 </script>
+<style>body.rda-public-voice #rdaAuthGate,body.rda-public-voice #rdaPrivateShell{display:none!important}#raceVoicePublic[hidden],#raceVoicePublic form[hidden]{display:none}</style><section id="raceVoicePublic" hidden aria-labelledby="raceVoiceHeading" style="max-width:580px;margin:30px auto;padding:22px;background:#101f36;color:#eff6ff;border-radius:16px">
+  <h1 id="raceVoiceHeading">La voce dei piloti</h1>
+  <p id="raceVoiceEvent"></p>
+  <form hidden>
+    <label for="raceVoicePilot">Nickname o PSN ID</label>
+    <input id="raceVoicePilot" required minlength="2" maxlength="60" style="display:block;width:100%;margin:5px 0 16px">
+    <label for="raceVoiceText">Com’è andata la tua gara?</label>
+    <textarea id="raceVoiceText" required minlength="10" maxlength="1600" rows="7" style="display:block;width:100%;margin:5px 0 16px"></textarea>
+    <label><input type="checkbox" required> Autorizzo RDA Race News a pubblicare il mio contributo con il nickname indicato.</label>
+    <button type="submit" class="back-btn" style="display:block;margin-top:16px">Invia contributo</button>
+  </form>
+  <p role="status" aria-live="polite"></p>
+</section>
+<script type="module">
+const token = new URLSearchParams(location.search).get('voce');
+if (token !== null) {
+  const section = document.getElementById('raceVoicePublic');
+  document.body.classList.add('rda-public-voice');
+  section.hidden = false;
+  const status = section.querySelector('[role=status]');
+  const form = section.querySelector('form');
+  status.textContent = 'Caricamento della gara…';
+  try {
+    if (!/^[a-f0-9]{40}$/.test(token)) throw new Error('Link non valido.');
+    const A = await import('https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js');
+    const F = await import('https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js');
+    const db = F.getFirestore(A.initializeApp({"apiKey": "AIzaSyAb6OQDclhfEkbJKAUWDpT8MhwqEp9EioI", "authDomain": "rda-race-manager-c8138.firebaseapp.com", "projectId": "rda-race-manager-c8138", "storageBucket": "rda-race-manager-c8138.firebasestorage.app", "messagingSenderId": "628775504971", "appId": "1:628775504971:web:e9e8b2a0d2c0e670c1d1ce"}, 'rda-race-voice'));
+    const invite = await F.getDocFromServer(F.doc(db, 'rda_race_news_invites', token));
+    if (!invite.exists()) throw new Error('Link non disponibile.');
+    const race = invite.data();
+    document.getElementById('raceVoiceEvent').textContent = [race.championship, race.track, race.date].filter(Boolean).join(' · ');
+    status.textContent = '';
+    form.hidden = false;
+    const ref = F.doc(F.collection(db, 'rda_race_news_contributions'));
+    form.onsubmit = async event => {
+      event.preventDefault();
+      const button = form.querySelector('button');
+      if (button.disabled) return;
+      const pilot = document.getElementById('raceVoicePilot').value.trim();
+      const text = document.getElementById('raceVoiceText').value.trim();
+      if (pilot.length < 2 || text.length < 10) {
+        status.textContent = 'Inserisci il nickname e almeno 10 caratteri di racconto.';
+        return;
+      }
+      button.disabled = true;
+      status.textContent = 'Invio in corso…';
+      try {
+        await F.setDoc(ref, {token, eventId:race.eventId, pilot, text, consent:true, createdAt:F.serverTimestamp()});
+        form.hidden = true;
+        status.textContent = 'Contributo ricevuto. Grazie!';
+      } catch {
+        status.textContent = 'Invio non confermato. Verifica la connessione e il link, poi riprova.';
+        button.disabled = false;
+      }
+    };
+  } catch {
+    status.textContent = 'Il link è scaduto o non è disponibile. Chiedi un nuovo link alla redazione RDA.';
+  }
+}
+</script>
+
 </body></html>
