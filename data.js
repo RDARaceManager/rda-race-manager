@@ -116577,6 +116577,18 @@ window.RDA_DATA = {
       "championship": "",
       "online": true,
       "url": "regolamenti_rda/fa6de7d46850442ca9d8acea910a4baa.pdf"
+    },
+    {
+      "id": "5d8db31369f7400e908d1775f3b6b873",
+      "file": "5d8db31369f7400e908d1775f3b6b873.pdf",
+      "category": "Generali RDA",
+      "title": "Guida Calcolo Punti Ranking",
+      "version": "1",
+      "date": "2026-11-18",
+      "championshipId": null,
+      "championship": "",
+      "online": true,
+      "url": "regolamenti_rda/5d8db31369f7400e908d1775f3b6b873.pdf"
     }
   ],
   "raceBriefings": [
