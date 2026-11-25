@@ -18,8 +18,8 @@
    statusLabel=label;activateButton=button;
    let sequence=0,registered=false,lastRef=null;
    function deadline(promise,step,ms=12000){return new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error(step+' non risponde. Premi Riprova registrazione.')),ms);Promise.resolve(promise).then(v=>{clearTimeout(timer);resolve(v);},e=>{clearTimeout(timer);reject(e);});});}
-   label.textContent=cfg.mode==='test'?'Notifiche RDA · prova personale. ':'Avvisi sui nuovi risultati e sul giornale. ';
-   button.textContent=window.Notification?.permission==='granted'?'Completa registrazione':'Attiva notifiche';off.textContent='Disattiva';off.hidden=true;manage.textContent='Gestisci';manage.hidden=true;
+   label.textContent=cfg.mode==='test'?'Notifiche RDA · prova personale. ':'Vuoi essere avvisato quando sono disponibili nuovi risultati e il giornale? ';
+   button.textContent=window.Notification?.permission==='granted'?'Completa registrazione':'Sì, avvisami';off.textContent='Disattiva';off.hidden=true;manage.textContent='Gestisci notifiche';manage.hidden=true;
    for(const b of [button,off,manage]){b.type='button';b.style.cssText='padding:8px 12px;margin:4px;border-radius:7px;border:1px solid #25bde1;background:#112d48;color:white;';}
    button.onclick=()=>mount(value);
    box.append(label,button,off,manage);host.insertAdjacentElement('afterend',box);
@@ -65,8 +65,8 @@
     const saved=await deadline(F.getDocFromServer(ref),'Conferma registrazione');
     if(!saved.exists()||saved.data().endpoint!==v.endpoint||saved.data().keyId!==cfg.keyId)throw Error('Registrazione non confermata. Premi Riprova registrazione.');
    }
-   function active(){registered=true;label.textContent='Notifiche attive su questo dispositivo. ';button.textContent='Aggiorna registrazione';button.hidden=true;off.hidden=true;manage.hidden=false;}
-   manage.onclick=()=>{button.hidden=!button.hidden;off.hidden=button.hidden;};
+   function active(){registered=true;box.style.cssText='margin:4px 8px;font:13px system-ui;color:#d5e9ff;';label.hidden=true;label.textContent='Notifiche attive su questo dispositivo. ';button.textContent='Aggiorna registrazione';button.hidden=true;off.hidden=true;manage.hidden=false;}
+   manage.onclick=()=>{button.hidden=!button.hidden;off.hidden=button.hidden;label.hidden=button.hidden;};
    button.onclick=async()=>{
     if(!valid())return;const operation=++sequence;button.disabled=true;label.textContent='Attivazione in corso…';
     try{
@@ -82,7 +82,7 @@
    };
    off.onclick=async()=>{
     off.disabled=true;
-    try{const reg=await deadline(ready(),'Aggiornamento RDA Mobile',18000);const sub=await deadline(reg.pushManager.getSubscription(),'Verifica del telefono');const ref=sub?(await reference(sub)).ref:lastRef;if(sub)await deadline(sub.unsubscribe(),'Disattivazione del telefono');if(ref)await deadline(F.deleteDoc(ref),'Salvataggio disattivazione');if(valid()){registered=false;label.textContent='Notifiche disattivate. ';off.hidden=true;manage.hidden=true;button.hidden=false;button.textContent='Completa registrazione';}}
+    try{const reg=await deadline(ready(),'Aggiornamento RDA Mobile',18000);const sub=await deadline(reg.pushManager.getSubscription(),'Verifica del telefono');const ref=sub?(await reference(sub)).ref:lastRef;if(sub)await deadline(sub.unsubscribe(),'Disattivazione del telefono');if(ref)await deadline(F.deleteDoc(ref),'Salvataggio disattivazione');if(valid()){registered=false;label.hidden=false;label.textContent='Notifiche disattivate. ';off.hidden=true;manage.hidden=true;button.hidden=false;button.textContent='Completa registrazione';}}
     catch{if(valid())label.textContent='Disattivazione non confermata: riprova oppure disabilita le notifiche nelle impostazioni del telefono.';}finally{off.disabled=false;}
    };
    if(Notification.permission==='granted'){
