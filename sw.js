@@ -233,3 +233,6 @@ if(e.request.method==='GET'&&u.origin===self.location.origin&&u.pathname.include
   return;
 }
 const fresh=/\/(data\.js|index\.html|app\.js|styles\.css|sw\.js|car-card\.css|car-card\.js)$/.test(u.pathname)||u.pathname.endsWith('/rda-race-manager/');if(fresh)e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r}).catch(()=>caches.match(e.request)));else e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});
+
+// RDA optional push v1: existing caches and fetch handlers remain above.
+importScripts('./rda-push-worker.js?v=1');
