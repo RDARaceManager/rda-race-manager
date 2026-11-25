@@ -714,7 +714,7 @@ function openRdaCommunications(){
     shell.hidden=true;shell.inert=true;shell.setAttribute('aria-hidden','true');shell.style.display='none';gate.hidden=false;
   }
   function unlock(){gate.hidden=true;shell.hidden=false;shell.inert=false;shell.removeAttribute('aria-hidden');shell.style.removeProperty('display');}
-  function stop(){session++;revision++;if(unsubscribe)unsubscribe();unsubscribe=null;}
+  function stop(){window.RDAMobilePush?.clear();session++;revision++;if(unsubscribe)unsubscribe();unsubscribe=null;}
   function controls(){
     requestFields.disabled=!ready||busy;loginFields.disabled=!ready||busy;registerFields.disabled=!ready||busy;
     modeButton.disabled=!ready||busy;refresh.disabled=busy;logout.disabled=busy;
@@ -795,6 +795,7 @@ function openRdaCommunications(){
           if(isCurrent()&&!shell.hidden)openNewsLanding(account);
         };
         unlock();
+        window.RDAMobilePush?.mount({F,db,user});
         if(!ownCardAttempted){
           ownCardAttempted=true;
           openNewsLanding(account);
