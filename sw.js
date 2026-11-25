@@ -1,4 +1,4 @@
-const CACHE='rda-mobile-push-v5';
+const CACHE='rda-mobile-push-v6';
 const REGULATION_CACHE='rda-regulation-documents-v1';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/rda-mark.png?v=rda-logo-v38','./assets/rda-icon-192.png?v=rda-logo-v38','./assets/rda-icon-512.png?v=rda-logo-v38','./assets/rda-icon-maskable-512.png?v=rda-logo-v38','./assets/apple-touch-icon.png?v=rda-logo-v38','./assets/calendario-settembre-2026.jpg','./assets/rda-home-hero-v460.png'];
 // PDF.js locale e risorse necessarie anche senza rete.
@@ -196,13 +196,13 @@ ASSETS.push(...[
   "./vendor/pdfjs-5.6.205/wasm/qcms_bg.wasm"
 ]);
 // Only the app shell is required to activate. Optional PDF fonts must not block push.
-const CORE_ASSETS=[...new Set(ASSETS.filter(p=>!p.includes('/vendor/')).concat(['./rda-push.js?v=4','./rda-push-worker.js?v=1']))];
+const CORE_ASSETS=[...new Set(ASSETS.filter(p=>!p.includes('/vendor/')).concat(['./rda-push.js?v=6','./rda-push-worker.js?v=1']))];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE_ASSETS)).then(()=>self.skipWaiting())));
 let optionalCacheJob=null;
 function cacheOptionalAssets(){
  if(optionalCacheJob)return optionalCacheJob;
  optionalCacheJob=(async()=>{
-  const cache=await caches.open(CACHE),marker=new URL('./__rda_optional_cache_v5__',self.registration.scope).href;
+  const cache=await caches.open(CACHE),marker=new URL('./__rda_optional_cache_v6__',self.registration.scope).href;
   if(await cache.match(marker))return;
   const queue=ASSETS.filter(p=>p.includes('/vendor/'));let next=0;
   await Promise.all(Array.from({length:4},async()=>{
