@@ -1,4 +1,4 @@
-const CACHE='rda-natale-v2';
+const CACHE='rda-mobile-push-v5';
 const REGULATION_CACHE='rda-regulation-documents-v1';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/rda-mark.png?v=rda-logo-v38','./assets/rda-icon-192.png?v=rda-logo-v38','./assets/rda-icon-512.png?v=rda-logo-v38','./assets/rda-icon-maskable-512.png?v=rda-logo-v38','./assets/apple-touch-icon.png?v=rda-logo-v38','./assets/calendario-settembre-2026.jpg','./assets/rda-home-hero-v460.png'];
 // PDF.js locale e risorse necessarie anche senza rete.
@@ -195,16 +195,39 @@ ASSETS.push(...[
   "./vendor/pdfjs-5.6.205/wasm/openjpeg_nowasm_fallback.js",
   "./vendor/pdfjs-5.6.205/wasm/qcms_bg.wasm"
 ]);
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
+// Only the app shell is required to activate. Optional PDF fonts must not block push.
+const CORE_ASSETS=[...new Set(ASSETS.filter(p=>!p.includes('/vendor/')).concat(['./rda-push.js?v=4','./rda-push-worker.js?v=1']))];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE_ASSETS)).then(()=>self.skipWaiting())));
+let optionalCacheJob=null;
+function cacheOptionalAssets(){
+ if(optionalCacheJob)return optionalCacheJob;
+ optionalCacheJob=(async()=>{
+  const cache=await caches.open(CACHE),marker=new URL('./__rda_optional_cache_v5__',self.registration.scope).href;
+  if(await cache.match(marker))return;
+  const queue=ASSETS.filter(p=>p.includes('/vendor/'));let next=0;
+  await Promise.all(Array.from({length:4},async()=>{
+   while(next<queue.length){const asset=queue[next++];
+    if(await cache.match(asset))continue;
+    const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),10000);
+    try{const response=await fetch(asset,{signal:controller.signal});if(response.ok)await cache.put(asset,response);}
+    catch{}finally{clearTimeout(timer);}
+   }
+  }));
+  await cache.put(marker,new Response('complete'));
+ })().catch(()=>{});
+ return optionalCacheJob;
+}
+// Background work after activation; never delays the visible app or worker handshake.
+self.addEventListener('message',e=>{if(e.data?.type==='rda-push-version')e.waitUntil(cacheOptionalAssets());});
 self.addEventListener('activate',e=>e.waitUntil((async()=>{
   const keys=await caches.keys();
   const cache=await caches.open(CACHE);
-  // Conserva i data.js gia disponibili offline durante il cambio versione.
+  // Conserva anche le altre risorse RDA gia disponibili offline durante il cambio versione.
   // Il ramo fetch network-first di data.js resta identico.
   for(const key of keys.filter(k=>k.startsWith('rda-')&&k!==CACHE&&k!==REGULATION_CACHE)){
     const previous=await caches.open(key);
     for(const request of await previous.keys()){
-      if(new URL(request.url).pathname.endsWith('/data.js')&&!await cache.match(request)){
+      if(!await cache.match(request)){
         const response=await previous.match(request);
         if(response)await cache.put(request,response);
       }
@@ -214,6 +237,7 @@ self.addEventListener('activate',e=>e.waitUntil((async()=>{
   await self.clients.claim();
 })()));
 self.addEventListener('fetch',e=>{const u=new URL(e.request.url);
+if(u.origin===self.location.origin&&e.request.method==='GET')e.waitUntil(cacheOptionalAssets());
 // Solo PDF dei regolamenti locali: risposta intera, aggiornata online e riusabile offline.
 if(e.request.method==='GET'&&u.origin===self.location.origin&&u.pathname.includes('/regolamenti/')&&/\.pdf$/i.test(u.pathname)&&!e.request.headers.has('Range')){
   const result=fetch(e.request).then(response=>{
