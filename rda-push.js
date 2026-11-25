@@ -5,7 +5,7 @@
  function clear(){generation++;ctx=null;if(box)box.remove();box=null;}
  function bytes(s){return Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')),c=>c.charCodeAt(0));}
  async function mount(value){
-  clear();const ticket=generation;ctx=value;
+  clear();const ticket=generation;ctx=value;let statusLabel=null,activateButton=null;
   try{
    const {F,db,user}=value;
    const snap=await F.getDocFromServer(F.doc(db,'rda_mobile_push_config','current'));
@@ -15,20 +15,29 @@
    const host=document.getElementById('rdaAuthSessionExit')?.parentElement;if(!host)return;
    box=document.createElement('div');box.id='rdaPushControls';box.style.cssText='padding:10px 12px;color:#d5e9ff;font:14px system-ui;background:#101f36;border:1px solid #266a84;border-radius:10px;margin:8px;';
    const label=document.createElement('span'),button=document.createElement('button'),off=document.createElement('button'),manage=document.createElement('button');
-   let sequence=0,registered=false;
+   statusLabel=label;activateButton=button;
+   let sequence=0,registered=false,lastRef=null;
    function deadline(promise,step,ms=12000){return new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error(step+' non risponde. Premi Riprova registrazione.')),ms);Promise.resolve(promise).then(v=>{clearTimeout(timer);resolve(v);},e=>{clearTimeout(timer);reject(e);});});}
    label.textContent=cfg.mode==='test'?'Notifiche RDA · prova personale. ':'Avvisi sui nuovi risultati e sul giornale. ';
    button.textContent=window.Notification?.permission==='granted'?'Completa registrazione':'Attiva notifiche';off.textContent='Disattiva';off.hidden=true;manage.textContent='Gestisci';manage.hidden=true;
-   for(const b of [button,off,manage])b.style.cssText='padding:8px 12px;margin:4px;border-radius:7px;border:1px solid #25bde1;background:#112d48;color:white;';
+   for(const b of [button,off,manage]){b.type='button';b.style.cssText='padding:8px 12px;margin:4px;border-radius:7px;border:1px solid #25bde1;background:#112d48;color:white;';}
+   button.onclick=()=>mount(value);
    box.append(label,button,off,manage);host.insertAdjacentElement('afterend',box);
    if(!isSecureContext||!('serviceWorker'in navigator)||!('PushManager'in window)||!('Notification'in window)){
     label.textContent='Notifiche non supportate qui. Su iPhone apri RDA Mobile dalla Home (iOS 16.4 o successivo).';button.hidden=true;return;
    }
    const ios=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
    if(ios&&!navigator.standalone&&!matchMedia('(display-mode: standalone)').matches){label.textContent='Per attivare le notifiche, apri RDA Mobile dalla sua icona nella Home.';button.hidden=true;return;}
-   let id=localStorage.getItem(deviceKey);
-   if(!/^[a-f0-9]{32}$/.test(id||'')){id=Array.from(crypto.getRandomValues(new Uint8Array(16)),n=>n.toString(16).padStart(2,'0')).join('');localStorage.setItem(deviceKey,id);}
-   const ref=F.doc(db,'rda_mobile_push_users',user.uid,'devices',id);
+   async function reference(sub){
+    // Browser storage is optional. A stable endpoint hash works without cookies/localStorage.
+    let id=null;try{id=localStorage.getItem(deviceKey);}catch{}
+    if(!/^[a-f0-9]{32}$/.test(id||'')){
+     const endpoint=sub.endpoint||sub.toJSON()?.endpoint;if(typeof endpoint!=='string'||!endpoint)throw Error('Il servizio notifiche non ha restituito la registrazione. Riprova.');
+     const hash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(user.uid+'|'+endpoint));
+     id=Array.from(new Uint8Array(hash),n=>n.toString(16).padStart(2,'0')).join('').slice(0,32);
+    }
+    return {id,ref:F.doc(db,'rda_mobile_push_users',user.uid,'devices',id)};
+   }
    const valid=()=>ticket===generation&&ctx?.user?.uid===user.uid;
    async function ready(){
     const reg=await Promise.race([navigator.serviceWorker.ready,new Promise((_,reject)=>setTimeout(()=>reject(Error('Aggiornamento app non ancora pronto: chiudi e riapri RDA Mobile.')),15000))]);
@@ -50,6 +59,7 @@
    }
    async function save(sub){
     if(!valid())throw Error('Accedi nuovamente.');
+    const {id,ref}=await reference(sub);lastRef=ref;
     const v=sub.toJSON();
     await deadline(F.setDoc(ref,{uid:user.uid,deviceId:id,endpoint:v.endpoint,p256dh:v.keys.p256dh,auth:v.keys.auth,keyId:cfg.keyId,enabled:true,platform:ios?'ios':/Android/.test(navigator.userAgent)?'android':'desktop',updatedAt:F.serverTimestamp()}),'Salvataggio del telefono');
     const saved=await deadline(F.getDocFromServer(ref),'Conferma registrazione');
@@ -72,7 +82,7 @@
    };
    off.onclick=async()=>{
     off.disabled=true;
-    try{const reg=await deadline(ready(),'Aggiornamento RDA Mobile',18000);const sub=await deadline(reg.pushManager.getSubscription(),'Verifica del telefono');if(sub)await deadline(sub.unsubscribe(),'Disattivazione del telefono');await deadline(F.deleteDoc(ref),'Salvataggio disattivazione');if(valid()){registered=false;label.textContent='Notifiche disattivate. ';off.hidden=true;manage.hidden=true;button.hidden=false;button.textContent='Completa registrazione';}}
+    try{const reg=await deadline(ready(),'Aggiornamento RDA Mobile',18000);const sub=await deadline(reg.pushManager.getSubscription(),'Verifica del telefono');const ref=sub?(await reference(sub)).ref:lastRef;if(sub)await deadline(sub.unsubscribe(),'Disattivazione del telefono');if(ref)await deadline(F.deleteDoc(ref),'Salvataggio disattivazione');if(valid()){registered=false;label.textContent='Notifiche disattivate. ';off.hidden=true;manage.hidden=true;button.hidden=false;button.textContent='Completa registrazione';}}
     catch{if(valid())label.textContent='Disattivazione non confermata: riprova oppure disabilita le notifiche nelle impostazioni del telefono.';}finally{off.disabled=false;}
    };
    if(Notification.permission==='granted'){
@@ -82,7 +92,9 @@
      else if(valid()&&operation===sequence)label.textContent='Consenso già presente. Premi Completa registrazione.';
     }catch(e){if(valid()&&operation===sequence){label.textContent=e.code==='permission-denied'?'Il salvataggio è stato rifiutato. Codice: permission-denied.':e.message||'Registrazione da completare.';button.hidden=false;button.disabled=false;button.textContent='Riprova registrazione';}}
    }
-  }catch{/* Optional feature: keep the existing app operational. */}
+  }catch(error){
+   if(ticket===generation&&statusLabel&&activateButton){statusLabel.textContent='Avvio notifiche non completato ('+(error?.code||error?.name||'errore')+'). Premi Riprova.';activateButton.textContent='Riprova';activateButton.disabled=false;activateButton.hidden=false;activateButton.onclick=()=>mount(value);}
+  }
  }
  window.RDAMobilePush={mount,clear};
 })();
