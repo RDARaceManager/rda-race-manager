@@ -1330,6 +1330,12 @@ window.RDA_DATA = {
       "nicknameRacing": "RDA_Spano19",
       "titles": [
         {
+          "championship": "RDA CAMPIONATO RED BULL X 2019",
+          "pos": 1,
+          "year": "",
+          "master": 1000
+        },
+        {
           "championship": "RDA WTCR CHAMPIONSHIP",
           "pos": 1,
           "year": "",
@@ -1367,6 +1373,12 @@ window.RDA_DATA = {
         }
       ],
       "championshipPodiums": [
+        {
+          "championship": "RDA CAMPIONATO RED BULL X 2019",
+          "pos": 1,
+          "year": "",
+          "master": 1000
+        },
         {
           "championship": "RDA WTCR CHAMPIONSHIP",
           "pos": 1,
@@ -1427,7 +1439,14 @@ window.RDA_DATA = {
       "nicknameSecondary": "Brown",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": [],
+      "championshipPodiums": [
+        {
+          "championship": "RDA CAMPIONATO RED BULL X 2019",
+          "pos": 3,
+          "year": "",
+          "master": 1000
+        }
+      ],
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 0,
       "quarterBonus": 0,
@@ -1476,7 +1495,14 @@ window.RDA_DATA = {
       "nicknameSecondary": "",
       "nicknameRacing": "",
       "titles": [],
-      "championshipPodiums": [],
+      "championshipPodiums": [
+        {
+          "championship": "RDA CAMPIONATO RED BULL X 2019",
+          "pos": 2,
+          "year": "",
+          "master": 1000
+        }
+      ],
       "rdaLicencePoints": 10,
       "rdaPenaltyCount": 1,
       "rdaLatestPenaltyAt": "2026-09-22T15:57:41+00:00",
@@ -5763,14 +5789,36 @@ window.RDA_DATA = {
       "time": "35:13.425"
     }
   ],
-  "podiumChampionship": [],
+  "podiumChampionship": [
+    {
+      "pos": 1,
+      "name": "Spano19",
+      "pts": 177.0,
+      "wins": 2,
+      "podiums": 3
+    },
+    {
+      "pos": 2,
+      "name": "AT29Andrea",
+      "pts": 116.0,
+      "wins": 0,
+      "podiums": 0
+    },
+    {
+      "pos": 3,
+      "name": "brown_dsc",
+      "pts": 113.0,
+      "wins": 0,
+      "podiums": 1
+    }
+  ],
   "podiumMeta": {
     "dayTitle": "RDA CAMPIONATO RED BULL X 2019",
     "dayDate": "2026-11-25",
     "dayTrack": "Blue Moon Bay Speedway",
     "dayRace": "Gara 4",
     "champName": "RDA CAMPIONATO RED BULL X 2019",
-    "champClosed": false,
+    "champClosed": true,
     "champMaster": 1000
   },
   "completedRaces": [
@@ -8142,492 +8190,6 @@ window.RDA_DATA = {
       }
     },
     {
-      "id": 13,
-      "name": "RDA CAMPIONATO RED BULL X 2019",
-      "master": 1000,
-      "officialRounds": 4,
-      "closed": false,
-      "standings": [
-        {
-          "pos": 1,
-          "name": "Spano19",
-          "pts": 177,
-          "races": 4,
-          "wins": 2,
-          "podiums": 3
-        },
-        {
-          "pos": 2,
-          "name": "AT29Andrea",
-          "pts": 116,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 3,
-          "name": "brown_dsc",
-          "pts": 113,
-          "races": 3,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 4,
-          "name": "gallo_opc_2",
-          "pts": 105,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 5,
-          "name": "SpeedSparco",
-          "pts": 101,
-          "races": 3,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 6,
-          "name": "gancio-criptico",
-          "pts": 98,
-          "races": 4,
-          "wins": 1,
-          "podiums": 1
-        },
-        {
-          "pos": 7,
-          "name": "forte984riso",
-          "pts": 95,
-          "races": 2,
-          "wins": 1,
-          "podiums": 2
-        },
-        {
-          "pos": 8,
-          "name": "Caciotta_95",
-          "pts": 92,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 9,
-          "name": "MaxMossa",
-          "pts": 92,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 10,
-          "name": "MMRT_CERQUI83",
-          "pts": 92,
-          "races": 4,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 11,
-          "name": "a88312alfa",
-          "pts": 91,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 12,
-          "name": "luigigar89",
-          "pts": 87,
-          "races": 4,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 13,
-          "name": "Onmanuel-Btw_09",
-          "pts": 85,
-          "races": 4,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 14,
-          "name": "PYX69",
-          "pts": 83,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 15,
-          "name": "mezzo_tabacco",
-          "pts": 70,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 16,
-          "name": "VanMike91",
-          "pts": 63,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 17,
-          "name": "sorgialon",
-          "pts": 59,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 18,
-          "name": "stoccametuttu",
-          "pts": 54,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 19,
-          "name": "Twitc_Simomazz86",
-          "pts": 50,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 20,
-          "name": "NICOLACI1966",
-          "pts": 48,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 21,
-          "name": "Izras1990",
-          "pts": 47,
-          "races": 2,
-          "wins": 0,
-          "podiums": 1
-        },
-        {
-          "pos": 22,
-          "name": "andrecalimero73",
-          "pts": 40,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 23,
-          "name": "UBy20_97",
-          "pts": 39,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 24,
-          "name": "Knowhere_7",
-          "pts": 38,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 25,
-          "name": "cambridgino92",
-          "pts": 36,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 26,
-          "name": "Ivlaisdead",
-          "pts": 34,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 27,
-          "name": "illibrosnavi",
-          "pts": 33,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 28,
-          "name": "familydidoschy",
-          "pts": 32,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 29,
-          "name": "G-BERNA",
-          "pts": 32,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 30,
-          "name": "jnior_billokillo",
-          "pts": 31,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 31,
-          "name": "JONNYK7",
-          "pts": 30,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 32,
-          "name": "blmta73",
-          "pts": 28,
-          "races": 4,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 33,
-          "name": "ony89traccia",
-          "pts": 27,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 34,
-          "name": "xxsiculo96xx",
-          "pts": 26,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 35,
-          "name": "luglio88",
-          "pts": 20,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 36,
-          "name": "Squilybrio",
-          "pts": 20,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 37,
-          "name": "Playaz-136",
-          "pts": 19,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 38,
-          "name": "Vimdav",
-          "pts": 19,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 39,
-          "name": "kakovts",
-          "pts": 16,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 40,
-          "name": "Fax-86-",
-          "pts": 11,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 41,
-          "name": "Donato-il-biondo",
-          "pts": 10,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 42,
-          "name": "Pasky_Alfa",
-          "pts": 10,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 43,
-          "name": "Dom_78_furious",
-          "pts": 7,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 44,
-          "name": "lamonaca72",
-          "pts": 6,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 45,
-          "name": "ninok_90",
-          "pts": 5,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 46,
-          "name": "Aktarus1970",
-          "pts": 4,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 47,
-          "name": "BCS_Basella",
-          "pts": 3,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 48,
-          "name": "ICIOmnt",
-          "pts": 3,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 49,
-          "name": "Luciosly",
-          "pts": 2,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 50,
-          "name": "DOMIX90P",
-          "pts": 1,
-          "races": 3,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 51,
-          "name": "fia_nero",
-          "pts": 1,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 52,
-          "name": "maverick370kmh",
-          "pts": 1,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 53,
-          "name": "Orsetto63",
-          "pts": 1,
-          "races": 2,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 54,
-          "name": "Sacks77",
-          "pts": 1,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 55,
-          "name": "Umbs_tron",
-          "pts": 1,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 56,
-          "name": "ghostman_79",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 57,
-          "name": "MikaelDubbio",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 58,
-          "name": "RMT_DeadPaul_87",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        },
-        {
-          "pos": 59,
-          "name": "thegamer73",
-          "pts": 0,
-          "races": 1,
-          "wins": 0,
-          "podiums": 0
-        }
-      ],
-      "regulation": {
-        "championshipId": 13,
-        "label": "Regolamento ufficiale",
-        "file": "regolamenti/regolamento-rda-campionato-red-bull-x-2019.pdf"
-      }
-    },
-    {
       "id": 11,
       "name": "RDA MASTER LAMBORGHINI SUPER TROFEO",
       "master": 500,
@@ -9152,6 +8714,492 @@ window.RDA_DATA = {
         "label": "Regolamento ufficiale",
         "file": "regolamenti/regolamento-rda-master-lamborghini-super-trofeo.pdf"
       }
+    },
+    {
+      "id": 13,
+      "name": "RDA CAMPIONATO RED BULL X 2019",
+      "master": 1000,
+      "officialRounds": 4,
+      "closed": true,
+      "standings": [
+        {
+          "pos": 1,
+          "name": "Spano19",
+          "pts": 177,
+          "races": 4,
+          "wins": 2,
+          "podiums": 3
+        },
+        {
+          "pos": 2,
+          "name": "AT29Andrea",
+          "pts": 116,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 3,
+          "name": "brown_dsc",
+          "pts": 113,
+          "races": 3,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 4,
+          "name": "gallo_opc_2",
+          "pts": 105,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 5,
+          "name": "SpeedSparco",
+          "pts": 101,
+          "races": 3,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 6,
+          "name": "gancio-criptico",
+          "pts": 98,
+          "races": 4,
+          "wins": 1,
+          "podiums": 1
+        },
+        {
+          "pos": 7,
+          "name": "forte984riso",
+          "pts": 95,
+          "races": 2,
+          "wins": 1,
+          "podiums": 2
+        },
+        {
+          "pos": 8,
+          "name": "Caciotta_95",
+          "pts": 92,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 9,
+          "name": "MaxMossa",
+          "pts": 92,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 10,
+          "name": "MMRT_CERQUI83",
+          "pts": 92,
+          "races": 4,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 11,
+          "name": "a88312alfa",
+          "pts": 91,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 12,
+          "name": "luigigar89",
+          "pts": 87,
+          "races": 4,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 13,
+          "name": "Onmanuel-Btw_09",
+          "pts": 85,
+          "races": 4,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 14,
+          "name": "PYX69",
+          "pts": 83,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 15,
+          "name": "mezzo_tabacco",
+          "pts": 70,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 16,
+          "name": "VanMike91",
+          "pts": 63,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 17,
+          "name": "sorgialon",
+          "pts": 59,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 18,
+          "name": "stoccametuttu",
+          "pts": 54,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 19,
+          "name": "Twitc_Simomazz86",
+          "pts": 50,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 20,
+          "name": "NICOLACI1966",
+          "pts": 48,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 21,
+          "name": "Izras1990",
+          "pts": 47,
+          "races": 2,
+          "wins": 0,
+          "podiums": 1
+        },
+        {
+          "pos": 22,
+          "name": "andrecalimero73",
+          "pts": 40,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 23,
+          "name": "UBy20_97",
+          "pts": 39,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 24,
+          "name": "Knowhere_7",
+          "pts": 38,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 25,
+          "name": "cambridgino92",
+          "pts": 36,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 26,
+          "name": "Ivlaisdead",
+          "pts": 34,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 27,
+          "name": "illibrosnavi",
+          "pts": 33,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 28,
+          "name": "familydidoschy",
+          "pts": 32,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 29,
+          "name": "G-BERNA",
+          "pts": 32,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 30,
+          "name": "jnior_billokillo",
+          "pts": 31,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 31,
+          "name": "JONNYK7",
+          "pts": 30,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 32,
+          "name": "blmta73",
+          "pts": 28,
+          "races": 4,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 33,
+          "name": "ony89traccia",
+          "pts": 27,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 34,
+          "name": "xxsiculo96xx",
+          "pts": 26,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 35,
+          "name": "luglio88",
+          "pts": 20,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 36,
+          "name": "Squilybrio",
+          "pts": 20,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 37,
+          "name": "Playaz-136",
+          "pts": 19,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 38,
+          "name": "Vimdav",
+          "pts": 19,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 39,
+          "name": "kakovts",
+          "pts": 16,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 40,
+          "name": "Fax-86-",
+          "pts": 11,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 41,
+          "name": "Donato-il-biondo",
+          "pts": 10,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 42,
+          "name": "Pasky_Alfa",
+          "pts": 10,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 43,
+          "name": "Dom_78_furious",
+          "pts": 7,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 44,
+          "name": "lamonaca72",
+          "pts": 6,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 45,
+          "name": "ninok_90",
+          "pts": 5,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 46,
+          "name": "Aktarus1970",
+          "pts": 4,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 47,
+          "name": "BCS_Basella",
+          "pts": 3,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 48,
+          "name": "ICIOmnt",
+          "pts": 3,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 49,
+          "name": "Luciosly",
+          "pts": 2,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 50,
+          "name": "DOMIX90P",
+          "pts": 1,
+          "races": 3,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 51,
+          "name": "fia_nero",
+          "pts": 1,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 52,
+          "name": "maverick370kmh",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 53,
+          "name": "Orsetto63",
+          "pts": 1,
+          "races": 2,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 54,
+          "name": "Sacks77",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 55,
+          "name": "Umbs_tron",
+          "pts": 1,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 56,
+          "name": "ghostman_79",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 57,
+          "name": "MikaelDubbio",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 58,
+          "name": "RMT_DeadPaul_87",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        },
+        {
+          "pos": 59,
+          "name": "thegamer73",
+          "pts": 0,
+          "races": 1,
+          "wins": 0,
+          "podiums": 0
+        }
+      ],
+      "regulation": {
+        "championshipId": 13,
+        "label": "Regolamento ufficiale",
+        "file": "regolamenti/regolamento-rda-campionato-red-bull-x-2019.pdf"
+      }
     }
   ],
   "currentChampionshipId": 13,
@@ -9165,7 +9213,7 @@ window.RDA_DATA = {
       "master": 1000,
       "gara": 4,
       "track": "Blue Moon Bay Speedway",
-      "championshipClosed": false,
+      "championshipClosed": true,
       "results": [
         {
           "pos": 1,
@@ -12760,7 +12808,7 @@ window.RDA_DATA = {
       "master": 1000,
       "gara": 3,
       "track": "Tokyo Expressway - East Counterclockwise",
-      "championshipClosed": false,
+      "championshipClosed": true,
       "results": [
         {
           "pos": 1,
@@ -16995,7 +17043,7 @@ window.RDA_DATA = {
       "master": 1000,
       "gara": 2,
       "track": "Daytona Road Course",
-      "championshipClosed": false,
+      "championshipClosed": true,
       "results": [
         {
           "pos": 1,
@@ -21006,7 +21054,7 @@ window.RDA_DATA = {
       "master": 1000,
       "gara": 1,
       "track": "Spa-Francorchamps",
-      "championshipClosed": false,
+      "championshipClosed": true,
       "results": [
         {
           "pos": 1,
@@ -53628,7 +53676,7 @@ window.RDA_DATA = {
       ]
     }
   ],
-  "championshipPodiumVisible": false,
+  "championshipPodiumVisible": true,
   "futureRaces": [
     {
       "eventId": "future-10-2026-11-26-38",
@@ -53781,42 +53829,6 @@ window.RDA_DATA = {
       ]
     },
     {
-      "championshipId": 13,
-      "championship": "RDA CAMPIONATO RED BULL X 2019",
-      "master": 1000,
-      "eventId": 105,
-      "title": "RDA CAMPIONATO RED BULL X 2019",
-      "date": "2026-11-25",
-      "track": "Blue Moon Bay Speedway",
-      "gara": 4,
-      "rows": [
-        {
-          "pos": 1,
-          "name": "gancio-criptico",
-          "car": "Red Bull X2019 Competition",
-          "carId": 346,
-          "time": "35:07.383",
-          "car_image": "car_images/car_346.webp"
-        },
-        {
-          "pos": 2,
-          "name": "luigigar89",
-          "car": "Red Bull X2019 Competition",
-          "carId": 346,
-          "time": "35:07.456",
-          "car_image": "car_images/car_346.webp"
-        },
-        {
-          "pos": 3,
-          "name": "Onmanuel-Btw_09",
-          "car": "Red Bull X2019 Competition",
-          "carId": 346,
-          "time": "35:13.425",
-          "car_image": "car_images/car_346.webp"
-        }
-      ]
-    },
-    {
       "championshipId": 11,
       "championship": "RDA MASTER LAMBORGHINI SUPER TROFEO",
       "master": 500,
@@ -53851,9 +53863,71 @@ window.RDA_DATA = {
           "car_image": "car_images/car_220.webp"
         }
       ]
+    },
+    {
+      "championshipId": 13,
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "master": 1000,
+      "eventId": 105,
+      "title": "RDA CAMPIONATO RED BULL X 2019",
+      "date": "2026-11-25",
+      "track": "Blue Moon Bay Speedway",
+      "gara": 4,
+      "rows": [
+        {
+          "pos": 1,
+          "name": "gancio-criptico",
+          "car": "Red Bull X2019 Competition",
+          "carId": 346,
+          "time": "35:07.383",
+          "car_image": "car_images/car_346.webp"
+        },
+        {
+          "pos": 2,
+          "name": "luigigar89",
+          "car": "Red Bull X2019 Competition",
+          "carId": 346,
+          "time": "35:07.456",
+          "car_image": "car_images/car_346.webp"
+        },
+        {
+          "pos": 3,
+          "name": "Onmanuel-Btw_09",
+          "car": "Red Bull X2019 Competition",
+          "carId": 346,
+          "time": "35:13.425",
+          "car_image": "car_images/car_346.webp"
+        }
+      ]
     }
   ],
-  "finalPodiumsByChampionship": [],
+  "finalPodiumsByChampionship": [
+    {
+      "championshipId": 13,
+      "championship": "RDA CAMPIONATO RED BULL X 2019",
+      "master": 1000,
+      "rows": [
+        {
+          "pos": 1,
+          "name": "Spano19",
+          "pts": 177,
+          "wins": 2
+        },
+        {
+          "pos": 2,
+          "name": "AT29Andrea",
+          "pts": 116,
+          "wins": 0
+        },
+        {
+          "pos": 3,
+          "name": "brown_dsc",
+          "pts": 113,
+          "wins": 0
+        }
+      ]
+    }
+  ],
   "championshipRaces": {
     "13": [
       {
